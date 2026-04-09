@@ -159,3 +159,16 @@
     color: var(--md-default-fg-color--light);
 }
 
+/* =========================================
+   Ajustes de Legibilidade: Modo Escuro (Dark Mode)
+   ========================================= */
+[data-md-color-scheme="slate"] .team-member .team-name,
+[data-md-color-scheme="slate"] .feature-title {
+    color: #ffffff !important;
+}
+
+[data-md-color-scheme="slate"] .team-member .subtitle,
+[data-md-color-scheme="slate"] .team-member .bio,
+[data-md-color-scheme="slate"] .feature-card p {
+    color: #e0e0e0 !important;
+}
