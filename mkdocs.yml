@@ -1,4 +1,4 @@
-site_name: Documentação do Projeto
+site_name: Grupo 03 - Procon
 theme:
   name: material
   custom_dir: overrides
@@ -37,13 +37,13 @@ markdown_extensions:
 nav:
   - Início: index.md
   - A Equipe:
-      - Equipe: equipe.md
-      - Disponibilidade: disponibilidade.md
+    - Equipe: Equipe/equipe.md
+    - Disponibilidade: Equipe/disponibilidade.md
   - Planejamento:
-      - Cronograma: cronograma.md
-      - Reuniões: reunioes.md
-      - Ferramentas: ferramentas.md
-      - Processo de Design: processo-design.md
+    - Cronograma: Planejamento/cronograma.md
+    - Reuniões: Planejamento/reunioes.md
+    - Ferramentas: Planejamento/ferramentas.md
+    - Processo de Design: Planejamento/processo-design.md
   - Projeto:
-      - Análise de Sites: analise-sites.md
-      - Projeto Selecionado: projeto-selecionado.md
+    - Análise de Sites: Projeto/analise-sites.md
+    - Projeto Selecionado: Projeto/projeto-selecionado.md
