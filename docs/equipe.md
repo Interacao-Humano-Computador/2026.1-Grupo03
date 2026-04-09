@@ -4,66 +4,72 @@ Conheça os membros responsáveis por este projeto da disciplina de Interação 
 
 ---
 
-<div class="grid cards" markdown>
+<div class="grid team-grid" markdown>
 
--   ![Heitor Macêdo Ricardo](images/Heitor.jpg)
+<div class="team-member" align="center" markdown>
+<img src="images/Heitor.jpg" class="team-avatar">
 
-    <div align="center" markdown>
-    **Heitor Macêdo Ricardo**
+### Heitor Macêdo Ricardo
+<div class="subtitle">Função no Projeto / [GitHub](#) / [LinkedIn](#)</div>
 
-    *Mini-bio a ser preenchida...*
+<div class="bio" markdown>
+*Estudante de desenvolvimento focado em criar boas experiências na web. É responsável por estruturar este site junto com a equipe, com muito esforço em garantir que tudo seja acessível e fácil de ler.*
+</div>
+</div>
 
-    [🐙 GitHub](#) • [💼 LinkedIn](#)
-    </div>
+<div class="team-member" align="center" markdown>
+<img src="https://fakeimg.pl/400x400/e0e0e0/909090?text=Foto" class="team-avatar">
 
--   ![Foto](https://fakeimg.pl/300x300/e0e0e0/909090?text=Participante+2)
+### Participante 2
+<div class="subtitle">Função no Projeto / [GitHub](#) / [LinkedIn](#)</div>
 
-    <div align="center" markdown>
-    **[Nome do Participante 2]**
+<div class="bio" markdown>
+*A mini-bio detalhada do integrante será escrita aqui explicando suas melhores qualificações para o projeto.*
+</div>
+</div>
 
-    *Mini-bio a ser preenchida...*
+<div class="team-member" align="center" markdown>
+<img src="https://fakeimg.pl/400x400/e0e0e0/909090?text=Foto" class="team-avatar">
 
-    [🐙 GitHub](#) • [💼 LinkedIn](#)
-    </div>
+### Participante 3
+<div class="subtitle">Função no Projeto / [GitHub](#) / [LinkedIn](#)</div>
 
--   ![Foto](https://fakeimg.pl/300x300/e0e0e0/909090?text=Participante+3)
+<div class="bio" markdown>
+*A mini-bio detalhada do integrante será escrita aqui explicando suas melhores qualificações para o projeto.*
+</div>
+</div>
 
-    <div align="center" markdown>
-    **[Nome do Participante 3]**
+<div class="team-member" align="center" markdown>
+<img src="https://fakeimg.pl/400x400/e0e0e0/909090?text=Foto" class="team-avatar">
 
-    *Mini-bio a ser preenchida...*
+### Participante 4
+<div class="subtitle">Função no Projeto / [GitHub](#) / [LinkedIn](#)</div>
 
-    [🐙 GitHub](#) • [💼 LinkedIn](#)
-    </div>
+<div class="bio" markdown>
+*A mini-bio detalhada do integrante será escrita aqui explicando suas melhores qualificações para o projeto.*
+</div>
+</div>
 
--   ![Foto](https://fakeimg.pl/300x300/e0e0e0/909090?text=Participante+4)
+<div class="team-member" align="center" markdown>
+<img src="https://fakeimg.pl/400x400/e0e0e0/909090?text=Foto" class="team-avatar">
 
-    <div align="center" markdown>
-    **[Nome do Participante 4]**
+### Participante 5
+<div class="subtitle">Função no Projeto / [GitHub](#) / [LinkedIn](#)</div>
 
-    *Mini-bio a ser preenchida...*
+<div class="bio" markdown>
+*A mini-bio detalhada do integrante será escrita aqui explicando suas melhores qualificações para o projeto.*
+</div>
+</div>
 
-    [🐙 GitHub](#) • [💼 LinkedIn](#)
-    </div>
+<div class="team-member" align="center" markdown>
+<img src="https://fakeimg.pl/400x400/e0e0e0/909090?text=Foto" class="team-avatar">
 
--   ![Foto](https://fakeimg.pl/300x300/e0e0e0/909090?text=Participante+5)
+### Participante 6
+<div class="subtitle">Função no Projeto / [GitHub](#) / [LinkedIn](#)</div>
 
-    <div align="center" markdown>
-    **[Nome do Participante 5]**
-
-    *Mini-bio a ser preenchida...*
-
-    [🐙 GitHub](#) • [💼 LinkedIn](#)
-    </div>
-
--   ![Foto](https://fakeimg.pl/300x300/e0e0e0/909090?text=Participante+6)
-
-    <div align="center" markdown>
-    **[Nome do Participante 6]**
-
-    *Mini-bio a ser preenchida...*
-
-    [🐙 GitHub](#) • [💼 LinkedIn](#)
-    </div>
+<div class="bio" markdown>
+*A mini-bio detalhada do integrante será escrita aqui explicando suas melhores qualificações para o projeto.*
+</div>
+</div>
 
 </div>

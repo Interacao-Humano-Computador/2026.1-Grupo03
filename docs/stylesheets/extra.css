@@ -38,3 +38,48 @@
 [data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5) !important;
 }
+
+/* =========================================
+   Estilos da Página de Equipe (Autores)
+   ========================================= */
+.team-grid {
+    margin-top: 2rem;
+    align-items: start;
+}
+
+.team-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px auto;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-avatar:hover {
+    transform: scale(1.05); /* Pequeno efeito extra redimensionando a foto suavemente */
+}
+
+.team-member h3 {
+    margin-top: 0 !important;
+    margin-bottom: 0px !important;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.team-member .subtitle {
+    font-size: 0.85em;
+    color: var(--md-default-fg-color--light);
+    margin-bottom: 1.2rem;
+}
+
+.team-member .bio {
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: justify;
+    line-height: 1.6;
+    color: var(--md-default-fg-color);
+}
+
