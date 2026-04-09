@@ -6,28 +6,64 @@ Conheça os membros responsáveis por este projeto da disciplina de Interação 
 
 <div class="grid cards" markdown>
 
--   ## 📸 [Nome do Integrante 1]
+-   ![Heitor Macêdo Ricardo](images/Heitor.jpg)
 
-    ![Foto de Perfil](https://via.placeholder.com/150)
+    <div align="center" markdown>
+    **Heitor Macêdo Ricardo**
 
-    **Mini-bio:** [Breve descrição sobre o integrante, curso, habilidades e papel no projeto.]
+    *Mini-bio a ser preenchida...*
 
-    [GitHub](https://github.com/usuario1) | [LinkedIn](https://linkedin.com/in/usuario1)
+    [🐙 GitHub](#) • [💼 LinkedIn](#)
+    </div>
 
--   ## 📸 [Nome do Integrante 2]
+-   ![Foto](https://fakeimg.pl/300x300/e0e0e0/909090?text=Participante+2)
 
-    ![Foto de Perfil](https://via.placeholder.com/150)
+    <div align="center" markdown>
+    **[Nome do Participante 2]**
 
-    **Mini-bio:** [Breve descrição sobre o integrante, curso, habilidades e papel no projeto.]
+    *Mini-bio a ser preenchida...*
 
-    [GitHub](https://github.com/usuario2) | [LinkedIn](https://linkedin.com/in/usuario2)
+    [🐙 GitHub](#) • [💼 LinkedIn](#)
+    </div>
 
--   ## 📸 [Nome do Integrante 3]
+-   ![Foto](https://fakeimg.pl/300x300/e0e0e0/909090?text=Participante+3)
 
-    ![Foto de Perfil](https://via.placeholder.com/150)
+    <div align="center" markdown>
+    **[Nome do Participante 3]**
 
-    **Mini-bio:** [Breve descrição sobre o integrante, curso, habilidades e papel no projeto.]
+    *Mini-bio a ser preenchida...*
 
-    [GitHub](https://github.com/usuario3) | [LinkedIn](https://linkedin.com/in/usuario3)
+    [🐙 GitHub](#) • [💼 LinkedIn](#)
+    </div>
+
+-   ![Foto](https://fakeimg.pl/300x300/e0e0e0/909090?text=Participante+4)
+
+    <div align="center" markdown>
+    **[Nome do Participante 4]**
+
+    *Mini-bio a ser preenchida...*
+
+    [🐙 GitHub](#) • [💼 LinkedIn](#)
+    </div>
+
+-   ![Foto](https://fakeimg.pl/300x300/e0e0e0/909090?text=Participante+5)
+
+    <div align="center" markdown>
+    **[Nome do Participante 5]**
+
+    *Mini-bio a ser preenchida...*
+
+    [🐙 GitHub](#) • [💼 LinkedIn](#)
+    </div>
+
+-   ![Foto](https://fakeimg.pl/300x300/e0e0e0/909090?text=Participante+6)
+
+    <div align="center" markdown>
+    **[Nome do Participante 6]**
+
+    *Mini-bio a ser preenchida...*
+
+    [🐙 GitHub](#) • [💼 LinkedIn](#)
+    </div>
 
 </div>
