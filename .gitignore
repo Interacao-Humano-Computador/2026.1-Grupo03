@@ -1,0 +1,24 @@
+# Artefatos do MkDocs
+site/
+.cache/
+
+# Ambientes Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Sistema Operacional / Editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Pasta raiz de imagens 
+# (Útil caso queira jogar imagens pesadas cruas na raiz sem sujar o GitHub)
+/images/
+
+# ATENÇÃO: NÃO ignore a pasta "docs/images/"! 
+# Se você ignorá-la, as fotos da equipe não irão para o GitHub e o site online ficará com as mídias quebradas.
