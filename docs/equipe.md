@@ -14,7 +14,7 @@ Conheça os membros responsáveis por este projeto da disciplina de Interação 
 <div class="subtitle">Função no Projeto / [GitHub](#) / [LinkedIn](#)</div>
 
 <div class="bio" markdown>
-*Estudante de desenvolvimento focado em criar boas experiências na web. É responsável por estruturar este site junto com a equipe, com muito esforço em garantir que tudo seja acessível e fácil de ler.*
+*Estudante..........[]*
 </div>
 </div>
 

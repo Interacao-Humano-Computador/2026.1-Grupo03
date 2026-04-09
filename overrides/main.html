@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if page.is_homepage %}
+    <div class="custom-hero">
+      <h1>IHC Grupo 03</h1>
+      <p>Transformando experiências digitais com metodologias de design centradas no usuário.</p>
+    </div>
+
+    <div class="custom-features">
+      <a href="equipe/" class="feature-card">
+        <span class="twemoji">
+          <!-- Ícone Material de "Pessoas / Equipe" -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+        </span>
+        <h2>Equipe</h2>
+        <p>Conheça os integrantes e suas respectivas funções no projeto.</p>
+      </a>
+
+      <a href="projeto-selecionado/" class="feature-card">
+        <span class="twemoji">
+          <!-- Ícone Material de "Web / Projeto" -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+        </span>
+        <h2>Projeto</h2>
+        <p>Descubra o sistema escolhido e os detalhes da nossa análise.</p>
+      </a>
+
+      <a href="cronograma/" class="feature-card">
+        <span class="twemoji">
+          <!-- Ícone Material de "Calendário / Cronograma" -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/></svg>
+        </span>
+        <h2>Cronograma</h2>
+        <p>Acompanhe nossos prazos e datas de entregas.</p>
+      </a>
+    </div>
+
+    {{ super() }}
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}

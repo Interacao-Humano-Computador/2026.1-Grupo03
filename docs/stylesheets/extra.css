@@ -83,3 +83,77 @@
     color: var(--md-default-fg-color);
 }
 
+/* =========================================
+   Estilos da Home (Landing Page)
+   ========================================= */
+.custom-hero {
+    background: linear-gradient(135deg, #4A00E0 0%, #8E2DE2 100%);
+    color: white;
+    padding: 5rem 2rem;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 3rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.custom-hero h1 {
+    font-size: 3rem !important;
+    margin: 0 0 1rem 0 !important;
+    font-weight: 800;
+    color: white !important;
+    line-height: 1.2;
+}
+
+.custom-hero p {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.custom-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.feature-card {
+    background: var(--md-default-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    text-decoration: none !important;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card .twemoji {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1.5rem;
+    fill: var(--md-accent-fg-color);
+}
+
+.feature-card h2 {
+    margin: 0 0 0.5rem 0 !important;
+    font-size: 1.6rem !important;
+    color: var(--md-default-fg-color);
+}
+
+.feature-card p {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--md-default-fg-color--light);
+}
+

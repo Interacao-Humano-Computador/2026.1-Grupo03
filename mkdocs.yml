@@ -1,6 +1,7 @@
 site_name: Documentação do Projeto
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
