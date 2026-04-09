@@ -28,7 +28,6 @@ extra_css:
 
 plugins:
   - search
-  - enumerate-headings
 
 markdown_extensions:
   - attr_list
