@@ -1,3 +1,43 @@
 site_name: Documentação do Projeto
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7 
+        name: Mudar para modo Escuro
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo Claro
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - enumerate-headings
+
+nav:
+  - Início: index.md
+  - A Equipe:
+      - Equipe: equipe.md
+      - Disponibilidade: disponibilidade.md
+  - Planejamento:
+      - Cronograma: cronograma.md
+      - Ferramentas: ferramentas.md
+      - Processo de Design: processo-design.md
+  - Projeto:
+      - Análise de Sites: analise-sites.md
+      - Projeto Selecionado: projeto-selecionado.md
