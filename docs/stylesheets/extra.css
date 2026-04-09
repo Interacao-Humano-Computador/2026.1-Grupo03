@@ -49,7 +49,7 @@
 
 .team-avatar {
     width: 150px;
-    height: 150px;
+    height: 150px !important;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 auto 15px auto;
@@ -62,7 +62,7 @@
     transform: scale(1.05); /* Pequeno efeito extra redimensionando a foto suavemente */
 }
 
-.team-member h3 {
+.team-member .team-name {
     margin-top: 0 !important;
     margin-bottom: 0px !important;
     font-size: 1.4em;
