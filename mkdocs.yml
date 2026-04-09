@@ -29,6 +29,10 @@ plugins:
   - search
   - enumerate-headings
 
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
 nav:
   - Início: index.md
   - A Equipe:
