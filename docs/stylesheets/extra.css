@@ -96,7 +96,7 @@
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
-.custom-hero h1 {
+.custom-hero .custom-hero-title {
     font-size: 3rem !important;
     margin: 0 0 1rem 0 !important;
     font-weight: 800;
@@ -120,12 +120,12 @@
 
 .feature-card {
     background: var(--md-default-bg-color);
-    border: 1px solid var(--md-default-fg-color--lightest);
+    border: 2px solid #4A00E0; /* Borda primária azul da paleta */
     padding: 2.5rem 2rem;
     border-radius: 12px;
     text-decoration: none !important;
     color: inherit;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
@@ -136,6 +136,7 @@
 .feature-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-color: #8E2DE2; /* Brilho de Hover acompanhando a paleta purple */
 }
 
 .feature-card .twemoji {
@@ -145,9 +146,10 @@
     fill: var(--md-accent-fg-color);
 }
 
-.feature-card h2 {
+.feature-card .feature-title {
     margin: 0 0 0.5rem 0 !important;
     font-size: 1.6rem !important;
+    font-weight: bold;
     color: var(--md-default-fg-color);
 }
 
