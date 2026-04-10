@@ -7,7 +7,6 @@
 
 | Tarefa | Responsáveis | Início | Fim | Revisor |
 | --- | --- | --- | --- | --- |
-| Etapa 01 |  | 12/04 | 12/04 |  |
 | Criar pages | Heitor | 09/04 | 09/04 | Heloisa |
 | Reunião da equipe |  | 10/04 | 10/04 |  |
 | Fazer página apresentando equipe |  | 10/04 | 10/04 |  |
@@ -33,7 +32,6 @@
 
 | Tarefa | Responsáveis | Início | Fim | Revisor |
 | --- | --- | --- | --- | --- |
-| Etapa 02 |  | 03/05 | 03/05 |  |
 | Reunião de planejamento |  | 01/05 | 01/05 |  |
 | Perfil do usuário |  | 01/05 | 01/05 |  |
 | Personas |  | 01/05 | 01/05 |  |
@@ -54,7 +52,6 @@
 
 | Tarefa | Responsáveis | Início | Fim | Revisor |
 | --- | --- | --- | --- | --- |
-| Etapa 04 |  | 19/05 | 19/05 |  |
 | Reunião de planejamento |  | 17/05 | 17/05 |  |
 | Planejamento da Avaliação do Storyboard |  | 17/05 | 17/05 |  |
 | Planejamento do relato dos resultados da avaliação do Storyboard |  | 17/05 | 17/05 |  |
@@ -74,7 +71,6 @@
 
 | Tarefa | Responsáveis | Início | Fim | Revisor |
 | --- | --- | --- | --- | --- |
-| Etapa 05 |  | 31/05 | 31/05 |  |
 | Reunião de planejamento |  | 29/05 | 29/05 |  |
 | Relato dos resultados do Storyboard |  | 29/05 | 29/05 |  |
 | Relato dos resultados da Análise de tarefas |  | 29/05 | 29/05 |  |
@@ -94,7 +90,6 @@
 
 | Tarefa | Responsáveis | Início | Fim | Revisor |
 | --- | --- | --- | --- | --- |
-| Etapa 06 |  | 07/06 | 07/06 |  |
 | Reunião de planejamento |  | 04/06 | 04/06 |  |
 | Relato dos resultados do Protótipo de Papel |  | 05/06 | 06/06 |  |
 | Planejamento da Avaliação do protótipo de alta fidelidade |  | 05/06 | 06/06 |  |
@@ -113,7 +108,6 @@
 
 | Tarefa | Responsáveis | Início | Fim | Revisor |
 | --- | --- | --- | --- | --- |
-| Etapa 07 |  | 16/06 | 16/06 |  |
 | Reunião de planejamento |  | 11/06 | 11/06 |  |
 | Relato dos resultados do Protótipo de alta fidelidade |  | 12/06 | 12/06 |  |
 | Reunião final de revisão |  | 15/06 | 15/06 |  |
@@ -134,6 +128,12 @@
 
 
 <p style="text-align: center;"><em>autora: Heloisa</em></p>
+
+
+## Agradecimentos à IA
+
+Agradecimento ao Microsoft Copilot pela ajuda na edição das tabelas.
+
 
 
 ## Histórico de versão
