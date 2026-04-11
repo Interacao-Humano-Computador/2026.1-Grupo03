@@ -43,6 +43,7 @@ nav:
       - Disponibilidade: equipe/disponibilidade.md
   - Planejamento:
       - Cronograma: planejamento/cronograma.md
+      - Lista de Verificação: planejamento/verificacao.md
       - Reuniões: planejamento/reunioes.md
       - Ferramentas: planejamento/ferramentas.md
       - Processo de Design: planejamento/processo-design.md
