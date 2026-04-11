@@ -13,7 +13,7 @@ theme:
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Mudar para modo Escuro
     # Palette toggle for dark mode
     - scheme: slate
@@ -36,13 +36,20 @@ markdown_extensions:
 nav:
   - Início: index.md
   - A Equipe:
-    - Equipe: Equipe/equipe.md
-    - Disponibilidade: Equipe/disponibilidade.md
+      - Equipe: equipe/equipe.md
+      - Disponibilidade: equipe/disponibilidade.md
   - Planejamento:
-    - Cronograma: Planejamento/cronograma.md
-    - Reuniões: Planejamento/reunioes.md
-    - Ferramentas: Planejamento/ferramentas.md
-    - Processo de Design: Planejamento/processo-design.md
+      - Cronograma: planejamento/cronograma.md
+      - Reuniões: planejamento/reunioes.md
+      - Ferramentas: planejamento/ferramentas.md
+      - Processo de Design: planejamento/processo-design.md
   - Projeto:
-    - Análise de Sites: Projeto/analise-sites.md
-    - Projeto Selecionado: Projeto/projeto-selecionado.md
+      - Análise de Sites: projeto/analise-sites.md
+      - Projeto Selecionado: projeto/projeto-selecionado.md
+
+watch:
+  - docs/equipe
+  - docs/planejamento
+  - docs/projeto
+  - docs/stylesheets
+  - overrides/main.html
