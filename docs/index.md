@@ -36,4 +36,4 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.0` | 11/04/2026 | Criação do Dashboard de Gestão (Etapa 1), Rastreabilidade e distribuição de tarefas via Ata 1. | Heitor Macedo Ricardo | [A Definir] |
+| `1.0` | 11/04/2026 | Criação do Dashboard de Gestão (Etapa 1), Rastreabilidade e distribuição de tarefas via Ata 1. | Heitor Macedo Ricardo | Heloisa Silva |

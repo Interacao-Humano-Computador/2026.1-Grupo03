@@ -52,4 +52,64 @@
   {% else %}
     {{ super() }}
   {% endif %}
+
+  <div id="image-lightbox" class="image-lightbox" aria-hidden="true" role="dialog" aria-label="Visualizacao de imagem">
+    <button type="button" class="image-lightbox-close" aria-label="Fechar visualizacao">x</button>
+    <img class="image-lightbox-media" alt="Visualizacao ampliada" />
+  </div>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    (function () {
+      const lightbox = document.getElementById('image-lightbox');
+      if (!lightbox) return;
+
+      const lightboxImage = lightbox.querySelector('.image-lightbox-media');
+      const closeButton = lightbox.querySelector('.image-lightbox-close');
+      const imageRegex = /\.(png|jpe?g|gif|webp|svg)(\?.*)?$/i;
+
+      function openLightbox(src, altText) {
+        lightboxImage.src = src;
+        lightboxImage.alt = altText || 'Visualizacao ampliada';
+        lightbox.classList.add('is-open');
+        lightbox.setAttribute('aria-hidden', 'false');
+      }
+
+      function closeLightbox() {
+        lightbox.classList.remove('is-open');
+        lightbox.setAttribute('aria-hidden', 'true');
+        lightboxImage.src = '';
+      }
+
+      function onDocumentClick(event) {
+        const link = event.target.closest('a[href]');
+        if (!link) return;
+
+        const href = link.getAttribute('href');
+        if (!href || !imageRegex.test(href)) return;
+
+        event.preventDefault();
+        const preview = link.querySelector('img');
+        const altText = (preview && preview.getAttribute('alt')) || link.textContent.trim();
+        openLightbox(link.href, altText);
+      }
+
+      document.addEventListener('click', onDocumentClick);
+
+      closeButton.addEventListener('click', closeLightbox);
+      lightbox.addEventListener('click', function (event) {
+        if (event.target === lightbox) {
+          closeLightbox();
+        }
+      });
+
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape' && lightbox.classList.contains('is-open')) {
+          closeLightbox();
+        }
+      });
+    })();
+  </script>
 {% endblock %}
