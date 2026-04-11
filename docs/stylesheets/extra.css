@@ -100,10 +100,10 @@
 .custom-hero {
     background: linear-gradient(135deg, #4A00E0 0%, #8E2DE2 100%);
     color: white;
-    padding: 5rem 2rem;
+    padding: 2rem;
     text-align: center;
     border-radius: 12px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
@@ -132,7 +132,7 @@
 .feature-card {
     background: var(--md-default-bg-color);
     border: 2px solid #4A00E0; /* Borda primária azul da paleta */
-    padding: 1rem 1rem;
+    padding: 1rem;
     border-radius: 12px;
     text-decoration: none !important;
     color: inherit;
@@ -176,6 +176,10 @@
     margin: 0;
     font-size: 0.7rem;
     color: var(--md-default-fg-color--light);
+}
+
+.figwithborder {
+    border: 1px solid var(--md-default-fg-color);
 }
 
 /* =========================================

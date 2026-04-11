@@ -2,34 +2,57 @@
 
 ## Introdução
 
-No contexto da disciplina de Interação Humano-Computador (IHC), foram realizadas avaliações de IHC de três plataformas de serviços e sistemas governamentais distintos: _Fala.BR_, _Agendamento de passaporte_ e _Agenda DF_. A escolha foi guiada por critérios técnicos como usabilidade, taxa de carga cognitiva dos fluxos, padrões de interface e a relevância social dos serviços prestados.
+No âmbito da disciplina de Interação Humano-Computador (IHC), os membros do grupo realizaram avaliações preliminares em três plataformas de serviços governamentais: _Fala.BR_, _Agendamento de passaporte_ e _Agenda DF_. A análise foi orientada por critérios técnicos como usabilidade, carga cognitiva dos fluxos principais, aderência a padrões de interface e a relevância social dos serviços prestados.
 
-Após essa etapa inicial, o grupo optou por trabalhar com o site oficial do **PROCON-DF** (Instituto de Defesa do Consumidor do Distrito Federal). A partir desta escolha, o projeto irá documentar a experiência do usuário cidadão no portal, buscar rastrear e identificar deficiências nos fluxos de navegação e propor soluções alinhadas aos mais altos princípios propostos pela disciplina de IHC.
+Após essa etapa inicial, o grupo selecionou o portal oficial do **PROCON-DF** (Instituto de Defesa do Consumidor do Distrito Federal) como objeto de estudo. O projeto documentará a jornada do cidadão no portal, identificando gargalos de navegação e propondo soluções fundamentadas nos princípios de IHC e no design centrado no usuário.
 
 ## Critérios para Escolha
 
-A definição do projeto adotou os seguintes balizamentos norteadores:
+A definição do projeto adotou os seguintes balizadores, fundamentados nos critérios de **Qualidade de Uso**:
 
-- O site não ter sido escolhido em semestres passados da disciplina.
-- Interface, heurísticas e fluxos de navegação estarem visivelmente fora dos padrões esperados para plataformas governamentais.
-- Alta complexidade estrutural associada a uma farta disponibilidade de informações.
-- Relevância do serviço para a população geral do DF.
+- **Ineditismo:** O site não foi objeto de estudo em semestres recentes da disciplina.
+- **Comprometimento da Qualidade de Uso:** A plataforma apresenta deficiências visíveis em pilares fundamentais como usabilidade, acessibilidade e comunicabilidade, distanciando-se dos padrões de IHC.
+- **Complexidade Estrutural:** A alta densidade de informações e serviços impõe desafios severos à **Aprendizabilidade** (Learnability) e **Memorabilidade** (Memorability) do usuário.
+- **Relevância Social:** Importância estratégica do serviço para a população do Distrito Federal, exigindo um sistema que minimize barreiras de acesso.
 
 ## Motivações
 
-Diferente das outras três opções, o portal do **PROCON-DF** destacou-se e foi considerado como o escopo definitivo pelas seguintes urgências e motivações:
+Diferente das outras opções analisadas, o portal do **PROCON-DF** destacou-se pelas seguintes criticidades técnicas:
 
-- **Redirecionamentos Constantes e Quebra de Contexto:** Trata-se de uma interface com funções diretas muito limitadas que sobrecarrega as jornadas principais redirecionando repetidamente o cidadão para inúmeras outras páginas governamentais sem aviso ou centralização.
-- **Alta Carga Cognitiva:** Design massivo de menus de informação em texto que confunde e induz a falha, aumentando exponencialmente o esforço mental exigido para tarefas teoricamente simples.
-- **Alta Exposição de Funcionalidades:** Apesar da má distribuição, há uma rica gama de funcionalidades oferecidas e descritas (abertura de denúncias, tabelas de pesquisa de preços, manuais integrados, acesso à legislações e rankings de reclamação) que exigem intervenções maduras de design.
-- O fato de envolver diretamente direitos contínuos da população e demandas que geram frustrações o torna um case ideal para IHC.
+- **Baixa Eficiência e Quebra de Comunicabilidade:** A interface possui funções diretas limitadas e redirecionamentos excessivos. Isso não apenas prejudica a **Eficiência** (aumentando o tempo e esforço para concluir tarefas), mas também falha na **Comunicabilidade**, pois a lógica de design e as intenções do sistema não são claras para o cidadão.
+- **Obstáculos à Aprendizagem e Segurança:** O design massivo de menus textuais eleva a carga cognitiva, dificultando a **Aprendizabilidade**. Além disso, a má organização induz ao erro, ferindo o critério de **Segurança no Uso**, ao não prevenir ações equivocadas em fluxos críticos.
+- **Potencial de Otimização da Experiência do Usuário (UX):** A rica gama de funcionalidades disponíveis oferece uma oportunidade de transformar uma interface meramente funcional em uma experiência satisfatória, focando nas emoções e sentimentos do cidadão durante a interação.
+- **Acessibilidade como Direito:** Por tratar de direitos do consumidor, o sistema não deve impor barreiras. A análise buscará identificar elementos que impedem a **Acessibilidade**, visando a inclusão de todos os perfis de usuários, independentemente de suas capacidades cognitivas ou motoras.
+- **Satisfação Subjetiva Comprometida:** O alto índice de reclamações em plataformas como o _Reclame Aqui_ é um indicador direto de baixa **Satisfação**, um fator de usabilidade subjetivo que reflete o impacto negativo do sistema nas emoções do usuário.
 
-## Deficiências Iniciais
+<div align="center">
+  <p>Figura 1 - Reputação do PROCON-DF no Reclame Aqui</p>
+  <img class="figwithborder" src="../assets/reclame-aqui.png" alt="Reputação do PROCON-DF no Reclame Aqui">
+  <p><small>Fonte: Reclame Aqui (2026)<sup><a href="#ref-reclame-aqui">[2]</a></sup></small></p>
+</div>
 
-- Arquitetura de informação confusa escondendo as funções principais de Atendimento e Denúncia.
-- Processo de repasse (redirecionamento) excessivo para se marcar ou agendar atividades simples, frustrando resoluções curtas.
-- Interface pouco responsiva ou fora dos padrões modernos de leitura em diagonal (F-pattern e Z-pattern), ocasionando sobrecarga visual pelo "paredão" de textos.
+<div align="center">
+  <p>Figura 2 - Fatores de usabilidade de Nielsen</p>
+  <img class="figwithborder" src="../assets/usabilidade-nielsen.png" alt="Lista de metas de usabilidade de Nielsen: aprendizado, recordação, eficiência, segurança e satisfação">
+  <p><small>Fonte: Nielsen (1994c) apud Barbosa et al. (2021), cap.3.2.1, p. 35-36<sup><a href="#ref-barbosa">[1]</a></sup></small></p>
+</div>
 
+<div align="center">
+  <p>Figura 3 - Critérios adicionais de qualidade</p>
+  <img class="figwithborder" src="../assets/criterios-qualidade.png" alt="Lista de metas de usabilidade de Nielsen: aprendizado, recordação, eficiência, segurança e satisfação">
+  <p><small>Fonte: Barbosa et al. (2021), cap.3.2, p. 35<sup><a href="#ref-barbosa">[1]</a></sup></small></p>
+</div>
+---
+
+## Referências
+
+<div id="ref-barbosa" markdown>
+Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) **Interação Humano-Computador e Experiência do usuário**. Autopublicação.
+</div>
+
+<div id="ref-reclame-aqui" markdown>
+RECLAME AQUI. **PROCON-DF**. [S. l.], 2026. Disponível em: <a href="https://www.reclameaqui.com.br/empresa/procon-df/" target="_blank">https://www.reclameaqui.com.br/empresa/procon-df/</a>. Acesso em: 11 abr. 2026.
+</div>
 ---
 
 ## Agradecimentos à IA
@@ -38,7 +61,6 @@ Agradecimento ao Google Gemini pela ajuda na construção técnica e escrita da 
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição                                         | Autor         | Revisor |
-| ------ | ---------- | ------------------------------------------------- | ------------- | ------- |
-| 1.0    | 10/04/2026 | Criação da página                                 | Pedro Moretti |         |
-| 1.1    | 10/04/2026 | Redação do site escohido, contexto e público-alvo | Pedro Moretti |         |
+| Versão | Data       | Descrição            | Autor         | Revisor |
+| ------ | ---------- | -------------------- | ------------- | ------- |
+| 1.0    | 10/04/2026 | Criação do documento | Pedro Moretti |         |
