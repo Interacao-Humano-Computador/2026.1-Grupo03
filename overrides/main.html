@@ -44,6 +44,11 @@
         <p class="feature-description">Acesse as atas, registros e gravações de todos os encontros da equipe.</p>
       </a>
     </div>
+
+    <!-- Renderiza o conteúdo do index.md aqui -->
+    <div class="md-typeset" style="margin-top: 2rem;">
+      {{ page.content }}
+    </div>
   {% else %}
     {{ super() }}
   {% endif %}
