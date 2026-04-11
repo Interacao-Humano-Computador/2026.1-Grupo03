@@ -4,11 +4,10 @@ Nesta página, encontra-se o registro oficial de todos os nossos encontros sínc
 
 ## Registro Geral de Reuniões
 
-| Data | Tópico Abordado | Resumo da Ata | Link da Gravação |
+| Data | Tópico Abordado | Ata da reunião | Link da Gravação |
 |:---:|:---|:---|:---:|
-| 10/04/2026 | Planejamento inicial e planejamento de entregas | [Ver Ata](#ata-da-reuniao-10042026) | [🔗 Assistir no YouTube](https://youtu.be/7vW947sGqoY) |
+| 10/04/2026 | Planejamento inicial e planejamento de entregas | [Ver Ata](../atas/Ata%20de%20Reunião_%20Planejamento%20de%20Entrega%20e%20Delegação%20de%20Tarefas%20-%20Etapa%201.pdf){: target="_blank" } | [🔗 Assistir no YouTube](https://youtu.be/7vW947sGqoY) |
 
----
 ## Agradecimentos à IA
 
 Agradecimento ao Gemini pela ajuda na geração das atas de reunião.
