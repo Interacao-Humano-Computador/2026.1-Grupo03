@@ -1,5 +1,9 @@
 # Cronograma
 
+## Introdução
+
+Este documento possui o cronograma planejado para ser executado no decorrer da disciplina e foi desenvolvido com base na disponibilidade da equipe, no plano de ensino disponível na plataforma Aprender e nas atividades desenvolvidas descritas nos semestres anteriores.
+
 ### Etapa 01
 
 <p style="text-align: center;">Planejado</p>
