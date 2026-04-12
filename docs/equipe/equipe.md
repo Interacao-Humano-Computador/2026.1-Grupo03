@@ -41,22 +41,22 @@ Conheça os membros responsáveis por este projeto da disciplina de Interação 
 
 <div class="team-member" align="center" markdown>
 
-![Participante 4](https://placehold.co/400x400/eeeeee/999999.png?text=Foto){ .team-avatar }
+![Pedro Augusto Macedo](images/pedro-macedo.jpeg){ .team-avatar }
 
-<div class="team-name" markdown>[Pedro Augusto Macedo](#)</div>
+<div class="team-name" markdown>[Pedro Augusto Macedo](https://github.com/macedoPedro20)</div>
 
 <div class="bio" markdown>
-*A mini-bio detalhada do integrante será escrita aqui explicando suas melhores qualificações para o projeto.*
+*Estudante de Engenharia de Software na UnB, com experiência em React e Node.*
 </div>
 </div>
 
 <div class="team-member" align="center" markdown>
 
-![Participante 5](https://placehold.co/400x400/eeeeee/999999.png?text=Foto){ .team-avatar }
+![Eduardo Oliveira Valadares](images/eduardo.jpeg){ .team-avatar }
 
-<div class="team-name" markdown>[Eduardo Valadares](#)</div>
+<div class="team-name" markdown>[Eduardo Oliveira Valadares](https://github.com/EduOValadares)</div>
 
 <div class="bio" markdown>
-*A mini-bio detalhada do integrante será escrita aqui explicando suas melhores qualificações para o projeto.*
+*Estudante de Engenharia de Software na UnB possuo experiência em fundamentos de Python e padrão MVC, conduzidos por metodologias ágeis (Scrum), para desenvolver soluções iterativas e focadas na experiência do usuário.*
 </div>
 </div>

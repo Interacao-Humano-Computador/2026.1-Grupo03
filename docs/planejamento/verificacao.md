@@ -48,6 +48,10 @@ Esta lista de verificação consolida os critérios obrigatórios presentes no P
 | **7** | **É especificado no processo de design como executar cada as atividades básicas: Análise da situação atual, síntese de uma intervenção e avaliação da intervenção?** | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/verificacaoHeloisa-01.png) | Heloisa Silva | Incompleto | |
 | **8** | **É detalhado no processo de design a sequência que se deve executar cada as atividades básicas: Análise da situação atual, síntese de uma intervenção e avaliação da intervenção?** | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/verificacaoHeloisa-02.png) | Heloisa Silva | Incompleto | |
 | **9** | **É detalhado no processo de design cada artefato gerado e consumido em cada etapa?** | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/verificacaoHeloisa-03.png) | Heloisa Silva | Incompleto | |
+| **10** | **É especificado qual foi o sistema/serviço escolhido para o projeto de IHC?** <br> Critério: deve ser especificado qual foi o site escolhido para o projeto de IHC, deixando claro o seu nome e utilização. | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | Pedro Moretti | Incompleto | |
+| **11** | **É especificado quais foram os critérios utilizados na escolha do sistema/serviço para o projeto de IHC?** <br> Critérios: deve ser especificado quais foram os critérios utilizados na escolha do sistema/serviço para o projeto de IHC, como, por exemplo: comprometimento da qualidade de uso, ineditismo, entre outros. | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | Pedro Moretti | Incompleto | |
+| **12** | **É especificado quais foram as motivações para a escolha do sistema/serviço para o projeto de IHC?** <br> Critério: deve ser especificado quais foram as motivações para a escolha do sistema/serviço para o projeto de IHC, como, por exemplo: relevância social, identificação de problemas, entre outros. | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | Pedro Moretti | Incompleto | |
+| **13** | **É apresentado qual a utilidade do site/serviço para os usuários?** <br> Critério: deve ser apresentada a utilidade do site/serviço para seu usuário, deixando claro para o leitor algumas funcionalidades básicas do sistema | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | Pedro Moretti | Incompleto | |
 
 <br>
 
@@ -59,14 +63,13 @@ Esta lista de verificação consolida os critérios obrigatórios presentes no P
 
 > 1. BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2021.
 
-
-
 ---
 
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :--- | :--- | :--- | :--- | :--- |
+| `1.3` | 12/04/2026 | Inclusão de itens de origem própria, por se tratar de um tema (escolha do sistema), do qual não foi possível encontrar seção específica no livro. | Pedro Moretti |  |
 | `1.2` | 11/04/2026 | Revisão e melhoria da redação introdutória; ajustes de IDs nas tabelas; inserção de itens com fontes com hiperlinks para imagens; e atualização da bibliografia. | Heloisa Silva |  |
 | `1.1` | 11/04/2026 | Preenchimento da tabela de Desenvolvimento do Projeto com 11 critérios de verificação (fonte e autoria conforme sugestão do professor). | Heitor Macedo | Heloisa Silva |
 | `1.0` | 11/04/2026 | Criação da página com checklists base do Plano de Ensino e injeção de novos parâmetros restritivos do grupo para a Etapa 1. | Heitor Macedo | Heloisa Silva |
