@@ -13,13 +13,13 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Atividade Extraída do Plano de Ensino | Integrante Responsável | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
     | :--- | :---: | :---: | :--- | :---: |
-    | **Planejamento do Projeto**<br>*(Apresentação da Equipe e Página do Site Escolhido - Procon)* | [Moretti](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📄 Site Escolhido](planejamento/site-escolhido.md) | ⏳ Em Andamento |
+    | **Planejamento do Projeto**<br>*(Apresentação da Equipe e Página do Site Escolhido - Procon)* | [Moretti](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📄 Site Escolhido](planejamento/site-escolhido.md) | ✅ Concluído |
     | **Heatmap de disponibilidade**<br>*(Cadastro dos Horários)* | [Equipe Geral](equipe/equipe.md) | [Heloísa](equipe/equipe.md) | [📄 Ver Heatmap](equipe/disponibilidade.md) | ✅ Concluído |
-    | **Ferramentas**<br>*(Documentação de Ferramentas e Lista de Sites Avaliados)* | [Pedro](equipe/equipe.md) | [Heloísa](equipe/equipe.md) | [📄 Ferramentas](planejamento/ferramentas.md) & [📄 Análise de Sites](projeto/analise-sites.md)| ⏳ Em Andamento |
-    | **Processo de Design**<br>*(Montagem e Descrição do Ciclo de Vida Nielsen)* | [Heitor](equipe/equipe.md), [Eduardo](equipe/equipe.md) & [Moretti](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📄 Processo Design](planejamento/processo-design.md) | ⏳ Em Andamento |
-    | **Cronograma**<br>*(Visão macro e micro detalhada com Gantt)* | [Heloísa](equipe/equipe.md) | [Eduardo](equipe/equipe.md) | [📄 Cronograma](planejamento/cronograma.md) | ⏳ Em Andamento |
+    | **Ferramentas**<br>*(Documentação de Ferramentas e Lista de Sites Avaliados)* | [Pedro](equipe/equipe.md) | [Heloísa](equipe/equipe.md) | [📄 Ferramentas](planejamento/ferramentas.md) & [📄 Análise de Sites](projeto/analise-sites.md)| ✅ Concluído |
+    | **Processo de Design**<br>*(Montagem e Descrição do Ciclo de Vida Nielsen)* | [Heitor](equipe/equipe.md), [Eduardo](equipe/equipe.md) & [Moretti](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📄 Processo Design](planejamento/processo-design.md) | ✅ Concluído |
+    | **Cronograma**<br>*(Visão macro e micro detalhada com Gantt)* | [Heloísa](equipe/equipe.md) | [Eduardo](equipe/equipe.md) | [📄 Cronograma](planejamento/cronograma.md) | ✅ Concluído |
     | **Artefatos Administrativos**<br>*(Gestão do YouTube e Atas de Reuniões)* | [Heitor](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📄 Reuniões e Ata 1](planejamento/reunioes.md) | ✅ Concluído |
-    | **Artefatos de Validação**<br>*(Construção da Lista de Verificação)* | [Heitor](equipe/equipe.md), [Heloísa](equipe/equipe.md) & [Eduardo](equipe/equipe.md) | [Moretti](equipe/equipe.md) | [📄 Lista de Verificação](planejamento/lista-verificacao.md) | ⏳ Em Andamento |
+    | **Artefatos de Validação**<br>*(Construção da Lista de Verificação)* | [Heitor](equipe/equipe.md), [Heloísa](equipe/equipe.md) & [Eduardo](equipe/equipe.md) | [Moretti](equipe/equipe.md) | [📄 Lista de Verificação](planejamento/lista-verificacao.md) | ✅ Concluído |
 
 === "Etapa 2"
     > *Atividades a serem preenchidas via Atas e desdobramentos futuros do projeto.*
