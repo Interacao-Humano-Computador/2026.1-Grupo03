@@ -31,4 +31,4 @@ Agradecemos ao Microsoft Copilot pela ajuda na edição desta página.
 | Versão | Data | Descrição | Autor | Revisor |
 | --- | --- | --- | --- | --- |
 | 1.0 | 10/04/2026 | Criação e atualização da página de disponibilidade com introdução, metodologia, resultados, figuras, legenda e agradecimentos | Heloisa Silva |  |
-| 2.0 | 12/04/2026 | Atualização das imagens do heatmap e da legenda da página de disponibilidade | Mateus Barreto |  |
+| 1.1 | 12/04/2026 | Atualização das imagens do heatmap e da legenda da página de disponibilidade | Mateus Barreto |  |
