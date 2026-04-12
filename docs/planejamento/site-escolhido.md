@@ -38,19 +38,19 @@ Diferente das outras opções analisadas, o portal do **PROCON-DF** destacou-se 
 
 <div align="center">
   <p>Figura 1 - Reputação do PROCON-DF no Reclame Aqui</p>
-  <img class="figwithborder" src="../images/site-escolhido/reclame-aqui.png" alt="Reputação do PROCON-DF no Reclame Aqui">
+  <img src="../images/site-escolhido/reclame-aqui.png" alt="Reputação do PROCON-DF no Reclame Aqui">
   <p><small>Fonte: Reclame Aqui (2026)<sup><a href="#ref-reclame-aqui">[2]</a></sup></small></p>
 </div>
 
 <div align="center">
   <p>Figura 2 - Fatores de usabilidade de Nielsen</p>
-  <img class="figwithborder" src="../images/site-escolhido/usabilidade-nielsen.png" alt="Lista de metas de usabilidade de Nielsen: aprendizado, recordação, eficiência, segurança e satisfação">
+  <img src="../images/site-escolhido/usabilidade-nielsen.png" alt="Lista de metas de usabilidade de Nielsen: aprendizado, recordação, eficiência, segurança e satisfação">
   <p><small>Fonte: Nielsen (1994c) apud Barbosa et al. (2021), cap.3.2.1, p. 35-36<sup><a href="#ref-barbosa">[1]</a></sup></small></p>
 </div>
 
 <div align="center">
   <p>Figura 3 - Critérios adicionais de qualidade</p>
-  <img class="figwithborder" src="../images/site-escolhido/criterios-qualidade.png" alt="Lista de metas de usabilidade de Nielsen: aprendizado, recordação, eficiência, segurança e satisfação">
+  <img src="../images/site-escolhido/criterios-qualidade.png" alt="Lista de metas de usabilidade de Nielsen: aprendizado, recordação, eficiência, segurança e satisfação">
   <p><small>Fonte: Barbosa et al. (2021), cap.3.2, p. 35<sup><a href="#ref-barbosa">[1]</a></sup></small></p>
 </div>
 ---
@@ -77,6 +77,7 @@ Agradecimento ao Google Gemini pela ajuda na construção técnica e escrita da 
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição            | Autor         | Revisor |
-| ------ | ---------- | -------------------- | ------------- | ------- |
-| 1.0    | 10/04/2026 | Criação do documento | Pedro Moretti |         |
+| Versão | Data       | Descrição                              | Autor         | Revisor |
+| ------ | ---------- | -------------------------------------- | ------------- | ------- |
+| 1.1    | 12/04/2026 | Inclusão da seção "O que o Procon faz" | Pedro Moretti |         |
+| 1.0    | 10/04/2026 | Criação do documento                   | Pedro Moretti |         |
