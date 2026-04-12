@@ -6,6 +6,17 @@ No âmbito da disciplina de Interação Humano-Computador (IHC), os membros do g
 
 Após essa etapa inicial, o grupo selecionou o portal oficial do **PROCON-DF** (Instituto de Defesa do Consumidor do Distrito Federal) como objeto de estudo. O projeto documentará a jornada do cidadão no portal, identificando gargalos de navegação e propondo soluções fundamentadas nos princípios de IHC e no design centrado no usuário.
 
+## O que o Procon faz
+
+O **Procon-DF** oferece atendimento gratuito para consumidores residentes no Distrito Federal (ou que tenham estabelecido relações de consumo na região), visando solucionar dúvidas, registrar denúncias e reclamações.
+
+Os principais serviços prestados envolvem:
+
+- **Produtos e Serviços Gerais:** Má qualidade, defeitos, atrasos, garantias e cobranças indevidas.
+- **Setores Específicos:** Conflitos com instituições financeiras, operadoras de planos de saúde, mensalidades escolares e serviços funerários.
+
+Pessoas jurídicas também têm direito ao atendimento, contanto que comprovem ser as consumidoras finais do produto ou serviço. Mais detalhes podem ser conferidos no portal oficial do órgão<sup><a href="#ref-procon-df-faz">[3]</a></sup>.
+
 ## Critérios para Escolha
 
 A definição do projeto adotou os seguintes balizadores, fundamentados nos critérios de **Qualidade de Uso**:
@@ -27,19 +38,19 @@ Diferente das outras opções analisadas, o portal do **PROCON-DF** destacou-se 
 
 <div align="center">
   <p>Figura 1 - Reputação do PROCON-DF no Reclame Aqui</p>
-  <img class="figwithborder" src="../assets/reclame-aqui.png" alt="Reputação do PROCON-DF no Reclame Aqui">
+  <img class="figwithborder" src="../images/site-escolhido/reclame-aqui.png" alt="Reputação do PROCON-DF no Reclame Aqui">
   <p><small>Fonte: Reclame Aqui (2026)<sup><a href="#ref-reclame-aqui">[2]</a></sup></small></p>
 </div>
 
 <div align="center">
   <p>Figura 2 - Fatores de usabilidade de Nielsen</p>
-  <img class="figwithborder" src="../assets/usabilidade-nielsen.png" alt="Lista de metas de usabilidade de Nielsen: aprendizado, recordação, eficiência, segurança e satisfação">
+  <img class="figwithborder" src="../images/site-escolhido/usabilidade-nielsen.png" alt="Lista de metas de usabilidade de Nielsen: aprendizado, recordação, eficiência, segurança e satisfação">
   <p><small>Fonte: Nielsen (1994c) apud Barbosa et al. (2021), cap.3.2.1, p. 35-36<sup><a href="#ref-barbosa">[1]</a></sup></small></p>
 </div>
 
 <div align="center">
   <p>Figura 3 - Critérios adicionais de qualidade</p>
-  <img class="figwithborder" src="../assets/criterios-qualidade.png" alt="Lista de metas de usabilidade de Nielsen: aprendizado, recordação, eficiência, segurança e satisfação">
+  <img class="figwithborder" src="../images/site-escolhido/criterios-qualidade.png" alt="Lista de metas de usabilidade de Nielsen: aprendizado, recordação, eficiência, segurança e satisfação">
   <p><small>Fonte: Barbosa et al. (2021), cap.3.2, p. 35<sup><a href="#ref-barbosa">[1]</a></sup></small></p>
 </div>
 ---
@@ -53,6 +64,11 @@ Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; B
 <div id="ref-reclame-aqui" markdown>
 RECLAME AQUI. **PROCON-DF**. [S. l.], 2026. Disponível em: <a href="https://www.reclameaqui.com.br/empresa/procon-df/" target="_blank">https://www.reclameaqui.com.br/empresa/procon-df/</a>. Acesso em: 11 abr. 2026.
 </div>
+
+<div id="ref-procon-df-faz" markdown>
+DISTRITO FEDERAL. Procon-DF. **O que o Procon faz.** Brasília, 2018. Disponível em: <a href="https://procon.df.gov.br/o-que-o-procon-faz/" target="_blank">https://procon.df.gov.br/o-que-o-procon-faz/</a>. Acesso em: 12 abr. 2026.
+</div>
+
 ---
 
 ## Agradecimentos à IA
