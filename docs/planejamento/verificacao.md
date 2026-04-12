@@ -57,7 +57,7 @@ Esta lista de verificação consolida os critérios obrigatórios presentes no P
 ---
 ## Bibliografia
 
-1. BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2021.
+> 1. BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2021.
 
 
 
