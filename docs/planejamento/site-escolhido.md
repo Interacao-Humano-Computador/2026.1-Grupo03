@@ -77,6 +77,7 @@ Agradecimento ao Google Gemini pela ajuda na construção técnica e escrita da 
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição            | Autor         | Revisor |
-| ------ | ---------- | -------------------- | ------------- | ------- |
-| 1.0    | 10/04/2026 | Criação do documento | Pedro Moretti |         |
+| Versão | Data       | Descrição                              | Autor         | Revisor |
+| ------ | ---------- | -------------------------------------- | ------------- | ------- |
+| 1.1    | 12/04/2026 | Inclusão da seção "O que o Procon faz" | Pedro Moretti |         |
+| 1.0    | 10/04/2026 | Criação do documento                   | Pedro Moretti |         |
