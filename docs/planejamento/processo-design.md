@@ -1,5 +1,50 @@
 # Processo de Design
 
+Para compreender o que é um Processo de Design, primeiro é necessário entender o próprio conceito de design. Segundo Barbosa e Silva (2021), o design pode ser organizado em três atividades básicas: análise da situação atual, síntese de uma intervenção e avaliação dessa intervenção.
+
+A análise da situação atual, conforme Barbosa e Silva (2021), envolve a compreensão dos elementos presentes no contexto investigado, permitindo interpretar com mais precisão a realidade observada. Em outras palavras, após essa etapa, obtém-se uma visão mais clara das necessidades e oportunidades de melhoria que precisam ser endereçadas.
+
+Já a síntese de intervenção corresponde à definição da situação desejada e à elaboração de uma **intervenção** capaz de conduzir a transição entre o estado atual e o estado pretendido.
+
+A avaliação, por sua vez, pode ocorrer em diferentes momentos do processo e tem como objetivo verificar se a intervenção proposta está, de fato, transformando a situação atual na direção esperada.
+
+Com base nessas definições, entende-se o Processo de Design como o detalhamento dessas atividades básicas, abrangendo desde a forma de execução de cada etapa até os artefatos produzidos e consumidos ao longo do processo (BARBOSA; SILVA, 2021).
+
+Alguns dos modelos de Processo de Design são citados abaixo:
+
+
+
+## Ciclo de Vida Simples
+
+![Modelo Simples](images/processo-design/Modelo_Simples.png){: style="display: block; margin: 0 auto;" }
+
+<p align="center">
+  <b>Figura 01 - Representação Gráfica do Modelo Simples</b>
+</p>
+
+> **[PENDENTE]** Explicar o modelo Simples
+
+## Ciclo de Vida em Estrela
+
+![Modelo em Estrela](images/processo-design/Modelo_Estrela.png){: style="display: block; margin: 0 auto;" }
+
+<p align="center">
+  <b>Figura 02 - Representação Gráfica do Modelo em Estrela</b>
+</p>
+
+
+> **[PENDENTE]** Explicar o modelo em estrela
+
+## Ciclo de Vida Mayhew
+
+![Modelo Mayhew](images/processo-design/Modelo_Mayhew.png){: style="display: block; margin: 0 auto;" }
+
+<p align="center">
+  <b>Figura 03 - Representação Gráfica do Modelo Mayhew</b>
+</p>
+
+> **[PENDENTE]** Explicar o modelo em Mayhew
+
 ## Processo de Design Selecionado: Engenharia de Usabilidade de Nielsen
 
 Para guiar o desenvolvimento do nosso projeto, selecionamos o ciclo de vida da **Engenharia de Usabilidade de Jakob Nielsen**. 
@@ -44,7 +89,7 @@ Nielsen propõe 10 atividades básicas. Para a execução do nosso projeto, orga
 
 ## Referências Bibliográficas
 
-> **[PENDENTE]** Adicionar as referências bibliográficas do livro e outras fontes utilizadas para basear essa documentação. (Para ser preenchido pelos demais membros).
+> 1. BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2021.
 
 ---
 
@@ -58,4 +103,5 @@ Agradecimento especial ao **NotebookLM** pelo auxílio na criação da imagem de
 
 | Versão | Data       | Descrição                                                                                                                                                                                                                                              | Autor                 | Revisor |
 | ------ | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------- | ------- |
-| 1.0    | 11/04/2026 | Inclusão do embasamento textual em Nielsen, justificativas, mapeamento de fases do projeto, inserção da imagem do processo e marcação dos espaços faltantes (fotos do livro e referências) para inclusão futura pelos demais integrantes da equipe. | Heitor Macedo RIcardo |         |
+| 1.1    | 11/04/2026 | Revisão da redação introdutória do Processo de Design e inserção das representações gráficas dos modelos Ciclo de Vida Simples, Ciclo de Vida em Estrela e Ciclo de Vida Mayhew, com legendas padronizadas.                                           | Heloisa Silva         |         |
+| 1.0    | 11/04/2026 | Inclusão do embasamento textual em Nielsen, justificativas, mapeamento de fases do projeto, inserção da imagem do processo e marcação dos espaços faltantes (fotos do livro e referências) para inclusão futura pelos demais integrantes da equipe. | Heitor Macedo RIcardo |     Heloisa Silva    |
