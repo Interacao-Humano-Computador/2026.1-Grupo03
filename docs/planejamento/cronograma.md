@@ -21,13 +21,13 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 | Cronograma planejado | Heloisa Silva | 11/04 | 11/04 | Eduardo Valadares|
 | Heatmap da equipe | Heloisa Silva | 11/04 | 11/04 | Pedro Macedo |
 | Página do processo de design | Pedro Moretti, Heitor Macedo, Eduardo Valadares | 11/04 | 11/04 | Heloisa Silva |
-|Lista de Verificação| Eduardo, Heloisa, Heitor| 10/04| 11/04| Pedro Moretti |
+|Lista de Verificação| Eduardo, Heloisa, Heitor, Pedro Moretti | 10/04| 11/04| Pedro Moretti |
 | Reunião final de revisão |  Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 11/04 | 11/04 |  --|
 | Gravação da inspeção da etapa 01 |  Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 12/04 | 12/04 | -- |
 | Gravação da inspeção do grupo +1 |  Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 13/04 | 13/04 | -- |
 | Correções após entrega |  Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 15/04 | 15/04 | -- |
 
-<p style="text-align: center;"><em>autora: Heloisa</em></p>
+<p style="text-align: center;"><b>Fonte: Elaborado por Heloisa Silva.</b></p>
 
 ### Etapa 02
 
@@ -47,7 +47,7 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 | Inspeção grupo +1                              | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 04/05  | 04/05 | --                |
 | Correções após entregas                        | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 05/05  | 05/05 | --                |
 
-<p style="text-align: center;"><em>autora: Heloisa</em></p>
+<p style="text-align: center;"><b>Fonte: Elaborado por Heloisa Silva.</b></p>
 
 ### Etapa 03
 
@@ -66,7 +66,7 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 | Inspeção grupo +1                             | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 13/05  | 13/05 | --                |
 | Correções após entregas                       | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 14/05  | 14/05 | --                |
 
-<p style="text-align: center;"><em>autora: Heloisa</em></p>
+<p style="text-align: center;"><b>Fonte: Elaborado por Heloisa Silva.</b></p>
 
 ### Etapa 04
 
@@ -85,7 +85,7 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 | Inspeção grupo +1                                                        | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 20/05  | 20/05 | --                |
 | Correções após entregas                                                  | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 21/05  | 21/05 | --                |
 
-<p style="text-align: center;"><em>autora: Heloisa</em></p>
+<p style="text-align: center;"><b>Fonte: Elaborado por Heloisa Silva.</b></p>
 
 ### Etapa 05
 
@@ -104,7 +104,7 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 | Inspeção grupo +1                                                        | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 01/06  | 01/06 | --                |
 | Correções após entregas                                                  | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 02/06  | 02/06 | --                |
 
-<p style="text-align: center;"><em>autora: Heloisa</em></p>
+<p style="text-align: center;"><b>Fonte: Elaborado por Heloisa Silva.</b></p>
 
 ### Etapa 06
 
@@ -122,7 +122,7 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 | Inspeção grupo +1                                                                  | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 08/06  | 08/06 | --                |
 | Correções após entregas                                                            | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 09/06  | 09/06 | --                |
 
-<p style="text-align: center;"><em>autora: Heloisa</em></p>
+<p style="text-align: center;"><b>Fonte: Elaborado por Heloisa Silva.</b></p>
 
 ### Etapa 07
 
@@ -138,7 +138,7 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 | Inspeção grupo +1                                     | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 17/06  | 17/06 | --      |
 | Correções após entregas                               | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 18/06  | 18/06 | --      |
 
-<p style="text-align: center;"><em>autora: Heloisa</em></p>
+<p style="text-align: center;"><b>Fonte: Elaborado por Heloisa Silva.</b></p>
 
 ### Etapa 08
 
@@ -149,7 +149,7 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 | ------------------------- | ----------------------------------------------------- | ------ | ----- | ------- |
 | Verificação dos artefatos | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 19/06  | 24/06 | --      |
 
-<p style="text-align: center;"><em>autora: Heloisa</em></p>
+<p style="text-align: center;"><b>Fonte: Elaborado por Heloisa Silva.</b></p>
 
 ## Agradecimentos à IA
 
