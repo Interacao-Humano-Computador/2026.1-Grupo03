@@ -159,4 +159,4 @@ Agradecimento ao Microsoft Copilot pela ajuda na edição das tabelas.
 
 | Versão | Data       | Descrição                                                                                                                                                   | Autor   | Revisor |
 | ------ | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------- |
-| 1.0    | 09/04/2026 | Criação e atualização do cronograma com as Etapas 01, 02, 04, 05, 06, 07 e 08; preenchimento de tarefas e datas; padronização de títulos por etapa e tabela | Heloisa |         |
+| 1.0    | 09/04/2026 | Criação e atualização do cronograma com as Etapas 01, 02, 04, 05, 06, 07 e 08; preenchimento de tarefas e datas; padronização de títulos por etapa e tabela | Heloisa | Heitor Macedo |
