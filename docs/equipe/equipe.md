@@ -60,3 +60,14 @@ Conheça os membros responsáveis por este projeto da disciplina de Interação 
 *Estudante de Engenharia de Software na UnB possuo experiência em fundamentos de Python e padrão MVC, conduzidos por metodologias ágeis (Scrum), para desenvolver soluções iterativas e focadas na experiência do usuário.*
 </div>
 </div>
+
+<div class="team-member" align="center" markdown>
+
+![Mateus Rodrigues Barreto](images/mateus.jpeg){ .team-avatar }
+
+<div class="team-name" markdown>[Mateus Rodrigues Barreto](https://github.com/Mateus0xC){: target="_blank" }</div>
+
+<div class="bio" markdown>
+*Estudante de Engenharia de Software na UnB, com interesse em desenvolvimento de software de qualidade, boas práticas e metodologias ágeis.*
+</div>
+</div>
