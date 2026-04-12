@@ -3,13 +3,6 @@
 Este documento detalha a análise de usabilidade e interface de três sistemas distintos, utilizando métodos de inspeção e investigação baseados em frameworks consolidados na literatura de IHC.
 
 ---
-## Histórico de Versão
-
-| Versão | Data       | Descrição                                      | Autor        |
-|--------|------------|-----------------------------------------------|--------------|
-| 1.0    | 2026-04-11 | Criação do documento inicial                  | Pedro Augusto |
-
----
 
 ## 1. Agenda DF (Serviço de Agendamentos do Distrito Federal)
 
@@ -68,13 +61,38 @@ Este documento detalha a análise de usabilidade e interface de três sistemas d
 | Passaporte PF| Perda de dados ao navegar/voltar            | Alta (Catastrófica)    | Permitir navegação livre e salvar rascunhos      |
 
 ---
-
 ## Nota Metodológica
 
 Todas as avaliações basearam-se na obra *"Interação Humano-Computador e Experiência do Usuário"* de Barbosa e Silva (2021).
 
 Os relatórios completos com análises aprofundadas estão disponíveis nos arquivos abaixo:
 
-- 📄 Agenda DF: `./agendadf-analise.pdf`
-- 📄 Fala.BR: `./falabr-analise.pdf`
-- 📄 Passaporte PF: `./passaportepf-analise.pdf`
+# Análises Completas em PDF
+
+---
+
+## 📄 Agenda DF
+<iframe src="agendadf-analise.pdf" width="100%" height="600px"></iframe>
+
+[🔽 Baixar PDF](agendadf-analise.pdf)
+
+---
+
+## 📄 Fala.BR
+<iframe src="falabr-analise.pdf" width="100%" height="600px"></iframe>
+
+[🔽 Baixar PDF](falabr-analise.pdf)
+
+---
+
+## 📄 Passaporte PF
+<iframe src="passaportepf-analise.pdf" width="100%" height="600px"></iframe>
+
+[🔽 Baixar PDF](passaportepf-analise.pdf)
+
+---
+## Histórico de Versão
+
+| Versão | Data       | Descrição                                      | Autor        |
+|--------|------------|-----------------------------------------------|--------------|
+| 1.0    | 2026-04-11 | Criação do documento inicial                  | Pedro Augusto |
