@@ -178,10 +178,6 @@
     color: var(--md-default-fg-color--light);
 }
 
-.figwithborder {
-    border: 1px solid var(--md-default-fg-color);
-}
-
 /* =========================================
    Ajustes de Legibilidade: Modo Escuro (Dark Mode)
    ========================================= */
