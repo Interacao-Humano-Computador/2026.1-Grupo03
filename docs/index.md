@@ -13,13 +13,13 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Atividade Extraída do Plano de Ensino | Integrante Responsável | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
     | :--- | :---: | :---: | :--- | :---: |
-    | **Planejamento do Projeto**<br>*(Apresentação da Equipe e Página do Site Escolhido - Procon)* | [Moretti](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📦 Commit Github](https://github.com/Interacao-Humano-Computador/2026.1-Grupo03/commit/7271c6130bc7c5929d9c2c2a68a3caa2cfa3d75f) <br> [📄 Site Escolhido](planejamento/site-escolhido.md) | ⏳ Em Andamento |
-    | **Heatmap de disponibilidade**<br>*(Cadastro dos Horários)* | [Equipe Geral](equipe/equipe.md) | [Heloísa](equipe/equipe.md) | [📦 Commit Github](https://github.com/Interacao-Humano-Computador/2026.1-Grupo03/commit/cf45e3fcc8bb5716db7d40b5a6fd57cc7edf57ac) <br> [📄 Ver Heatmap](equipe/disponibilidade.md) | ✅ Concluído |
-    | **Ferramentas**<br>*(Documentação de Ferramentas e Lista de Sites Avaliados)* | [Pedro](equipe/equipe.md) | [Heloísa](equipe/equipe.md) | [📦 Commit Github](https://github.com/Interacao-Humano-Computador/2026.1-Grupo03/commit/cf45e3fcc8bb5716db7d40b5a6fd57cc7edf57ac) <br> [📄 Ferramentas](planejamento/ferramentas.md) & [📄 Análise de Sites](projeto/analise-sites.md)| ⏳ Em Andamento |
-    | **Processo de Design**<br>*(Montagem e Descrição do Ciclo de Vida Nielsen)* | [Heitor](equipe/equipe.md), [Eduardo](equipe/equipe.md) & [Moretti](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📦 Commit Github](https://github.com/Interacao-Humano-Computador/2026.1-Grupo03/commit/3ee7cb6fe6f5924708d1e736a960c68704936a21) <br> [📄 Processo Design](planejamento/processo-design.md) | ⏳ Em Andamento |
-    | **Cronograma**<br>*(Visão macro e micro detalhada com Gantt)* | [Heloísa](equipe/equipe.md) | [Eduardo](equipe/equipe.md) | [📦 Commit Github](https://github.com/Interacao-Humano-Computador/2026.1-Grupo03/commit/cf45e3fcc8bb5716db7d40b5a6fd57cc7edf57ac) <br> [📄 Cronograma](planejamento/cronograma.md) | ⏳ Em Andamento |
-    | **Artefatos Administrativos**<br>*(Gestão do YouTube e Atas de Reuniões)* | [Heitor](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📦 Commit Github](https://github.com/Interacao-Humano-Computador/2026.1-Grupo03/commit/3d144d6169cae74f0591d532e53b3e39a2437d2a) <br> [📄 Reuniões e Ata 1](planejamento/reunioes.md) | ✅ Concluído |
-    | **Artefatos de Validação**<br>*(Construção da Lista de Verificação)* | [Heitor](equipe/equipe.md), [Heloísa](equipe/equipe.md) & [Eduardo](equipe/equipe.md) | [Moretti](equipe/equipe.md) | [📦 Commit Github](#) <br> [📄 Lista de Verificação](planejamento/lista-verificacao.md) | ⏳ Em Andamento |
+    | **Planejamento do Projeto**<br>*(Apresentação da Equipe e Página do Site Escolhido - Procon)* | [Moretti](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📄 Site Escolhido](planejamento/site-escolhido.md) | ✅ Concluído |
+    | **Heatmap de disponibilidade**<br>*(Cadastro dos Horários)* | [Equipe Geral](equipe/equipe.md) | [Heloísa](equipe/equipe.md) | [📄 Ver Heatmap](equipe/disponibilidade.md) | ✅ Concluído |
+    | **Ferramentas**<br>*(Documentação de Ferramentas e Lista de Sites Avaliados)* | [Pedro](equipe/equipe.md) | [Heloísa](equipe/equipe.md) | [📄 Ferramentas](planejamento/ferramentas.md) & [📄 Análise de Sites](projeto/analise-sites.md)| ✅ Concluído |
+    | **Processo de Design**<br>*(Montagem e Descrição do Ciclo de Vida Nielsen)* | [Heitor](equipe/equipe.md), [Eduardo](equipe/equipe.md) & [Moretti](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📄 Processo Design](planejamento/processo-design.md) | ✅ Concluído |
+    | **Cronograma**<br>*(Visão macro e micro detalhada com Gantt)* | [Heloísa](equipe/equipe.md) | [Eduardo](equipe/equipe.md) | [📄 Cronograma](planejamento/cronograma.md) | ✅ Concluído |
+    | **Artefatos Administrativos**<br>*(Gestão do YouTube e Atas de Reuniões)* | [Heitor](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📄 Reuniões e Ata 1](planejamento/reunioes.md) | ✅ Concluído |
+    | **Artefatos de Validação**<br>*(Construção da Lista de Verificação)* | [Heitor](equipe/equipe.md), [Heloísa](equipe/equipe.md) & [Eduardo](equipe/equipe.md) | [Moretti](equipe/equipe.md) | [📄 Lista de Verificação](planejamento/lista-verificacao.md) | ✅ Concluído |
 
 === "Etapa 2"
     > *Atividades a serem preenchidas via Atas e desdobramentos futuros do projeto.*
@@ -29,6 +29,24 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
 === "Etapa 4"
     > *Atividades a serem preenchidas via Atas e desdobramentos futuros do projeto.*
+
+---
+
+### 📈 Resumo Quantitativo da Equipe
+
+| Artefato / Integrante | Eduardo | Heitor | Heloísa | Moretti | Pedro |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Total de documentos criados** | 2 | 3 | 2 | 2 | 1 |
+| **Total de documentos revisados** | 1 | 3 | 2 | 1 | 3 |
+
+*Nota: A atividade do Heatmap, atribuída à "Equipe Geral", requer participação coletiva e não foi somada como autoria individual exclusiva.*
+
+---
+
+## 📚 Referências
+
+- UNIVERSIDADE DE BRASÍLIA. Plano de Ensino FIHC 012026 Turma 03. Gama: UnB, 2026.
+- BARBOSA, S. D. J. et al. Interação Humano-Computador e Experiência do Usuário. 1. ed. Rio de Janeiro: Autopublicação, 2021.
 
 ---
 
