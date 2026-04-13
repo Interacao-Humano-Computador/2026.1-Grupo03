@@ -7,7 +7,7 @@ A seguir estão as principais ferramentas empregadas ao longo do desenvolvimento
 ### GitHub
 
 <p align="center">
-  <img src="./images/github.png" width="120">
+  <img src="../images/github.png" width="120">
 </p>
 
 **Finalidade:**  
@@ -18,7 +18,7 @@ Utilizado para versionamento de código, armazenamento do repositório e colabor
 ### MkDocs
 
 <p align="center">
-  <img src="./images/mkdocs.png" width="120">
+  <img src="../images/mkdocs.png" width="120">
 </p>
 
 **Finalidade:**  
@@ -29,8 +29,8 @@ Geração de site estático para documentação do projeto.
 ### Figma / Penpot
 
 <p align="center">
-  <img src="./images/figma.png" width="100">
-  <img src="./images/penpot.png" width="100">
+  <img src="../images/figma.png" width="100">
+  <img src="../images/penpot.png" width="100">
 </p>
 
 **Finalidade:**  
@@ -41,9 +41,9 @@ Criação de protótipos, wireframes e design de interface.
 ### Teams / Discord / WhatsApp
 
 <p align="center">
-  <img src="../equipe/images/teams.png" width="90">
-  <img src="../equipe/images/discord.png" width="90">
-  <img src="../equipe/images/whatsapp.png" width="90">
+  <img src="../images/teams.png" width="90">
+  <img src="../images/discord.png" width="90">
+  <img src="../images/whatsapp.png" width="90">
 </p>
 
 **Finalidade:**  
@@ -69,4 +69,4 @@ WHATSAPP. Aplicativo de mensagens instantâneas. Disponível em: <https://www.wh
 
 | Versão | Data       | Descrição                                      | Autor        | Revisores   |
 |--------|------------|-----------------------------------------------|--------------|-----------|
-| 1.0    | 2026-04-11 | Criação do documento inicial                  | Pedro Macedo | Pedro Moretti |
+| 1.0    | 2026-04-11 | Criação do documento inicial                  | Pedro Macedo | Heloísa Silva |

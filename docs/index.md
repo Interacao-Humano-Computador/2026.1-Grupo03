@@ -13,13 +13,16 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Atividade Extraída do Plano de Ensino | Integrante Responsável | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
     | :--- | :---: | :---: | :--- | :---: |
-    | **Planejamento do Projeto**<br>*(Apresentação da Equipe e Página do Site Escolhido - Procon)* | [Moretti](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📄 Site Escolhido](planejamento/site-escolhido.md) | ✅ Concluído |
-    | **Heatmap de disponibilidade**<br>*(Cadastro dos Horários)* | [Equipe Geral](equipe/equipe.md) | [Heloísa](equipe/equipe.md) | [📄 Ver Heatmap](equipe/disponibilidade.md) | ✅ Concluído |
-    | **Ferramentas**<br>*(Documentação de Ferramentas e Lista de Sites Avaliados)* | [Pedro](equipe/equipe.md) | [Heloísa](equipe/equipe.md) | [📄 Ferramentas](planejamento/ferramentas.md) & [📄 Análise de Sites](projeto/analise-sites.md)| ✅ Concluído |
-    | **Processo de Design**<br>*(Montagem e Descrição do Ciclo de Vida Nielsen)* | [Heitor](equipe/equipe.md), [Eduardo](equipe/equipe.md) & [Moretti](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📄 Processo Design](planejamento/processo-design.md) | ✅ Concluído |
-    | **Cronograma**<br>*(Visão macro e micro detalhada com Gantt)* | [Heloísa](equipe/equipe.md) | [Eduardo](equipe/equipe.md) | [📄 Cronograma](planejamento/cronograma.md) | ✅ Concluído |
-    | **Artefatos Administrativos**<br>*(Gestão do YouTube e Atas de Reuniões)* | [Heitor](equipe/equipe.md) | [Pedro](equipe/equipe.md) | [📄 Reuniões e Ata 1](planejamento/reunioes.md) | ✅ Concluído |
-    | **Artefatos de Validação**<br>*(Construção da Lista de Verificação)* | [Heitor](equipe/equipe.md), [Heloísa](equipe/equipe.md) & [Eduardo](equipe/equipe.md) | [Moretti](equipe/equipe.md) | [📄 Lista de Verificação](planejamento/lista-verificacao.md) | ✅ Concluído |
+    | **Apresentação da Equipe**<br>*(Apresentação da Equipe)* | [Pedro Moretti](equipe/equipe.md) | [Heitor Macedo](equipe/equipe.md) | [📄 Equipe](equipe/equipe.md) | ✅ Concluído |
+    | **Apresentação do Site Escolhido**<br>*(Apresentação do Site Escolhido)* | [Pedro Moretti](equipe/equipe.md) | [Heitor Macedo](equipe/equipe.md) | [📄 Site Escolhido](planejamento/site-escolhido.md) | ✅ Concluído |
+    | **Heatmap de disponibilidade**<br>*(Cadastro dos Horários)* | [Heloísa](equipe/equipe.md) | [Pedro Moretti](equipe/equipe.md) | [📄 Ver Heatmap](equipe/disponibilidade.md) | ✅ Concluído |
+    | **Ferramentas**<br>*(Documentação de Ferramentas)* | [Pedro Macedo](equipe/equipe.md) | [Heloísa Silva](equipe/equipe.md) | [📄 Ferramentas](planejamento/ferramentas.md)| ✅ Concluído |
+    | **Sites Avaliados**<br>*(Documentação dos Sites Avaliados)* | [Pedro Macedo](equipe/equipe.md) | [Pedro Moretti](equipe/equipe.md) | [📄 Análise de Sites](projeto/analise-sites.md)| ✅ Concluído |
+    | **Processo de Design**<br>*(Montagem e Descrição do Ciclo de Vida Nielsen)* | [Heitor](equipe/equipe.md), [Heloísa](equipe/equipe.md) & [Pedro Moretti](equipe/equipe.md) | [Eduardo Valadares](equipe/equipe.md) | [📄 Processo Design](planejamento/processo-design.md) | ✅ Concluído |
+    | **Cronograma**<br>*(Visão macro e micro detalhada com Gantt)* | [Heloísa](equipe/equipe.md) | [Heitor Macedo](equipe/equipe.md) | [📄 Cronograma](planejamento/cronograma.md) | ✅ Concluído |
+    | **Artefatos Administrativos**<br>*(Gestão do YouTube e Atas de Reuniões)* | [Heitor](equipe/equipe.md) | [Eduardo Valadares](equipe/equipe.md) | [📄 Reuniões e Ata 1](planejamento/reunioes.md) | ✅ Concluído |
+    | **Artefatos de Validação**<br>*(Construção da Lista de Verificação)* | [Equipe Geral](equipe/equipe.md) | [Pedro Moretti](equipe/equipe.md) | [📄 Lista de Verificação](planejamento/verificacao.md) | ✅ Concluído |
+    | **Dashboard de Gestão**<br>*(Gestão e Acompanhamento de Entregas)* | [Heitor](equipe/equipe.md) | [Heloísa Silva](equipe/equipe.md) | [📄 Dashboard de Gestão](index.md) | ✅ Concluído |
 
 === "Etapa 2"
     > *Atividades a serem preenchidas via Atas e desdobramentos futuros do projeto.*
@@ -34,12 +37,12 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
 ### 📈 Resumo Quantitativo da Equipe
 
-| Artefato / Integrante | Eduardo | Heitor | Heloísa | Moretti | Pedro |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **Total de documentos criados** | 2 | 3 | 2 | 2 | 1 |
-| **Total de documentos revisados** | 1 | 3 | 2 | 1 | 3 |
+| Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Total de documentos criados** | 0 | 2 | 3 | 3 | 2 | 0 |
+| **Total de documentos revisados** | 2 | 3 | 2 | 3 | 0 | 0 |
 
-*Nota: A atividade do Heatmap, atribuída à "Equipe Geral", requer participação coletiva e não foi somada como autoria individual exclusiva.*
+*Nota: A atividade da Lista de Verificação, atribuída à "Equipe Geral", requer participação coletiva e não foi somada como autoria individual exclusiva.*
 
 ---
 
