@@ -80,8 +80,8 @@ Esta lista de verificação consolida os critérios obrigatórios presentes no P
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.5` | 12/04/2026 | Inclusão de referências bibliográficas e imagens comprobatórias para os itens 14 a 18. | Eduardo Valadares | [A Definir] |
-| `1.4` | 12/04/2026 | Inclusão de referências bibliográficas e imagens comprobatórias para os itens 2 a 6. | Heitor Macedo | [A Definir] |
+| `1.5` | 12/04/2026 | Inclusão de referências bibliográficas e imagens comprobatórias para os itens 14 a 18. | Eduardo Valadares | Heloisa Silva |
+| `1.4` | 12/04/2026 | Inclusão de referências bibliográficas e imagens comprobatórias para os itens 2 a 6. | Heitor Macedo | Pedro Moretti |
 | `1.3` | 12/04/2026 | Inclusão de itens de origem própria, por se tratar de um tema (escolha do sistema), do qual não foi possível encontrar seção específica no livro. | Pedro Moretti | Heitor Macedo |
 | `1.2` | 11/04/2026 | Revisão e melhoria da redação introdutória; ajustes de IDs nas tabelas; inserção de itens com fontes com hiperlinks para imagens; e atualização da bibliografia. | Heloisa Silva | Heitor Macedo |
 | `1.1` | 11/04/2026 | Preenchimento da tabela de Desenvolvimento do Projeto com 11 critérios de verificação (fonte e autoria conforme sugestão do professor). | Heitor Macedo | Heloisa Silva |
