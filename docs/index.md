@@ -39,7 +39,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
 | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Total de documentos criados** | 0 | 2 | 3 | 3 | 2 | 0 |
+| **Total de documentos criados** | 0 | 3 | 3 | 3 | 2 | 0 |
 | **Total de documentos revisados** | 2 | 3 | 2 | 3 | 0 | 0 |
 
 *Nota: A atividade da Lista de Verificação, atribuída à "Equipe Geral", requer participação coletiva e não foi somada como autoria individual exclusiva.*
