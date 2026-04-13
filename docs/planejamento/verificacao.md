@@ -17,6 +17,9 @@ Esta lista de verificação consolida os critérios obrigatórios presentes no P
 | **7** | Possui opção de contraste de cores? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor | Incompleto | |
 | **8** | Os artefatos: Planejamento do Projeto, equipe, lista de sites avaliados, site selecionado para o projeto da disciplina, Ferramentas do projeto, Processo de Design, cronograma das atividades? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor | Incompleto | |
 | **9** | Uma página com as atas de reunião com o acesso à gravação (vídeo), quando houver? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor | Incompleto | |
+| **10** | Há um canal de comunicação dentro do grupo? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | Pedro Macedo | Incompleto | |
+| **11** | Há uma lista de verificação para verficar o grupo +1 | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | Pedro Macedo | Incompleto | |
+| **13** | As reuniões semanais estão marcadas em um horário fixo? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | Pedro Macedo | Incompleto | |
 
 ## Desenvolvimento do projeto
 
@@ -33,6 +36,7 @@ Esta lista de verificação consolida os critérios obrigatórios presentes no P
 | **9** | Existe vídeo de apresentação publicado no YouTube na categoria "não listado"? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor | Incompleto | |
 | **10** | Há tabela de contribuição no início do artefato com o nome de todos os integrantes, a contribuição de cada um e hiperligação para atividade e gravação (se houver)? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor | Incompleto | |
 | **11** | O artefato possui seção de agradecimentos apresentando o uso de Inteligência Artificial (IA) Generativa? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor | Incompleto | |
+
 
 
 ## Itens do conteúdo da disciplina
