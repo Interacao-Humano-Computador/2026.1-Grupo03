@@ -66,3 +66,7 @@ MICROSOFT TEAMS. Plataforma de comunicação e colaboração. Disponível em: <h
 DISCORD. Plataforma de comunicação por voz, vídeo e texto. Disponível em: <https://discord.com/>. Acesso em: 12 abr. 2026.
 
 WHATSAPP. Aplicativo de mensagens instantâneas. Disponível em: <https://www.whatsapp.com/>. Acesso em: 12 abr. 2026.
+
+| Versão | Data       | Descrição                                      | Autor        | Revisores   |
+|--------|------------|-----------------------------------------------|--------------|-----------|
+| 1.0    | 2026-04-11 | Criação do documento inicial                  | Pedro Macedo | Pedro Moretti |

@@ -93,6 +93,6 @@ Os relatórios completos com análises aprofundadas estão disponíveis nos arqu
 ---
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                      | Autor        |
-|--------|------------|-----------------------------------------------|--------------|
-| 1.0    | 2026-04-11 | Criação do documento inicial                  | Pedro Augusto |
+| Versão | Data       | Descrição                                      | Autor        | Revisores |
+|--------|------------|-----------------------------------------------|--------------|-----------|
+| 1.0    | 2026-04-11 | Criação do documento inicial                  | Pedro Macedo | Pedro Moretti |
