@@ -48,11 +48,11 @@ Nesta seção validamos o **Planejamento Geral**, **Desenvolvimento Inicial** e 
 | ID | Critério | Fonte | Autor | Resposta Conforme/NãoConforme | Versão |
 |:--:|:---|:---:|:---:|:---:|:---|
 | **1** | A justificativa da escolha do Processo de Design? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **2** | O documento apresenta o Heatmap de disponibilidade dos integrantes da equipe? | (Básica) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **3** | O histórico de versão e a autoria identificam o nome exato do responsável (sem "Todos")? | (Básica) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **4** | Os itens de conteúdo contêm a referência bibliográfica acompanhada da FOTO / PRINT exato do texto da fonte? | (Básica) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **5** | As gravações de reuniões do grupo e a apresentação da Etapa 1 foram feitas com as câmeras abertas e hospedadas no YouTube "Não Listado"? | (Básica) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **6** | O artefato de "Ferramentas do Projeto" lista e descreve a finalidade de todo o "stack" de tecnologia usado? | (Básica) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
+| **2** | O documento apresenta o Heatmap de disponibilidade dos integrantes da equipe? | (BARBOSA; SILVA, 2021) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
+| **3** | O histórico de versão e a autoria identificam o nome exato do responsável (sem "Todos")? | (BARBOSA; SILVA, 2021) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
+| **4** | Os itens de conteúdo contêm a referência bibliográfica acompanhada da FOTO / PRINT exato do texto da fonte? | (BARBOSA; SILVA, 2021) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
+| **5** | As gravações de reuniões do grupo e a apresentação da Etapa 1 foram feitas com as câmeras abertas e hospedadas no YouTube "Não Listado"? | (BARBOSA; SILVA, 2021) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
+| **6** | O artefato de "Ferramentas do Projeto" lista e descreve a finalidade de todo o "stack" de tecnologia usado? | (BARBOSA; SILVA, 2021) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **7** | É especificado no processo de design como executar as atividades básicas? | (BARBOSA; SILVA, 2021) | Heloisa Silva | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **8** | É detalhado no processo de design a sequência que se deve executar cada as atividades básicas? | (BARBOSA; SILVA, 2021) | Heloisa Silva | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **9** | É detalhado no processo de design cada artefato gerado e consumido em cada etapa? | (BARBOSA; SILVA, 2021) | Heloisa Silva | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
@@ -61,6 +61,14 @@ Nesta seção validamos o **Planejamento Geral**, **Desenvolvimento Inicial** e 
 | **12** | Há previsão de utilização de métricas observáveis através de experimentos ou estudos empíricos com protótipos? | (BARBOSA; SILVA, 2021) | Pedro Moretti | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **13** | É apresentado qual a utilidade do site/serviço para os usuários? | Grupo | Pedro Moretti | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **14** | Os artefatos de design previstos incluem cenários (descrições textuais), esboços de interface ou outro modelo? | (BARBOSA; SILVA, 2021) | Pedro Moretti | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
+
+---
+
+## Apresentação
+
+A apresentação da Entrega 1 foi gravada com as câmeras abertas e publicada no YouTube na categoria "Não Listado", conforme exigência da disciplina.
+
+[🎥 Assistir à Apresentação da Entrega 1 no YouTube](https://youtu.be/7tWFZiBnnQ8){ target="_blank" }
 
 ---
 
@@ -74,5 +82,6 @@ A equipe agradece ao **Microsoft Copilot** pelo suporte técnico prestado na edi
 
 | Versão | Data | Descrição | Autor | Revisor |
 |:---:|:---:|:---|:---:|:---:|
+| 1.2 | 12/04/2026 | Adição da seção de Apresentação com link do YouTube e atualização das fontes | Heitor Macedo | Pedro Moretti |
 | 1.1 | 12/04/2026 | Adição da seção de agradecimentos ao uso de IA e melhoria da redação | Heloísa Silva | Heitor Macedo |
 | 1.0 | 12/04/2026 21:12 | Atualização da Revisão da Etapa 1 (Adequação de Vídeos) | Heitor Macedo | Heloísa Silva |
