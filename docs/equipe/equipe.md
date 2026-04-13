@@ -71,3 +71,13 @@ Conheça os membros responsáveis por este projeto da disciplina de Interação 
 *Estudante de Engenharia de Software na UnB, com interesse em desenvolvimento de software de qualidade, boas práticas e metodologias ágeis.*
 </div>
 </div>
+
+</div>
+
+---
+
+## Histórico de Versões
+
+| Versão | Data | Descrição | Autor | Revisor |
+|:---:|:---:|:---|:---:|:---:|
+| 1.0 | 12/04/2026 | Criação da página com o perfil dos integrantes | Pedro Moretti | Heitor Macedo Ricardo |

@@ -18,4 +18,4 @@ Agradecimento ao Gemini pela ajuda na geração das atas de reunião.
 
 | Versão | Data | Descrição | Autor | Revisor |
 |---|---|---|---|---|
-| 1.0 | 11/04/2026 | Atualização da introdução, adição da ata da reunião de 10/04/2026 e criação do histórico de versões. | Heitor Macedo Ricardo | |
+| 1.0 | 11/04/2026 | Atualização da introdução, adição da ata da reunião de 10/04/2026 e criação do histórico de versões. | Heitor Macedo Ricardo | Eduardo Valadares |
