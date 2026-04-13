@@ -1,89 +1,68 @@
 ## Ferramentas Utilizadas
 
-A seguir estão as principais ferramentas empregadas ao longo do desenvolvimento do projeto, incluindo suas finalidades, justificativas de escolha, vantagens e possíveis limitações:
+A seguir estão as principais ferramentas empregadas ao longo do desenvolvimento do projeto:
 
 ---
 
 ### GitHub
 
+<p align="center">
+  <img src="./images/github.png" width="120">
+</p>
+
 **Finalidade:**  
 Utilizado para versionamento de código, armazenamento do repositório e colaboração entre os membros da equipe.
-
-**Justificativa:**  
-Escolhido por ser uma das plataformas mais consolidadas para controle de versão, amplamente utilizada no mercado e com integração a diversas ferramentas.
-
-**Vantagens:**
-- Controle de versão eficiente
-- Facilidade de colaboração em equipe
-- Histórico completo de alterações
-- Integração com diversas ferramentas (CI/CD, documentação, etc.)
-
-**Desvantagens:**
-- Curva de aprendizado para iniciantes
-- Dependência de conexão com a internet
 
 ---
 
 ### MkDocs
 
+<p align="center">
+  <img src="./images/mkdocs.png" width="120">
+</p>
+
 **Finalidade:**  
 Geração de site estático para documentação do projeto.
-
-**Justificativa:**  
-Selecionado por sua simplicidade, rapidez de configuração e boa integração com Markdown.
-
-**Vantagens:**
-- Fácil configuração e uso
-- Suporte nativo a Markdown
-- Geração rápida de sites estáticos
-- Boa organização de conteúdo
-
-**Desvantagens:**
-- Customização limitada sem conhecimento adicional
-- Menos flexível que frameworks mais robustos
 
 ---
 
 ### Figma / Penpot
 
+<p align="center">
+  <img src="./images/figma.png" width="100">
+  <img src="./images/penpot.png" width="100">
+</p>
+
 **Finalidade:**  
 Criação de protótipos, wireframes e design de interface.
-
-**Justificativa:**  
-Ferramentas modernas que permitem colaboração em tempo real e facilitam a prototipação de interfaces.
-
-**Vantagens:**
-- Interface intuitiva
-- Colaboração em tempo real
-- Facilidade na criação de protótipos interativos
-- Acessível via navegador
-
-**Desvantagens:**
-- Dependência de internet
-- Recursos avançados podem exigir experiência prévia
 
 ---
 
 ### Teams / Discord / WhatsApp
 
+<p align="center">
+  <img src="../equipe/images/teams.png" width="90">
+  <img src="../equipe/images/discord.png" width="90">
+  <img src="../equipe/images/whatsapp.png" width="90">
+</p>
+
 **Finalidade:**  
 Comunicação e alinhamento entre os membros da equipe.
 
-**Justificativa:**  
-Ferramentas populares e acessíveis, facilitando a comunicação rápida e eficiente.
+---
 
-**Vantagens:**
-- Comunicação rápida e prática
-- Suporte a mensagens, chamadas e compartilhamento de arquivos
-- Facilidade de acesso (desktop e mobile)
+## Referências
 
-**Desvantagens:**
-- Possível dispersão de informações
-- Dificuldade de organização de histórico em conversas longas
+GITHUB. Plataforma de hospedagem de código-fonte e controle de versão. Disponível em: <https://github.com/>. Acesso em: 12 abr. 2026.
 
-## Histórico de Versão
+MKDOCS. Gerador de sites estáticos para documentação. Disponível em: <https://www.mkdocs.org/>. Acesso em: 12 abr. 2026.
 
-| Versão | Data       | Descrição das Alterações                                      | Autor           |
-|--------|------------|--------------------------------------------------------------|-----------------|
-| 1.0    | 2026-04-11 | Criação da seção de ferramentas                              | Pedro Augusto Moretti   |
-| 1.1    | 2026-04-12 | Adição de justificativas, vantagens e desvantagens           | Pedro Augusto Macedo |
+FIGMA. Ferramenta de design de interface colaborativo. Disponível em: <https://www.figma.com/>. Acesso em: 12 abr. 2026.
+
+PENPOT. Plataforma open source para design e prototipação. Disponível em: <https://penpot.app/>. Acesso em: 12 abr. 2026.
+
+MICROSOFT TEAMS. Plataforma de comunicação e colaboração. Disponível em: <https://www.microsoft.com/teams>. Acesso em: 12 abr. 2026.
+
+DISCORD. Plataforma de comunicação por voz, vídeo e texto. Disponível em: <https://discord.com/>. Acesso em: 12 abr. 2026.
+
+WHATSAPP. Aplicativo de mensagens instantâneas. Disponível em: <https://www.whatsapp.com/>. Acesso em: 12 abr. 2026.
