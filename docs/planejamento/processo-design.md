@@ -1,5 +1,7 @@
 # Processo de Design
 
+## Introdução
+
 Para compreender o que é um Processo de Design, primeiro é necessário entender o próprio conceito de design. Segundo Barbosa e Silva (2021), o design pode ser organizado em três atividades básicas: análise da situação atual, síntese de uma intervenção e avaliação dessa intervenção.
 
 A **análise da situação atual**, conforme Barbosa e Silva (2021), envolve a compreensão dos elementos presentes no contexto investigado, permitindo interpretar com mais precisão a realidade observada. Em outras palavras, após essa etapa, obtém-se uma visão mais clara das necessidades e oportunidades de melhoria que precisam ser endereçadas.
@@ -134,6 +136,7 @@ Agradecimento especial ao **NotebookLM** pelo auxílio na criação da imagem de
 
 | Versão | Data       | Descrição                                                                                                                                                                                                                                           | Autor                 | Revisor       |
 | ------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ------------- |
+| 1.3    | 16/04/2026 | Adição da seção "Introdução".                                                                                                                                                                                                                      | Heitor Macedo Ricardo |        Pedro Moretti       |
 | 1.2    | 12/04/2026 | Inclusão de imagens de referência para os modelos de ciclo de vida e para o processo de design de Nielsen, com legendas e referências bibliográficas padronizadas.                                                                                       | Pedro Moretti         |        Heitor Macedo Ricardo       |
 | 1.1    | 11/04/2026 | Revisão da redação introdutória do Processo de Design e inserção das representações gráficas dos modelos Ciclo de Vida Simples, Ciclo de Vida em Estrela e Ciclo de Vida Mayhew, com legendas padronizadas.                                         | Heloisa Silva         |          Eduardo Valadares     |
 | 1.0    | 11/04/2026 | Inclusão do embasamento textual em Nielsen, justificativas, mapeamento de fases do projeto, inserção da imagem do processo e marcação dos espaços faltantes (fotos do livro e referências) para inclusão futura pelos demais integrantes da equipe. | Heitor Macedo RIcardo | Heloisa Silva |

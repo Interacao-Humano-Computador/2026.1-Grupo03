@@ -47,6 +47,7 @@ nav:
       - Disponibilidade: equipe/disponibilidade.md
   - Planejamento:
       - Cronograma: planejamento/cronograma.md
+      - Cronograma Executado: planejamento/cronograma-executado.md
       - Reuniões: planejamento/reunioes.md
   - Projeto:
       - Análise de Sites: projeto/analise-sites.md

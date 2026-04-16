@@ -1,5 +1,7 @@
 # A Equipe
 
+## Introdução
+
 Conheça os membros responsáveis por este projeto da disciplina de Interação Humano-Computador.
 
 ---
@@ -80,4 +82,5 @@ Conheça os membros responsáveis por este projeto da disciplina de Interação 
 
 | Versão | Data | Descrição | Autor | Revisor |
 |:---:|:---:|:---|:---:|:---:|
+| 1.1 | 16/04/2026 | Adição da seção "Introdução". | Pedro Moretti | Heitor Macedo Ricardo |
 | 1.0 | 12/04/2026 | Criação da página com o perfil dos integrantes | Pedro Moretti | Heitor Macedo Ricardo |

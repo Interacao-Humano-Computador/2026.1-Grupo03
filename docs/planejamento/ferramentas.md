@@ -1,4 +1,8 @@
-## Ferramentas Utilizadas
+# Ferramentas Utilizadas
+
+## Introdução
+
+Nesta página estão listadas as principais ferramentas empregadas ao longo do desenvolvimento do projeto de Interação Humano-Computador. A definição e o uso dessas ferramentas foram deliberados coletivamente pela equipe, visando garantir produtividade, rastreabilidade e qualidade nos artefatos produzidos.
 
 A seguir estão as principais ferramentas empregadas ao longo do desenvolvimento do projeto:
 
@@ -67,6 +71,9 @@ DISCORD. Plataforma de comunicação por voz, vídeo e texto. Disponível em: <h
 
 WHATSAPP. Aplicativo de mensagens instantâneas. Disponível em: <https://www.whatsapp.com/>. Acesso em: 12 abr. 2026.
 
+## Histórico de Versão
+
 | Versão | Data       | Descrição                                      | Autor        | Revisores   |
-|--------|------------|-----------------------------------------------|--------------|-----------|
+|:---|:---|:---|:---|:---|
+| 1.1 | 16/04/2026 | Adição da seção de Introdução e título principal. | Pedro Moretti | Heitor Macedo |
 | 1.0    | 2026-04-11 | Criação do documento inicial                  | Pedro Macedo | Heloísa Silva |

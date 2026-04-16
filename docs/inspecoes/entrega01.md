@@ -1,5 +1,7 @@
 # Inspeção Geral da Entrega 01
 
+## Introdução
+
 Este documento contém o acompanhamento da verificação e do controle de qualidade de todas as entregas efetuadas pela equipe. A modalidade de verificação adotada é a inspeção, com base na lista sugerida pelo professor e nos itens desenvolvidos pelos integrantes do grupo.
 
 ---
@@ -25,7 +27,7 @@ Nesta seção validamos o **Planejamento Geral**, **Desenvolvimento Inicial** e 
 | **9** | Uma página com as atas de reunião com o acesso à gravação (vídeo), quando houver? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **10** | Há um canal de comunicação dentro do grupo? | Grupo | Pedro Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **11** | Há uma lista de verificação para verficar o grupo +1 | Grupo | Pedro Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **12** | As reuniões semanais estão marcadas em um horário fixo? | Grupo | Pedro Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
+| **12** | As reuniões semanais estão marcadas em um horário fixo? | Grupo | Pedro Macedo | <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 1.4 |
 
 ### Desenvolvimento do projeto
 
@@ -51,8 +53,8 @@ Nesta seção validamos o **Planejamento Geral**, **Desenvolvimento Inicial** e 
 | **2** | O documento apresenta o Heatmap de disponibilidade dos integrantes da equipe? | (BARBOSA; SILVA, 2021) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **3** | O histórico de versão e a autoria identificam o nome exato do responsável (sem "Todos")? | (BARBOSA; SILVA, 2021) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **4** | Os itens de conteúdo contêm a referência bibliográfica acompanhada da FOTO / PRINT exato do texto da fonte? | (BARBOSA; SILVA, 2021) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **5** | As gravações de reuniões do grupo e a apresentação da Etapa 1 foram feitas com as câmeras abertas e hospedadas no YouTube "Não Listado"? | (BARBOSA; SILVA, 2021) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **6** | O artefato de "Ferramentas do Projeto" lista e descreve a finalidade de todo o "stack" de tecnologia usado? | (BARBOSA; SILVA, 2021) | Heitor Macedo | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
+| **5** | As gravações de reuniões do grupo e a apresentação da Etapa 1 foram feitas com as câmeras abertas e hospedadas no YouTube "Não Listado"? | (BARBOSA; SILVA, 2021) | Heitor Macedo | <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 1.4 |
+| **6** | O artefato de "Ferramentas do Projeto" lista e descreve a finalidade de todo o "stack" de tecnologia usado? | (BARBOSA; SILVA, 2021) | Heitor Macedo | <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 1.4 |
 | **7** | É especificado no processo de design como executar as atividades básicas? | (BARBOSA; SILVA, 2021) | Heloisa Silva | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **8** | É detalhado no processo de design a sequência que se deve executar cada as atividades básicas? | (BARBOSA; SILVA, 2021) | Heloisa Silva | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **9** | É detalhado no processo de design cada artefato gerado e consumido em cada etapa? | (BARBOSA; SILVA, 2021) | Heloisa Silva | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
@@ -76,12 +78,17 @@ A apresentação da Entrega 1 foi gravada com as câmeras abertas e publicada no
 
 A equipe agradece ao **Microsoft Copilot** pelo suporte técnico prestado na edição e padronização das tabelas, bem como no aprimoramento da escrita e da estruturação em **Markdown** deste documento. O uso da ferramenta contribuiu para maior clareza, consistência e organização na apresentação dos resultados de inspeção.
 
+## Referências
 
+> 1. BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021.
+> 2. UNIVERSIDADE DE BRASÍLIA. *Plano de Ensino FIHC 012026 Turma 03*. Gama: UnB, 2026.
 
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor | Revisor |
 |:---:|:---:|:---|:---:|:---:|
+| 1.4 | 16/04/2026 | Marcação como Não Conforme do item 12 (Planejamento) e itens 5 e 6 (Itens do conteúdo da disciplina). | Heitor Macedo | Pedro Moretti |
+| 1.3 | 16/04/2026 | Adição da seção "Introdução". | Heitor Macedo | Pedro Moretti |
 | 1.2 | 12/04/2026 | Adição da seção de Apresentação com link do YouTube e atualização das fontes | Heitor Macedo | Pedro Moretti |
 | 1.1 | 12/04/2026 | Adição da seção de agradecimentos ao uso de IA e melhoria da redação | Heloísa Silva | Heitor Macedo |
 | 1.0 | 12/04/2026 21:12 | Atualização da Revisão da Etapa 1 (Adequação de Vídeos) | Heitor Macedo | Heloísa Silva |

@@ -81,7 +81,7 @@ A inspeção foi gravada e está disponível no YouTube (categoria "Não Listado
 
 ---
 
-## Bibliografia
+## Referências
 
 > 1. BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021.
 > 2. UNIVERSIDADE DE BRASÍLIA. *Plano de Ensino FIHC 012026 Turma 03*. Gama: UnB, 2026.

@@ -155,6 +155,11 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 
 Agradecimento ao Microsoft Copilot pela ajuda na edição das tabelas.
 
+## Bibliografia
+
+> 1. BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021.
+> 2. UNIVERSIDADE DE BRASÍLIA. *Plano de Ensino FIHC 012026 Turma 03*. Gama: UnB, 2026.
+
 ## Histórico de versão
 
 | Versão | Data       | Descrição                                                                                                                                                   | Autor   | Revisor |

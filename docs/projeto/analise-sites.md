@@ -1,5 +1,7 @@
 # Relatório de Avaliação de IHC: Sites Governamentais
 
+## Introdução
+
 Este documento detalha a análise de usabilidade e interface de três sistemas distintos, utilizando métodos de inspeção e investigação baseados em frameworks consolidados na literatura de IHC.
 
 ---
@@ -90,9 +92,14 @@ Os relatórios completos com análises aprofundadas estão disponíveis nos arqu
 
 [🔽 Baixar PDF](passaportepf-analise.pdf)
 
+## Bibliografia
+
+- UNIVERSIDADE DE BRASÍLIA. Plano de Ensino FIHC 012026 Turma 03. Gama: UnB, 2026.
+- BARBOSA, S. D. J. et al. Interação Humano-Computador e Experiência do Usuário. 1. ed. Rio de Janeiro: Autopublicação, 2021.
 ---
 ## Histórico de Versão
 
 | Versão | Data       | Descrição                                      | Autor        | Revisores |
-|--------|------------|-----------------------------------------------|--------------|-----------|
+|:---|:---|:---|:---|:---|
+| 1.1    | 2026-04-16 | Adição da seção de Introdução.              | Pedro Moretti | Heitor Macedo |
 | 1.0    | 2026-04-11 | Criação do documento inicial                  | Pedro Macedo | Pedro Moretti |
