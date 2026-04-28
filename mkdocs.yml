@@ -51,10 +51,16 @@ nav:
       - Reuniões: planejamento/reunioes.md
   - Projeto:
       - Análise de Sites: projeto/analise-sites.md
-      - Lista de Verificação: planejamento/verificacao.md
+      - Lista de Verificação (Etapa 01): planejamento/verificacao.md
+      - Lista de Verificação (Etapa 02): planejamento/verificacao-etapa2.md
       - Ferramentas: planejamento/ferramentas.md
       - Processo de Design: planejamento/processo-design.md
       - Site Escolhido: planejamento/site-escolhido.md
   - Inspeção:
     - Entrega 01: inspecoes/entrega01.md
     - Grupo +1 (Etapa 1): inspecoes/grupo04.md
+  - Análise de Requisitos:
+    - Perfil de Usuário: analise-requisitos/perfil-usuario.md
+    - Personas: analise-requisitos/personas.md
+    - Cenários: analise-requisitos/cenarios.md
+    - Análise de Tarefas: analise-requisitos/analise-tarefas.md

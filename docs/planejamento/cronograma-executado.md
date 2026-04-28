@@ -21,7 +21,16 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Dashboard de Gestão**<br>*(Gestão e Acompanhamento de Entregas)* | [Heitor](../equipe/equipe.md) | [Heloísa Silva](../equipe/equipe.md) | [📄 Dashboard de Gestão](../index.md) | 11/04 | ✅ Concluído |
 
 === "Etapa 2"
-    > *Atividades a serem preenchidas via Atas e desdobramentos futuros do projeto.*
+    Nesta etapa, as tarefas foram direcionadas para a análise de requisitos: Perfil de Usuário, Personas, Cenários e Análise de Tarefas.
+
+    | Atividade Extraída do Plano de Ensino | Integrante Responsável | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Data | Status |
+    | :--- | :---: | :---: | :--- | :---: | :---: |
+    | **Perfil de Usuário**<br>*(Técnicas de coleta e resultados)* | [Nome do Autor](../equipe/equipe.md) | [Nome do Revisor](../equipe/equipe.md) | [📄 Perfil de Usuário](../analise-requisitos/perfil-usuario.md) | DD/MM | 🔄 Em Andamento |
+    | **Personas**<br>*(Elenco de personas primárias e secundárias)* | [Nome do Autor](../equipe/equipe.md) | [Nome do Revisor](../equipe/equipe.md) | [📄 Personas](../analise-requisitos/personas.md) | DD/MM | 🔄 Em Andamento |
+    | **Cenários**<br>*(Cenários de uso baseados nas personas)* | [Nome do Autor](../equipe/equipe.md) | [Nome do Revisor](../equipe/equipe.md) | [📄 Cenários](../analise-requisitos/cenarios.md) | DD/MM | 🔄 Em Andamento |
+    | **Análise de Tarefas**<br>*(HTA e técnica complementar)* | [Nome do Autor](../equipe/equipe.md) | [Nome do Revisor](../equipe/equipe.md) | [📄 Análise de Tarefas](../analise-requisitos/analise-tarefas.md) | DD/MM | 🔄 Em Andamento |
+    | **Artefatos de Validação**<br>*(Lista de Verificação Etapa 2)* | [Nome do Autor](../equipe/equipe.md) | [Nome do Revisor](../equipe/equipe.md) | [📄 Verificação Etapa 2](../analise-requisitos/verificacao-etapa2.md) | DD/MM | 🔄 Em Andamento |
+    | **Apresentação da Etapa 2**<br>*(Gravação e publicação no YouTube)* | [Nome do Autor](../equipe/equipe.md) | [Nome do Revisor](../equipe/equipe.md) | [🎥 Vídeo — YouTube](#) | DD/MM | 🔄 Em Andamento |
 
 === "Etapa 3"
     > *Atividades a serem preenchidas via Atas e desdobramentos futuros do projeto.*
@@ -43,7 +52,18 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     *Nota: A atividade da Lista de Verificação, atribuída à "Equipe Geral", requer participação coletiva e não foi somada como autoria individual exclusiva.*
 
 === "Etapa 2"
-    > *Resumo a ser preenchido após a conclusão da Etapa 2.*
+
+    | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
+    | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+    | **Perfil de Usuário** | — | — | — | — | — | — |
+    | **Personas** | — | — | — | — | — | — |
+    | **Cenários** | — | — | — | — | — | — |
+    | **Análise de Tarefas** | — | — | — | — | — | — |
+    | **Lista de Verificação (Etapa 2)** | — | — | — | — | — | — |
+    | **Total de documentos criados** | 0 | 0 | 0 | 0 | 0 | 0 |
+    | **Total de documentos revisados** | 0 | 0 | 0 | 0 | 0 | 0 |
+
+    *Nota: Preencha as células com ✍️ (autor) ou 🔍 (revisor) conforme a contribuição de cada integrante. Atualize os totais ao finalizar os artefatos.*
 
 === "Etapa 3"
     > *Resumo a ser preenchido após a conclusão da Etapa 3.*
