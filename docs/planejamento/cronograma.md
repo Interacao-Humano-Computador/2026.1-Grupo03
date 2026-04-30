@@ -37,11 +37,11 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 | Tarefa                                         | Responsáveis                                          | Início | Fim   | Revisor           |
 | ---------------------------------------------- | ----------------------------------------------------- | ------ | ----- | ----------------- |
 | Reunião de planejamento                        | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 17/04  | 17/04 | --                |
-| Perfil do usuário                              | Pedro Moretti                                         | 17/04  | 01/05 | Eduardo Valadares |
-| Personas                                       | Heloisa Silva                                         | 17/04  | 01/05 | Pedro Macedo      |
-| Cenários                                       | Pedro Macedo                                          | 17/04  | 01/05 | Heitor Macedo     |
-| Aspectos éticos de pesquisa envolvendo pessoas | Eduardo Valadares                                     | 17/04  | 02/05 | Heloisa Silva     |
-| Análise de tarefas                             | Heitor Macedo                                         | 17/04  | 02/05 | Pedro Moretti     |
+| Perfil do usuário                              | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 17/04  | 01/05 | Eduardo Valadares |
+| Personas                                       | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti  | 17/04  | 01/05 | Pedro Macedo      |
+| Cenários                                       | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 17/04  | 01/05 | Heitor Macedo     |
+| Aspectos éticos de pesquisa envolvendo pessoas | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 17/04  | 02/05 | Heloisa Silva     |
+| Análise de tarefas                             | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 17/04  | 02/05 | Pedro Moretti     |
 | Reunião final de revisão                       | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 02/05  | 02/05 | --                |
 | Gravação da inspeção da etapa 02               | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 03/05  | 03/05 | --                |
 | Inspeção grupo +1                              | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 04/05  | 04/05 | --                |
@@ -57,10 +57,10 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 | Tarefa                                        | Responsáveis                                          | Início | Fim   | Revisor           |
 | --------------------------------------------- | ----------------------------------------------------- | ------ | ----- | ----------------- |
 | Reunião de planejamento                       | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 06/05  | 06/05 | --                |
-| Principios gerais de projeto                  | Pedro Moretti                                         | 07/05  | 11/05 | Eduardo Valadares |
-| Metas de usabilidade                          | Heloisa Silva                                         | 07/05  | 11/05 | Pedro Macedo      |
-| Guia de Estilo                                | Pedro Macedo                                          | 08/05  | 11/05 | Heitor Macedo     |
-| Características da plataforma para o projeto. | Eduardo Valadares                                     | 08/05  | 11/05 | Heloisa Silva     |
+| Principios gerais de projeto                  | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti  | 07/05  | 11/05 | Eduardo Valadares |
+| Metas de usabilidade                          | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 07/05  | 11/05 | Pedro Macedo      |
+| Guia de Estilo                                | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti  | 07/05  | 11/05 | Heitor Macedo     |
+| Características da plataforma para o projeto. | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 07/05  | 11/05 | Heloisa Silva     |
 | Reunião final de revisão                      | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 11/05  | 11/05 | --                |
 | Gravação da inspeção da etapa 03              | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 12/05  | 12/05 | --                |
 | Inspeção grupo +1                             | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 13/05  | 13/05 | --                |
@@ -76,10 +76,10 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 | Tarefa                                                                   | Responsáveis                                          | Início | Fim   | Revisor           |
 | ------------------------------------------------------------------------ | ----------------------------------------------------- | ------ | ----- | ----------------- |
 | Reunião de planejamento                                                  | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 16/05  | 16/05 | --                |
-| Planejamento da Avaliação do Storyboard                                  | Pedro Moretti                                         | 16/05  | 18/05 | Eduardo Valadares |
-| Planejamento do relato dos resultados da avaliação do Storyboard         | Heloisa Silva                                         | 16/05  | 18/05 | Pedro Macedo      |
-| Planejamento da Avaliação da Análise de tarefas                          | Pedro Macedo                                          | 16/05  | 18/05 | Heitor Macedo     |
-| Planejamento do relato dos resultados da avaliação da Análise de tarefas | Eduardo Valadares                                     | 16/05  | 18/05 | Heloisa Silva     |
+| Planejamento da Avaliação do Storyboard                                  | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 16/05  | 18/05 | Eduardo Valadares |
+| Planejamento do relato dos resultados da avaliação do Storyboard         | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 16/05  | 18/05 | Pedro Macedo      |
+| Planejamento da Avaliação da Análise de tarefas                          | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 16/05  | 18/05 | Heitor Macedo     |
+| Planejamento do relato dos resultados da avaliação da Análise de tarefas | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 16/05  | 18/05 | Heloisa Silva     |
 | Reunião final de revisão                                                 | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 18/05  | 18/05 | --                |
 | Gravação da inspeção da etapa 04                                         | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 19/05  | 19/05 | --                |
 | Inspeção grupo +1                                                        | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 20/05  | 20/05 | --                |
@@ -95,10 +95,10 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 | Tarefa                                                                   | Responsáveis                                          | Início | Fim   | Revisor           |
 | ------------------------------------------------------------------------ | ----------------------------------------------------- | ------ | ----- | ----------------- |
 | Reunião de planejamento                                                  | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 23/05  | 23/05 | --                |
-| Relato dos resultados do Storyboard                                      | Pedro Moretti                                         | 24/05  | 29/05 | Eduardo Valadares |
-| Relato dos resultados da Análise de tarefas                              | Heloisa Silva                                         | 24/05  | 29/05 | Pedro Macedo      |
-| Planejamento da Avaliação do Protótipo de Papel                          | Pedro Macedo                                          | 24/05  | 30/05 | Heitor Macedo     |
-| Planejamento do relato dos resultados da avaliação do Protótipo de Papel | Eduardo Valadares                                     | 24/05  | 30/05 | Heloisa Silva     |
+| Relato dos resultados do Storyboard                                      | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 24/05  | 29/05 | Eduardo Valadares |
+| Relato dos resultados da Análise de tarefas                              | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 24/05  | 29/05 | Pedro Macedo      |
+| Planejamento da Avaliação do Protótipo de Papel                          | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 24/05  | 30/05 | Heitor Macedo     |
+| Planejamento do relato dos resultados da avaliação do Protótipo de Papel | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 24/05  | 30/05 | Heloisa Silva     |
 | Reunião final de revisão                                                 | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 30/05  | 30/05 | --                |
 | Gravação da inspeção da etapa 05                                         | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 31/05  | 31/05 | --                |
 | Inspeção grupo +1                                                        | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 01/06  | 01/06 | --                |
@@ -114,9 +114,9 @@ Este documento possui o cronograma planejado para ser executado no decorrer da d
 | Tarefa                                                                             | Responsáveis                                          | Início | Fim   | Revisor           |
 | ---------------------------------------------------------------------------------- | ----------------------------------------------------- | ------ | ----- | ----------------- |
 | Reunião de planejamento                                                            | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 04/06  | 04/06 | --                |
-| Relato dos resultados do Protótipo de Papel                                        | Pedro Moretti                                         | 05/06  | 06/06 | Eduardo Valadares |
-| Planejamento da Avaliação do protótipo de alta fidelidade                          | Heloisa Silva                                         | 05/06  | 06/06 | Pedro Macedo      |
-| Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade | Pedro Macedo                                          | 05/06  | 06/06 | Heitor Macedo     |
+| Relato dos resultados do Protótipo de Papel                                        | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 05/06  | 06/06 | Eduardo Valadares |
+| Planejamento da Avaliação do protótipo de alta fidelidade                          | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 05/06  | 06/06 | Pedro Macedo      |
+| Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 05/06  | 06/06 | Heitor Macedo     |
 | Reunião final de revisão                                                           | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 06/06  | 06/06 | --                |
 | Gravação da inspeção da etapa 06                                                   | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 07/06  | 07/06 | --                |
 | Inspeção grupo +1                                                                  | Eduardo, Heitor, Heloisa, Pedro Macedo, Pedro Moretti | 08/06  | 08/06 | --                |
@@ -165,3 +165,4 @@ Agradecimento ao Microsoft Copilot pela ajuda na edição das tabelas.
 | Versão | Data       | Descrição                                                                                                                                                   | Autor   | Revisor |
 | ------ | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------- |
 | 1.0    | 09/04/2026 | Criação e atualização do cronograma com as Etapas 01, 02, 04, 05, 06, 07 e 08; preenchimento de tarefas e datas; padronização de títulos por etapa e tabela | Heloisa | Heitor Macedo |
+| 1.1    | 09/04/2026 | Ajustes pós entrega | Heloisa | -- |
