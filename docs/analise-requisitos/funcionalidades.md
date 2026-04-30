@@ -64,7 +64,8 @@ Usuário acessa o portal
 | Contexto de prazo | Ausente | Prazos visíveis com alertas antecipados |
 | Transparência | Baixa | Alta — responsável e data em cada etapa |
 
-> **Responsável por este artefato:** Este documento foi elaborado por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade, que inclui também o [Perfil de Usuário](perfil-usuario.md), as [Personas](personas.md), os [Cenários](cenarios.md) e a [Análise de Tarefas](analise-tarefas.md).
+!!! info "Responsável por este artefato"
+    Este documento foi elaborado por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md) · [Análise de Tarefas](analise-tarefas.md).
 ---
 ## Agradecimentos à IA
 

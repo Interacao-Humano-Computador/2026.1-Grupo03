@@ -1,7 +1,5 @@
 # Perfil de Usuário
 
-> **Responsável por este artefato:** Este documento foi elaborado por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade, que inclui também a [Funcionalidade](funcionalidades.md), as [Personas](personas.md), os [Cenários](cenarios.md) e a [Análise de Tarefas](analise-tarefas.md).
-
 ## Introdução
 
 O Perfil de Usuário é uma descrição detalhada das características dos usuários cujos objetivos devem ser apoiados pelo sistema sendo projetado. Segundo Barbosa e Silva (2021), conhecer o perfil de usuário é uma das atividades iniciais e mais fundamentais do processo de design centrado no ser humano, pois permite que a equipe compreenda **quem são as pessoas** que utilizarão o sistema, como elas se comportam, quais são suas necessidades, experiências e expectativas. Sem esse entendimento, corre-se o risco de projetar interfaces que atendem às suposições dos desenvolvedores, mas não às reais demandas dos usuários.
@@ -124,7 +122,8 @@ Os documentos utilizados na condução e registro da pesquisa estão disponívei
 >
 > O **foco do novo sistema deve ser, portanto, Mobile-First**, com design limpo (*Clean Design*), um Call to Action (CTA) proeminente para "Registrar Reclamação" visível logo na página inicial, e um fluxo de cadastro de reclamação guiado e sequencial. A transparência sobre o escopo de atuação do PROCON desde a entrada do sistema também foi apontada como expectativa central por esse perfil.
 
-> **Responsável por este artefato:** Este documento foi elaborado por **Heitor Macedo Ricardo**, **Pedro Moretti** e **Heloisa Santos** . Integra o conjunto de artefatos da funcionalidade, que inclui também a [Funcionalidade](funcionalidades.md), as [Personas](personas.md), os [Cenários](cenarios.md) e a [Análise de Tarefas](analise-tarefas.md).
+!!! info "Responsável por este artefato"
+    Este documento foi elaborado por **Heitor Macedo Ricardo**, **Pedro Moretti** e **Heloisa Santos**. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Personas](personas.md) · [Cenários](cenarios.md) · [Análise de Tarefas](analise-tarefas.md).
 
 ---
 ## Agradecimentos à IA

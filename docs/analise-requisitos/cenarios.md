@@ -40,7 +40,8 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios de um cená
 
 - **Avaliação:** Laura sente-se aliviada e surpreendida positivamente com a eficiência do processo. A experiência superou sua expectativa porque ela *não precisou agir proativamente*: foi o sistema que a avisou, guiou e confirmou cada etapa. A ausência de jargão jurídico, a interface de linha do tempo e a fluidez mobile eliminaram as barreiras que normalmente a afastariam de um sistema governamental.
 
-> **Responsável por este artefato:** O **Cenário 1** foi elaborado por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade, que inclui também a [Funcionalidade](funcionalidades.md), o [Perfil de Usuário](perfil-usuario.md), as [Personas](personas.md) e a [Análise de Tarefas](analise-tarefas.md).
+!!! info "Responsável por este artefato"
+    O **Cenário 1** foi elaborado por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Análise de Tarefas](analise-tarefas.md).
 ---
 
 ## Cenário 2 — [Título Descritivo do Cenário]

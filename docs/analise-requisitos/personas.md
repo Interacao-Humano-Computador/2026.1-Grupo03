@@ -74,7 +74,8 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 - Espera **linguagem humana e simples**: em vez de "Aguardando manifestação do fornecedor dentro do prazo estipulado em lei", quer ler algo como "A empresa tem até 10 dias para responder. Te avisamos quando chegar uma resposta."
 - Espera que o design seja **limpo e sem poluição visual** — sem banners, sem menus escondidos, sem excesso de texto.
 
-> **Responsável por este artefato:** A **Persona Primária Laura** foi criada por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade, que inclui também a [Funcionalidade](funcionalidades.md), o [Perfil de Usuário](perfil-usuario.md), os [Cenários](cenarios.md) e a [Análise de Tarefas](analise-tarefas.md).
+!!! info "Responsável por este artefato"
+    A **Persona Primária Laura** foi criada por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Cenários](cenarios.md) · [Análise de Tarefas](analise-tarefas.md).
 ---
 
 ### 2.2. Persona Primária: [Nome Completo da Persona]

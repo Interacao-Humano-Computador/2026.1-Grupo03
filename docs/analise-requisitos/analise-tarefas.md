@@ -90,7 +90,8 @@ Os principais **operadores de relação** utilizados são:
 
 *Figura 3 — Representação textual hierárquica da árvore CTT: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo (2026).*
 
-> **Responsável por este artefato:** Este documento foi elaborado por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade, que inclui também a [Funcionalidade](funcionalidades.md), o [Perfil de Usuário](perfil-usuario.md), as [Personas](personas.md) e os [Cenários](cenarios.md).
+!!! info "Responsável por este artefato"
+    Este documento foi elaborado por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
 
 ---
 
