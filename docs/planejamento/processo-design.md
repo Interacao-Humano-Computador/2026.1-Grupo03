@@ -16,15 +16,21 @@ Alguns dos modelos de Processo de Design estudados em sala de aula são citados 
 
 ## Ciclo de Vida Simples
 
+Desenvolvido por Sharp, Preece e Rogers, este é um processo de design centrado no usuário, com uso do desenvolvimento de versões interativas da proposta de solução e da iteração entre atividades, nesse processo as atividades não seguem uma ordem específica, podendo-se retornar para qualquer atividade do processo conforme a necessidade e a iteração entre elas pode ocorrer quantas vezes forem necessárias (BARBOSA; SILVA, 2021).
+
 <div align="center">
   <p>Figura 1 - Representação Gráfica do Modelo Simples</p>
   <img src="../images/processo-design/Modelo_Simples.png" alt="Modelo Simples">
   <p markdown><b>Fonte: Barbosa e Silva (2021)</b><sup><a href="#ref-barbosa">[1]</a></sup></p>
 </div>
 
-Desenvolvido por Sharp, Preece e Rogers, este é um processo de design centrado no usuário, com uso do desenvolvimento de versões interativas da proposta de solução e da iteração entre atividades, nesse processo as atividades não seguem uma ordem específica, podendo-se retornar para qualquer atividade do processo conforme a necessidade e a iteração entre elas pode ocorrer quantas vezes forem necessárias (BARBOSA; SILVA, 2021).
+
 
 ## Ciclo de Vida em Estrela
+
+Desenvolvido por Hix e Hartson, esse processo possui seis atividades, sendo a avaliação a atividade central. A ordem da execução das atividades é de discrição do designer de acordo com a sua intenção (BARBOSA; SILVA, 2021).
+
+Segundo Barbosa e Silva (2021), esse modelo a atividade de síntese é segmentada nas atividades de projeto conceitual e **especificação do design**, **prototipação** e **implementação**.
 
 <div align="center">
   <p>Figura 2 - Representação Gráfica do Modelo em Estrela</p>
@@ -32,17 +38,9 @@ Desenvolvido por Sharp, Preece e Rogers, este é um processo de design centrado 
   <p markdown><b>Fonte: Barbosa e Silva (2021)</b><sup><a href="#ref-barbosa">[1]</a></sup></p>
 </div>
 
-Desenvolvido por Hix e Hartson, esse processo possui seis atividades, sendo a avaliação a atividade central. A ordem da execução das atividades é de discrição do designer de acordo com a sua intenção (BARBOSA; SILVA, 2021).
 
-Segundo Barbosa e Silva (2021), esse modelo a atividade de síntese é segmentada nas atividades de projeto conceitual e **especificação do design**, **prototipação** e **implementação**.
 
 ## Ciclo de Vida Mayhew
-
-<div align="center">
-  <p>Figura 3 - Representação Gráfica do Modelo Mayhew</p>
-  <img src="../images/processo-design/Modelo_Mayhew.png" alt="Modelo Mayhew">
-  <p markdown><b>Fonte: Barbosa e Silva (2021)</b><sup><a href="#ref-barbosa">[1]</a></sup></p>
-</div>
 
 Segundo Barbosa e Silva (2021), o ciclo de vida de Mayhew organiza atividades clássicas de IHC em um processo iterativo com três fases: análise de requisitos; design, avaliação e desenvolvimento; e instalação. Essas fases podem ser descritas da seguinte forma:
 
@@ -53,6 +51,14 @@ Segundo Barbosa e Silva (2021), o ciclo de vida de Mayhew organiza atividades cl
   - No segundo, são definidos padrões de design e desenvolvidos protótipos de média fidelidade.
   - No terceiro, é elaborado o projeto com interface detalhada e de alta fidelidade.
 - **Instalação:** Após o uso, são coletadas opiniões dos usuários para consolidar melhorias no sistema (BARBOSA; SILVA, 2021).
+
+<div align="center">
+  <p>Figura 3 - Representação Gráfica do Modelo Mayhew</p>
+  <img src="../images/processo-design/Modelo_Mayhew.png" alt="Modelo Mayhew">
+  <p markdown><b>Fonte: Barbosa e Silva (2021)</b><sup><a href="#ref-barbosa">[1]</a></sup></p>
+</div>
+
+
 
 ## Processo de Design Selecionado: Engenharia de Usabilidade de Nielsen
 
