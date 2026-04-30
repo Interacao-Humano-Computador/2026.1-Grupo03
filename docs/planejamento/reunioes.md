@@ -31,6 +31,7 @@ O documento contempla os seguintes campos obrigatórios:
 |:---:|:---|:---|:---:|
 | 10/04/2026 | Planejamento inicial e planejamento de entregas | [Ver Ata](../atas/Ata%20de%20Reunião_%20Planejamento%20de%20Entrega%20e%20Delegação%20de%20Tarefas%20-%20Etapa%201.pdf){: target="_blank" } | [🔗 Assistir no YouTube](https://youtu.be/7vW947sGqoY) |
 | 12/04/2026 | Revisão de entrega da Etapa 1 | [Ver Ata](../atas/Ata_de_Reuniao_de_Revisao.pdf){: target="_blank" } | [🔗 Assistir no YouTube](https://youtu.be/OJo83qvdmno) |
+| 29/04/2026 | Alinhamento para Entrega 02 — delegação de tarefas e planejamento do Grupo de Foco | [Ver Ata](../atas/ATA_REUNIÃO_DE_ALINHAMENTO_PARA_ENTREGA%2002.pdf){: target="_blank" } | [🔗 Assistir no YouTube](https://youtu.be/Z8Uwbz5rrN0) |
 
 ## Agradecimentos à IA
 
@@ -47,6 +48,7 @@ Agradecimento ao Gemini pela ajuda na geração das atas de reunião.
 
 | Versão | Data | Descrição | Autor | Revisor |
 |:---|:---|:---|:---|:---|
+| 1.3 | 30/04/2026 | Adição da ata e gravação da reunião de alinhamento para Entrega 02 (29/04/2026). | Heitor Macedo Ricardo | Pedro Moretti |
 | 1.2 | 16/04/2026 | Adição da seção "Introdução" e da seção "Modelo de Ata Utilizado" com tabela de campos e link para o PDF do modelo. | Heitor Macedo Ricardo | Pedro Moretti |
 | 1.1 | 12/04/2026 | Adição da reunião de revisão da Etapa 1 (12/04/2026) | Heitor Macedo Ricardo | Pedro Moretti |
 | 1.0 | 11/04/2026 | Atualização da introdução, adição da ata da reunião de 10/04/2026 e criação do histórico de versões. | Heitor Macedo Ricardo | Eduardo Valadares |

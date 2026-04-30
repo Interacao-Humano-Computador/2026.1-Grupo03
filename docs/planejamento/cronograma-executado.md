@@ -25,12 +25,13 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Atividade Extraída do Plano de Ensino | Integrante Responsável | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Data | Status |
     | :--- | :---: | :---: | :--- | :---: | :---: |
-    | **Perfil de Usuário**<br>*(Técnicas de coleta e resultados)* | [Nome do Autor](../equipe/equipe.md) | [Nome do Revisor](../equipe/equipe.md) | [📄 Perfil de Usuário](../analise-requisitos/perfil-usuario.md) | DD/MM | 🔄 Em Andamento |
-    | **Personas**<br>*(Elenco de personas primárias e secundárias)* | [Nome do Autor](../equipe/equipe.md) | [Nome do Revisor](../equipe/equipe.md) | [📄 Personas](../analise-requisitos/personas.md) | DD/MM | 🔄 Em Andamento |
-    | **Cenários**<br>*(Cenários de uso baseados nas personas)* | [Nome do Autor](../equipe/equipe.md) | [Nome do Revisor](../equipe/equipe.md) | [📄 Cenários](../analise-requisitos/cenarios.md) | DD/MM | 🔄 Em Andamento |
-    | **Análise de Tarefas**<br>*(HTA e técnica complementar)* | [Nome do Autor](../equipe/equipe.md) | [Nome do Revisor](../equipe/equipe.md) | [📄 Análise de Tarefas](../analise-requisitos/analise-tarefas.md) | DD/MM | 🔄 Em Andamento |
-    | **Artefatos de Validação**<br>*(Lista de Verificação Etapa 2)* | [Nome do Autor](../equipe/equipe.md) | [Nome do Revisor](../equipe/equipe.md) | [📄 Verificação Etapa 2](../analise-requisitos/verificacao-etapa2.md) | DD/MM | 🔄 Em Andamento |
-    | **Apresentação da Etapa 2**<br>*(Gravação e publicação no YouTube)* | [Nome do Autor](../equipe/equipe.md) | [Nome do Revisor](../equipe/equipe.md) | [🎥 Vídeo — YouTube](#) | DD/MM | 🔄 Em Andamento |
+    | **Perfil de Usuário**<br>*(Técnicas de coleta e resultados)* | [Heitor Macedo](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [📄 Perfil de Usuário](../analise-requisitos/perfil-usuario.md) | 30/04 | ✅ Concluído |
+    | **Personas**<br>*(Elenco de personas primárias e secundárias)* | [Heitor Macedo](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [📄 Personas](../analise-requisitos/personas.md) | 30/04 | ✅ Concluído |
+    | **Cenários**<br>*(Cenários de uso baseados nas personas)* | [Heitor Macedo](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [📄 Cenários](../analise-requisitos/cenarios.md) | 30/04 | ✅ Concluído |
+    | **Análise de Tarefas**<br>*(HTA e CTT)* | [Heitor Macedo](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [📄 Análise de Tarefas](../analise-requisitos/analise-tarefas.md) | 30/04 | ✅ Concluído |
+    | **Funcionalidade: Portal de Notificações**<br>*(Declaração e justificativa da funcionalidade)* | [Heitor Macedo](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [📄 Funcionalidades](../analise-requisitos/funcionalidades.md) | 30/04 | ✅ Concluído |
+    | **Artefatos de Validação**<br>*(Lista de Verificação Etapa 2)* | [A definir](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [📄 Verificação Etapa 2](../analise-requisitos/verificacao-etapa2.md) | DD/MM | 🔄 Em Andamento |
+    | **Apresentação da Etapa 2**<br>*(Gravação e publicação no YouTube)* | [A definir](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [🎥 Vídeo — YouTube](#) | DD/MM | 🔄 Em Andamento |
 
 === "Etapa 3"
     > *Atividades a serem preenchidas via Atas e desdobramentos futuros do projeto.*
@@ -55,15 +56,16 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
     | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-    | **Perfil de Usuário** | — | — | — | — | — | — |
-    | **Personas** | — | — | — | — | — | — |
-    | **Cenários** | — | — | — | — | — | — |
-    | **Análise de Tarefas** | — | — | — | — | — | — |
+    | **Perfil de Usuário** | — | ✍️ | — | — | — | — |
+    | **Personas** (1 persona primária — Laura) | — | ✍️ | — | — | — | — |
+    | **Cenários** (1 cenário — Laura) | — | ✍️ | — | — | — | — |
+    | **Análise de Tarefas** (HTA + CTT) | — | ✍️ | — | — | — | — |
+    | **Funcionalidade: Portal de Notificações** | — | ✍️ | — | — | — | — |
     | **Lista de Verificação (Etapa 2)** | — | — | — | — | — | — |
-    | **Total de documentos criados** | 0 | 0 | 0 | 0 | 0 | 0 |
+    | **Total de documentos criados** | 0 | 5 | 0 | 0 | 0 | 0 |
     | **Total de documentos revisados** | 0 | 0 | 0 | 0 | 0 | 0 |
 
-    *Nota: Preencha as células com ✍️ (autor) ou 🔍 (revisor) conforme a contribuição de cada integrante. Atualize os totais ao finalizar os artefatos.*
+    *Legenda: ✍️ Autor | 🔍 Revisor. Nota: Heitor elaborou em 30/04/2026: Perfil de Usuário, Persona Primária Laura, Cenário 1, Análise de Tarefas (HTA + CTT) e declaração da Funcionalidade de Notificações Ativas.*
 
 === "Etapa 3"
     > *Resumo a ser preenchido após a conclusão da Etapa 3.*
@@ -85,3 +87,4 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
 | `1.0` | 12/04/2026 | Criação do documento com o Cronograma Executado (Etapa 1) e o Resumo Quantitativo da Equipe, extraídos do Dashboard de Gestão (index.md). | Heitor Macedo Ricardo | Heloisa Silva |
+| `1.1` | 30/04/2026 | Atualização da Etapa 2 com artefatos entregues por Heitor Macedo (Perfil de Usuário, Persona Laura, Cenário 1, Análise de Tarefas HTA+CTT, Funcionalidade de Notificações). | Heitor Macedo Ricardo | A definir |

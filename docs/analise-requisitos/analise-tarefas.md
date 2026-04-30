@@ -1,154 +1,108 @@
-# Análise de Tarefas
+# Análise de Tarefas: Acompanhamento de Reclamação
 
 ## Introdução
 
-A análise de tarefas é uma etapa fundamental na análise de requisitos de sistemas interativos. Ela tem como objetivo compreender como os usuários realizam seu trabalho, identificando as tarefas que executam, as estruturas que as organizam e os recursos cognitivos e de informação necessários. Segundo Barbosa e Silva (2021), a análise de tarefas pode ser utilizada tanto para analisar um sistema existente quanto para planejar um sistema novo, e deve ser realizada com base em dados reais coletados junto aos usuários.
+A Análise de Tarefas é uma etapa fundamental na engenharia de requisitos de sistemas interativos. Segundo Barbosa e Silva (2021), seu objetivo é compreender **como os usuários realizam seu trabalho, quais atividades executam e por quê**, identificando as estruturas que organizam as tarefas, os recursos cognitivos necessários e as possíveis fontes de erro. Ela pode ser aplicada tanto para avaliar sistemas existentes quanto para orientar o design de novos sistemas, e deve ser fundamentada em dados reais coletados junto aos usuários — como os obtidos no Grupo de Foco realizado com a Persona Laura em 30/04/2026.
 
-Neste documento, são utilizadas as seguintes técnicas de análise de tarefas:
+Neste documento são aplicadas duas técnicas de modelagem complementares:
 
-- **Análise Hierárquica de Tarefas (HTA — *Hierarchical Task Analysis*):** técnica que decompõe as tarefas dos usuários em subtarefas até o nível de operações elementares, organizadas hierarquicamente.
-- **[Técnica Complementar — ex: GOMS ou CTT]:** *(descreva brevemente a segunda técnica aqui, se utilizada).*
+- **Análise Hierárquica de Tarefas (HTA):** decompõe o objetivo principal do usuário em subobjetivos e operações elementares, organizados hierarquicamente, identificando problemas e recomendações em cada nível (Barbosa e Silva, 2021, p. 165–166).
+- **Árvores de Tarefas Concorrentes (CTT):** classifica cada tarefa por tipo (Usuário, Sistema, Interativa ou Abstrata) e modela as relações de ordem, ativação e concorrência entre elas (Barbosa e Silva, 2021, p. 173–174).
 
-<!-- 
-    INSTRUÇÃO: Adapte a introdução ao contexto do sistema avaliado e mencione
-    quais tarefas foram analisadas e com base em quais fontes (observação, entrevista, etc.).
--->
+A tarefa analisada é: **"Acessar o andamento da reclamação via notificação ativa e tomar uma decisão sobre a proposta da empresa"**, modelada com base na Persona Primária **Laura** e na funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas*.
 
 ---
 
-## Análise Hierárquica de Tarefas (HTA)
+## 1. Análise Hierárquica de Tarefas (HTA)
 
-A Análise Hierárquica de Tarefas (HTA - *Hierarchical Task Analysis*) examina as tarefas complexas que requerem planejamento e resolução de problemas. Foi desenvolvida na década de 1960 para entender as competências e treinamentos necessários para tarefas não repetitivas (BARBOSA; SILVA, 2021). A HTA decompõe os objetivos dos usuários em subobjetivos, organizados hierarquicamente, e relaciona cada operação ao contexto em que é realizada.
-
-<!-- 
-    INSTRUÇÃO: Para cada tarefa analisada com HTA, siga o padrão abaixo:
-    1. Insira o diagrama HTA (imagem exportada do Miro, Figma, Draw.io, etc.)
-    2. Preencha a tabela de representação textual da HTA
-    Duplique os blocos abaixo conforme o número de tarefas analisadas.
--->
-
----
-
-### HTA 1 — [Título da Tarefa Analisada]
-
-<!-- 
-    INSTRUÇÃO: Descreva em 2-3 frases o objetivo geral desta tarefa e por que ela foi escolhida para análise.
--->
-
-**Diagrama HTA:**
+A **Análise Hierárquica de Tarefas** (*Hierarchical Task Analysis* — HTA) é uma técnica que examina tarefas complexas que requerem planejamento e resolução de problemas. Ela parte de um **objetivo de alto nível** e o decompõe recursivamente em **subobjetivos** e, por fim, em **operações** elementares — ações que não se subdividem mais. A cada nível, um **plano** descreve como os subobjetivos se relacionam (sequência, seleção ou concorrência). A técnica também documenta os **problemas** potenciais de cada operação e as **recomendações** de IHC para mitigá-los (BARBOSA; SILVA, 2021, p. 165–166).
 
 <p align="center">
-  <img src="../images/analise-tarefas/hta1.png" alt="Diagrama HTA — [Título da Tarefa]" width="700">
-  <br><em>Figura 1 — Diagrama HTA: [Título da Tarefa]. Fonte: Elaborado pelos autores (2026).</em>
+  <img src="../images/HTA-Heitor.png" alt="Diagrama HTA — Acompanhar reclamação e responder proposta" width="750">
+  <br><em>Figura 1 — Diagrama HTA: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo com auxílio do Mermaid.js (2026).</em>
 </p>
 
-<!-- 
-    INSTRUÇÃO: Caso o diagrama ainda não tenha sido produzido, substitua a imagem por:
-    > **[DIAGRAMA A SER INSERIDO]** — Exporte o diagrama como .png e salve em docs/images/analise-tarefas/
--->
+**Tabela de Representação HTA — Acompanhar reclamação e responder proposta:**
 
-**Tabela de Representação HTA:**
+| Objetivos / Operações | Problemas e Recomendações | Plano |
+| :--- | :--- | :--- |
+| **0.** Acompanhar reclamação e responder à proposta da empresa | — | Plano 0: 1 >> 2 >> 3 (sequência obrigatória) |
+| **1.** Acessar o portal via notificação ativa | — | Plano 1: 1.1 >> 1.2 (sequência) |
+| **1.1** Receber e ler a notificação proativa (WhatsApp/SMS/e-mail) | **Problema:** notificação pode ser ignorada ou cair em spam. **Recomendação:** usar canal preferido pelo usuário (WhatsApp) e mensagem objetiva com o nome do usuário e número de protocolo. | — |
+| **1.2** Tocar no link seguro da notificação para abrir o painel | **Problema:** link expirado ou com tempo de sessão muito curto. **Recomendação:** links com validade mínima de 7 dias e autenticação simplificada por token (sem necessidade de senha). | — |
+| **2.** Interpretar o status e a proposta da empresa | — | Plano 2: 2.1 >> 2.2 (sequência) |
+| **2.1** Visualizar a linha do tempo do processo | **Problema:** uso de jargões jurídicos (ex: "manifestação do fornecedor") pode confundir o usuário leigo. **Recomendação:** linguagem simples e direta em todas as etapas, com exemplos concretos de prazos (ex: "A empresa tem 5 dias para responder"). | — |
+| **2.2** Ler o resumo da proposta em linguagem simples | **Problema:** proposta longa ou com termos técnicos pode levar ao abandono. **Recomendação:** o sistema deve gerar um resumo automático em até 3 linhas, destacando o valor e a condição da proposta. | — |
+| **3.** Registrar decisão sobre a proposta | — | Plano 3: [3.1] ou [3.2] (seleção exclusiva) |
+| **3.1** Aceitar a proposta da empresa | **Problema:** usuário pode aceitar sem entender as implicações (ex: não haverá reabertura do processo). **Recomendação:** exibir um aviso claro antes da confirmação: "Ao aceitar, o processo será encerrado." | — |
+| **3.2** Recusar a proposta e continuar o processo | **Problema:** usuário pode não saber o que acontecerá após a recusa. **Recomendação:** após a recusa, o sistema deve informar o próximo passo ("O PROCON analisará o impasse e poderá convocar uma audiência"). | — |
 
-<!-- 
-    INSTRUÇÃO: Preencha a tabela com base na decomposição hierárquica.
-    - "Objetivos/Operações": numerados hierarquicamente (ex: 0, 1, 1.1, 1.2, 2, 2.1...)
-    - "Problemas e Recomendações": identifique dificuldades observadas e proponha melhorias.
-    - "Input": dados/informações necessárias para a operação.
-    - "Feedback": retorno do sistema ao usuário após a operação.
-    - "Plano": como as suboperações se relacionam (ex: sequência, seleção, paralelo).
--->
-
-| Objetivos / Operações | Problemas e Recomendações | Input | Feedback | Plano |
-| :--- | :--- | :--- | :--- | :--- |
-| **0.** [Objetivo principal da tarefa] | — | — | — | Plano 0: [ex: sequência 1 > 2 > 3] |
-| **1.** [Subtarefa 1] | [Ex: Nenhum / Descrição do problema] | [Ex: Dados do usuário] | [Ex: Mensagem de boas-vindas] | Plano 1: [ex: 1.1 > 1.2] |
-| **1.1** [Operação elementar] | [Ex: Dificuldade de localizar o campo] | [Ex: Nome e CPF] | [Ex: Campo preenchido com sucesso] | — |
-| **1.2** [Operação elementar] | — | [Ex: E-mail e senha] | [Ex: Usuário autenticado] | — |
-| **2.** [Subtarefa 2] | [Ex: Interface pouco intuitiva] | [Ex: ...] | [Ex: ...] | Plano 2: [ex: 2.1 > 2.2 > 2.3] |
-| **2.1** [Operação elementar] | — | [Ex: ...] | [Ex: ...] | — |
-| **2.2** [Operação elementar] | — | [Ex: ...] | [Ex: ...] | — |
-| **3.** [Subtarefa 3] | — | [Ex: ...] | [Ex: ...] | — |
-
-*Tabela 1 — Representação textual do HTA: [Título da Tarefa]. Fonte: Elaborado pelos autores (2026).*
+*Tabela 1 — Representação textual do HTA: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo (2026).*
 
 ---
 
-### HTA 2 — [Título da Tarefa Analisada] *(se houver)*
+## 2. Árvores de Tarefas Concorrentes (CTT)
 
-**Diagrama HTA:**
+As **Árvores de Tarefas Concorrentes** (*ConcurTaskTrees* — CTT) são uma técnica de modelagem que classifica cada tarefa em um de quatro tipos e modela as relações de ordem e concorrência entre elas. Os quatro tipos de tarefa são (BARBOSA; SILVA, 2021, p. 173–174):
+
+| Ícone | Tipo | Descrição |
+| :---: | :--- | :--- |
+| 👤 | **Tarefa do Usuário** | Realizada mentalmente, sem interação direta com o sistema. |
+| 💻 | **Tarefa do Sistema** | Executada automaticamente pelo sistema, sem ação do usuário. |
+| 🖱️ | **Tarefa Interativa** | Envolve interação direta entre usuário e sistema (ação + feedback). |
+| ☁️ | **Tarefa Abstrata** | Decompõe-se em subtarefas; não é executada diretamente. |
+
+Os principais **operadores de relação** utilizados são:
+
+- `>>` Ativação (T1 deve ser completada antes de T2 iniciar)
+- `[]` Escolha (T1 ou T2, mutuamente exclusivas)
+- `=` Concorrência (T1 e T2 podem ocorrer em qualquer ordem)
+- `[]>>` Ativação com passagem de informação (T1 ativa T2 e envia dados)
 
 <p align="center">
-  <img src="../images/analise-tarefas/hta2.png" alt="Diagrama HTA — [Título da Tarefa]" width="700">
-  <br><em>Figura 2 — Diagrama HTA: [Título da Tarefa]. Fonte: Elaborado pelos autores (2026).</em>
+  <img src="../images/CTT-Heitor.drawio.png" alt="Árvore CTT — Acompanhar reclamação e responder proposta" width="750">
+  <br><em>Figura 2 — Árvore CTT: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo com auxílio do Draw.io (2026).</em>
 </p>
 
-**Tabela de Representação HTA:**
+**Representação textual hierárquica do CTT:**
 
-| Objetivos / Operações | Problemas e Recomendações | Input | Feedback | Plano |
-| :--- | :--- | :--- | :--- | :--- |
-| **0.** [Objetivo principal] | — | — | — | Plano 0: [...] |
-| **1.** [Subtarefa 1] | [...] | [...] | [...] | Plano 1: [...] |
-| **1.1** [Operação elementar] | [...] | [...] | [...] | — |
-| **2.** [Subtarefa 2] | [...] | [...] | [...] | Plano 2: [...] |
+```
+☁️ T0 — Acompanhar reclamação e responder à proposta
+   [Plano: T1 >> T2 >> T3]
+   │
+   ├── ☁️ T1 — Acessar portal via notificação ativa
+   │    [Plano: T1.1 []>> T1.2]
+   │    ├── 💻 T1.1 — Sistema envia notificação proativa (WhatsApp/SMS/e-mail)
+   │    └── 🖱️ T1.2 — Usuário toca no link da notificação e o sistema abre o painel
+   │
+   ├── ☁️ T2 — Interpretar status e proposta da empresa
+   │    [Plano: T2.1 >> T2.2]
+   │    ├── 💻 T2.1 — Sistema exibe linha do tempo do processo com status descritivo
+   │    └── 👤 T2.2 — Usuário lê e interpreta o resumo da proposta da empresa
+   │
+   └── ☁️ T3 — Registrar decisão
+        [Plano: T3.1 [] T3.2  (escolha exclusiva)]
+        ├── 🖱️ T3.1 — Usuário seleciona "Aceitar" e confirma
+        │    └── 💻 T3.1a — Sistema registra aceite, notifica empresa e envia confirmação ao usuário
+        └── 🖱️ T3.2 — Usuário seleciona "Recusar" e confirma
+             └── 💻 T3.2a — Sistema registra recusa e informa o próximo passo do processo
+```
 
-*Tabela 2 — Representação textual do HTA: [Título da Tarefa]. Fonte: Elaborado pelos autores (2026).*
+*Figura 3 — Representação textual hierárquica da árvore CTT: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo (2026).*
 
----
-
-## Técnica Complementar — [GOMS / CTT / Outra]
-
-<!-- 
-    INSTRUÇÃO: Escolha UMA técnica complementar (GOMS ou CTT são as mais comuns em IHC).
-    Descreva brevemente o método escolhido e por que ele complementa a HTA neste contexto.
-    Duplique o bloco de tarefa abaixo quantas vezes forem necessárias.
-    
-    → Se optar por GOMS (Goals, Operators, Methods, Selection Rules):
-       Estruture o conteúdo em: Goal, Operators, Methods e Selection Rules para cada tarefa.
-    
-    → Se optar por CTT (ConcurTaskTrees):
-       Insira o diagrama da árvore de tarefas concorrentes e descreva os operadores utilizados.
--->
-
-**Descrição da Técnica:**
-<!-- Cite a referência bibliográfica da técnica utilizada e explique sua estrutura básica. -->
+> **Responsável por este artefato:** Este documento foi elaborado por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade, que inclui também a [Funcionalidade](funcionalidades.md), o [Perfil de Usuário](perfil-usuario.md), as [Personas](personas.md) e os [Cenários](cenarios.md).
 
 ---
 
-### [Técnica] — Tarefa 1: [Título da Tarefa]
+## Agradecimentos à IA
 
-<!-- 
-    Exemplo para GOMS:
-    
-    **Goal:** [Objetivo principal da tarefa]
-    **Method:**
-      - Step 1: [Ação do usuário]
-      - Step 2: [Ação do usuário]
-      - Step 3: [Ação do usuário]
-    **Operators:** [Listar os operadores cognitivos e/ou motores envolvidos]
-    **Selection Rules:** [Quando utilizar este método em detrimento de outro?]
-    
-    ----
-    
-    Exemplo para CTT:
-    
-    **Diagrama CTT:**
-    [Inserir imagem do diagrama aqui]
-    
-    **Descrição dos operadores utilizados:**
-    | Tarefa | Tipo | Operador | Descrição |
-    | :--- | :--- | :--- | :--- |
-    | [Tarefa X] | [Temporária/Abstrata/Interativa/Mental] | [ex: >> (sequência)] | [...] |
--->
-
-**[Estrutura da técnica escolhida — preencher conforme modelo acima]**
+Agradecimento ao **Gemini** pela ajuda na estruturação e redação da Análise de Tarefas deste documento.
 
 ---
 
 ## Referências
 
 > 1. BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021.
-> 2. <!-- CARD, Stuart K.; MORAN, Thomas P.; NEWELL, Allen. *The Psychology of Human-Computer Interaction*. Hillsdale: Lawrence Erlbaum Associates, 1983. [Referência GOMS] -->
-> 3. <!-- Adicionar demais referências utilizadas no formato ABNT -->
 
 ---
 
@@ -156,4 +110,4 @@ A Análise Hierárquica de Tarefas (HTA - *Hierarchical Task Analysis*) examina 
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.0` | DD/MM/AAAA | Criação do documento com análise de tarefas (Etapa 2). | [Nome do Autor] | [Nome do Revisor] |
+| `1.0` | 30/04/2026 | Elaboração da Análise de Tarefas com HTA e CTT para a funcionalidade de Acompanhamento de Reclamação. | Heitor Macedo Ricardo | A definir |

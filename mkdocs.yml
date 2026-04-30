@@ -59,8 +59,9 @@ nav:
   - Inspeção:
     - Entrega 01: inspecoes/entrega01.md
     - Grupo +1 (Etapa 1): inspecoes/grupo04.md
-  - Análise de Requisitos:
+  - Perfil de Usuário:
     - Perfil de Usuário: analise-requisitos/perfil-usuario.md
+    - Funcionalidades: analise-requisitos/funcionalidades.md
     - Personas: analise-requisitos/personas.md
     - Cenários: analise-requisitos/cenarios.md
     - Análise de Tarefas: analise-requisitos/analise-tarefas.md
