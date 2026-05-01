@@ -4,47 +4,132 @@
 
 Cenários são narrativas textuais ricas em detalhes contextuais que descrevem situações concretas de uso de um sistema, envolvendo personas específicas, seus objetivos, o ambiente em que atuam e a sequência de interações que realizam. Segundo Barbosa e Silva (2021, p. 158), um cenário é uma ferramenta fundamental para explorar ideias de design antes que o sistema seja construído, pois permite avaliar se a solução proposta satisfaz as necessidades reais dos usuários ao situá-los em situações verossímeis do cotidiano. Um bom cenário deve conter sete elementos obrigatórios: **ambiente ou contexto**, **atores**, **objetivos**, **planejamento**, **ações**, **eventos** e **avaliação**.
 
-Os cenários deste projeto foram elaborados com base na Persona Primária **Laura** e na funcionalidade central da Etapa 2: o **Portal de Acompanhamento de Reclamações com Notificações Ativas**. Ao todo, foram produzidos **2 cenários**: o Cenário 1 modela o uso da funcionalidade de notificação proativa por Laura, e o Cenário 2 permanece como esqueleto a ser preenchido.
+Os cenários deste projeto foram elaborados com foco na funcionalidade de **Sala de Conciliação Virtual com Mediação Assistida**, integrando as necessidades dos perfis de consumidor e fornecedor identificados nas etapas anteriores.
 
 ---
 
-## Cenário 1: Laura e a Notificação de Andamento do Processo
+## Cenário 1: Lucas, Gustavo e a Resolução Virtual de Conflito
 
 ### Narrativa
 
-Era uma terça-feira à tarde quando Laura, sentada no banco de um corredor da Universidade de Brasília esperando o intervalo acabar, desbloqueou o celular distraidamente para ver as notificações. Entre as atualizações das redes sociais, havia uma mensagem no WhatsApp com o remetente identificado como "PROCON-DF": *"Olá, Laura! A empresa Telecom Express respondeu à sua reclamação (Protocolo #2026-48321). Toque aqui para ver a proposta dela e nos dizer o que você decide."*
+Era uma segunda-feira, 10h da manhã. Lucas Silva estava em seu apartamento em Taguatinga, sentado diante de seu setup de alta performance rodando Manjaro Linux. Ele havia agendado uma audiência virtual com a "Panificadora do Guará" para resolver um problema de uma encomenda de grande porte paga via Pix que nunca foi entregue corretamente. Enquanto isso, Gustavo Santos, proprietário da panificadora, estava nos fundos do seu estabelecimento. Em vez de ter que fechar a loja e se deslocar por 40 minutos até o Setor Comercial Sul, ele simplesmente lavou as mãos, abriu o notebook no escritório e clicou no link recebido via e-mail.
 
-Laura coçou a cabeça — ela havia aberto a reclamação havia quase três semanas e, desde então, não tinha mais entrado no site do PROCON porque era trabalhoso demais ficar tentando lembrar a senha e caçar onde ficava a opção de acompanhamento. Aliviada por não ter que fazer isso desta vez, ela tocou no link da mensagem. O navegador abriu um painel limpo e direto, que mostrava a linha do tempo do processo dela: *Reclamação registrada* → *Empresa notificada* → *Empresa respondeu* (marcado em verde, com a data de hoje) → *Aguardando sua decisão* → *Encerramento*. Abaixo da linha do tempo, um resumo em linguagem simples descrevia o que a empresa propôs — devolver os R$ 89,90 cobrados indevidamente e cancelar a cobrança futura — sem uma única palavra jurídica que ela não soubesse o que significava.
+Ao entrarem na **Sala de Conciliação Virtual**, ambos passaram por um check-up automático de hardware. O mediador do PROCON-DF iniciou a sessão de vídeo. Lucas, com sua exigência técnica, ficou satisfeito ao ver uma interface limpa, sem os banners de notícias que poluíam o site antigo. O mediador compartilhou a tela exibindo o "Termo de Acordo" em tempo real. Gustavo explicou que houve uma falha na logística de entrega devido a um problema no forno, mas propôs o estorno imediato de 100% do valor acrescido de um voucher de cortesia.
 
-Laura leu o resumo duas vezes. Entendeu na primeira, releu só para ter certeza. O sistema apresentava dois botões evidentes: *"Aceitar a proposta"* e *"Recusar e continuar o processo"*. Ela tocou em *"Aceitar"*, confirmou sua decisão na tela seguinte e recebeu imediatamente uma mensagem de confirmação, também pelo WhatsApp: *"Decisão registrada! O PROCON-DF vai comunicar a empresa. Em até 5 dias úteis, a operadora deverá realizar o estorno."* Todo o processo, do momento em que tocou na notificação até a confirmação, levou menos de três minutos.
-
-Ela guardou o celular satisfeita. Não tinha precisado logar em nada com senha, não tinha precisado ler um PDF de legislação, não tinha precisado ligar para nenhum número de atendimento. O processo tinha funcionado — e o mais surpreendente para Laura foi ter descoberto apenas por causa de uma mensagem que o sistema enviou para ela, sem que ela tivesse que correr atrás.
+Lucas concordou. O mediador editou as cláusulas ali mesmo, na frente de ambos. Não houve necessidade de imprimir nada. Um botão azul **"Assinar com Gov.br"** apareceu para os dois. Lucas usou o leitor de digital do seu celular para autenticar a assinatura, e Gustavo fez o mesmo. Em 20 minutos, a audiência foi encerrada. Lucas voltou ao seu trabalho de desenvolvedor e Gustavo voltou para a linha de produção, sentindo que o sistema finalmente respeitava o tempo de quem produz.
 
 ---
 
 ### Análise dos Elementos do Cenário
 
-Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios de um cenário estão presentes na narrativa acima da seguinte forma:
+Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário estão presentes na narrativa acima:
 
-- **Ambiente ou contexto:** Corredor da Universidade de Brasília, durante o intervalo de uma tarde de terça-feira. Laura usa seu smartphone pessoal com conexão de dados móveis. O contexto é informal, com pouco tempo disponível e baixa concentração — típico de uso mobile em trânsito.
-
-- **Atores:** Laura Mendes — jovem universitária de 22 anos, Persona Primária do projeto. Alta fluência tecnológica, leiga em Direito do Consumidor, foco exclusivo no smartphone, aversão a processos longos e burocráticos.
-
-- **Objetivos:** Verificar o andamento da reclamação aberta contra a operadora de telefonia (Telecom Express) pelo valor cobrado indevidamente, e registrar sua decisão sobre a proposta da empresa — resolvendo o caso de forma definitiva sem sair do celular.
-
-- **Planejamento:** Laura não havia planejado acessar o sistema naquele momento; a ação foi desencadeada pela notificação proativa recebida via WhatsApp. Sua atividade mental consistiu em avaliar a proposta da empresa, comparar com o que ela esperava receber, e decidir se o acordo era satisfatório — tudo dentro do painel, sem precisar de fontes externas.
-
-- **Ações:** (1) Receber e ler a notificação no WhatsApp; (2) tocar no link da mensagem; (3) visualizar a linha do tempo do processo; (4) ler o resumo da proposta da empresa em linguagem simples; (5) selecionar a opção "Aceitar a proposta"; (6) confirmar a decisão na tela seguinte; (7) ler a mensagem de confirmação enviada pelo sistema.
-
-- **Eventos:** (1) O sistema detecta que a empresa respondeu à reclamação e dispara automaticamente a notificação via WhatsApp; (2) o sistema serve o painel de acompanhamento no link acessado, renderizando a linha do tempo e o resumo da proposta em linguagem simples; (3) ao registrar a decisão de Laura, o sistema confirma o aceite e envia notificação de confirmação pelo WhatsApp; (4) o sistema registra o compromisso de estorno e comunica a empresa.
-
-- **Avaliação:** Laura sente-se aliviada e surpreendida positivamente com a eficiência do processo. A experiência superou sua expectativa porque ela *não precisou agir proativamente*: foi o sistema que a avisou, guiou e confirmou cada etapa. A ausência de jargão jurídico, a interface de linha do tempo e a fluidez mobile eliminaram as barreiras que normalmente a afastariam de um sistema governamental.
+- **Ambiente ou contexto:** Lucas em seu home office tecnológico em Taguatinga; Gustavo no escritório de sua panificadora no Guará. Ambos conectados via internet em ambiente profissional/doméstico.
+- **Atores:** Lucas Silva (Consumidor Exigente/Persona Primária) e Gustavo Santos (Microempreendedor/Persona Secundária), além do Mediador do PROCON.
+- **Objetivos:** Realizar a audiência de conciliação agendada, chegar a um consenso sobre o estorno de um pagamento e formalizar o acordo com validade jurídica.
+- **Planejamento:** Ambos se prepararam minutos antes, garantindo conexão estável e acesso aos documentos (comprovante Pix e relatório de entrega) para fundamentar seus argumentos durante a chamada.
+- **Ações:** (1) Acessar o link da sala; (2) realizar teste de periféricos; (3) expor os fatos via vídeo; (4) revisar o termo de acordo editado ao vivo; (5) realizar a assinatura digital via Gov.br.
+- **Eventos:** (1) O sistema valida a entrada das partes; (2) a plataforma gerencia o fluxo de áudio/vídeo e o chat de documentos; (3) o sistema integra o serviço de assinatura eletrônica do Governo Federal; (4) o sistema encerra o protocolo e envia o PDF assinado para os e-mails.
+- **Avaliação:** Lucas sentiu que a interface moderna e a agilidade do fluxo condizem com sua expectativa de eficiência tecnológica. Gustavo avaliou a experiência como essencial para sua rotina, permitindo resolver pendências jurídicas sem abandonar a gestão física de seu negócio.
 
 !!! info "Responsável por este artefato"
-    O **Cenário 1** foi elaborado por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Análise de Tarefas](analise-tarefas.md).
+    O **Cenário 1** foi elaborado por **Pedro Augusto Moretti Moreira**, responsável pela funcionalidade *Sala de Conciliação Virtual com Mediação Assistida*. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Análise de Tarefas](analise-tarefas.md).
+
 ---
 
-## Cenário 2 — [Título Descritivo do Cenário]
+## Cenário 2: Laura e a Conciliação Mobile-First no Intervalo da Aula
+
+### Contexto e Ambiente
+
+| Elemento | Descrição |
+| :--- | :--- |
+| **Ambiente** | Corredor do ICC Norte na UnB (ambiente ruidoso). |
+| **Data/Horário** | Terça-feira, às 15h45 (durante o intervalo entre aulas). |
+| **Dispositivo** | Smartphone pessoal (conexão 4G/5G). |
+| **Pré-condições** | Reclamação prévia contra operadora de telefonia com audiência marcada. |
+
+### Atores
+
+- **Ator Principal:** Laura Mendes — Estudante Universitária (Persona Primária).
+- **Ator Secundário:** Mediador do PROCON e Representante da Operadora.
+
+### Objetivos
+
+- **Objetivo Final:** Resolver cobrança indevida de R$ 89,90.
+- **Objetivos Intermediários:**
+    - Entrar na sala virtual sem precisar de login complexo.
+    - Ouvir a proposta da empresa via áudio.
+    - Aceitar e assinar o acordo rapidamente antes da próxima aula.
+
+### Planejamento
+
+> Laura planejou usar os 15 minutos de intervalo para resolver a pendência. Ela se posicionou em um local com melhor sinal de rede e usou fones de ouvido para mitigar o barulho ambiente.
+
+### Sequência de Ações
+
+1. Tocar na notificação do WhatsApp que contém o link de acesso direto.
+2. Permitir acesso à câmera e microfone no navegador do celular.
+3. Participar da discussão rápida mediada pelo agente do PROCON.
+4. Visualizar o resumo do acordo na tela otimizada para mobile.
+5. Clicar em "Assinar Acordo" e autenticar via biometria facial.
+
+### Eventos
+
+- O sistema adapta a interface de vídeo para o modo retrato do smartphone.
+- O mediador destaca os botões de ação para a usuária.
+- O sistema envia o comprovante de resolução imediatamente via WhatsApp.
+
+### Avaliação
+
+> Laura sente-se empoderada pela facilidade. A ausência de termos jurídicos complexos e a fluidez do sistema mobile permitiram que ela resolvesse um problema que parecia impossível sem comprometer sua rotina acadêmica.
+
+---
+
+## Cenário 3: Gustavo e o Gerenciamento de Acordos Pós-Conciliação
+
+### Contexto e Ambiente
+
+| Elemento | Descrição |
+| :--- | :--- |
+| **Ambiente** | Escritório administrativo da Panificadora. |
+| **Data/Horário** | Fim do expediente, às 18h30. |
+| **Dispositivo** | Computador Desktop (Monitor Philco). |
+| **Pré-condições** | Audiência finalizada com sucesso minutos antes. |
+
+### Atores
+
+- **Ator Principal:** Gustavo Santos — Microempreendedor (Persona Secundária).
+
+### Objetivos
+
+- **Objetivo Final:** Arquivar o termo de acordo e programar o estorno financeiro.
+- **Objetivos Intermediários:**
+    - Fazer o download do termo assinado.
+    - Verificar no dashboard se a pendência foi marcada como "Resolvida".
+
+### Planejamento
+
+> Gustavo decidiu organizar a papelada digital antes de fechar a loja. Ele quer garantir que a reclamação não conste mais como ativa no seu CNPJ.
+
+### Sequência de Ações
+
+1. Acessar o "Portal do Fornecedor" no site do PROCON-DF.
+2. Filtrar por "Processos Concluídos".
+3. Localizar o caso de Lucas Silva.
+4. Baixar o arquivo PDF com as assinaturas digitais acopladas.
+
+### Eventos
+
+- O Dashboard atualiza o status do fornecedor em tempo real.
+- O sistema gera um log de conformidade que Gustavo pode usar para seu controle contábil.
+
+### Avaliação
+
+> Gustavo sente que o portal agora é uma ferramenta de gestão útil, e não apenas um site de reclamações contra ele. A clareza das informações reduz sua ansiedade administrativa.
+
+---
+
+## Cenário 4 — [Título Descritivo do Cenário]
 
 ### Contexto e Ambiente
 
@@ -90,7 +175,7 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios de um cená
 
 ## Agradecimentos à IA
 
-Agradecimento ao **Gemini** pela ajuda na estruturação e redação dos cenários de interação deste documento.
+Agradecimento ao **Gemini** pela ajuda na estruturação, redação e detalhamento contextualmente rico dos cenários de interação, garantindo que as dores de Lucas, Laura e Gustavo fossem endereçadas.
 
 ---
 
@@ -104,4 +189,5 @@ Agradecimento ao **Gemini** pela ajuda na estruturação e redação dos cenári
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.0` | 30/04/2026 | Elaboração do Cenário 1 de interação — Acompanhamento de Reclamação (Persona Laura). | Heitor Macedo Ricardo | A definir |
+| `1.0` | 30/04/2026 | Elaboração do Cenário 1 (Persona Laura). | Heitor Macedo Ricardo | A definir |
+| `1.1` | 01/05/2026 | Reestruturação completa focada na Sala de Conciliação Virtual e inclusão das personas Lucas e Gustavo. | Pedro Augusto Moretti Moreira | A definir |

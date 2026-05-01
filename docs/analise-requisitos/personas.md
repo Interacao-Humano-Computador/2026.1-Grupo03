@@ -76,14 +76,73 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 !!! info "Responsável por este artefato"
     A **Persona Primária Laura** foi criada por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Cenários](cenarios.md) · [Análise de Tarefas](analise-tarefas.md).
+
 ---
 
-### 2.2. Persona Primária: [Nome Completo da Persona]
+### 2.2. Persona Primária: Lucas, o Consumidor Exigente
+
+<p align="center">
+  <img src="../images/personas/persona_lucas.png" width="180" alt="Foto de Lucas Silva"
+       style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <br><em>Figura 2 — Lucas Silva. Fonte: Elaborado pelos autores (2026).</em>
+</p>
+
+| Atributo | Descrição |
+| :--- | :--- |
+| **Nome** | Lucas Silva |
+| **Idade** | 24 anos |
+| **Gênero** | Masculino |
+| **Localidade** | Brasília, DF — Taguatinga |
+| **Escolaridade** | Ensino Superior Completo (Ciência da Computação — UnB) |
+| **Ocupação** | Desenvolvedor Júnior em uma Fintech |
+| **Status** | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Persona Primária</span> |
+
+**Objetivos:**
+
+- **Pessoal:** Não ser lesado por empresas que negligenciam o suporte ao cliente. Para ele, registrar uma reclamação é um ato de "higiene digital" e exercício de cidadania.
+- **Prático:** Registrar uma denúncia formal contra um e-commerce internacional por vício no produto, anexando evidências técnicas (logs e e-mails) de forma rápida.
+- **De experiência:** Utilizar uma interface que siga padrões modernos de UX, livre de elementos datados que remetam a sites de baixa credibilidade ou "spam".
+
+**Habilidades:**
+
+- **Alta Literacia Tecnológica:** Usuário avançado de Linux e competidor de programação. Identifica rapidamente fluxos de navegação ineficientes e inconsistências visuais.
+- **Uso Híbrido:** Embora utilize o smartphone para monitorar, prefere o desktop para tarefas que exigem organização de múltiplos arquivos e uploads pesados.
+- **Autossuficiência:** Prefere caminhos diretos (CTAs claros) e detesta ter que ler notícias institucionais ou avisos governamentais para encontrar um serviço simples.
+
+**Tarefas:**
+
+- Localizar instantaneamente o canal de registro de reclamação — *frequência: alta (acesso inicial)*
+- Anexar provas digitais (screenshots e comprovantes em PDF) — *frequência: única no registro*
+- Validar se o protocolo gerado foi enviado corretamente para seu e-mail — *frequência: única*
+
+**Relacionamentos:**
+
+- É o "expert" do seu círculo social; frequentemente ajuda amigos a coletarem evidências para processos e os incentiva a usar os canais oficiais do governo.
+- Crítico da burocracia estatal, compartilha suas experiências de usabilidade (boas ou ruins) em fóruns de tecnologia e redes sociais profissionais.
+
+**Requisitos:**
+
+- **Design Minimalista (Clean):** Redução total de banners, notícias e textos institucionais na área de serviço.
+- **Upload Ágil:** Sistema que suporte múltiplos arquivos com feedback visual de conclusão de carregamento.
+- **Segurança Transparente:** Confirmação clara de que os dados estão protegidos e o processo foi protocolado.
+
+**Expectativas:**
+
+- Espera que o portal seja uma ferramenta funcional e não um blog de notícias do governo.
+- Espera que o sistema mobile seja tão fluido quanto os apps financeiros que utiliza diariamente.
+- Espera que o PROCON ofereça um fluxo de entrada intuitivo que não exija busca externa no Google sobre "como usar o site".
+
+!!! info "Responsável por este artefato"
+    A **Persona Primária Lucas** foi criada por **Pedro Augusto Moretti Moreira**, baseada nos dados consolidados do Grupo de Foco sobre a percepção de usabilidade e estética do portal.
+
+---
+
+### 2.3. Persona Primária: [Nome Completo da Persona] (Modelo)
 
 <p align="center">
   <img src="../images/personas/persona2.png" width="180" alt="Foto de [Nome da Persona]"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-  <br><em>Figura 2 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
+  <br><em>Figura 3 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
 </p>
 
 | Atributo | Descrição |
@@ -121,12 +180,69 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ---
 
-### 2.3. Persona Secundária: [Nome Completo da Persona]
+### 2.4. Persona Secundária: Gustavo, o Microempreendedor
+
+<p align="center">
+  <img src="../images/personas/persona_gustavo.png" width="180" alt="Foto de Gustavo Santos"
+       style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #2e7d32; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <br><em>Figura 4 — Gustavo Santos. Fonte: Elaborado pelos autores (2026).</em>
+</p>
+
+| Atributo | Descrição |
+| :--- | :--- |
+| **Nome** | Gustavo Santos |
+| **Idade** | 20 anos |
+| **Gênero** | Masculino |
+| **Localidade** | Brasília, DF — Guará |
+| **Escolaridade** | Ensino Superior Incompleto (Gastronomia) |
+| **Ocupação** | Proprietário de Panificadora Artesanal |
+| **Status** | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Persona Secundária</span> |
+
+**Objetivos:**
+
+- **Pessoal:** Manter a conformidade legal da sua empresa sem que isso tome o tempo dedicado à produção e às vendas.
+- **Prático:** Responder a notificações de reclamações e participar de mediações de forma remota, evitando deslocamentos até o centro da cidade.
+- **De gestão:** Ter um canal claro para entender quais normas de consumo sua padaria precisa seguir, evitando multas por desconhecimento.
+
+**Habilidades:**
+
+- **Multitarefa Administrativa:** Gerencia estoque, funcionários e finanças simultaneamente via smartphone e computador desktop da padaria.
+- **Leigo no Domínio Jurídico:** Sente-se intimidado por termos como "manifestação do fornecedor" ou "autos do processo". Prefere uma linguagem direta e orientada à ação.
+- **Pragmatismo Digital:** Valoriza ferramentas que permitem resolver problemas em "janelas de 15 minutos" entre uma tarefa e outra da produção.
+
+**Tarefas:**
+
+- Consultar se existem novas pendências administrativas contra sua empresa — *frequência: eventual*
+- Upload de documentos de defesa e comprovantes de resolução — *frequência: conforme demanda*
+- Participar de audiências virtuais de conciliação — *frequência: agendada*
+
+**Relacionamentos:**
+- Responsável direto pela reputação de um negócio local e familiar. Interage com a comunidade do Guará e preza por resolver conflitos de forma amigável para não perder clientes.
+- Busca o equilíbrio entre ser um "empresário moderno" e cumprir as exigências burocráticas tradicionais.
+
+**Expectativas:**
+
+- Espera um "Portal do Lojista" ou área dedicada ao fornecedor que seja visualmente distinta da área do consumidor.
+- Espera que o sistema o guie sobre "o que fazer agora" quando recebe uma notificação, em vez de apenas exibir um texto jurídico longo.
+- Espera que as reuniões de conciliação funcionem sem a necessidade de instalar novos softwares, rodando direto no navegador.
+
+**Requisitos:**
+
+- **Dashboard de Pendências:** Uma visão clara de reclamações ativas vs. resolvidas.
+- **Notificações em Tempo Real:** Alertas via e-mail ou WhatsApp para não perder prazos administrativos críticos.
+- **Simplificação Terminológica:** Uso de linguagem acessível que traduza os termos do CDC para a realidade do pequeno lojista.
+
+!!! info "Responsável por este artefato"
+    A **Persona Secundária Gustavo** foi criada por **Pedro Augusto Moretti Moreira**, baseada na entrevista semiestruturada realizada com o perfil de proprietário de estabelecimento comercial.
+
+---
+
+### 2.5. Persona Secundária: [Nome Completo da Persona] (Modelo)
 
 <p align="center">
   <img src="../images/personas/persona3.png" width="180" alt="Foto de [Nome da Persona]"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #2e7d32; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-  <br><em>Figura 3 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
+  <br><em>Figura 5 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
 </p>
 
 | Atributo | Descrição |
@@ -164,7 +280,21 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ---
 
-### Antipersona — [Nome Completo] *(opcional)*
+### Antipersona — Hugo Rocha
+
+| Atributo | Descrição |
+| :--- | :--- |
+| **Nome** | Hugo Rocha |
+| **Idade** | 15 anos |
+| **Ocupação** | Estudante do Ensino Médio |
+| **Status** | <span style="background-color: #b71c1c; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Antipersona</span> |
+
+**Por que não é o público-alvo:**
+- Hugo não possui capacidade civil plena para registrar reclamações de forma autônoma e não possui transações comerciais de alto valor que exijam a intervenção direta do PROCON-DF.
+
+---
+
+### Antipersona — [Nome Completo] (Modelo)
 
 | Atributo | Descrição |
 | :--- | :--- |
@@ -180,7 +310,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ## Agradecimentos à IA
 
-Agradecimento ao **Nanobanana** pela ajuda na criação e estruturação das personas deste documento.
+Agradecimento ao **Gemini 3 Flash** pela ajuda na criação e estruturação das personas deste documento.
 
 ---
 
@@ -195,3 +325,4 @@ Agradecimento ao **Nanobanana** pela ajuda na criação e estruturação das per
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
 | `1.0` | 30/04/2026 | Criação do documento com Persona Primária Laura, baseada nos dados reais do Grupo de Foco (Etapa 2). | Heitor Macedo Ricardo | A definir |
+| `1.1` | 01/05/2026 | Adição e expansão profunda das personas Lucas e Gustavo e da Antipersona Hugo com base nos dados consolidados. | Pedro Augusto Moretti Moreira | A definir |
