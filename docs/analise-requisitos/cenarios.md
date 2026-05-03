@@ -300,4 +300,6 @@ Agradecimento ao **Gemini** pela ajuda na estruturação, redação e detalhamen
 | `1.0` | 30/04/2026 | Elaboração do Cenário 1 (Persona Laura). | Heitor Macedo Ricardo | Pedro Augusto Moretti |
 | `1.1` | 01/05/2026 | Reestruturação completa focada na Sala de Conciliação Virtual e inclusão das personas Lucas e Gustavo. | Pedro Augusto Moretti Moreira | Heloisa Silva |
 | `1.2` | 03/05/2026 | Adição do Cenário 4 com Maria Helena. | Heloisa Silva | Heitor Macedo |
-| `1.3` | 03/05/2026 | Adição do Cenário 5 com Roberto e do Cenário 6 com Ivone. | Mateus Rodrigues Barreto e Pedro Macedo | Pedro Augusto Moretti |
+| `1.3` | 03/05/2026 | Adição do Cenário 5 com Roberto. | Mateus Rodrigues Barreto | Pedro Augusto Moretti |
+| `1.4` | 03/05/2026 | Adição do Cenário 6 com Ivone. | Pedro Macedo | Pedro Augusto Moretti |
+
