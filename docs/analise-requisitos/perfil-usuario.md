@@ -100,8 +100,8 @@ Os dados secundários de 2025, obtidos a partir do Sindec Nacional e do relatór
 | Reclamação ou denúncia   | 71,3%      |
 | Consulta                 | 28,7%      |
 
-<div align="center"><strong>Fonte:</strong> SINDEC - Atendimentos</div>
-<div align="center"><strong>Autor:</strong> Heloisa Silva</div>
+**Fonte:** SINDEC - Atendimentos
+**Autor:** Heloisa Silva
 
 #### Principais assuntos atendidos
 
@@ -114,8 +114,8 @@ Os dados secundários de 2025, obtidos a partir do Sindec Nacional e do relatór
 | Telecomunicações      | 10,47%     |
 | Outros                | 4,33%      |
 
-<div align="center"><strong>Fonte:</strong> SINDEC - Atendimentos</div>
-<div align="center"><strong>Autor:</strong> Heloisa Silva</div>
+**Fonte:** SINDEC - Atendimentos
+**Autor:** Heloisa Silva
 
 #### Distribuição por gênero
 
@@ -124,8 +124,8 @@ Os dados secundários de 2025, obtidos a partir do Sindec Nacional e do relatór
 | Feminino  | 54,68%     |
 | Masculino | 45,32%     |
 
-<div align="center"><strong>Fonte:</strong> SINDEC - Atendimentos</div>
-<div align="center"><strong>Autor:</strong> Heloisa Silva</div>
+**Fonte:** SINDEC - Atendimentos
+**Autor:** Heloisa Silva
 
 #### Faixa etária predominante
 
@@ -139,8 +139,8 @@ Os dados secundários de 2025, obtidos a partir do Sindec Nacional e do relatór
 | 21 a 30 anos     | 6,60%      |
 | Até 20 anos      | 0,85%      |
 
-<div align="center"><strong>Fonte:</strong> SINDEC - Atendimentos</div>
-<div align="center"><strong>Autor:</strong> Heloisa Silva</div>
+**Fonte:** SINDEC - Atendimentos
+**Autor:** Heloisa Silva
 
 #### Perfis geracionais por idade (base 2025)
 
@@ -155,8 +155,8 @@ Com base no [Relatório Técnico de Redefinição do Perfil do Consumo](#ref-seb
 | Geração Z | 1997-2012 | 13 a 28 anos | Alta fluência digital, imediatismo, busca por autenticidade, inclusão e engajamento direto com marcas. |
 | Geração Alpha | 2013 em diante | Até 12 anos | Geração em formação, com alta exposição tecnológica; não incluída em análise aprofundada de consumo. |
 
-<div align="center"><strong>Fonte:</strong> Relatório Técnico de Redefinição do Perfil do Consumo - Marco 2025</div>
-<div align="center"><strong>Autor:</strong> Heloisa Silva</div>
+**Fonte:** Relatório Técnico de Redefinição do Perfil do Consumo - Marco 2025
+**Autor:** Heloisa Silva
 
 Os dados etários levantados nesta análise documental indicam maior concentração em públicos de 41 anos ou mais, com destaque para 61 a 70 anos e mais de 70 anos, o que reforça a relevância dos perfis Baby Boomers e Geração Silenciosa no contexto observado.
 
@@ -172,8 +172,8 @@ Com base no mesmo [Relatório Técnico de Redefinição do Perfil do Consumo](#r
 | Millennials | 35% | Valorizam experiências sobre bens materiais; decisões guiadas por propósito e sustentabilidade. | Líderes no uso de e-commerce e serviços por assinatura; conectados e conscientes com sustentabilidade. |
 | Geração Z | 25% | Valorizam diversidade, autenticidade e conexão digital; buscam marcas alinhadas a seus valores. | Usam smartphones diariamente; redes sociais são a principal fonte de informação. |
 
-<div align="center"><strong>Fonte:</strong> Relatório Técnico de Redefinição do Perfil do Consumo - Marco 2025</div>
-<div align="center"><strong> Autor: Heloisa Silva</strong></div>
+**Fonte:** Relatório Técnico de Redefinição do Perfil do Consumo - Marco 2025
+**Autor:** Heloisa Silva
 
 Essas informações ajudam a interpretar os dados do levantamento do PROCON-DF, pois indicam que o público atendido pode variar bastante em relação à familiaridade com tecnologia, hábitos de consumo e expectativas de atendimento conforme a geração predominante.
 
