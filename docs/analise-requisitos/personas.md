@@ -82,7 +82,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 ### 2.2. Persona Primária: Lucas, o Consumidor Exigente
 
 <p align="center">
-  <img src="../images/personas/persona_lucas.png" width="180" alt="Foto de Lucas Silva"
+  <img src="../images/persona_lucas.jpeg" width="180" alt="Foto de Lucas Silva"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
   <br><em>Figura 2 — Lucas Silva. Fonte: Elaborado pelos autores (2026).</em>
 </p>
@@ -140,7 +140,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 ### 2.3. Persona Primária: [Nome Completo da Persona] (Modelo)
 
 <p align="center">
-  <img src="../images/personas/persona2.png" width="180" alt="Foto de [Nome da Persona]"
+  <img src="../images/persona2.png" width="180" alt="Foto de [Nome da Persona]"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
   <br><em>Figura 3 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
 </p>
@@ -183,7 +183,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 ### 2.4. Persona Secundária: Gustavo, o Microempreendedor
 
 <p align="center">
-  <img src="../images/personas/persona_gustavo.png" width="180" alt="Foto de Gustavo Santos"
+  <img src="../images/persona_gustavo.jpeg" width="180" alt="Foto de Gustavo Santos"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #2e7d32; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
   <br><em>Figura 4 — Gustavo Santos. Fonte: Elaborado pelos autores (2026).</em>
 </p>
@@ -240,7 +240,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 ### 2.5. Persona Secundária: [Nome Completo da Persona] (Modelo)
 
 <p align="center">
-  <img src="../images/personas/persona3.png" width="180" alt="Foto de [Nome da Persona]"
+  <img src="../images/persona3.png" width="180" alt="Foto de [Nome da Persona]"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #2e7d32; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
   <br><em>Figura 5 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
 </p>
