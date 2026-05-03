@@ -167,9 +167,6 @@ Os principais **operadores de relação** utilizados são:
 
 *Figura 6 — Representação textual hierárquica da árvore CTT: Participar de audiência de conciliação virtual. Fonte: Elaborado por Pedro Augusto Moretti Moreira (2026).*
 
-!!! info "Responsável por este artefato"
-    Este documento foi elaborado por **Pedro Augusto Moretti Moreira**, responsável pela funcionalidade *Sala de Conciliação Virtual com Mediação Assistida* na Etapa 2 do projeto. 
-
 !!! info "Responsáveis pelas funcionalidades"
     Portal de Acompanhamento de Reclamações com Notificações Ativas: **Heitor Macedo Ricardo** (HTA e CTT apresentados nas Figuras 1, 3 e 4). Sala de Conciliação Virtual com Mediação Assistida: **Pedro Augusto Moretti Moreira** (HTA e CTT apresentados nas Figuras 2, 5 e 6). Integra o conjunto de artefatos das funcionalidades: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
 

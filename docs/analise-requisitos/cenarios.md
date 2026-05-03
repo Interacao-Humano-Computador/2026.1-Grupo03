@@ -232,8 +232,8 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário
 
 | Documento                                    | Link                                                                                                                                                      |
 | :------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| � Termo de Consentimento (TCLE)             | [Abrir TCLE](../atas/TCLE.pdf){: target="\_blank" }                                                                       |                                                                                                                            |
-| �📃 Roteiro de Validação dos Cenários 1 e 3     | [Abrir Roteiro](./images/roteiro_validacao_cenarios_moretti.pdf){: target="\_blank" }                                                                       |
+| 📃 Termo de Consentimento (TCLE)             | [Abrir TCLE](../atas/TCLE.pdf){: target="\_blank" }                                                                       |                                                                                                                            |
+| 📃 Roteiro de Validação dos Cenários 1 e 3     | [Abrir Roteiro](./images/roteiro_validacao_cenarios_moretti.pdf){: target="\_blank" }                                                                       |
 | 📊 Relatório de Validação dos Cenários 1 e 3     | [Abrir Relatório](./images/relatorio_validacao_cenarios_Moretti.pdf){: target="\_blank" }                                                                       |
 | 🎥 Gravação da Validação dos Cenários 1 e 3                 | [🔗 Assistir no YouTube](https://youtu.be/zkf6aAAHtmg){: target="\_blank" }                                                                               |
 
