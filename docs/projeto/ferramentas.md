@@ -11,11 +11,11 @@ Nesta página estão listadas as principais ferramentas empregadas ao longo do d
 
 | Ferramenta | Logo | Finalidade |
 | :--- | :---: | :--- |
-| **GitHub** | <img src="../images/github.png" width="50"> | Versionamento de código, armazenamento do repositório e colaboração. |
-| **WhatsApp** | <img src="../images/whatsapp.png" width="50"> | Comunicação rápida e alinhamento assíncrono entre os membros. |
-| **Google Meet** | <img src="../images/google-meet.png" width="50"> | Reuniões síncronas para tomada de decisão e definição de requisitos. |
-| **VS Code** | <img src="../images/vscode.png" width="50"> | Ambiente de desenvolvimento (IDE) utilizado para codificação e edição de markdown. |
-| **Gemini** | <img src="../images/gemini.png" width="50"> | Auxílio na pesquisa de conceitos de IHC e estruturação de documentos acadêmicos. |
+| **GitHub** | <img src="../images/ferramentas/github.png" width="50"> | Versionamento de código, armazenamento do repositório e colaboração. |
+| **WhatsApp** | <img src="../images/ferramentas/whatsapp.png" width="50"> | Comunicação rápida e alinhamento assíncrono entre os membros. |
+| **Google Meet** | <img src="../images/ferramentas/google-meet.png" width="50"> | Reuniões síncronas para tomada de decisão e definição de requisitos. |
+| **VS Code** | <img src="../images/ferramentas/vscode.png" width="50"> | Ambiente de desenvolvimento (IDE) utilizado para codificação e edição de markdown. |
+| **Gemini** | <img src="../images/ferramentas/gemini.png" width="50"> | Auxílio na pesquisa de conceitos de IHC e estruturação de documentos acadêmicos. |
 
 ---
 
@@ -24,11 +24,11 @@ Nesta página estão listadas as principais ferramentas empregadas ao longo do d
 
 | Ferramenta | Logo | Finalidade |
 | :--- | :---: | :--- |
-| **GitHub** | <img src="../images/github.png" width="50"> | Versionamento de código, armazenamento do repositório e colaboração. |
-| **WhatsApp** | <img src="../images/whatsapp.png" width="50"> | Comunicação rápida e alinhamento assíncrono entre os membros. |
-| **Google Meet** | <img src="../images/google-meet.png" width="50"> | Reuniões síncronas para tomada de decisão e definição de requisitos. |
-| **VS Code** | <img src="../images/vscode.png" width="50"> | Ambiente de desenvolvimento (IDE) utilizado para codificação e edição de markdown. |
-| **Gemini** | <img src="../images/gemini.png" width="50"> | Auxílio na pesquisa de conceitos de IHC e estruturação de documentos acadêmicos. |
+| **GitHub** | <img src="../images/ferramentas/github.png" width="50"> | Versionamento de código, armazenamento do repositório e colaboração. |
+| **WhatsApp** | <img src="../images/ferramentas/whatsapp.png" width="50"> | Comunicação rápida e alinhamento assíncrono entre os membros. |
+| **Google Meet** | <img src="../images/ferramentas/google-meet.png" width="50"> | Reuniões síncronas para tomada de decisão e definição de requisitos. |
+| **VS Code** | <img src="../images/ferramentas/vscode.png" width="50"> | Ambiente de desenvolvimento (IDE) utilizado para codificação e edição de markdown. |
+| **Gemini** | <img src="../images/ferramentas/gemini.png" width="50"> | Auxílio na pesquisa de conceitos de IHC e estruturação de documentos acadêmicos. |
 ---
 
 ## Referências
