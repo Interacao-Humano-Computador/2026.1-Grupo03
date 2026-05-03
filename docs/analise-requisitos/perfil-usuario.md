@@ -76,6 +76,7 @@ Técnica de investigação indireta baseada no exame de fontes documentais e bas
 | 📊 Relatório da Entrevista ao Consumidor     | [Abrir Relatório](../atas/relatorio_entrevista_consumidor.pdf){: target="\_blank" }                                                                       |
 | 🎥 Gravação da Entrevista ao Consumidor      | [🔗 Assistir no YouTube](https://youtu.be/NpBs0QKfJIM?si=OOBUVLvbTOjGrg40){: target="\_blank" }                                                          |
 | 📊 Relatório de Análise Documental           | [Abrir Relatório](../atas/analise_documental_procon_df_abnt%20(1).pdf){: target="\_blank" }                                                               |
+| 🎥 Gravação da Entrevista com Empresário                 | [🔗 Assistir no YouTube](https://youtu.be/yPNqYUdOaGE){: target="\_blank" }                                                                               |
 
 ---
 
