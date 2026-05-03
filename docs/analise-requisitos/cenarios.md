@@ -14,9 +14,11 @@ Os cenários deste projeto foram elaborados com foco na funcionalidade de **Sala
 
 Era uma segunda-feira, 10h da manhã. Lucas Silva estava em seu apartamento em Taguatinga, sentado diante de seu setup de alta performance rodando Manjaro Linux. Ele havia agendado uma audiência virtual com a "Panificadora do Guará" para resolver um problema de uma encomenda de grande porte paga via Pix que nunca foi entregue corretamente. Enquanto isso, Gustavo Santos, proprietário da panificadora, estava nos fundos do seu estabelecimento. Em vez de ter que fechar a loja e se deslocar por 40 minutos até o Setor Comercial Sul, ele simplesmente lavou as mãos, abriu o notebook no escritório e clicou no link recebido via e-mail.
 
-Ao entrarem na **Sala de Conciliação Virtual**, ambos passaram por um check-up automático de hardware. O mediador do PROCON-DF iniciou a sessão de vídeo. Lucas, com sua exigência técnica, ficou satisfeito ao ver uma interface limpa, sem os banners de notícias que poluíam o site antigo. O mediador compartilhou a tela exibindo o "Termo de Acordo" em tempo real. Gustavo explicou que houve uma falha na logística de entrega devido a um problema no forno, mas propôs o estorno imediato de 100% do valor acrescido de um voucher de cortesia.
+Ao entrarem na **Sala de Conciliação Virtual**, ambos passaram por um check‑up automático de hardware. Lucas, sempre atento a questões técnicas, ficou aliviado ao constatar que a sala rodava diretamente no navegador, sem exigir a instalação de plugins. Ele ajustou rapidamente o microfone e a câmera, observando o indicador visual de qualidade da conexão — tudo estável, áudio nítido. O mediador do PROCON-DF iniciou a sessão de vídeo. Lucas, com sua exigência técnica, ficou satisfeito ao ver uma interface limpa, sem os banners de notícias que poluíam o site antigo, e com os nomes e papéis de cada participante fixos na parte inferior da tela.
 
-Lucas concordou. O mediador editou as cláusulas ali mesmo, na frente de ambos. Não houve necessidade de imprimir nada. Um botão azul **"Assinar com Gov.br"** apareceu para os dois. Lucas usou o leitor de digital do seu celular para autenticar a assinatura, e Gustavo fez o mesmo. Em 20 minutos, a audiência foi encerrada. Lucas voltou ao seu trabalho de desenvolvedor e Gustavo voltou para a linha de produção, sentindo que o sistema finalmente respeitava o tempo de quem produz.
+Quando chegou o momento de apresentar suas evidências, Lucas usou a opção de **compartilhar uma janela específica** — apenas o arquivo com os logs da transação e os e‑mails trocados com o suporte do e‑commerce, mantendo o restante de sua área de trabalho em privacidade. O mediador compartilhou a tela exibindo o "Termo de Acordo" em tempo real. Gustavo explicou que houve uma falha na logística de entrega devido a um problema no forno, mas propôs o estorno imediato de 100% do valor acrescido de um voucher de cortesia.
+
+Lucas concordou. O mediador editou as cláusulas ali mesmo, na frente de ambos. Não houve necessidade de imprimir nada. Um botão azul **"Assinar com Gov.br"** apareceu para os dois. Lucas usou o leitor de digital do seu celular para autenticar a assinatura, enquanto Gustavo fez o mesmo. Em 20 minutos, a audiência foi encerrada. O sistema exibiu o status "Acordo firmado" e enviou o PDF assinado por e‑mail. Lucas voltou ao seu trabalho de desenvolvedor e Gustavo voltou para a linha de produção, sentindo que o sistema finalmente respeitava o tempo de quem produz.
 
 ---
 
@@ -27,13 +29,13 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário
 - **Ambiente ou contexto:** Lucas em seu home office tecnológico em Taguatinga; Gustavo no escritório de sua panificadora no Guará. Ambos conectados via internet em ambiente profissional/doméstico.
 - **Atores:** Lucas Silva (Consumidor Exigente/Persona Primária) e Gustavo Santos (Microempreendedor/Persona Secundária), além do Mediador do PROCON.
 - **Objetivos:** Realizar a audiência de conciliação agendada, chegar a um consenso sobre o estorno de um pagamento e formalizar o acordo com validade jurídica.
-- **Planejamento:** Ambos se prepararam minutos antes, garantindo conexão estável e acesso aos documentos (comprovante Pix e relatório de entrega) para fundamentar seus argumentos durante a chamada.
-- **Ações:** (1) Acessar o link da sala; (2) realizar teste de periféricos; (3) expor os fatos via vídeo; (4) revisar o termo de acordo editado ao vivo; (5) realizar a assinatura digital via Gov.br.
-- **Eventos:** (1) O sistema valida a entrada das partes; (2) a plataforma gerencia o fluxo de áudio/vídeo e o chat de documentos; (3) o sistema integra o serviço de assinatura eletrônica do Governo Federal; (4) o sistema encerra o protocolo e envia o PDF assinado para os e-mails.
-- **Avaliação:** Lucas sentiu que a interface moderna e a agilidade do fluxo condizem com sua expectativa de eficiência tecnológica. Gustavo avaliou a experiência como essencial para sua rotina, permitindo resolver pendências jurídicas sem abandonar a gestão física de seu negócio.
+- **Planejamento:** Ambos se prepararam minutos antes, garantindo conexão estável e acesso aos documentos (comprovante Pix e relatório de entrega) para fundamentar seus argumentos durante a chamada. Lucas, em particular, planejou compartilhar apenas a janela com as evidências, preservando a privacidade de suas outras atividades.
+- **Ações:** (1) Acessar o link da sala; (2) realizar teste de periféricos e verificar indicadores de qualidade; (3) expor os fatos via vídeo; (4) compartilhar seletivamente uma janela com evidências; (5) revisar o termo de acordo editado ao vivo; (6) realizar a assinatura digital via Gov.br.
+- **Eventos:** (1) O sistema valida a entrada das partes; (2) a plataforma gerencia o fluxo de áudio/vídeo e exibe os indicadores de conexão; (3) o sistema permite o compartilhamento seletivo de tela; (4) o sistema integra o serviço de assinatura eletrônica do Governo Federal; (5) o sistema encerra o protocolo e envia o PDF assinado para os e‑mails.
+- **Avaliação:** Lucas sentiu que a interface moderna, a possibilidade de compartilhar apenas uma janela e a estabilidade da transmissão condizem com sua expectativa de eficiência técnica e respeito à privacidade. Gustavo avaliou a experiência como essencial para sua rotina, permitindo resolver pendências jurídicas sem abandonar a gestão física de seu negócio.
 
 !!! info "Responsável por este artefato"
-    O **Cenário 1** foi elaborado por **Pedro Augusto Moretti Moreira**, responsável pela funcionalidade *Sala de Conciliação Virtual com Mediação Assistida*. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Análise de Tarefas](analise-tarefas.md).
+    O **Cenário 1** foi elaborado por **Pedro Augusto Moretti Moreira**, responsável pela funcionalidade *Sala de Conciliação Virtual com Mediação Assistida*. A versão atualizada incorpora os requisitos técnicos e expectativas da persona Lucas revisada, sem prejuízo da validação já realizada. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Análise de Tarefas](analise-tarefas.md).
 
 ---
 
@@ -226,19 +228,16 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário
 
 ---
 
-<<<<<<< Updated upstream
-=======
 ## Material de Apoio
 
 | Documento                                    | Link                                                                                                                                                      |
 | :------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 📄 Termo de Consentimento (TCLE)             | [Abrir TCLE](../atas/TCLE.pdf){: target="\_blank" }                                                                       |                                                                                                                            |
-| 📃 Roteiro de Validação dos Cenários 1 e 3     | [Abrir Roteiro](./images/roteiro_validacao_cenarios_moretti.pdf){: target="\_blank" }                                                                       |
+| � Termo de Consentimento (TCLE)             | [Abrir TCLE](../atas/TCLE.pdf){: target="\_blank" }                                                                       |                                                                                                                            |
+| �📃 Roteiro de Validação dos Cenários 1 e 3     | [Abrir Roteiro](./images/roteiro_validacao_cenarios_moretti.pdf){: target="\_blank" }                                                                       |
 | 📊 Relatório de Validação dos Cenários 1 e 3     | [Abrir Relatório](./images/relatorio_validacao_cenarios_Moretti.pdf){: target="\_blank" }                                                                       |
 | 🎥 Gravação da Validação dos Cenários 1 e 3                 | [🔗 Assistir no YouTube](https://youtu.be/zkf6aAAHtmg){: target="\_blank" }                                                                               |
 
 ---
->>>>>>> Stashed changes
 
 ## Agradecimentos à IA
 
