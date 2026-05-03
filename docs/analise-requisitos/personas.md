@@ -360,50 +360,13 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ---
 
-### 2.7. Persona Secundária: [Nome Completo da Persona] (Modelo)
+### Antipersona — Hugo Rocha
 
 <p align="center">
-  <img src="../images/persona3.png" width="180" alt="Foto de [Nome da Persona]"
+  <img src="../images/hugo_persona.jpeg" width="180" alt="Foto de Hugo Rocha"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #2e7d32; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-  <br><em>Figura 7 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
+  <br><em>Figura 6 — Hugo Rocha. Fonte: Elaborado pelos autores (2026).</em>
 </p>
-
-| Atributo | Descrição |
-| :--- | :--- |
-| **Nome** | [Nome Completo] |
-| **Idade** | [Ex: 28 anos] |
-| **Gênero** | [Ex: Não-binário] |
-| **Localidade** | [Ex: Brasília, DF] |
-| **Escolaridade** | [Ex: Pós-graduação] |
-| **Ocupação** | [Ex: Analista de Sistemas] |
-| **Status** | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Persona Secundária</span> |
-
-**Objetivos:**
-- [Objetivo 1]
-- [Objetivo 2]
-
-**Habilidades:**
-- [Habilidade 1]
-- [Habilidade 2]
-
-**Tarefas:**
-- [Tarefa 1 — frequência: ...]
-- [Tarefa 2 — frequência: ...]
-
-**Relacionamentos:**
-- [Ex: ...]
-
-**Expectativas:**
-- [Expectativa 1]
-- [Expectativa 2]
-
-**Requisitos:**
-- [Requisito 1]
-- [Requisito 2]
-
----
-
-### Antipersona — Hugo Rocha
 
 | Atributo | Descrição |
 | :--- | :--- |
@@ -414,22 +377,6 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 **Por que não é o público-alvo:**
 - Hugo não possui capacidade civil plena para registrar reclamações de forma autônoma e não possui transações comerciais de alto valor que exijam a intervenção direta do PROCON-DF.
-
----
-
-### Antipersona — [Nome Completo] (Modelo)
-
-| Atributo | Descrição |
-| :--- | :--- |
-| **Nome** | [Nome Completo] |
-| **Idade** | [Ex: 15 anos] |
-| **Ocupação** | [Ex: Estudante do Ensino Médio] |
-| **Status** | <span style="background-color: #b71c1c; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Antipersona</span> |
-
-**Por que não é o público-alvo:**
-- [Ex: Não possui relação de consumo estabelecida com fornecedores, portanto não necessita registrar reclamações no sistema.]
-
----
 
 ## Agradecimentos à IA
 
