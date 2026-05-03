@@ -74,16 +74,14 @@ Conheça os membros responsáveis por este projeto da disciplina de Interação 
 </div>
 </div>
 
-</div>
-
 <div class="team-member" align="center" markdown>
 
 ![Gabriel Robson Nunes Neiva da Silva](images/gabriel.jpeg){ .team-avatar }
 
-<div class="team-name" markdown>[Mateus Rodrigues Barreto](https://github.com/Mateus0xC){: target="_blank" }</div>
+<div class="team-name" markdown>[Gabriel Robson Nunes Neiva da Silva](https://github.com/Mateus0xC){: target="_blank" }</div>
 
 <div class="bio" markdown>
-*Estudante de Engenharia de Software na UnB, com interesse em desenvolvimento de software de qualidade, boas práticas e metodologias ágeis.*
+*FAlTA DESCRICAO E GITHUB*
 </div>
 </div>
 
@@ -95,5 +93,6 @@ Conheça os membros responsáveis por este projeto da disciplina de Interação 
 
 | Versão | Data | Descrição | Autor | Revisor |
 |:---:|:---:|:---|:---:|:---:|
+| 1.2 | 16/04/2026 | Inclusão do membro Gabriel. | Pedro Moretti | - |
 | 1.1 | 16/04/2026 | Adição da seção "Introdução". | Pedro Moretti | Heitor Macedo Ricardo |
 | 1.0 | 12/04/2026 | Criação da página com o perfil dos integrantes | Pedro Moretti | Heitor Macedo Ricardo |
