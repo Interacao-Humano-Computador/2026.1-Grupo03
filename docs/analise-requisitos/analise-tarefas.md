@@ -43,28 +43,28 @@ A **Análise Hierárquica de Tarefas** (*Hierarchical Task Analysis* — HTA) é
 **Tabela de Representação HTA — Participar de audiência de conciliação virtual**
 
 <p align="center">
-  <img src="../images/HTA-Moretti.png" alt="Diagrama HTA — Acompanhar reclamação e responder proposta" width="750">
+  <img src="../images/HTA-Moretti.png" alt="Diagrama HTA — A" width="750">
   <br><em>Figura 2 — Diagrama HTA: Participar de audiência de conciliação virtual. Fonte: Elaborado por Pedro Augusto Moretti Moreira com auxílio do Mermaid.js (2026).</em>
 </p>
 
-| Objetivos / Operações | Problemas e Recomendações | Plano |
-| :--- | :--- | :--- |
-| **0.** Participar de audiência de conciliação virtual | — | Plano 0: 1 >> 2 >> 3 >> 4 (sequência obrigatória) |
-| **1.** Preparar‑se para a audiência | — | Plano 1: 1.1 >> 1.2 (sequência) |
-| **1.1** Receber e ler a notificação com o link da sala de conciliação | **Problema:** notificação pode ser ignorada ou cair em spam. **Recomendação:** enviar notificação por múltiplos canais (WhatsApp e e‑mail) com assunto claro, data/horário da audiência e identificação do processo. | — |
-| **1.2** Separar documentos e evidências que pretende apresentar | **Problema:** o usuário pode não saber quais documentos são relevantes para a audiência. **Recomendação:** incluir na notificação uma lista de sugestão (comprovantes, fotos, prints, etc.) e permitir o upload antecipado no portal. | — |
-| **2.** Acessar a sala virtual | — | Plano 2: 2.1 >> 2.2 (sequência) |
-| **2.1** Clicar no link seguro da notificação e acessar o portal no horário agendado | **Problema:** link expirado ou usuário tenta acessar fora do horário. **Recomendação:** manter o link ativo por pelo menos 24 h após o horário, redirecionar para sala de espera e exibir contagem regressiva para o início da sessão. | — |
-| **2.2** Realizar o teste de periféricos (câmera e microfone) e confirmar o funcionamento | **Problema:** o usuário pode não conceder as permissões do navegador ou os dispositivos podem não funcionar. **Recomendação:** oferecer um guia visual para ativar permissões, ferramenta de diagnóstico automático e permitir a participação apenas por áudio caso o vídeo falhe. | — |
-| **3.** Participar da sessão de conciliação | — | Plano 3: 3.1 = 3.2 = 3.3 (tarefas independentes; a ordem não é fixa) |
-| **3.1** Visualizar na tela o nome e o papel de cada participante (consumidor, fornecedor, mediador) | **Problema:** interface poluída pode dificultar a identificação de quem está falando. **Recomendação:** exibir permanentemente os nomes e papéis sobrepostos ao vídeo e destacar o participante ativo no momento. | — |
-| **3.2** Participar da discussão, ativando/desativando o microfone e a câmera conforme necessário | **Problema:** o usuário pode esquecer o microfone ligado e causar interferências, ou não saber como silenciar. **Recomendação:** indicador visual claro de _microfone ligado/desligado_, atalho para silenciar com um clique e dica de etiqueta no início da sessão. | — |
-| **3.3** Utilizar o chat de evidências para trocar documentos com as outras partes | **Problema:** dificuldade em localizar a funcionalidade de chat durante a discussão. **Recomendação:** posicionar o ícone do chat em local fixo e visível na tela, com notificação discreta sempre que um novo documento for recebido. | — |
-| **4.** Finalizar a participação na audiência | — | Plano 4: se houver acordo [4.1] senão [4.2] (escolha exclusiva) |
-| **4.1** Revisar e assinar digitalmente o termo de acordo gerado pelo mediador | **Problema:** o usuário pode não saber como realizar a assinatura digital (Gov.br) ou ter receio sobre a validade jurídica. **Recomendação:** exibir um tutorial rápido sobre assinatura digital, destacar a validade jurídica do documento e solicitar confirmação explícita antes de finalizar. | — |
-| **4.2** Receber a comunicação de encerramento sem acordo e a informação sobre os próximos passos | **Problema:** o usuário pode ficar sem saber o que acontecerá após uma audiência sem acordo. **Recomendação:** o sistema deve exibir de forma clara o novo _status_ do processo e informar, em linguagem simples, o prazo e a etapa seguinte (ex.: "Seu processo seguirá para análise do PROCON, que poderá convocar uma nova audiência ou emitir uma decisão em até 30 dias"). | — |
+| Operação (Objetivo / Operação) | Inputs (circunstâncias) | Ações (actions) | Feedback / Testes (condições de sucesso) | Problemas potenciais | Recomendações de IHC |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **0.** Participar de audiência de conciliação virtual (objetivo geral) | Usuário notificado; processo com audiência agendada; dispositivo com câmera/microfone. | Sequência: 1 >> 2 >> 3 >> 4 (sequência obrigatória) | Usuário ingressa na sala, participa da sessão e finaliza com ou sem acordo; registro atualizado no sistema. | Dificuldades técnicas; não comparecimento; desistência durante o fluxo. | Guiar o usuário com lembretes e teste prévio; manter canal alternativo (chat/telefone) para suporte. |
+| **1.** Preparar‑se para a audiência | Convite com data, horário e link; documentos do processo. | Sequência: 1.1 >> 1.2 | Usuário ciente da audiência e com documentos organizados. | Notificação ignorada ou perdida. | Envio multicanal (WhatsApp e e-mail) com assunto claro e botão de confirmação de recebimento. |
+| **1.1** Receber e ler a notificação com o link da sala de conciliação | Dados do processo; canais de contato do usuário. | Sistema envia notificação; usuário lê e reconhece o compromisso. | Notificação entregue e visualizada; usuário confirma leitura (opcional). | Notificação cai em spam; usuário não vê a tempo. | Enviar por WhatsApp (canal preferencial) com texto curto: nome, protocolo, data/horário. Reenvio programado 24h antes. |
+| **1.2** Separar documentos e evidências que pretende apresentar | Lista sugerida de documentos; acesso ao portal para upload antecipado. | Usuário reúne comprovantes, fotos, prints; opcionalmente faz upload prévio no portal. | Documentos prontos e, se enviados, confirmados no sistema. | Usuário não sabe o que é relevante; esquece documentos importantes. | Incluir na notificação uma checklist simples: “Separe: comprovante de compra, fotos do produto, prints de conversas”. Permitir upload antecipado com validação. |
+| **2.** Acessar a sala virtual | Link ativo; dispositivo com navegador; horário agendado. | Sequência: 2.1 >> 2.2 | Usuário dentro da sala virtual, com áudio e vídeo funcionais. | Link expirado; incompatibilidade de navegador; atraso. | Link com validade estendida (24h pós‑horário); sala de espera com contagem regressiva. |
+| **2.1** Clicar no link seguro da notificação e acessar o portal no horário agendado | Link com token; horário da audiência. | Usuário clica no link; sistema autentica e exibe a sala de espera. | Página de sala de espera exibida com informações da audiência e cronômetro. | Usuário tenta acessar fora do horário; link quebrado. | Manter link ativo por 24h; redirecionar para sala de espera com relógio regressivo e botão “Entrar na sala” habilitado no horário. |
+| **2.2** Realizar o teste de periféricos (câmera e microfone) e confirmar o funcionamento | Permissões do navegador; hardware disponível. | Sistema solicita permissões; usuário concede; sistema reproduz feedback audiovisual; usuário confirma. | Indicadores verdes para áudio/vídeo; mensagem “Tudo funcionando!”. | Permissões negadas; microfone/câmera não detectados. | Assistente visual de ativação (imagens); diagnóstico automático; opção de participar só com áudio se vídeo falhar. |
+| **3.** Participar da sessão de conciliação | Sala virtual ativa; participantes presentes; conexão estável. | Tarefas concorrentes: 3.1 = 3.2 = 3.3 | Interação fluida entre as partes; documentos compartilhados visíveis. | Interface poluída; falhas de áudio; dificuldade em encontrar funcionalidades. | Layout limpo com controles sempre visíveis; indicador de quem está falando. |
+| **3.1** Visualizar na tela o nome e o papel de cada participante (consumidor, fornecedor, mediador) | Lista de participantes e seus papéis. | Sistema sobrepõe nome e papel no vídeo de cada um e destaca o falante ativo. | Nomes e papéis sempre visíveis; destaque do participante ativo. | Difícil identificar quem está falando; cargos confusos. | Exibir etiquetas fixas sobre o vídeo (ex.: “João – Consumidor”); ícone de áudio piscando no falante ativo. |
+| **3.2** Participar da discussão, ativando/desativando o microfone e a câmera conforme necessário | Microfone e câmera ativos; controles de mídia. | Usuário clica nos botões de microfone/câmera para alternar estado; sistema reflete o status. | Ícone do microfone/câmera muda de cor/estado claramente; feedback sonoro leve ao mutar/desmutar. | Usuário esquece microfone ligado (ruído); não sabe como silenciar. | Botões grandes e acessíveis; dica de etiqueta no início (“mantenha o microfone silenciado quando não estiver falando”). |
+| **3.3** Utilizar o chat de evidências para trocar documentos com as outras partes | Chat integrado; documentos digitais. | Usuário abre painel de chat, arrasta ou seleciona arquivo, envia; sistema notifica os demais. | Arquivo enviado aparece no chat com miniatura; notificação discreta para outros participantes. | Chat escondido; confusão sobre onde anexar. | Ícone de chat fixo e visível (ex.: balão com clipe); badge de notificação; confirmação de entrega. |
+| **4.** Finalizar a participação na audiência | Resultado da conciliação (acordo ou não). | Se acordo: 4.1; senão: 4.2 (escolha exclusiva) | Processo atualizado com status “Acordo firmado” ou “Sem acordo”; notificação pós‑sessão. | Incerteza sobre próximos passos; dificuldade com assinatura digital. | Comunicação clara do desfecho e etapas seguintes; suporte à assinatura digital. |
+| **4.1** Revisar e assinar digitalmente o termo de acordo gerado pelo mediador | Termo de acordo exibido na tela; certificado digital Gov.br. | Sistema exibe o termo; usuário revisa, clica em “Assinar”, autentica via Gov.br; sistema registra e encerra. | Assinatura confirmada; PDF do termo enviado por e‑mail e disponível no portal. | Usuário não possui conta Gov.br; não entende validade jurídica. | Botão “Assinar com Gov.br” com tutorial rápido; mensagem de validade jurídica; opção de assinatura por biometria facial se disponível. |
+| **4.2** Receber a comunicação de encerramento sem acordo e a informação sobre os próximos passos | Sessão encerrada pelo mediador; status “Sem acordo”. | Sistema gera notificação com resumo e próximo passo (ex.: “análise do Procon em até 30 dias”). | Mensagem clara com novo status e prazo; link para acompanhamento. | Usuário não sabe o que acontecerá; sensação de impasse. | Exibir linha do tempo atualizada; informar prazo e etapa seguinte em linguagem simples, com link para dúvidas frequentes. |
 
-*Tabela 2 — Representação textual do HTA: Participar de audiência de conciliação virtual. Fonte: Elaborado por Pedro Augusto Moretti Moreira (2026).*
+*Tabela 2 — Representação textual do HTA: Participar de audiência de conciliação virtual (modelo expandido). Fonte: Elaborado por Pedro Augusto Moretti Moreira (2026).*
 
 ---
 
@@ -140,6 +140,9 @@ Os principais **operadores de relação** utilizados são:
              └── 💻 T3.2a — Sistema registra recusa e informa o próximo passo do processo
 ```
 
+!!! info "Responsável por este artefato"
+    Este documento foi elaborado por **Heitor Macedo**, responsável pela funcionalidade *Acompanhar reclamação e responder à proposta* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
+
 *Figura 5 — Representação textual hierárquica da árvore CTT: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo (2026).*
 
 <p align="center">
@@ -193,8 +196,9 @@ Os principais **operadores de relação** utilizados são:
 
 *Figura 7 — Representação textual hierárquica da árvore CTT: Participar de audiência de conciliação virtual. Fonte: Elaborado por Pedro Augusto Moretti Moreira (2026).*
 
-!!! info "Responsáveis pelas funcionalidades"
-    Portal de Acompanhamento de Reclamações com Notificações Ativas: **Heitor Macedo Ricardo** (HTA e CTT apresentados nas Figuras 1, 3 e 4). Sala de Conciliação Virtual com Mediação Assistida: **Pedro Augusto Moretti Moreira** (HTA e CTT apresentados nas Figuras 2, 5 e 6). Integra o conjunto de artefatos das funcionalidades: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
+!!! info "Responsável por este artefato"
+    Este documento foi elaborado por **Pedro Moretti**, responsável pela funcionalidade *Participar de audiência de conciliação virtual* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
+
 
 ### Árvore CTT — Validação de Documentos com OCR
 
