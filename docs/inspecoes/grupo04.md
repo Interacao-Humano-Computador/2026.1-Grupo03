@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este documento registra a inspeção realizada pelo **Grupo 03** sobre os artefatos da **Etapa 1** do **Grupo 04** (grupo +1), utilizando a [Lista de Verificação](../planejamento/verificacao.md) elaborada coletivamente pela equipe. A inspeção segue os critérios definidos no Plano de Ensino da disciplina e nos itens complementares propostos pelos integrantes do grupo.
+Este documento registra a inspeção realizada pelo **Grupo 03** sobre os artefatos da **Etapa 1** do **Grupo 04** (grupo +1), utilizando a [Lista de Verificação](../projeto/verificacao.md) elaborada coletivamente pela equipe. A inspeção segue os critérios definidos no Plano de Ensino da disciplina e nos itens complementares propostos pelos integrantes do grupo.
 
 O objetivo desta inspeção é identificar conformidades e não conformidades nos artefatos entregues pelo grupo avaliado, contribuindo para a melhoria da qualidade geral dos projetos da turma. A gravação da sessão de inspeção está disponível ao final deste documento.
 

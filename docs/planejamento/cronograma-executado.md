@@ -10,14 +10,14 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | Atividade Extraída do Plano de Ensino | Integrante Responsável | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Data | Status |
     | :--- | :---: | :---: | :--- | :---: | :---: |
     | **Apresentação da Equipe**<br>*(Apresentação da Equipe)* | [Pedro Moretti](../equipe/equipe.md) | [Heitor Macedo](../equipe/equipe.md) | [📄 Equipe](../equipe/equipe.md) | 11/04 | ✅ Concluído |
-    | **Apresentação do Site Escolhido**<br>*(Apresentação do Site Escolhido)* | [Pedro Moretti](../equipe/equipe.md) | [Heitor Macedo](../equipe/equipe.md) | [📄 Site Escolhido](site-escolhido.md) | 11/04 | ✅ Concluído |
+    | **Apresentação do Site Escolhido**<br>*(Apresentação do Site Escolhido)* | [Pedro Moretti](../equipe/equipe.md) | [Heitor Macedo](../equipe/equipe.md) | [📄 Site Escolhido](../projeto/site-escolhido.md) | 11/04 | ✅ Concluído |
     | **Heatmap de disponibilidade**<br>*(Cadastro dos Horários)* | [Heloísa](../equipe/equipe.md) | [Pedro Moretti](../equipe/equipe.md) | [📄 Ver Heatmap](../equipe/disponibilidade.md) | 11/04 | ✅ Concluído |
-    | **Ferramentas**<br>*(Documentação de Ferramentas)* | [Pedro Macedo](../equipe/equipe.md) | [Heloísa Silva](../equipe/equipe.md) | [📄 Ferramentas](ferramentas.md)| 12/04 | ✅ Concluído |
+    | **Ferramentas**<br>*(Documentação de Ferramentas)* | [Pedro Macedo](../equipe/equipe.md) | [Heloísa Silva](../equipe/equipe.md) | [📄 Ferramentas](../projeto/ferramentas.md)| 12/04 | ✅ Concluído |
     | **Sites Avaliados**<br>*(Documentação dos Sites Avaliados)* | [Pedro Macedo](../equipe/equipe.md) | [Pedro Moretti](../equipe/equipe.md) | [📄 Análise de Sites](../projeto/analise-sites.md)| 12/04 | ✅ Concluído |
-    | **Processo de Design**<br>*(Montagem e Descrição do Ciclo de Vida Nielsen)* | [Heitor](../equipe/equipe.md), [Heloísa](../equipe/equipe.md) & [Pedro Moretti](../equipe/equipe.md) | [Eduardo Valadares](../equipe/equipe.md) | [📄 Processo Design](processo-design.md) | 11/04 | ✅ Concluído |
+    | **Processo de Design**<br>*(Montagem e Descrição do Ciclo de Vida Nielsen)* | [Heitor](../equipe/equipe.md), [Heloísa](../equipe/equipe.md) & [Pedro Moretti](../equipe/equipe.md) | [Eduardo Valadares](../equipe/equipe.md) | [📄 Processo Design](../projeto/processo-design.md) | 11/04 | ✅ Concluído |
     | **Cronograma**<br>*(Visão macro e micro detalhada com Gantt)* | [Heloísa](../equipe/equipe.md) | [Heitor Macedo](../equipe/equipe.md) | [📄 Cronograma](cronograma.md) | 11/04 | ✅ Concluído |
     | **Artefatos Administrativos**<br>*(Gestão do YouTube e Atas de Reuniões)* | [Heitor](../equipe/equipe.md) | [Eduardo Valadares](../equipe/equipe.md) | [📄 Reuniões e Ata 1](reunioes.md) | 11/04 | ✅ Concluído |
-    | **Artefatos de Validação**<br>*(Construção da Lista de Verificação)* | [Heitor, Heloisa, Pedro Moretti, Pedro Macedo, Eduardo](../equipe/equipe.md) | [Pedro Moretti](../equipe/equipe.md) | [📄 Lista de Verificação](verificacao.md) | 12/04 | ✅ Concluído |
+    | **Artefatos de Validação**<br>*(Construção da Lista de Verificação)* | [Heitor, Heloisa, Pedro Moretti, Pedro Macedo, Eduardo](../equipe/equipe.md) | [Pedro Moretti](../equipe/equipe.md) | [📄 Lista de Verificação](../projeto/verificacao.md) | 12/04 | ✅ Concluído |
     | **Dashboard de Gestão**<br>*(Gestão e Acompanhamento de Entregas)* | [Heitor](../equipe/equipe.md) | [Heloísa Silva](../equipe/equipe.md) | [📄 Dashboard de Gestão](../index.md) | 11/04 | ✅ Concluído |
 
 === "Etapa 2"
@@ -30,7 +30,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Cenários**<br>*(Cenários de uso baseados nas personas)* | [Heitor Macedo](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [📄 Cenários](../analise-requisitos/cenarios.md) | 30/04 | ✅ Concluído |
     | **Análise de Tarefas**<br>*(HTA e CTT)* | [Heitor Macedo](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [📄 Análise de Tarefas](../analise-requisitos/analise-tarefas.md) | 30/04 | ✅ Concluído |
     | **Funcionalidade: Portal de Notificações**<br>*(Declaração e justificativa da funcionalidade)* | [Heitor Macedo](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [📄 Funcionalidades](../analise-requisitos/funcionalidades.md) | 30/04 | ✅ Concluído |
-    | **Artefatos de Validação**<br>*(Lista de Verificação Etapa 2)* | [A definir](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [📄 Verificação Etapa 2](../analise-requisitos/verificacao-etapa2.md) | DD/MM | 🔄 Em Andamento |
+    | **Artefatos de Validação**<br>*(Lista de Verificação Etapa 2)* | [A definir](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [📄 Verificação Etapa 2](../projeto/verificacao-etapa2.md) | DD/MM | 🔄 Em Andamento |
     | **Apresentação da Etapa 2**<br>*(Gravação e publicação no YouTube)* | [A definir](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [🎥 Vídeo — YouTube](#) | DD/MM | 🔄 Em Andamento |
 
 === "Etapa 3"

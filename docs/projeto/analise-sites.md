@@ -76,21 +76,21 @@ Os relatórios completos com análises aprofundadas estão disponíveis nos arqu
 ## 📄 Agenda DF
 <iframe src="../agendadf-analise.pdf" width="100%" height="600px"></iframe>
 
-[🔽 Baixar PDF](agendadf-analise.pdf)
+[🔽 Baixar PDF](./images/agendadf-analise.pdf)
 
 ---
 
 ## 📄 Fala.BR
 <iframe src="../falabr-analise.pdf" width="100%" height="600px"></iframe>
 
-[🔽 Baixar PDF](falabr-analise.pdf)
+[🔽 Baixar PDF](./images/falabr-analise.pdf)
 
 ---
 
 ## 📄 Passaporte PF
 <iframe src="../passaportepf-analise.pdf" width="100%" height="600px"></iframe>
 
-[🔽 Baixar PDF](passaportepf-analise.pdf)
+[🔽 Baixar PDF](./images/passaportepf-analise.pdf)
 
 ## Bibliografia
 

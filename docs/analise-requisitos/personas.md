@@ -111,7 +111,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 **Tarefas:**
 
-- Localizar instantaneamente o canal de registro de reclamação — *frequência: alta (acesso inicial)*
+- Localizar instantaneamente o canal de registr de reclamação — *frequência: alta (acesso inicial)*
 - Anexar provas digitais (screenshots e comprovantes em PDF) — *frequência: única no registro*
 - Validar se o protocolo gerado foi enviado corretamente para seu e-mail — *frequência: única*
 
