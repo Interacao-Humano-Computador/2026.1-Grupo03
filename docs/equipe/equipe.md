@@ -76,6 +76,19 @@ Conheça os membros responsáveis por este projeto da disciplina de Interação 
 
 </div>
 
+<div class="team-member" align="center" markdown>
+
+![Gabriel Robson Nunes Neiva da Silva](images/gabriel.jpeg){ .team-avatar }
+
+<div class="team-name" markdown>[Mateus Rodrigues Barreto](https://github.com/Mateus0xC){: target="_blank" }</div>
+
+<div class="bio" markdown>
+*Estudante de Engenharia de Software na UnB, com interesse em desenvolvimento de software de qualidade, boas práticas e metodologias ágeis.*
+</div>
+</div>
+
+</div>
+
 ---
 
 ## Histórico de Versões

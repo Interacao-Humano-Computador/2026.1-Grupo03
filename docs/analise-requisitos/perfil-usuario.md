@@ -50,6 +50,7 @@ Coleta de atributos basais (idade, escolaridade, experiência tecnológica) conf
 | 📊 Relatório do Grupo de Foco                | [Abrir Relatório](../atas/Relatório%20de%20Grupo%20de%20Foco_%20Análise%20de%20Usabilidade%20e%20Percepção%20do%20Site%20Procon.pdf){: target="\_blank" } |
 | 📊 Relatório da Entrevista ao Empresário     | [Abrir Relatório](../atas/relatorio_entrevista_empresario.pdf){: target="\_blank" }                                                                       |
 | 🎥 Gravação do Grupo de Foco                 | [🔗 Assistir no YouTube](https://youtu.be/rNRFP-oBICI){: target="\_blank" }                                                                               |
+| 🎥 Gravação da Entrevista com Empresário                 | [🔗 Assistir no YouTube](https://youtu.be/yPNqYUdOaGE){: target="\_blank" }                                                                               |
 
 ---
 

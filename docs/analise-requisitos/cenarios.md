@@ -173,6 +173,14 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário
 
 ---
 
+## Material de Apoio
+
+| Documento                                    | Link                                                                                                                                                      |
+| :------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🎥 Gravação da Validação dos Cenários 1 e 3                 | [🔗 Assistir no YouTube](https://youtu.be/zkf6aAAHtmg){: target="\_blank" }                                                                               |
+
+---
+
 ## Agradecimentos à IA
 
 Agradecimento ao **Gemini** pela ajuda na estruturação, redação e detalhamento contextualmente rico dos cenários de interação, garantindo que as dores de Lucas, Laura e Gustavo fossem endereçadas.
