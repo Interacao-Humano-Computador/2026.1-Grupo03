@@ -192,7 +192,7 @@ Os principais **operadores de relação** utilizados são:
 ### Árvore CTT — Validação de Documentos com OCR
 
 <p align="center">
-  <img src="../images/CTT-Heloisa.drawio.png" alt="Árvore CTT — Acompanhar reclamação e responder proposta" width="750">
+  <img src="../images/CTT_Heloisa.drawio.png" alt="Árvore CTT — Acompanhar reclamação e responder proposta" width="750">
   <br><em>Figura 4 — Árvore CTT: Validação de documento com OCR. Fonte: Elaborado por Heloisa Laura Santos da Silva com auxílio do Draw.io (2026).</em>
 </p>
 !!! info "Responsável por este artefato"
