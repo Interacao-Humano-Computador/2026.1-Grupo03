@@ -56,16 +56,15 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
     | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-    | **Perfil de Usuário** | — | ✍️ | — | — | — | — |
-    | **Personas** (1 persona primária — Laura) | — | ✍️ | — | — | — | — |
-    | **Cenários** (1 cenário — Laura) | — | ✍️ | — | — | — | — |
-    | **Análise de Tarefas** (HTA + CTT) | — | ✍️ | — | — | — | — |
-    | **Funcionalidade: Portal de Notificações** | — | ✍️ | — | — | — | — |
-    | **Lista de Verificação (Etapa 2)** | — | — | — | — | — | — |
-    | **Total de documentos criados** | 0 | 5 | 0 | 0 | 0 | 0 |
+    | **Perfil de Usuário (Técnicas)** | — | 3 | — | — | — | — |
+    | **Personas**  | — | 1 | — | — | — | — |
+    | **Cenários**  | — | 1 | — | — | — | — |
+    | **Análise de Tarefas**  | — | 1 | — | — | — | — |
+    | **Funcionalidade**  | — | 1 | — | — | — | — |
+    | **Lista de Verificação (Etapa 2 - itens)** | — | 5 | — | — | — | — |
+    | **Total de documentos criados** | 0 | 7 | 0 | 0 | 0 | 0 |
     | **Total de documentos revisados** | 0 | 0 | 0 | 0 | 0 | 0 |
 
-    *Legenda: ✍️ Autor | 🔍 Revisor. Nota: Heitor elaborou em 30/04/2026: Perfil de Usuário, Persona Primária Laura, Cenário 1, Análise de Tarefas (HTA + CTT) e declaração da Funcionalidade de Notificações Ativas.*
 
 === "Etapa 3"
     > *Resumo a ser preenchido após a conclusão da Etapa 3.*

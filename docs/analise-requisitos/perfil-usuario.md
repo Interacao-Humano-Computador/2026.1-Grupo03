@@ -23,6 +23,8 @@ Realizada presencialmente em **30/04/2026** com três participantes, mediada por
 
 ### Entrevistas (Fornecedores)
 
+#### Entrevista realizada por Pedro Augusto Moretti Moreira
+
 **Descrição:**
 A técnica de entrevista semiestruturada permite um diálogo guiado onde o pesquisador explora tópicos específicos, mas tem flexibilidade para aprofundar em pontos levantados pelo entrevistado.
 
@@ -31,6 +33,17 @@ Foi escolhida para coletar a perspectiva do **fornecedor/empresário**, um usuá
 
 **Aplicação:**
 Entrevista realizada presencialmente por Pedro Augusto Moretti Moreira em 30 de abril 2026 com o proprietário de uma panificadora. O roteiro focou em literacia digital, frequência de uso e percepção de utilidade do portal para o setor empresarial.
+
+### Entrevista (Consumidor)
+
+**Descrição:**
+A técnica de entrevista semiestruturada permite um diálogo guiado onde o pesquisador explora tópicos específicos, mas tem flexibilidade para aprofundar em pontos levantados pelo entrevistado.
+
+**Justificativa:**
+Foi escolhida para coletar a perspectiva do **consumidor**, um usuário que interage com o PROCON-DF de forma pontual e cuja experiência com o portal é marcada por dificuldades de navegação e desorientação nos fluxos de reclamação.
+
+**Aplicação:**
+Entrevista realizada presencialmente por Heitor Macedo Ricardo em 30 de abril de 2026 com um consumidor jovem, estudante universitário. O roteiro focou em literacia digital, experiência prévia com portais governamentais e percepção de usabilidade do sistema do PROCON-DF.
 
 ### Questionário de Dados Demográficos
 
@@ -52,9 +65,17 @@ Técnica de investigação indireta baseada no exame de fontes documentais e bas
 | 📋 Roteiro de Condução do Grupo de Foco      | [Abrir Roteiro](<../atas/Roteiro%20de%20Condução_%20Grupo%20de%20Foco%20(PROCON-DF)%20(1).pdf>){: target="\_blank" }                                      |
 | 📋 Roteiro de Entrevista (Empresário)        | [Abrir Roteiro](../atas/roteiro_entrevista_empresario.pdf){:target="\_blank"}                                                                             |
 | 📋 Questionário de Dados do Usuário (modelo) | [Abrir Questionário](../atas/Questionário%20de%20Levantamento%20do%20Perfil%20de%20Usuário.pdf){: target="\_blank" }                                      |
+
+## Relatórios e Evidências
+
+| Documento                                    | Link                                                                                                                                                      |
+| :------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 📊 Relatório do Grupo de Foco                | [Abrir Relatório](../atas/Relatório%20de%20Grupo%20de%20Foco_%20Análise%20de%20Usabilidade%20e%20Percepção%20do%20Site%20Procon.pdf){: target="\_blank" } |
 | 📊 Relatório da Entrevista ao Empresário     | [Abrir Relatório](../atas/relatorio_entrevista_empresario.pdf){: target="\_blank" }                                                                       |
 | 🎥 Gravação do Grupo de Foco                 | [🔗 Assistir no YouTube](https://youtu.be/rNRFP-oBICI){: target="\_blank" }                                                                               |
+| 📊 Relatório da Entrevista ao Consumidor     | [Abrir Relatório](../atas/relatorio_entrevista_consumidor.pdf){: target="\_blank" }                                                                       |
+| 🎥 Gravação da Entrevista ao Consumidor      | [🔗 Assistir no YouTube](https://youtu.be/NpBs0QKfJIM?si=OOBUVLvbTOjGrg40){: target="\_blank" }                                                          |
+| 📊 Relatório de Análise Documental           | [Abrir Relatório](../atas/analise_documental_procon_df_abnt%20(1).pdf){: target="\_blank" }                                                               |
 | 🎥 Gravação da Entrevista com Empresário                 | [🔗 Assistir no YouTube](https://youtu.be/yPNqYUdOaGE){: target="\_blank" }                                                                               |
 
 ---
@@ -92,9 +113,11 @@ Técnica de investigação indireta baseada no exame de fontes documentais e bas
 
 ### Resultados obtidos com a análise documental
 
+#### Análise realizada por Heloisa Silva
+
 Os dados secundários de 2025, obtidos a partir do Sindec Nacional e do relatório técnico do SEBRAE/PR, indicam os seguintes resultados:
 
-#### Tipo de atendimento (2025)
+##### Tipo de atendimento (2025)
 
 | Tipo de atendimento      | Percentual |
 | :----------------------- | :--------- |
@@ -104,7 +127,7 @@ Os dados secundários de 2025, obtidos a partir do Sindec Nacional e do relatór
 **Fonte:** SINDEC - Atendimentos
 **Autor:** Heloisa Silva
 
-#### Principais assuntos atendidos
+##### Principais assuntos atendidos
 
 | Assunto               | Percentual |
 | :-------------------- | :--------- |
@@ -118,7 +141,7 @@ Os dados secundários de 2025, obtidos a partir do Sindec Nacional e do relatór
 **Fonte:** SINDEC - Atendimentos
 **Autor:** Heloisa Silva
 
-#### Distribuição por gênero
+##### Distribuição por gênero
 
 | Gênero    | Percentual |
 | :-------- | :--------- |
@@ -128,7 +151,7 @@ Os dados secundários de 2025, obtidos a partir do Sindec Nacional e do relatór
 **Fonte:** SINDEC - Atendimentos
 **Autor:** Heloisa Silva
 
-#### Faixa etária predominante
+##### Faixa etária predominante
 
 | Faixa etária     | Percentual |
 | :--------------- | :--------- |
@@ -143,7 +166,7 @@ Os dados secundários de 2025, obtidos a partir do Sindec Nacional e do relatór
 **Fonte:** SINDEC - Atendimentos
 **Autor:** Heloisa Silva
 
-#### Perfis geracionais por idade (base 2025)
+##### Perfis geracionais por idade (base 2025)
 
 Com base no [Relatório Técnico de Redefinição do Perfil do Consumo](#ref-sebrae), os perfis de usuário por geração podem ser descritos da seguinte forma:
 
@@ -161,7 +184,7 @@ Com base no [Relatório Técnico de Redefinição do Perfil do Consumo](#ref-seb
 
 Os dados etários levantados nesta análise documental indicam maior concentração em públicos de 41 anos ou mais, com destaque para 61 a 70 anos e mais de 70 anos, o que reforça a relevância dos perfis Baby Boomers e Geração Silenciosa no contexto observado.
 
-#### População, interesses e hábitos por geração
+##### População, interesses e hábitos por geração
 
 Com base no mesmo [Relatório Técnico de Redefinição do Perfil do Consumo](#ref-sebrae), a distribuição da população, interesses e hábitos de consumo por geração pode ser sintetizada da seguinte forma:
 
@@ -182,6 +205,39 @@ Ao cruzar esses perfis com a distribuição dos atendimentos observada na análi
 
 ---
 
+#### Análise realizada por Heitor Macedo Ricardo
+
+Esta análise documental foi conduzida com foco na **avaliação da usabilidade e clareza das informações disponibilizadas pelo PROCON-DF ao cidadão**, a partir de documentos públicos extraídos diretamente do site oficial da instituição.
+
+##### Passo 1 — Coleta: O que foi analisado
+
+Foram reunidos os seguintes documentos e páginas do site do PROCON-DF:
+
+- **Página de "Dúvidas Frequentes" (FAQ):** levantamento das perguntas mais comuns dos usuários e das respostas fornecidas pelo órgão.
+- **Cartilhas do Consumidor em PDF:** materiais informativos disponibilizados pelo Procon-DF para orientar os cidadãos sobre seus direitos.
+- **Instruções normativas e tutoriais de "Como abrir sua reclamação":** guias passo a passo para o registro de demandas no sistema.
+- **Termos de Uso e Políticas de Privacidade:** condições exigidas para utilização dos serviços digitais do Procon-DF.
+
+##### Passo 2 — Análise: Como os dados foram extraídos
+
+A leitura dos documentos foi orientada pelas seguintes perguntas analíticas:
+
+**1. Quais são as restrições impostas ao usuário?**
+
+Constatou-se que o sistema exige do cidadão o **número de protocolo da empresa fornecedora** antes de registrar uma reclamação formal no Procon. Essa barreira pré-processual é invisível nos fluxos principais do site e não está claramente explicada na FAQ, gerando confusão nos usuários — especialmente nos jovens universitários participantes do Grupo de Foco, que desconheciam essa exigência.
+
+**2. Qual é o vocabulário (jargão) utilizado?**
+
+Os documentos fazem uso frequente de **terminologia jurídica e administrativa** (ex.: *"demanda"*, *"código de defesa do consumidor"*, *"fornecedor"*, *"protocolo de atendimento"*, *"manifestação"*) que não é acessível ao perfil de usuário jovem e sem formação jurídica. Esse achado é coerente com o que foi observado no Grupo de Foco: os participantes demonstraram não compreender o vocabulário do sistema, o que aumenta a fricção no processo de reclamação.
+
+**3. Qual é a complexidade das tarefas?**
+
+O manual instrucional de como abrir uma reclamação é extenso e fragmentado em múltiplas etapas distribuídas entre diferentes páginas e documentos. Essa complexidade confirma a percepção dos participantes do Grupo de Foco, que descreveram o site como *"poluído"* e *"confuso"*. A profusão de informações irrelevantes (como notícias e avisos institucionais na página inicial) agrava ainda mais a dificuldade de navegação.
+
+**Autor:** Heitor Macedo Ricardo
+
+---
+
 ## Definição do Perfil de Usuário
 
 > **Perfil Primário: O Consumidor Jovem**
@@ -195,10 +251,16 @@ Ao cruzar esses perfis com a distribuição dos atendimentos observada na análi
 ## Referências Bibliográficas
 
 <a id="ref-sindec"></a>
-- BRASIL. Ministério da Justiça e Segurança Pública. **Sindec Nacional - Atendimentos**. Disponível em: <https://sindecnacional.mj.gov.br/report/Atendimentos>. Acesso em: 03 maio 2026.
+> 1. BRASIL. Ministério da Justiça e Segurança Pública. **Sindec Nacional - Atendimentos**. Disponível em: <https://sindecnacional.mj.gov.br/report/Atendimentos>. Acesso em: 03 maio 2026.
 
 <a id="ref-sebrae"></a>
-- SEBRAE/PR. **Relatório Técnico: Redefinição do Perfil do Consumo - Marco 2025**. Disponível em: <https://sebraepr.com.br/wp-content/uploads/2025/03/PUB_Relatorio-Tecnico-Redefinicao-do-Perfil-do-Consumo-Marco-2025.pdf?srsltid=AfmBOorrOW0whAqGK8y1jkE7Mz-Qnwfmo-yOcRs4goYUrX1cFyuVKR-C>. Acesso em: 03 maio 2026.
+> 2. SEBRAE/PR. **Relatório Técnico: Redefinição do Perfil do Consumo - Marco 2025**. Disponível em: <https://sebraepr.com.br/wp-content/uploads/2025/03/PUB_Relatorio-Tecnico-Redefinicao-do-Perfil-do-Consumo-Marco-2025.pdf?srsltid=AfmBOorrOW0whAqGK8y1jkE7Mz-Qnwfmo-yOcRs4goYUrX1cFyuVKR-C>. Acesso em: 03 maio 2026.
+
+---
+
+## Agradecimentos à IA
+
+Agradecimento ao **Gemini** pela ajuda na estruturação do deste documento.
 
 ---
 
@@ -208,12 +270,7 @@ Ao cruzar esses perfis com a distribuição dos atendimentos observada na análi
 | :----- | :--------- | :----------------------------------------------------------------- | :------------------------------------ | :------ |
 | `1.0`  | 30/04/2026 | Criação do documento com dados do Grupo de Foco.                   | Heitor Macedo, Heloisa, Pedro Moretti | Heloisa Silva |
 | `1.1`  | 01/05/2026 | Integração de Perfil de Fornecedor via entrevista semiestruturada. | Pedro Augusto Moretti Moreira         | Heitor Macedo |
-| `1.2`  | 03/05/2026 | Inclusão e consolidação da análise documental e dos perfis geracionais (incluindo distribuição dos atendimentos). E adição da bibliografia | Heloisa | Pedro Moretti |
-
----
-
-## Agradecimentos à IA
-
-Agradecimento ao **Gemini** pela ajuda na estruturação do deste documento.
+| `1.2`  | 03/05/2026 | Inclusão e consolidação da análise documental e dos perfis geracionais (incluindo distribuição dos atendimentos). E adição da bibliografia | Heloisa Silva | Pedro Moretti |
+| `1.3`  | 03/05/2026 | Adição da entrevista ao consumidor (Heitor Macedo Ricardo), reorganização das tabelas de Material de Apoio e Relatórios, e nova análise documental do PROCON-DF. | Heitor Macedo Ricardo | Heloisa Silva |
 
 ---

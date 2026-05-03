@@ -230,6 +230,9 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário
 
 > Roberto sente que o tempo foi bem investido. A interface profissional e a entrega imediata do protocolo em PDF deram a ele a segurança de que o banco agora será obrigado a responder dentro do prazo visível na tela.
 
+!!! info "Responsável por este artefato"
+    O **Cenário 5** foi elaborado por **Mateus Rodrigues Barreto**, focado na jornada da Persona Primária Roberto Oliveira e na funcionalidade *Painel de monitoramento de prazos com alertas jurídicos*. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Análise de Tarefas](analise-tarefas.md).
+
 ---
 
 ## Cenário 6 — [Título Descritivo do Cenário]
@@ -280,6 +283,8 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário
 
 | Documento                                    | Link                                                                                                                                                      |
 | :------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 📃 Termo de Consentimento (TCLE)             | [Abrir TCLE](../atas/TCLE.pdf){: target="\_blank" }                                                                       |                                                                                                                            |
+| 📃 Roteiro de Validação dos Cenários 1 e 3     | [Abrir Roteiro](./images/roteiro_validacao_cenarios_moretti.pdf){: target="\_blank" }                                                                       |
 | 📊 Relatório de Validação dos Cenários 1 e 3     | [Abrir Relatório](./images/relatorio_validacao_cenarios_Moretti.pdf){: target="\_blank" }                                                                       |
 | 🎥 Gravação da Validação dos Cenários 1 e 3                 | [🔗 Assistir no YouTube](https://youtu.be/zkf6aAAHtmg){: target="\_blank" }                                                                               |
 
@@ -304,4 +309,4 @@ Agradecimento ao **Gemini** pela ajuda na estruturação, redação e detalhamen
 | `1.0` | 30/04/2026 | Elaboração do Cenário 1 (Persona Laura). | Heitor Macedo Ricardo | Pedro Augusto Moretti |
 | `1.1` | 01/05/2026 | Reestruturação completa focada na Sala de Conciliação Virtual e inclusão das personas Lucas e Gustavo. | Pedro Augusto Moretti Moreira | Heloisa Silva |
 | `1.2` | 03/05/2026 | Adição do Cenário 4 com Maria Helena. | Heloisa Silva | Heitor Macedo |
-| `1.3` | 03/05/2026 | Adição do Cenário 5 com Roberto. | Mateus Rodrigues Barreto | A definir |
+| `1.3` | 03/05/2026 | Adição do Cenário 5 com Roberto. | Mateus Rodrigues Barreto | Pedro Augusto Moretti |

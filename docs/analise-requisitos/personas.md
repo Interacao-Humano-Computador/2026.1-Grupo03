@@ -315,7 +315,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 <p align="center">
   <img src="../images/persona3.png" width="180" alt="Foto de [Nome da Persona]"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #2e7d32; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-  <br><em>Figura 5 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
+  <br><em>Figura 6 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
 </p>
 
 | Atributo | Descrição |
