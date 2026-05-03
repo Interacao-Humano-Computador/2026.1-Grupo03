@@ -59,7 +59,12 @@ Os itens de verificação incluem critérios sugeridos pelo professor, critério
 | **PE04** | As fotos das personas são fictícias (geradas por IA) e não identificam pessoas reais? | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | [Nome do Autor] | | |
 | **PE05** | O elenco possui entre 3 e 12 personas, conforme recomendação de Barbosa e Silva (2021)? | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | [Nome do Autor] | | |
 | **PE06** | The personas motivam as decisões de design descritas no projeto? | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | [Nome do Autor] | | |
-| **PE07** | [Critério adicional elaborado pelo integrante] | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | [Nome do Autor] | | |
+| **PE07** | Caso esteja seguindo a definição de Courage e Baxter (2005), a persona possui nome e sobrenome definidos? | (Courage e Baxter, 2005 apud BARBOSA et al., 2021). [Imagem](images/verificacao2//nome_sobrenome.png) | Pedro Moretti | | |
+| **PE08** | Caso esteja seguindo a definição de Courage e Baxter (2005), o status da persona foi explicitamente definido (primária, secundária, stakeholder ou antipersona)? | (Courage e Baxter, 2005 apud BARBOSA et al., 2021). [Imagem](images/verificacao2//status_persona.png) | Pedro Moretti | | |
+| **PE09** | Caso esteja seguindo a definição de Courage e Baxter (2005), os objetivos da persona foram descritos explicitamente e não se limitam ao produto? | (Courage e Baxter, 2005 apud BARBOSA et al., 2021). [Imagem](images/verificacao2//objetivos_persona.png) | Pedro Moretti | | |
+| **PE10** | Caso esteja seguindo a definição de Cooper (1999), o elenco de personas identifica explicitamente ao menos uma persona primária como foco principal do design? | (Cooper, 1999 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/persona_primaria_foco.png) | Pedro Moretti | | |
+| **PE11** | Caso esteja seguindo a definição de Courage e Baxter (2005), o elenco inclui, quando pertinente, antipersonas para explicitar perfis de usuários para os quais o sistema não está sendo projetado? | (Courage e Baxter, 2005 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/antipersonas_foco_design.png) | Pedro Moretti | | |
+
 
 ### Cenários
 
@@ -71,7 +76,9 @@ Os itens de verificação incluem critérios sugeridos pelo professor, critério
 | **CE04** | Os cenários apresentam uma sequência lógica de ações (planejamento → ações → avaliação)? | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | [Nome do Autor] | | |
 | **CE05** | Os cenários identificam eventos ou obstáculos que influenciam a interação? | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | [Nome do Autor] | | |
 | **CE06** | Há pelo menos um cenário para cada persona primária definida? | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | [Nome do Autor] | | |
-| **CE07** | [Critério adicional elaborado pelo integrante] | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | [Nome do Autor] | | |
+| **CE07** | Caso esteja seguindo a definição de Rosson e Carroll (2002), o cenário foi descrito como uma narrativa concreta e contextualizada de uma situação de uso da aplicação? | (Rosson e Carroll, 2002 apud BARBOSA et al., 2021). [Imagem](images/verificacao2//narrativa_contextualizada_cenario.png) | Pedro Moretti | | |
+| **CE08** | Caso esteja seguindo a definição de Rosson e Carroll (2002), o cenário apresenta um ator principal e um objetivo principal claramente identificados? | (Rosson e Carroll, 2002 apud BARBOSA et al., 2021). [Imagem](images/verificacao2//ator_objetivo_principal_cenario.png) | Pedro Moretti | | |
+| **CE09** | Caso esteja seguindo a definição de Rosson e Carroll (2002) e Cooper (1999), o cenário contempla os elementos característicos: ambiente, atores, objetivos, planejamento, ações, eventos e avaliação? | (Rosson e Carroll, 2002; Cooper, 1999 apud BARBOSA et al., 2021). [Imagem](images/verificacao2//elementos_caracteristicos_cenario.png) | Pedro Moretti | | |
 
 ### Análise de Tarefas
 
@@ -83,7 +90,10 @@ Os itens de verificação incluem critérios sugeridos pelo professor, critério
 | **AT04** | Uma segunda técnica de análise (GOMS ou CTT) foi aplicada complementarmente? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor | | |
 | **AT05** | As tarefas analisadas são representativas das funcionalidades mais utilizadas pelo perfil de usuário? | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | [Nome do Autor] | | |
 | **AT06** | Os problemas e recomendações identificados na HTA são concretos e relacionados ao sistema real? | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | [Nome do Autor] | | |
-| **AT07** | [Critério adicional elaborado pelo integrante] | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Grupo</span> | [Nome do Autor] | | |
+| **AT07** | Caso esteja seguindo a definição de Annett (2003) e Annett e Duncan (1967), a análise parte dos objetivos das pessoas, em vez de se limitar a uma simples lista de ações (BARBOSA; SILVA, 2021, p. 165)? | (Annett, 2003; Annett e Duncan, 1967 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/hta_objetivos_antes_acoes.png) | Pedro Moretti | | |
+| **AT08** | Caso esteja seguindo a definição de Annett (2003) e Annett e Duncan (1967), as tarefas complexas foram decompostas hierarquicamente em objetivos e subobjetivos, caracterizando uma decomposição de tarefas ou redescrição? | (Annett, 2003; Annett e Duncan, 1967 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/hta_decomposicao_hierarquica.png) | Pedro Moretti | | |
+| **AT09** | Caso esteja seguindo a definição de CTT, foram definidas as tarefas do usuário? | (BARBOSA et al., 2021). [Imagem](images/verificacao2/ctt_tarefas_usuario.png) | Pedro Moretti | | |
+| **AT10** | Caso esteja seguindo a definição de CTT, foram definidas as tarefas do sistema? | (BARBOSA et al., 2021). [Imagem](images/verificacao2/ctt_tarefas_sistema.png) | Pedro Moretti | | |
 
 ---
 
