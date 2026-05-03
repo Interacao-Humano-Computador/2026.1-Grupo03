@@ -12,6 +12,7 @@ Esta lista de verificação consolida os critérios de avaliação da **Etapa 2*
 |:--:|:---|:---:|:---:|:---:|:---|
 | **PU-01** | **Definição e Atributos do Perfil de Usuário**<br>*O perfil do usuário foi definido a partir de no mínimo duas técnicas de coleta de dados (ex: entrevistas, questionários, grupos de foco) e descreve claramente os grupos de atributos exigidos (dados demográficos, experiência com a tecnologia, atitudes e tarefas primárias)?* | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/verificacaoHeitor-2-1.png) | Heitor Macedo Ricardo | | |
 | **PU-02** | **Aspectos Éticos e Termo de Consentimento (TCLE)**<br>*O projeto demonstra rigor com os aspectos éticos de pesquisas envolvendo pessoas, comprovando a aplicação do Termo de Consentimento Livre e Esclarecido (TCLE) e a solicitação de permissão para gravar imagem/voz antes do início das avaliações?* | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-2-2.png) | Heitor Macedo Ricardo | | |
+| **PU-03** | **Dados Sobre Familiaridade com tecnologia**<br>*O perfil do usuário contém informações sobre a relação dele com tecnologia?* | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-2-2.png) | HeLoisa Silva | | |
 
 ---
 
