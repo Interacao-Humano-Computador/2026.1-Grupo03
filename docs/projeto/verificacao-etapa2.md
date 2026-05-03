@@ -2,52 +2,52 @@
 
 ## Introdução
 
-Esta lista de verificação consolida os critérios de avaliação da **Etapa 2** do projeto, abrangendo os artefatos de análise de requisitos produzidos pelo grupo (Perfil de Usuário, Personas, Cenários e Análise de Tarefas). O documento está dividido em duas seções: a **Verificação Interna do Grupo**, realizada pelos próprios integrantes antes da entrega, e a **Verificação do Grupo +1**, aplicada ao grupo designado para revisão cruzada, conforme as diretrizes do Plano de Ensino.
-
-Os itens de verificação incluem critérios elaborados pelos integrantes com base no conteúdo da disciplina.
+Esta lista de verificação consolida os critérios de avaliação da **Etapa 2** do projeto, abrangendo os artefatos de análise de requisitos produzidos pelo grupo (Perfil de Usuário, Personas, Cenários e Análise de Tarefas). Os itens foram elaborados pelos integrantes com base no conteúdo da disciplina, com fonte bibliográfica e imagem comprobatória para cada critério.
 
 ---
 
-## Itens do Conteúdo da Disciplina
+## Perfil de Usuário
 
 | ID | Critério de Avaliação | Fonte | Autor | Resposta Sim/Não | Versão, Data e hora da avaliação |
 |:--:|:---|:---:|:---:|:---:|:---|
-| **1** | **Definição e Atributos do Perfil de Usuário**<br>*O perfil do usuário foi definido a partir de no mínimo duas técnicas de coleta de dados (ex: entrevistas, questionários, grupos de foco) e descreve claramente os grupos de atributos exigidos (dados demográficos, experiência com a tecnologia, atitudes e tarefas primárias)?* | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/verificacaoHeitor-2-1.png) | Heitor Macedo Ricardo | | |
-| **2** | **Aspectos Éticos e Termo de Consentimento (TCLE)**<br>*O projeto demonstra rigor com os aspectos éticos de pesquisas envolvendo pessoas, comprovando a aplicação do Termo de Consentimento Livre e Esclarecido (TCLE) e a solicitação de permissão para gravar imagem/voz antes do início das avaliações?* | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-2-2.png) | Heitor Macedo Ricardo | | |
-| **3** | **Personas**<br>*O projeto apresenta um elenco de personas consolidado a partir dos dados do perfil de usuário, contendo todos os elementos obrigatórios: identidade, status, objetivos, habilidades, tarefas, relacionamentos, requisitos e expectativas?* | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-2-3.png) | Heitor Macedo Ricardo | | |
-| **4** | **Cenários**<br>*O projeto possui cenários elaborados em formato de narrativa concreta e detalhada, contendo explicitamente os 7 elementos fundamentais: ambiente ou contexto, atores, objetivos, planejamento, ações, eventos e avaliação?* | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-2-4.png) | Heitor Macedo Ricardo | | |
-| **5** | **Análise de Tarefas (Múltiplas Técnicas)**<br>*O projeto apresenta a Análise de Tarefas para a atividade de cada integrante do grupo, e essas tarefas estão modeladas utilizando ao menos duas técnicas diferentes (ex: HTA, GOMS ou CTT)?* | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-2-5.png) | Heitor Macedo Ricardo | | |
+| **PU-01** | **Definição e Atributos do Perfil de Usuário**<br>*O perfil do usuário foi definido a partir de no mínimo duas técnicas de coleta de dados (ex: entrevistas, questionários, grupos de foco) e descreve claramente os grupos de atributos exigidos (dados demográficos, experiência com a tecnologia, atitudes e tarefas primárias)?* | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/verificacaoHeitor-2-1.png) | Heitor Macedo Ricardo | | |
+| **PU-02** | **Aspectos Éticos e Termo de Consentimento (TCLE)**<br>*O projeto demonstra rigor com os aspectos éticos de pesquisas envolvendo pessoas, comprovando a aplicação do Termo de Consentimento Livre e Esclarecido (TCLE) e a solicitação de permissão para gravar imagem/voz antes do início das avaliações?* | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-2-2.png) | Heitor Macedo Ricardo | | |
 
 ---
 
-## Verificação Interna do Grupo
+## Personas
 
-### Personas
+| ID | Critério de Avaliação | Fonte | Autor | Resposta Sim/Não | Versão, Data e hora da avaliação |
+|:--:|:---|:---:|:---:|:---:|:---|
+| **PE-01** | **Elenco de Personas**<br>*O projeto apresenta um elenco de personas consolidado a partir dos dados do perfil de usuário, contendo todos os elementos obrigatórios: identidade, status, objetivos, habilidades, tarefas, relacionamentos, requisitos e expectativas?* | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-2-3.png) | Heitor Macedo Ricardo | | |
+| **PE-02** | Caso esteja seguindo a definição de Courage e Baxter (2005), a persona possui nome e sobrenome definidos? | (Courage e Baxter, 2005 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/nome_sobrenome.png) | Pedro Moretti | | |
+| **PE-03** | Caso esteja seguindo a definição de Courage e Baxter (2005), o status da persona foi explicitamente definido (primária, secundária, stakeholder ou antipersona)? | (Courage e Baxter, 2005 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/status_persona.png) | Pedro Moretti | | |
+| **PE-04** | Caso esteja seguindo a definição de Courage e Baxter (2005), os objetivos da persona foram descritos explicitamente e não se limitam ao produto? | (Courage e Baxter, 2005 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/objetivos_persona.png) | Pedro Moretti | | |
+| **PE-05** | Caso esteja seguindo a definição de Cooper (1999), o elenco de personas identifica explicitamente ao menos uma persona primária como foco principal do design? | (Cooper, 1999 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/persona_primaria_foco.png) | Pedro Moretti | | |
+| **PE-06** | Caso esteja seguindo a definição de Courage e Baxter (2005), o elenco inclui, quando pertinente, antipersonas para explicitar perfis de usuários para os quais o sistema não está sendo projetado? | (Courage e Baxter, 2005 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/antipersonas_foco_design.png) | Pedro Moretti | | |
 
-| ID | Critério de Avaliação | Fonte | Autor | Resposta | Versão, Data e Hora |
-| :--: | :--- | :---: | :---: | :---: | :--- |
-| **PE07** | Caso esteja seguindo a definição de Courage e Baxter (2005), a persona possui nome e sobrenome definidos? | (Courage e Baxter, 2005 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/nome_sobrenome.png) | Pedro Moretti | | |
-| **PE08** | Caso esteja seguindo a definição de Courage e Baxter (2005), o status da persona foi explicitamente definido (primária, secundária, stakeholder ou antipersona)? | (Courage e Baxter, 2005 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/status_persona.png) | Pedro Moretti | | |
-| **PE09** | Caso esteja seguindo a definição de Courage e Baxter (2005), os objetivos da persona foram descritos explicitamente e não se limitam ao produto? | (Courage e Baxter, 2005 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/objetivos_persona.png) | Pedro Moretti | | |
-| **PE10** | Caso esteja seguindo a definição de Cooper (1999), o elenco de personas identifica explicitamente ao menos uma persona primária como foco principal do design? | (Cooper, 1999 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/persona_primaria_foco.png) | Pedro Moretti | | |
-| **PE11** | Caso esteja seguindo a definição de Courage e Baxter (2005), o elenco inclui, quando pertinente, antipersonas para explicitar perfis de usuários para os quais o sistema não está sendo projetado? | (Courage e Baxter, 2005 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/antipersonas_foco_design.png) | Pedro Moretti | | |
+---
 
-### Cenários
+## Cenários
 
-| ID | Critério de Avaliação | Fonte | Autor | Resposta | Versão, Data e Hora |
-| :--: | :--- | :---: | :---: | :---: | :--- |
-| **CE07** | Caso esteja seguindo a definição de Rosson e Carroll (2002), o cenário foi descrito como uma narrativa concreta e contextualizada de uma situação de uso da aplicação? | (Rosson e Carroll, 2002 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/narrativa_contextualizada_cenario.png) | Pedro Moretti | | |
-| **CE08** | Caso esteja seguindo a definição de Rosson e Carroll (2002), o cenário apresenta um ator principal e um objetivo principal claramente identificados? | (Rosson e Carroll, 2002 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/ator_objetivo_principal_cenario.png) | Pedro Moretti | | |
-| **CE09** | Caso esteja seguindo a definição de Rosson e Carroll (2002) e Cooper (1999), o cenário contempla os elementos característicos: ambiente, atores, objetivos, planejamento, ações, eventos e avaliação? | (Rosson e Carroll, 2002; Cooper, 1999 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/elementos_caracteristicos_cenario.png) | Pedro Moretti | | |
+| ID | Critério de Avaliação | Fonte | Autor | Resposta Sim/Não | Versão, Data e hora da avaliação |
+|:--:|:---|:---:|:---:|:---:|:---|
+| **CE-01** | **Estrutura dos Cenários**<br>*O projeto possui cenários elaborados em formato de narrativa concreta e detalhada, contendo explicitamente os 7 elementos fundamentais: ambiente ou contexto, atores, objetivos, planejamento, ações, eventos e avaliação?* | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-2-4.png) | Heitor Macedo Ricardo | | |
+| **CE-02** | Caso esteja seguindo a definição de Rosson e Carroll (2002), o cenário foi descrito como uma narrativa concreta e contextualizada de uma situação de uso da aplicação? | (Rosson e Carroll, 2002 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/narrativa_contextualizada_cenario.png) | Pedro Moretti | | |
+| **CE-03** | Caso esteja seguindo a definição de Rosson e Carroll (2002), o cenário apresenta um ator principal e um objetivo principal claramente identificados? | (Rosson e Carroll, 2002 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/ator_objetivo_principal_cenario.png) | Pedro Moretti | | |
+| **CE-04** | Caso esteja seguindo a definição de Rosson e Carroll (2002) e Cooper (1999), o cenário contempla os elementos característicos: ambiente, atores, objetivos, planejamento, ações, eventos e avaliação? | (Rosson e Carroll, 2002; Cooper, 1999 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/elementos_caracteristicos_cenario.png) | Pedro Moretti | | |
 
-### Análise de Tarefas
+---
 
-| ID | Critério de Avaliação | Fonte | Autor | Resposta | Versão, Data e Hora |
-| :--: | :--- | :---: | :---: | :---: | :--- |
-| **AT07** | Caso esteja seguindo a definição de Annett (2003) e Annett e Duncan (1967), a análise parte dos objetivos das pessoas, em vez de se limitar a uma simples lista de ações (BARBOSA; SILVA, 2021, p. 165)? | (Annett, 2003; Annett e Duncan, 1967 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/hta_objetivos_antes_acoes.png) | Pedro Moretti | | |
-| **AT08** | Caso esteja seguindo a definição de Annett (2003) e Annett e Duncan (1967), as tarefas complexas foram decompostas hierarquicamente em objetivos e subobjetivos, caracterizando uma decomposição de tarefas ou redescrição? | (Annett, 2003; Annett e Duncan, 1967 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/hta_decomposicao_hierarquica.png) | Pedro Moretti | | |
-| **AT09** | Caso esteja seguindo a definição de CTT, foram definidas as tarefas do usuário? | (BARBOSA et al., 2021). [Imagem](images/verificacao2/ctt_tarefas_usuario.png) | Pedro Moretti | | |
-| **AT10** | Caso esteja seguindo a definição de CTT, foram definidas as tarefas do sistema? | (BARBOSA et al., 2021). [Imagem](images/verificacao2/ctt_tarefas_sistema.png) | Pedro Moretti | | |
+## Análise de Tarefas
+
+| ID | Critério de Avaliação | Fonte | Autor | Resposta Sim/Não | Versão, Data e hora da avaliação |
+|:--:|:---|:---:|:---:|:---:|:---|
+| **AT-01** | **Múltiplas Técnicas de Análise**<br>*O projeto apresenta a Análise de Tarefas para a atividade de cada integrante do grupo, e essas tarefas estão modeladas utilizando ao menos duas técnicas diferentes (ex: HTA, GOMS ou CTT)?* | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-2-5.png) | Heitor Macedo Ricardo | | |
+| **AT-02** | Caso esteja seguindo a definição de Annett (2003) e Annett e Duncan (1967), a análise parte dos objetivos das pessoas, em vez de se limitar a uma simples lista de ações (BARBOSA; SILVA, 2021, p. 165)? | (Annett, 2003; Annett e Duncan, 1967 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/hta_objetivos_antes_acoes.png) | Pedro Moretti | | |
+| **AT-03** | Caso esteja seguindo a definição de Annett (2003) e Annett e Duncan (1967), as tarefas complexas foram decompostas hierarquicamente em objetivos e subobjetivos, caracterizando uma decomposição de tarefas ou redescrição? | (Annett, 2003; Annett e Duncan, 1967 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/hta_decomposicao_hierarquica.png) | Pedro Moretti | | |
+| **AT-04** | Caso esteja seguindo a definição de CTT, foram definidas as tarefas do usuário? | (BARBOSA et al., 2021). [Imagem](images/verificacao2/ctt_tarefas_usuario.png) | Pedro Moretti | | |
+| **AT-05** | Caso esteja seguindo a definição de CTT, foram definidas as tarefas do sistema? | (BARBOSA et al., 2021). [Imagem](images/verificacao2/ctt_tarefas_sistema.png) | Pedro Moretti | | |
 
 ---
 
@@ -64,4 +64,5 @@ Os itens de verificação incluem critérios elaborados pelos integrantes com ba
 | :--- | :--- | :--- | :--- | :--- |
 | `1.0` | 01/05/2026 | Criação da lista de verificação da Etapa 2. | Heitor Macedo Ricardo | Pedro Moretti |
 | `1.1` | 03/05/2026 | Adição dos 5 itens técnicos do Heitor com fontes e imagens comprobatórias. | Heitor Macedo Ricardo | Pedro Moretti |
-| `1.2` | 03/05/2026 | Resolução do merge conflict: mantidos itens de Heitor Macedo Ricardo e Pedro Moretti; removidos itens de Sugestão do Professor e placeholders. | Heitor Macedo Ricardo | Pedro Moretti |
+| `1.2` | 03/05/2026 | Resolução do merge conflict: mantidos itens de Heitor Macedo Ricardo e Pedro Moretti. | Heitor Macedo Ricardo | Pedro Moretti |
+| `1.3` | 03/05/2026 | Reorganização por categorias (Perfil de Usuário, Personas, Cenários, Análise de Tarefas) com IDs padronizados. | Heitor Macedo Ricardo | Pedro Moretti |
