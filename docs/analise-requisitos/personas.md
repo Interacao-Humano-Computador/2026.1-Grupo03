@@ -4,7 +4,7 @@
 
 Personas são personagens fictícios criados para representar os diferentes tipos de usuários dentro de um grupo demográfico que poderá usar o sistema de modo similar. Segundo Barbosa e Silva (2021), personas são definidas principalmente por seus objetivos, determinados por um processo de refinamento a partir de dados do perfil de usuário. Um elenco de personas deve cobrir os principais grupos de usuários do sistema para que o designer foque seus esforços nos usuários mais importantes.
 
-O elenco de personas deste projeto foi construído a partir dos dados coletados no Perfil de Usuário, com base nos resultados do Grupo de Foco realizado em 30/04/2026, na Entrevista e na Análise Documental. O elenco é composto por **6 personas** ao total: **4 personas primárias**, **1 persona secundária** e **1 antipersona**.
+O elenco de personas deste projeto foi construído a partir dos dados coletados no Perfil de Usuário, com base nos resultados do Grupo de Foco realizado em 30/04/2026, na Entrevista e na Análise Documental. O elenco é composto por **7 personas** ao total: **5 personas primárias**, **1 persona secundária** e **1 antipersona**.
 
 ---
 
@@ -139,12 +139,60 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ---
 
-### 2.3. Persona Primária: Maria Helena, a Aposentada Prática
+### 2.3. Persona Primária: Ivone, a Iniciante Vulnerável
+
+<p align="center">
+  <img src="../images/personas/persona2.png" width="180" alt="Foto de Ivone"
+       style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <br><em>Figura 3 — Ivone Maria da Silva. Fonte: Elaborado pelos autores (2026).</em>
+</p>
+
+| Atributo | Descrição |
+| :--- | :--- |
+| **Nome** | Ivone Maria da Silva |
+| **Idade** | 56 anos |
+| **Gênero** | Feminino |
+| **Localidade** | Ceilândia, DF |
+| **Escolaridade** | Ensino Fundamental incompleto |
+| **Ocupação** | Auxiliar de Limpeza |
+| **Status** | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Persona Primária</span> |
+
+**Objetivos:**
+- **Resolver conflitos sem medo:** Registrar uma reclamação sobre uma compra não entregue sem sentir que o site é pouco confiável ou "perigoso".
+- **Independência digital:** Conseguir finalizar o processo pelo celular sem depender de terceiros para navegar em uma interface "poluída".
+
+**Habilidades:**
+- **Uso básico de tecnologia:** Utiliza o celular para WhatsApp e chamadas. Associa layouts excessivamente carregados a "spam" ou vírus.
+- **Leitura funcional:** Prefere ícones e botões grandes a blocos densos de texto pequeno.
+
+**Tarefas:**
+- Localizar o ponto de partida para reclamação na home — *frequência: única*.
+- Tirar foto e anexar comprovantes de pagamento — *frequência: eventual*.
+- Diferenciar se seu problema é caso de Procon ou Justiça — *frequência: raro*.
+
+**Relacionamentos:**
+- Busca o Procon por recomendação de vizinhos após sofrer um "atendimento de tortura" por parte de uma loja online.
+
+**Expectativas:**
+- Espera encontrar um **botão central e destacado** (estilo Reclame Aqui) para registrar sua queixa imediatamente.
+- Espera que o site a guie passo a passo, eliminando a necessidade de pesquisar no Google "como usar o site do Procon".
+
+**Requisitos:**
+- **Clean Design:** Redução de banners e notícias que criam uma estética de "spam".
+- **CTA de Alto Contraste:** O botão de reclamação deve ser o elemento mais visível da página.
+- **Foco em Mobile:** A interface deve ser totalmente adaptada para uso em smartphones, evitando menus escondidos.
+
+!!! info "Responsável por este artefato"
+    A **Persona Primária Ivone** foi criada por **Pedro Augusto Macedo Del Castilo**, responsável pela funcionalidade *Botão de Reclamação Rápida*.
+
+---
+
+### 2.4. Persona Primária: Maria Helena, a Aposentada Prática
 
 <p align="center">
   <img src="../images/persona_MariaHelena.png" width="180" alt="Foto de Maria Helena Costa"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-  <br><em>Figura 3 — Maria Helena Costa. Fonte: Elaborado pelos autores (2026).</em>
+  <br><em>Figura 4 — Maria Helena Costa. Fonte: Elaborado pelos autores (2026).</em>
 </p>
 
 | Atributo | Descrição |
@@ -195,12 +243,14 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 !!! info "Responsável por este artefato"
     A **Persona Primária Maria Helena Costa** foi criada por **Heloisa Laura Santos da Silva** com base nos dados da análise documental, que indicam maior concentração de atendimentos em faixas etárias mais altas, predominância de reclamações ou denúncias e participação feminina mais elevada.
 
-### 2.4. Persona Primária: Roberto, o Pragmático
+---
+
+### 2.5. Persona Primária: Roberto, o Pragmático
 
 <p align="center">
   <img src="../images/persona_roberto.png" width="180" alt="Foto de Roberto Oliveira"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-  <br><em>Figura 4 — Roberto Oliveira. Fonte: Elaborado pelos autores (2026).</em>
+  <br><em>Figura 5 — Roberto Oliveira. Fonte: Elaborado pelos autores (2026).</em>
 </p>
 
 | Atributo | Descrição |
@@ -253,12 +303,12 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ---
 
-### 2.5. Persona Secundária: Gustavo, o Microempreendedor
+### 2.6. Persona Secundária: Gustavo, o Microempreendedor
 
 <p align="center">
   <img src="../images/persona_gustavo.jpeg" width="180" alt="Foto de Gustavo Santos"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #2e7d32; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-  <br><em>Figura 5 — Gustavo Santos. Fonte: Elaborado pelos autores (2026).</em>
+  <br><em>Figura 6 — Gustavo Santos. Fonte: Elaborado pelos autores (2026).</em>
 </p>
 
 | Atributo | Descrição |
@@ -310,12 +360,12 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ---
 
-### 2.6. Persona Secundária: [Nome Completo da Persona] (Modelo)
+### 2.7. Persona Secundária: [Nome Completo da Persona] (Modelo)
 
 <p align="center">
   <img src="../images/persona3.png" width="180" alt="Foto de [Nome da Persona]"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #2e7d32; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-  <br><em>Figura 6 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
+  <br><em>Figura 7 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
 </p>
 
 | Atributo | Descrição |
@@ -400,4 +450,5 @@ Agradecimento ao **Gemini 3 Flash** pela ajuda na criação e estruturação das
 | `1.0` | 30/04/2026 | Criação do documento com Persona Primária Laura, baseada nos dados reais do Grupo de Foco (Etapa 2). | Heitor Macedo Ricardo | Pedro Augusto Moretti |
 | `1.1` | 01/05/2026 | Adição e expansão profunda das personas Lucas e Gustavo e da Antipersona Hugo com base nos dados consolidados. | Pedro Augusto Moretti Moreira | Heloisa Silva |
 | `1.2` | 03/05/2026 | Inclusão da Persona Primária Maria Helena com base na análise documental. | Heloisa Silva | Heitor Macedo |
-| `1.3` | 03/05/2026 | Inclusão da Persona Primária Roberto Oliveira. | Mateus Rodrigues Barreto | A definir |
+| `1.3` | 03/05/2026 | Criação da persona Ivone (Etapa 2). | Pedro Macedo | Heitor Macedo |
+| `1.4` | 03/05/2026 | Inclusão da Persona Primária Roberto Oliveira. | Mateus Rodrigues Barreto | Pedro Moretti |

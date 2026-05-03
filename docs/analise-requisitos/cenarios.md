@@ -29,7 +29,7 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário
 - **Ambiente ou contexto:** Lucas em seu home office tecnológico em Taguatinga; Gustavo no escritório de sua panificadora no Guará. Ambos conectados via internet em ambiente profissional/doméstico.
 - **Atores:** Lucas Silva (Consumidor Exigente/Persona Primária) e Gustavo Santos (Microempreendedor/Persona Secundária), além do Mediador do PROCON.
 - **Objetivos:** Realizar a audiência de conciliação agendada, chegar a um consenso sobre o estorno de um pagamento e formalizar o acordo com validade jurídica.
-- **Planejamento:** Ambos se prepararam minutos antes, garantindo conexão estável e acesso aos documentos (comprovante Pix e relatório de entrega) para fundamentar seus argumentos durante a chamada. Lucas, em particular, planejou compartilhar apenas a janela com as evidências, preservando a privacidade de suas outras atividades.
+- **Planejamento:** Ambos se prepararam minutos antes, garantindo conexão estável e acesso aos documentos (comprovante Pix e relatório de entrega) para fundamentar seus argumentos durante a chamada. Lucas, in particular, planejou compartilhar apenas a janela com as evidências, preservando a privacidade de suas outras atividades.
 - **Ações:** (1) Acessar o link da sala; (2) realizar teste de periféricos e verificar indicadores de qualidade; (3) expor os fatos via vídeo; (4) compartilhar seletivamente uma janela com evidências; (5) revisar o termo de acordo editado ao vivo; (6) realizar a assinatura digital via Gov.br.
 - **Eventos:** (1) O sistema valida a entrada das partes; (2) a plataforma gerencia o fluxo de áudio/vídeo e exibe os indicadores de conexão; (3) o sistema permite o compartilhamento seletivo de tela; (4) o sistema integra o serviço de assinatura eletrônica do Governo Federal; (5) o sistema encerra o protocolo e envia o PDF assinado para os e‑mails.
 - **Avaliação:** Lucas sentiu que a interface moderna, a possibilidade de compartilhar apenas uma janela e a estabilidade da transmissão condizem com sua expectativa de eficiência técnica e respeito à privacidade. Gustavo avaliou a experiência como essencial para sua rotina, permitindo resolver pendências jurídicas sem abandonar a gestão física de seu negócio.
@@ -127,7 +127,7 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário
 
 ### Avaliação
 
-> Gustavo sente que o portal agora é uma ferramenta de gestão útil, e não apenas um site de reclamações contra ele. A clareza das informações reduz sua ansiedade administrativa.
+> Gustavo sente que o portal agora é uma ferramenta de gestão útil, e não apenas um site de reclamações contra de ele. A clareza das informações reduz sua ansiedade administrativa.
 
 ---
 
@@ -235,47 +235,38 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário
 
 ---
 
-## Cenário 6 — [Título Descritivo do Cenário]
+## Cenário 6: Dona Ivone e a Superação da Barreira Digital
 
-### Contexto e Ambiente
+### Narrativa
 
-| Elemento | Descrição |
-| :--- | :--- |
-| **Ambiente** | [Ex: ...] |
-| **Data/Horário** | [Ex: ...] |
-| **Dispositivo** | [Ex: ...] |
-| **Pré-condições** | [Ex: ...] |
+Era uma noite de quinta-feira e Dona Ivone estava na cozinha de sua casa em Ceilândia, terminando de guardar a louça enquanto olhava para o balcão vazio onde deveria estar a fritadeira elétrica que comprou há dois meses em um site estrangeiro. Após semanas enfrentando o que ela descrevia como um "atendimento de tortura" — sendo transferida entre múltiplos atendentes que nunca resolviam o sumiço do produto — ela sentia que o prejuízo financeiro era inevitável. Seguindo o conselho de uma vizinha que teve um problema similar, Ivone decidiu que era hora de procurar o Procon, mas o medo de "mexer com essas coisas de internet" ainda a assombrava.
 
-### Atores
+Sentada à mesa da cozinha, ela pegou seu celular com as mãos ainda levemente úmidas do trabalho doméstico. Ivone tinha uma aversão profunda a sites oficiais; para ela, as páginas do governo eram sempre "poluídas", cheias de banners que pareciam "links de vírus" ou "spam". Ao digitar "Procon" no Google, ela respirou fundo e clicou no primeiro resultado, esperando encontrar aquela confusão desorientadora de notícias e textos pequenos que sempre a faziam desistir. No entanto, ao carregar o novo portal, ela não viu o caos habitual. No centro da tela, um botão grande, de cor vibrante e com excelente contraste, exibia apenas duas palavras: **"REGISTRAR RECLAMAÇÃO"**.
 
-- **Ator Principal:** [Nome da Persona] — [papel]
-- **Ator Secundário:** [Se houver]
+"Parece o botão daquele site que o povo fala, o Reclame Aqui", pensou Ivone, sentindo uma pontada de confiança por reconhecer um padrão visual amigável. Ela tocou no botão. Imediatamente, todos os banners de notícias e links externos desapareceram, dando lugar a um fluxo guiado que perguntou, em letras grandes: *"Qual empresa te causou problemas?"*. Ela digitou o nome da loja e, em seguida, o sistema solicitou uma foto do comprovante. Ivone usou a própria câmera do celular, tirou uma foto da nota fiscal que estava sobre a mesa e, com mais dois toques, recebeu o aviso: *"Tudo pronto, Ivone! O Procon já recebeu seu pedido e vai falar com a empresa por você"*. Ela guardou o celular com um sorriso; pela primeira vez, não precisou de um tutorial ou da ajuda dos filhos para exercer seus direitos.
 
-### Objetivos
+---
 
-- **Objetivo Final:** [...]
-- **Objetivos Intermediários:**
-    - [...]
-    - [...]
+### Análise dos Elementos do Cenário
 
-### Planejamento
+Segundo **Barbosa e Silva (2021, p. 158)**, os 7 elementos obrigatórios de um cenário estão presentes na narrativa acima da seguinte forma:
 
-> [...]
+- **Ambiente ou contexto:** Cozinha da residência em Ceilândia, DF, durante o período noturno. Dona Ivone utiliza um smartphone pessoal de entrada, com tela pequena e conexão Wi-Fi doméstica. O ambiente é doméstico e calmo, mas a usuária possui pressa em resolver o problema devido ao cansaço do dia de trabalho.
 
-### Sequência de Ações
+- **Atores:** Ivone Maria da Silva — auxiliar de limpeza de 56 anos, Persona Primária do projeto. Possui baixa fluência digital, medo crônico de interfaces poluídas (percepção de "spam") e é leiga em terminologias jurídicas.
 
-1. [...]
-2. [...]
-3. [...]
+- **Objetivos:** Registrar formalmente uma reclamação contra um site de e-commerce internacional por produto não entregue e obter o suporte mediador do Procon sem precisar de deslocamento físico ou auxílio técnico de terceiros.
 
-### Eventos
+- **Planejamento:** O planejamento de Ivone foi motivado pela necessidade de reaver seu dinheiro após a falha nos canais diretos da empresa. Sua atividade mental consistiu em superar a desconfiança inicial em relação ao site oficial e buscar um ponto de interação óbvio que confirmasse que ela estava no caminho certo para "reclamar".
 
-- [...]
-- [...]
+- **Ações:** (1) Acessar o portal pelo navegador do celular; (2) identificar e tocar no botão centralizado "Registrar Reclamação"; (3) digitar o nome da empresa fornecedora; (4) acionar a câmera do celular via navegador para fotografar o comprovante físico; (5) ler e confirmar a mensagem de conclusão do protocolo em linguagem simplificada.
 
-### Avaliação
+- **Eventos:** (1) O sistema carrega uma interface minimalista com foco em Call to Action (CTA); (2) ao ser acionado, o sistema ativa o modo "foco", ocultando elementos distratores (notícias e avisos secundários); (3) o sistema valida os dados e gera um protocolo automático; (4) o sistema apresenta uma mensagem de encerramento amigável e em "linguagem cidadã".
 
-> [...]
+- **Avaliação:** Dona Ivone sente-se empoderada e aliviada. A avaliação foi positiva pois o sistema eliminou a desorientação visual típica do site antigo. O uso de um padrão de design reconhecido (inspirado no Reclame Aqui) e a ausência de jargão jurídico fizeram com que ela sentisse que o Procon é, de fato, um facilitador de direitos e não uma barreira burocrática.
+
+!!! info "Responsável por este artefato"
+    O **Cenário 6** foi elaborado por **Pedro Augusto Macedo Del Castilo**, responsável pela funcionalidade *Botão de Reclamação Rápida* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Análise de Tarefas](analise-tarefas.md).
 
 ---
 
@@ -309,4 +300,4 @@ Agradecimento ao **Gemini** pela ajuda na estruturação, redação e detalhamen
 | `1.0` | 30/04/2026 | Elaboração do Cenário 1 (Persona Laura). | Heitor Macedo Ricardo | Pedro Augusto Moretti |
 | `1.1` | 01/05/2026 | Reestruturação completa focada na Sala de Conciliação Virtual e inclusão das personas Lucas e Gustavo. | Pedro Augusto Moretti Moreira | Heloisa Silva |
 | `1.2` | 03/05/2026 | Adição do Cenário 4 com Maria Helena. | Heloisa Silva | Heitor Macedo |
-| `1.3` | 03/05/2026 | Adição do Cenário 5 com Roberto. | Mateus Rodrigues Barreto | Pedro Augusto Moretti |
+| `1.3` | 03/05/2026 | Adição do Cenário 5 com Roberto e do Cenário 6 com Ivone. | Mateus Rodrigues Barreto e Pedro Macedo | Pedro Augusto Moretti |
