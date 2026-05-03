@@ -387,5 +387,6 @@ Agradecimento ao **Gemini 3 Flash** pela ajuda na criação e estruturação das
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.0` | 30/04/2026 | Criação do documento com Persona Primária Laura, baseada nos dados reais do Grupo de Foco (Etapa 2). | Heitor Macedo Ricardo | A definir |
-| `1.1` | 01/05/2026 | Adição e expansão profunda das personas Lucas e Gustavo e da Antipersona Hugo com base nos dados consolidados. | Pedro Augusto Moretti Moreira | A definir |
+| `1.0` | 30/04/2026 | Criação do documento com Persona Primária Laura, baseada nos dados reais do Grupo de Foco (Etapa 2). | Heitor Macedo Ricardo | Pedro Augusto Moretti |
+| `1.1` | 01/05/2026 | Adição e expansão profunda das personas Lucas e Gustavo e da Antipersona Hugo com base nos dados consolidados. | Pedro Augusto Moretti Moreira | Heloisa Silva |
+| `1.2` | 03/05/2026 | Inclusão da Persona Primária Maria Helena com base na análise documental. | Heloisa Silva | Heitor Macedo |

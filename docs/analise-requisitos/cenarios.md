@@ -131,7 +131,60 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário
 
 ---
 
-## Cenário 4 — [Título Descritivo do Cenário]
+## Cenário 4: Maria Helena e a Reclamação com OCR
+
+### Contexto e Ambiente
+
+| Elemento | Descrição |
+| :--- | :--- |
+| **Ambiente** | Sala de estar da residência de Maria Helena, em Ceilândia, após o almoço. |
+| **Data/Horário** | Sexta-feira, às 14h20. |
+| **Dispositivo** | Smartphone Android com internet móvel. |
+| **Pré-condições** | Maria Helena recebeu uma cobrança indevida da operadora de telefonia e decidiu abrir uma reclamação no PROCON-DF anexando a fatura e o comprovante de pagamento. |
+
+### Atores
+
+- **Ator Principal:** Maria Helena Costa — Aposentada e consumidora com baixa familiaridade digital.
+- **Ator Secundário:** Sistema do PROCON-DF, que orienta o preenchimento e registra o protocolo.
+
+### Objetivos
+
+- **Objetivo Final:** Registrar a reclamação, anexar os documentos e acompanhar o andamento sem precisar ir a uma unidade física.
+- **Objetivos Intermediários:**
+    - Encontrar rapidamente o botão de abertura de reclamação.
+    - Preencher apenas as informações essenciais, sem linguagem jurídica complexa.
+    - Receber confirmação clara de que o protocolo foi gerado com sucesso.
+
+### Planejamento
+
+> Maria Helena separou a fatura, o comprovante de pagamento e deixou o celular carregado ao lado. Como não tem muita prática com sistemas governamentais, ela quer concluir tudo em poucos passos e com instruções simples, sem precisar entender termos técnicos.
+
+### Sequência de Ações
+
+1. Abrir o site do PROCON-DF pelo navegador do celular.
+2. Tocar no botão de reclamação visível na página inicial.
+3. Preencher os dados básicos do caso e anexar a fatura em PDF.
+4. O sistema aplica OCR no arquivo, identifica informações como número da conta e valores cobrados, e verifica se o documento está legível.
+5. Caso o comprovante esteja incompleto ou ilegível, o portal informa imediatamente o que precisa ser reenviado.
+6. Ler a confirmação final com o número do protocolo.
+7. Receber aviso de acompanhamento por mensagem.
+
+### Eventos
+
+- O sistema apresenta botões grandes e textos curtos para facilitar a leitura.
+- A plataforma informa quais documentos são aceitos antes do envio.
+- O OCR lê automaticamente os dados da fatura e valida se o documento está legível e relacionado à reclamação.
+- O protocolo é gerado imediatamente quando o arquivo é aceito, e Maria Helena já sai com a primeira orientação sobre os próximos passos.
+
+### Avaliação
+
+> Maria Helena sente que conseguiu resolver um problema que parecia difícil sem depender de ajuda externa. A linguagem simples, a leitura automática por OCR e a confirmação imediata reduzem a insegurança, evitam retrabalho e diminuem o tempo de espera para o andamento do processo.
+
+---
+
+---
+
+## Cenário 5 — [Título Descritivo do Cenário]
 
 ### Contexto e Ambiente
 
@@ -200,5 +253,6 @@ Agradecimento ao **Gemini** pela ajuda na estruturação, redação e detalhamen
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.0` | 30/04/2026 | Elaboração do Cenário 1 (Persona Laura). | Heitor Macedo Ricardo | A definir |
-| `1.1` | 01/05/2026 | Reestruturação completa focada na Sala de Conciliação Virtual e inclusão das personas Lucas e Gustavo. | Pedro Augusto Moretti Moreira | A definir |
+| `1.0` | 30/04/2026 | Elaboração do Cenário 1 (Persona Laura). | Heitor Macedo Ricardo | Pedro Augusto Moretti |
+| `1.1` | 01/05/2026 | Reestruturação completa focada na Sala de Conciliação Virtual e inclusão das personas Lucas e Gustavo. | Pedro Augusto Moretti Moreira | Heloisa Silva |
+| `1.2` | 03/05/2026 | Adição do Cenário 4 com Maria Helena. | Heloisa Silva | Heitor Macedo |
