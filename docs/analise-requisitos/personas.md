@@ -82,7 +82,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 ### 2.2. Persona Primária: Lucas, o Consumidor Exigente
 
 <p align="center">
-  <img src="../images/persona_lucas.jpeg" width="180" alt="Foto de Lucas Silva"
+  <img src="./images/persona_lucas.jpeg" width="180" alt="Foto de Lucas Silva"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
   <br><em>Figura 2 — Lucas Silva. Fonte: Elaborado pelos autores (2026).</em>
 </p>
@@ -137,7 +137,68 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ---
 
-### 2.3. Persona Primária: [Nome Completo da Persona] (Modelo)
+### 2.3. Persona Primária: Maria Helena, a Aposentada Prática
+
+<p align="center">
+  <img src="./images/persona_MariaHelena.png" width="180" alt="Foto de Maria Helena Costa"
+       style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <br><em>Figura 3 — Maria Helena Costa. Fonte: Elaborado pelos autores (2026).</em>
+</p>
+
+| Atributo | Descrição |
+| :--- | :--- |
+| **Nome** | Maria Helena Costa |
+| **Idade** | 67 anos |
+| **Gênero** | Feminino |
+| **Localidade** | Brasília, DF — Ceilândia |
+| **Escolaridade** | Ensino Médio Completo |
+| **Ocupação** | Aposentada |
+| **Status** | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Persona Primária</span> |
+
+**Objetivos:**
+
+- Resolver problemas de consumo sem depender de deslocamentos frequentes.
+- Acompanhar reclamações contra empresas de telefonia e serviços financeiros com clareza e sem burocracia.
+- Entender rapidamente o que precisa fazer quando houver retorno do PROCON-DF.
+
+**Habilidades:**
+
+- Usa WhatsApp diariamente para se comunicar com a família.
+- Consegue acessar serviços básicos no celular, mas se perde em formulários longos e telas cheias de informação.
+- Prefere instruções diretas, com passo a passo simples.
+
+**Tarefas:**
+
+- Consultar o andamento de uma reclamação — *frequência: eventual, principalmente quando recebe nova notificação*.
+- Enviar documentos simples, como fatura e comprovante de pagamento — *frequência: quando solicitado*.
+- Ler avisos sobre prazo de resposta da empresa — *frequência: conforme o processo avança*.
+
+**Relacionamentos:**
+
+- Mora com o marido, também aposentado, e recorre à filha quando precisa resolver algo mais complicado no celular.
+- Costuma compartilhar problemas com vizinhas e amigas do bairro, que também já passaram por situações parecidas com empresas de telefonia e bancos.
+
+**Expectativas:**
+
+- Espera uma página inicial clara, com acesso rápido ao serviço de reclamação.
+- Espera mensagens simples sobre o que aconteceu e o que ela deve fazer em seguida.
+- Espera conseguir resolver boa parte do processo pelo celular.
+
+**Requisitos:**
+
+- Interface com linguagem simples e botões bem destacados.
+- Notificações proativas sobre andamento da reclamação.
+- Consulta de protocolo sem excesso de etapas ou campos obrigatórios.
+
+!!! info "Responsável por este artefato"
+    A **Persona Primária Maria Helena Costa** foi criada por **Heloisa Laura Santos da Silva** com base nos dados da análise documental, que indicam maior concentração de atendimentos em faixas etárias mais altas, predominância de reclamações ou denúncias e participação feminina mais elevada.
+
+---
+
+
+---
+
+### 2.4. Persona Primária: [Nome Completo da Persona] (Modelo)
 
 <p align="center">
   <img src="../images/persona2.png" width="180" alt="Foto de [Nome da Persona]"
