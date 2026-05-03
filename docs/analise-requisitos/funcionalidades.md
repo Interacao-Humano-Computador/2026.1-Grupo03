@@ -108,6 +108,61 @@ Agendamento da audiência pelo mediador
 
 ---
 
+### 3. Dossiê digital com OCR e validação de documentos
+
+#### Visão Geral
+Implementar na plataforma a opção de anexar documentos ao processo de petição como notas fiscais, contratos e prints de conversa, por meio de uma interface simples e guiada. Com o uso de OCR, o sistema identifica automaticamente o conteúdo do arquivo anexado, confere se ele é legível e avalia sua aderência ao tipo de evidência solicitada. Isso elimina a necessidade de entrega física de documentos, reduz o tempo de conferência manual e acelera a análise inicial do processo.
+
+#### Como funciona hoje (Estado Atual)
+*   O usuário precisa reunir os documentos manualmente e, em muitos casos, comparecer presencialmente para apresentar ou complementar informações.
+*   Há espera entre a solicitação e a validação do material, já que a conferência depende de análise humana e de filas internas de atendimento.
+*   O processo fica mais lento quando o documento está ilegível, incompleto ou fora do padrão esperado, exigindo retrabalho e novo contato com o cidadão.
+*   Consumidores e pequenos empresários perdem tempo com deslocamentos, reenvios e retornos desnecessários para tarefas que poderiam ser resolvidas digitalmente.
+
+#### Nova Experiência (Estado Proposto)
+*   **Envio imediato de documentos**: o usuário anexa os arquivos diretamente no portal, sem precisar aguardar atendimento presencial ou novo protocolo físico.
+*   **Validação automática com OCR**: o sistema faz uma triagem inicial do conteúdo, reduzindo o tempo de conferência manual e acelerando a resposta sobre aceitação ou pendência do documento.
+*   **Menos retrabalho**: se houver problema no arquivo, o usuário recebe orientação rápida sobre o que corrigir, evitando ciclos longos de retorno ao atendimento.
+*   **Processo mais célere**: a documentação entra no fluxo administrativo mais rapidamente, diminuindo o tempo de espera entre a petição e a análise efetiva do caso.
+*   **Acesso contínuo**: o envio pode ser feito a qualquer hora, sem depender do horário de funcionamento da unidade, o que reduz filas e atrasos operacionais.
+
+#### Fluxo de Funcionamento
+```
+Usuário acessa o processo
+→ Seleciona a opção de anexar documento
+→ Envia nota fiscal, contrato ou print de conversa
+→ Sistema executa OCR e validação inicial
+→ Portal indica aceite, pendência ou necessidade de correção
+→ Documento segue para análise administrativa
+→ Processo avança com menos espera e menos retrabalho
+```
+
+#### Heurísticas de Nielsen Atendidas
+| Heurística | Como é atendida |
+| :--- | :--- |
+| **Prevenção de erros** | A validação automática identifica documentos ilegíveis, incompletos ou fora do padrão antes de eles seguirem para análise. |
+| **Ajuda e documentação** | O portal orienta o usuário sobre quais tipos de documentos são aceitos e como enviá-los corretamente. |
+| **Visibilidade do status do sistema** | O usuário acompanha se o arquivo foi aceito, se há pendências ou se precisa reenviar algum documento. |
+
+
+#### Declaração da Funcionalidade
+**Nome:** Dossiê digital com OCR e validação de documentos
+**Problema identificado:** A necessidade de envio e conferência manual de documentos cria espera desnecessária, retrabalho e lentidão na abertura e na continuidade do processo, além de aumentar a dependência de atendimento presencial.
+**Justificativa com base na Entrevista e Grupo de Foco:** O perfil do **microempreendedor (Gustavo)** indicou que o tempo é um recurso escasso e sites governamentais devem ser funcionais. Já o perfil do **consumidor (Lucas e Laura)** demanda soluções digitais rápidas. O dossiê digital com OCR atende a ambos ao reduzir deslocamentos, eliminar etapas repetitivas de validação e tornar a tramitação mais rápida e previsível.
+
+**Comparação: estado atual × nova solução**
+
+| Critério | Estado Atual (Presencial) | Nova Funcionalidade (Virtual) |
+| :--- | :--- | :--- |
+| Deslocamento | Exigido para entrega e conferência física | Eliminado ou reduzido ao máximo, com envio digital |
+| Espera | Depende de filas e análise manual | Reduzida com triagem automática e retorno imediato |
+| Retrabalho | Alto, quando faltam ou sobram documentos | Menor, com validação prévia do conteúdo |
+| Celeridade | Processo mais lento e sujeito a interrupções | Processo mais rápido e contínuo dentro do portal |
+
+!!! info "Responsável por este artefato"
+    Este trecho foi elaborado por **Heloisa Laura Santos da Silva**, responsável pela funcionalidade *Dossiê digital com OCR e validação de documentos*.
+---
+
 ## Agradecimentos à IA
 
 Agradecimento ao Gemini pela ajuda na estruturação, redação e consolidação das funcionalidades deste projeto.
@@ -122,5 +177,6 @@ Agradecimento ao Gemini pela ajuda na estruturação, redação e consolidação
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.0` | 30/04/2026 | Criação da funcionalidade: Portal de Acompanhamento | Heitor Macedo Ricardo | A definir |
-| `1.1` | 01/05/2026 | Integração da funcionalidade: Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | A definir |
+| `1.0` | 30/04/2026 | Criação da funcionalidade: Portal de Acompanhamento | Heitor Macedo Ricardo | Pedro Moretti |
+| `1.1` | 01/05/2026 | Integração da funcionalidade: Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | Heloisa Silva |
+| `1.1` | 01/05/2026 | Integração da funcionalidade:  Dossiê digital com OCR e validação de documentos | Heloisa Silva | Heitor Macedo |
