@@ -66,6 +66,11 @@ A **Análise Hierárquica de Tarefas** (*Hierarchical Task Analysis* — HTA) é
 *Tabela 2 — Representação textual do HTA: Participar de audiência de conciliação virtual. Fonte: Elaborado por Pedro Augusto Moretti Moreira (2026).*
 
 ---
+
+<p align="center">
+  <img src="../images/HTA-Heloisa.png" alt="Diagrama HTA — Validação com OCR" width="750">
+  <br><em>Figura 3 — Diagrama HTA: Validação de documento com OCR. Elaborado por Heloisa Laura Santos da Silva com auxílio do Mermaid.js (2026).</em>
+</p>
 **Tabela de Representação HTA — Validação de documentos com OCR:**
 
 | Operação (Objetivo / Operação) | Inputs (circunstâncias) | Ações (actions) | Feedback / Testes (condições de sucesso) | Problemas potenciais | Recomendações de IHC |
@@ -80,7 +85,7 @@ A **Análise Hierárquica de Tarefas** (*Hierarchical Task Analysis* — HTA) é
 | **1.6** Correção pelo usuário | Visualização do OCR com destaques; formulário pré-preenchido | Usuário edita campos críticos (ex.: CPF, data), reenvia novo arquivo ou aceita correções | Reexecução OCR / revalidação; confirmação de recebimento | Usuário pode não entender destaques | Fornecer ajuda contextual (tooltip) e opção de chat/FAQ rápido |
 | **1.7** Finalização e anexação definitiva | Documento aceito; campos extraídos validados | Sistema anexa documento ao processo, grava metadados, gera protocolo e notifica usuário | Mensagem "Documento aceito" + número de protocolo + timestamp | Falha na gravação ou duplicidade | Operação transacional; filas de retry; confirmação clara e opção de baixar comprovante |
 
-*Tabela 2 — Representação textual do HTA: Validação de documentos com OCR. Fonte: Elaborado por Heloisa Laura Santos da Silva (2026).* 
+*Tabela 3 — Representação textual do HTA: Validação de documentos com OCR. Fonte: Elaborado por Heloisa Laura Santos da Silva (2026).* 
 
 ---
 
@@ -106,7 +111,7 @@ Os principais **operadores de relação** utilizados são:
 
 <p align="center">
   <img src="../images/CTT-Heitor.drawio.png" alt="Árvore CTT — Acompanhar reclamação e responder proposta" width="750">
-  <br><em>Figura 3 — Árvore CTT: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo com auxílio do Draw.io (2026).</em>
+  <br><em>Figura 4 — Árvore CTT: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo com auxílio do Draw.io (2026).</em>
 </p>
 
 **Representação textual hierárquica do CTT:**
@@ -133,11 +138,11 @@ Os principais **operadores de relação** utilizados são:
              └── 💻 T3.2a — Sistema registra recusa e informa o próximo passo do processo
 ```
 
-*Figura 4 — Representação textual hierárquica da árvore CTT: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo (2026).*
+*Figura 5 — Representação textual hierárquica da árvore CTT: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo (2026).*
 
 <p align="center">
   <img src="../images/CTT-Moretti.svg" alt="Árvore CTT — Participar de audiência de conciliação virtual" width="100%">
-  <br><em>Figura 5 — Árvore CTT: Participar de audiência de conciliação virtual. Fonte: Elaborado por Pedro Augusto Moretti Moreira com auxílio do Mermaid.js (2026).</em>
+  <br><em>Figura 6 — Árvore CTT: Participar de audiência de conciliação virtual. Fonte: Elaborado por Pedro Augusto Moretti Moreira com auxílio do Mermaid.js (2026).</em>
 </p>
 
 **Representação textual hierárquica do CTT:**
@@ -184,7 +189,7 @@ Os principais **operadores de relação** utilizados são:
              └── 💻 T4.2.2 — Sistema registra o status "Sem acordo" e notifica as partes sobre o prosseguimento
 ```
 
-*Figura 6 — Representação textual hierárquica da árvore CTT: Participar de audiência de conciliação virtual. Fonte: Elaborado por Pedro Augusto Moretti Moreira (2026).*
+*Figura 7 — Representação textual hierárquica da árvore CTT: Participar de audiência de conciliação virtual. Fonte: Elaborado por Pedro Augusto Moretti Moreira (2026).*
 
 !!! info "Responsáveis pelas funcionalidades"
     Portal de Acompanhamento de Reclamações com Notificações Ativas: **Heitor Macedo Ricardo** (HTA e CTT apresentados nas Figuras 1, 3 e 4). Sala de Conciliação Virtual com Mediação Assistida: **Pedro Augusto Moretti Moreira** (HTA e CTT apresentados nas Figuras 2, 5 e 6). Integra o conjunto de artefatos das funcionalidades: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
@@ -193,7 +198,7 @@ Os principais **operadores de relação** utilizados são:
 
 <p align="center">
   <img src="../images/CTT-Heloisa.drawio.png" alt="Árvore CTT — Acompanhar reclamação e responder proposta" width="750">
-  <br><em>Figura 4 — Árvore CTT: Validação de documento com OCR. Fonte: Elaborado por Heloisa Laura Santos da Silva com auxílio do Draw.io (2026).</em>
+  <br><em>Figura 8 — Árvore CTT: Validação de documento com OCR. Fonte: Elaborado por Heloisa Laura Santos da Silva com auxílio do Draw.io (2026).</em>
 </p>
 
 **Representação textual hierárquica do CTT:**
@@ -219,6 +224,7 @@ Os principais **operadores de relação** utilizados são:
 ├── 💻 T3.3 — Notifica validação do documento
 └── 💻 T3.4 — Notifica não validação
 ```
+*Figura 9 — Representação textual hierárquica da árvore CTT: Validar documento com OCR. Fonte: Elaborado por Heloisa Laura Santos da Silva (2026).*
 
 !!! info "Responsável por este artefato"
     Este documento foi elaborado por **Heloisa Laura Santos da Silva**, responsável pela funcionalidade *Validação de documentos com OCR* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
