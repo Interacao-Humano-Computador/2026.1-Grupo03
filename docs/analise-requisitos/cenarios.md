@@ -182,9 +182,57 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário
 
 ---
 
+## Cenário 5: Roberto e a Eficiência na Resolução
+
+### Contexto e Ambiente
+
+| Elemento | Descrição |
+| :--- | :--- |
+| **Ambiente** | Escritório da distribuidora onde Roberto trabalha. |
+| **Data/Horário** | Segunda-feira, às 09h15. |
+| **Dispositivo** | Computador Desktop (Windows). |
+| **Pré-condições** | Roberto identificou uma cobrança indevida de seguro no cartão e possui o PDF da fatura. |
+
+### Atores
+
+- **Ator Principal:** Roberto Oliveira — Gerente de Logística (Persona Primária).
+- **Ator Secundário:** Sistema do PROCON-DF.
+
+### Objetivos
+
+- **Objetivo Final:** Registrar a contestação da cobrança e obter um comprovante formal com prazo de resposta.
+- **Objetivos Intermediários:**
+    - Localizar a área de "Assuntos Financeiros".
+    - Anexar a fatura do cartão como evidência.
+    - Exportar o protocolo em PDF para seu controle pessoal.
+
+### Planejamento
+
+> Roberto reservou o início da manhã para resolver essa pendência. Ele quer um processo rápido e que transmita seriedade, preferindo usar o computador para anexar os arquivos com precisão.
+
+### Sequência de Ações
+
+1. Roberto acessa o portal do PROCON-DF pelo computador.
+2. Seleciona a opção de nova reclamação e escolhe a categoria "Assuntos Financeiros".
+3. Preenche o formulário detalhando as tentativas de contato prévio com o banco.
+4. Faz o upload da fatura do cartão de crédito (PDF).
+5. Revisa os dados e clica em "Finalizar Protocolo".
+6. O sistema o redireciona para o **Painel de Monitoramento de Prazos**, onde ele visualiza o número do processo e a contagem regressiva para a resposta da empresa.
+7. Roberto utiliza a opção "Exportar Dossiê Jurídico" para salvar um resumo em PDF em sua pasta de "Finanças Pessoais".
+
+### Eventos
+
+- O sistema valida o arquivo PDF e confirma o recebimento.
+- O portal exibe um cronômetro visual indicando o prazo legal para a resposta da empresa.
+- Um e-mail de confirmação é enviado automaticamente para o endereço de Roberto.
+
+### Avaliação
+
+> Roberto sente que o tempo foi bem investido. A interface profissional e a entrega imediata do protocolo em PDF deram a ele a segurança de que o banco agora será obrigado a responder dentro do prazo visível na tela.
+
 ---
 
-## Cenário 5 — [Título Descritivo do Cenário]
+## Cenário 6 — [Título Descritivo do Cenário]
 
 ### Contexto e Ambiente
 
@@ -256,3 +304,4 @@ Agradecimento ao **Gemini** pela ajuda na estruturação, redação e detalhamen
 | `1.0` | 30/04/2026 | Elaboração do Cenário 1 (Persona Laura). | Heitor Macedo Ricardo | Pedro Augusto Moretti |
 | `1.1` | 01/05/2026 | Reestruturação completa focada na Sala de Conciliação Virtual e inclusão das personas Lucas e Gustavo. | Pedro Augusto Moretti Moreira | Heloisa Silva |
 | `1.2` | 03/05/2026 | Adição do Cenário 4 com Maria Helena. | Heloisa Silva | Heitor Macedo |
+| `1.3` | 03/05/2026 | Adição do Cenário 5 com Roberto. | Mateus Rodrigues Barreto | A definir |

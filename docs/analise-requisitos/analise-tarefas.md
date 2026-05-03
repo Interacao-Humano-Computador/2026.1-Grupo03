@@ -8,6 +8,7 @@ Neste documento são aplicadas duas técnicas de modelagem complementares:
 
 - **Análise Hierárquica de Tarefas (HTA):** decompõe o objetivo principal do usuário em subobjetivos e operações elementares, organizados hierarquicamente, identificando problemas e recomendações em cada nível (Barbosa e Silva, 2021, p. 165–166).
 - **Árvores de Tarefas Concorrentes (CTT):** classifica cada tarefa por tipo (Usuário, Sistema, Interativa ou Abstrata) e modela as relações de ordem, ativação e concorrência entre elas (Barbosa e Silva, 2021, p. 173–174).
+- **GOMS (Goals, Operators, Methods, and Selection Rules):** descreve o conhecimento procedimental necessário para realizar tarefas em sistemas computacionais, permitindo prever o desempenho e avaliar a eficiência do design (Barbosa e Silva, 2021, p. 161).
 
 A tarefa analisada é: **"Acessar o andamento da reclamação via notificação ativa e tomar uma decisão sobre a proposta da empresa"**, modelada com base na Persona Primária **Laura** e na funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas*.
 
@@ -173,6 +174,63 @@ Os principais **operadores de relação** utilizados são:
 !!! info "Responsáveis pelas funcionalidades"
     Portal de Acompanhamento de Reclamações com Notificações Ativas: **Heitor Macedo Ricardo** (HTA e CTT apresentados nas Figuras 1, 3 e 4). Sala de Conciliação Virtual com Mediação Assistida: **Pedro Augusto Moretti Moreira** (HTA e CTT apresentados nas Figuras 2, 5 e 6). Integra o conjunto de artefatos das funcionalidades: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
 
+---
+
+## 3. GOMS (Goals, Operators, Methods, and Selection Rules)
+
+O método **GOMS** (*Goals, Operators, Methods, and Selection Rules*) é utilizado para descrever o conhecimento procedimental que um usuário possui para realizar tarefas dentro de um sistema computacional. Diferente do HTA, o GOMS foca na eficiência e no desempenho do usuário experiente, decompondo a tarefa em quatro elementos principais (BARBOSA; SILVA, 2021, p. 161):
+
+- **Goals (Metas):** o que o usuário quer realizar (ex: Registrar reclamação).
+- **Operators (Operadores):** ações primitivas (físicas ou mentais) que o sistema permite realizar (ex: clicar, digitar, pensar).
+- **Methods (Métodos):** sequências de submetas e operadores para atingir uma meta.
+- **Selection Rules (Regras de Seleção):** tomadas de decisão quando há mais de um método para a mesma meta.
+
+A técnica aplicada a seguir é a variação **CMN-GOMS** (Card, Moran e Newell), que utiliza uma estrutura de pseudocódigo. A tarefa analisada é: **"Registrar uma contestação de cobrança indevida (Assuntos Financeiros) via Desktop"**, baseada na Persona Primária **Roberto Oliveira**.
+
+### Representação CMN-GOMS: Registrar Reclamação Financeira
+
+<p align="center">
+  <img src="../images/GOMS-Mateus.png" alt="Diagrama GOMS — Registrar Reclamação Financeira" width="750">
+  <br><em>Figura 7 — Diagrama GOMS: Registrar Reclamação Financeira. Fonte: Elaborado por Mateus Rodrigues Barreto com auxílio do Mermaid.js (2026).</em>
+</p>
+
+```
+GOAL 0: REGISTRAR RECLAMAÇÃO FINANCEIRA
+  GOAL 1: ACESSAR ÁREA DE RECLAMAÇÃO
+    METHOD 1.A: NAVEGAÇÃO POR MENU
+      OP 1.A.1: MOVER MOUSE PARA "RECLAMAÇÕES"
+      OP 1.A.2: CLICAR EM "NOVA RECLAMAÇÃO"
+    METHOD 1.B: ACESSO DIRETO VIA PAINEL DE MONITORAMENTO
+      OP 1.B.1: MOVER MOUSE PARA BOTÃO "REGISTRAR AGORA" NO PAINEL
+      OP 1.B.2: CLICAR NO BOTÃO
+    SEL. RULE: USAR METHOD 1.B SE O BOTÃO ESTIVER VISÍVEL NO LOGIN, CASO CONTRÁRIO USAR 1.A
+
+  GOAL 2: DEFINIR CATEGORIA E FORNECEDOR
+    OP 2.1: DIGITAR NOME DO BANCO NO CAMPO DE BUSCA
+    OP 2.2: SELECIONAR FORNECEDOR NA LISTA DE RESULTADOS
+    OP 2.3: CLICAR NO DROPDOWN "CATEGORIA"
+    OP 2.4: SELECIONAR "ASSUNTOS FINANCEIROS"
+
+  GOAL 3: DESCREVER O PROBLEMA E ANEXAR PROVAS
+    OP 3.1: PENSAR NO RELATO DO OCORRIDO (OP. MENTAL)
+    OP 3.2: DIGITAR DESCRIÇÃO DA COBRANÇA INDEVIDA
+    OP 3.3: CLICAR EM "ADICIONAR ANEXO"
+    OP 3.4: SELECIONAR ARQUIVO "FATURA_CARTAO.PDF" NA PASTA LOCAL
+    OP 3.5: CLICAR EM "CONFIRMAR UPLOAD"
+
+  GOAL 4: FINALIZAR E SALVAR PROTOCOLO
+    OP 4.1: CLICAR EM "FINALIZAR RECLAMAÇÃO"
+    OP 4.2: AGUARDAR GERAÇÃO DO PROTOCOLO (OP. SISTEMA)
+    OP 4.3: CLICAR EM "BAIXAR COMPROVANTE PDF"
+    OP 4.4: VERIFICAR SE O ARQUIVO FOI SALVO (OP. MENTAL)
+```
+
+*Figura 8 — Representação em pseudocódigo (CMN-GOMS): Registrar Reclamação Financeira. Fonte: Elaborado por Mateus Rodrigues Barreto (2026).*
+
+**Análise de Eficiência (Insights do GOMS):**
+- **Caminho Crítico:** O Goal 3 é o que consome mais tempo devido aos operadores de digitação e seleção de arquivos. Recomenda-se a implementação de **OCR (Reconhecimento Óptico de Caracteres)** para que a fatura preencha automaticamente os campos de valor e data, reduzindo drasticamente o número de operadores de digitação e minimizando erros.
+- **Regra de Seleção:** A presença do método 1.B (**Painel de Monitoramento**) é vital para o Roberto, pois economiza 2 operadores de navegação manual, alinhando-se ao seu perfil pragmático de resolução rápida.
+
 ## Agradecimentos à IA
 
 Agradecimento ao **Gemini** pela ajuda na estruturação e redação da Análise de Tarefas deste documento.
@@ -189,5 +247,6 @@ Agradecimento ao **Gemini** pela ajuda na estruturação e redação da Análise
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.1` | 30/04/2026 | Elaboração da Análise de Tarefas com HTA e CTT para a funcionalidade de Conciliação Virtual. | Pedro Augusto Moretti Moreira | A definir |
 | `1.0` | 30/04/2026 | Elaboração da Análise de Tarefas com HTA e CTT para a funcionalidade de Acompanhamento de Reclamação. | Heitor Macedo Ricardo | A definir |
+| `1.1` | 30/04/2026 | Elaboração da Análise de Tarefas com HTA e CTT para a funcionalidade de Conciliação Virtual. | Pedro Augusto Moretti Moreira | A definir |
+| `1.2` | 03/05/2026 | Adição da Análise GOMS (técnica CMN-GOMS) para a tarefa de registro de reclamação financeira (Persona Roberto). | Mateus Rodrigues Barreto | A definir |

@@ -161,6 +161,61 @@ Usuário acessa o processo
 
 !!! info "Responsável por este artefato"
     Este trecho foi elaborado por **Heloisa Laura Santos da Silva**, responsável pela funcionalidade *Dossiê digital com OCR e validação de documentos*.
+
+---
+
+### 4. Painel de monitoramento de prazos com alertas jurídicos
+
+#### Visão Geral
+Implementar um dashboard inteligente que mapeia e monitora automaticamente todos os prazos legais de um processo de reclamação. O sistema alerta o consumidor sobre prazos de resposta da empresa, datas de audiência e, crucialmente, o prazo prescricional, sugerindo ações judiciais caso o conflito não seja resolvido administrativamente.
+
+#### Como funciona hoje (Estado Atual)
+*   O consumidor é o único responsável por controlar os prazos de seu processo.
+*   Não existe alerta sobre o **prazo prescricional** (perda do direito de entrar na justiça).
+*   Se a empresa não responde, o processo pode ficar "parado" no sistema sem que o usuário saiba que já pode escalar para outras instâncias.
+*   Consumidores perdem direitos por desconhecimento técnico das leis de prazos (CDC e CP).
+
+#### Nova Experiência (Estado Proposto)
+*   **Mapeamento Automático:** Ao abrir a reclamação, o sistema define a "agenda" do processo com base no Código de Defesa do Consumidor.
+*   **Linha do Tempo de Prazos:** Visualização clara de quantos dias a empresa tem para responder e quando o direito de ação caduca.
+*   **Alertas Inteligentes:** Notificações em contagem regressiva (30, 15 e 7 dias) antes de prazos fatais.
+*   **Encaminhamento Judicial:** Sugestão automática de abertura de ação em Juizados Especiais caso a via administrativa falhe.
+
+#### Fluxo de Funcionamento
+```
+Abertura da Reclamação
+→ Motor de regras mapeia prazos legais aplicáveis
+→ Criação da linha do tempo visual (Resposta, Audiência, Prescrição)
+→ Monitoramento em tempo real do status
+→ Notificação de atraso da empresa (Botão de Escalonamento)
+→ Alerta de proximidade de prazo prescricional
+→ Sugestão de ação judicial + Orientações sobre Juizado Especial
+→ Exportação de Dossiê em PDF para uso judicial
+```
+
+#### Heurísticas de Nielsen Atendidas
+| Heurística | Como é atendida |
+| :--- | :--- |
+| **Visibilidade do status do sistema** | O usuário visualiza o "relógio" do seu processo, sabendo exatamente quanto tempo resta para cada etapa. |
+| **Ajuda e documentação** | O sistema oferece orientações jurídicas básicas sobre o que fazer se o prazo vencer (ex: procurar Juizado Especial). |
+| **Reconhecimento em vez de recordação** | O sistema envia alertas proativos, eliminando a necessidade do usuário memorizar datas ou calcular prazos legais. |
+
+#### Declaração da Funcionalidade
+**Nome:** Painel de monitoramento de prazos com alertas jurídicos
+**Problema identificado:** Muitos consumidores abandonam processos ou perdem o direito de agir judicialmente por não compreenderem os prazos legais e prescricionais envolvidos em suas reclamações.
+**Justificativa com base na Persona Roberto:** Roberto é um usuário pragmático que valoriza o tempo e a prova documental. Para ele, saber o prazo exato que o banco tem para responder e ter um PDF pronto para uma ação judicial é o diferencial entre o sistema ser útil ou apenas "mais uma burocracia".
+
+**Comparação: estado atual × nova solução**
+
+| Critério | Estado Atual (Manual) | Nova Funcionalidade (Automatizada) |
+| :--- | :--- | :--- |
+| Controle de Prazos | Inteiramente por conta do usuário | Automatizado pelo sistema |
+| Alerta de Prescrição | Inexistente | Proativo (30, 15 e 7 dias) |
+| Resolução de Impasses | Usuário precisa decidir sozinho o que fazer | Sistema sugere ação judicial e orienta o fluxo |
+| Saída de Dados | Consulta simples na tela | Exportação de PDF processual completo |
+
+!!! info "Responsável por este artefato"
+    Este trecho foi elaborado por **Mateus Rodrigues Barreto**, responsável pela funcionalidade *Painel de monitoramento de prazos com alertas jurídicos*.
 ---
 
 ## Agradecimentos à IA
@@ -180,3 +235,4 @@ Agradecimento ao Gemini pela ajuda na estruturação, redação e consolidação
 | `1.0` | 30/04/2026 | Criação da funcionalidade: Portal de Acompanhamento | Heitor Macedo Ricardo | Pedro Moretti |
 | `1.1` | 01/05/2026 | Integração da funcionalidade: Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | Heloisa Silva |
 | `1.1` | 01/05/2026 | Integração da funcionalidade:  Dossiê digital com OCR e validação de documentos | Heloisa Silva | Heitor Macedo |
+| `1.2` | 03/05/2026 | Integração da funcionalidade: Painel de monitoramento de prazos com alertas jurídicos | Mateus Rodrigues Barreto | A definir |

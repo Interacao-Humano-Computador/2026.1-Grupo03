@@ -4,7 +4,7 @@
 
 Personas são personagens fictícios criados para representar os diferentes tipos de usuários dentro de um grupo demográfico que poderá usar o sistema de modo similar. Segundo Barbosa e Silva (2021), personas são definidas principalmente por seus objetivos, determinados por um processo de refinamento a partir de dados do perfil de usuário. Um elenco de personas deve cobrir os principais grupos de usuários do sistema para que o designer foque seus esforços nos usuários mais importantes.
 
-O elenco de personas deste projeto foi construído a partir dos dados coletados no Perfil de Usuário, com base nos resultados do Grupo de Foco realizado em 30/04/2026, na Entrevista e na Análise Documental. O elenco é composto por **6 personas** ao total: **4 personas primárias**, **1 persona secundária** e **1 antipersona**.
+O elenco de personas deste projeto foi construído a partir dos dados coletados no Perfil de Usuário, com base nos resultados do Grupo de Foco realizado em 30/04/2026, na Entrevista e na Análise Documental. O elenco é composto por **5 personas** ao total: **3 personas primárias**, **1 persona secundária** e **1 antipersona** (contando com a nova adição).
 
 ---
 
@@ -99,43 +99,41 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 **Objetivos:**
 
-- **Pessoal:** Não ser lesado por empresas que negligenciam o suporte ao cliente. Para ele, registrar uma reclamação e levá-la até uma solução é um ato de "higiene digital" e exercício de cidadania.
-- **Prático:** Após registrar uma reclamação contra um e-commerce internacional, **participar ativamente da audiência de conciliação virtual** para expor suas evidências técnicas e negociar diretamente com o fornecedor, sem sair de casa.
-- **De experiência:** Utilizar uma interface de videoconferência que siga padrões modernos de UX, livre de travamentos, com controles responsivos e sem a necessidade de instalar plugins obsoletos.
+- **Pessoal:** Não ser lesado por empresas que negligenciam o suporte ao cliente. Para ele, registrar uma reclamação é um ato de "higiene digital" e exercício de cidadania.
+- **Prático:** Registrar uma denúncia formal contra um e-commerce internacional por vício no produto, anexando evidências técnicas (logs e e-mails) de forma rápida.
+- **De experiência:** Utilizar uma interface que siga padrões modernos de UX, livre de elementos datados que remetam a sites de baixa credibilidade ou "spam".
 
 **Habilidades:**
 
-- **Alta Literacia Tecnológica:** Usuário avançado de Linux, competidor de programação. Identifica rapidamente falhas de latência, má qualidade de vídeo e problemas de segurança.
-- **Uso Híbrido:** Embora utilize o smartphone para monitorar processos, prefere seu desktop com múltiplos monitores para participar de audiências — assim pode manter as evidências abertas em uma tela enquanto vê o mediador na outra.
-- **Autossuficiência:** Prefere caminhos diretos (CTAs claros) e detesta interfaces que o forçam a assistir tutoriais ou ler avisos institucionais antes de acessar a sala virtual.
+- **Alta Literacia Tecnológica:** Usuário avançado de Linux e competidor de programação. Identifica rapidamente fluxos de navegação ineficientes e inconsistências visuais.
+- **Uso Híbrido:** Embora utilize o smartphone para monitorar, prefere o desktop para tarefas que exigem organização de múltiplos arquivos e uploads pesados.
+- **Autossuficiência:** Prefere caminhos diretos (CTAs claros) e detesta ter que ler notícias institucionais ou avisos governamentais para encontrar um serviço simples.
 
 **Tarefas:**
 
-- Receber o link da audiência e **testar a configuração de áudio/vídeo** antes da sessão — *frequência: única por audiência*
-- **Participar da audiência virtual**, ativando/desativando microfone conforme necessário e compartilhando trechos de logs ou capturas de tela como prova — *frequência: durante a sessão*
-- **Assinar digitalmente o termo de acordo** (se houver) ou entender os próximos passos caso a conciliação não resulte em acordo — *frequência: única ao final da audiência*
+- Localizar instantaneamente o canal de registr de reclamação — *frequência: alta (acesso inicial)*
+- Anexar provas digitais (screenshots e comprovantes em PDF) — *frequência: única no registro*
+- Validar se o protocolo gerado foi enviado corretamente para seu e-mail — *frequência: única*
 
 **Relacionamentos:**
 
 - É o "expert" do seu círculo social; frequentemente ajuda amigos a coletarem evidências para processos e os incentiva a usar os canais oficiais do governo.
-- Crítico da burocracia estatal, compartilha suas experiências de usabilidade — inclusive de audiências virtuais — em fóruns de tecnologia e redes sociais profissionais.
+- Crítico da burocracia estatal, compartilha suas experiências de usabilidade (boas ou ruins) em fóruns de tecnologia e redes sociais profissionais.
 
 **Requisitos:**
 
-- **Sala virtual sem instalação:** A audiência deve rodar diretamente no navegador (WebRTC), sem exigir plugins ou aplicativos externos.
-- **Estabilidade e qualidade:** O sistema deve se adaptar automaticamente à largura de banda para evitar congelamentos, mantendo o áudio sempre nítido.
-- **Segurança transparente:** Confirmação de que a sala é criptografada e de que a assinatura digital tem validade jurídica.
-- **Feedback técnico claro:** Indicadores visuais de qualidade da conexão, microfone silenciado e compartilhamento de tela ativo.
+- **Design Minimalista (Clean):** Redução total de banners, notícias e textos institucionais na área de serviço.
+- **Upload Ágil:** Sistema que suporte múltiplos arquivos com feedback visual de conclusão de carregamento.
+- **Segurança Transparente:** Confirmação clara de que os dados estão protegidos e o processo foi protocolado.
 
 **Expectativas:**
 
-- Espera que a sala virtual funcione tão bem quanto uma chamada no Google Meet ou Zoom, com controles familiares e sem atrasos.
-- Espera que o sistema permita **compartilhar apenas uma janela específica** (não a tela inteira), preservando sua privacidade.
-- Acredita que, ao final da audiência, o processo não fique "em suspensão" — quer um status claro (acordo firmado ou prosseguimento da reclamação) e um comprovante digital do que foi decidido.
-- Espera que a interface da sala mostre o nome e o papel de cada participante de forma fixa, para não precisar deduzir quem é quem durante o debate.
+- Espera que o portal seja uma ferramenta funcional e não um blog de notícias do governo.
+- Espera que o sistema mobile seja tão fluido quanto os apps financeiros que utiliza diariamente.
+- Espera que o PROCON ofereça um fluxo de entrada intuitivo que não exija busca externa no Google sobre "como usar o site".
 
 !!! info "Responsável por este artefato"
-    A **Persona Primária Lucas** foi criada por **Pedro Augusto Moretti Moreira** e **Heitor Macedo Ricardo**, com base nos dados consolidados do Grupo de Foco. Adaptada para refletir a participação de Lucas na funcionalidade *Sala de Conciliação Virtual com Mediação Assistida*, garantindo que o perfil técnico do usuário seja contemplado no design da experiência de audiência remota.
+    A **Persona Primária Lucas** foi criada por **Pedro Augusto Moretti Moreira**, baseada nos dados consolidados do Grupo de Foco sobre a percepção de usabilidade e estética do portal.
 
 ---
 
@@ -195,6 +193,8 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 !!! info "Responsável por este artefato"
     A **Persona Primária Maria Helena Costa** foi criada por **Heloisa Laura Santos da Silva** com base nos dados da análise documental, que indicam maior concentração de atendimentos em faixas etárias mais altas, predominância de reclamações ou denúncias e participação feminina mais elevada.
 
+---
+
 ### 2.4. Persona Primária: Roberto, o Pragmático
 
 <p align="center">
@@ -238,7 +238,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 **Expectativas:**
 
-- Espera que o portal do PROCON seja uma ferramenta de resolução e não apenas um canal de registro, preferencialmente com um **Painel de Monitoramento de Prazos** centralizado.
+- Espera que o portal do PROCON seja uma ferramenta de resolução e não apenas um canal de registro.
 - Espera clareza sobre os prazos: "Quanto tempo o banco tem para me responder?".
 - Espera um design sóbrio e profissional, que transmita credibilidade institucional.
 
@@ -249,7 +249,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 - **Resumo Executivo:** Um resumo do status da reclamação logo após o login.
 
 !!! info "Responsável por este artefato"
-    A **Persona Primária Roberto Oliveira** foi criada por **Mateus Rodrigues Barreto**, baseada nos dados da análise documental que apontam os "Assuntos Financeiros" como a maior causa de atendimentos (47,62%) e o perfil da Geração X como um dos mais presentes no sistema.
+    A **Persona Primária Roberto** foi criada por **Mateus Rodrigues Barreto**, baseada nos dados da análise documental que apontam os "Assuntos Financeiros" como a maior causa de atendimentos (47,62%) e o perfil da Geração X como um dos mais presentes no sistema.
 
 ---
 
@@ -310,74 +310,17 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ---
 
-### 2.6. Persona Secundária: [Nome Completo da Persona] (Modelo)
-
-<p align="center">
-  <img src="../images/persona3.png" width="180" alt="Foto de [Nome da Persona]"
-       style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #2e7d32; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-  <br><em>Figura 5 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
-</p>
-
-| Atributo | Descrição |
-| :--- | :--- |
-| **Nome** | [Nome Completo] |
-| **Idade** | [Ex: 28 anos] |
-| **Gênero** | [Ex: Não-binário] |
-| **Localidade** | [Ex: Brasília, DF] |
-| **Escolaridade** | [Ex: Pós-graduação] |
-| **Ocupação** | [Ex: Analista de Sistemas] |
-| **Status** | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Persona Secundária</span> |
-
-**Objetivos:**
-- [Objetivo 1]
-- [Objetivo 2]
-
-**Habilidades:**
-- [Habilidade 1]
-- [Habilidade 2]
-
-**Tarefas:**
-- [Tarefa 1 — frequência: ...]
-- [Tarefa 2 — frequência: ...]
-
-**Relacionamentos:**
-- [Ex: ...]
-
-**Expectativas:**
-- [Expectativa 1]
-- [Expectativa 2]
-
-**Requisitos:**
-- [Requisito 1]
-- [Requisito 2]
-
----
-
 ### Antipersona — Hugo Rocha
 
 | Atributo | Descrição |
 | :--- | :--- |
 | **Nome** | Hugo Rocha |
-| **Idade** | 8 anos |
-| **Ocupação** | Estudante do Fundamental |
+| **Idade** | 15 anos |
+| **Ocupação** | Estudante do Ensino Médio |
 | **Status** | <span style="background-color: #b71c1c; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Antipersona</span> |
 
 **Por que não é o público-alvo:**
 - Hugo não possui capacidade civil plena para registrar reclamações de forma autônoma e não possui transações comerciais de alto valor que exijam a intervenção direta do PROCON-DF.
-
----
-
-### Antipersona — [Nome Completo] (Modelo)
-
-| Atributo | Descrição |
-| :--- | :--- |
-| **Nome** | [Nome Completo] |
-| **Idade** | [Ex: 15 anos] |
-| **Ocupação** | [Ex: Estudante do Ensino Médio] |
-| **Status** | <span style="background-color: #b71c1c; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Antipersona</span> |
-
-**Por que não é o público-alvo:**
-- [Ex: Não possui relação de consumo estabelecida com fornecedores, portanto não necessita registrar reclamações no sistema.]
 
 ---
 
@@ -397,7 +340,6 @@ Agradecimento ao **Gemini 3 Flash** pela ajuda na criação e estruturação das
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.0` | 30/04/2026 | Criação do documento com Persona Primária Laura, baseada nos dados reais do Grupo de Foco (Etapa 2). | Heitor Macedo Ricardo | Pedro Augusto Moretti |
-| `1.1` | 01/05/2026 | Adição e expansão profunda das personas Lucas e Gustavo e da Antipersona Hugo com base nos dados consolidados. | Pedro Augusto Moretti Moreira | Heloisa Silva |
-| `1.2` | 03/05/2026 | Inclusão da Persona Primária Maria Helena com base na análise documental. | Heloisa Silva | Heitor Macedo |
-| `1.3` | 03/05/2026 | Inclusão da Persona Primária Roberto Oliveira. | Mateus Rodrigues Barreto | A definir |
+| `1.0` | 30/04/2026 | Criação do documento com Persona Primária Laura, baseada nos dados reais do Grupo de Foco (Etapa 2). | Heitor Macedo Ricardo | A definir |
+| `1.1` | 01/05/2026 | Adição e expansão profunda das personas Lucas e Gustavo e da Antipersona Hugo com base nos dados consolidados. | Pedro Augusto Moretti Moreira | A definir |
+| `1.2` | 03/05/2026 | Adição da Persona Roberto e atualização do elenco de personas. | Mateus Rodrigues Barreto | A definir |
