@@ -67,3 +67,4 @@ Esta lista de verificação consolida os critérios de avaliação da **Etapa 2*
 | `1.1` | 03/05/2026 | Adição dos 5 itens técnicos do Heitor com fontes e imagens comprobatórias. | Heitor Macedo Ricardo | Pedro Moretti |
 | `1.2` | 03/05/2026 | Resolução do merge conflict: mantidos itens de Heitor Macedo Ricardo e Pedro Moretti. | Heitor Macedo Ricardo | Pedro Moretti |
 | `1.3` | 03/05/2026 | Reorganização por categorias (Perfil de Usuário, Personas, Cenários, Análise de Tarefas) com IDs padronizados. | Heitor Macedo Ricardo | Pedro Moretti |
+| `1.4` | 03/05/2026 | Adição de itens de verificação | Heloisa Silva | Pedro Moretti |
