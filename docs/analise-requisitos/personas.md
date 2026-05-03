@@ -188,7 +188,22 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 ---
 
 ### 2.4. Persona Primária: Maria Helena, a Aposentada Prática
-Persona Primária</span> |
+
+<p align="center">
+  <img src="../images/persona_MariaHelena.png" width="180" alt="Foto de Maria Helena Costa"
+       style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <br><em>Figura 4 — Maria Helena Costa. Fonte: Elaborado pelos autores (2026).</em>
+</p>
+
+| Atributo | Descrição |
+| :--- | :--- |
+| **Nome** | Maria Helena Costa |
+| **Idade** | 67 anos |
+| **Gênero** | Feminino |
+| **Localidade** | Brasília, DF — Ceilândia |
+| **Escolaridade** | Ensino Médio Completo |
+| **Ocupação** | Aposentada |
+| **Status** | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Persona Primária</span> |
 
 **Objetivos:**
 
