@@ -25,11 +25,11 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Atividade Extraída do Plano de Ensino | Integrante Responsável<br><small>(nome · data de conclusão)</small> | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
     | :--- | :---: | :---: | :--- | :---: |
-    | **Perfil de Usuário**<br>*(Técnicas de coleta e resultados)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> | [A definir](../equipe/equipe.md) | [📄 Perfil de Usuário](../analise-requisitos/perfil-usuario.md) | ✅ Concluído |
-    | **Personas**<br>*(Elenco de personas primárias e secundárias)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> | [A definir](../equipe/equipe.md) | [📄 Personas](../analise-requisitos/personas.md) | ✅ Concluído |
-    | **Cenários**<br>*(Cenários de uso baseados nas personas)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> | [A definir](../equipe/equipe.md) | [📄 Cenários](../analise-requisitos/cenarios.md) | ✅ Concluído |
-    | **Análise de Tarefas**<br>*(HTA e CTT)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> | [A definir](../equipe/equipe.md) | [📄 Análise de Tarefas](../analise-requisitos/analise-tarefas.md) | ✅ Concluído |
-    | **Funcionalidade: Portal de Notificações**<br>*(Declaração e justificativa da funcionalidade)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> | [A definir](../equipe/equipe.md) | [📄 Funcionalidades](../analise-requisitos/funcionalidades.md) | ✅ Concluído |
+    | **Perfil de Usuário**<br>*(Técnicas de coleta e resultados)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>02/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Perfil de Usuário](../analise-requisitos/perfil-usuario.md) | ✅ Concluído |
+    | **Personas**<br>*(Elenco de personas primárias e secundárias)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>02/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Personas](../analise-requisitos/personas.md) | ✅ Concluído |
+    | **Cenários**<br>*(Cenários de uso baseados nas personas)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>02/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Cenários](../analise-requisitos/cenarios.md) | ✅ Concluído |
+    | **Análise de Tarefas**<br>*(HTA e CTT)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>02/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Análise de Tarefas](../analise-requisitos/analise-tarefas.md) | ✅ Concluído |
+    | **Funcionalidade**<br>*(Declaração e justificativa da funcionalidade)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>03/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Funcionalidades](../analise-requisitos/funcionalidades.md) | ✅ Concluído |
     | **Lista de Verificação Etapa 2**<br>*(Itens de verificação do conteúdo da disciplina)* | [Heitor Macedo](../equipe/equipe.md)<br><small>03/05/2026</small> · [Pedro Moretti](../equipe/equipe.md)<br><small>03/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Verificação Etapa 2](../projeto/verificacao-etapa2.md) | ✅ Concluído |
     | **Apresentação da Etapa 2**<br>*(Gravação e publicação no YouTube)* | [A definir](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [🎥 Vídeo — YouTube](#) | 🔄 Em Andamento |
 
@@ -56,13 +56,13 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
     | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-    | **Perfil de Usuário (Técnicas)** | — | 3 | — | — | — | — |
-    | **Personas**  | — | 1 | — | — | — | — |
-    | **Cenários**  | — | 1 | — | — | — | — |
-    | **Análise de Tarefas**  | — | 2 | — | — | — | — |
-    | **Funcionalidade**  | — | 1 | — | — | — | — |
-    | **Lista de Verificação (Etapa 2 - itens)** | — | 5 | — | — | — | — |
-    | **Total de documentos criados** | 0 | 8 | 0 | 0 | 0 | 0 |
+    | **Perfil de Usuário (Técnicas)** | — | 3 | — | 3 | — | — |
+    | **Personas**  | — | 1 | — | 3 | — | — |
+    | **Cenários**  | — | 1 | — | 2 | — | — |
+    | **Análise de Tarefas**  | — | 2 | — | 2 | — | — |
+    | **Funcionalidade**  | — | 1 | — | 1 | — | — |
+    | **Lista de Verificação (Etapa 2 - itens)** | — | 5 | — | 12 | — | — |
+    | **Total de documentos criados** | 0 | 8 | 0 | 11 | 0 | 0 |
     | **Total de documentos revisados** | 0 | 0 | 0 | 0 | 0 | 0 |
 
 
