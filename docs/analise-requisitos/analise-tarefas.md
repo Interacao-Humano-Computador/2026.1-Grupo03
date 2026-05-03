@@ -40,6 +40,23 @@ A **Análise Hierárquica de Tarefas** (*Hierarchical Task Analysis* — HTA) é
 *Tabela 1 — Representação textual do HTA: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo (2026).*
 
 ---
+**Tabela de Representação HTA — Validação de documentos com OCR:**
+
+| Operação (Objetivo / Operação) | Inputs (circunstâncias) | Ações (actions) | Feedback / Testes (condições de sucesso) | Problemas potenciais | Recomendações de IHC |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **0.0** Validar documento anexado com OCR (objetivo geral) | Usuário autenticado; processo aberto; arquivo selecionado (PDF/IMG) | Sequência: 1 >> 1.1 >> 1.2 >> 1.3 >> 1.4 >> 1.7 | Documento anexado e marcado como Aceito / Pendência / Rejeitado; protocolo gerado | Falhas de upload; perda de sessão | Fornecer orientação clara, formatos aceitos e feedback imediato de upload |
+| **1.** Iniciar anexação | Processo aberto; botão "Anexar documento" disponível | Usuário seleciona "Anexar" → escolhe arquivo → confirma envio | Barra de progresso; thumbnail/preview; mensagem "Upload concluído" | Arquivo muito grande; conexão interrompida | Mostrar formatos/limites antes do envio; upload resumível; confirmação visual clara |
+| **1.1** Pré-processamento (sistema) | Arquivo enviado (PDF/JPEG/PNG); metadados do arquivo | Normalizar imagem/PDF (deskew, crop, desaturate), separar páginas | Preview do arquivo pré-processado; flag inicial de qualidade | Imagem com baixa resolução; páginas faltando | Apresentar preview e instruções de captura (ex.: iluminação, foco) |
+| **1.2** Extração OCR | Imagem/páginas pré-processadas | Executar OCR por página → extrair texto, tabelas e campos-chave (CPF/CNPJ, datas, valores) | Resultado OCR com confiança por bloco; campos-chave preenchidos automaticamente | Baixa confiança; textos manuscritos; idiomas mistos | Exibir scores de confiança; destacar trechos incertos para correção manual |
+| **1.3** Verificação de legibilidade e qualidade | Scores OCR; resolução da imagem; presença de artefatos | Calcular índice de legibilidade; detectar páginas borradas/recortadas | Status legível / ilegível; recomendações para recaptura | Borrões, reflexos, corte de borda | Definir thresholds e mostrar instruções específicas (ex.: recortar, re-fotografar) |
+| **1.4** Avaliação de aderência ao tipo de evidência | Texto extraído; metadados do processo (tipo de prova requerida) | Aplicar regras (palavras-chave, padrões de nota fiscal, campos obrigatórios) | Resultado: Aceito / Pendência (faltam campos) / Rejeitado (não corresponde) com justificativa | Falsos negativos por variações de formato | Mostrar motivo claro (ex.: "faltou CNPJ"), exibir trecho correspondente e permitir mapeamento manual |
+| **1.5** Comunicação de pendência e correção | Resultado da avaliação (Pendência) + instruções padrão | Sistema informa usuário com mensagem objetiva e passos (re-enviar, editar, marcar páginas) | Usuário recebe instruções e botões para ação (Reenviar / Editar extração) | Mensagens vagas que geram confusão | Mensagens orientadas por ação, com exemplos visuais do que corrigir |
+| **1.6** Correção pelo usuário | Visualização do OCR com destaques; formulário pré-preenchido | Usuário edita campos críticos (ex.: CPF, data), reenvia novo arquivo ou aceita correções | Reexecução OCR / revalidação; confirmação de recebimento | Usuário pode não entender destaques | Fornecer ajuda contextual (tooltip) e opção de chat/FAQ rápido |
+| **1.7** Finalização e anexação definitiva | Documento aceito; campos extraídos validados | Sistema anexa documento ao processo, grava metadados, gera protocolo e notifica usuário | Mensagem "Documento aceito" + número de protocolo + timestamp | Falha na gravação ou duplicidade | Operação transacional; filas de retry; confirmação clara e opção de baixar comprovante |
+
+*Tabela 2 — Representação textual do HTA: Validação de documentos com OCR. Fonte: Elaborado por Heloisa Laura Santos da Silva (2026).* 
+
+---
 
 ## 2. Árvores de Tarefas Concorrentes (CTT)
 
@@ -111,4 +128,5 @@ Agradecimento ao **Gemini** pela ajuda na estruturação e redação da Análise
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.0` | 30/04/2026 | Elaboração da Análise de Tarefas com HTA e CTT para a funcionalidade de Acompanhamento de Reclamação. | Heitor Macedo Ricardo | A definir |
+| `1.0` | 30/04/2026 | Elaboração da Análise de Tarefas com HTA e CTT para a funcionalidade de Acompanhamento de Reclamação. | Heitor Macedo Ricardo | Heloisa Silva |
+| `1.1` | 03/05/2026 | Inserção da HTA de validação de documentos com OCR e ajustes de conteúdo. | Heloisa Silva | Heitor Macedo |

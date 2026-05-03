@@ -108,7 +108,7 @@ Agendamento da audiência pelo mediador
 
 ---
 
-### 3. Dossiê digital com OCR e validação de documentos
+### 3. Validação de documentos com OCR
 
 #### Visão Geral
 Implementar na plataforma a opção de anexar documentos ao processo de petição como notas fiscais, contratos e prints de conversa, por meio de uma interface simples e guiada. Com o uso de OCR, o sistema identifica automaticamente o conteúdo do arquivo anexado, confere se ele é legível e avalia sua aderência ao tipo de evidência solicitada. Isso elimina a necessidade de entrega física de documentos, reduz o tempo de conferência manual e acelera a análise inicial do processo.
@@ -179,4 +179,4 @@ Agradecimento ao Gemini pela ajuda na estruturação, redação e consolidação
 | :--- | :--- | :--- | :--- | :--- |
 | `1.0` | 30/04/2026 | Criação da funcionalidade: Portal de Acompanhamento | Heitor Macedo Ricardo | Pedro Moretti |
 | `1.1` | 01/05/2026 | Integração da funcionalidade: Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | Heloisa Silva |
-| `1.1` | 01/05/2026 | Integração da funcionalidade:  Dossiê digital com OCR e validação de documentos | Heloisa Silva | Heitor Macedo |
+| `1.1` | 01/05/2026 | Integração da funcionalidade:  Validação de documentos com OCR | Heloisa Silva | Heitor Macedo |
