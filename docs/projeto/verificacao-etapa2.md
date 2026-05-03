@@ -48,6 +48,7 @@ Esta lista de verificação consolida os critérios de avaliação da **Etapa 2*
 | **AT-03** | Caso esteja seguindo a definição de Annett (2003) e Annett e Duncan (1967), as tarefas complexas foram decompostas hierarquicamente em objetivos e subobjetivos, caracterizando uma decomposição de tarefas ou redescrição? | (Annett, 2003; Annett e Duncan, 1967 apud BARBOSA et al., 2021). [Imagem](images/verificacao2/hta_decomposicao_hierarquica.png) | Pedro Moretti | | |
 | **AT-04** | Caso esteja seguindo a definição de CTT, foram definidas as tarefas do usuário? | (BARBOSA et al., 2021). [Imagem](images/verificacao2/ctt_tarefas_usuario.png) | Pedro Moretti | | |
 | **AT-05** | Caso esteja seguindo a definição de CTT, foram definidas as tarefas do sistema? | (BARBOSA et al., 2021). [Imagem](images/verificacao2/ctt_tarefas_sistema.png) | Pedro Moretti | | |
+| **AT-06** | Caso esteja serguindo a definição HTA, a operação especificada possui actions, feedback e input? | (BARBOSA et al., 2021). [Imagem](images/verificacao2/inspecao-HTA-Heloisa.png) | Heloisa Silva | | |
 
 ---
 
