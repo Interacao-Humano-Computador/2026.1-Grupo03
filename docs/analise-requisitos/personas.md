@@ -99,41 +99,43 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 **Objetivos:**
 
-- **Pessoal:** Não ser lesado por empresas que negligenciam o suporte ao cliente. Para ele, registrar uma reclamação é um ato de "higiene digital" e exercício de cidadania.
-- **Prático:** Registrar uma denúncia formal contra um e-commerce internacional por vício no produto, anexando evidências técnicas (logs e e-mails) de forma rápida.
-- **De experiência:** Utilizar uma interface que siga padrões modernos de UX, livre de elementos datados que remetam a sites de baixa credibilidade ou "spam".
+- **Pessoal:** Não ser lesado por empresas que negligenciam o suporte ao cliente. Para ele, registrar uma reclamação e levá-la até uma solução é um ato de "higiene digital" e exercício de cidadania.
+- **Prático:** Após registrar uma reclamação contra um e-commerce internacional, **participar ativamente da audiência de conciliação virtual** para expor suas evidências técnicas e negociar diretamente com o fornecedor, sem sair de casa.
+- **De experiência:** Utilizar uma interface de videoconferência que siga padrões modernos de UX, livre de travamentos, com controles responsivos e sem a necessidade de instalar plugins obsoletos.
 
 **Habilidades:**
 
-- **Alta Literacia Tecnológica:** Usuário avançado de Linux e competidor de programação. Identifica rapidamente fluxos de navegação ineficientes e inconsistências visuais.
-- **Uso Híbrido:** Embora utilize o smartphone para monitorar, prefere o desktop para tarefas que exigem organização de múltiplos arquivos e uploads pesados.
-- **Autossuficiência:** Prefere caminhos diretos (CTAs claros) e detesta ter que ler notícias institucionais ou avisos governamentais para encontrar um serviço simples.
+- **Alta Literacia Tecnológica:** Usuário avançado de Linux, competidor de programação. Identifica rapidamente falhas de latência, má qualidade de vídeo e problemas de segurança.
+- **Uso Híbrido:** Embora utilize o smartphone para monitorar processos, prefere seu desktop com múltiplos monitores para participar de audiências — assim pode manter as evidências abertas em uma tela enquanto vê o mediador na outra.
+- **Autossuficiência:** Prefere caminhos diretos (CTAs claros) e detesta interfaces que o forçam a assistir tutoriais ou ler avisos institucionais antes de acessar a sala virtual.
 
 **Tarefas:**
 
-- Localizar instantaneamente o canal de registr de reclamação — *frequência: alta (acesso inicial)*
-- Anexar provas digitais (screenshots e comprovantes em PDF) — *frequência: única no registro*
-- Validar se o protocolo gerado foi enviado corretamente para seu e-mail — *frequência: única*
+- Receber o link da audiência e **testar a configuração de áudio/vídeo** antes da sessão — *frequência: única por audiência*
+- **Participar da audiência virtual**, ativando/desativando microfone conforme necessário e compartilhando trechos de logs ou capturas de tela como prova — *frequência: durante a sessão*
+- **Assinar digitalmente o termo de acordo** (se houver) ou entender os próximos passos caso a conciliação não resulte em acordo — *frequência: única ao final da audiência*
 
 **Relacionamentos:**
 
 - É o "expert" do seu círculo social; frequentemente ajuda amigos a coletarem evidências para processos e os incentiva a usar os canais oficiais do governo.
-- Crítico da burocracia estatal, compartilha suas experiências de usabilidade (boas ou ruins) em fóruns de tecnologia e redes sociais profissionais.
+- Crítico da burocracia estatal, compartilha suas experiências de usabilidade — inclusive de audiências virtuais — em fóruns de tecnologia e redes sociais profissionais.
 
 **Requisitos:**
 
-- **Design Minimalista (Clean):** Redução total de banners, notícias e textos institucionais na área de serviço.
-- **Upload Ágil:** Sistema que suporte múltiplos arquivos com feedback visual de conclusão de carregamento.
-- **Segurança Transparente:** Confirmação clara de que os dados estão protegidos e o processo foi protocolado.
+- **Sala virtual sem instalação:** A audiência deve rodar diretamente no navegador (WebRTC), sem exigir plugins ou aplicativos externos.
+- **Estabilidade e qualidade:** O sistema deve se adaptar automaticamente à largura de banda para evitar congelamentos, mantendo o áudio sempre nítido.
+- **Segurança transparente:** Confirmação de que a sala é criptografada e de que a assinatura digital tem validade jurídica.
+- **Feedback técnico claro:** Indicadores visuais de qualidade da conexão, microfone silenciado e compartilhamento de tela ativo.
 
 **Expectativas:**
 
-- Espera que o portal seja uma ferramenta funcional e não um blog de notícias do governo.
-- Espera que o sistema mobile seja tão fluido quanto os apps financeiros que utiliza diariamente.
-- Espera que o PROCON ofereça um fluxo de entrada intuitivo que não exija busca externa no Google sobre "como usar o site".
+- Espera que a sala virtual funcione tão bem quanto uma chamada no Google Meet ou Zoom, com controles familiares e sem atrasos.
+- Espera que o sistema permita **compartilhar apenas uma janela específica** (não a tela inteira), preservando sua privacidade.
+- Acredita que, ao final da audiência, o processo não fique "em suspensão" — quer um status claro (acordo firmado ou prosseguimento da reclamação) e um comprovante digital do que foi decidido.
+- Espera que a interface da sala mostre o nome e o papel de cada participante de forma fixa, para não precisar deduzir quem é quem durante o debate.
 
 !!! info "Responsável por este artefato"
-    A **Persona Primária Lucas** foi criada por **Pedro Augusto Moretti Moreira**, baseada nos dados consolidados do Grupo de Foco sobre a percepção de usabilidade e estética do portal.
+    A **Persona Primária Lucas** foi criada por **Pedro Augusto Moretti Moreira** e **Heitor Macedo Ricardo**, com base nos dados consolidados do Grupo de Foco. Adaptada para refletir a participação de Lucas na funcionalidade *Sala de Conciliação Virtual com Mediação Assistida*, garantindo que o perfil técnico do usuário seja contemplado no design da experiência de audiência remota.
 
 ---
 
@@ -346,8 +348,8 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 | Atributo | Descrição |
 | :--- | :--- |
 | **Nome** | Hugo Rocha |
-| **Idade** | 15 anos |
-| **Ocupação** | Estudante do Ensino Médio |
+| **Idade** | 8 anos |
+| **Ocupação** | Estudante do Fundamental |
 | **Status** | <span style="background-color: #b71c1c; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Antipersona</span> |
 
 **Por que não é o público-alvo:**
