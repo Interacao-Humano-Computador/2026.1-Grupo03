@@ -76,6 +76,8 @@ Os principais **operadores de relação** utilizados são:
 - `=` Concorrência (T1 e T2 podem ocorrer em qualquer ordem)
 - `[]>>` Ativação com passagem de informação (T1 ativa T2 e envia dados)
 
+### Árvore CTT — Acompanhar reclamação e responder proposta
+
 <p align="center">
   <img src="../images/CTT-Heitor.drawio.png" alt="Árvore CTT — Acompanhar reclamação e responder proposta" width="750">
   <br><em>Figura 2 — Árvore CTT: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo com auxílio do Draw.io (2026).</em>
@@ -111,6 +113,15 @@ Os principais **operadores de relação** utilizados são:
     Este documento foi elaborado por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
 
 ---
+
+### Árvore CTT — Validação de Documentos com OCR
+
+<p align="center">
+  <img src="../images/CTT-Heloisa.drawio.png" alt="Árvore CTT — Acompanhar reclamação e responder proposta" width="750">
+  <br><em>Figura 4 — Árvore CTT: Validação de documento com OCR. Fonte: Elaborado por Heloisa Laura Santos da Silva com auxílio do Draw.io (2026).</em>
+</p>
+!!! info "Responsável por este artefato"
+    Este documento foi elaborado por **Heloisa Laura Santos da Silva**, responsável pela funcionalidade *Validação de documentos com OCR* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
 
 ## Agradecimentos à IA
 
