@@ -25,12 +25,12 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Atividade Extraída do Plano de Ensino | Integrante Responsável<br><small>(nome · data de conclusão)</small> | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
     | :--- | :---: | :---: | :--- | :---: |
-    | **Perfil de Usuário**<br>*(Técnicas de coleta e resultados)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>02/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Perfil de Usuário](../analise-requisitos/perfil-usuario.md) | ✅ Concluído |
-    | **Personas**<br>*(Elenco de personas primárias e secundárias)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>02/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Personas](../analise-requisitos/personas.md) | ✅ Concluído |
-    | **Cenários**<br>*(Cenários de uso baseados nas personas)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>02/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Cenários](../analise-requisitos/cenarios.md) | ✅ Concluído |
-    | **Análise de Tarefas**<br>*(HTA, CTT e GOMS)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>02/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Análise de Tarefas](../analise-requisitos/analise-tarefas.md) | ✅ Concluído |
-    | **Funcionalidades**<br>*(Declaração e justificativa das funcionalidades)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>03/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Funcionalidades](../analise-requisitos/funcionalidades.md) | ✅ Concluído |
-    | **Lista de Verificação Etapa 2**<br>*(Itens de verificação do conteúdo da disciplina)* | [Heitor Macedo](../equipe/equipe.md)<br><small>03/05/2026</small> · [Pedro Moretti](../equipe/equipe.md)<br><small>03/05/2026</small> · [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Verificação Etapa 2](../projeto/verificacao-etapa2.md) | ✅ Concluído |
+    | **Perfil de Usuário**<br>*(Técnicas de coleta e resultados)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>02/05/2026</small>  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small>| [A definir](../equipe/equipe.md) | [📄 Perfil de Usuário](../analise-requisitos/perfil-usuario.md) | ✅ Concluído |
+    | **Personas**<br>*(Elenco de personas primárias e secundárias)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>02/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small>  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Personas](../analise-requisitos/personas.md) | ✅ Concluído |
+    | **Cenários**<br>*(Cenários de uso baseados nas personas)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>02/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small>  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Cenários](../analise-requisitos/cenarios.md) | ✅ Concluído |
+    | **Análise de Tarefas**<br>*(HTA, CTT e GOMS)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>02/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small>  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Análise de Tarefas](../analise-requisitos/analise-tarefas.md) | ✅ Concluído |
+    | **Funcionalidades**<br>*(Declaração e justificativa das funcionalidades)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>03/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small>  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [A definir](../equipe/equipe.md) | [📄 Funcionalidades](../analise-requisitos/funcionalidades.md) | ✅ Concluído |
+    | **Lista de Verificação Etapa 2**<br>*(Itens de verificação do conteúdo da disciplina)* | [Heitor Macedo](../equipe/equipe.md)<br><small>03/05/2026</small> · [Pedro Moretti](../equipe/equipe.md)<br><small>03/05/2026</small> · [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small> | [A definir](../equipe/equipe.md)  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [📄 Verificação Etapa 2](../projeto/verificacao-etapa2.md) | ✅ Concluído |
     | **Apresentação da Etapa 2**<br>*(Gravação e publicação no YouTube)* | [A definir](../equipe/equipe.md) | [A definir](../equipe/equipe.md) | [🎥 Vídeo — YouTube](#) | 🔄 Em Andamento |
 
 === "Etapa 3"
@@ -56,13 +56,13 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
     | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-    | **Perfil de Usuário (Técnicas)** | — | 3 | — | 3 | — | — |
-    | **Personas**  | — | 1 | — | 3 | — | 1 |
-    | **Cenários**  | — | 1 | — | 2 | — | 1 |
-    | **Análise de Tarefas**  | — | 2 | — | 2 | — | 1 |
-    | **Funcionalidade**  | — | 1 | — | 1 | — | 1 |
-    | **Lista de Verificação (Etapa 2 - itens)** | — | 5 | — | 12 | — | 4 |
-    | **Total de documentos criados** | 0 | 8 | 0 | 11 | 0 | 4 |
+    | **Perfil de Usuário (Técnicas)** | — | 3 | 2 | 3 | — | — |
+    | **Personas**  | — | 1 | 1 | 3 | — | 1 |
+    | **Cenários**  | — | 1 | 1 | 2 | — | 1 |
+    | **Análise de Tarefas**  | — | 2 | 2 | 2 | — | 1 |
+    | **Funcionalidade**  | — | 1 | 1 | 1 | — | 1 |
+    | **Lista de Verificação (Etapa 2 - itens)** | — | 5 | 1 | 12 | — | 4 |
+    | **Total de documentos criados** | 0 | 8 | 7 | 11 | 0 | 4 |
     | **Total de documentos revisados** | 0 | 5 | 0 | 10 | 0 | 0 |
 
 
