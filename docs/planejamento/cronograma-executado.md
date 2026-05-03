@@ -63,7 +63,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Funcionalidade**  | — | 1 | — | 1 | — | — |
     | **Lista de Verificação (Etapa 2 - itens)** | — | 5 | — | 12 | — | — |
     | **Total de documentos criados** | 0 | 8 | 0 | 11 | 0 | 0 |
-    | **Total de documentos revisados** | 0 | 5 | 0 | 0 | 0 | 0 |
+    | **Total de documentos revisados** | 0 | 5 | 0 | 10 | 0 | 0 |
 
 
 === "Etapa 3"
