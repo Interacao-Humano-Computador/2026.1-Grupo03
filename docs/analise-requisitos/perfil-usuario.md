@@ -205,9 +205,9 @@ Ao cruzar esses perfis com a distribuição dos atendimentos observada na análi
 
 | Versão | Data       | Descrição                                                          | Autor(es)                             | Revisor |
 | :----- | :--------- | :----------------------------------------------------------------- | :------------------------------------ | :------ |
-| `1.0`  | 30/04/2026 | Criação do documento com dados do Grupo de Foco.                   | Heitor Macedo, Heloisa, Pedro Moretti | Heloisa |
-| `1.1`  | 01/05/2026 | Integração de Perfil de Fornecedor via entrevista semiestruturada. | Pedro Augusto Moretti Moreira         | Heloisa |
-| `1.2`  | 03/05/2026 | Inclusão e consolidação da análise documental e dos perfis geracionais (incluindo distribuição dos atendimentos). E adição da bibliografia | Heloisa | — |
+| `1.0`  | 30/04/2026 | Criação do documento com dados do Grupo de Foco.                   | Heitor Macedo, Heloisa, Pedro Moretti | Heloisa Silva |
+| `1.1`  | 01/05/2026 | Integração de Perfil de Fornecedor via entrevista semiestruturada. | Pedro Augusto Moretti Moreira         | Heitor Macedo |
+| `1.2`  | 03/05/2026 | Inclusão e consolidação da análise documental e dos perfis geracionais (incluindo distribuição dos atendimentos). E adição da bibliografia | Heloisa | Pedro Moretti |
 
 ---
 

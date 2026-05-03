@@ -177,6 +177,6 @@ Agradecimento ao Gemini pela ajuda na estruturação, redação e consolidação
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.0` | 30/04/2026 | Criação da funcionalidade: Portal de Acompanhamento | Heitor Macedo Ricardo | A definir |
-| `1.1` | 01/05/2026 | Integração da funcionalidade: Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | A definir |
-| `1.1` | 01/05/2026 | Integração da funcionalidade:  Dossiê digital com OCR e validação de documentos | Heloisa Silva | A definir |
+| `1.0` | 30/04/2026 | Criação da funcionalidade: Portal de Acompanhamento | Heitor Macedo Ricardo | Pedro Moretti |
+| `1.1` | 01/05/2026 | Integração da funcionalidade: Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | Heloisa Silva |
+| `1.1` | 01/05/2026 | Integração da funcionalidade:  Dossiê digital com OCR e validação de documentos | Heloisa Silva | Heitor Macedo |
