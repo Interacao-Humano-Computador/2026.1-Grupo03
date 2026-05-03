@@ -140,4 +140,4 @@ Agradecimento ao **Gemini** pela ajuda na estruturação e redação da Análise
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
 | `1.0` | 30/04/2026 | Elaboração da Análise de Tarefas com HTA e CTT para a funcionalidade de Acompanhamento de Reclamação. | Heitor Macedo Ricardo | Heloisa Silva |
-| `1.1` | 03/05/2026 | Inserção da HTA de validação de documentos com OCR e ajustes de conteúdo. | Heloisa Silva | Heitor Macedo |
+| `1.1` | 03/05/2026 | Inserção da HTA e CTT de validação de documentos com OCR e ajustes de conteúdo. | Heloisa Silva | Heitor Macedo |
