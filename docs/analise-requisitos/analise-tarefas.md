@@ -189,4 +189,5 @@ Agradecimento ao **Gemini** pela ajuda na estruturação e redação da Análise
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
+| `1.1` | 30/04/2026 | Elaboração da Análise de Tarefas com HTA e CTT para a funcionalidade de Conciliação Virtual. | Pedro Augusto Moretti Moreira | A definir |
 | `1.0` | 30/04/2026 | Elaboração da Análise de Tarefas com HTA e CTT para a funcionalidade de Acompanhamento de Reclamação. | Heitor Macedo Ricardo | A definir |
