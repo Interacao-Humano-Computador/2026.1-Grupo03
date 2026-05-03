@@ -76,6 +76,125 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 !!! info "Responsável por este artefato"
     A **Persona Primária Laura** foi criada por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Cenários](cenarios.md) · [Análise de Tarefas](analise-tarefas.md).
+
+---
+
+### 2.2. Persona Primária: Lucas, o Consumidor Exigente
+
+<p align="center">
+  <img src="../images/persona_lucas.jpeg" width="180" alt="Foto de Lucas Silva"
+       style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <br><em>Figura 2 — Lucas Silva. Fonte: Elaborado pelos autores (2026).</em>
+</p>
+
+| Atributo | Descrição |
+| :--- | :--- |
+| **Nome** | Lucas Silva |
+| **Idade** | 24 anos |
+| **Gênero** | Masculino |
+| **Localidade** | Brasília, DF — Taguatinga |
+| **Escolaridade** | Ensino Superior Completo (Ciência da Computação — UnB) |
+| **Ocupação** | Desenvolvedor Júnior em uma Fintech |
+| **Status** | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Persona Primária</span> |
+
+**Objetivos:**
+
+- **Pessoal:** Não ser lesado por empresas que negligenciam o suporte ao cliente. Para ele, registrar uma reclamação e levá-la até uma solução é um ato de "higiene digital" e exercício de cidadania.
+- **Prático:** Após registrar uma reclamação contra um e-commerce internacional, **participar ativamente da audiência de conciliação virtual** para expor suas evidências técnicas e negociar diretamente com o fornecedor, sem sair de casa.
+- **De experiência:** Utilizar uma interface de videoconferência que siga padrões modernos de UX, livre de travamentos, com controles responsivos e sem a necessidade de instalar plugins obsoletos.
+
+**Habilidades:**
+
+- **Alta Literacia Tecnológica:** Usuário avançado de Linux, competidor de programação. Identifica rapidamente falhas de latência, má qualidade de vídeo e problemas de segurança.
+- **Uso Híbrido:** Embora utilize o smartphone para monitorar processos, prefere seu desktop com múltiplos monitores para participar de audiências — assim pode manter as evidências abertas em uma tela enquanto vê o mediador na outra.
+- **Autossuficiência:** Prefere caminhos diretos (CTAs claros) e detesta interfaces que o forçam a assistir tutoriais ou ler avisos institucionais antes de acessar a sala virtual.
+
+**Tarefas:**
+
+- Receber o link da audiência e **testar a configuração de áudio/vídeo** antes da sessão — *frequência: única por audiência*
+- **Participar da audiência virtual**, ativando/desativando microfone conforme necessário e compartilhando trechos de logs ou capturas de tela como prova — *frequência: durante a sessão*
+- **Assinar digitalmente o termo de acordo** (se houver) ou entender os próximos passos caso a conciliação não resulte em acordo — *frequência: única ao final da audiência*
+
+**Relacionamentos:**
+
+- É o "expert" do seu círculo social; frequentemente ajuda amigos a coletarem evidências para processos e os incentiva a usar os canais oficiais do governo.
+- Crítico da burocracia estatal, compartilha suas experiências de usabilidade — inclusive de audiências virtuais — em fóruns de tecnologia e redes sociais profissionais.
+
+**Requisitos:**
+
+- **Sala virtual sem instalação:** A audiência deve rodar diretamente no navegador (WebRTC), sem exigir plugins ou aplicativos externos.
+- **Estabilidade e qualidade:** O sistema deve se adaptar automaticamente à largura de banda para evitar congelamentos, mantendo o áudio sempre nítido.
+- **Segurança transparente:** Confirmação de que a sala é criptografada e de que a assinatura digital tem validade jurídica.
+- **Feedback técnico claro:** Indicadores visuais de qualidade da conexão, microfone silenciado e compartilhamento de tela ativo.
+
+**Expectativas:**
+
+- Espera que a sala virtual funcione tão bem quanto uma chamada no Google Meet ou Zoom, com controles familiares e sem atrasos.
+- Espera que o sistema permita **compartilhar apenas uma janela específica** (não a tela inteira), preservando sua privacidade.
+- Acredita que, ao final da audiência, o processo não fique "em suspensão" — quer um status claro (acordo firmado ou prosseguimento da reclamação) e um comprovante digital do que foi decidido.
+- Espera que a interface da sala mostre o nome e o papel de cada participante de forma fixa, para não precisar deduzir quem é quem durante o debate.
+
+!!! info "Responsável por este artefato"
+    A **Persona Primária Lucas** foi criada por **Pedro Augusto Moretti Moreira** e **Heitor Macedo Ricardo**, com base nos dados consolidados do Grupo de Foco. Adaptada para refletir a participação de Lucas na funcionalidade *Sala de Conciliação Virtual com Mediação Assistida*, garantindo que o perfil técnico do usuário seja contemplado no design da experiência de audiência remota.
+
+---
+
+### 2.3. Persona Primária: Maria Helena, a Aposentada Prática
+
+<p align="center">
+  <img src="../images/persona_MariaHelena.png" width="180" alt="Foto de Maria Helena Costa"
+       style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <br><em>Figura 3 — Maria Helena Costa. Fonte: Elaborado pelos autores (2026).</em>
+</p>
+
+| Atributo | Descrição |
+| :--- | :--- |
+| **Nome** | Maria Helena Costa |
+| **Idade** | 67 anos |
+| **Gênero** | Feminino |
+| **Localidade** | Brasília, DF — Ceilândia |
+| **Escolaridade** | Ensino Médio Completo |
+| **Ocupação** | Aposentada |
+| **Status** | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Persona Primária</span> |
+
+**Objetivos:**
+
+- Resolver problemas de consumo sem depender de deslocamentos frequentes.
+- Acompanhar reclamações contra empresas de telefonia e serviços financeiros com clareza e sem burocracia.
+- Entender rapidamente o que precisa fazer quando houver retorno do PROCON-DF.
+
+**Habilidades:**
+
+- Usa WhatsApp diariamente para se comunicar com a família.
+- Consegue acessar serviços básicos no celular, mas se perde em formulários longos e telas cheias de informação.
+- Prefere instruções diretas, com passo a passo simples.
+
+**Tarefas:**
+
+- Consultar o andamento de uma reclamação — *frequência: eventual, principalmente quando recebe nova notificação*.
+- Enviar documentos simples, como fatura e comprovante de pagamento — *frequência: quando solicitado*.
+- Ler avisos sobre prazo de resposta da empresa — *frequência: conforme o processo avança*.
+
+**Relacionamentos:**
+
+- Mora com o marido, também aposentado, e recorre à filha quando precisa resolver algo mais complicado no celular.
+- Costuma compartilhar problemas com vizinhas e amigas do bairro, que também já passaram por situações parecidas com empresas de telefonia e bancos.
+
+**Expectativas:**
+
+- Espera uma página inicial clara, com acesso rápido ao serviço de reclamação.
+- Espera mensagens simples sobre o que aconteceu e o que ela deve fazer em seguida.
+- Espera conseguir resolver boa parte do processo pelo celular.
+
+**Requisitos:**
+
+- Interface com linguagem simples e botões bem destacados.
+- Notificações proativas sobre andamento da reclamação.
+- Consulta de protocolo sem excesso de etapas ou campos obrigatórios.
+
+!!! info "Responsável por este artefato"
+    A **Persona Primária Maria Helena Costa** foi criada por **Heloisa Laura Santos da Silva** com base nos dados da análise documental, que indicam maior concentração de atendimentos em faixas etárias mais altas, predominância de reclamações ou denúncias e participação feminina mais elevada.
+
 ---
 
 ### 2.2. Persona Primária: Ivone, a Iniciante Vulnerável
@@ -126,12 +245,69 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ---
 
-### 2.3. Persona Secundária: [Nome Completo da Persona]
+### 2.4. Persona Secundária: Gustavo, o Microempreendedor
 
 <p align="center">
-  <img src="../images/personas/persona3.png" width="180" alt="Foto de [Nome da Persona]"
+  <img src="../images/persona_gustavo.jpeg" width="180" alt="Foto de Gustavo Santos"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #2e7d32; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-  <br><em>Figura 3 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
+  <br><em>Figura 4 — Gustavo Santos. Fonte: Elaborado pelos autores (2026).</em>
+</p>
+
+| Atributo | Descrição |
+| :--- | :--- |
+| **Nome** | Gustavo Santos |
+| **Idade** | 20 anos |
+| **Gênero** | Masculino |
+| **Localidade** | Brasília, DF — Guará |
+| **Escolaridade** | Ensino Superior Incompleto (Gastronomia) |
+| **Ocupação** | Proprietário de Panificadora Artesanal |
+| **Status** | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Persona Secundária</span> |
+
+**Objetivos:**
+
+- **Pessoal:** Manter a conformidade legal da sua empresa sem que isso tome o tempo dedicado à produção e às vendas.
+- **Prático:** Responder a notificações de reclamações e participar de mediações de forma remota, evitando deslocamentos até o centro da cidade.
+- **De gestão:** Ter um canal claro para entender quais normas de consumo sua padaria precisa seguir, evitando multas por desconhecimento.
+
+**Habilidades:**
+
+- **Multitarefa Administrativa:** Gerencia estoque, funcionários e finanças simultaneamente via smartphone e computador desktop da padaria.
+- **Leigo no Domínio Jurídico:** Sente-se intimidado por termos como "manifestação do fornecedor" ou "autos do processo". Prefere uma linguagem direta e orientada à ação.
+- **Pragmatismo Digital:** Valoriza ferramentas que permitem resolver problemas em "janelas de 15 minutos" entre uma tarefa e outra da produção.
+
+**Tarefas:**
+
+- Consultar se existem novas pendências administrativas contra sua empresa — *frequência: eventual*
+- Upload de documentos de defesa e comprovantes de resolução — *frequência: conforme demanda*
+- Participar de audiências virtuais de conciliação — *frequência: agendada*
+
+**Relacionamentos:**
+- Responsável direto pela reputação de um negócio local e familiar. Interage com a comunidade do Guará e preza por resolver conflitos de forma amigável para não perder clientes.
+- Busca o equilíbrio entre ser um "empresário moderno" e cumprir as exigências burocráticas tradicionais.
+
+**Expectativas:**
+
+- Espera um "Portal do Lojista" ou área dedicada ao fornecedor que seja visualmente distinta da área do consumidor.
+- Espera que o sistema o guie sobre "o que fazer agora" quando recebe uma notificação, em vez de apenas exibir um texto jurídico longo.
+- Espera que as reuniões de conciliação funcionem sem a necessidade de instalar novos softwares, rodando direto no navegador.
+
+**Requisitos:**
+
+- **Dashboard de Pendências:** Uma visão clara de reclamações ativas vs. resolvidas.
+- **Notificações em Tempo Real:** Alertas via e-mail ou WhatsApp para não perder prazos administrativos críticos.
+- **Simplificação Terminológica:** Uso de linguagem acessível que traduza os termos do CDC para a realidade do pequeno lojista.
+
+!!! info "Responsável por este artefato"
+    A **Persona Secundária Gustavo** foi criada por **Pedro Augusto Moretti Moreira**, baseada na entrevista semiestruturada realizada com o perfil de proprietário de estabelecimento comercial.
+
+---
+
+### 2.5. Persona Secundária: [Nome Completo da Persona] (Modelo)
+
+<p align="center">
+  <img src="../images/persona3.png" width="180" alt="Foto de [Nome da Persona]"
+       style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #2e7d32; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <br><em>Figura 5 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
 </p>
 
 | Atributo | Descrição |
@@ -169,7 +345,21 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ---
 
-### Antipersona — [Nome Completo] *(opcional)*
+### Antipersona — Hugo Rocha
+
+| Atributo | Descrição |
+| :--- | :--- |
+| **Nome** | Hugo Rocha |
+| **Idade** | 8 anos |
+| **Ocupação** | Estudante do Fundamental |
+| **Status** | <span style="background-color: #b71c1c; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Antipersona</span> |
+
+**Por que não é o público-alvo:**
+- Hugo não possui capacidade civil plena para registrar reclamações de forma autônoma e não possui transações comerciais de alto valor que exijam a intervenção direta do PROCON-DF.
+
+---
+
+### Antipersona — [Nome Completo] (Modelo)
 
 | Atributo | Descrição |
 | :--- | :--- |
@@ -185,7 +375,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ## Agradecimentos à IA
 
-Agradecimento ao **Nanobanana** pela ajuda na criação e estruturação das personas deste documento.
+Agradecimento ao **Gemini 3 Flash** pela ajuda na criação e estruturação das personas deste documento.
 
 ---
 
@@ -201,3 +391,6 @@ Agradecimento ao **Nanobanana** pela ajuda na criação e estruturação das per
 | :--- | :--- | :--- | :--- | :--- |
 | `1.1` | 03/05/2026 | Criação da persona Ivone (Etapa 2). | Pedro Macedo | A definir |
 | `1.0` | 30/04/2026 | Criação do documento com Persona Primária Laura, baseada nos dados reais do Grupo de Foco (Etapa 2). | Heitor Macedo Ricardo | A definir |
+| `1.0` | 30/04/2026 | Criação do documento com Persona Primária Laura, baseada nos dados reais do Grupo de Foco (Etapa 2). | Heitor Macedo Ricardo | Pedro Augusto Moretti |
+| `1.1` | 01/05/2026 | Adição e expansão profunda das personas Lucas e Gustavo e da Antipersona Hugo com base nos dados consolidados. | Pedro Augusto Moretti Moreira | Heloisa Silva |
+| `1.2` | 03/05/2026 | Inclusão da Persona Primária Maria Helena com base na análise documental. | Heloisa Silva | Heitor Macedo |

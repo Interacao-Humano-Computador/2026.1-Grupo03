@@ -2,82 +2,81 @@
 
 ## Introdução
 
-O Perfil de Usuário é uma descrição detalhada das características dos usuários cujos objetivos devem ser apoiados pelo sistema sendo projetado. Segundo Barbosa e Silva (2021), conhecer o perfil de usuário é uma das atividades iniciais e mais fundamentais do processo de design centrado no ser humano, pois permite que a equipe compreenda **quem são as pessoas** que utilizarão o sistema, como elas se comportam, quais são suas necessidades, experiências e expectativas. Sem esse entendimento, corre-se o risco de projetar interfaces que atendem às suposições dos desenvolvedores, mas não às reais demandas dos usuários.
+O Perfil de Usuário é uma descrição detalhada das características dos usuários cujos objetivos devem ser apoiados pelo sistema sendo projetado. Segundo Barbosa e Silva (2021), conhecer o perfil de usuário permite que a equipe compreenda **quem são as pessoas** que utilizarão o sistema, como elas se comportam, quais são suas necessidades, experiências e expectativas.
 
-No contexto deste projeto, o sistema avaliado é o **site do PROCON-DF** — plataforma governamental destinada ao registro de reclamações e à defesa dos direitos do consumidor no Distrito Federal. Compreender o perfil de quem acessa esse serviço é essencial para orientar decisões de arquitetura de informação, navegação e linguagem visual, garantindo que o novo sistema seja, de fato, útil e acessível à população que mais dele necessita. Os atributos coletados basearam-se na seção **7.2 — "Que Dados Coletar?"** (p. 123) de Barbosa e Silva (2021).
+No contexto deste projeto, o sistema avaliado é o **site do PROCON-DF**. Compreender o perfil de quem acessa esse serviço — seja para reclamar ou para responder a uma pendência — é essencial para garantir que o novo sistema seja útil e acessível tanto para o cidadão quanto para o setor produtivo.
 
 ---
 
 ## Técnicas Utilizadas
 
-### Grupo de Foco
+### Grupo de Foco (Consumidores)
 
 **Descrição:**
-O Grupo de Foco é uma técnica de elicitação qualitativa que reúne, de forma presencial ou remota, um conjunto de usuários representativos para discutir, em dinâmica de grupo mediada por um moderador, suas percepções, atitudes, frustrações e expectativas em relação a um produto ou sistema. Conforme Barbosa e Silva (2021, seção 7.5.3), a técnica é especialmente eficaz para revelar aspectos subjetivos — como sentimentos de confusão, desconfiança ou satisfação — que dificilmente seriam capturados por questionários estruturados, pois emerge do próprio debate entre os participantes.
+Técnica de elicitação qualitativa que reúne usuários representativos para discutir percepções e frustrações em relação a um produto.
 
 **Justificativa:**
-A técnica foi escolhida porque o objetivo central desta etapa era compreender a *jornada do consumidor* ao tentar utilizar o site do PROCON-DF, incluindo as barreiras emocionais e de usabilidade que o desviam para alternativas como o "Reclame Aqui". O ambiente de discussão em grupo permite que participantes complementem e confirmem as experiências uns dos outros, produzindo dados ricos e contextualizados sobre atitudes e frustrações — dimensões que a seção 7.5.3 de Barbosa e Silva (2021) aponta como o ponto forte da técnica.
+Eficaz para revelar a jornada emocional do consumidor e as barreiras que o levam a desistir do sistema oficial.
 
 **Aplicação:**
-A sessão foi realizada **presencialmente em 30/04/2026**, com a participação de três usuários representativos do perfil identificado. A condução foi realizada pelos membros **Heitor Macedo Ricardo** (moderador principal), **Pedro Moretti** e **Heloisa** (co-moderadores). A sessão foi gravada mediante consentimento formal registrado no **Termo de Consentimento Livre e Esclarecido (TCLE)** assinado por todos os participantes. O roteiro de condução guiou os tópicos de discussão: navegação atual no site, percepção de usabilidade, jornada de registro de reclamação e expectativas para o sistema ideal. Os resultados foram consolidados no **Relatório de Grupo de Foco** produzido pela equipe.
+Realizada presencialmente em **30/04/2026** com três participantes, mediada por Heitor Macedo, Pedro Moretti e Heloisa. Foco em usabilidade e jornada de reclamação.
 
-| Artefato | Link |
-| :--- | :--- |
-| 📊 Relatório do Grupo de Foco | [Abrir Relatório](../atas/Relatório%20de%20Grupo%20de%20Foco_%20Análise%20de%20Usabilidade%20e%20Percepção%20do%20Site%20Procon.pdf){: target="_blank" } |
-| 🎥 Gravação da sessão | [🔗 Assistir no YouTube](https://youtu.be/rNRFP-oBICI){: target="_blank" } |
+### Entrevistas (Fornecedores)
 
----
-
-### Questionário de Dados Demográficos *(coleta basal prévia)*
+#### Entrevista realizada por Pedro Augusto Moretti Moreira
 
 **Descrição:**
-Antes da sessão do Grupo de Foco, foi aplicado um questionário estruturado a fim de levantar os dados demográficos e de perfil tecnológico dos participantes. Trata-se de um instrumento de coleta quantitativa, de preenchimento individual e autoadministrado.
+A técnica de entrevista semiestruturada permite um diálogo guiado onde o pesquisador explora tópicos específicos, mas tem flexibilidade para aprofundar em pontos levantados pelo entrevistado.
 
 **Justificativa:**
-Conforme orientado pela seção **7.2 — "Que Dados Coletar?"** de Barbosa e Silva (2021), a coleta dos atributos basais do perfil de usuário — como faixa etária, escolaridade, experiência com tecnologia e frequência de uso — é uma etapa prévia e complementar às técnicas qualitativas. Os questionários foram aplicados unicamente para essa finalidade, alimentando as tabelas de caracterização do perfil, enquanto a elicitação de requisitos e contexto de uso foi conduzida pelo Grupo de Foco.
+Foi escolhida para coletar a perspectiva do **fornecedor/empresário**, um usuário que interage com o PROCON-DF por obrigatoriedade legal e cujas necessidades de interface (como clareza em notificações e resolução de pendências) diferem das do consumidor.
 
 **Aplicação:**
-Os questionários foram respondidos individualmente pelos três participantes (Eduardo Pizol, Lucas Gama e Pedro Druck) antes da realização da sessão presencial do Grupo de Foco. O instrumento abordou campos de: faixa etária, gênero, escolaridade, ocupação, dispositivos utilizados, frequência de acesso à internet e experiência prévia com o site do PROCON-DF.
+Entrevista realizada presencialmente por Pedro Augusto Moretti Moreira em 30 de abril 2026 com o proprietário de uma panificadora. O roteiro focou em literacia digital, frequência de uso e percepção de utilidade do portal para o setor empresarial.
 
----
-
-### Entrevistas *(planejado)*
+### Entrevista (Consumidor)
 
 **Descrição:**
-<!-- Descreva brevemente a técnica de entrevista e sua modalidade (estruturada, semiestruturada ou não estruturada). -->
+A técnica de entrevista semiestruturada permite um diálogo guiado onde o pesquisador explora tópicos específicos, mas tem flexibilidade para aprofundar em pontos levantados pelo entrevistado.
 
 **Justificativa:**
-<!-- Explique por que a entrevista foi escolhida para aprofundar aspectos específicos do perfil de usuário neste projeto. -->
+Foi escolhida para coletar a perspectiva do **consumidor**, um usuário que interage com o PROCON-DF de forma pontual e cuja experiência com o portal é marcada por dificuldades de navegação e desorientação nos fluxos de reclamação.
 
 **Aplicação:**
-<!-- Descreva como as entrevistas serão conduzidas: número de participantes, roteiro, duração estimada e período de coleta. -->
+Entrevista realizada presencialmente por Heitor Macedo Ricardo em 30 de abril de 2026 com um consumidor jovem, estudante universitário. O roteiro focou em literacia digital, experiência prévia com portais governamentais e percepção de usabilidade do sistema do PROCON-DF.
 
----
+### Questionário de Dados Demográficos
 
-### Análise Documental *(planejado)*
+**Justificativa:**
+Coleta de atributos basais (idade, escolaridade, experiência tecnológica) conforme Barbosa e Silva (2021). Aplicado a todos os participantes antes das atividades qualitativas.
+
+### Análise de documentos
 
 **Descrição:**
-<!-- Descreva brevemente a técnica de análise documental, indicando quais tipos de documentos serão analisados (normas, manuais, registros de suporte etc.). -->
-
-**Justificativa:**
-<!-- Explique por que a análise de documentos é relevante para compreender o contexto de uso e os requisitos do sistema PROCON-DF. -->
-
-**Aplicação:**
-<!-- Descreva quais documentos serão coletados, como serão analisados e quais categorias de informação serão extraídas. -->
+Técnica de investigação indireta baseada no exame de fontes documentais e bases públicas para identificar padrões de comportamento, demandas recorrentes e características gerais do público-alvo. Neste projeto, a análise foi utilizada para complementar os dados coletados em campo com dados secundários do [Sindec Nacional](#ref-sindec) (painel de atendimentos) e do [Relatório Técnico de Redefinição do Perfil do Consumo](#ref-sebrae) (SEBRAE/PR, 2025), conforme detalhado nas referências bibliográficas.
 
 ---
 
 ## Material de Apoio
 
-Os documentos utilizados na condução e registro da pesquisa estão disponíveis para consulta nos links abaixo:
+| Documento                                    | Link                                                                                                                                                      |
+| :------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 📄 Termo de Consentimento (TCLE)             | [Abrir TCLE](../atas/TCLE.pdf)                                                                                                                            |
+| 📋 Roteiro de Condução do Grupo de Foco      | [Abrir Roteiro](<../atas/Roteiro%20de%20Condução_%20Grupo%20de%20Foco%20(PROCON-DF)%20(1).pdf>){: target="\_blank" }                                      |
+| 📋 Roteiro de Entrevista (Empresário)        | [Abrir Roteiro](../atas/roteiro_entrevista_empresario.pdf){:target="\_blank"}                                                                             |
+| 📋 Questionário de Dados do Usuário (modelo) | [Abrir Questionário](../atas/Questionário%20de%20Levantamento%20do%20Perfil%20de%20Usuário.pdf){: target="\_blank" }                                      |
 
-| Documento | Link |
-| :--- | :--- |
-| 📄 Termo de Consentimento Livre e Esclarecido (TCLE) | [Abrir TCLE](../atas/TCLE.pdf){: target="_blank" } |
-| 📋 Roteiro de Condução do Grupo de Foco | [Abrir Roteiro](../atas/Roteiro%20de%20Condução_%20Grupo%20de%20Foco%20(PROCON-DF)%20(1).pdf){: target="_blank" } |
-| 📝 Questionário de Dados do Usuário (modelo) | [Abrir Questionário](../atas/Questionário%20de%20Levantamento%20do%20Perfil%20de%20Usuário.pdf){: target="_blank" } |
-| 📊 Relatório do Grupo de Foco | [Abrir Relatório](../atas/Relatório%20de%20Grupo%20de%20Foco_%20Análise%20de%20Usabilidade%20e%20Percepção%20do%20Site%20Procon.pdf){: target="_blank" } |
-| 🎥 Gravação do Grupo de Foco | [🔗 Assistir no YouTube](https://youtu.be/rNRFP-oBICI){: target="_blank" } |
+## Relatórios e Evidências
+
+| Documento                                    | Link                                                                                                                                                      |
+| :------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 📊 Relatório do Grupo de Foco                | [Abrir Relatório](../atas/Relatório%20de%20Grupo%20de%20Foco_%20Análise%20de%20Usabilidade%20e%20Percepção%20do%20Site%20Procon.pdf){: target="\_blank" } |
+| 📊 Relatório da Entrevista ao Empresário     | [Abrir Relatório](../atas/relatorio_entrevista_empresario.pdf){: target="\_blank" }                                                                       |
+| 🎥 Gravação do Grupo de Foco                 | [🔗 Assistir no YouTube](https://youtu.be/rNRFP-oBICI){: target="\_blank" }                                                                               |
+| 📊 Relatório da Entrevista ao Consumidor     | [Abrir Relatório](../atas/relatorio_entrevista_consumidor.pdf){: target="\_blank" }                                                                       |
+| 🎥 Gravação da Entrevista ao Consumidor      | [🔗 Assistir no YouTube](https://youtu.be/NpBs0QKfJIM?si=OOBUVLvbTOjGrg40){: target="\_blank" }                                                          |
+| 📊 Relatório de Análise Documental           | [Abrir Relatório](../atas/analise_documental_procon_df_abnt%20(1).pdf){: target="\_blank" }                                                               |
+| 🎥 Gravação da Entrevista com Empresário                 | [🔗 Assistir no YouTube](https://youtu.be/yPNqYUdOaGE){: target="\_blank" }                                                                               |
 
 ---
 
@@ -85,59 +84,193 @@ Os documentos utilizados na condução e registro da pesquisa estão disponívei
 
 ### Dados Demográficos
 
-| Atributo | Resultado Encontrado |
-| :--- | :--- |
-| Faixa etária predominante | 18 a 25 anos (100% dos participantes) |
-| Gênero | Masculino (100% da amostra) |
-| Escolaridade | Ensino Superior — Graduação em andamento |
-| Localidade | Distrito Federal |
-| Ocupação | Estudantes universitários |
+| Atributo     | Resultado Encontrado                             |
+| :----------- | :----------------------------------------------- |
+| Faixa etária | 18 a 25 anos                                     |
+| Gênero       | Masculino (predominante na amostra atual)        |
+| Escolaridade | Ensino Superior (completo ou em andamento)       |
+| Localidade   | Distrito Federal                                 |
+| Ocupação     | Estudantes universitários e Pequenos Empresários |
 
 ### Experiência com Tecnologia
 
-| Atributo | Resultado Encontrado |
-| :--- | :--- |
-| Nível de experiência com computadores | Alto — perfil explorador; aprendem por tentativa e erro ("aprendem fazendo") |
-| Frequência de uso da internet | Diariamente, de forma intensiva |
-| Dispositivos mais utilizados | **Smartphone** (dispositivo principal e preferencial para navegação) |
-| Familiaridade com o sistema avaliado (PROCON-DF) | Média — leigos no domínio de direitos do consumidor e com experiência prévia com o site |
+| Atributo                    | Resultado Encontrado                                                                                               |
+| :-------------------------- | :----------------------------------------------------------------------------------------------------------------- |
+| Nível de experiência        | Alto — perfil explorador, mas crítico quanto à qualidade de sites governamentais                                   |
+| Dispositivos                | **Smartphone** (preferencial consumidor) e **Computador** (utilizado por empresários para tarefas administrativas) |
+| Familiaridade com o sistema | Média/Baixa — Acesso esporádico (anual para fornecedores; pontual para consumidores)                               |
 
 ### Atitudes e Objetivos
 
-| Atributo | Resultado Encontrado |
-| :--- | :--- |
-| Principal objetivo ao acessar o sistema | Registrar uma reclamação formal contra uma empresa de forma rápida e eficaz |
-| Motivações de uso | Evitar consequências financeiras graves decorrentes de conflitos de consumo; obter resolução ágil de problemas com fornecedores |
-| Dificuldades relatadas | O site atual é percebido como **"confuso"**, **"poluído"** e **"desorientador"**; falta clareza nas instruções, levando o usuário a querer buscar no Google *"como usar o site do PROCON"*; a arquitetura de informação caótica empurra o consumidor para alternativas como o *"Reclame Aqui"* ou gera frustração com o sistema GOV |
-| Expectativas em relação ao sistema | **Interface limpa** (*Clean Design*); **Call to Action (CTA)** destacado com o botão *"Registrar Reclamação"* visível logo na entrada; fluxo guiado passo a passo; sistema **Mobile-First**; transparência logo na entrada sobre o que o PROCON pode ou não resolver |
+| Atributo               | Consumidor (Perfil Primário)    | Fornecedor (Perfil Secundário)                             |
+| :--------------------- | :------------------------------ | :--------------------------------------------------------- |
+| **Objetivo Principal** | Registrar reclamação rápida.    | Resolver pendências e tirar dúvidas.                       |
+| **Motivação**          | Evitar prejuízo financeiro.     | Manter a regularidade do negócio.                          |
+| **Percepção do Site**  | "Poluído" e "Confuso".          | "Não foi feito para mim"; focado em notícias irrelevantes. |
+| **Dificuldade**        | Perde-se nos menus de registro. | Falta de clareza nas informações para o empresário.        |
+
+---
+
+### Resultados obtidos com a análise documental
+
+#### Análise realizada por Heloisa Silva
+
+Os dados secundários de 2025, obtidos a partir do Sindec Nacional e do relatório técnico do SEBRAE/PR, indicam os seguintes resultados:
+
+##### Tipo de atendimento (2025)
+
+| Tipo de atendimento      | Percentual |
+| :----------------------- | :--------- |
+| Reclamação ou denúncia   | 71,3%      |
+| Consulta                 | 28,7%      |
+
+**Fonte:** SINDEC - Atendimentos
+**Autor:** Heloisa Silva
+
+##### Principais assuntos atendidos
+
+| Assunto               | Percentual |
+| :-------------------- | :--------- |
+| Assuntos financeiros  | 47,62%     |
+| Produtos              | 13,53%     |
+| Serviços privados     | 13,30%     |
+| Serviços essenciais   | 10,75%     |
+| Telecomunicações      | 10,47%     |
+| Outros                | 4,33%      |
+
+**Fonte:** SINDEC - Atendimentos
+**Autor:** Heloisa Silva
+
+##### Distribuição por gênero
+
+| Gênero    | Percentual |
+| :-------- | :--------- |
+| Feminino  | 54,68%     |
+| Masculino | 45,32%     |
+
+**Fonte:** SINDEC - Atendimentos
+**Autor:** Heloisa Silva
+
+##### Faixa etária predominante
+
+| Faixa etária     | Percentual |
+| :--------------- | :--------- |
+| 61 a 70 anos     | 25,23%     |
+| Mais de 70 anos  | 19,39%     |
+| 51 a 60 anos     | 18,86%     |
+| 41 a 50 anos     | 17,16%     |
+| 31 a 40 anos     | 11,91%     |
+| 21 a 30 anos     | 6,60%      |
+| Até 20 anos      | 0,85%      |
+
+**Fonte:** SINDEC - Atendimentos
+**Autor:** Heloisa Silva
+
+##### Perfis geracionais por idade (base 2025)
+
+Com base no [Relatório Técnico de Redefinição do Perfil do Consumo](#ref-sebrae), os perfis de usuário por geração podem ser descritos da seguinte forma:
+
+| Geração | Ano de nascimento | Idade em 2025 | Perfil predominante |
+| :------ | :---------------- | :------------ | :------------------ |
+| Geração Silenciosa | 1928-1945 | 80 a 97 anos | Valorização de estabilidade, lealdade institucional, foco familiar e menor propensão a risco. |
+| Baby Boomers | 1946-1964 | 61 a 79 anos | Valorização de trabalho, ascensão social e aquisição de bens; presença relevante em decisões de consumo. |
+| Geração X | 1965-1980 | 45 a 60 anos | Perfil pragmático e independente, equilibrando valores tradicionais e modernidade. |
+| Millennials (Geração Y) | 1981-1996 | 29 a 44 anos | Maior valorização de experiências, diversidade e propósito; maior cobrança por práticas éticas e sustentáveis. |
+| Geração Z | 1997-2012 | 13 a 28 anos | Alta fluência digital, imediatismo, busca por autenticidade, inclusão e engajamento direto com marcas. |
+| Geração Alpha | 2013 em diante | Até 12 anos | Geração em formação, com alta exposição tecnológica; não incluída em análise aprofundada de consumo. |
+
+**Fonte:** Relatório Técnico de Redefinição do Perfil do Consumo - Marco 2025
+**Autor:** Heloisa Silva
+
+Os dados etários levantados nesta análise documental indicam maior concentração em públicos de 41 anos ou mais, com destaque para 61 a 70 anos e mais de 70 anos, o que reforça a relevância dos perfis Baby Boomers e Geração Silenciosa no contexto observado.
+
+##### População, interesses e hábitos por geração
+
+Com base no mesmo [Relatório Técnico de Redefinição do Perfil do Consumo](#ref-sebrae), a distribuição da população, interesses e hábitos de consumo por geração pode ser sintetizada da seguinte forma:
+
+| Geração | % da população | Interesses e hábitos | Destaques |
+| :------ | :------------- | :------------------- | :-------- |
+| Geração Silenciosa | < 10% | Valorizam estabilidade e segurança; mantêm hábitos tradicionais e familiares. | Adesão lenta à tecnologia, usada principalmente para comunicação com familiares. |
+| Baby Boomers | 14% | Foco em viagens, gastronomia e saúde; priorizam qualidade e conforto nos produtos. | Maior poder aquisitivo; preferem compras em supermercados tradicionais com menor volume e alta frequência. |
+| Geração X | 20% | Buscam equilíbrio entre trabalho e vida pessoal; priorizam durabilidade e custo-benefício. | Investem em educação, saúde e produtos que atendam necessidades financeiras e familiares. |
+| Millennials | 35% | Valorizam experiências sobre bens materiais; decisões guiadas por propósito e sustentabilidade. | Líderes no uso de e-commerce e serviços por assinatura; conectados e conscientes com sustentabilidade. |
+| Geração Z | 25% | Valorizam diversidade, autenticidade e conexão digital; buscam marcas alinhadas a seus valores. | Usam smartphones diariamente; redes sociais são a principal fonte de informação. |
+
+**Fonte:** Relatório Técnico de Redefinição do Perfil do Consumo - Marco 2025
+**Autor:** Heloisa Silva
+
+Essas informações ajudam a interpretar os dados do levantamento do PROCON-DF, pois indicam que o público atendido pode variar bastante em relação à familiaridade com tecnologia, hábitos de consumo e expectativas de atendimento conforme a geração predominante.
+
+Ao cruzar esses perfis com a distribuição dos atendimentos observada na análise dos dados do SINDEC, nota-se que a predominância de **reclamações ou denúncias (71,3%)** reforça a presença de um público que procura o PROCON-DF principalmente para resolver conflitos e obter encaminhamento objetivo, o que é especialmente coerente com gerações mais maduras, como **Baby Boomers** e **Geração Silenciosa**, que tendem a valorizar estabilidade, segurança e suporte direto. Já os **28,7% de consultas** indicam uma parcela relevante de usuários em busca de informação e orientação, comportamento que pode se aproximar de gerações mais digitalizadas, como **Millennials** e **Geração Z**, embora o acesso ao sistema ainda dependa de uma interface clara e guiada para todos os perfis.
+
+---
+
+#### Análise realizada por Heitor Macedo Ricardo
+
+Esta análise documental foi conduzida com foco na **avaliação da usabilidade e clareza das informações disponibilizadas pelo PROCON-DF ao cidadão**, a partir de documentos públicos extraídos diretamente do site oficial da instituição.
+
+##### Passo 1 — Coleta: O que foi analisado
+
+Foram reunidos os seguintes documentos e páginas do site do PROCON-DF:
+
+- **Página de "Dúvidas Frequentes" (FAQ):** levantamento das perguntas mais comuns dos usuários e das respostas fornecidas pelo órgão.
+- **Cartilhas do Consumidor em PDF:** materiais informativos disponibilizados pelo Procon-DF para orientar os cidadãos sobre seus direitos.
+- **Instruções normativas e tutoriais de "Como abrir sua reclamação":** guias passo a passo para o registro de demandas no sistema.
+- **Termos de Uso e Políticas de Privacidade:** condições exigidas para utilização dos serviços digitais do Procon-DF.
+
+##### Passo 2 — Análise: Como os dados foram extraídos
+
+A leitura dos documentos foi orientada pelas seguintes perguntas analíticas:
+
+**1. Quais são as restrições impostas ao usuário?**
+
+Constatou-se que o sistema exige do cidadão o **número de protocolo da empresa fornecedora** antes de registrar uma reclamação formal no Procon. Essa barreira pré-processual é invisível nos fluxos principais do site e não está claramente explicada na FAQ, gerando confusão nos usuários — especialmente nos jovens universitários participantes do Grupo de Foco, que desconheciam essa exigência.
+
+**2. Qual é o vocabulário (jargão) utilizado?**
+
+Os documentos fazem uso frequente de **terminologia jurídica e administrativa** (ex.: *"demanda"*, *"código de defesa do consumidor"*, *"fornecedor"*, *"protocolo de atendimento"*, *"manifestação"*) que não é acessível ao perfil de usuário jovem e sem formação jurídica. Esse achado é coerente com o que foi observado no Grupo de Foco: os participantes demonstraram não compreender o vocabulário do sistema, o que aumenta a fricção no processo de reclamação.
+
+**3. Qual é a complexidade das tarefas?**
+
+O manual instrucional de como abrir uma reclamação é extenso e fragmentado em múltiplas etapas distribuídas entre diferentes páginas e documentos. Essa complexidade confirma a percepção dos participantes do Grupo de Foco, que descreveram o site como *"poluído"* e *"confuso"*. A profusão de informações irrelevantes (como notícias e avisos institucionais na página inicial) agrava ainda mais a dificuldade de navegação.
+
+**Autor:** Heitor Macedo Ricardo
 
 ---
 
 ## Definição do Perfil de Usuário
 
-> **Perfil Primário:**
-> O perfil primário de usuário do site do PROCON-DF, identificado a partir dos dados coletados via questionários e da sessão de Grupo de Foco, é composto por **jovens universitários do Distrito Federal, entre 18 e 25 anos, do sexo masculino, com alta fluência tecnológica e foco exclusivo no smartphone como dispositivo de acesso**. Trata-se de um usuário que, embora possua domínio pleno do ambiente digital, é **leigo no campo do Direito do Consumidor** e desconhece os trâmites formais de uma reclamação ao PROCON.
+> **Perfil Primário: O Consumidor Jovem**
+> Jovens de 18 a 25 anos, com alta fluência tecnológica, mas leigos em Direito do Consumidor. Buscam uma experiência **Mobile-First**, rápida e guiada, com baixa tolerância a textos longos.
 >
-> Este usuário tem **baixíssima tolerância a textos longos e instruções complexas** — prefere interfaces que o guiem intuitivamente, passo a passo, sem exigir leitura de manuais. Quando confrontado com a atual interface do site do PROCON-DF, percebida como **"poluída"**, **"confusa"** e **"desorientadora"**, o usuário abandona o sistema e recorre a alternativas como o *Reclame Aqui*, gerando um fracasso de adoção da plataforma governamental.
->
-> O **foco do novo sistema deve ser, portanto, Mobile-First**, com design limpo (*Clean Design*), um Call to Action (CTA) proeminente para "Registrar Reclamação" visível logo na página inicial, e um fluxo de cadastro de reclamação guiado e sequencial. A transparência sobre o escopo de atuação do PROCON desde a entrada do sistema também foi apontada como expectativa central por esse perfil.
-
-!!! info "Responsável por este artefato"
-    Este documento foi elaborado por **Heitor Macedo Ricardo**, **Pedro Moretti** e **Heloisa Santos**. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Personas](personas.md) · [Cenários](cenarios.md) · [Análise de Tarefas](analise-tarefas.md).
+> **Perfil Secundário: O Pequeno Empreendedor**
+> Proprietários de estabelecimentos (ex: panificadoras) que acessam o portal de forma esporádica (anual). Diferente do consumidor, este usuário utiliza o **computador** como ferramenta de trabalho, mas sente que o portal o ignora. Para ele, o site é uma barreira burocrática com menus pouco claros e excesso de informações irrelevantes (notícias) que dificultam a resolução de pendências administrativas.
 
 ---
+
+## Referências Bibliográficas
+
+<a id="ref-sindec"></a>
+> 1. BRASIL. Ministério da Justiça e Segurança Pública. **Sindec Nacional - Atendimentos**. Disponível em: <https://sindecnacional.mj.gov.br/report/Atendimentos>. Acesso em: 03 maio 2026.
+
+<a id="ref-sebrae"></a>
+> 2. SEBRAE/PR. **Relatório Técnico: Redefinição do Perfil do Consumo - Marco 2025**. Disponível em: <https://sebraepr.com.br/wp-content/uploads/2025/03/PUB_Relatorio-Tecnico-Redefinicao-do-Perfil-do-Consumo-Marco-2025.pdf?srsltid=AfmBOorrOW0whAqGK8y1jkE7Mz-Qnwfmo-yOcRs4goYUrX1cFyuVKR-C>. Acesso em: 03 maio 2026.
+
+---
+
 ## Agradecimentos à IA
 
-Agradecimento ao Gemini pela ajuda na estruturação e redação do perfil de usuário.
-
-## Referências
-
-> 1. BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021.
+Agradecimento ao **Gemini** pela ajuda na estruturação do deste documento.
 
 ---
 
 ## Histórico de Versão
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
-| :--- | :--- | :--- | :--- | :--- |
-| `1.0` | 30/04/2026 | Criação do documento de Perfil de Usuário com dados reais consolidados do Grupo de Foco e dos questionários demográficos. | Heitor Macedo Ricardo, Heloisa, Pedro Moretti | A definir |
+| Versão | Data       | Descrição                                                          | Autor(es)                             | Revisor |
+| :----- | :--------- | :----------------------------------------------------------------- | :------------------------------------ | :------ |
+| `1.0`  | 30/04/2026 | Criação do documento com dados do Grupo de Foco.                   | Heitor Macedo, Heloisa, Pedro Moretti | Heloisa Silva |
+| `1.1`  | 01/05/2026 | Integração de Perfil de Fornecedor via entrevista semiestruturada. | Pedro Augusto Moretti Moreira         | Heitor Macedo |
+| `1.2`  | 03/05/2026 | Inclusão e consolidação da análise documental e dos perfis geracionais (incluindo distribuição dos atendimentos). E adição da bibliografia | Heloisa Silva | Pedro Moretti |
+| `1.3`  | 03/05/2026 | Adição da entrevista ao consumidor (Heitor Macedo Ricardo), reorganização das tabelas de Material de Apoio e Relatórios, e nova análise documental do PROCON-DF. | Heitor Macedo Ricardo | Heloisa Silva |
+
+---
