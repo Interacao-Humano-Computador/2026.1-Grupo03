@@ -37,6 +37,11 @@ Entrevista realizada presencialmente por Pedro Augusto Moretti Moreira em 30 de 
 **Justificativa:**
 Coleta de atributos basais (idade, escolaridade, experiência tecnológica) conforme Barbosa e Silva (2021). Aplicado a todos os participantes antes das atividades qualitativas.
 
+### Análise de documentos
+
+**Descrição:**
+Técnica de investigação indireta baseada no exame de fontes documentais e bases públicas para identificar padrões de comportamento, demandas recorrentes e características gerais do público-alvo. Neste projeto, a análise foi utilizada para complementar os dados coletados em campo com dados secundários do [Sindec Nacional](#ref-sindec) (painel de atendimentos) e do [Relatório Técnico de Redefinição do Perfil do Consumo](#ref-sebrae) (SEBRAE/PR, 2025), conforme detalhado nas referências bibliográficas.
+
 ---
 
 ## Material de Apoio
@@ -84,6 +89,98 @@ Coleta de atributos basais (idade, escolaridade, experiência tecnológica) conf
 
 ---
 
+### Resultados obtidos com a análise documental
+
+Os dados secundários de 2025, obtidos a partir do Sindec Nacional e do relatório técnico do SEBRAE/PR, indicam os seguintes resultados:
+
+#### Tipo de atendimento (2025)
+
+| Tipo de atendimento      | Percentual |
+| :----------------------- | :--------- |
+| Reclamação ou denúncia   | 71,3%      |
+| Consulta                 | 28,7%      |
+
+<div align="center"><strong>Fonte:</strong> SINDEC - Atendimentos</div>
+<div align="center"><strong>Autor:</strong> Heloisa Silva</div>
+
+#### Principais assuntos atendidos
+
+| Assunto               | Percentual |
+| :-------------------- | :--------- |
+| Assuntos financeiros  | 47,62%     |
+| Produtos              | 13,53%     |
+| Serviços privados     | 13,30%     |
+| Serviços essenciais   | 10,75%     |
+| Telecomunicações      | 10,47%     |
+| Outros                | 4,33%      |
+
+<div align="center"><strong>Fonte:</strong> SINDEC - Atendimentos</div>
+<div align="center"><strong>Autor:</strong> Heloisa Silva</div>
+
+#### Distribuição por gênero
+
+| Gênero    | Percentual |
+| :-------- | :--------- |
+| Feminino  | 54,68%     |
+| Masculino | 45,32%     |
+
+<div align="center"><strong>Fonte:</strong> SINDEC - Atendimentos</div>
+<div align="center"><strong>Autor:</strong> Heloisa Silva</div>
+
+#### Faixa etária predominante
+
+| Faixa etária     | Percentual |
+| :--------------- | :--------- |
+| 61 a 70 anos     | 25,23%     |
+| Mais de 70 anos  | 19,39%     |
+| 51 a 60 anos     | 18,86%     |
+| 41 a 50 anos     | 17,16%     |
+| 31 a 40 anos     | 11,91%     |
+| 21 a 30 anos     | 6,60%      |
+| Até 20 anos      | 0,85%      |
+
+<div align="center"><strong>Fonte:</strong> SINDEC - Atendimentos</div>
+<div align="center"><strong>Autor:</strong> Heloisa Silva</div>
+
+#### Perfis geracionais por idade (base 2025)
+
+Com base no [Relatório Técnico de Redefinição do Perfil do Consumo](#ref-sebrae), os perfis de usuário por geração podem ser descritos da seguinte forma:
+
+| Geração | Ano de nascimento | Idade em 2025 | Perfil predominante |
+| :------ | :---------------- | :------------ | :------------------ |
+| Geração Silenciosa | 1928-1945 | 80 a 97 anos | Valorização de estabilidade, lealdade institucional, foco familiar e menor propensão a risco. |
+| Baby Boomers | 1946-1964 | 61 a 79 anos | Valorização de trabalho, ascensão social e aquisição de bens; presença relevante em decisões de consumo. |
+| Geração X | 1965-1980 | 45 a 60 anos | Perfil pragmático e independente, equilibrando valores tradicionais e modernidade. |
+| Millennials (Geração Y) | 1981-1996 | 29 a 44 anos | Maior valorização de experiências, diversidade e propósito; maior cobrança por práticas éticas e sustentáveis. |
+| Geração Z | 1997-2012 | 13 a 28 anos | Alta fluência digital, imediatismo, busca por autenticidade, inclusão e engajamento direto com marcas. |
+| Geração Alpha | 2013 em diante | Até 12 anos | Geração em formação, com alta exposição tecnológica; não incluída em análise aprofundada de consumo. |
+
+<div align="center"><strong>Fonte:</strong> Relatório Técnico de Redefinição do Perfil do Consumo - Marco 2025</div>
+<div align="center"><strong>Autor:</strong> Heloisa Silva</div>
+
+Os dados etários levantados nesta análise documental indicam maior concentração em públicos de 41 anos ou mais, com destaque para 61 a 70 anos e mais de 70 anos, o que reforça a relevância dos perfis Baby Boomers e Geração Silenciosa no contexto observado.
+
+#### População, interesses e hábitos por geração
+
+Com base no mesmo [Relatório Técnico de Redefinição do Perfil do Consumo](#ref-sebrae), a distribuição da população, interesses e hábitos de consumo por geração pode ser sintetizada da seguinte forma:
+
+| Geração | % da população | Interesses e hábitos | Destaques |
+| :------ | :------------- | :------------------- | :-------- |
+| Geração Silenciosa | < 10% | Valorizam estabilidade e segurança; mantêm hábitos tradicionais e familiares. | Adesão lenta à tecnologia, usada principalmente para comunicação com familiares. |
+| Baby Boomers | 14% | Foco em viagens, gastronomia e saúde; priorizam qualidade e conforto nos produtos. | Maior poder aquisitivo; preferem compras em supermercados tradicionais com menor volume e alta frequência. |
+| Geração X | 20% | Buscam equilíbrio entre trabalho e vida pessoal; priorizam durabilidade e custo-benefício. | Investem em educação, saúde e produtos que atendam necessidades financeiras e familiares. |
+| Millennials | 35% | Valorizam experiências sobre bens materiais; decisões guiadas por propósito e sustentabilidade. | Líderes no uso de e-commerce e serviços por assinatura; conectados e conscientes com sustentabilidade. |
+| Geração Z | 25% | Valorizam diversidade, autenticidade e conexão digital; buscam marcas alinhadas a seus valores. | Usam smartphones diariamente; redes sociais são a principal fonte de informação. |
+
+<div align="center"><strong>Fonte:</strong> Relatório Técnico de Redefinição do Perfil do Consumo - Marco 2025</div>
+<div align="center"><strong> Autor: Heloisa Silva</strong></div>
+
+Essas informações ajudam a interpretar os dados do levantamento do PROCON-DF, pois indicam que o público atendido pode variar bastante em relação à familiaridade com tecnologia, hábitos de consumo e expectativas de atendimento conforme a geração predominante.
+
+Ao cruzar esses perfis com a distribuição dos atendimentos observada na análise dos dados do SINDEC, nota-se que a predominância de **reclamações ou denúncias (71,3%)** reforça a presença de um público que procura o PROCON-DF principalmente para resolver conflitos e obter encaminhamento objetivo, o que é especialmente coerente com gerações mais maduras, como **Baby Boomers** e **Geração Silenciosa**, que tendem a valorizar estabilidade, segurança e suporte direto. Já os **28,7% de consultas** indicam uma parcela relevante de usuários em busca de informação e orientação, comportamento que pode se aproximar de gerações mais digitalizadas, como **Millennials** e **Geração Z**, embora o acesso ao sistema ainda dependa de uma interface clara e guiada para todos os perfis.
+
+---
+
 ## Definição do Perfil de Usuário
 
 > **Perfil Primário: O Consumidor Jovem**
@@ -94,12 +191,23 @@ Coleta de atributos basais (idade, escolaridade, experiência tecnológica) conf
 
 ---
 
+## Referências Bibliográficas
+
+<a id="ref-sindec"></a>
+- BRASIL. Ministério da Justiça e Segurança Pública. **Sindec Nacional - Atendimentos**. Disponível em: <https://sindecnacional.mj.gov.br/report/Atendimentos>. Acesso em: 03 maio 2026.
+
+<a id="ref-sebrae"></a>
+- SEBRAE/PR. **Relatório Técnico: Redefinição do Perfil do Consumo - Marco 2025**. Disponível em: <https://sebraepr.com.br/wp-content/uploads/2025/03/PUB_Relatorio-Tecnico-Redefinicao-do-Perfil-do-Consumo-Marco-2025.pdf?srsltid=AfmBOorrOW0whAqGK8y1jkE7Mz-Qnwfmo-yOcRs4goYUrX1cFyuVKR-C>. Acesso em: 03 maio 2026.
+
+---
+
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                                          | Autor(es)                             |
-| :----- | :--------- | :----------------------------------------------------------------- | :------------------------------------ |
-| `1.0`  | 30/04/2026 | Criação do documento com dados do Grupo de Foco.                   | Heitor Macedo, Heloisa, Pedro Moretti |
-| `1.1`  | 01/05/2026 | Integração de Perfil de Fornecedor via entrevista semiestruturada. | Pedro Augusto Moretti Moreira         |
+| Versão | Data       | Descrição                                                          | Autor(es)                             | Revisor |
+| :----- | :--------- | :----------------------------------------------------------------- | :------------------------------------ | :------ |
+| `1.0`  | 30/04/2026 | Criação do documento com dados do Grupo de Foco.                   | Heitor Macedo, Heloisa, Pedro Moretti | Heloisa |
+| `1.1`  | 01/05/2026 | Integração de Perfil de Fornecedor via entrevista semiestruturada. | Pedro Augusto Moretti Moreira         | Heloisa |
+| `1.2`  | 03/05/2026 | Inclusão e consolidação da análise documental e dos perfis geracionais (incluindo distribuição dos atendimentos). E adição da bibliografia | Heloisa | — |
 
 ---
 
