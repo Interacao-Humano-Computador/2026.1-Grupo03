@@ -195,6 +195,31 @@ Os principais **operadores de relação** utilizados são:
   <img src="../images/CTT-Heloisa.drawio.png" alt="Árvore CTT — Acompanhar reclamação e responder proposta" width="750">
   <br><em>Figura 4 — Árvore CTT: Validação de documento com OCR. Fonte: Elaborado por Heloisa Laura Santos da Silva com auxílio do Draw.io (2026).</em>
 </p>
+
+**Representação textual hierárquica do CTT:**
+
+```
+☁️ T0 — Validar Documento com OCR
+[Plano: T1 >> T2 >> T3]
+│
+├── ☁️ T1 — Fazer Upload de Documento
+│    [Plano: T1.1 >> T1.2]
+│    ├── 💻 T1.1 — Exibir campo para upload de arquivo
+│    └── 🖱️ T1.2 — Selecionar arquivo e enviar
+│
+├── ☁️ T2 — Enviar Notificação de Recebimento do Arquivo
+│    [Plano: T2.1 | T2.2]
+│    ├── 💻 T2.1 — Notifica aceitação do arquivo
+│    └── 💻 T2.2 — Notifica rejeição do arquivo
+│
+└── ☁️ T3 — Notificar Sobre Validação do Documento
+[Plano: T3.1 >> T3.2 >> (T3.3 | T3.4)]
+├── 💻 T3.1 — Extração de dados e metadados do documento
+├── 💻 T3.2 — Análise do conteúdo com LLM
+├── 💻 T3.3 — Notifica validação do documento
+└── 💻 T3.4 — Notifica não validação
+```
+
 !!! info "Responsável por este artefato"
     Este documento foi elaborado por **Heloisa Laura Santos da Silva**, responsável pela funcionalidade *Validação de documentos com OCR* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
 
