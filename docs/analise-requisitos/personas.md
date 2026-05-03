@@ -14,15 +14,11 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ### 2.1. Persona Primária: Laura, a Universitária Prática
 
-<div class="team-member" align="center" markdown>
-
-![Laura Mendes](images/Personas-Laura.png){ .team-avatar }
-
-<div class="team-name" markdown>Laura Mendes</div>
-
-<div class="bio" markdown>*Universitária Prática — Persona Primária*</div>
-
-</div>
+<p align="center">
+  <img src="../images/Personas-Laura.png" width="180" alt="Foto de Laura Mendes"
+       style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <br><em>Figura 1 — Laura Mendes. Fonte: Elaborado pelos autores (2026).</em>
+</p>
 
 | Atributo | Descrição |
 | :--- | :--- |
@@ -417,17 +413,50 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ---
 
-### Antipersona — [Nome Completo] (Modelo)
+### Antipersona — Seu José, o Consumidor Excluído
+
+<p align="center">
+  <img src="../images/persona_SeuJose.png" width="180" alt="Foto de Seu José"
+       style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #b71c1c; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <br><em>Figura 9 — Seu José. Fonte: Elaborado pelos autores (2026).</em>
+</p>
 
 | Atributo | Descrição |
 | :--- | :--- |
-| **Nome** | [Nome Completo] |
-| **Idade** | [Ex: 15 anos] |
-| **Ocupação** | [Ex: Estudante do Ensino Médio] |
+| **Nome** | José Alves dos Santos ("Seu José") |
+| **Idade** | 71 anos |
+| **Gênero** | Masculino |
+| **Localidade** | Planaltina, DF |
+| **Escolaridade** | Ensino Fundamental incompleto |
+| **Ocupação** | Aposentado (ex-agricultor) |
 | **Status** | <span style="background-color: #b71c1c; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Antipersona</span> |
 
 **Por que não é o público-alvo:**
-- [Ex: Não possui relação de consumo estabelecida com fornecedores, portanto não necessita registrar reclamações no sistema.]
+
+Seu José representa o perfil de consumidor para o qual o sistema **não foi projetado** em sua forma digital atual — e cujas barreiras estruturais o excluem da experiência de uso autônomo. Seu perfil é documentado para orientar o design a **não agravar sua exclusão** e para indicar canais alternativos (presencial, telefone) que devem coexistir com o portal digital.
+
+#### 1. Identidade e Contexto Digital
+
+- **Barreira Digital:** Não possui conta no portal gov.br ou tem dificuldade em realizar validações biométricas e acessos em múltiplos fatores.
+- **Navegação:** Sente-se confuso com a ruptura visual e técnica ao ser redirecionado para sistemas externos como o SPE (`sistemas.df.gov.br`) ou subsites como o da Escola do Procon.
+- **Equipamento:** Possui um smartphone antigo ou acesso limitado à internet, o que torna o processo de "peticionamento eletrônico" frustrante e lento.
+
+#### 2. Letramento e Comunicação
+
+- **Conhecimento Jurídico:** Não compreende termos como "polo passivo", "jurisprudência dominante" ou "destinatário final". Sem exemplos práticos, ele não consegue decidir se seu problema é uma "relação de consumo".
+- **Suporte:** Depende do FAQ (Perguntas Frequentes) para tirar dúvidas simples, mas encontra o serviço inacessível ou instável, ficando sem nenhum roteiro de apoio.
+
+#### 3. Comportamento e Esforço
+
+- **Baixa Tolerância à Complexidade:** Não tem disposição ou tempo para ler de 3 a 5 páginas de normas e exclusões antes de iniciar uma reclamação.
+- **Risco de Desistência:** Ao encontrar as 13 categorias de exclusão apenas no final do processo (ou após leitura densa), ele tende a abandonar o sistema por cansaço cognitivo.
+
+#### 4. Privacidade e Segurança
+
+- **Insegurança com Dados:** Sente-se intimidado ao saber que seus dados pessoais (nome, CPF, endereço) serão compartilhados automaticamente com a empresa reclamada, sem entender as implicações legais disso devido à linguagem técnica da política de privacidade.
+
+!!! info "Responsável por este artefato"
+    A **Antipersona Seu José** foi criada por **Heitor Macedo Ricardo**, com base nos dados do Perfil de Usuário e nas barreiras de acessibilidade digital identificadas na análise documental do portal do PROCON-DF.
 
 ---
 
@@ -452,3 +481,4 @@ Agradecimento ao **Gemini 3 Flash** pela ajuda na criação e estruturação das
 | `1.2` | 03/05/2026 | Inclusão da Persona Primária Maria Helena com base na análise documental. | Heloisa Silva | Heitor Macedo |
 | `1.3` | 03/05/2026 | Criação da persona Ivone (Etapa 2). | Pedro Macedo | Heitor Macedo |
 | `1.4` | 03/05/2026 | Inclusão da Persona Primária Roberto Oliveira. | Mateus Rodrigues Barreto | Pedro Moretti |
+| `1.5` | 03/05/2026 | Padronização da imagem da Persona Laura para o padrão `<p align="center"><img>` das demais personas; adição da Antipersona Seu José com foto, tabela de atributos e 4 seções temáticas. | Heitor Macedo Ricardo | Pedro Moretti |
