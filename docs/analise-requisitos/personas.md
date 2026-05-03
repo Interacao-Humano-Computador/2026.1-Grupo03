@@ -197,49 +197,51 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 
 ---
 
-
----
-
-### 2.4. Persona Primária: [Nome Completo da Persona] (Modelo)
+### 2.2. Persona Primária: Ivone, a Iniciante Vulnerável
 
 <p align="center">
-  <img src="../images/persona2.png" width="180" alt="Foto de [Nome da Persona]"
+  <img src="../images/personas/persona2.png" width="180" alt="Foto de Ivone"
        style="border-radius: 50%; object-fit: cover; width: 180px; height: 180px; border: 4px solid #1976d2; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-  <br><em>Figura 3 — [Nome da Persona]. Fonte: Elaborado pelos autores (2026).</em>
+  <br><em>Figura 2 — Ivone Maria da Silva. Fonte: Elaborado pelos autores (2026).</em>
 </p>
 
 | Atributo | Descrição |
 | :--- | :--- |
-| **Nome** | [Nome Completo] |
-| **Idade** | [Ex: 52 anos] |
-| **Gênero** | [Ex: Masculino] |
-| **Localidade** | [Ex: Brasília, DF] |
-| **Escolaridade** | [Ex: Ensino Médio Completo] |
-| **Ocupação** | [Ex: Comerciante Autônomo] |
+| **Nome** | Ivone Maria da Silva |
+| **Idade** | 56 anos |
+| **Gênero** | Feminino |
+| **Localidade** | Ceilândia, DF |
+| **Escolaridade** | Ensino Fundamental incompleto |
+| **Ocupação** | Auxiliar de Limpeza |
 | **Status** | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Persona Primária</span> |
 
 **Objetivos:**
-- [Objetivo 1]
-- [Objetivo 2]
+- **Resolver conflitos sem medo:** Registrar uma reclamação sobre uma compra não entregue sem sentir que o site é pouco confiável ou "perigoso".
+- **Independência digital:** Conseguir finalizar o processo pelo celular sem depender de terceiros para navegar em uma interface "poluída".
 
 **Habilidades:**
-- [Habilidade 1]
-- [Habilidade 2]
+- **Uso básico de tecnologia:** Utiliza o celular para WhatsApp e chamadas. Associa layouts excessivamente carregados a "spam" ou vírus.
+- **Leitura funcional:** Prefere ícones e botões grandes a blocos densos de texto pequeno.
 
 **Tarefas:**
-- [Tarefa 1 — frequência: frequente/eventual/raro]
-- [Tarefa 2 — frequência: ...]
+- Localizar o ponto de partida para reclamação na home — *frequência: única*.
+- Tirar foto e anexar comprovantes de pagamento — *frequência: eventual*.
+- Diferenciar se seu problema é caso de Procon ou Justiça — *frequência: raro*.
 
 **Relacionamentos:**
-- [Ex: ...]
+- Busca o Procon por recomendação de vizinhos após sofrer um "atendimento de tortura" por parte de uma loja online.
 
 **Expectativas:**
-- [Expectativa 1]
-- [Expectativa 2]
+- Espera encontrar um **botão central e destacado** (estilo Reclame Aqui) para registrar sua queixa imediatamente.
+- Espera que o site a guie passo a passo, eliminando a necessidade de pesquisar no Google "como usar o site do Procon".
 
 **Requisitos:**
-- [Requisito 1]
-- [Requisito 2]
+- **Clean Design:** Redução de banners e notícias que criam uma estética de "spam".
+- **CTA de Alto Contraste:** O botão de reclamação deve ser o elemento mais visível da página.
+- **Foco em Mobile:** A interface deve ser totalmente adaptada para uso em smartphones, evitando menus escondidos.
+
+!!! info "Responsável por este artefato"
+    A **Persona Primária Ivone** foi criada por **Pedro Augusto Macedo Del Castilo**, responsável pela funcionalidade *Botão de Reclamação Rápida*.
 
 ---
 
@@ -387,6 +389,8 @@ Agradecimento ao **Gemini 3 Flash** pela ajuda na criação e estruturação das
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
+| `1.1` | 03/05/2026 | Criação da persona Ivone (Etapa 2). | Pedro Macedo | A definir |
+| `1.0` | 30/04/2026 | Criação do documento com Persona Primária Laura, baseada nos dados reais do Grupo de Foco (Etapa 2). | Heitor Macedo Ricardo | A definir |
 | `1.0` | 30/04/2026 | Criação do documento com Persona Primária Laura, baseada nos dados reais do Grupo de Foco (Etapa 2). | Heitor Macedo Ricardo | Pedro Augusto Moretti |
 | `1.1` | 01/05/2026 | Adição e expansão profunda das personas Lucas e Gustavo e da Antipersona Hugo com base nos dados consolidados. | Pedro Augusto Moretti Moreira | Heloisa Silva |
 | `1.2` | 03/05/2026 | Inclusão da Persona Primária Maria Helena com base na análise documental. | Heloisa Silva | Heitor Macedo |
