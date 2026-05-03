@@ -238,6 +238,44 @@ O manual instrucional de como abrir uma reclamação é extenso e fragmentado em
 
 ---
 
+#### Análise documental complementar realizada por Pedro Augusto Moretti Moreira
+
+**Método:** busca sistemática na internet por documentos públicos, trabalhos acadêmicos e notícias sobre o perfil do usuário do site ou dos serviços do PROCON-DF, realizada em 23/04/2026.
+
+**Fontes analisadas:**
+
+- **Carta de Serviços CONSUMIDOR 2025** (PROCON‑DF) – documento oficial que define os serviços do sistema analisado.
+- **Dissertação de Mestrado (UNESP, 2015)** – estudo sobre o atendimento presencial e online do Procon, com dados demográficos.
+- **Matérias jornalísticas** (Jornal Hoje, 2014; Procon-DF, 2024) – reportagens com dados sobre comportamento e volume de atendimentos.
+
+**Principais achados documentais:**
+
+| Atributo            | Evidência encontrada                                                                                                                                 |
+| :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Público‑alvo oficial| Pessoas físicas residentes no DF ou que tiveram relação de consumo no DF; PJs devem comprovar condição de consumidor final (Carta de Serviços 2025). |
+| Gênero              | 57% mulheres, 43% homens — predominância feminina (Nakamura, 2015).                                                                                  |
+| Faixa etária        | Concentração entre 21 e 60 anos, com destaque para 31‑50 anos (Nakamura, 2015).                                                                      |
+| Volume de uso       | Mais de 73 mil consumidores atendidos em 2024 (Jornal de Brasília, 2024).                                                                            |
+| Canais e objetivos  | Atendimento online e presencial; usuários buscam principalmente registro e acompanhamento de reclamações (Jornal de Brasília, 2024).                 |
+
+Esses dados, obtidos de fontes externas e independentes, corroboram a heterogeneidade do público real, que se sobrepõe parcialmente à amostra do grupo de foco e das entrevistas.
+
+---
+
+### Integração da análise documental de Pedro Moretti ao perfil de usuário
+
+A análise documental complementar qualifica o perfil de usuário em três pontos principais:
+
+1. **Amplitude etária** – As fontes acadêmicas e oficiais indicam que a base de usuários abrange dos 21 aos 60 anos, com concentração entre 31 e 50 anos. Isso exige que a interface atenda tanto nativos digitais (Geração Z e Millennials) quanto públicos de meia‑idade (Geração X e Baby Boomers), estes últimos com menor familiaridade tecnológica.
+
+2. **Predominância feminina** – O índice de 57% de mulheres (Nakamura, 2015) contrasta com a amostra masculina predominante nos métodos presenciais, sinalizando que a avaliação de IHC deve considerar padrões de navegação e necessidades sem viés de gênero.
+
+3. **Confirmação do foco em resolução de conflitos** – A Carta de Serviços 2025 e as reportagens reforçam que o principal objetivo do usuário é **registrar uma reclamação de forma rápida e guiada**, validando os cenários de teste propostos e recomendando um fluxo prioritário claro, especialmente em dispositivos móveis.
+
+Portanto, o perfil primário “Consumidor Jovem” permanece válido como persona de projeto, mas a avaliação de IHC deve incorporar um **perfil estendido**: adultos de meia‑idade, maioria mulheres, que acessam predominantemente pelo celular e necessitam de extrema clareza nas etapas da reclamação.
+
+---
+
 ## Definição do Perfil de Usuário
 
 > **Perfil Primário: O Consumidor Jovem**
@@ -251,10 +289,22 @@ O manual instrucional de como abrir uma reclamação é extenso e fragmentado em
 ## Referências Bibliográficas
 
 <a id="ref-sindec"></a>
-> 1. BRASIL. Ministério da Justiça e Segurança Pública. **Sindec Nacional - Atendimentos**. Disponível em: <https://sindecnacional.mj.gov.br/report/Atendimentos>. Acesso em: 03 maio 2026.
+1. BRASIL. Ministério da Justiça e Segurança Pública. **Sindec Nacional - Atendimentos**. Disponível em: <https://sindecnacional.mj.gov.br/report/Atendimentos>. Acesso em: 03 maio 2026.
 
 <a id="ref-sebrae"></a>
-> 2. SEBRAE/PR. **Relatório Técnico: Redefinição do Perfil do Consumo - Marco 2025**. Disponível em: <https://sebraepr.com.br/wp-content/uploads/2025/03/PUB_Relatorio-Tecnico-Redefinicao-do-Perfil-do-Consumo-Marco-2025.pdf?srsltid=AfmBOorrOW0whAqGK8y1jkE7Mz-Qnwfmo-yOcRs4goYUrX1cFyuVKR-C>. Acesso em: 03 maio 2026.
+2. SEBRAE/PR. **Relatório Técnico: Redefinição do Perfil do Consumo - Marco 2025**. Disponível em: <https://sebraepr.com.br/wp-content/uploads/2025/03/PUB_Relatorio-Tecnico-Redefinicao-do-Perfil-do-Consumo-Marco-2025.pdf?srsltid=AfmBOorrOW0whAqGK8y1jkE7Mz-Qnwfmo-yOcRs4goYUrX1cFyuVKR-C>. Acesso em: 03 maio 2026.
+
+<a></a>
+3. PROCON‑DF. **Carta de Serviços CONSUMIDOR 2025**. Brasília, 2025. Disponível em: <https://www.procon.df.gov.br/wp-content/uploads/2018/03/2025-Carta-de-servicos-Consumidor-1.pdf>. Acesso em: 23 abr. 2026.
+
+<a></a>
+4. NAKAMURA, L. T. **Repensando o ambiente virtual de serviços públicos: uma análise do Procon‑DF**. 2015. Dissertação (Mestrado) – Universidade Estadual Paulista, Bauru, 2015. Disponível em: <https://repositorio.unesp.br/server/api/core/bitstreams/6fcf3e76-da42-4d3c-a067-e507b3120509/content>. Acesso em: 23 abr. 2026.
+
+<a ></a>
+5. JORNAL HOJE. **Pesquisa revela perfil de consumidores que reclamaram aos Procons**. 2014. Disponível em: <https://g1.globo.com/jornal-hoje/video/pesquisa-revela-perfil-de-consumidores-que-reclamaram-aos-procons-2935183.ghtml>. Acesso em: 03 mai. 2026.
+
+<a></a>
+6. PROCON-DF. **Procon: mais de 73 mil consumidores foram atendidos**. 2024. Disponível em: <https://www.procon.df.gov.br/procon-mais-de-73-mil-consumidores-foram-atendidos/>. Acesso em: 03 mai. 2026.
 
 ---
 
@@ -266,11 +316,10 @@ Agradecimento ao **Gemini** pela ajuda na estruturação do deste documento.
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                                          | Autor(es)                             | Revisor |
-| :----- | :--------- | :----------------------------------------------------------------- | :------------------------------------ | :------ |
-| `1.0`  | 30/04/2026 | Criação do documento com dados do Grupo de Foco.                   | Heitor Macedo, Heloisa, Pedro Moretti | Heloisa Silva |
-| `1.1`  | 01/05/2026 | Integração de Perfil de Fornecedor via entrevista semiestruturada. | Pedro Augusto Moretti Moreira         | Heitor Macedo |
-| `1.2`  | 03/05/2026 | Inclusão e consolidação da análise documental e dos perfis geracionais (incluindo distribuição dos atendimentos). E adição da bibliografia | Heloisa Silva | Pedro Moretti |
+| Versão | Data       | Descrição                                                                                                                                    | Autor(es)                             | Revisor       |
+| :----- | :--------- | :------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------ | :------------ |
+| `1.0`  | 30/04/2026 | Criação do documento com dados do Grupo de Foco.                                                                                             | Heitor Macedo, Heloisa, Pedro Moretti | Heloisa Silva |
+| `1.1`  | 01/05/2026 | Integração de Perfil de Fornecedor via entrevista semiestruturada.                                                                           | Pedro Augusto Moretti Moreira         | Heitor Macedo |
+| `1.2`  | 03/05/2026 | Inclusão e consolidação da análise documental e dos perfis geracionais (incluindo distribuição dos atendimentos). E adição da bibliografia. | Heloisa Silva                         | Pedro Moretti |
 | `1.3`  | 03/05/2026 | Adição da entrevista ao consumidor (Heitor Macedo Ricardo), reorganização das tabelas de Material de Apoio e Relatórios, e nova análise documental do PROCON-DF. | Heitor Macedo Ricardo | Heloisa Silva |
-
----
+| `1.4`  | 03/05/2026 | Inclusão da análise documental complementar (Pedro Moretti), integração dos achados ao perfil e adição das referências correspondentes.      | Pedro Augusto Moretti Moreira         | Heloisa Silva |
