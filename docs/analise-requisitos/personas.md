@@ -4,7 +4,7 @@
 
 Personas são personagens fictícios criados para representar os diferentes tipos de usuários dentro de um grupo demográfico que poderá usar o sistema de modo similar. Segundo Barbosa e Silva (2021), personas são definidas principalmente por seus objetivos, determinados por um processo de refinamento a partir de dados do perfil de usuário. Um elenco de personas deve cobrir os principais grupos de usuários do sistema para que o designer foque seus esforços nos usuários mais importantes.
 
-O elenco de personas deste projeto foi construído a partir dos dados coletados no Perfil de Usuário, com base nos resultados do Grupo de Foco realizado em 30/04/2026, na Entrevista e na Análise Documental. O elenco é composto por **7 personas** ao total: **5 personas primárias**, **1 persona secundária** e **1 antipersona**.
+O elenco de personas deste projeto foi construído a partir dos dados coletados no Perfil de Usuário, com base nos resultados do Grupo de Foco realizado em 30/04/2026, na Entrevista e na Análise Documental. O elenco é composto por **7 personas** ao total: **5 personas primárias**, **1 persona secundária** e **2 antipersona**.
 
 ---
 

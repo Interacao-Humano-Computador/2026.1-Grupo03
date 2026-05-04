@@ -41,49 +41,32 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário
 
 ## Cenário 2: Laura e a Conciliação Mobile-First no Intervalo da Aula
 
-### Contexto e Ambiente
+### Narrativa
 
-| Elemento | Descrição |
-| :--- | :--- |
-| **Ambiente** | Corredor do ICC Norte na UnB (ambiente ruidoso). |
-| **Data/Horário** | Terça-feira, às 15h45 (durante o intervalo entre aulas). |
-| **Dispositivo** | Smartphone pessoal (conexão 4G/5G). |
-| **Pré-condições** | Reclamação prévia contra operadora de telefonia com audiência marcada. |
+Era uma terça-feira agitada na Universidade de Brasília (UnB). Eram 15h45, e Laura Mendes tinha exatos 15 minutos de intervalo antes de sua próxima aula. Ela precisava resolver uma cobrança indevida de R$ 89,90 que vinha recebendo de sua operadora de telefonia. Caminhando pelos corredores barulhentos do ICC Norte, ela procurou um canto com melhor sinal de rede móvel, colocou seus fones de ouvido para abafar o barulho dos estudantes e aguardou.
 
-### Atores
+No horário agendado, Laura recebeu uma notificação no WhatsApp com um link de acesso direto do PROCON-DF. Com um único toque, sem precisar de senhas complexas ou logins demorados, ela entrou na Sala de Conciliação Virtual. O navegador pediu permissão para usar a câmera e o microfone, que ela concedeu rapidamente. O sistema ajustou perfeitamente a transmissão de vídeo para o modo retrato do seu smartphone.
 
-- **Ator Principal:** Laura Mendes — Estudante Universitária (Persona Primária).
-- **Ator Secundário:** Mediador do PROCON e Representante da Operadora.
+Na sala, o mediador do PROCON e o representante da operadora já a aguardavam. A conversa foi direta: a operadora reconheceu o erro e ofereceu o estorno imediato do valor nas próximas faturas. Laura escutou atentamente a proposta. O mediador redigiu o termo de acordo e o compartilhou na tela. A interface mobile destacou de forma clara os pontos essenciais do documento, sem letras miúdas ou jargões jurídicos confusos. 
 
-### Objetivos
+Com a orientação do mediador, que destacou o botão de ação principal na interface de Laura, ela tocou em "Assinar Acordo" e confirmou a assinatura usando a biometria facial do próprio celular. Em menos de 10 minutos, o problema estava resolvido. O sistema enviou imediatamente o comprovante em PDF para o seu WhatsApp. Laura sentiu-se empoderada e aliviada por ter resolvido tudo de forma fluida, a tempo de entrar tranquilamente na sua próxima aula de Administração.
 
-- **Objetivo Final:** Resolver cobrança indevida de R$ 89,90.
-- **Objetivos Intermediários:**
-    - Entrar na sala virtual sem precisar de login complexo.
-    - Ouvir a proposta da empresa via áudio.
-    - Aceitar e assinar o acordo rapidamente antes da próxima aula.
+---
 
-### Planejamento
+### Análise dos Elementos do Cenário
 
-> Laura planejou usar os 15 minutos de intervalo para resolver a pendência. Ela se posicionou em um local com melhor sinal de rede e usou fones de ouvido para mitigar o barulho ambiente.
+Segundo **Barbosa e Silva (2021, p. 158)**, os 7 elementos obrigatórios de um cenário estão presentes na narrativa acima da seguinte forma:
 
-### Sequência de Ações
+- **Ambiente ou contexto:** Corredor movimentado e ruidoso do ICC Norte na UnB, durante um breve intervalo entre aulas, às 15h45 de uma terça-feira. A usuária está conectada via smartphone pessoal utilizando rede móvel 4G/5G.
+- **Atores:** Laura Mendes (estudante universitária e Persona Primária), o Mediador do PROCON-DF e o Representante da Operadora de telefonia.
+- **Objetivos:** Participar de uma audiência de conciliação para resolver uma cobrança indevida de R$ 89,90 de forma rápida, sem necessidade de logins complexos, e formalizar o acordo a tempo de comparecer à próxima aula.
+- **Planejamento:** Laura planejou utilizar seus 15 minutos de intervalo acadêmico. Para isso, deslocou-se para um local com melhor sinal e utilizou fones de ouvido para isolar o ruído externo do ambiente universitário.
+- **Ações:** (1) Tocar na notificação do link recebido via WhatsApp; (2) conceder permissões de câmera e microfone no navegador mobile; (3) escutar a proposta na videoconferência; (4) ler o resumo do termo de acordo na tela; (5) tocar em "Assinar Acordo" e autenticar a assinatura via biometria facial.
+- **Eventos:** (1) O sistema envia automaticamente o link de ingresso pelo WhatsApp; (2) a plataforma adapta a interface de vídeo e visualização de documentos para o modo retrato (mobile-first); (3) o mediador utiliza recursos do sistema para destacar o botão de ação para Laura; (4) o sistema processa a biometria e envia o comprovante de resolução pelo WhatsApp.
+- **Avaliação:** Laura sentiu-se empoderada pela eficiência do processo. A ausência de burocracia e de jargões inacessíveis, aliada à fluidez de uma interface otimizada para smartphones, permitiu a resolução de um conflito jurídico de forma rápida, respeitando sua rotina acadêmica.
 
-1. Tocar na notificação do WhatsApp que contém o link de acesso direto.
-2. Permitir acesso à câmera e microfone no navegador do celular.
-3. Participar da discussão rápida mediada pelo agente do PROCON.
-4. Visualizar o resumo do acordo na tela otimizada para mobile.
-5. Clicar em "Assinar Acordo" e autenticar via biometria facial.
-
-### Eventos
-
-- O sistema adapta a interface de vídeo para o modo retrato do smartphone.
-- O mediador destaca os botões de ação para a usuária.
-- O sistema envia o comprovante de resolução imediatamente via WhatsApp.
-
-### Avaliação
-
-> Laura sente-se empoderada pela facilidade. A ausência de termos jurídicos complexos e a fluidez do sistema mobile permitiram que ela resolvesse um problema que parecia impossível sem comprometer sua rotina acadêmica.
+!!! info "Responsável por este artefato"
+    O **Cenário 2** foi elaborado por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações*. Este cenário valida a jornada "mobile-first" estabelecida para o público jovem universitário. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Análise de Tarefas](analise-tarefas.md).
 
 ---
 
@@ -302,4 +285,5 @@ Agradecimento ao **Gemini** pela ajuda na estruturação, redação e detalhamen
 | `1.2` | 03/05/2026 | Adição do Cenário 4 com Maria Helena. | Heloisa Silva | Heitor Macedo |
 | `1.3` | 03/05/2026 | Adição do Cenário 5 com Roberto. | Mateus Rodrigues Barreto | Pedro Augusto Moretti |
 | `1.4` | 03/05/2026 | Adição do Cenário 6 com Ivone. | Pedro Macedo | Pedro Augusto Moretti |
+| `1.5` | 03/05/2026 | Padronização do Cenário 2 (Laura) para o formato narrativo e estrutural (Barbosa e Silva, 2021). | Heitor Macedo Ricardo | Pedro Augusto Moretti |
 
