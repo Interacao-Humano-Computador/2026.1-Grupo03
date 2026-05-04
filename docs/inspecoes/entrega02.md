@@ -65,7 +65,7 @@ A inspeção valida cada critério definido pelo grupo e apresentado na Lista de
 
 A apresentação da Entrega 2 foi gravada com as câmeras abertas e publicada no YouTube na categoria "Não Listado", conforme exigência da disciplina.
 
-[🎥 Assistir à Apresentação da Entrega 2 no YouTube](https://youtu.be/link-da-apresentacao){ target="_blank" }
+[🎥 Assistir à Apresentação da Entrega 2 no YouTube](https://youtu.be/NqPuTF4JHNg){ target="_blank" }
 
 ---
 
