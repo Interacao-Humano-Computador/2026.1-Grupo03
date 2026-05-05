@@ -18,6 +18,22 @@ A tarefa analisada é: **"Acessar o andamento da reclamação via notificação 
 
 A **Análise Hierárquica de Tarefas** (*Hierarchical Task Analysis* — HTA) é uma técnica que examina tarefas complexas que requerem planejamento e resolução de problemas. Ela parte de um **objetivo de alto nível** e o decompõe recursivamente em **subobjetivos** e, por fim, em **operações** elementares — ações que não se subdividem mais. A cada nível, um **plano** descreve como os subobjetivos se relacionam (sequência, seleção ou concorrência). A técnica também documenta os **problemas** potenciais de cada operação e as **recomendações** de IHC para mitigá-los (BARBOSA; SILVA, 2021, p. 165–166).
 
+**Legenda Visual dos Diagramas HTA:**
+
+| Símbolo/Cor | Elemento | Representação | Função | Justificativa Visual |
+| :---: | :--- | :--- | :--- | :--- |
+| 🟠 **Laranja** | Objetivos e Subobjetivos | Nós de nível superior (obj). | São os estados que o usuário deseja alcançar (ex: "Registrar decisão"). Eles são complexos e podem ser decompostos em partes menores. | Geralmente usa-se uma cor mais forte ou quente para destacar a hierarquia de intenções do usuário. |
+| 🔵 **Azul** | Operações | As unidades atômicas da tarefa (op). | No HTA, uma "Operação" é o nível mais baixo da decomposição — é onde a tarefa não precisa mais ser explicada porque o usuário já sabe como executá-la (ex: "Clicar no link"). | O azul traz um aspecto mais "técnico" ou de "execução". Visualmente, ajuda a identificar onde a análise termina (as folhas da árvore). |
+| 🟡 **Amarelo / Creme** | Planos | Blocos com borda pontilhada. | Define a ordem temporal, as condições e a sequência (>>), seleção ([]) ou concorrência (=) para que as tarefas abaixo dele sejam executadas. | Uma cor suave e borda diferenciada ajuda a guiar o fluxo de leitura das ações sem competir com o destaque dos objetivos. |
+
+Além das cores, a estrutura do plano (como vista na coluna de Ações) define a forma como as tarefas se relacionam. Os principais operadores de fluxo no HTA são:
+
+| Operador de Plano | Significado | Exemplo | Descrição |
+| :---: | :--- | :--- | :--- |
+| `>>` | Sequência | `1 >> 2 >> 3` | As ações devem ser realizadas estritamente uma após a outra na ordem definida. |
+| `[ ]` ou `\|` | Seleção Exclusiva | `1 \| 2` | O usuário deve escolher apenas uma das opções para prosseguir; elas são mutuamente exclusivas. |
+| `=` ou `+` | Concorrência | `1 = 2` | As tarefas podem ocorrer simultaneamente ou em qualquer ordem de execução, conforme a necessidade. |
+
 <p align="center">
   <img src="../images/HTA-Heitor.png" alt="Diagrama HTA — Acompanhar reclamação e responder proposta" width="750">
   <br><em>Figura 1 — Diagrama HTA: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo com auxílio do Mermaid.js (2026).</em>
@@ -39,6 +55,9 @@ A **Análise Hierárquica de Tarefas** (*Hierarchical Task Analysis* — HTA) é
 | **3.2** Recusar a proposta e continuar o processo | Proposta exibida; usuário decide recusar | Usuário clica em "Recusar" → sistema registra recusa → exibe próximo passo do processo | Mensagem com próximo passo exibida (ex.: "O PROCON analisará o impasse"); status do processo atualizado | Usuário não sabe o que acontecerá após a recusa; sensação de abandono | Após recusa, sistema informa o próximo passo em linguagem clara: "O PROCON analisará o impasse e poderá convocar uma audiência." |
 
 *Tabela 1 — Representação textual do HTA: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo (2026).*
+
+!!! info "Responsável por este artefato"
+    A Tabela de Análise Hierárquica de Tarefas (HTA) para *Acompanhar reclamação e responder proposta* foi elaborada por **Heitor Macedo Ricardo**. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
 
 **Tabela de Representação HTA — Participar de audiência de conciliação virtual**
 
@@ -66,6 +85,9 @@ A **Análise Hierárquica de Tarefas** (*Hierarchical Task Analysis* — HTA) é
 
 *Tabela 2 — Representação textual do HTA: Participar de audiência de conciliação virtual (modelo expandido). Fonte: Elaborado por Pedro Augusto Moretti Moreira (2026).*
 
+!!! info "Responsável por este artefato"
+    A Tabela de Análise Hierárquica de Tarefas (HTA) para *Participar de audiência de conciliação virtual* foi elaborada por **Pedro Augusto Moretti Moreira**. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
+
 ---
 
 <p align="center">
@@ -88,6 +110,9 @@ A **Análise Hierárquica de Tarefas** (*Hierarchical Task Analysis* — HTA) é
 | **1.7** Finalização e anexação definitiva | Documento aceito; campos extraídos validados | Sistema anexa documento ao processo, grava metadados, gera protocolo e notifica usuário | Mensagem "Documento aceito" + número de protocolo + timestamp | Falha na gravação ou duplicidade | Operação transacional; filas de retry; confirmação clara e opção de baixar comprovante |
 
 *Tabela 3 — Representação textual do HTA: Validação de documentos com OCR. Fonte: Elaborado por Heloisa Laura Santos da Silva (2026).* 
+
+!!! info "Responsável por este artefato"
+    A Tabela de Análise Hierárquica de Tarefas (HTA) para *Validação de documentos com OCR* foi elaborada por **Heloisa Laura Santos da Silva**. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
 
 ---
 
@@ -317,4 +342,4 @@ Agradecimento ao **Gemini** pela ajuda na estruturação e redação da Análise
 | `1.1` | 30/04/2026 | Elaboração da Análise de Tarefas com HTA e CTT para a funcionalidade de Conciliação Virtual. | Pedro Augusto Moretti Moreira | Heitor Macedo |
 | `1.2` | 03/05/2026 | Inserção da HTA e CTT de validação de documentos com OCR e ajustes de conteúdo. | Heloisa Silva | Pedro Augusto Moretti |
 | `1.3` | 03/05/2026 | Adição da Análise GOMS para a tarefa de registro de reclamação financeira. | Mateus Rodrigues Barreto | Heloisa Silva |
-| `1.4` | 03/05/2026 | Padronização da tabela HTA de Heitor Macedo Ricardo para o formato de 6 colunas (Operação, Inputs, Ações, Feedback/Testes, Problemas e Recomendações), seguindo o padrão da tabela de Heloisa Silva. | Heitor Macedo Ricardo | Pedro Moretti |
+| `1.4` | 05/05/2026 | Inclusão da legenda de cores e operadores utilizados nos diagramas HTA. | Heitor Macedo Ricardo | Pedro Moretti |

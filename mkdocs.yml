@@ -58,14 +58,14 @@ nav:
       - Ferramentas: projeto/ferramentas.md
       - Processo de Design: projeto/processo-design.md
       - Site Escolhido: projeto/site-escolhido.md
-  - Inspeção:
-    - Entrega 01: inspecoes/entrega01.md
-    - Entrega 02: inspecoes/entrega02.md
-    - Grupo +1 (Etapa 1): inspecoes/grupo04.md
-    - Grupo -1 (Etapa 2): inspecoes/grupo02entrega02.md
-  - Perfil de Usuário:
+  - Análise de Requisitos:
     - Perfil de Usuário: analise-requisitos/perfil-usuario.md
     - Funcionalidades: analise-requisitos/funcionalidades.md
     - Personas: analise-requisitos/personas.md
     - Cenários: analise-requisitos/cenarios.md
     - Análise de Tarefas: analise-requisitos/analise-tarefas.md
+  - Inspeção:
+    - Entrega 01: inspecoes/entrega01.md
+    - Entrega 02: inspecoes/entrega02.md
+    - Grupo +1 (Etapa 1): inspecoes/grupo04.md
+    - Grupo -1 (Etapa 2): inspecoes/grupo02entrega02.md
