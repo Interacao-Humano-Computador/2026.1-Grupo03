@@ -48,7 +48,7 @@ Usuário acessa o portal
 **Justificativa com base no Grupo de Foco:** Usuários relataram que o site atual é **"confuso"** e que sentem **frustração com a falta de retorno**. A funcionalidade resolve isso eliminando a necessidade de buscas manuais incessantes.
 
 !!! info "Responsável por este artefato"
-    Este trecho foi elaborado por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas*.
+    Este trecho foi elaborado por **Heitor Macedo Ricardo**, responsável pela [Funcionalidade](funcionalidades.md#1-portal-de-acompanhamento-de-reclamacoes-com-notificacoes-ativas), pela técnica de [Perfil de Usuário](perfil-usuario.md#entrevista-consumidor), pelas [Personas](personas.md#21-persona-primaria-laura-a-universitaria-pratica), pelo [Cenário](cenarios.md#cenario-2-laura-e-a-conciliacao-mobile-first-no-intervalo-da-aula) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -104,7 +104,7 @@ Agendamento da audiência pelo mediador
 | Taxa de Faltas | Alta (Logística difícil) | Reduzida (Facilidade de acesso) |
 
 !!! info "Responsável por este artefato"
-    Este trecho foi elaborado por **Pedro Augusto Moretti Moreira**, responsável pela funcionalidade *Sala de Conciliação Virtual com Mediação Assistida*.
+    Este trecho foi elaborado por **Pedro Augusto Moretti Moreira**, responsável pela [Funcionalidade](funcionalidades.md#2-sala-de-conciliacao-virtual-com-mediacao-assistida), pela técnica de [Perfil de Usuário](perfil-usuario.md#entrevistas-fornecedores), pelas [Personas](personas.md#22-persona-primaria-lucas-o-consumidor-exigente), pelos [Cenários](cenarios.md#cenario-1-lucas-gustavo-e-a-resolucao-virtual-de-conflito) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -160,7 +160,7 @@ Usuário acessa o processo
 | Celeridade | Processo mais lento e sujeito a interrupções | Processo mais rápido e contínuo dentro do portal |
 
 !!! info "Responsável por este artefato"
-    Este trecho foi elaborado por **Heloisa Laura Santos da Silva**, responsável pela funcionalidade *Dossiê digital com OCR e validação de documentos*.
+    Este trecho foi elaborado por **Heloisa Laura Santos da Silva**, responsável pela [Funcionalidade](funcionalidades.md#3-validacao-de-documentos-com-ocr), pela técnica de [Perfil de Usuário](perfil-usuario.md#analise-de-documentos), pela [Persona](personas.md#24-persona-primaria-maria-helena-a-aposentada-pratica), pelo [Cenário](cenarios.md#cenario-4-maria-helena-e-a-reclamacao-com-ocr) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -215,7 +215,7 @@ Abertura da Reclamação
 | Saída de Dados | Consulta simples na tela | Exportação de PDF processual completo |
 
 !!! info "Responsável por este artefato"
-    Este trecho foi elaborado por **Mateus Rodrigues Barreto**, responsável pela funcionalidade *Painel de monitoramento de prazos com alertas jurídicos*.
+    Este trecho foi elaborado por **Mateus Rodrigues Barreto**, responsável pela [Funcionalidade](funcionalidades.md#4-painel-de-monitoramento-de-prazos-com-alertas-juridicos), pela [Persona](personas.md#25-persona-primaria-roberto-o-pragmatico), pelo [Cenário](cenarios.md#cenario-5-roberto-e-a-eficiencia-na-resolucao) e pela [Análise de Tarefas](analise-tarefas.md#3-goms-goals-operators-methods-and-selection-rules).
 
 ---
 
@@ -282,7 +282,7 @@ Usuário acessa o portal
 | Orientação | Ausência de instruções claras | Explicação integrada sobre o papel do órgão |
 
 !!! info "Responsável por este artefato"
-    Este documento foi elaborado por **Pedro Augusto**, responsável pela funcionalidade *Assistente de Triagem Guiada para Reclamações* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md) · [Análise de Tarefas](analise-tarefas.md).
+    Este trecho foi elaborado por **Pedro Augusto Macedo Del Castilo**, responsável pela [Funcionalidade](funcionalidades.md#5-assistente-de-triagem-guiada-para-reclamacoes), pela [Persona](personas.md#23-persona-primaria-ivone-a-iniciante-vulneravel) e pelo [Cenário](cenarios.md#cenario-6-dona-ivone-e-a-superacao-da-barreira-digital).
 
 ---
 
@@ -305,3 +305,4 @@ Agradecimento ao Gemini pela ajuda na estruturação, redação e consolidação
 | `1.2` | 01/05/2026 | Integração da funcionalidade: Validação de documentos com OCR | Heloisa Silva | Heitor Macedo |
 | `1.3` | 02/05/2026 | Integração da funcionalidade: Assistente de Triagem Guiada | Pedro Augusto | A definir |
 | `1.4` | 03/05/2026 | Integração da funcionalidade: Painel de monitoramento de prazos | Mateus Rodrigues Barreto | Pedro Moretti |
+| `1.5` | 08/05/2026 | Padronização dos blocos de responsabilidade com hiperlinks de rastreabilidade entre artefatos. | Heitor Macedo Ricardo | Heloisa Silva |

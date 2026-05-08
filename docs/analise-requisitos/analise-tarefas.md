@@ -57,7 +57,7 @@ Além das cores, a estrutura do plano (como vista na coluna de Ações) define a
 *Tabela 1 — Representação textual do HTA: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo (2026).*
 
 !!! info "Responsável por este artefato"
-    A Tabela de Análise Hierárquica de Tarefas (HTA) para *Acompanhar reclamação e responder proposta* foi elaborada por **Heitor Macedo Ricardo**. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
+    Este trecho foi elaborado por **Heitor Macedo Ricardo**, responsável pela [Funcionalidade](funcionalidades.md#1-portal-de-acompanhamento-de-reclamacoes-com-notificacoes-ativas), pela técnica de [Perfil de Usuário](perfil-usuario.md#entrevista-consumidor), pelas [Personas](personas.md#21-persona-primaria-laura-a-universitaria-pratica), pelo [Cenário](cenarios.md#cenario-2-laura-e-a-conciliacao-mobile-first-no-intervalo-da-aula) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 **Tabela de Representação HTA — Participar de audiência de conciliação virtual**
 
@@ -86,7 +86,7 @@ Além das cores, a estrutura do plano (como vista na coluna de Ações) define a
 *Tabela 2 — Representação textual do HTA: Participar de audiência de conciliação virtual (modelo expandido). Fonte: Elaborado por Pedro Augusto Moretti Moreira (2026).*
 
 !!! info "Responsável por este artefato"
-    A Tabela de Análise Hierárquica de Tarefas (HTA) para *Participar de audiência de conciliação virtual* foi elaborada por **Pedro Augusto Moretti Moreira**. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
+    Este trecho foi elaborado por **Pedro Augusto Moretti Moreira**, responsável pela [Funcionalidade](funcionalidades.md#2-sala-de-conciliacao-virtual-com-mediacao-assistida), pela técnica de [Perfil de Usuário](perfil-usuario.md#entrevistas-fornecedores), pelas [Personas](personas.md#22-persona-primaria-lucas-o-consumidor-exigente), pelos [Cenários](cenarios.md#cenario-1-lucas-gustavo-e-a-resolucao-virtual-de-conflito) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -112,7 +112,7 @@ Além das cores, a estrutura do plano (como vista na coluna de Ações) define a
 *Tabela 3 — Representação textual do HTA: Validação de documentos com OCR. Fonte: Elaborado por Heloisa Laura Santos da Silva (2026).* 
 
 !!! info "Responsável por este artefato"
-    A Tabela de Análise Hierárquica de Tarefas (HTA) para *Validação de documentos com OCR* foi elaborada por **Heloisa Laura Santos da Silva**. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
+    Este trecho foi elaborado por **Heloisa Laura Santos da Silva**, responsável pela [Funcionalidade](funcionalidades.md#3-validacao-de-documentos-com-ocr), pela técnica de [Perfil de Usuário](perfil-usuario.md#analise-de-documentos), pela [Persona](personas.md#24-persona-primaria-maria-helena-a-aposentada-pratica), pelo [Cenário](cenarios.md#cenario-4-maria-helena-e-a-reclamacao-com-ocr) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -166,7 +166,7 @@ Os principais **operadores de relação** utilizados são:
 ```
 
 !!! info "Responsável por este artefato"
-    Este documento foi elaborado por **Heitor Macedo**, responsável pela funcionalidade *Acompanhar reclamação e responder à proposta* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
+    Este trecho foi elaborado por **Heitor Macedo Ricardo**, responsável pela [Funcionalidade](funcionalidades.md#1-portal-de-acompanhamento-de-reclamacoes-com-notificacoes-ativas), pela técnica de [Perfil de Usuário](perfil-usuario.md#entrevista-consumidor), pelas [Personas](personas.md#21-persona-primaria-laura-a-universitaria-pratica), pelo [Cenário](cenarios.md#cenario-2-laura-e-a-conciliacao-mobile-first-no-intervalo-da-aula) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 *Figura 5 — Representação textual hierárquica da árvore CTT: Acompanhar reclamação e responder proposta. Fonte: Elaborado por Heitor Macedo Ricardo (2026).*
 
@@ -222,7 +222,7 @@ Os principais **operadores de relação** utilizados são:
 *Figura 7 — Representação textual hierárquica da árvore CTT: Participar de audiência de conciliação virtual. Fonte: Elaborado por Pedro Augusto Moretti Moreira (2026).*
 
 !!! info "Responsável por este artefato"
-    Este documento foi elaborado por **Pedro Moretti**, responsável pela funcionalidade *Participar de audiência de conciliação virtual* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
+    Este trecho foi elaborado por **Pedro Augusto Moretti Moreira**, responsável pela [Funcionalidade](funcionalidades.md#2-sala-de-conciliacao-virtual-com-mediacao-assistida), pela técnica de [Perfil de Usuário](perfil-usuario.md#entrevistas-fornecedores), pelas [Personas](personas.md#22-persona-primaria-lucas-o-consumidor-exigente), pelos [Cenários](cenarios.md#cenario-1-lucas-gustavo-e-a-resolucao-virtual-de-conflito) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 
 ### Árvore CTT — Validação de Documentos com OCR
@@ -258,7 +258,7 @@ Os principais **operadores de relação** utilizados são:
 *Figura 9 — Representação textual hierárquica da árvore CTT: Validar documento com OCR. Fonte: Elaborado por Heloisa Laura Santos da Silva (2026).*
 
 !!! info "Responsável por este artefato"
-    Este documento foi elaborado por **Heloisa Laura Santos da Silva**, responsável pela funcionalidade *Validação de documentos com OCR* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
+    Este trecho foi elaborado por **Heloisa Laura Santos da Silva**, responsável pela [Funcionalidade](funcionalidades.md#3-validacao-de-documentos-com-ocr), pela técnica de [Perfil de Usuário](perfil-usuario.md#analise-de-documentos), pela [Persona](personas.md#24-persona-primaria-maria-helena-a-aposentada-pratica), pelo [Cenário](cenarios.md#cenario-4-maria-helena-e-a-reclamacao-com-ocr) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -320,7 +320,7 @@ GOAL 0: REGISTRAR RECLAMAÇÃO FINANCEIRA
 - **Regra de Seleção:** A presença do método 1.B (**Painel de Monitoramento**) é vital para o Roberto, pois economiza 2 operadores de navegação manual, alinhando-se ao seu perfil pragmático de resolução rápida.
 
 !!! info "Responsável por este artefato"
-    A seção de GOMS (Goals, Operators, Methods, and Selection Rules) foi elaborada por **Mateus Rodrigues Barreto**, baseada na funcionalidade *Painel de monitoramento de prazos com alertas jurídicos*. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Cenários](cenarios.md).
+    Este trecho foi elaborado por **Mateus Rodrigues Barreto**, responsável pela [Funcionalidade](funcionalidades.md#4-painel-de-monitoramento-de-prazos-com-alertas-juridicos), pela [Persona](personas.md#25-persona-primaria-roberto-o-pragmatico), pelo [Cenário](cenarios.md#cenario-5-roberto-e-a-eficiencia-na-resolucao) e pela [Análise de Tarefas](analise-tarefas.md#3-goms-goals-operators-methods-and-selection-rules).
 
 ## Agradecimentos à IA
 
@@ -343,3 +343,4 @@ Agradecimento ao **Gemini** pela ajuda na estruturação e redação da Análise
 | `1.2` | 03/05/2026 | Inserção da HTA e CTT de validação de documentos com OCR e ajustes de conteúdo. | Heloisa Silva | Pedro Augusto Moretti |
 | `1.3` | 03/05/2026 | Adição da Análise GOMS para a tarefa de registro de reclamação financeira. | Mateus Rodrigues Barreto | Heloisa Silva |
 | `1.4` | 05/05/2026 | Inclusão da legenda de cores e operadores utilizados nos diagramas HTA. | Heitor Macedo Ricardo | Pedro Moretti |
+| `1.5` | 08/05/2026 | Padronização dos blocos de responsabilidade com hiperlinks de rastreabilidade entre artefatos. | Heitor Macedo Ricardo | Heloisa Silva |

@@ -35,7 +35,7 @@ Segundo Barbosa e Silva (2021, p. 158), os 7 elementos obrigatórios do cenário
 - **Avaliação:** Lucas sentiu que a interface moderna, a possibilidade de compartilhar apenas uma janela e a estabilidade da transmissão condizem com sua expectativa de eficiência técnica e respeito à privacidade. Gustavo avaliou a experiência como essencial para sua rotina, permitindo resolver pendências jurídicas sem abandonar a gestão física de seu negócio.
 
 !!! info "Responsável por este artefato"
-    O **Cenário 1** foi elaborado por **Pedro Augusto Moretti Moreira**, responsável pela funcionalidade *Sala de Conciliação Virtual com Mediação Assistida*. A versão atualizada incorpora os requisitos técnicos e expectativas da persona Lucas revisada, sem prejuízo da validação já realizada. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Análise de Tarefas](analise-tarefas.md).
+    Este trecho foi elaborado por **Pedro Augusto Moretti Moreira**, responsável pela [Funcionalidade](funcionalidades.md#2-sala-de-conciliacao-virtual-com-mediacao-assistida), pela técnica de [Perfil de Usuário](perfil-usuario.md#entrevistas-fornecedores), pelas [Personas](personas.md#22-persona-primaria-lucas-o-consumidor-exigente), pelos [Cenários](cenarios.md#cenario-1-lucas-gustavo-e-a-resolucao-virtual-de-conflito) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -66,7 +66,7 @@ Segundo **Barbosa e Silva (2021, p. 158)**, os 7 elementos obrigatórios de um c
 - **Avaliação:** Laura sentiu-se empoderada pela eficiência do processo. A ausência de burocracia e de jargões inacessíveis, aliada à fluidez de uma interface otimizada para smartphones, permitiu a resolução de um conflito jurídico de forma rápida, respeitando sua rotina acadêmica.
 
 !!! info "Responsável por este artefato"
-    O **Cenário 2** foi elaborado por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações*. Este cenário valida a jornada "mobile-first" estabelecida para o público jovem universitário. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Análise de Tarefas](analise-tarefas.md).
+    Este trecho foi elaborado por **Heitor Macedo Ricardo**, responsável pela [Funcionalidade](funcionalidades.md#1-portal-de-acompanhamento-de-reclamacoes-com-notificacoes-ativas), pela técnica de [Perfil de Usuário](perfil-usuario.md#entrevista-consumidor), pelas [Personas](personas.md#21-persona-primaria-laura-a-universitaria-pratica), pelo [Cenário](cenarios.md#cenario-2-laura-e-a-conciliacao-mobile-first-no-intervalo-da-aula) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -111,6 +111,9 @@ Segundo **Barbosa e Silva (2021, p. 158)**, os 7 elementos obrigatórios de um c
 ### Avaliação
 
 > Gustavo sente que o portal agora é uma ferramenta de gestão útil, e não apenas um site de reclamações contra de ele. A clareza das informações reduz sua ansiedade administrativa.
+
+!!! info "Responsável por este artefato"
+    Este trecho foi elaborado por **Pedro Augusto Moretti Moreira**, responsável pela [Funcionalidade](funcionalidades.md#2-sala-de-conciliacao-virtual-com-mediacao-assistida), pela técnica de [Perfil de Usuário](perfil-usuario.md#entrevistas-fornecedores), pelas [Personas](personas.md#22-persona-primaria-lucas-o-consumidor-exigente), pelos [Cenários](cenarios.md#cenario-1-lucas-gustavo-e-a-resolucao-virtual-de-conflito) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -163,6 +166,9 @@ Segundo **Barbosa e Silva (2021, p. 158)**, os 7 elementos obrigatórios de um c
 
 > Maria Helena sente que conseguiu resolver um problema que parecia difícil sem depender de ajuda externa. A linguagem simples, a leitura automática por OCR e a confirmação imediata reduzem a insegurança, evitam retrabalho e diminuem o tempo de espera para o andamento do processo.
 
+!!! info "Responsável por este artefato"
+    Este trecho foi elaborado por **Heloisa Laura Santos da Silva**, responsável pela [Funcionalidade](funcionalidades.md#3-validacao-de-documentos-com-ocr), pela técnica de [Perfil de Usuário](perfil-usuario.md#analise-de-documentos), pela [Persona](personas.md#24-persona-primaria-maria-helena-a-aposentada-pratica), pelo [Cenário](cenarios.md#cenario-4-maria-helena-e-a-reclamacao-com-ocr) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
+
 ---
 
 ## Cenário 5: Roberto e a Eficiência na Resolução
@@ -214,7 +220,7 @@ Segundo **Barbosa e Silva (2021, p. 158)**, os 7 elementos obrigatórios de um c
 > Roberto sente que o tempo foi bem investido. A interface profissional e a entrega imediata do protocolo em PDF deram a ele a segurança de que o banco agora será obrigado a responder dentro do prazo visível na tela.
 
 !!! info "Responsável por este artefato"
-    O **Cenário 5** foi elaborado por **Mateus Rodrigues Barreto**, focado na jornada da Persona Primária Roberto Oliveira e na funcionalidade *Painel de monitoramento de prazos com alertas jurídicos*. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Análise de Tarefas](analise-tarefas.md).
+    Este trecho foi elaborado por **Mateus Rodrigues Barreto**, responsável pela [Funcionalidade](funcionalidades.md#4-painel-de-monitoramento-de-prazos-com-alertas-juridicos), pela [Persona](personas.md#25-persona-primaria-roberto-o-pragmatico), pelo [Cenário](cenarios.md#cenario-5-roberto-e-a-eficiencia-na-resolucao) e pela [Análise de Tarefas](analise-tarefas.md#3-goms-goals-operators-methods-and-selection-rules).
 
 ---
 
@@ -249,7 +255,7 @@ Segundo **Barbosa e Silva (2021, p. 158)**, os 7 elementos obrigatórios de um c
 - **Avaliação:** Dona Ivone sente-se empoderada e aliviada. A avaliação foi positiva pois o sistema eliminou a desorientação visual típica do site antigo. O uso de um padrão de design reconhecido (inspirado no Reclame Aqui) e a ausência de jargão jurídico fizeram com que ela sentisse que o Procon é, de fato, um facilitador de direitos e não uma barreira burocrática.
 
 !!! info "Responsável por este artefato"
-    O **Cenário 6** foi elaborado por **Pedro Augusto Macedo Del Castilo**, responsável pela funcionalidade *Botão de Reclamação Rápida* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Personas](personas.md) · [Análise de Tarefas](analise-tarefas.md).
+    Este trecho foi elaborado por **Pedro Augusto Macedo Del Castilo**, responsável pela [Funcionalidade](funcionalidades.md#5-assistente-de-triagem-guiada-para-reclamacoes), pela [Persona](personas.md#23-persona-primaria-ivone-a-iniciante-vulneravel) e pelo [Cenário](cenarios.md#cenario-6-dona-ivone-e-a-superacao-da-barreira-digital).
 
 ---
 
@@ -286,4 +292,5 @@ Agradecimento ao **Gemini** pela ajuda na estruturação, redação e detalhamen
 | `1.3` | 03/05/2026 | Adição do Cenário 5 com Roberto. | Mateus Rodrigues Barreto | Pedro Augusto Moretti |
 | `1.4` | 03/05/2026 | Adição do Cenário 6 com Ivone. | Pedro Macedo | Pedro Augusto Moretti |
 | `1.5` | 03/05/2026 | Padronização do Cenário 2 (Laura) para o formato narrativo e estrutural (Barbosa e Silva, 2021). | Heitor Macedo Ricardo | Pedro Augusto Moretti |
+| `1.6` | 08/05/2026 | Padronização dos blocos de responsabilidade com hiperlinks de rastreabilidade entre artefatos. | Heitor Macedo Ricardo | Heloisa Silva |
 

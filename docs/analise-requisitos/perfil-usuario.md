@@ -12,6 +12,8 @@ No contexto deste projeto, o sistema avaliado é o **site do PROCON-DF**. Compre
 
 ### Grupo de Foco (Consumidores)
 
+#### Grupo Focal realizado por Heloisa Silva, Heitor Macedo Ricardo e Pedro Augusto Moretti Moreira
+
 **Descrição:**
 Técnica de elicitação qualitativa que reúne usuários representativos para discutir percepções e frustrações em relação a um produto.
 
@@ -35,6 +37,8 @@ Foi escolhida para coletar a perspectiva do **fornecedor/empresário**, um usuá
 Entrevista realizada presencialmente por Pedro Augusto Moretti Moreira em 30 de abril 2026 com o proprietário de uma panificadora. O roteiro focou em literacia digital, frequência de uso e percepção de utilidade do portal para o setor empresarial.
 
 ### Entrevista (Consumidor)
+
+#### Entrevista realizada por Heitor Macedo Ricardo
 
 **Descrição:**
 A técnica de entrevista semiestruturada permite um diálogo guiado onde o pesquisador explora tópicos específicos, mas tem flexibilidade para aprofundar em pontos levantados pelo entrevistado.
@@ -65,133 +69,52 @@ Para uma compreensão abrangente dos usuários do PROCON-DF, os dados coletados 
 
 ### 1. Perfil identificado pelo Grupo de Foco e Entrevista (Consumidores)
 
-Os dados qualitativos e o questionário demográfico aplicados presencialmente indicam um perfil específico de consumidor jovem:
+Os dados qualitativos e o questionário demográfico aplicados presencialmente indicam um perfil específico de consumidor jovem, detalhado na tabela abaixo:
 
-**Dados Demográficos:**
-- **Faixa etária:** 18 a 25 anos.
-- **Gênero:** Masculino (predominante na amostra atual).
-- **Escolaridade:** Ensino Superior (completo ou em andamento).
-- **Localidade:** Distrito Federal.
-- **Ocupação:** Estudantes universitários.
-
-**Experiência com Tecnologia:**
-- **Nível de experiência:** Alto — perfil explorador, mas crítico quanto à qualidade de sites governamentais.
-- **Dispositivos:** **Smartphone** como dispositivo preferencial.
-- **Familiaridade com o sistema:** Média/Baixa — Acesso pontual.
-
-**Atitudes e Objetivos:**
-- **Objetivo Principal:** Registrar reclamação rápida para evitar prejuízo financeiro.
-- **Percepção do Site:** Considerado "poluído" e "confuso".
-- **Dificuldade:** O usuário perde-se nos menus de registro e encontra barreiras operacionais.
+| Característica | Descrição |
+| :--- | :--- |
+| **Faixa etária** | 18 a 25 anos. |
+| **Gênero** | Feminino (predominante na amostra atual). |
+| **Escolaridade** | Ensino Superior (completo ou em andamento). |
+| **Localidade** | Distrito Federal. |
+| **Ocupação** | Estudantes universitários. |
+| **Nível de exp. com Tecnologia** | Alto — perfil explorador, mas crítico quanto à qualidade de sites governamentais. |
+| **Dispositivos** | **Smartphone** como dispositivo preferencial. |
+| **Familiaridade com o sistema** | Média/Baixa — Acesso pontual. |
+| **Objetivo Principal** | Registrar reclamação rápida para evitar prejuízo financeiro. |
+| **Percepção do Site** | Considerado "poluído" e "confuso". |
+| **Dificuldade principal** | O usuário perde-se nos menus de registro e encontra barreiras operacionais. |
 
 ### 2. Perfil identificado pela Entrevista (Fornecedores)
 
-A entrevista focada no setor produtivo revelou necessidades e atitudes distintas:
+A entrevista focada no setor produtivo revelou necessidades e atitudes distintas, estruturadas nos mesmos parâmetros analisados para os consumidores:
 
-- **Ocupação:** Pequenos empresários e proprietários de estabelecimentos (ex: panificadoras).
-- **Experiência com Tecnologia:** Utilizam o **computador** como principal ferramenta para tarefas administrativas.
-- **Familiaridade com o sistema:** Acesso esporádico (geralmente anual).
-- **Objetivo Principal:** Resolver pendências, responder notificações oficiais e manter a regularidade do negócio.
-- **Percepção e Dificuldade:** Sentem que o site "não foi feito para eles", com foco excessivo no consumidor e notícias irrelevantes, dificultando a clareza nas informações para o setor empresarial.
+| Característica | Descrição |
+| :--- | :--- |
+| **Faixa etária** | Adultos (implícito pela posição de empresários/proprietários). |
+| **Gênero** | Misto / Não especificado na amostra. |
+| **Escolaridade** | Diversificada (não especificada diretamente na entrevista). |
+| **Localidade** | Distrito Federal (comércio local). |
+| **Ocupação** | Pequenos empresários e proprietários de estabelecimentos (ex: panificadoras). |
+| **Nível de exp. com Tecnologia** | Intermediário a Alto (uso contínuo de ferramentas administrativas). |
+| **Dispositivos** | **Computador** como principal ferramenta para tarefas administrativas. |
+| **Familiaridade com o sistema** | Acesso esporádico (geralmente anual). |
+| **Objetivo Principal** | Resolver pendências, responder notificações oficiais e manter a regularidade do negócio. |
+| **Percepção do Site** | Sentem que o site "não foi feito para eles", com foco excessivo no consumidor e notícias irrelevantes. |
+| **Dificuldade principal** | Dificuldade em encontrar clareza nas informações e fluxos voltados para o setor empresarial. |
 
 ### 3. Perfil identificado pela Análise Documental
 
 A análise documental permitiu expandir a visão sobre o público real do PROCON-DF, trazendo dados quantitativos e comportamentais de larga escala, que contrastam e complementam a amostra qualitativa.
 
-#### Análise realizada por Heloisa Silva
+#### Análise Documental realizada por Heitor Macedo, Heloisa Silva e Pedro Moretti
 
-Os dados secundários de 2025, obtidos a partir do Sindec Nacional e do relatório técnico do SEBRAE/PR, indicam:
+A consolidação das análises documentais — baseadas no Sindec Nacional, Carta de Serviços (2025), teses acadêmicas, matérias jornalísticas e na própria estrutura do portal (FAQ, cartilhas) — revela os seguintes achados principais:
 
-##### Tipo de atendimento (2025)
-
-| Tipo de atendimento      | Percentual |
-| :----------------------- | :--------- |
-| Reclamação ou denúncia   | 71,3%      |
-| Consulta                 | 28,7%      |
-
-**Fonte:** SINDEC - Atendimentos
-**Autor:** Heloisa Silva
-
-##### Principais assuntos atendidos
-
-| Assunto               | Percentual |
-| :-------------------- | :--------- |
-| Assuntos financeiros  | 47,62%     |
-| Produtos              | 13,53%     |
-| Serviços privados     | 13,30%     |
-| Serviços essenciais   | 10,75%     |
-| Telecomunicações      | 10,47%     |
-| Outros                | 4,33%      |
-
-**Fonte:** SINDEC - Atendimentos
-**Autor:** Heloisa Silva
-
-##### Distribuição por gênero
-
-| Gênero    | Percentual |
-| :-------- | :--------- |
-| Feminino  | 54,68%     |
-| Masculino | 45,32%     |
-
-**Fonte:** SINDEC - Atendimentos
-**Autor:** Heloisa Silva
-
-##### Faixa etária predominante
-
-| Faixa etária     | Percentual |
-| :--------------- | :--------- |
-| 61 a 70 anos     | 25,23%     |
-| Mais de 70 anos  | 19,39%     |
-| 51 a 60 anos     | 18,86%     |
-| 41 a 50 anos     | 17,16%     |
-| 31 a 40 anos     | 11,91%     |
-| 21 a 30 anos     | 6,60%      |
-| Até 20 anos      | 0,85%      |
-
-**Fonte:** SINDEC - Atendimentos
-**Autor:** Heloisa Silva
-
-##### Perfis geracionais por idade (base 2025)
-
-Com base no Relatório Técnico de Redefinição do Perfil do Consumo (SEBRAE/PR, 2025):
-
-| Geração | Ano de nascimento | Idade em 2025 | Perfil predominante |
-| :------ | :---------------- | :------------ | :------------------ |
-| Geração Silenciosa | 1928-1945 | 80 a 97 anos | Valorização de estabilidade, lealdade institucional, foco familiar e menor propensão a risco. |
-| Baby Boomers | 1946-1964 | 61 a 79 anos | Valorização de trabalho, ascensão social e aquisição de bens; presença relevante em decisões de consumo. |
-| Geração X | 1965-1980 | 45 a 60 anos | Perfil pragmático e independente, equilibrando valores tradicionais e modernidade. |
-| Millennials (Geração Y) | 1981-1996 | 29 a 44 anos | Maior valorização de experiências, diversidade e propósito; maior cobrança por práticas éticas e sustentáveis. |
-| Geração Z | 1997-2012 | 13 a 28 anos | Alta fluência digital, imediatismo, busca por autenticidade, inclusão e engajamento direto com marcas. |
-| Geração Alpha | 2013 em diante | Até 12 anos | Geração em formação, com alta exposição tecnológica; não incluída em análise aprofundada de consumo. |
-
-**Fonte:** Relatório Técnico de Redefinição do Perfil do Consumo - Marco 2025
-**Autor:** Heloisa Silva
-
-Os dados etários indicam maior concentração em públicos de 41 anos ou mais (especialmente 61 a 70 anos), o que reforça a relevância dos perfis Baby Boomers e Geração Silenciosa. A predominância de reclamações (71,3%) corrobora a busca dessas gerações maduras por resolução de conflitos, enquanto as consultas (28,7%) podem representar demandas de públicos mais digitalizados.
-
-#### Análise realizada por Heitor Macedo Ricardo
+- **Demografia e Comportamento:** O público é predominantemente maduro (maior concentração acima de 41 anos, com destaque para a faixa de 61 a 70 anos) e feminino (cerca de 55% a 57%). A grande maioria dos acessos (71,3%) tem foco estrito na resolução de conflitos (reclamação/denúncia), sobretudo relacionados a assuntos financeiros (47,6%).
+- **Usabilidade e Barreiras:** O portal apresenta barreiras restritivas (como a exigência de número de protocolo da empresa antes do registro formal), faz uso frequente de vocabulário jurídico inacessível ao público geral e possui instruções longas e fragmentadas, o que dificulta o processo e gera frustração no usuário.
 
 *[📄 Abrir Relatório de Análise Documental](../atas/analise_documental_procon_df_abnt%20(1).pdf){: target="\_blank" }*
-
-Focada na avaliação da usabilidade e clareza das informações oficiais (FAQ, Cartilhas, Instruções do PROCON-DF):
-
-- **Barreiras Restritivas:** O sistema exige o **número de protocolo da empresa fornecedora** antes do registro formal. Essa regra é "invisível" nos fluxos principais e não está clara na FAQ, gerando frustração.
-- **Vocabulário Inacessível:** Frequente uso de jargão jurídico ("demanda", "manifestação", "fornecedor"), que afasta usuários sem formação jurídica, alinhando-se à frustração percebida no grupo de foco.
-- **Complexidade da Tarefa:** O manual de reclamação é extenso e fragmentado em múltiplas etapas/páginas, confirmando a percepção de um portal "poluído" e difícil de navegar.
-
-#### Análise documental complementar realizada por Pedro Augusto Moretti Moreira
-
-Baseada na Carta de Serviços (2025), teses acadêmicas (Nakamura, 2015) e matérias jornalísticas (2024):
-
-| Atributo            | Evidência encontrada                                                                                                                                 |
-| :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Público‑alvo oficial| Pessoas físicas residentes no DF ou que tiveram relação de consumo no DF; PJs devem comprovar condição de consumidor final (Carta de Serviços 2025). |
-| Gênero              | 57% mulheres, 43% homens — predominância feminina (Nakamura, 2015).                                                                                  |
-| Faixa etária        | Concentração entre 21 e 60 anos, com destaque para 31‑50 anos (Nakamura, 2015).                                                                      |
-| Volume de uso       | Mais de 73 mil consumidores atendidos em 2024 (Jornal de Brasília, 2024).                                                                            |
-| Canais e objetivos  | Atendimento online e presencial; usuários buscam principalmente registro e acompanhamento de reclamações (Jornal de Brasília, 2024).                 |
-
-Esses achados confirmam a predominância feminina, a amplitude da faixa etária real (que vai além do público jovem universitário) e o foco estrito do usuário na resolução de conflitos.
 
 ---
 
@@ -201,15 +124,21 @@ A triangulação dos dados coletados permite contrastar a amostra qualitativa pr
 
 O resultado dessa consolidação nos permite definir com clareza três perfis distintos de usuários para o sistema, estruturados de acordo com seus objetivos, sua frequência de uso e seu impacto nas decisões de design:
 
-### Perfil Primário: O Consumidor Reclamante
-O usuário foco principal do sistema, representando a grande maioria dos acessos (cerca de 71% focados em registrar reclamações formais).
+### Perfil Primário: O Consumidor (Reclamante e Informacional)
 
-- **Demografia:** Ampla faixa etária (com destaque para adultos entre 31 e 60+ anos), maioria feminina. Embora a pesquisa presencial tenha focado em jovens, a análise documental prova que a base de usuários é predominantemente madura.
-- **Fluência Tecnológica:** Variável, tendendo a níveis mais básicos. A presença significativa de Baby Boomers e Geração X indica que a interface não pode presumir alto letramento digital. Acesso frequente via **Smartphone**.
-- **Objetivo:** Registrar uma reclamação de forma rápida, eficiente e guiada para solucionar problemas financeiros ou de serviços.
-- **Dores e Necessidades:** Sofrem com o vocabulário jurídico e com processos longos e fragmentados. Se até nativos digitais (jovens do grupo de foco) se perdem, esse perfil primário necessita de fluxos passo a passo altamente guiados, linguagem extremamente simples (sem "juridiquês") e expectativas claras sobre pré-requisitos (como a obrigatoriedade do protocolo prévio da empresa).
+#### Obtido através do Grupo de Foco e Entrevista (Consumidores)
+
+O usuário foco principal do sistema, representando a grande maioria dos acessos (cerca de 71% focados em registrar reclamações formais e 28,7% em consultas). Busca o PROCON-DF tanto para solucionar um conflito ativo quanto para educação, prevenção e orientação.
+
+- **Demografia:** Ampla faixa etária (com destaque para adultos entre 31 e 60+ anos para reclamações, e jovens adultos para consultas), maioria feminina. Embora a pesquisa presencial tenha focado em jovens, a análise documental prova que a base geral de usuários é predominantemente madura.
+- **Fluência Tecnológica:** Variável, tendendo a níveis mais básicos para o público mais velho e alta para nativos digitais. A presença significativa de Baby Boomers e Geração X indica que a interface não pode presumir alto letramento digital. Acesso frequente via **Smartphone**.
+- **Objetivo:** Registrar uma reclamação de forma rápida, eficiente e guiada para solucionar problemas financeiros ou de serviços; e também tirar dúvidas em perguntas frequentes (FAQ), consultar listas de empresas não recomendadas e entender a legislação.
+- **Dores e Necessidades:** Sofrem com o vocabulário jurídico, com processos longos e fragmentados e com dificuldades de encontrar informações relevantes em meio a uma navegação confusa. Necessitam de fluxos passo a passo altamente guiados, linguagem extremamente simples (sem "juridiquês"), ferramenta de busca robusta, categorização temática e expectativas claras sobre pré-requisitos (como a obrigatoriedade do protocolo prévio da empresa).
 
 ### Perfil Secundário: O Fornecedor / Pequeno Empreendedor
+
+#### Obtido através da Entrevista (Fornecedores)
+
 O usuário representante do setor produtivo, que acessa o sistema majoritariamente para cumprir obrigações legais em resposta às demandas do perfil primário.
 
 - **Demografia:** Proprietários, gestores ou advogados de micro e pequenas empresas (como comércios locais).
@@ -217,13 +146,16 @@ O usuário representante do setor produtivo, que acessa o sistema majoritariamen
 - **Objetivo:** Resolver pendências administrativas, responder notificações oficiais e manter a regularidade da sua empresa.
 - **Dores e Necessidades:** Sentem-se ignorados e prejudicados pela estrutura do portal atual. Precisam de um acesso direto ("Área da Empresa") e clareza nas notificações, eliminando o ruído visual gerado por cartilhas de consumidor ou notícias institucionais que não se aplicam ao seu negócio.
 
-### Perfil Terciário: O Consumidor Informacional
-O usuário que não possui um conflito ativo (ou que ainda não tentou o contato com a empresa), mas busca o PROCON-DF para educação, prevenção e orientação (representando os 28,7% de "consultas").
+### Perfil Terciário: O Funcionário / Atendente do PROCON-DF
 
-- **Demografia:** Geralmente jovens adultos (Geração Z e Millennials), estudantes ou consumidores precavidos antes de grandes aquisições.
-- **Fluência Tecnológica:** Alta (nativos digitais e exploradores tecnológicos).
-- **Objetivo:** Tirar dúvidas em perguntas frequentes (FAQ), consultar listas de empresas não recomendadas, baixar cartilhas de direitos do consumidor e entender a legislação.
-- **Dores e Necessidades:** Têm dificuldade de encontrar informações relevantes em meio a uma navegação confusa. Necessitam de uma ferramenta de busca robusta, categorização temática de direitos e acesso mobile-friendly a manuais e cartilhas.
+#### Obtido através da Análise Documental (PROCON-DF)
+
+O usuário interno (stakeholder) do órgão, responsável por receber, fazer a triagem e dar andamento aos processos gerados pelo perfil primário.
+
+- **Demografia:** Servidores públicos, terceirizados e estagiários de Direito. Faixa etária ampla (geralmente entre 20 e 50 anos), com nível de instrução superior em curso ou completo.
+- **Fluência Tecnológica:** Intermediária a alta. Utilizam o sistema de forma contínua durante toda a jornada de trabalho, acessando-o quase que exclusivamente por computadores de mesa (Desktop).
+- **Objetivo:** Analisar denúncias recebidas, validar a documentação comprobatória, atualizar o status dos processos e intermediar o contato oficial entre o consumidor e a empresa.
+- **Dores e Necessidades:** Como o uso da ferramenta é diário e intenso, a eficiência e a facilidade de recordação tornam-se prioridades absolutas. Sofrem com sistemas internos ineficientes que exigem muitos cliques ou navegação demorada. Necessitam de painéis (dashboards) organizados com a fila de trabalho, atalhos no teclado para ações repetitivas, e integração fluida para visualizar os anexos (provas) enviados pelo consumidor de forma rápida e sem travamentos.
 
 ---
 
@@ -300,3 +232,4 @@ Agradecimento ao **Gemini** pela ajuda na estruturação do deste documento.
 | `1.3`  | 03/05/2026 | Adição da entrevista ao consumidor (Heitor Macedo Ricardo), reorganização das tabelas de Material de Apoio e Relatórios, e nova análise documental do PROCON-DF. | Heitor Macedo Ricardo | Heloisa Silva |
 | `1.4`  | 03/05/2026 | Inclusão da análise documental complementar (Pedro Moretti), integração dos achados ao perfil e adição das referências correspondentes.      | Pedro Augusto Moretti Moreira         | Heloisa Silva |
 | `1.5`  | 05/05/2026 | Ajustes a partir dos feedbacks da apresentação  | Heitor Macedo Ricardo | Heloisa Silva |
+| `1.6`  | 08/05/2026 | Unificação do perfil de consumidor, adição do perfil de funcionário e padronização em tabela dos resultados das entrevistas | Heitor Macedo Ricardo | Heloisa Silva |

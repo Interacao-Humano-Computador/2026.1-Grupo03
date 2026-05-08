@@ -71,7 +71,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 - Espera que o design seja **limpo e sem poluição visual** — sem banners, sem menus escondidos, sem excesso de texto.
 
 !!! info "Responsável por este artefato"
-    A **Persona Primária Laura** foi criada por **Heitor Macedo Ricardo**, responsável pela funcionalidade *Portal de Acompanhamento de Reclamações com Notificações Ativas* na Etapa 2 do projeto. Integra o conjunto de artefatos da funcionalidade: [Funcionalidade](funcionalidades.md) · [Perfil de Usuário](perfil-usuario.md) · [Cenários](cenarios.md) · [Análise de Tarefas](analise-tarefas.md).
+    Este trecho foi elaborado por **Heitor Macedo Ricardo**, responsável pela [Funcionalidade](funcionalidades.md#1-portal-de-acompanhamento-de-reclamacoes-com-notificacoes-ativas), pela técnica de [Perfil de Usuário](perfil-usuario.md#entrevista-consumidor), pelas [Personas](personas.md#21-persona-primaria-laura-a-universitaria-pratica), pelo [Cenário](cenarios.md#cenario-2-laura-e-a-conciliacao-mobile-first-no-intervalo-da-aula) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -131,7 +131,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 - Espera que a interface da sala mostre o nome e o papel de cada participante de forma fixa, para não precisar deduzir quem é quem durante o debate.
 
 !!! info "Responsável por este artefato"
-    A **Persona Primária Lucas** foi criada por **Pedro Augusto Moretti Moreira** e **Heitor Macedo Ricardo**, com base nos dados consolidados do Grupo de Foco. Adaptada para refletir a participação de Lucas na funcionalidade *Sala de Conciliação Virtual com Mediação Assistida*, garantindo que o perfil técnico do usuário seja contemplado no design da experiência de audiência remota.
+    Este trecho foi elaborado por **Pedro Augusto Moretti Moreira** (com coautoria de Heitor Macedo Ricardo), responsável pela [Funcionalidade](funcionalidades.md#2-sala-de-conciliacao-virtual-com-mediacao-assistida), pela técnica de [Perfil de Usuário](perfil-usuario.md#entrevistas-fornecedores), pelas [Personas](personas.md#22-persona-primaria-lucas-o-consumidor-exigente), pelos [Cenários](cenarios.md#cenario-1-lucas-gustavo-e-a-resolucao-virtual-de-conflito) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -179,7 +179,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 - **Foco em Mobile:** A interface deve ser totalmente adaptada para uso em smartphones, evitando menus escondidos.
 
 !!! info "Responsável por este artefato"
-    A **Persona Primária Ivone** foi criada por **Pedro Augusto Macedo Del Castilo**, responsável pela funcionalidade *Botão de Reclamação Rápida*.
+    Este trecho foi elaborado por **Pedro Augusto Macedo Del Castilo**, responsável pela [Funcionalidade](funcionalidades.md#5-assistente-de-triagem-guiada-para-reclamacoes), pela [Persona](personas.md#23-persona-primaria-ivone-a-iniciante-vulneravel) e pelo [Cenário](cenarios.md#cenario-6-dona-ivone-e-a-superacao-da-barreira-digital).
 
 ---
 
@@ -237,7 +237,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 - Consulta de protocolo sem excesso de etapas ou campos obrigatórios.
 
 !!! info "Responsável por este artefato"
-    A **Persona Primária Maria Helena Costa** foi criada por **Heloisa Laura Santos da Silva** com base nos dados da análise documental, que indicam maior concentração de atendimentos em faixas etárias mais altas, predominância de reclamações ou denúncias e participação feminina mais elevada.
+    Este trecho foi elaborado por **Heloisa Laura Santos da Silva**, responsável pela [Funcionalidade](funcionalidades.md#3-validacao-de-documentos-com-ocr), pela técnica de [Perfil de Usuário](perfil-usuario.md#analise-de-documentos), pela [Persona](personas.md#24-persona-primaria-maria-helena-a-aposentada-pratica), pelo [Cenário](cenarios.md#cenario-4-maria-helena-e-a-reclamacao-com-ocr) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -295,7 +295,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 - **Resumo Executivo:** Um resumo do status da reclamação logo após o login.
 
 !!! info "Responsável por este artefato"
-    A **Persona Primária Roberto Oliveira** foi criada por **Mateus Rodrigues Barreto**, baseada nos dados da análise documental que apontam os "Assuntos Financeiros" como a maior causa de atendimentos (47,62%) e o perfil da Geração X como um dos mais presentes no sistema.
+    Este trecho foi elaborado por **Mateus Rodrigues Barreto**, responsável pela [Funcionalidade](funcionalidades.md#4-painel-de-monitoramento-de-prazos-com-alertas-juridicos), pela [Persona](personas.md#25-persona-primaria-roberto-o-pragmatico), pelo [Cenário](cenarios.md#cenario-5-roberto-e-a-eficiencia-na-resolucao) e pela [Análise de Tarefas](analise-tarefas.md#3-goms-goals-operators-methods-and-selection-rules).
 
 ---
 
@@ -352,7 +352,7 @@ O elenco de personas deste projeto foi construído a partir dos dados coletados 
 - **Simplificação Terminológica:** Uso de linguagem acessível que traduza os termos do CDC para a realidade do pequeno lojista.
 
 !!! info "Responsável por este artefato"
-    A **Persona Secundária Gustavo** foi criada por **Pedro Augusto Moretti Moreira**, baseada na entrevista semiestruturada realizada com o perfil de proprietário de estabelecimento comercial.
+    Este trecho foi elaborado por **Pedro Augusto Moretti Moreira**, responsável pela [Funcionalidade](funcionalidades.md#2-sala-de-conciliacao-virtual-com-mediacao-assistida), pela técnica de [Perfil de Usuário](perfil-usuario.md#entrevistas-fornecedores), pelas [Personas](personas.md#22-persona-primaria-lucas-o-consumidor-exigente), pelos [Cenários](cenarios.md#cenario-1-lucas-gustavo-e-a-resolucao-virtual-de-conflito) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -419,7 +419,7 @@ Seu José representa o perfil de consumidor para o qual o sistema **não foi pro
 - **Insegurança com Dados:** Sente-se intimidado ao saber que seus dados pessoais (nome, CPF, endereço) serão compartilhados automaticamente com a empresa reclamada, sem entender as implicações legais disso devido à linguagem técnica da política de privacidade.
 
 !!! info "Responsável por este artefato"
-    A **Antipersona Seu José** foi criada por **Heitor Macedo Ricardo**, com base nos dados do Perfil de Usuário e nas barreiras de acessibilidade digital identificadas na análise documental do portal do PROCON-DF.
+    Este trecho foi elaborado por **Heitor Macedo Ricardo**, responsável pela [Funcionalidade](funcionalidades.md#1-portal-de-acompanhamento-de-reclamacoes-com-notificacoes-ativas), pela técnica de [Perfil de Usuário](perfil-usuario.md#entrevista-consumidor), pelas [Personas](personas.md#21-persona-primaria-laura-a-universitaria-pratica), pelo [Cenário](cenarios.md#cenario-2-laura-e-a-conciliacao-mobile-first-no-intervalo-da-aula) e pela [Análise de Tarefas](analise-tarefas.md#1-analise-hierarquica-de-tarefas-hta).
 
 ---
 
@@ -445,3 +445,4 @@ Agradecimento ao **Gemini 3 Flash** pela ajuda na criação e estruturação das
 | `1.3` | 03/05/2026 | Criação da persona Ivone (Etapa 2). | Pedro Macedo | Heitor Macedo |
 | `1.4` | 03/05/2026 | Inclusão da Persona Primária Roberto Oliveira. | Mateus Rodrigues Barreto | Pedro Moretti |
 | `1.5` | 03/05/2026 | Padronização da imagem da Persona Laura para o padrão `<p align="center"><img>` das demais personas; adição da Antipersona Seu José com foto, tabela de atributos e 4 seções temáticas. | Heitor Macedo Ricardo | Pedro Moretti |
+| `1.6` | 08/05/2026 | Padronização dos blocos de responsabilidade com hiperlinks de rastreabilidade entre artefatos. | Heitor Macedo Ricardo | Heloisa Silva |
