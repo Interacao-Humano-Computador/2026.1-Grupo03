@@ -64,6 +64,7 @@ nav:
     - Personas: analise-requisitos/personas.md
     - Cenários: analise-requisitos/cenarios.md
     - Análise de Tarefas: analise-requisitos/analise-tarefas.md
+    - Princípios Gerais: analise-requisitos/principios-gerais.md
   - Inspeção:
     - Entrega 01: inspecoes/entrega01.md
     - Entrega 02: inspecoes/entrega02.md
