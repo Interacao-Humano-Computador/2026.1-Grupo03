@@ -50,14 +50,23 @@ Abaixo, detalhamos os princípios gerais que guiarão o projeto de redesign do s
 ## 3. Comprovação e Referência Bibliográfica
 Conforme exigência do **Item 11 e 12** da verificação da Etapa 3, abaixo consta a referência teórica que fundamenta os princípios gerais de projeto adotados.
 
+## Agradecimentos à IA
+
+Agradecimento ao **ChatGpt** pela ajuda na estruturação deste documento.
+
 **Referência:** 
 > BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021. (Capítulo 10: Princípios e Diretrizes para o Design de IHC, Seção 10.2).
 
-**[INSERIR AQUI A FOTO/PRINT DA PÁGINA 221 E 222 DO LIVRO BARBOSA E SILVA QUE MOSTRA O INÍCIO DA SEÇÃO 10.2]**
+### Figura 1 – Início da Seção 10.2: Princípios e Diretrizes Gerais
+
+![Seção 10.2 do livro Barbosa e Silva](images/secao10-2.png)
+
+**Fonte:** BARBOSA et al. (2021, p. 252).
 
 ---
 
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
+| 1.1 | 10/05/2026 | Adição das imagens na referencia e agradecimento a IA | Pedro Macedo | Heitor Macedo Ricardo |
 | 1.0 | 10/05/2026 | Criação dos Princípios Gerais de Projeto. | Heitor Macedo Ricardo | Pedro Macedo |
