@@ -46,11 +46,11 @@ A estrutura segue a padronização proposta por **Marcus (1991)** e **Mayhew (19
 
 A análise de IHC baseou‑se na extração direta de dados e na engenharia reversa do portal oficial do **Instituto de Defesa do Consumidor do Distrito Federal (PROCON-DF)**. Os artefatos técnicos analisados são:
 
-1. <a href="https://www.procon.df.gov.br/wp-content/themes/themes-default-gdf/css/bootstrap.css" target=_blank>`procon‑bootstrap.css`</a>: Estrutura de grid responsivo (Bootstrap 3).
-2. <a href="https://www.procon.df.gov.br/wp-content/themes/themes-default-gdf/style.css" target=_blank>`procon‑style1.css`</a>: Folha principal (GDF Theme).
-3. <a href="https://www.procon.df.gov.br/wp-content/themes/themes-default-gdf/js/library/icomoon/style.css" target=_blank>`procon‑style2.css`</a>: Componentes internos (IcoMoon Library).
-4. <a href="https://www.procon.df.gov.br/wp-content/themes/themes-default-gdf/css/icomoon.css" target=_blank>`procon‑icomoon.css`</a>: Biblioteca de ícones institucionais do governo.
-5. <a href="https://www.procon.df.gov.br/wp-content/plugins/categories-images/assets/css/zci-styles.css?ver=3.3.1" target=_blank>`procon‑zci‑styles.css`</a>: Grid de categorias de serviços.
+1. <a href="../images/procon-bootstrap.css" target=_blank>`procon‑bootstrap.css`</a>: Estrutura de grid responsivo (Bootstrap 3).
+2. <a href="../images/procon-style1.css" target=_blank>`procon‑style1.css`</a>: Folha principal (GDF Theme).
+3. <a href="../images/procon-style2.css" target=_blank>`procon‑style2.css`</a>: Componentes internos (IcoMoon Library).
+4. <a href="../images/procon-icomoon.css" target=_blank>`procon‑icomoon.css`</a>: Biblioteca de ícones institucionais do governo.
+5. <a href="../images/procon-zci-styles.css" target=_blank>`procon‑zci‑styles.css`</a>: Grid de categorias de serviços.
 
 ### 2.2 Ambiente de trabalho do usuário
 
