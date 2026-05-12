@@ -39,20 +39,20 @@ A tabela abaixo define os indicadores numéricos que comprovarão o sucesso do r
 ## 4. Comprovação e Referência Bibliográfica
 Conforme exigência dos **Itens 13 e 14** da avaliação da Etapa 3, abaixo consta a referência teórica que fundamenta a definição das metas de usabilidade, as razões de seleção e o uso de faixas de valores.
 
-**Referência:** 
-> BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021. (Capítulo 3, Seção 3.2.1, p. 35-36; e Capítulo 6, Seção 6.3.2, p. 103).
+**Referência Bibliográfica:**
+> BARBOSA, S. D. J. et al. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 3, Seção 3.2.1, p. 35-36; e Capítulo 6, Seção 6.3.2, p. 103).
 
 ### Figura 1 – Fatores de Usabilidade de Nielsen
 <div align="center">
 <img src="../fatores_de_nielsen.png" alt="Fatores de Usabilidade de Nielsen" width="800">
 </div>
-*Fonte: BARBOSA et al. (2021, p. 35).*
+*Fonte: BARBOSA, S. D. J. et al. (2021, p. 35).*
 
 ### Figura 2 – Faixas de Valores para Indicadores de Usabilidade
 <div align="center">
 <img src="../faixas_de_valores.png" alt="Faixas de Valores para Indicadores de Usabilidade" width="800">
 </div>
-*Fonte: BARBOSA et al. (2021, p. 103).*
+*Fonte: BARBOSA, S. D. J. et al. (2021, p. 103).*
 
 ---
 
