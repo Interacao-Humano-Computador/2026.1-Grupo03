@@ -6,7 +6,7 @@
 
 ### 1.1 Objetivo do Guia de Estilo
 
-Este guia constitui o registro formal das principais decisões de design da interface do portal Procon‑DF. Segundo **Barbosa e Silva (2021)**<a href="#ref-barbosa"><sup>1</sup></a>, o guia de estilo é uma ferramenta essencial para garantir que as diretrizes de IHC sejam efetivamente incorporadas no produto final, atuando como canal de comunicação entre designers e desenvolvedores.
+Este guia constitui o registro formal das principais decisões de design da interface do portal Procon‑DF. Segundo **Barbosa e Silva (2021)**, o guia de estilo é uma ferramenta essencial para garantir que as diretrizes de IHC sejam efetivamente incorporadas no produto final, atuando como canal de comunicação entre designers e desenvolvedores.
 
 O propósito não é apenas restringir a criatividade por meio de regras, mas apoiar o trabalho coletivo por intermédio de um processo reflexivo de design (**BARBOSA; SILVA, 2021**), evitando que decisões fundamentais se percam em manutenções futuras.
 
@@ -27,10 +27,10 @@ A estrutura segue a padronização proposta por **Marcus (1991)** e **Mayhew (19
 
 ### 1.3 Público‑alvo
 
-* **Desenvolvedores front-end:** Devem usar as classes CSS documentadas sem recriar estilos.
-* **Gestores de conteúdo (WordPress):** Devem respeitar os padrões de nomenclatura e estrutura de páginas.
-* **Designers de interface:** Devem consultar este guia antes de propor qualquer alteração visual.
-* **Gerentes e equipe de suporte:** Referência para entender decisões já tomadas e justificá-las.
+*   **Desenvolvedores front-end:** Devem usar as classes CSS documentadas sem recriar estilos.
+*   **Gestores de conteúdo (WordPress):** Devem respeitar os padrões de nomenclatura e estrutura de páginas.
+*   **Designers de interface:** Devem consultar este guia antes de propor qualquer alteração visual.
+*   **Gerentes e equipe de suporte:** Referência para entender decisões já tomadas e justificá-las.
 
 ### 1.4 Como utilizar e manter o guia
 
@@ -46,11 +46,11 @@ A estrutura segue a padronização proposta por **Marcus (1991)** e **Mayhew (19
 
 A análise de IHC baseou‑se na extração direta de dados e na engenharia reversa do portal oficial do **Instituto de Defesa do Consumidor do Distrito Federal (PROCON-DF)**. Os artefatos técnicos analisados são:
 
-1. <a href="../images/procon-bootstrap.css" target=_blank>`procon‑bootstrap.css`</a>: Estrutura de grid responsivo (Bootstrap 3).
-2. <a href="../images/procon-style1.css" target=_blank>`procon‑style1.css`</a>: Folha principal (GDF Theme).
-3. <a href="../images/procon-style2.css" target=_blank>`procon‑style2.css`</a>: Componentes internos (IcoMoon Library).
-4. <a href="../images/procon-icomoon.css" target=_blank>`procon‑icomoon.css`</a>: Biblioteca de ícones institucionais do governo.
-5. <a href="../images/procon-zci-styles.css" target=_blank>`procon‑zci‑styles.css`</a>: Grid de categorias de serviços.
+1.  <a href="../images/procon-bootstrap.css" target="_blank">`procon‑bootstrap.css`</a>: Estrutura de grid responsivo (Bootstrap 3).
+2.  <a href="../images/procon-style1.css" target="_blank">`procon‑style1.css`</a>: Folha principal (GDF Theme).
+3.  <a href="../images/procon-style2.css" target="_blank">`procon‑style2.css`</a>: Componentes internos (IcoMoon Library).
+4.  <a href="../images/procon-icomoon.css" target="_blank">`procon‑icomoon.css`</a>: Biblioteca de ícones institucionais do governo.
+5.  <a href="../images/procon-zci-styles.css" target="_blank">`procon‑zci‑styles.css`</a>: Grid de categorias de serviços.
 
 ### 2.2 Ambiente de trabalho do usuário
 
@@ -66,20 +66,26 @@ O Procon‑DF é um portal governamental acessado por cidadãos buscando direito
 
 O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 colunas do Bootstrap 3.
 
-* **Grid principal:** 12 colunas responsivas.
-* **Layout interno:** 8 colunas (conteúdo) + 4 colunas (sidebar).
-* **Cores de fundo:** `body` (**#F5F5F5**), conteúdo (**#FFFFFF**), corpo-index (**#FBFBFB**).
+<figure align="center">
+  <img src="../images/main-grid.png" alt="Grade Principal do Portal" width="600">
+  <figcaption align="center">
+    <b>Figura 1:</b> O seguinte exemplo de disposição espacial prioriza o conteúdo de destaque ladeado por uma barra lateral de acesso rápido.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
 
 **Espaçamentos utilitários (Rationale: Manter ritmo vertical consistente):**
+*   `.margin‑top‑10` a `.margin‑top‑80`
+*   `.margin‑bottom‑20` a `.margin‑bottom‑80`
+*   `.padding‑10`
 
-* `.margin‑top‑10` a `.margin‑top‑80`
-* `.margin‑bottom‑20` a `.margin‑bottom‑80`
-* `.padding‑10`
-
-**Proporções:**
-
-* Imagens carrossel: altura fixa de **420px**, `object-fit: cover`.
-* Vídeos: proporção **16:9** via `padding-top: 56.25%`.
+<figure align="center">
+  <img src="../images/news-grid.png" alt="Grid de Notícias" width="600">
+  <figcaption align="center">
+    <b>Figura 2:</b> O seguinte exemplo de componente de grade utiliza categorias coloridas para segmentar tipos de informação, como Fiscalização e Erratas.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
 
 ### 3.2 Janelas e Cartões (Cards)
 
@@ -89,8 +95,22 @@ O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 col
 | `card-com-foto` (hover) | border: 1px solid **#CBCBCB**, box-shadow: 10px 10px 20px **#DFDFDF** |
 | `card-sem-foto` | height: 400px, padding: 100px 30px 30px 30px |
 | `box-servicos` | **border-radius: 10px**, height: 263px |
-| `destaques-da-secretaria` | min-height: 420px, **border-radius: 10px** |
-| Grid ZCI | grid-gap: 20px, 3 colunas padrão, images border-radius: 8px |
+
+<figure align="center">
+  <img src="../images/external-services.png" alt="Box de serviços" width="600">
+  <figcaption align="center">
+    <b>Figura 3:</b> O seguinte exemplo de box de serviços demonstra a organização de informações por categorias.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
+
+<figure align="center">
+  <img src="../images/news-grid.png" alt="Cards com foto" width="600">
+  <figcaption align="center">
+    <b>Figura 3:</b> O seguinte exemplo de cards com foto demonstra a organização de informações por categorias.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
 
 ### 3.3 Tipografia
 
@@ -102,19 +122,15 @@ O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 col
 | **Open Sans** | Corpo de texto, parágrafos e legendas | Google Fonts |
 | **Montserrat** | UI: Botões, menus e labels | Google Fonts |
 
-**Detalhamento de Escala:**
-* **h1 a h5:** 60px, 48px, 36px, 30px, 24px (Cor: **#515151**).
-* **Corpo (body):** 16px, `line-height: 1.4-1.7em`.
-* **Metadados:** 14px (**#999**).
+<figure align="center">
+  <img src="../images/nav-items.png" alt="Itens de Menu" width="300">
+  <figcaption align="center">
+    <b>Figura 3:</b> O seguinte exemplo de tipografia Montserrat aplicada em submenus garante clareza na leitura de itens de navegação interna.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
 
-### 3.4 Simbolismo: ícones
-
-* **Conjunto 1 (GDF Institucional):** Identidade e acessibilidade (`.icon-brasao_gdf`, `.icon-contraste`, `.icon-aumenta_fonte`).
-* **Conjunto 2 (Procon Específico):** Ações diretas (`.icon-denuncia-icone`, `.icon-reclamacao-icone`, `.icon-sugestao-icone`).
-
-**Regra:** Ícones nunca devem ser exibidos sem um rótulo textual adjacente
-
-### 3.5 Paleta de cores
+### 3.4 Paleta de cores
 
 **Tabela 3 – Camadas Funcionais de Cor**
 
@@ -123,17 +139,28 @@ O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 col
 | **Azul Principal** | **#4079BC** | Links, botões secundários e títulos. |
 | **Magenta (CTA)** | **#A93D8E** | Botões primários (Classes `.btn-verde`). |
 | **Amarelo Menu** | **#FFD200** | Identidade GDF no menu de navegação. |
-| **Vermelho Erro** | **#EA4D3C** | Feedback negativo e bordas de erro. |
 | **Verde Sucesso** | **#29BCB6** | Feedback positivo e botões de envio. |
 
-### 3.6 Animações e transições
+<figure align="center">
+  <img src="../images/navbar.png" alt="Barra de Navegação" width="600">
+  <figcaption align="center">
+    <b>Figura 4:</b> O seguinte exemplo de barra de navegação utiliza o amarelo institucional para reforçar a identidade do governo local.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
 
-| Elemento | Propriedade | Duração |
-| :--- | :--- | :--- |
-| Botões e Links | `all linear` | **0,1 s** a **0,2 s** |
-| Galeria e Grid ZCI | `all linear` / `transform` | **0,3 s** |
+### 3.5 Simbolismo: ícones e Identidade
 
-* **Hover Dinâmico:** Botão topo (`scale 1.03`); Imagens ZCI (`scale 1.05`); Galeria (`brightness 0.8`).
+*   **Conjunto 1 (GDF Institucional):** Identidade e acessibilidade (`.icon-brasao_gdf`, `.icon-contraste`, `.icon-aumenta_fonte`).
+*   **Conjunto 2 (Procon Específico):** Ações diretas (`.icon-denuncia-icone`, `.icon-reclamacao-icone`, `.icon-sugestao-icone`).
+
+<figure align="center">
+  <img src="../images/gdf-logo.png" alt="Logotipo GDF" width="200">
+  <figcaption align="center">
+    <b>Figura 5:</b> O seguinte exemplo de logotipo estabelece a autoridade governamental no topo da interface.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
 
 ---
 
@@ -141,27 +168,46 @@ O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 col
 
 ### 4.1 Estilos de interação
 
-O portal prioriza a interação por **apontar e clicar**. 
+O portal prioriza a interação por **apontar e clicar**.
 
-* **Focus:** Atualmente `outline: none` (Aviso: Recomenda-se substituir para conformidade WCAG).
-* **Active:** Botões deslocam `top: 1px` (efeito tátil).
-* **Menu:** 1º nível com filhos tem `pointer-events: none` (abre submenu); subitens recebem fundo **#333333** no hover.
+<figure align="center">
+  <img src="../images/breadcrumb.png" alt="Trilha de Navegação" width="1000">
+  <figcaption align="center">
+    <b>Figura 6:</b> O seguinte exemplo de trilha de navegação indica a localização exata do usuário dentro da hierarquia do portal.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
 
 ### 4.2 Seleção de um estilo
 
 Conforme **Mayhew (1999** *apud* **BARBOSA; SILVA, 2021)**, os estilos minimizam a carga de memória:
 
-1. **Navegação Principal:** Seleção por menus no topo para visibilidade imediata.
-2. **Consumo de Informação:** Manipulação direta via Cards para varredura rápida.
-3. **Tarefas de Entrada:** Preenchimento de formulários em áreas de reclamação.
+1.  **Navegação Principal:** Seleção por menus no topo para visibilidade imediata.
+2.  **Consumo de Informação:** Manipulação direta via Cards para varredura rápida.
+3.  **Tarefas de Entrada:** Preenchimento de formulários em áreas de reclamação.
 
 ### 4.3 Aceleradores (Acessibilidade)
 
 Seguindo a **WCAG 2.1**, o sistema oferece:
 
-* **Links de Salto:** Classe `.ancoras`.
-* **Ajuste de Fonte:** Slider range com thumb **#01A453**.
-* **VLibras:** Widget fixo de tradução.
+*   **Ajuste de Fonte:** Slider range com thumb **#01A453**.
+*   **VLibras:** Widget fixo de tradução.
+
+<figure align="center">
+  <img src="../images/acessibility.png" alt="Controles de Acessibilidade" width="400">
+  <figcaption align="center">
+    <b>Figura 7:</b> O seguinte exemplo de painel de acessibilidade permite ao usuário customizar a interface para suas necessidades visuais.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
+
+<figure align="center">
+  <img src="../images/libras.png" alt="Widget VLibras" width="200">
+  <figcaption align="center">
+    <b>Figura 8:</b> O seguinte exemplo de widget garante suporte à comunidade surda através da tradução para Libras.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
 
 ---
 
@@ -169,10 +215,8 @@ Seguindo a **WCAG 2.1**, o sistema oferece:
 
 ### 5.1 Preenchimento de campos e seleção
 
-* **Inputs:** `border: 1px solid #E0E0E0`, `border-radius: 4px`.
-* **Select:** `appearance: none`, fundo **#E0E0E0** com seta SVG customizada.
-* **Paginação:** Item ativo (**#4079BC**, branco, borda 2px); padrão (**#E0E0E0**, cinza).
-* **Abas (nav-tabs):** Ativa com `border-bottom: 3px solid #00A858`.
+*   **Inputs:** `border: 1px solid #E0E0E0`, `border-radius: 4px`.
+*   **Select:** `appearance: none`, fundo **#E0E0E0** com seta SVG customizada.
 
 ### 5.2 Ativação — Catálogo de botões
 
@@ -180,8 +224,30 @@ Seguindo a **WCAG 2.1**, o sistema oferece:
 | :--- | :--- | :--- | :--- |
 | `.btn-verde-grande` | **#A93D8E** | **#CB5599** | CTA principal (Anatomia: 15px 10px, Montserrat, radius 10px). |
 | `.btn-azul-medio` | **#4079BC** | **#346399** | Ações secundárias importantes. |
-| `.btn-acesso-rapido` | `white` | **#6797CF** | Atalhos (border-radius: 20px). |
-| `.btn-outline-verde` | Transparente | - | Borda e texto **#00A858**. |
+
+<figure align="center">
+  <img src="../images/cta-button.png" alt="Botão CTA" width="400">
+  <figcaption align="center">
+    <b>Figura 9:</b> O seguinte exemplo de CTA principal utiliza a cor magenta para guiar o usuário rumo à conversão do serviço.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
+
+<figure align="center">
+  <img src="../images/most-searched.png" alt="Serviços Mais Procurados" width="600">
+  <figcaption align="center">
+    <b>Figura 10:</b> O seguinte exemplo de blocos de interação destaca as tarefas mais comuns com feedback visual de inversão de cores.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
+
+<figure align="center">
+  <img src="../images/search-button.png" alt="Botão de Busca" width="100">
+  <figcaption align="center">
+    <b>Figura 11:</b> O seguinte exemplo de funcionalidade de busca utiliza alto contraste cromático para rápida localização pelo usuário.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
 
 ---
 
@@ -191,16 +257,22 @@ Seguindo a **WCAG 2.1**, o sistema oferece:
 
 Convenção **BEM Simplificada**:
 
-* **box-**: Caixas temáticas (`.box-diario-oficial`).
-* **btn-**: Elementos de ativação.
-* **area-**: Sub-regiões (`.area-textual`).
-* **topo-**: Cabeçalho (`.topo-titulo-site`).
+*   **box-**: Caixas temáticas (`.box-diario-oficial`).
+*   **btn-**: Elementos de ativação.
+*   **area-**: Sub-regiões (`.area-textual`).
 
-### 6.2 Sequências de diálogo
+### 6.2 Sequências de diálogo e Rodapé
 
-* **Feedback de Erro:** Borda **#EA4D3C** (classe `.input-erro`).
-* **Confirmação de Envio:** Botão `.btnEnviar` (**#29BCB6**).
-* **Seleção em Lista:** Hover com `box-shadow` e `border-left: 5px solid #006BB6`.
+*   **Feedback de Erro:** Borda **#EA4D3C** (classe `.input-erro`).
+*   **Confirmação de Envio:** Botão `.btnEnviar` (**#29BCB6**).
+
+<figure align="center">
+  <img src="../images/footer.png" alt="Rodapé do Portal" width="600">
+  <figcaption align="center">
+    <b>Figura 12:</b> O seguinte exemplo de rodapé consolida as informações institucionais e canais de contato de forma clara.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
 
 ---
 
@@ -224,21 +296,13 @@ Agradecimento ao **Gemini** pelo auxílio na estruturação e redação da anál
 
 BARBOSA, S. D. J.; SILVA, B. S. da. **Interação Humano‑Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021.
 
-DISTRITO FEDERAL. Instituto de Defesa do Consumidor (PROCON-DF). **bootstrap.css**. Brasília: PROCON-DF, [2015?]. Disponível em: <a href="https://www.procon.df.gov.br/wp-content/themes/themes-default-gdf/css/bootstrap.css" target=_blank>https://www.procon.df.gov.br/wp-content/themes/themes-default-gdf/css/bootstrap.css</a>. Acesso em: 11 maio 2026.
-
-DISTRITO FEDERAL. Instituto de Defesa do Consumidor (PROCON-DF). **icomoon.css**. Brasília: PROCON-DF, [2015?]. Disponível em: <a href="https://www.procon.df.gov.br/wp-content/themes/themes-default-gdf/css/icomoon.css" target=_blank>https://www.procon.df.gov.br/wp-content/themes/themes-default-gdf/css/icomoon.css</a>. Acesso em: 11 maio 2026.
-
-DISTRITO FEDERAL. Instituto de Defesa do Consumidor (PROCON-DF). **style.css** (IcoMoon Library). Brasília: PROCON-DF, [2015?]. Disponível em: <a href="https://www.procon.df.gov.br/wp-content/themes/themes-default-gdf/js/library/icomoon/style.css" target=_blank>https://www.procon.df.gov.br/wp-content/themes/themes-default-gdf/js/library/icomoon/style.css</a>. Acesso em: 11 maio 2026.
-
-DISTRITO FEDERAL. Instituto de Defesa do Consumidor (PROCON-DF). **style.css** (GDF Theme). Brasília: PROCON-DF, 2015. Disponível em: <a href="https://www.procon.df.gov.br/wp-content/themes/themes-default-gdf/style.css" target=_blank>https://www.procon.df.gov.br/wp-content/themes/themes-default-gdf/style.css</a>. Acesso em: 11 maio 2026.
-
-DISTRITO FEDERAL. Instituto de Defesa do Consumidor (PROCON-DF). **zci-styles.css** (Categories Images Plugin). Brasília: PROCON-DF, [2024?]. Disponível em: <a href="https://www.procon.df.gov.br/wp-content/plugins/categories-images/assets/css/zci-styles.css" target=_blank>https://www.procon.df.gov.br/wp-content/plugins/categories-images/assets/css/zci-styles.css</a>. Acesso em: 11 maio 2026.
+DISTRITO FEDERAL. Instituto de Defesa do Consumidor (PROCON-DF). **Portal oficial**. Brasília, 2026. Disponível em: <https://www.procon.df.gov.br/>. Acesso em: 13 maio 2026.
 
 MARCUS, A. **Graphic Design for Electronic Documents and User Interfaces**. ACM Press, 1991. *Apud* BARBOSA; SILVA, 2021.
 
 MAYHEW, D. J. **The Usability Engineering Lifecycle**. Morgan Kaufmann, 1999. *Apud* BARBOSA; SILVA, 2021.
 
-W3C. **Web Content Accessibility Guidelines (WCAG) 2.1**. 2018. Disponível em: <a href="https://www.w3.org/TR/WCAG21/" target=_blank>https://www.w3.org/TR/WCAG21/</a>. Acesso em: 11 maio 2026.
+W3C. **Web Content Accessibility Guidelines (WCAG) 2.1**. 2018. Disponível em: <a href="https://www.w3.org/TR/WCAG21/" target="_blank">https://www.w3.org/TR/WCAG21/</a>. Acesso em: 11 maio 2026.
 
 ---
 
@@ -247,7 +311,7 @@ W3C. **Web Content Accessibility Guidelines (WCAG) 2.1**. 2018. Disponível em: 
 | Versão | Data | Descrição | Autor | Revisor |
 | :--- | :--- | :--- | :--- | :--- |
 | `1.0` | 11/05/2026 | Estruturação inicial baseada em Barbosa e Silva (2021). | Pedro Moretti | Heitor Macedo |
-| `1.1` | 11/05/2026 | Consolidação integral de dados técnicos e bibliografia. | Pedro Moretti | Heitor Macedo |
+| `1.2` | 13/05/2026 | Consolidação visual com inclusão de artefatos de interface e rationale. | Pedro Moretti | Heitor Macedo |
 
 <br>
 
@@ -255,9 +319,14 @@ W3C. **Web Content Accessibility Guidelines (WCAG) 2.1**. 2018. Disponível em: 
 
 <figure id="ref-barbosa" align="center">
   <img src="../images/guia-estilo-1.png" alt="Referência Barbosa 1" width="500">
-  <figcaption><i><b>Figura 1:</b> Principais elementos e considerações do design (BARBOSA; SILVA, 2021, cap. 10.5, p. 241).</i></figcaption>
+  <figcaption align="center">
+    <i><b>Figura 13:</b> Principais elementos e considerações do design (BARBOSA; SILVA, 2021, cap. 10.5, p. 241).</i><a href="#ref-barbosa"><sup>1</sup></a>
+  </figcaption>
 </figure>
+
 <figure align="center">
   <img src="../images/guia-estilo-2.png" alt="Referência Barbosa 2" width="500">
-  <figcaption><i><b>Figura 1:</b> Estrutura proposta para um Guia de Estilo (BARBOSA; SILVA, 2021, cap. 10.5, p. 242).</i></figcaption>
+  <figcaption align="center">
+    <i><b>Figura 14:</b> Estrutura proposta para um Guia de Estilo (BARBOSA; SILVA, 2021, cap. 10.5, p. 242).</i><a href="#ref-barbosa"><sup>2</sup></a>
+  </figcaption>
 </figure>
