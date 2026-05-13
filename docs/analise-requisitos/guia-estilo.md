@@ -280,12 +280,7 @@ Utiliza-se uma convenção simplificada para nomear caixas temáticas, elementos
 
 ### 6.2 Sequências de diálogo
 
-Para garantir consistência e orientar o usuário, os fluxos críticos devem seguir roteiros padronizados:
-
-- **Sucesso de envio de formulário:** Exibição de uma notificação verde (no canto superior direito) com a mensagem “Ação realizada com sucesso”. Quando aplicável, a página é redirecionada automaticamente para a tela de confirmação após três segundos.
-- **Erro de validação:** Os campos inválidos recebem a aparência de erro descrita na seção 5.1. Um resumo dos erros, com links para cada campo, aparece no topo do formulário.
-- **Confirmação de exclusão:** Antes de efetuar uma operação destrutiva, abre‑se uma janela central com a pergunta “Tem certeza que deseja excluir este item?” e dois botões: “Sim, excluir” (estilo principal) e “Cancelar” (estilo secundário).
-- **Falha de sistema:** Em situações inesperadas, um aviso vermelho é fixado no topo da página, explicando o ocorrido e, se possível, sugerindo uma ação.
+Considerando que o portal Procon‑DF possui poucas ações executadas internamente — visto que a maior parte das funcionalidades consiste em redirecionamentos para sistemas externos — não se observa uma grande variedade de sequências de diálogo para análise aprofundada neste guia.
 
 ### 6.3 Tipos de tela
 
