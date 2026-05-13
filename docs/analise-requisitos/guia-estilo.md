@@ -46,6 +46,12 @@ A estrutura segue a padronização proposta por **Marcus (1991)** e **Mayhew (19
 
 A análise de IHC baseou‑se na extração direta de dados e na engenharia reversa do portal oficial do **Instituto de Defesa do Consumidor do Distrito Federal (PROCON-DF)**. Os artefatos técnicos analisados incluem a estrutura de grade responsiva, a folha de estilos principal do tema governamental, bibliotecas de componentes internos e de ícones institucionais.
 
+1. <a href="../images/procon-bootstrap.css" target=_blank>`procon‑bootstrap.css`</a>: Estrutura de grid responsivo (Bootstrap 3).
+2. <a href="../images/procon-style1.css" target=_blank>`procon‑style1.css`</a>: Folha principal (GDF Theme).
+3. <a href="../images/procon-style2.css" target=_blank>`procon‑style2.css`</a>: Componentes internos (IcoMoon Library).
+4. <a href="../images/procon-icomoon.css" target=_blank>`procon‑icomoon.css`</a>: Biblioteca de ícones institucionais do governo.
+5. <a href="../images/procon-zci-styles.css" target=_blank>`procon‑zci‑styles.css`</a>: Grid de categorias de serviços.
+
 ### 2.2 Ambiente de trabalho do usuário
 
 O Procon‑DF é um portal governamental acessado por cidadãos buscando direitos e servidores operando sistemas internos. O perfil é heterogêneo, exigindo que a **performance** e a **acessibilidade (e‑MAG)** sejam requisitos centrais (**BARBOSA; SILVA, 2021**).
@@ -134,12 +140,12 @@ Os espaçamentos seguem uma escala definida para margens superiores (variando de
 
 **Tabela 3 – Camadas Funcionais de Cor**
 
-| Nome | Amostra | Uso Principal |
-| :--- | :---: | :--- |
-| **Azul Principal** | 🟦 | Links, botões secundários e títulos. |
-| **Magenta (Chamada para Ação)** | 🟪 | Botões de alta prioridade e destaque. |
-| **Amarelo Menu** | 🟨 | Identidade visual do governo no menu de navegação superior. |
-| **Verde Sucesso** | 🟩 | Mensagens de confirmação positiva e botões de envio. |
+| Nome | Amostra | Hexadecimal | Uso Principal |
+| :--- | :---: | :--- | :--- |
+| **Azul Principal** | 🟦 | #4079BC | Links, botões secundários e títulos. |
+| **Magenta (Chamada para Ação)** | 🟪 | #A93D8E | Botões de alta prioridade e destaque. |
+| **Amarelo Menu** | 🟨 | #FFD200 | Identidade visual do governo no menu de navegação superior. |
+| **Verde Sucesso** | 🟩 | #29BCB6 | Mensagens de confirmação positiva e botões de envio. |
 
 > Nota: na implementação final do documento, os emojis devem ser substituídos por amostras gráficas exatas (amostras de cor) para fidelidade cromática.
 
@@ -272,9 +278,28 @@ Os campos de formulário obedecem às seguintes regras:
 
 Utiliza-se uma convenção simplificada para nomear caixas temáticas, elementos de ativação e sub-regiões textuais.
 
-### 6.2 Sequências de diálogo e Rodapé
+### 6.2 Sequências de diálogo
 
-Fluxos críticos (sucesso, erro, confirmação de exclusão) devem exibir mensagens claras em locais previsíveis da tela.
+Para garantir consistência e orientar o usuário, os fluxos críticos devem seguir roteiros padronizados:
+
+- **Sucesso de envio de formulário:** Exibição de uma notificação verde (no canto superior direito) com a mensagem “Ação realizada com sucesso”. Quando aplicável, a página é redirecionada automaticamente para a tela de confirmação após três segundos.
+- **Erro de validação:** Os campos inválidos recebem a aparência de erro descrita na seção 5.1. Um resumo dos erros, com links para cada campo, aparece no topo do formulário.
+- **Confirmação de exclusão:** Antes de efetuar uma operação destrutiva, abre‑se uma janela central com a pergunta “Tem certeza que deseja excluir este item?” e dois botões: “Sim, excluir” (estilo principal) e “Cancelar” (estilo secundário).
+- **Falha de sistema:** Em situações inesperadas, um aviso vermelho é fixado no topo da página, explicando o ocorrido e, se possível, sugerindo uma ação.
+
+### 6.3 Tipos de tela
+
+Para facilitar a criação de novas páginas e manter a coerência visual, definem‑se os seguintes gabaritos:
+
+| Tipo de tela | Finalidade | Componentes básicos |
+| :--- | :--- | :--- |
+| Página inicial | Acesso rápido a serviços e notícias | Menu superior, carrossel, grade de serviços, rodapé |
+| Resultado de busca | Listagem de itens encontrados | Campo de busca, filtros laterais, lista de cartões |
+| Detalhe de serviço | Leitura completa de um serviço | Trilha de navegação, título, conteúdo, botão de ação principal |
+| Formulário | Entrada de dados pelo cidadão | Etapas (se necessário), campos com validação, botão de envio |
+| Página de confirmação | Agradecimento e número de protocolo | Mensagem de sucesso, protocolo, opção de voltar ao início |
+
+### 6.4 Rodapé
 
 <figure align="center">
   <img src="../images/footer.png" alt="Rodapé do Portal" width="600">
@@ -322,6 +347,7 @@ W3C. **Web Content Accessibility Guidelines (WCAG) 2.1**. 2018. Disponível em: 
 | :--- | :--- | :--- | :--- | :--- |
 | `1.0` | 11/05/2026 | Estruturação inicial baseada em Barbosa e Silva (2021). | Pedro Moretti | Heitor Macedo |
 | `1.3` | 13/05/2026 | Conversão de termos técnicos de estilos para descrições explicativas e consolidação visual. | Pedro Moretti | Heitor Macedo |
+| `1.4` | 13/05/2026 | Inclusão de hexadecimais na paleta de cores, expansão das sequências de diálogo, adição de tipos de tela e reorganização da seção 6. | Pedro Moretti | Heitor Macedo |
 
 <br>
 
