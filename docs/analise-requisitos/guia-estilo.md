@@ -21,22 +21,22 @@ A estrutura segue a padronização proposta por **Marcus (1991)** e **Mayhew (19
 | 1. <a href="#introducao">Introdução</a> | Objetivos, público‑alvo e governança do guia. |
 | 2. <a href="#analise">Resultados de análise</a> | Descrição do ambiente de uso e fontes técnicas. |
 | 3. <a href="#interface">Elementos de interface</a> | Grid, tipografia, cores, ícones e animações. |
-| 4. <a href="#interacao">Elementos de interação</a> | Paradigmas de interação e acessibilidade. |
+| 4. <a href="#interacao">Elementos de interação</a> | Paradigmas de interação, acessibilidade e aceleradores. |
 | 5. <a href="#acao">Elementos de ação</a> | Padrões de formulários, botões e estados de ativação. |
-| 6. <a href="#vocabulario">Vocabulário e padrões</a> | Nomenclatura técnica, tipos de tela e fluxos de diálogo. |
+| 6. <a href="#vocabulario">Vocabulário e padrões</a> | Nomenclatura técnica, tipos de tela, fluxos de diálogo e rodapé. |
 
 ### 1.3 Público‑alvo
 
-*   **Desenvolvedores front-end:** Devem usar as classes CSS documentadas sem recriar estilos.
+*   **Desenvolvedores front-end:** Devem usar as classes documentadas sem recriar estilos.
 *   **Gestores de conteúdo (WordPress):** Devem respeitar os padrões de nomenclatura e estrutura de páginas.
 *   **Designers de interface:** Devem consultar este guia antes de propor qualquer alteração visual.
 *   **Gerentes e equipe de suporte:** Referência para entender decisões já tomadas e justificá-las.
 
 ### 1.4 Como utilizar e manter o guia
 
-**Em produção:** Antes de criar um novo componente, verifique se já existe uma classe CSS que atenda à necessidade. Reutilize; não recrie.
+**Em produção:** Antes de criar um novo componente, verifique se já existe um padrão que atenda à necessidade. Reutilize; não recrie.
 
-**Em manutenção:** Qualquer alteração em valores de cor, tipografia ou espaçamento deve ser refletida neste documento, registrando o **design rationale** (justificativa da mudança), preservando o rastreamento sugerido por **Mayhew (1999)** *apud* **Barbosa e Silva (2021)**.
+**Em manutenção:** Qualquer alteração em valores de cor, tipografia ou espaçamento deve ser refletida neste documento, registrando a justificativa da mudança (**design rationale**), preservando o rastreamento sugerido por **Mayhew (1999)** *apud* **Barbosa e Silva (2021)**.
 
 ---
 
@@ -44,13 +44,7 @@ A estrutura segue a padronização proposta por **Marcus (1991)** e **Mayhew (19
 
 ### 2.1 Fontes de dados e artefatos técnicos
 
-A análise de IHC baseou‑se na extração direta de dados e na engenharia reversa do portal oficial do **Instituto de Defesa do Consumidor do Distrito Federal (PROCON-DF)**. Os artefatos técnicos analisados são:
-
-1.  <a href="../images/procon-bootstrap.css" target="_blank">`procon‑bootstrap.css`</a>: Estrutura de grid responsivo (Bootstrap 3).
-2.  <a href="../images/procon-style1.css" target="_blank">`procon‑style1.css`</a>: Folha principal (GDF Theme).
-3.  <a href="../images/procon-style2.css" target="_blank">`procon‑style2.css`</a>: Componentes internos (IcoMoon Library).
-4.  <a href="../images/procon-icomoon.css" target="_blank">`procon‑icomoon.css`</a>: Biblioteca de ícones institucionais do governo.
-5.  <a href="../images/procon-zci-styles.css" target="_blank">`procon‑zci‑styles.css`</a>: Grid de categorias de serviços.
+A análise de IHC baseou‑se na extração direta de dados e na engenharia reversa do portal oficial do **Instituto de Defesa do Consumidor do Distrito Federal (PROCON-DF)**. Os artefatos técnicos analisados incluem a estrutura de grade responsiva, a folha de estilos principal do tema governamental, bibliotecas de componentes internos e de ícones institucionais.
 
 ### 2.2 Ambiente de trabalho do usuário
 
@@ -64,7 +58,7 @@ O Procon‑DF é um portal governamental acessado por cidadãos buscando direito
 
 ### 3.1 Disposição espacial e grid
 
-O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 colunas do Bootstrap 3.
+O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 colunas.
 
 <figure align="center">
   <img src="../images/main-grid.png" alt="Grade Principal do Portal" width="600">
@@ -75,9 +69,7 @@ O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 col
 </figure>
 
 **Espaçamentos utilitários (Rationale: Manter ritmo vertical consistente):**
-*   `.margin‑top‑10` a `.margin‑top‑80`
-*   `.margin‑bottom‑20` a `.margin‑bottom‑80`
-*   `.padding‑10`
+Os espaçamentos seguem uma escala definida para margens superiores (variando de 10 a 80 pixels), margens inferiores (de 20 a 80 pixels) e preenchimento interno padrão de 10 pixels.
 
 <figure align="center">
   <img src="../images/news-grid.png" alt="Grid de Notícias" width="600">
@@ -91,15 +83,15 @@ O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 col
 
 | Componente | Propriedades visuais |
 | :--- | :--- |
-| `card-com-foto` | bg: white, border: 1px solid **#E0E0E0**, min-height: 470px, radius: 0 |
-| `card-com-foto` (hover) | border: 1px solid **#CBCBCB**, box-shadow: 10px 10px 20px **#DFDFDF** |
-| `card-sem-foto` | height: 400px, padding: 100px 30px 30px 30px |
-| `box-servicos` | **border-radius: 10px**, height: 263px |
+| Cartão com foto | Fundo branco, borda sólida cinza claro de 1 pixel, altura mínima de 470 pixels e bordas retas (sem arredondamento). |
+| Cartão com foto (ao passar o mouse) | Borda sólida cinza de 1 pixel e sombra projetada suave na cor cinza claro. |
+| Cartão sem foto | Altura fixa de 400 pixels e preenchimento interno de 100 pixels no topo e 30 pixels nas demais laterais. |
+| Caixa de serviços | Bordas arredondadas de 10 pixels e altura de 263 pixels. |
 
 <figure align="center">
   <img src="../images/external-services.png" alt="Box de serviços" width="600">
   <figcaption align="center">
-    <b>Figura 3:</b> O seguinte exemplo de box de serviços demonstra a organização de informações por categorias.<br>
+    <b>Figura 3:</b> O seguinte exemplo de caixa de serviços demonstra a organização de informações por categorias gráficas.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -107,7 +99,7 @@ O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 col
 <figure align="center">
   <img src="../images/news-grid.png" alt="Cards com foto" width="600">
   <figcaption align="center">
-    <b>Figura 3:</b> O seguinte exemplo de cards com foto demonstra a organização de informações por categorias.<br>
+    <b>Figura 4:</b> O seguinte exemplo de cartões com fotografia demonstra a aplicação de preenchimentos e bordas padronizadas.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -116,16 +108,24 @@ O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 col
 
 **Tabela 2 – Escala e Papéis Tipográficos**
 
-| Família | Papel IHC | Importação |
+| Família | Papel IHC | Escala e Detalhes |
 | :--- | :--- | :--- |
-| **Titillium Web** | Títulos (h1–h5) e Identidade | Google Fonts (300) |
-| **Open Sans** | Corpo de texto, parágrafos e legendas | Google Fonts |
-| **Montserrat** | UI: Botões, menus e labels | Google Fonts |
+| **Titillium Web** | Títulos e Identidade | Tamanhos variando entre 24 e 60 pixels na cor cinza escuro. |
+| **Open Sans** | Corpo de texto e parágrafos | Tamanho de 16 pixels com altura de linha entre 1,4 e 1,7 vezes o tamanho da fonte. |
+| **Montserrat** | Botões, menus e rótulos | Utilizada em elementos de interação; metadados em 14 pixels. |
+
+<figure align="center">
+  <img src="../images/titulo-fonte.png" alt="Tipografia Titillium Web" width="300">
+  <figcaption align="center">
+    <b>Figura 5:</b> O seguinte exemplo da família Titillium Web aplicada em títulos garante o impacto visual e a legibilidade da hierarquia.<br>
+    Fonte: DISTRITO FEDERAL (2026).
+  </figcaption>
+</figure>
 
 <figure align="center">
   <img src="../images/nav-items.png" alt="Itens de Menu" width="300">
   <figcaption align="center">
-    <b>Figura 3:</b> O seguinte exemplo de tipografia Montserrat aplicada em submenus garante clareza na leitura de itens de navegação interna.<br>
+    <b>Figura 6:</b> O seguinte exemplo da tipografia Montserrat aplicada em submenus garante clareza na leitura de itens de navegação interna.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -134,33 +134,43 @@ O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 col
 
 **Tabela 3 – Camadas Funcionais de Cor**
 
-| Nome | Hexadecimal | Uso Principal |
-| :--- | :--- | :--- |
-| **Azul Principal** | **#4079BC** | Links, botões secundários e títulos. |
-| **Magenta (CTA)** | **#A93D8E** | Botões primários (Classes `.btn-verde`). |
-| **Amarelo Menu** | **#FFD200** | Identidade GDF no menu de navegação. |
-| **Verde Sucesso** | **#29BCB6** | Feedback positivo e botões de envio. |
+| Nome | Amostra | Uso Principal |
+| :--- | :---: | :--- |
+| **Azul Principal** | 🟦 | Links, botões secundários e títulos. |
+| **Magenta (Chamada para Ação)** | 🟪 | Botões de alta prioridade e destaque. |
+| **Amarelo Menu** | 🟨 | Identidade visual do governo no menu de navegação superior. |
+| **Verde Sucesso** | 🟩 | Mensagens de confirmação positiva e botões de envio. |
+
+> Nota: na implementação final do documento, os emojis devem ser substituídos por amostras gráficas exatas (amostras de cor) para fidelidade cromática.
 
 <figure align="center">
   <img src="../images/navbar.png" alt="Barra de Navegação" width="600">
   <figcaption align="center">
-    <b>Figura 4:</b> O seguinte exemplo de barra de navegação utiliza o amarelo institucional para reforçar a identidade do governo local.<br>
+    <b>Figura 7:</b> O seguinte exemplo de barra de navegação utiliza o amarelo institucional para reforçar a identidade do governo local.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
 
 ### 3.5 Simbolismo: ícones e Identidade
 
-*   **Conjunto 1 (GDF Institucional):** Identidade e acessibilidade (`.icon-brasao_gdf`, `.icon-contraste`, `.icon-aumenta_fonte`).
-*   **Conjunto 2 (Procon Específico):** Ações diretas (`.icon-denuncia-icone`, `.icon-reclamacao-icone`, `.icon-sugestao-icone`).
+A interface utiliza dois conjuntos de símbolos: um focado na identidade e acessibilidade governamental (contraste, ajuste de fonte) e outro voltado para ações específicas do órgão (denúncias, reclamações).
 
 <figure align="center">
   <img src="../images/gdf-logo.png" alt="Logotipo GDF" width="200">
   <figcaption align="center">
-    <b>Figura 5:</b> O seguinte exemplo de logotipo estabelece a autoridade governamental no topo da interface.<br>
+    <b>Figura 8:</b> O seguinte exemplo de logotipo institucional estabelece a autoridade governamental no topo da interface.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
+
+### 3.6 Animações e transições
+
+Para garantir previsibilidade e fluidez na interface, adotam-se os seguintes comportamentos:
+
+- **Transições em botões e cartões:** Movimentos suaves e lineares aplicados a todas as propriedades, com duração entre 0,1 e 0,2 segundos.
+- **Galeria e grades:** Duração de 0,3 segundos para transformações visuais.
+- **Indicadores de estado:** Botões no topo sofrem aumento de escala de 3%; imagens em grades aumentam em 5%; e galeria tem redução de brilho em 20% ao passar o mouse.
+- **Indicadores de espera:** Exibição de um elemento giratório azul ou efeito de "tela esqueleto" com fundo cinza pulsante.
 
 ---
 
@@ -168,35 +178,28 @@ O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 col
 
 ### 4.1 Estilos de interação
 
-O portal prioriza a interação por **apontar e clicar**.
+O portal prioriza a interação por **apontar e clicar**. Botões apresentam um efeito tátil ao serem clicados, deslocando-se 1 pixel para baixo. Menus com itens internos desabilitam o clique no nível superior para forçar a abertura do submenu, que apresenta fundo cinza escuro ao passar o mouse.
 
 <figure align="center">
   <img src="../images/breadcrumb.png" alt="Trilha de Navegação" width="1000">
   <figcaption align="center">
-    <b>Figura 6:</b> O seguinte exemplo de trilha de navegação indica a localização exata do usuário dentro da hierarquia do portal.<br>
+    <b>Figura 9:</b> O seguinte exemplo de trilha de navegação indica a localização exata do usuário dentro da hierarquia do portal.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
 
 ### 4.2 Seleção de um estilo
 
-Conforme **Mayhew (1999** *apud* **BARBOSA; SILVA, 2021)**, os estilos minimizam a carga de memória:
+Conforme **Mayhew (1999** *apud* **BARBOSA; SILVA, 2021)**, os estilos minimizam a carga de memória através de navegação visível, manipulação direta de cartões e formulários claros para tarefas de entrada.
 
-1.  **Navegação Principal:** Seleção por menus no topo para visibilidade imediata.
-2.  **Consumo de Informação:** Manipulação direta via Cards para varredura rápida.
-3.  **Tarefas de Entrada:** Preenchimento de formulários em áreas de reclamação.
+### 4.3 Acessibilidade e adaptações da interface
 
-### 4.3 Aceleradores (Acessibilidade)
-
-Seguindo a **WCAG 2.1**, o sistema oferece:
-
-*   **Ajuste de Fonte:** Slider range com thumb **#01A453**.
-*   **VLibras:** Widget fixo de tradução.
+Seguindo a **WCAG 2.1**, o sistema oferece ajuste de tamanho de fonte via controle deslizante e tradução automática para Libras.
 
 <figure align="center">
   <img src="../images/acessibility.png" alt="Controles de Acessibilidade" width="400">
   <figcaption align="center">
-    <b>Figura 7:</b> O seguinte exemplo de painel de acessibilidade permite ao usuário customizar a interface para suas necessidades visuais.<br>
+    <b>Figura 10:</b> O seguinte exemplo de painel de acessibilidade permite ao usuário customizar a interface para suas necessidades visuais.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -204,31 +207,43 @@ Seguindo a **WCAG 2.1**, o sistema oferece:
 <figure align="center">
   <img src="../images/libras.png" alt="Widget VLibras" width="200">
   <figcaption align="center">
-    <b>Figura 8:</b> O seguinte exemplo de widget garante suporte à comunidade surda através da tradução para Libras.<br>
+    <b>Figura 11:</b> O seguinte exemplo de ferramenta assistiva garante suporte à comunidade surda através da tradução para Libras.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
 
 ---
 
-## 5. <a name="acao"></a>5 Elementos de Action
+## 5. <a name="acao"></a>5 Elementos de Ação
 
 ### 5.1 Preenchimento de campos e seleção
 
-*   **Inputs:** `border: 1px solid #E0E0E0`, `border-radius: 4px`.
-*   **Select:** `appearance: none`, fundo **#E0E0E0** com seta SVG customizada.
+Os campos de formulário obedecem às seguintes regras:
+
+*   **Campos de entrada:** Borda sólida cinza claro de 1 pixel e bordas levemente arredondadas de 4 pixels.
+*   **Seleção (Dropdown):** Estilo de seta customizado sobre fundo cinza claro.
+
+**Estados dos campos:**
+
+| Estado | Aparência Visual |
+| :--- | :--- |
+| Padrão | Borda sólida cinza claro de 1 pixel. |
+| Em Foco | Borda sólida azul de 1 pixel acompanhada de uma suave auréola externa azul transparente. |
+| Erro | Borda sólida vermelha de 1 pixel com ícone de alerta e mensagem explicativa. |
+| Sucesso | Borda sólida verde de 1 pixel acompanhada de ícone de confirmação. |
+| Desabilitado | Redução da opacidade para 50% e bloqueio total de interações. |
 
 ### 5.2 Ativação — Catálogo de botões
 
-| Classe | Cor Fundo | Hover | Uso |
-| :--- | :--- | :--- | :--- |
-| `.btn-verde-grande` | **#A93D8E** | **#CB5599** | CTA principal (Anatomia: 15px 10px, Montserrat, radius 10px). |
-| `.btn-azul-medio` | **#4079BC** | **#346399** | Ações secundárias importantes. |
+| Tipo de Botão | Estilo Visual | Uso Sugerido |
+| :--- | :--- | :--- |
+| Principal (Grande) | Fundo magenta, tipografia Montserrat e bordas arredondadas de 10 pixels com preenchimento interno generoso. | Chamada principal para ação (CTA). |
+| Secundário (Médio) | Fundo azul sólido com mudança para tom mais escuro ao passar o mouse. | Ações de suporte importantes. |
 
 <figure align="center">
   <img src="../images/cta-button.png" alt="Botão CTA" width="400">
   <figcaption align="center">
-    <b>Figura 9:</b> O seguinte exemplo de CTA principal utiliza a cor magenta para guiar o usuário rumo à conversão do serviço.<br>
+    <b>Figura 12:</b> O seguinte exemplo de botão de chamada principal utiliza a cor magenta para guiar o usuário rumo à conclusão do serviço.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -236,7 +251,7 @@ Seguindo a **WCAG 2.1**, o sistema oferece:
 <figure align="center">
   <img src="../images/most-searched.png" alt="Serviços Mais Procurados" width="600">
   <figcaption align="center">
-    <b>Figura 10:</b> O seguinte exemplo de blocos de interação destaca as tarefas mais comuns com feedback visual de inversão de cores.<br>
+    <b>Figura 13:</b> O seguinte exemplo de blocos de interação destaca as tarefas mais comuns com feedback visual de inversão de cores.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -244,7 +259,7 @@ Seguindo a **WCAG 2.1**, o sistema oferece:
 <figure align="center">
   <img src="../images/search-button.png" alt="Botão de Busca" width="100">
   <figcaption align="center">
-    <b>Figura 11:</b> O seguinte exemplo de funcionalidade de busca utiliza alto contraste cromático para rápida localização pelo usuário.<br>
+    <b>Figura 14:</b> O seguinte exemplo de funcionalidade de busca utiliza alto contraste de cor para permitir uma localização imediata.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -255,21 +270,16 @@ Seguindo a **WCAG 2.1**, o sistema oferece:
 
 ### 6.1 Terminologia e nomenclatura
 
-Convenção **BEM Simplificada**:
-
-*   **box-**: Caixas temáticas (`.box-diario-oficial`).
-*   **btn-**: Elementos de ativação.
-*   **area-**: Sub-regiões (`.area-textual`).
+Utiliza-se uma convenção simplificada para nomear caixas temáticas, elementos de ativação e sub-regiões textuais.
 
 ### 6.2 Sequências de diálogo e Rodapé
 
-*   **Feedback de Erro:** Borda **#EA4D3C** (classe `.input-erro`).
-*   **Confirmação de Envio:** Botão `.btnEnviar` (**#29BCB6**).
+Fluxos críticos (sucesso, erro, confirmação de exclusão) devem exibir mensagens claras em locais previsíveis da tela.
 
 <figure align="center">
   <img src="../images/footer.png" alt="Rodapé do Portal" width="600">
   <figcaption align="center">
-    <b>Figura 12:</b> O seguinte exemplo de rodapé consolida as informações institucionais e canais de contato de forma clara.<br>
+    <b>Figura 15:</b> O seguinte exemplo de rodapé consolida as informações institucionais e canais de contato de forma clara e organizada.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -280,9 +290,9 @@ Convenção **BEM Simplificada**:
 
 | Decisão | Justificativa |
 | :--- | :--- |
-| **Magenta para CTA** | Contraste intencional com o azul institucional para guiar a conversão. |
-| **Border-radius 10px** | Modernidade sem perda de seriedade governamental. |
-| **Duas fontes IcoMoon** | Independência entre ícones GDF (globais) e Procon (específicos). |
+| **Magenta para CTA** | Contraste intencional para guiar a conversão. |
+| **Bordas arredondadas (10px)** | Modernidade sem perda de seriedade governamental. |
+| **Estados de campo definidos** | Redução da incerteza do usuário durante a interação. |
 
 ---
 
@@ -311,7 +321,7 @@ W3C. **Web Content Accessibility Guidelines (WCAG) 2.1**. 2018. Disponível em: 
 | Versão | Data | Descrição | Autor | Revisor |
 | :--- | :--- | :--- | :--- | :--- |
 | `1.0` | 11/05/2026 | Estruturação inicial baseada em Barbosa e Silva (2021). | Pedro Moretti | Heitor Macedo |
-| `1.2` | 13/05/2026 | Consolidação visual com inclusão de artefatos de interface e rationale. | Pedro Moretti | Heitor Macedo |
+| `1.3` | 13/05/2026 | Conversão de termos técnicos de estilos para descrições explicativas e consolidação visual. | Pedro Moretti | Heitor Macedo |
 
 <br>
 
@@ -320,13 +330,15 @@ W3C. **Web Content Accessibility Guidelines (WCAG) 2.1**. 2018. Disponível em: 
 <figure id="ref-barbosa" align="center">
   <img src="../images/guia-estilo-1.png" alt="Referência Barbosa 1" width="500">
   <figcaption align="center">
-    <i><b>Figura 13:</b> Principais elementos e considerações do design (BARBOSA; SILVA, 2021, cap. 10.5, p. 241).</i><a href="#ref-barbosa"><sup>1</sup></a>
+    <i><b>Figura 16:</b> Principais elementos e considerações do design.<br></i>
+    Fonte: (BARBOSA; SILVA, 2021, cap. 10.5, p. 241).
   </figcaption>
 </figure>
 
 <figure align="center">
   <img src="../images/guia-estilo-2.png" alt="Referência Barbosa 2" width="500">
   <figcaption align="center">
-    <i><b>Figura 14:</b> Estrutura proposta para um Guia de Estilo (BARBOSA; SILVA, 2021, cap. 10.5, p. 242).</i><a href="#ref-barbosa"><sup>2</sup></a>
+    <i><b>Figura 17:</b> Estrutura proposta para um Guia de Estilo.<br></i>
+    Fonte: (BARBOSA; SILVA, 2021, cap. 10.5, p. 242).
   </figcaption>
 </figure>
