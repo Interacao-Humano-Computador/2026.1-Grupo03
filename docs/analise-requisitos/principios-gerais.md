@@ -1,9 +1,8 @@
 # Princípios Gerais do Projeto
 
 ## 1. Introdução
-Os princípios e diretrizes de design de Interação Humano-Computador (IHC) são regras gerais de alto nível que auxiliam a equipe a conceber um sistema com alta qualidade de uso. Segundo Barbosa e Silva (2021), a aplicação adequada de boa parte dos princípios depende do conhecimento do designer acerca do domínio do problema, dos usuários e das suas atividades, servindo como uma ferramenta prática de apoio à criatividade e à tomada de decisão durante o processo de design. 
-
-Abaixo, detalhamos os princípios gerais que guiarão o projeto de redesign do sistema do PROCON-DF, baseados na literatura consolidada da área.
+Segundo Barbosa et al. (2021, p. 151) <sup><a href="#figura1">[1]</a></sup>, "perfil de usuário é uma descrição detalhada das características dos usuários cujos objetivos devem ser apoiados pelo sistema sendo projetado". Conhecer esse perfil permite que a equipe compreenda quem são as pessoas que utilizarão o sistema, como elas se comportam, quais são suas necessidades, experiências e expectativas.
+No contexto deste projeto, o sistema avaliado é o site do PROCON-DF. Compreender o perfil de quem acessa esse serviço — seja para reclamar ou para responder a uma pendência — é essencial para garantir que o novo sistema seja útil e acessível tanto para o cidadão quanto para o setor produtivo.
 
 ---
 
@@ -47,26 +46,29 @@ Abaixo, detalhamos os princípios gerais que guiarão o projeto de redesign do s
 
 ---
 
-## 3. Comprovação e Referência Bibliográfica
-Conforme exigência do **Item 11 e 12** da verificação da Etapa 3, abaixo consta a referência teórica que fundamenta os princípios gerais de projeto adotados.
 
 ## Agradecimentos à IA
 
-Agradecimento ao **ChatGpt** pela ajuda na estruturação deste documento.
+Agradecimento ao **Gemini** pela ajuda na estruturação deste documento.
 
-**Referência:** 
+## Referência:
 > BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021. (Capítulo 10: Princípios e Diretrizes para o Design de IHC, Seção 10.2).
 
-### Figura 1 – Início da Seção 10.2: Princípios e Diretrizes Gerais
 
-![Seção 10.2 do livro Barbosa e Silva](images/secao10-2.png)
-
-**Fonte:** BARBOSA et al. (2021, p. 252).
 
 ---
 
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
+| 1.2 | 10/05/2026 | Correção das referências por imagem | Heitor Macedo Ricardo | Pedro Macedo |
 | 1.1 | 10/05/2026 | Adição das imagens na referencia e agradecimento a IA | Pedro Macedo | Heitor Macedo Ricardo |
 | 1.0 | 10/05/2026 | Criação dos Princípios Gerais de Projeto. | Heitor Macedo Ricardo | Pedro Macedo |
+
+<br>
+
+<div id="figura1" align="center">
+  <p>Figura 1 - Início da Seção 10.2: Princípios e Diretrizes Gerais</p>
+  <img src="../images/secao10-2.png" alt="Seção 10.2 do livro Barbosa e Silva">
+  <p><b>Fonte:</b> BARBOSA et al. (2021, p. 252).</p>
+</div>

@@ -20,7 +20,7 @@ Desenvolvido por Sharp, Preece e Rogers, este é um processo de design centrado 
 
 <div align="center">
   <p>Figura 1 - Representação Gráfica do Modelo Simples</p>
-  <img src="../images/processo-design/Modelo_Simples.png" alt="Modelo Simples">
+  <img src="../../planejamento/images/processo-design/Modelo_Simples.png" alt="Modelo Simples">
   <p markdown><b>Fonte: Barbosa e Silva (2021)</b><sup><a href="#ref-barbosa">[1]</a></sup></p>
 </div>
 
@@ -34,7 +34,7 @@ Segundo Barbosa e Silva (2021), esse modelo a atividade de síntese é segmentad
 
 <div align="center">
   <p>Figura 2 - Representação Gráfica do Modelo em Estrela</p>
-  <img src="../images/processo-design/Modelo_Estrela.png" alt="Modelo em Estrela">
+  <img src="../../planejamento/images/processo-design/Modelo_Estrela.png" alt="Modelo em Estrela">
   <p markdown><b>Fonte: Barbosa e Silva (2021)</b><sup><a href="#ref-barbosa">[1]</a></sup></p>
 </div>
 
@@ -54,73 +54,40 @@ Segundo Barbosa e Silva (2021), o ciclo de vida de Mayhew organiza atividades cl
 
 <div align="center">
   <p>Figura 3 - Representação Gráfica do Modelo Mayhew</p>
-  <img src="../images/processo-design/Modelo_Mayhew.png" alt="Modelo Mayhew">
+  <img src="../../planejamento/images/processo-design/Modelo_Mayhew.png" alt="Modelo Mayhew">
   <p markdown><b>Fonte: Barbosa e Silva (2021)</b><sup><a href="#ref-barbosa">[1]</a></sup></p>
 </div>
 
 
 
-## Processo de Design Selecionado: Engenharia de Usabilidade de Nielsen
-
-Para guiar o desenvolvimento do nosso projeto, selecionamos o ciclo de vida da **Engenharia de Usabilidade de Jakob Nielsen**.
+## Processo de Design Selecionado: Engenharia de Usabilidade de Mayhew
 
 ## Justificativa da Escolha:
 
-Optamos por este processo porque ele propõe um conjunto de atividades que ocorrem durante todo o ciclo de vida do produto, com uma forte ênfase na avaliação contínua e no design iterativo. Isso nos permite identificar e corrigir problemas de usabilidade desde os estágios iniciais, garantindo que o sistema final atenda às reais necessidades dos usuários antes de focar apenas na implementação técnica.
-
-<div align="center">
-  <p>Figura 4 - Atividades do processo de Engenharia de Usabilidade de Nielsen</p>
-  <img src="../images/processo-design/atividades-nielsen.png" alt="Atividades de Nielsen">
-  <p markdown><b>Fonte: Nielsen (1994c) apud Barbosa et al. (2021), cap. 6.3.2, p. 102</b><sup><a href="#ref-barbosa">[1]</a></sup></p>
-</div>
+Optamos pelo ciclo de vida da Engenharia de Usabilidade de Mayhew por ser um processo com uma visão holística, que reúne e organiza as diferentes atividades de IHC para orientar o trabalho de design em direção a uma boa solução interativa <sup><a href="#mayhew1">[1]</a></sup>. Esse modelo se alinha perfeitamente ao cronograma do nosso projeto, pois estrutura o desenvolvimento de forma iterativa através de três fases claras, detalhando a etapa de design e prototipação em níveis crescentes de fidelidade (baixa, média e alta) [3]. Essa abordagem garante que os requisitos e as metas de usabilidade sejam validados gradativamente antes da implementação final.
 
 ## Como aplicaremos o processo no nosso projeto:
 
-Nielsen propõe 10 atividades básicas. Para a execução do nosso projeto, organizamos essas atividades nas seguintes fases práticas:
+O ciclo de vida de Mayhew é dividido em três fases iterativas principais <sup><a href="#mayhew2">[2]</a></sup>, que organizaremos no nosso projeto da seguinte maneira:
 
-**1. Fase de Descoberta e Planejamento**
+**1. Fase de Análise de Requisitos:**
 
-- **Conhecer o usuário:** Vamos levantar dados para criar perfis de usuários e personas, focando em suas características, ambiente e objetivos finais com o sistema.
-- **Análise competitiva:** Examinaremos sistemas semelhantes ou concorrentes para extrair boas ideias e identificar falhas que não devemos repetir.
-- **Definição das metas de usabilidade:** Estabeleceremos quais fatores de qualidade (eficiência, satisfação, facilidade de aprendizado) serão prioridade no nosso design.
+*   **Definição do contexto:** Levantaremos dados para consolidar o perfil dos usuários e a análise das tarefas atuais <sup><a href="#mayhew1">[1]</a></sup>.
+*   **Estabelecimento de metas e regras:** Definiremos as possibilidades e limitações da plataforma (Mobile-First), os Princípios Gerais de Projeto e as Metas de Usabilidade <sup><a href="#mayhew1">[1]</a></sup>.
+*   **Guia de Estilo:** Todas essas definições culminarão na criação de um Guia de Estilo, que norteará as próximas fases <sup><a href="#mayhew1">[1]</a></sup>.
 
-<div align="center">
-  <p>Figura 5 - Primeira etapa do processo de Engenharia de Usabilidade de Nielsen</p>
-  <img src="../images/processo-design/primeira-etapa-nielsen.png" alt="Primeira etapa de Nielsen">
-  <p markdown><b>Fonte: Nielsen (1994c) apud Barbosa et al. (2021), cap. 6.3.2, p. 102-103</b><sup><a href="#ref-barbosa">[1]</a></sup></p>
-</div>
+**2. Fase de Design, Avaliação e Desenvolvimento:**
+Nesta fase, projetaremos a solução de IHC em três níveis de detalhes para atender às metas de usabilidade estabelecidas <sup><a href="#mayhew1">[1]</a></sup>:
 
-**2. Fase de Concepção e Design**
+*   **Nível 1 (Baixa Fidelidade):** Realizaremos o repensar da execução das tarefas, elaborando o modelo conceitual e construindo protótipos de baixa fidelidade (como Storyboards e Protótipos de Papel), seguidos de avaliações interativas junto aos usuários [3].
+*   **Nível 2 (Média Fidelidade):** Estabeleceremos padrões de design de tela e construiremos protótipos de média fidelidade baseados nesses padrões, realizando uma nova rodada de avaliações [3].
+*   **Nível 3 (Alta Fidelidade):** Realizaremos o projeto detalhado da interface em alta fidelidade. Durante o desenvolvimento do sistema, a interface continuará sendo avaliada com a participação dos usuários [3].
 
-- **Designs paralelos e Design participativo:** Membros da equipe criarão alternativas iniciais de design de forma independente. Em seguida, selecionaremos as melhores ideias, mantendo o foco em ouvir o feedback de usuários representativos sempre que possível.
-- **Design coordenado da interface:** Padronizaremos a identidade visual, a linguagem e o tom do sistema para garantir consistência.
-- **Prototipação:** Desenvolveremos protótipos rápidos e de baixo custo (como protótipos de papel ou _wireframes_) para materializar nossas ideias antes de escrever qualquer código.
+**3. Fase de Instalação:**
 
-<div align="center">
-  <p>Figura 6 - Segunda etapa do processo de Engenharia de Usabilidade de Nielsen</p>
-  <img src="../images/processo-design/segunda-etapa-nielsen.png" alt="Segunda etapa de Nielsen">
-  <p markdown><b>Fonte: Nielsen (1994c) apud Barbosa et al. (2021), cap. 6.3.2, p. 103-104</b><sup><a href="#ref-barbosa">[1]</a></sup></p>
-</div>
-
-**3. Fase de Avaliação e Refinamento**
-
-- **Diretrizes e Análise Heurística:** A equipe aplicará as 10 Heurísticas de Nielsen sobre os protótipos para encontrar potenciais violações de usabilidade (Método de Inspeção).
-- **Testes empíricos:** Realizaremos sessões de observação com usuários reais interagindo com nossos protótipos para identificar onde eles realmente encontram barreiras.
-- **Design iterativo:** Com base nos problemas encontrados nas inspeções e testes, faremos as correções necessárias na interface e repetiremos o ciclo de avaliação até atingirmos nossas metas de usabilidade.
-
-<div align="center">
-  <p>Figura 7 - Terceira etapa do processo de Engenharia de Usabilidade de Nielsen</p>
-  <img src="../images/processo-design/terceira-etapa-nielsen.png" alt="Terceira etapa de Nielsen">
-  <p markdown><b>Fonte: Nielsen (1994c) apud Barbosa et al. (2021), cap. 6.3.2, p. 105</b><sup><a href="#ref-barbosa">[1]</a></sup></p>
-</div>
+*   **Coleta de feedback pós-uso:** Após a simulação de uso do sistema final, coletaremos opiniões dos usuários. Essas opiniões servirão para validar o alcance das metas de usabilidade e apontar melhorias para futuras versões do PROCON-DF [3].
 
 <br>
-
-<div align="center">
-  <p>Figura 8 - Processo de Design</p>
-  <img src="../images/processo-design/ProcessoDesign.png" alt="Fluxo do Processo de Design">
-  <p><b>Fonte: Heitor Macedo</b></p>
-</div>
 
 ---
 
@@ -142,7 +109,22 @@ Agradecimento especial ao **NotebookLM** pelo auxílio na criação da imagem de
 
 | Versão | Data       | Descrição                                                                                                                                                                                                                                           | Autor                 | Revisor       |
 | ------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ------------- |
+| 1.4    | 14/05/2026 | Alteração do processo de design de Nielsen para Mayhew e correção dos caminhos das imagens.                                                                                                                                                         | Heitor Macedo         | Pedro Moretti |
 | 1.3    | 16/04/2026 | Adição da seção "Introdução".                                                                                                                                                                                                                      | Heitor Macedo Ricardo |        Pedro Moretti       |
 | 1.2    | 12/04/2026 | Inclusão de imagens de referência para os modelos de ciclo de vida e para o processo de design de Nielsen, com legendas e referências bibliográficas padronizadas.                                                                                       | Pedro Moretti         |        Heitor Macedo Ricardo       |
 | 1.1    | 11/04/2026 | Revisão da redação introdutória do Processo de Design e inserção das representações gráficas dos modelos Ciclo de Vida Simples, Ciclo de Vida em Estrela e Ciclo de Vida Mayhew, com legendas padronizadas.                                         | Heloisa Silva         |          Eduardo Valadares     |
 | 1.0    | 11/04/2026 | Inclusão do embasamento textual em Nielsen, justificativas, mapeamento de fases do projeto, inserção da imagem do processo e marcação dos espaços faltantes (fotos do livro e referências) para inclusão futura pelos demais integrantes da equipe. | Heitor Macedo RIcardo | Heloisa Silva |
+
+<br>
+
+<div id="mayhew1" align="center">
+  <p>Figura 4 - Níveis de design de Mayhew</p>
+  <img src="../../planejamento/images/processo-design/EngenhariadeMayhew1.png" alt="Engenharia de Mayhew 1">
+</div>
+
+<br>
+
+<div id="mayhew2" align="center">
+  <p>Figura 5 - Ciclo de vida da Engenharia de Usabilidade de Mayhew</p>
+  <img src="../../planejamento/images/processo-design/EngenhariadeMayhew2.png" alt="Engenharia de Mayhew 2">
+</div>
