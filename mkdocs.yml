@@ -9,6 +9,10 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
     - toc.integrate
     - content.code.copy
   palette:
@@ -45,32 +49,38 @@ markdown_extensions:
 nav:
   - Início: index.md
   - A Equipe:
-      - Equipe: equipe/equipe.md
+      - Membros: equipe/equipe.md
       - Disponibilidade: equipe/disponibilidade.md
   - Planejamento:
       - Cronograma: planejamento/cronograma.md
       - Cronograma Executado: planejamento/cronograma-executado.md
       - Reuniões: planejamento/reunioes.md
-  - Projeto:
-      - Análise de Sites: projeto/analise-sites.md
-      - Lista de Verificação (Etapa 01): projeto/verificacao.md
-      - Lista de Verificação (Etapa 02): projeto/verificacao-etapa2.md
-      - Lista de Verificação (Etapa 03): projeto/verificacao-etapa3.md
-      - Ferramentas: projeto/ferramentas.md
-      - Processo de Design: projeto/processo-design.md
-      - Site Escolhido: projeto/site-escolhido.md
+  - O Projeto:
+      - Metodologia:
+          - Site Escolhido: projeto/site-escolhido.md
+          - Análise de Sites: projeto/analise-sites.md
+          - Processo de Design: projeto/processo-design.md
+          - Ferramentas: projeto/ferramentas.md
+      - Listas de Verificação:
+          - Etapa 01: projeto/verificacao.md
+          - Etapa 02: projeto/verificacao-etapa2.md
+          - Etapa 03: projeto/verificacao-etapa3.md
   - Análise de Requisitos:
-    - Perfil de Usuário: analise-requisitos/perfil-usuario.md
-    - Funcionalidades: analise-requisitos/funcionalidades.md
-    - Personas: analise-requisitos/personas.md
-    - Cenários: analise-requisitos/cenarios.md
-    - Análise de Tarefas: analise-requisitos/analise-tarefas.md
-    - Princípios Gerais: analise-requisitos/principios-gerais.md
-    - Metas de Usabilidade: analise-requisitos/metas-usabilidade.md
-    - Guia de Estilo: analise-requisitos/guia-estilo.md
-    - Caracteristicas da Plataforma : analise-requisitos/caracteristicas-plataforma.md
-  - Inspeção:
-    - Entrega 01: inspecoes/entrega01.md
-    - Entrega 02: inspecoes/entrega02.md
-    - Grupo +1 (Etapa 1): inspecoes/grupo04.md
-    - Grupo -1 (Etapa 2): inspecoes/grupo02entrega02.md
+      - Fase 1:
+          - Perfil de Usuário: analise-requisitos/perfil-usuario.md
+          - Personas: analise-requisitos/personas.md
+          - Cenários: analise-requisitos/cenarios.md
+          - Funcionalidades: analise-requisitos/funcionalidades.md
+          - Análise de Tarefas: analise-requisitos/analise-tarefas.md
+      - Fase 2:
+          - Características da Plataforma: analise-requisitos/caracteristicas-plataforma.md
+          - Princípios Gerais: analise-requisitos/principios-gerais.md
+          - Metas de Usabilidade: analise-requisitos/metas-usabilidade.md
+          - Guia de Estilo: analise-requisitos/guia-estilo.md
+  - Inspeções (Verificação e Validação):
+      - Nossas Entregas:
+          - Entrega 01: inspecoes/entrega01.md
+          - Entrega 02: inspecoes/entrega02.md
+      - Outros Grupos:
+          - Inspeção Grupo 04 (Etapa 1): inspecoes/grupo04.md
+          - Inspeção Grupo 02 (Etapa 2): inspecoes/grupo02entrega02.md
