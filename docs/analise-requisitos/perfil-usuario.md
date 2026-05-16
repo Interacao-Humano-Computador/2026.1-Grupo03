@@ -118,7 +118,7 @@ A consolidação das análises documentais — baseadas no Sindec Nacional, Cart
 
 ---
 
-## Triangulação e Perfis Consolidados
+## Triangulação e Perfis Consolidados 
 
 A triangulação dos dados coletados permite contrastar a amostra qualitativa primária (focada em jovens com alta fluência digital e pequenos empresários) com os dados quantitativos e documentais (que revelam um público mais maduro, majoritariamente feminino e com variados níveis de letramento digital). 
 
