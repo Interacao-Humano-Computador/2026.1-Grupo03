@@ -122,7 +122,7 @@ A consolidação das análises documentais — baseadas no Sindec Nacional, Cart
 
 A triangulação dos dados coletados permite contrastar a amostra qualitativa primária (focada em jovens com alta fluência digital e pequenos empresários) com os dados quantitativos e documentais (que revelam um público mais maduro, majoritariamente feminino e com variados níveis de letramento digital). 
 
-O resultado dessa consolidação nos permite definir com clareza três perfis distintos de usuários para o sistema, estruturados de acordo com seus objetivos, sua frequência de uso e seu impacto nas decisões de design:
+O resultado dessa consolidação nos permite definir com clareza três perfis distintos de usuários para o sistema, estruturados de acordo com seus objetivos, sua frequência de uso e seu impacto nas decisões de design de acordo com a seção 7.3 do livro de Barbosa et al. (2021)<sup><a href="#figura0">[1]</a></sup>:
 
 ### Perfil Primário: O Consumidor (Reclamante e Informacional)
 
@@ -233,3 +233,9 @@ Agradecimento ao **Gemini** pela ajuda na estruturação do deste documento.
 | `1.4`  | 03/05/2026 | Inclusão da análise documental complementar (Pedro Moretti), integração dos achados ao perfil e adição das referências correspondentes.      | Pedro Augusto Moretti Moreira         | Heloisa Silva |
 | `1.5`  | 05/05/2026 | Ajustes a partir dos feedbacks da apresentação  | Heitor Macedo Ricardo | Heloisa Silva |
 | `1.6`  | 08/05/2026 | Unificação do perfil de consumidor, adição do perfil de funcionário e padronização em tabela dos resultados das entrevistas | Heitor Macedo Ricardo | Heloisa Silva |
+
+<div id="figura0" align="center">
+  <p>Figura 1 - Seção 7.3: De quem coletar os Dados?</p>
+  <a href="../images/perfilusuario.png" target=_blank><img src="../images/perfilusuario.png" alt="Seção 7.3 do livro Barbosa e Silva"></a>
+  <p><b>Fonte:</b> BARBOSA et al. (2021, p. 124).</p>
+</div>
