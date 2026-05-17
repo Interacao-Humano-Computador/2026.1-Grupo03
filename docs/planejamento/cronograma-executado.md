@@ -34,7 +34,15 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Apresentação da Etapa 2**<br>*(Gravação e publicação no YouTube)* | [Heitor Macedo](../equipe/equipe.md)<br><small>03/05/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>03/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small> [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [🎥 Vídeo — YouTube](#) | ✅ Concluído |
 
 === "Etapa 3"
-    > *Atividades a serem preenchidas via Atas e desdobramentos futuros do projeto.*
+    Nesta etapa, as tarefas foram direcionadas para a consolidação da Fase 2 da Análise de Requisitos e início das avaliações de design.
+
+    | Atividade Extraída do Plano de Ensino | Integrante Responsável<br><small>(nome · data de conclusão)</small> | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
+    | :--- | :---: | :---: | :--- | :---: |
+    | **Características da Plataforma** |  | | [📄 Características da Plataforma](../analise-requisitos/caracteristicas-plataforma.md) | ✅ Concluído |
+    | **Princípios Gerais** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/05/2026</small> | | [📄 Princípios Gerais](../analise-requisitos/principios-gerais.md) | ✅ Concluído |
+    | **Metas de Usabilidade** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/05/2026</small> | | [📄 Metas de Usabilidade](../analise-requisitos/metas-usabilidade.md) | ✅ Concluído |
+    | **Guia de Estilo** | | | [📄 Guia de Estilo](../analise-requisitos/guia-estilo.md) | ✅ Concluído |
+    | **Lista de Verificação Etapa 3** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/05/2026</small> | | [📄 Verificação Etapa 3](../projeto/verificacao-etapa3.md) | ✅ Concluído |
 
 === "Etapa 4"
     > *Atividades a serem preenchidas via Atas e desdobramentos futuros do projeto.*
@@ -67,7 +75,16 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
 
 === "Etapa 3"
-    > *Resumo a ser preenchido após a conclusão da Etapa 3.*
+
+    | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
+    | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+    | **Características da Plataforma** | — | — | — | — | — | — |
+    | **Princípios Gerais** | — | 1 | — | — | — | — |
+    | **Metas de Usabilidade** | — | 1 | — | — | — | — |
+    | **Guia de Estilo** | — | — | — | — | — | — |
+    | **Lista de Verificação (Etapa 3 - itens)** | — | 5 | — | — | — | — |
+    | **Total de documentos criados** | — | 2 | — | — | — | — |
+    | **Total de documentos revisados** | — | 3 | — | — | — | — |
 
 === "Etapa 4"
     > *Resumo a ser preenchido após a conclusão da Etapa 4.*
@@ -89,3 +106,4 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 | `1.1` | 30/04/2026 | Atualização da Etapa 2 com artefatos entregues por Heitor Macedo (Perfil de Usuário, Persona Laura, Cenário 1, Análise de Tarefas HTA+CTT, Funcionalidade de Notificações). | Heitor Macedo Ricardo | Mateus Rodrigues |
 | `1.2` | 03/05/2026 | Reestruturação da tabela da Etapa 2: coluna "Data" removida e data de conclusão associada individualmente a cada integrante responsável. | Heitor Macedo Ricardo | Pedro Moretti |
 | `1.3` | 03/05/2026 | Atualização com as contribuições de Mateus Rodrigues Barreto (Persona Roberto, Cenário 5, GOMS, Funcionalidade e Lista de Verificação). | Mateus Rodrigues Barreto | A definir |
+| `1.4` | 14/05/2026 | Atualização do Cronograma e Resumo Quantitativo com a inicialização da Etapa 3. | Heitor Macedo Ricardo | A definir |
