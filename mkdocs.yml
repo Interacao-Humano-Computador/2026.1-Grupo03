@@ -79,7 +79,11 @@ nav:
           - Guia de Estilo: analise-requisitos/guia-estilo.md
   - Design, Avaliação e Desenvolvimento:
       - Nível 1:
-          - Planejamento da Avaliação da Análise de Tarefas: planejamento-avaliacao-tarefas.md
+          - Planejamento da Avaliação de Tarefas: design-avaliacao/planejamento-avaliacao-tarefas.md
+          - Planejamento da Avaliação do Storyboard: design-avaliacao/planejamento-avaliacao-storyboard.md
+          - Planejamento do Relato dos Resultados de Tarefas: design-avaliacao/planejamento-relato-tarefas.md
+          - Planejamento do Relato dos Resultados Storyboard: design-avaliacao/planejamento-relato-storyboard.md
+          - Storyboard: design-avaliacao/storyboard.md
   - Inspeções (Verificação e Validação):
       - Nossas Entregas:
           - Entrega 01: inspecoes/entrega01.md
