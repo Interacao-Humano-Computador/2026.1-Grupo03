@@ -36,7 +36,18 @@ Neste storyboard, a usuária Laura (Consumidora Reclamante), que possui uma roti
 
 ---
 
-### 2.2. Tarefa 2: [Inserir o nome da tarefa do colega, ex: Registrar Denúncia Anônima]
+### 2.2. Tarefa 2: Sala de Conciliação Virtual com Mediação Assistida
+**Autor:** Pedro Moretti
+
+Neste storyboard, o usuário Gustavo (Microempreendedor e Fornecedor), que trabalha sozinho em sua oficina e não pode fechar o balcão para evitar prejuízos, precisa resolver uma disputa de consumo com um cliente sem reviver o estresse de deslocamento e espera das audiências presenciais tradicionais. O cenário ilustra Gustavo recebendo uma notificação com o link da sala no celular, realizando a validação automática de seus periféricos no portal (prevenção de erros) e participando da audiência em vídeo de forma integrada com o Consumidor (Lucas) e a Mediadora do PROCON-DF (Mariana). A resolução se encerra com a assinatura digital do termo via Gov.br, deixando Gustavo satisfeito e aliviado por resolver a pendência jurídica em 20 minutos, mantendo sua oficina aberta.
+
+<div id="figura1" align="center">
+  <p>Figura 2 - Storyboard da Tarefa 2</p>
+  <a href="../images/storyboardPedro.jpeg" target=_blank><img src="../images/storyboardPedro.jpeg" alt="Storyboard da Sala de Conciliação Virtual com Mediação Assistida"></a>
+  <p><b>Fonte:</b> Pedro Moretti</p>
+</div>
+
+### 2.3. Tarefa 3: [Inserir o nome da tarefa do colega, ex: Registrar Denúncia Anônima]
 **Autor:** [Nome do Colega - ex: Heloisa]
 
 Breve descrição do contexto do cenário do colega (quem é a persona, o que ela faz e como ela se sente no final).
