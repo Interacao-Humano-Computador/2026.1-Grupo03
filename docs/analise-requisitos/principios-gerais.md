@@ -152,11 +152,7 @@ O sistema peca ao não fazer validações ativas de erro. Ao preencher algo inco
 ## 4. Comprovação Teórica e Bibliográfica
 Conforme exigência do **Item 11 e 12** do Plano de Ensino da disciplina, a fundamentação que baseia a análise destes 9 Princípios Gerais de Projeto (Definições) foi extraída integralmente do Capítulo 10 da bibliografia oficial.
 
-## Referência:
-> BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021. (Capítulo 10: Princípios e Diretrizes para o Design de IHC, Seções 10.2.1 a 10.2.9, p. 222-231).
-
 ---
-
 
 ## Agradecimentos à IA
 
