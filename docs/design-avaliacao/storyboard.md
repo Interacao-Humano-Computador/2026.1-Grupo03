@@ -24,6 +24,12 @@ Neste storyboard, a usuária Laura (Consumidora Reclamante), que possui uma roti
 
 <div id="figura0" align="center">
   <p>Figura 1 - Storyboard da Tarefa 1</p>
+  <a href="../images/storyboardHeitor2.png" target=_blank><img src="../images/storyboardHeitor2.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
+  <p><b>Fonte:</b> Heitor Macedo Ricardo</p>
+</div>
+
+<div id="figura2" align="center">
+  <p>Figura 2 - Storyboard da Tarefa 1</p>
   <a href="../images/storyboardHeitor.png" target=_blank><img src="../images/storyboardHeitor.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> Heitor Macedo Ricardo</p>
 </div>
