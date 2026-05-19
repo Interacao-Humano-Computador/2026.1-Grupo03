@@ -10,15 +10,15 @@ Esta lista de verificação consolida os critérios obrigatórios presentes no P
 
 | ID | Critério de Avaliação | Fonte | Autor |
 |:--:|:---|:---:|:---:|
-| **E4-01** | **(Setting)** O storyboard identifica de maneira explícita e visual quem são as pessoas (personas/usuários) envolvidas na interação? | (KLEMMER, [s.d.]). [Imagem](../images/verificacao4/itens-storyboard.png) | Pedro Moretti |
-| **E4-02** | **(Setting)** O storyboard retrata adequadamente o ambiente ou cenário (físico ou social) onde o uso do sistema está ocorrendo? | (KLEMMER, [s.d.]). [Imagem](../images/verificacao4/itens-storyboard.png) | Pedro Moretti |
-| **E4-03** | **(Setting)** O storyboard deixa claro qual é a tarefa principal e específica que o usuário está tentando realizar no momento da narrativa? | (KLEMMER, [s.d.]). [Imagem](../images/verificacao4/itens-storyboard.png) | Pedro Moretti |
-| **E4-04** | **(Sequence)** O storyboard demonstra de forma clara e quadro a quadro os passos sequenciais que compõem a interação do usuário com o sistema? | (KLEMMER, [s.d.]). [Imagem](../images/verificacao4/itens-storyboard.png) | Pedro Moretti |
-| **E4-05** | **(Sequence)** O storyboard representa o evento, problema ou gatilho situacional que leva a pessoa a iniciar o uso do aplicativo? | (KLEMMER, [s.d.]). [Imagem](../images/verificacao4/itens-storyboard.png) | Pedro Moretti |
-| **E4-06** | **(Sequence)** A progressão do storyboard foca estritamente em ilustrar o fluxo da tarefa, sem ambiguidades sobre qual ação exata está sendo executada pelo usuário? | (KLEMMER, [s.d.]). [Imagem](../images/verificacao4/itens-storyboard.png) | Pedro Moretti |
-| **E4-07** | **(Satisfaction)** O storyboard consegue transmitir visualmente as motivações (práticas ou emocionais) que levam as pessoas a quererem usar esse sistema? | (KLEMMER, [s.d.]). [Imagem](../images/verificacao4/itens-storyboard.png) | Pedro Moretti |
-| **E4-08** | **(Satisfaction)** Fica claro no encerramento do storyboard o resultado final que o sistema permite que as pessoas alcancem de forma bem-sucedida? | (KLEMMER, [s.d.]). [Imagem](../images/verificacao4/itens-storyboard.png) | Pedro Moretti |
-| **E4-09** | **(Satisfaction)** O storyboard evidencia explicitamente qual necessidade fundamental, problema do cotidiano ou lacuna o sistema preenche na vida do usuário? | (KLEMMER, [s.d.]). [Imagem](../images/verificacao4/itens-storyboard.png) | Pedro Moretti |
+| **E4-01** | **(Setting)** O storyboard identifica de maneira explícita e visual quem são as pessoas (personas/usuários) envolvidas na interação? | (KLEMMER, [s.d.]). [Imagem](images/verificacao4/itens-storyboard.png) | Pedro Moretti |
+| **E4-02** | **(Setting)** O storyboard retrata adequadamente o ambiente ou cenário (físico ou social) onde o uso do sistema está ocorrendo? | (KLEMMER, [s.d.]). [Imagem](images/verificacao4/itens-storyboard.png) | Pedro Moretti |
+| **E4-03** | **(Setting)** O storyboard deixa claro qual é a tarefa principal e específica que o usuário está tentando realizar no momento da narrativa? | (KLEMMER, [s.d.]). [Imagem](images/verificacao4/itens-storyboard.png) | Pedro Moretti |
+| **E4-04** | **(Sequence)** O storyboard demonstra de forma clara e quadro a quadro os passos sequenciais que compõem a interação do usuário com o sistema? | (KLEMMER, [s.d.]). [Imagem](images/verificacao4/itens-storyboard.png) | Pedro Moretti |
+| **E4-05** | **(Sequence)** O storyboard representa o evento, problema ou gatilho situacional que leva a pessoa a iniciar o uso do aplicativo? | (KLEMMER, [s.d.]). [Imagem](images/verificacao4/itens-storyboard.png) | Pedro Moretti |
+| **E4-06** | **(Sequence)** A progressão do storyboard foca estritamente em ilustrar o fluxo da tarefa, sem ambiguidades sobre qual ação exata está sendo executada pelo usuário? | (KLEMMER, [s.d.]). [Imagem](images/verificacao4/itens-storyboard.png) | Pedro Moretti |
+| **E4-07** | **(Satisfaction)** O storyboard consegue transmitir visualmente as motivações (práticas ou emocionais) que levam as pessoas a quererem usar esse sistema? | (KLEMMER, [s.d.]). [Imagem](images/verificacao4/itens-storyboard.png) | Pedro Moretti |
+| **E4-08** | **(Satisfaction)** Fica claro no encerramento do storyboard o resultado final que o sistema permite que as pessoas alcancem de forma bem-sucedida? | (KLEMMER, [s.d.]). [Imagem](images/verificacao4/itens-storyboard.png) | Pedro Moretti |
+| **E4-09** | **(Satisfaction)** O storyboard evidencia explicitamente qual necessidade fundamental, problema do cotidiano ou lacuna o sistema preenche na vida do usuário? | (KLEMMER, [s.d.]). [Imagem](images/verificacao4/itens-storyboard.png) | Pedro Moretti |
 
 ---
 
