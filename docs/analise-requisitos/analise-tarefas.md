@@ -2,12 +2,12 @@
 
 ## Colaboração
 Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
-| Autor | Data |
-|---|---|---|
-| Heitor Macedo | 30/04/2026 | 
-| Pedro Moretti | 01/05/2026 | 
-| Heloisa Silva | 01/05/2026 | 
-| Matheus Rodrigues | 01/05/2026 |
+| Autores | Contribuiu |
+|---|---|
+| Heitor Macedo |  Com 2 analises de tarefas |
+| Pedro Moretti |  Com 2 analises de tarefas |
+| Heloisa Silva |  Com 2 analises de tarefas |
+| Matheus Rodrigues |  Com 2 analises de tarefas |
 
 ## Introdução
 
@@ -333,8 +333,7 @@ GOAL 0: REGISTRAR RECLAMAÇÃO FINANCEIRA
 
 ## Agradecimentos à IA
 
-Agradecimento ao **Gemini** pela ajuda na estruturação e redação da Análise de Tarefas deste documento.
-
+Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao montar o padrão de seções e formatação de texto.
 ---
 
 ## Referências

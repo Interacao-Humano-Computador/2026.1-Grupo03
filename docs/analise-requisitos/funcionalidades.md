@@ -2,13 +2,13 @@
 
 ## Colaboração
 Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
-| Autor | Data |
-|---|---|---|
-| Heitor Macedo | 30/04/2026 | 
-| Pedro Moretti | 01/05/2026 | 
-| Heloisa Silva | 01/05/2026 | 
-| Matheus Rodrigues | 01/05/2026 |
-
+| Autores | Contribuiu |
+|---|---|
+| Heitor Macedo | Com 1 Funcionalidade  |
+| Pedro Moretti | Com 1 Funcionalidade |
+| Heloisa Silva | Com 1 Funcionalidade |
+| Matheus Rodrigues | Com 1 Funcionalidade  |
+| Pedro Macedo| Com 1 Funcionalidade |
 Este documento detalha as funcionalidades propostas para a modernização do portal PROCON-DF, focando em transparência, agilidade e acessibilidade digital tanto para consumidores quanto para fornecedores.
 
 ---

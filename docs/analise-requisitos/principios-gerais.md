@@ -1,10 +1,10 @@
-# Princípios Gerais do Projeto
+﻿# Princípios Gerais do Projeto
 
 ## Colaboração
 Colaboração referente a [Etapa 3](../planejamento/cronograma-executado.md)
-| Autor | Data |
-|---|---|---|
-| Heitor Macedo | 10/05/2026 | 
+| Autores | Contribuiu |
+|---|---|
+| Heitor Macedo | Elaborou o Artefato  |
 
 ## 1. Introdução
 Para que um modelo conceitual atenda às necessidades de um determinado usuário e permita um aprendizado de forma natural e rápida, a interface deve seguir Princípios e Diretrizes Gerais de Interação Humano-Computador (IHC). Segundo Barbosa *et al.* (2021)<sup><a href="#figura0">[1]</a></sup>, a aplicação adequada de boa parte dos princípios depende do conhecimento do designer acerca do domínio do problema, dos usuários e de suas atividades. 

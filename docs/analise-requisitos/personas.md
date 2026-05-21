@@ -1,14 +1,14 @@
-# Personas
+﻿# Personas
 
 ## Colaboração
 Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
-| Autor | Data |
-|---|---|---|
-| Heitor Macedo | 30/04/2026 | 
-| Pedro Moretti | 01/05/2026 | 
-| Pedro Macedo | 01/05/2026 | 
-| Heloisa Silva | 01/05/2026 | 
-| Matheus Rodrigues | 01/05/2026 |
+| Autores | Contribuiu |
+|---|---|
+| Heitor Macedo | Criou 2 Personas  |
+| Pedro Moretti | Criou 2 Personas  |
+| Pedro Macedo |  Criou 1 Personas |
+| Heloisa Silva | Criou 1 Personas  |
+| Matheus Rodrigues |  Criou 1 Personas |
 
 
 ## Introdução
@@ -436,7 +436,7 @@ Seu José representa o perfil de consumidor para o qual o sistema **não foi pro
 
 ## Agradecimentos à IA
 
-Agradecimento ao **Gemini 3 Flash** pela ajuda na criação e estruturação das personas deste documento.
+Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao montar o padrão de seções e formatação de texto.
 
 ---
 

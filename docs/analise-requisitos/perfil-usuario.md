@@ -2,11 +2,11 @@
 
 ## Colaboração
 Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
-| Autor | Data |
-|---|---|---|
-| Heitor Macedo | 30/04/2026 | 
-| Pedro Moretti | 01/05/2026 | 
-| Heloisa Silva | 01/05/2026 | 
+| Autores | Contribuiu |
+|---|---|
+| Heitor Macedo | Aplicou 3  Técnicas  |
+| Pedro Moretti | Aplicou 3 Técnicas  |
+| Heloisa Silva | Aplicou 2 Técnicas |
 
 ## Introdução
 
@@ -226,7 +226,7 @@ O usuário interno (stakeholder) do órgão, responsável por receber, fazer a t
 
 ## Agradecimentos à IA
 
-Agradecimento ao **Gemini** pela ajuda na estruturação do deste documento.
+Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao montar o padrão de seções e formatação de texto.
 
 ---
 

@@ -64,12 +64,12 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
     | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-    | **Perfil de Usuário (Técnicas)** | — | 3 | — | 3 | — | — |
-    | **Personas**  | — | 2 | — | 3 | — | 1 |
-    | **Cenários**  | — | 1 | — | 2 | — | 1 |
-    | **Análise de Tarefas**  | — | 2 | — | 2 | — | 1 |
-    | **Funcionalidade**  | — | 1 | — | 1 | — | 1 |
-    | **Lista de Verificação (Etapa 2 - itens)** | — | 5 | — | 12 | — | 4 |
+    | **Perfil de Usuário (Técnicas)** | — | 3 | 2 | 3 | — | — |
+    | **Personas**  | — | 2 | — | 3 | 1 | 1 |
+    | **Cenários**  | — | 1 | — | 2 | 1 | 1 |
+    | **Análise de Tarefas**  | — | 2 | 2 | 2 | — | 1 |
+    | **Funcionalidade**  | — | 1 | — | 1 | 1 | 1 |
+    | **Lista de Verificação (Etapa 2 - itens)** | — | 5 | 2 | 12 | — | 4 |
     | **Total de documentos criados** | 0 | 9 | 7 | 11 | 0 | 4 |
     | **Total de documentos revisados** | 0 | 5 | 0 | 11 | 0 | 0 |
 

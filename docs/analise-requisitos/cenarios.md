@@ -2,12 +2,13 @@
 
 ## Colaboração
 Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
-| Autor | Data |
-|---|---|---|
-| Heitor Macedo | 30/04/2026 | 
-| Pedro Moretti | 01/05/2026 | 
-| Heloisa Silva | 01/05/2026 | 
-| Matheus Rodrigues | 01/05/2026 |
+| Autores | Contribuiu |
+|---|---|
+| Heitor Macedo | Com 1 Cenário   |
+| Pedro Moretti |  Com 2 Cenário |
+| Heloisa Silva |  Com 1 Cenário |
+| Matheus Rodrigues | Com 1 Cenário  |
+| Pedro Macedo | Com 1 Cenário |
 
 ## Introdução
 

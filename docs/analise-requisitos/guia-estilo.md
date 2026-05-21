@@ -4,9 +4,9 @@
 
 ## Colaboração
 Colaboração referente a [Etapa 3](../planejamento/cronograma-executado.md)
-| Autor | Data |
-|---|---|---|
-| Pedro Moretti | 11/05/2026 | 
+| Autores | Contribuiu |
+|---|---|
+| Pedro Moretti | Elaboração do Artefato |
 
 ## 1. <a name="introducao"></a>1 Introdução
 
