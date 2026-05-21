@@ -2,6 +2,12 @@
 
 ---
 
+## Colaboração
+Colaboração referente a [Etapa 3](../planejamento/cronograma-executado.md)
+| Autor | Data |
+|---|---|---|
+| Pedro Moretti | 11/05/2026 | 
+
 ## 1. <a name="introducao"></a>1 Introdução
 
 ### 1.1 Objetivo do Guia de Estilo

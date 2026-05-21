@@ -1,5 +1,16 @@
 # Personas
 
+## Colaboração
+Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
+| Autor | Data |
+|---|---|---|
+| Heitor Macedo | 30/04/2026 | 
+| Pedro Moretti | 01/05/2026 | 
+| Pedro Macedo | 01/05/2026 | 
+| Heloisa Silva | 01/05/2026 | 
+| Matheus Rodrigues | 01/05/2026 |
+
+
 ## Introdução
 
 Personas são personagens fictícios criados para representar os diferentes tipos de usuários dentro de um grupo demográfico que poderá usar o sistema de modo similar. Segundo Barbosa e Silva (2021), personas são definidas principalmente por seus objetivos, determinados por um processo de refinamento a partir de dados do perfil de usuário. Um elenco de personas deve cobrir os principais grupos de usuários do sistema para que o designer foque seus esforços nos usuários mais importantes.

@@ -1,5 +1,13 @@
 # Perfil de Usuário
 
+## Colaboração
+Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
+| Autor | Data |
+|---|---|---|
+| Heitor Macedo | 30/04/2026 | 
+| Pedro Moretti | 01/05/2026 | 
+| Heloisa Silva | 01/05/2026 | 
+
 ## Introdução
 
 O Perfil de Usuário é uma descrição detalhada das características dos usuários cujos objetivos devem ser apoiados pelo sistema sendo projetado. Segundo Barbosa e Silva (2021), conhecer o perfil de usuário permite que a equipe compreenda **quem são as pessoas** que utilizarão o sistema, como elas se comportam, quais são suas necessidades, experiências e expectativas.

@@ -1,5 +1,14 @@
 # Cenários
 
+## Colaboração
+Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
+| Autor | Data |
+|---|---|---|
+| Heitor Macedo | 30/04/2026 | 
+| Pedro Moretti | 01/05/2026 | 
+| Heloisa Silva | 01/05/2026 | 
+| Matheus Rodrigues | 01/05/2026 |
+
 ## Introdução
 
 Cenários são narrativas textuais ricas em detalhes contextuais que descrevem situações concretas de uso de um sistema, envolvendo personas específicas, seus objetivos, o ambiente em que atuam e a sequência de interações que realizam. Segundo Barbosa e Silva (2021, p. 158), um cenário é uma ferramenta fundamental para explorar ideias de design antes que o sistema seja construído, pois permite avaliar se a solução proposta satisfaz as necessidades reais dos usuários ao situá-los em situações verossímeis do cotidiano. Um bom cenário deve conter sete elementos obrigatórios: **ambiente ou contexto**, **atores**, **objetivos**, **planejamento**, **ações**, **eventos** e **avaliação**.
