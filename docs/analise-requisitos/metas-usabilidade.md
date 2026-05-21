@@ -1,10 +1,10 @@
 # Metas de Usabilidade
 
 ## Colaboração
-
-| Autor | Data | Etapa |
+Colaboração referente a [Etapa 3](../planejamento/cronograma-executado.md)
+| Autor | Data |
 |---|---|---|
-| [Autor] | [Data] | [ETAPA 3](../planejamento/cronograma-executado.md) |
+| Heitor Macedo | 10/05/2026 | 
 
 ## 1. Introdução
 De acordo com a Engenharia de Usabilidade de Nielsen, descrita por Barbosa e Silva (2021) <sup><a href="#figura1">[1]</a></sup>, a definição das metas de usabilidade envolve estabelecer quais fatores de qualidade de uso devem ser priorizados no projeto. Para cada fator escolhido, é necessário definir como ele será avaliado, estabelecendo faixas de valores inaceitáveis, aceitáveis e ideais para os indicadores de interesse <sup><a href="#figura2">[2]</a></sup>.
@@ -17,34 +17,19 @@ Com base no Perfil de Usuário levantado para o sistema do PROCON-DF, selecionam
 Conforme exigência da verificação do projeto, justificamos abaixo a escolha das metas prioritárias para o PROCON-DF, baseadas em evidências empíricas e totalmente alinhadas aos artefatos da Análise de Requisitos:
 
 1. **Eficiência:** Selecionada pois o Grupo de Foco e a Análise de Tarefas (GOMS) evidenciaram uma forte aversão à burocracia excessiva e à alta carga cognitiva exigida na interface atual. O uso de tecnologias como OCR e o autocompletar visa maximizar a eficiência de entrada de dados, reduzindo o tempo de execução e a probabilidade de falhas operacionais, otimizando o fluxo de interação para cidadãos e fornecedores.
-   > **Princípios Gerais Associados:** Promoção da Eficiência do Usuário; Simplicidade nas Estruturas das Tarefas.
-
+   - **Princípio Geral de Projeto Associado:** Promoção da Eficiência do Usuário; Simplicidade nas Estruturas das Tarefas.
 2. **Facilidade de Aprendizado *(Learnability)*:** Fundamental para mitigar barreiras tecnológicas enfrentadas por perfis como Ivone (iniciante vulnerável) e Maria Helena (aposentada). Dado o caráter esporádico de uso do portal, a interface deve possuir um modelo conceitual claro e autoexplicativo (ex: Assistente de Triagem Guiada), permitindo que o usuário construa um mapa mental correto logo no primeiro acesso, eliminando a necessidade de treinamento prévio ou leitura de extensa documentação técnica.
-   > **Princípios Gerais Associados:** Correspondência com as Expectativas dos Usuários; Conteúdo Relevante e Expressão Adequada.
-
-3. **Satisfação do Usuário *(Satisfaction)*:** Escolhida para combater o atual quadro de elevada insatisfação e abandono do portal. O excesso de informações (poluição visual) e a ausência de amparo do sistema levam os usuários a optarem por alternativas privadas como o "Reclame Aqui" ([veja mais](#metas-de-usabilidade-analise-do-procon-df)). Plataformas como esta oferecem uma experiência de usuário (UX) manifestamente superior, caracterizada por linguagem natural, *clean design* e *feedback* contínuo de status, atributos que elevam a percepção de valor, a confiança e a sensação de resolutividade. O redesign deve incorporar esses elementos para restaurar a credibilidade institucional do PROCON-DF.
-   > **Princípios Gerais Associados:** Conteúdo Relevante e Expressão Adequada; Visibilidade e Reconhecimento.
-
+   - **Princípio Geral de Projeto Associado:** Correspondência com as Expectativas dos Usuários; Conteúdo Relevante e Expressão Adequada.
+3. **Satisfação do Usuário *(Satisfaction)*:** Escolhida para combater o atual quadro de elevada insatisfação e abandono do portal. O excesso de informações (poluição visual) e a ausência de amparo do sistema levam os usuários a optarem por alternativas privadas como o "Reclame Aqui". Plataformas como esta oferecem uma experiência de usuário (UX) manifestamente superior, caracterizada por linguagem natural, *clean design* e *feedback* contínuo de status, atributos que elevam a percepção de valor, a confiança e a sensação de resolutividade. O redesign deve incorporar esses elementos para restaurar a credibilidade institucional do PROCON-DF.
+   - **Princípio Geral de Projeto Associado:** Conteúdo Relevante e Expressão Adequada; Visibilidade e Reconhecimento.
 4. **Segurança no Uso (Prevenção de Erros):** Inserida em decorrência da elevada taxa de erros documentada na Análise Documental (ex: anexos ilegíveis ou documentação incompleta). Essa meta fundamenta o desenvolvimento de mecanismos heurísticos de prevenção, como a validação automatizada via OCR e a testagem compulsória de periféricos (áudio/vídeo) antecedendo a sala de conciliação virtual. O objetivo é estabelecer restrições preventivas que resguardem usuários com menor fluência digital contra falhas sistêmicas ou operacionais.
-   > **Princípios Gerais Associados:** Projeto para Erros; Antecipação das Necessidades do Usuário.
-
+   - **Princípio Geral de Projeto Associado:** Projeto para Erros; Antecipação das Necessidades do Usuário.
 5. **Facilidade de Recordação *(Memorability)*:** Tendo em vista o acesso episódico ao PROCON-DF (fornecedores como Gustavo acessam anualmente; consumidores, apenas em episódios de lesão consumerista), o sistema não deve impor uma alta carga de memorização na memória de curto prazo do usuário. A aplicação de padrões de design universais (consistência interna e externa) e a clara visibilidade do estado do sistema asseguram que o usuário possa retomar e inferir processos com facilidade, mesmo após longos hiatos de interação, favorecendo o reconhecimento em vez da recordação.
-   > **Princípios Gerais Associados:** Consistência e Padronização; Visibilidade e Reconhecimento; Equilíbrio entre Controle e Liberdade do Usuário.
+   - **Princípio Geral de Projeto Associado:** Consistência e Padronização; Visibilidade e Reconhecimento; Equilíbrio entre Controle e Liberdade do Usuário.
 
 ---
 
 ## 3. Indicadores e Faixas de Valores
-
-### 3.1 Definição das Metas (Metodologia de Medição)
-
-Para estruturar a tabela de medição abaixo, os valores foram extraídos e fundamentados nos demais artefatos da Análise de Requisitos (como Análise de Tarefas e Grupo de Foco), seguindo o rigor técnico da Engenharia de Usabilidade:
-
-- **Valor Inaceitável (A linha de base atual):** Reflete o desempenho do site do PROCON-DF hoje. Representa a frustração medida ou observada nas etapas de elicitação (como no Grupo de Foco). Se hoje o usuário leva mais de 10 minutos e abandona a tarefa, esse é o valor inaceitável.
-- **Valor Ideal (A meta técnica):** É extraído diretamente da sua Análise de Tarefas (Modelo GOMS / KLM). O GOMS é utilizado quantitativamente para predizer o impacto das decisões de design no desempenho competente. O tempo calculado pela soma dos operadores do GOMS (clicar, digitar, apontar) para a nova interface é o seu valor "Ideal".
-- **Valor Aceitável (O limiar realista):** É o meio-termo definido empiricamente. Representa um ganho de eficiência claro em relação à ferramenta atual, tornando a interface competitiva em relação aos sistemas paralelos (como o Reclame Aqui).
-
-### 3.2 Tabela de Metas de Usabilidade
-
 A tabela abaixo define os indicadores numéricos que comprovarão o sucesso do redesign do sistema, estruturados de acordo com as metas estabelecidas:
 
 | Meta de Usabilidade | Princípio Geral Associado | Indicador de Medição | Valor Inaceitável | Valor Aceitável | Valor Ideal |
@@ -66,8 +51,7 @@ A tabela abaixo define os indicadores numéricos que comprovarão o sucesso do r
 A análise a seguir examina os principais fatores que levam usuários a abandonar o portal oficial do
 [PROCON-DF](https://www.procon.df.gov.br/) em favor de alternativas como o
 [Reclame Aqui](https://www.reclameaqui.com.br/) ou os canais de atendimento das próprias lojas online.
-Essa avaliação é fundamentada nas metas de usabilidade propostas por Nielsen (1993) e Sharp, Rogers e
-Preece (2019), aplicadas à experiência de registro de reclamações no site avaliado.
+Essa avaliação é fundamentada nas metas de usabilidade propostas por Nielsen (1994 apud Barbosa et al., 2021) e Sharp, Rogers e Preece (2019 apud Barbosa et al., 2021), aplicadas à experiência de registro de reclamações no site avaliado.
 
 ---
 
@@ -145,19 +129,20 @@ canal oficial, independentemente da autoridade legal do órgão.
 ---
 ## Agradecimentos à IA
 
-Agradecimento ao **Gemini** pela ajuda na estruturação deste documento.
+Agradecimento ao **Gemini** pela ajuda na estruturação deste documento e auxílio na análise do reclame aqui.
 
 
-## Referência Bibliográfica:
-> BARBOSA, S. D. J. et al. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 3, Seção 3.2.1, p. 35-36; e Capítulo 6, Seção 6.3.2, p. 103).
+## Referência:
+> BARBOSA, S. D. J. et al. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 
 ---
 
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.0` | 10/05/2026 | Elaboração das Metas de Usabilidade. | Heitor Macedo Ricardo | Pedro Moretti |
+| `1.2` | 21/05/2026 | Formatação do documento. | Heitor Macêdo Ricardo | Pedro Moretti |
 | `1.1` | 11/05/2026 | Inserção das imagens de comprovação bibliográfica. | Mateus Rodrigues Barreto | Pedro Moretti |
+| `1.0` | 10/05/2026 | Elaboração das Metas de Usabilidade. | Heitor Macedo Ricardo | Pedro Moretti |
 
 <br>
 

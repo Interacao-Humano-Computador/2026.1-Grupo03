@@ -1,10 +1,10 @@
 # Princípios Gerais do Projeto
 
 ## Colaboração
-
-| Autor | Data | Etapa |
+Colaboração referente a [Etapa 3](../planejamento/cronograma-executado.md)
+| Autor | Data |
 |---|---|---|
-| [Autor] | [Data] | [ETAPA 3](../planejamento/cronograma-executado.md) |
+| Heitor Macedo | 10/05/2026 | 
 
 ## 1. Introdução
 Para que um modelo conceitual atenda às necessidades de um determinado usuário e permita um aprendizado de forma natural e rápida, a interface deve seguir Princípios e Diretrizes Gerais de Interação Humano-Computador (IHC). Segundo Barbosa *et al.* (2021)<sup><a href="#figura0">[1]</a></sup>, a aplicação adequada de boa parte dos princípios depende do conhecimento do designer acerca do domínio do problema, dos usuários e de suas atividades. 
@@ -180,7 +180,7 @@ Conforme exigência do **Item 11 e 12** do Plano de Ensino da disciplina, a fund
 
 ## Agradecimentos à IA
 
-Agradecimento ao **Gemini** pela ajuda na estruturação deste documento.
+Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao montar o padrão de seções e formatação de texto.
 
 ## Referência:
 > BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021. (Capítulo 10: Princípios e Diretrizes para o Design de IHC, Seção 10.2).
@@ -192,6 +192,7 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento.
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
+| 1.4 | 21/05/2026 | Formatação do documento | Heitor Macêdo Ricardo | Pedro Moretti |
 | 1.3 | 17/05/2026 | Formatação das Referências | Heitor Macedo Ricardo | Pedro Moretti |
 | 1.2 | 10/05/2026 | Correção das referências por imagem | Heitor Macedo Ricardo | Pedro Macedo |
 | 1.1 | 10/05/2026 | Adição das imagens na referencia e agradecimento a IA | Pedro Macedo | Heitor Macedo Ricardo |
