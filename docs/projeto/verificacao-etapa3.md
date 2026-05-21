@@ -8,15 +8,15 @@ Esta lista de verificação consolida os critérios obrigatórios presentes no P
 
 Abaixo estão definidos termos técnicos presentes nesta lista de verificação para facilitar a compreensão por leitores não familiarizados com a área:
 
-* **Características da Plataforma (Hardware/Software)**: Descrição das limitações físicas dos aparelhos (como tamanho de tela e memória de um computador/smartphone) e das ferramentas lógicas (sistemas operacionais e navegadores) para as quais o sistema é projetado.
-* **Princípios Gerais de Projeto**: Diretrizes de IHC (como consistência, visibilidade e prevenção de erros) que servem como guia para construir interfaces fáceis de usar.
-* **Metas de Usabilidade**: Metas específicas e quantificáveis de qualidade de uso (ex: facilidade de aprendizado, rapidez nas tarefas, segurança e satisfação do usuário).
-* **Guia de Estilo**: Documento que define as regras e padrões de design da interface (cores, tipografia, comportamento de telas) para guiar o time e manter a interface coerente e uniforme.
-* **Layout e Grids**: O layout é a organização geral do conteúdo em uma tela; já os grids são grades guias invisíveis (divisões em colunas e linhas) que ajudam a alinhar os elementos visualmente.
-* **Tipografia**: Estilos, tamanhos, fontes e formatação do texto exibido nas interfaces.
-* **Simbolismo**: O uso coerente e intuitivo de ícones e representações gráficas para significar recursos do sistema sem a necessidade de texto extenso.
-* **Widgets (Elementos de Interface)**: Componentes interativos prontos de uma tela com os quais os usuários interagem diretamente (como botões, campos de texto e caixas de seleção).
-* **Visualização de Informação**: Formas gráficas de apresentar dados que seriam abstratos, tornando-os compreensíveis por meio de tabelas organizadas, mapas ou diagramas.
+* **Características da Plataforma (Hardware/Software)**: Descrição das limitações físicas dos aparelhos (como tamanho de tela e memória de um computador/smartphone) e das ferramentas lógicas (sistemas operacionais e navegadores) para as quais o sistema é projetado[(Barbosa et al., 2021, p. 105)](images/verificacao3/caracteristicas.png).
+* **Princípios Gerais de Projeto**: Diretrizes de IHC (como consistência, visibilidade e prevenção de erros) que servem como guia para construir interfaces fáceis de usar[(Barbosa et al., 2021, p. 222)](images/verificacao3/principios.png).
+* **Metas de Usabilidade**: Metas específicas e quantificáveis de qualidade de uso (ex: facilidade de aprendizado, rapidez nas tarefas, segurança e satisfação do usuário)[(Barbosa et al., 2021, p. 103)](images/verificacao3/metas.png).
+* **Guia de Estilo**: Documento que define as regras e padrões de design da interface (cores, tipografia, comportamento de telas) para guiar o time e manter a interface coerente e uniforme[(Barbosa et al., 2021, p. 241)](images/verificacao3/guiaestilo.png).
+* **Layout e Grids**: O layout é a organização geral do conteúdo em uma tela; já os grids são grades guias invisíveis (divisões em colunas e linhas) que ajudam a alinhar os elementos visualmente[(Barbosa et al., 2021, p. 231 e 241)](images/verificacao3/layout.png).
+* **Tipografia**: Estilos, tamanhos, fontes e formatação do texto exibido nas interfaces[(Barbosa et al., 2021, p. 241)](images/verificacao3/tipografia.png)..
+* **Simbolismo**: O uso coerente e intuitivo de ícones e representações gráficas para significar recursos do sistema sem a necessidade de texto extenso[(Barbosa et al., 2021, p. 241)](images/verificacao3/tipografia.png).
+* **Widgets (Elementos de Interface)**: Componentes interativos prontos de uma tela com os quais os usuários interagem diretamente (como botões, campos de texto e caixas de seleção)[(Barbosa et al., 2021, p. 208)](images/verificacao3/widgets.png).
+* **Visualização de Informação**: Formas gráficas de apresentar dados que seriam abstratos, tornando-os compreensíveis por meio de tabelas organizadas, mapas ou diagramas[(Barbosa et al., 2021, p. 241)](images/verificacao3/tipografia.png)..
 
 ---
 
@@ -58,6 +58,10 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 | **E3-11** | O guia de estilo aborda o **design de telas e elementos de interface** (widgets)? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Moretti |
 
 ---
+## Referências
+
+> 1. BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021.
+> 2. UNIVERSIDADE DE BRASÍLIA. *Plano de Ensino FIHC 012026 Turma 03*. Gama: UnB, 2026.
 
 ## Histórico de Versão
 

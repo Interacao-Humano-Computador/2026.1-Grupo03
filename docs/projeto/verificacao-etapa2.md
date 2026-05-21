@@ -8,15 +8,15 @@ Esta lista de verificação consolida os critérios de avaliação da **Etapa 2*
 
 Abaixo estão definidos termos técnicos presentes nesta lista de verificação para facilitar a compreensão por leitores não familiarizados com a área:
 
-* **Perfil de Usuário**: Descrição detalhada dos traços e comportamentos do público-alvo (como características demográficas, experiência tecnológica, necessidades e hábitos).
-* **Aspectos Éticos (TCLE)**: Normas voltadas a respeitar e proteger o participante da pesquisa. O Termo de Consentimento Livre e Esclarecido (TCLE) é a autorização assinada/concordada que formaliza a participação voluntária.
-* **Personas**: Perfis de personagens fictícios gerados com base em dados de usuários reais, ajudando a focar o design nas necessidades do usuário (podem ser **primárias**, que são o foco central, ou **antipersonas**, representando para quem o sistema *não* está sendo feito).
-* **Stakeholders**: Indivíduos ou grupos que possuem algum tipo de interesse ou são impactados pelo projeto (por exemplo, desenvolvedores, gestores ou clientes).
-* **Cenários**: Narrativas simples em formato de história contendo contexto e personagens (personas), descrevendo como os usuários realizam certas tarefas utilizando o sistema.
-* **Análise de Tarefas**: Método para descrever e analisar como os usuários executam suas tarefas na prática a fim de atingir os seus objetivos cotidianos.
-* **HTA (Hierarchical Task Analysis - Análise Hierárquica de Tarefas)**: Técnica que detalha a atividade do usuário quebrando um objetivo de alto nível em subobjetivos mais simples e sequenciais de forma hierárquica.
-* **CTT (ConcurTaskTrees - Árvores de Tarefas Concorrentes)**: Notação gráfica usada para mapear hierarquicamente as tarefas do usuário e suas relações temporais (como tarefas paralelas, sequenciais ou concorrentes).
-* **GOMS (Goals, Operators, Methods, and Selection rules)**: Um modelo cognitivo que mapeia os objetivos do usuário, as ações físicas/mentais necessárias (operadores), os métodos para alcançá-los e as regras de escolha entre esses métodos.
+* **Perfil de Usuário**: Descrição detalhada dos traços e comportamentos do público-alvo (como características demográficas, experiência tecnológica, necessidades e hábitos)[(Barbosa et al., 2021, p. 151-152)](images/verificacao2/perfilusuario.png).
+* **Aspectos Éticos (TCLE)**: Normas voltadas a respeitar e proteger o participante da pesquisa. O Termo de Consentimento Livre e Esclarecido (TCLE) é a autorização assinada/concordada que formaliza a participação voluntária[(Barbosa et al., 2021, p. 126-128)](images/verificacao/TCLE.png).
+* **Personas**: Perfis de personagens fictícios gerados com base em dados de usuários reais, ajudando a focar o design nas necessidades do usuário (podem ser **primárias**, que são o foco central, ou **antipersonas**, representando para quem o sistema *não* está sendo feito)[(Barbosa et al., 2021, p. 153-154)](images/verificacao2/personas.png).
+* **Stakeholders**: Indivíduos ou grupos que possuem algum tipo de interesse ou são impactados pelo projeto (por exemplo, desenvolvedores, gestores ou clientes)[(Barbosa et al., 2021, p. 8)](images/verificacao2/stakeholders.png).
+* **Cenários**: Narrativas simples em formato de história contendo contexto e personagens (personas), descrevendo como os usuários realizam certas tarefas utilizando o sistema [(Barbosa et al., 2021, p. 158)](images/verificacao2/cenarios.png).
+* **Análise de Tarefas**: Método para descrever e analisar como os usuários executam suas tarefas na prática a fim de atingir os seus objetivos cotidianos [(Barbosa et al., 2021, p. 163-164)](images/verificacao2/analisetarefas.png).
+* **HTA (Hierarchical Task Analysis - Análise Hierárquica de Tarefas)**: Técnica que detalha a atividade do usuário quebrando um objetivo de alto nível em subobjetivos mais simples e sequenciais de forma hierárquica [(Barbosa et al., 2021, p. 165)](images/verificacao2/hta.png).
+* **CTT (ConcurTaskTrees - Árvores de Tarefas Concorrentes)**: Notação gráfica usada para mapear hierarquicamente as tarefas do usuário e suas relações temporais (como tarefas paralelas, sequenciais ou concorrentes)[(Barbosa et al., 2021, p. 173)](images/verificacao2/CTT.png).
+* **GOMS (Goals, Operators, Methods, and Selection rules)**: Um modelo cognitivo que mapeia os objetivos do usuário, as ações físicas/mentais necessárias (operadores), os métodos para alcançá-los e as regras de escolha entre esses métodos[(Barbosa et al., 2021, p. 167-168)](images/verificacao2/GOMS.png).
 
 ---
 
