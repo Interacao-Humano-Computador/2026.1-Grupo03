@@ -4,7 +4,17 @@
 
 Esta lista de verificação consolida os critérios obrigatórios presentes no Plano de Ensino da disciplina, recomendados pelo Professor, e também inclui itens elaborados pelos integrantes do grupo relacionados ao conteúdo da disciplina, com seus respectivos autores, conforme a orientação registrada pelo Professor na tabela de Itens do Conteúdo da Disciplina. Assim, o documento reúne os parâmetros estratégicos definidos internamente pela equipe para garantir o rigor máximo e a qualidade técnica da **Etapa 1** dos artefatos do grupo e do grupo + 1.
 
+## Glossário
 
+Abaixo estão definidos termos técnicos presentes nesta lista de verificação para facilitar a compreensão por leitores não familiarizados com a área:
+
+* **IHC (Interação Humano-Computador)**: Campo de estudo focado no design, avaliação e implementação de sistemas interativos de computador para uso humano.
+* **Heatmap (Mapa de Calor)**: Representação gráfica onde os dados são exibidos em formato de cores, ajudando a identificar intensidades ou padrões (no projeto, indica os horários disponíveis e de sobreposição dos integrantes da equipe).
+* **Processo de Design**: Metodologia ou conjunto de passos estruturados que orienta a criação de interfaces, cobrindo etapas como análise do problema, síntese de ideias e avaliação do sistema.
+* **Iteratividade**: Propriedade de ciclos repetitivos em design que envolvem projetar, avaliar e ajustar a interface com base no feedback contínuo dos usuários para refiná-la sucessivamente.
+* **Protótipo**: Modelo simplificado ou preliminar do sistema (como um desenho em papel ou tela interativa) utilizado para simular a interface antes de sua implementação final.
+* **Aspectos Éticos (TCLE)**: Regras e cuidados aplicados para proteger o participante (garantindo autonomia e privacidade). O Termo de Consentimento Livre e Esclarecido (TCLE) é o documento pelo qual o participante aceita voluntariamente fazer parte da pesquisa.
+* **Stack Tecnológico**: O conjunto de linguagens, softwares, plataformas e ferramentas tecnológicas utilizadas para estruturar e colocar em prática o projeto de software.
 
 ## Planejamento geral do projeto
 

@@ -4,9 +4,19 @@
 
 Esta lista de verificação consolida os critérios obrigatórios presentes no Plano de Ensino da disciplina, recomendados pelo Professor, e também inclui itens elaborados pelos integrantes do grupo relacionados ao conteúdo da disciplina, com seus respectivos autores, conforme a orientação registrada pelo Professor na tabela de Itens do Conteúdo da Disciplina. Assim, o documento reúne os parâmetros estratégicos definidos internamente pela equipe para garantir o rigor máximo e a qualidade técnica da **Etapa 4** dos artefatos do grupo e do grupo - 1.
 
+## Glossário
+
+Abaixo estão definidos termos técnicos presentes nesta lista de verificação para facilitar a compreensão por leitores não familiarizados com a área:
+
+* **Storyboard**: Sequência de esboços ilustrados (estilo quadrinhos) acompanhados de breves narrativas, que mostram como um usuário interage com o sistema no dia a dia. Costuma ser estruturado em **Setting** (o ambiente e quem está nele), **Sequence** (o passo a passo da ação) e **Satisfaction** (o resultado prático obtido).
+* **Framework DECIDE**: Modelo estruturado em 6 etapas para orientar o planejamento e a realização de avaliações de IHC (*Determine* objetivos, *Explore* perguntas, *Choose* métodos, *Identify* questões práticas, *Decide* questões éticas e *Evaluate* dados).
+* **Teste Piloto**: Uma simulação prévia do teste real de usabilidade, feita com poucos participantes, para verificar se o roteiro e os equipamentos funcionam bem e corrigir problemas antes de iniciar as sessões oficiais.
+* **Problemas de Usabilidade**: Quaisquer falhas, barreiras ou dificuldades encontradas na interface que geram erros, lentidão ou frustração para o usuário final.
+* **Aspectos Éticos**: Princípios aplicados para garantir que os testes não prejudiquem ou causem desconforto aos participantes da pesquisa, respeitando sua privacidade e voluntariedade.
+
 ---
 
-## Critérios de Verificação
+## Storyboard
 
 | ID | Critério de Avaliação | Fonte | Autor |
 |:--:|:---|:---:|:---:|
@@ -19,6 +29,13 @@ Esta lista de verificação consolida os critérios obrigatórios presentes no P
 | **E4-07** | **(Satisfaction)** O storyboard consegue transmitir visualmente as motivações (práticas ou emocionais) que levam as pessoas a quererem usar esse sistema? | (KLEMMER, [s.d.]). [Imagem](images/verificacao4/itens-storyboard.png) | Pedro Moretti |
 | **E4-08** | **(Satisfaction)** Fica claro no encerramento do storyboard o resultado final que o sistema permite que as pessoas alcancem de forma bem-sucedida? | (KLEMMER, [s.d.]). [Imagem](images/verificacao4/itens-storyboard.png) | Pedro Moretti |
 | **E4-09** | **(Satisfaction)** O storyboard evidencia explicitamente qual necessidade fundamental, problema do cotidiano ou lacuna o sistema preenche na vida do usuário? | (KLEMMER, [s.d.]). [Imagem](images/verificacao4/itens-storyboard.png) | Pedro Moretti |
+
+---
+
+## Planejamento da Avaliação e Relato dos Resultados
+
+| ID | Critério de Avaliação | Fonte | Autor |
+|:--:|:---|:---:|:---:|
 | **E4-10** | O planejamento da avaliação segue rigorosamente todas as etapas do Framework DECIDE (Determinar objetivos, Explorar perguntas, Escolher métodos, Identificar questões práticas, Decidir questões éticas e Avaliar dados)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/frameworkdecide.png) | Heitor Macedo Ricardo |
 | **E4-11** | O documento descreve de forma clara os objetivos da avaliação (ex: explorar alternativas de design, encontrar problemas de interação) e os métodos escolhidos para realizá-la (ex: observação, simulação)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/d.png) | Heitor Macedo Ricardo |
 | **E4-12** | O planejamento identifica claramente as questões práticas da avaliação, apresentando recrutamento (quem e quantos), orçamento, equipamentos necessários e, obrigatoriamente, um cronograma com data, horário e local? | BARBOSA et al. (2021). [Imagem](images/verificacao4/i.png) | Heitor Macedo Ricardo |

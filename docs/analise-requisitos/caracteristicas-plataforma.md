@@ -2,6 +2,7 @@
 
 ## Colaboração
 Colaboração referente a [Etapa 3](../planejamento/cronograma-executado.md)
+
 | Autores | Contribuiu |
 |---|---|
 | Heloisa Silva | Elaboração do Artefato |

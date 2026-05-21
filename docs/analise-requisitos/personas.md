@@ -2,6 +2,7 @@
 
 ## Colaboração
 Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
+
 | Autores | Contribuiu |
 |---|---|
 | Heitor Macedo | Criou 2 Personas  |

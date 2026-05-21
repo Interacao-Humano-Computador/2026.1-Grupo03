@@ -4,6 +4,7 @@
 
 ## Colaboração
 Colaboração referente a [Etapa 3](../planejamento/cronograma-executado.md)
+
 | Autores | Contribuiu |
 |---|---|
 | Pedro Moretti | Elaboração do Artefato |

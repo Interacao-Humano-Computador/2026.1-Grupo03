@@ -4,15 +4,50 @@
 
 Esta lista de verificação consolida os critérios obrigatórios presentes no Plano de Ensino da disciplina, recomendados pelo Professor, e também inclui itens elaborados pelos integrantes do grupo relacionados ao conteúdo da disciplina, com seus respectivos autores, conforme a orientação registrada pelo Professor na tabela de Itens do Conteúdo da Disciplina. Assim, o documento reúne os parâmetros estratégicos definidos internamente pela equipe para garantir o rigor máximo e a qualidade técnica da **Etapa 3** dos artefatos do grupo e do grupo + 1.
 
+## Glossário
+
+Abaixo estão definidos termos técnicos presentes nesta lista de verificação para facilitar a compreensão por leitores não familiarizados com a área:
+
+* **Características da Plataforma (Hardware/Software)**: Descrição das limitações físicas dos aparelhos (como tamanho de tela e memória de um computador/smartphone) e das ferramentas lógicas (sistemas operacionais e navegadores) para as quais o sistema é projetado.
+* **Princípios Gerais de Projeto**: Diretrizes de IHC (como consistência, visibilidade e prevenção de erros) que servem como guia para construir interfaces fáceis de usar.
+* **Metas de Usabilidade**: Metas específicas e quantificáveis de qualidade de uso (ex: facilidade de aprendizado, rapidez nas tarefas, segurança e satisfação do usuário).
+* **Guia de Estilo**: Documento que define as regras e padrões de design da interface (cores, tipografia, comportamento de telas) para guiar o time e manter a interface coerente e uniforme.
+* **Layout e Grids**: O layout é a organização geral do conteúdo em uma tela; já os grids são grades guias invisíveis (divisões em colunas e linhas) que ajudam a alinhar os elementos visualmente.
+* **Tipografia**: Estilos, tamanhos, fontes e formatação do texto exibido nas interfaces.
+* **Simbolismo**: O uso coerente e intuitivo de ícones e representações gráficas para significar recursos do sistema sem a necessidade de texto extenso.
+* **Widgets (Elementos de Interface)**: Componentes interativos prontos de uma tela com os quais os usuários interagem diretamente (como botões, campos de texto e caixas de seleção).
+* **Visualização de Informação**: Formas gráficas de apresentar dados que seriam abstratos, tornando-os compreensíveis por meio de tabelas organizadas, mapas ou diagramas.
+
 ---
 
-## Critérios de Verificação
+## Características da Plataforma
 
 | ID | Critério de Avaliação | Fonte | Autor |
 |:--:|:---|:---:|:---:|
 | **E3-01** | O documento descreve claramente as características da plataforma (hardware e software) para a qual o sistema será projetado? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-3-1.png) | Heitor Macedo |
+
+---
+
+## Princípios Gerais de Projeto
+
+| ID | Critério de Avaliação | Fonte | Autor |
+|:--:|:---|:---:|:---:|
 | **E3-02** | O projeto lista, justifica e aplica os Princípios Gerais de Projeto, abordando todos os tópicos obrigatórios (correspondência com o usuário, simplicidade, controle/liberdade, consistência, eficiência, antecipação, visibilidade, conteúdo relevante e projeto para erros)? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-3-2.png) | Heitor Macedo |
+
+---
+
+## Metas de Usabilidade
+
+| ID | Critério de Avaliação | Fonte | Autor |
+|:--:|:---|:---:|:---:|
 | **E3-03** | O documento define as metas de usabilidade (com faixas de valores) a serem alcançadas e apresenta a razão da seleção dessas metas com base no perfil do usuário? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-3-3.png) | Heitor Macedo |
+
+---
+
+## Guia de Estilo
+
+| ID | Critério de Avaliação | Fonte | Autor |
+|:--:|:---|:---:|:---:|
 | **E3-04** | O Guia de Estilo do projeto foi construído respeitando rigorosamente a estrutura de 6 tópicos: Introdução, Resultados de análise, Elementos de interface, Elementos de interação, Elementos de ação e Vocabulário/Padrões? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-3-4.png) | Heitor Macedo |
 | **E3-05** | O Guia de Estilo documentado corresponde de fato às necessidades do site avaliado, servindo de insumo padronizado para as próximas fases de design? | (BARBOSA; SILVA, 2021). [Imagem 1](images/verificacao/VerificacaoHeitor-3-4.png), [Imagem 2](images/verificacao/VerificacaoHeitor-3-1.png) | Heitor Macedo |
 | **E3-06** | O guia de estilo aborda o elemento **layout** (proporção e grids, uso de metáforas espaciais, design gráfico de exibidores e ferramentas)? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Moretti |
