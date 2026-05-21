@@ -35,7 +35,7 @@ A inspeção valida cada critério definido e apresentado na Lista de Verificaç
 
 ## Apresentação
 
-[🎥 Assistir ao Vídeo da inspeção do grupo -1 no YouTube](){ target="_blank" }
+[🎥 Assistir ao Vídeo da inspeção do grupo -1 no YouTube](https://youtu.be/y__leadPmpw?si=lkn8pFQ7xKYgP8Zt){ target="_blank" }
 
 ---
 
