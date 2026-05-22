@@ -45,7 +45,15 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Lista de Verificação Etapa 3** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/05/2026</small> | | [📄 Verificação Etapa 3](../projeto/verificacao-etapa3.md) | ✅ Concluído |
 
 === "Etapa 4"
-    > *Atividades a serem preenchidas via Atas e desdobramentos futuros do projeto.*
+    Nesta etapa, as tarefas foram direcionadas para o planejamento da avaliação e do relato dos resultados de Design.
+
+    | Atividade Extraída do Plano de Ensino | Integrante Responsável<br><small>(nome · data de conclusão)</small> | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
+    | :--- | :---: | :---: | :--- | :---: |
+    | **Planejamento da Avaliação da Análise de Tarefas** | [Pedro Macedo](../equipe/equipe.md)<br><small>19/05/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [📄 Planejamento de Avaliação de Tarefas](../design-avaliacao/planejamento-avaliacao-tarefas.md) | ✅ Concluído |
+    | **Planejamento da Avaliação do Storyboard** | [Pedro Moretti](../equipe/equipe.md)<br><small>19/05/2026</small> [Eduardo Valadares](../equipe/equipe.md)<br><small>19/05/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Planejamento de Avaliação de Storyboard](../design-avaliacao/planejamento-avaliacao-storyboard.md) | ✅ Concluído |
+    | **Planejamento do Relato dos Resultados da Análise de Tarefas** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [📄 Planejamento de Relato de Tarefas](../design-avaliacao/planejamento-relato-tarefas.md) | ✅ Concluído |
+    | **Planejamento do Relato dos Resultados do Storyboard** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> | [Heloisa Silva](../equipe/equipe.md) | [📄 Planejamento de Relato de Storyboard](../design-avaliacao/planejamento-relato-storyboard.md) | ✅ Concluído |
+    | **Storyboard** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>19/05/2026</small> | [Heloisa Silva](../equipe/equipe.md) | [📄 Storyboard](../design-avaliacao/storyboard.md) | ✅ Concluído |
 
 ---
 
@@ -87,7 +95,17 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Total de documentos revisados** | — | 3 | — | — | — | — |
 
 === "Etapa 4"
-    > *Resumo a ser preenchido após a conclusão da Etapa 4.*
+
+    | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
+    | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+    | **Planejamento de Avaliação de Tarefas** | — | — | — | — | 1 | — |
+    | **Planejamento de Avaliação de Storyboard** | 1 | — | — | 1 | — | — |
+    | **Planejamento do Relato de Tarefas** | — | 1 | — | — | — | — |
+    | **Planejamento do Relato de Storyboard** | — | 1 | — | — | — | — |
+    | **Storyboard** | — | 1 | — | — | — | — |
+    | **Lista de Verificação (Etapa 4 - itens)** | — | 5 | — | — | — | — |
+    | **Total de documentos criados** | 1 | 3 | — | 1 | 1 | — |
+    | **Total de documentos revisados** | — | 1 | 2 | 2 | — | — |
 
 ---
 
@@ -107,3 +125,4 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 | `1.2` | 03/05/2026 | Reestruturação da tabela da Etapa 2: coluna "Data" removida e data de conclusão associada individualmente a cada integrante responsável. | Heitor Macedo Ricardo | Pedro Moretti |
 | `1.3` | 03/05/2026 | Atualização com as contribuições de Mateus Rodrigues Barreto (Persona Roberto, Cenário 5, GOMS, Funcionalidade e Lista de Verificação). | Mateus Rodrigues Barreto | A definir |
 | `1.4` | 14/05/2026 | Atualização do Cronograma e Resumo Quantitativo com a inicialização da Etapa 3. | Heitor Macedo Ricardo | A definir |
+| `1.5` | 22/05/2026 | Atualização com o cronograma executado e resumo quantitativo da Etapa 4. | Heitor Macedo Ricardo | Heloisa Silva |

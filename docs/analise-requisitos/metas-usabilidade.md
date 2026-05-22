@@ -18,15 +18,15 @@ Com base no Perfil de Usuário levantado para o sistema do PROCON-DF, selecionam
 Conforme exigência da verificação do projeto, justificamos abaixo a escolha das metas prioritárias para o PROCON-DF, baseadas em evidências empíricas e totalmente alinhadas aos artefatos da Análise de Requisitos:
 
 1. **Eficiência:** Selecionada pois o Grupo de Foco e a Análise de Tarefas (GOMS) evidenciaram uma forte aversão à burocracia excessiva e à alta carga cognitiva exigida na interface atual. O uso de tecnologias como OCR e o autocompletar visa maximizar a eficiência de entrada de dados, reduzindo o tempo de execução e a probabilidade de falhas operacionais, otimizando o fluxo de interação para cidadãos e fornecedores.
-   - **Princípio Geral de Projeto Associado:** Promoção da Eficiência do Usuário; Simplicidade nas Estruturas das Tarefas.
+   > **Princípio Geral de Projeto Associado:** Promoção da Eficiência do Usuário; Simplicidade nas Estruturas das Tarefas.
 2. **Facilidade de Aprendizado *(Learnability)*:** Fundamental para mitigar barreiras tecnológicas enfrentadas por perfis como Ivone (iniciante vulnerável) e Maria Helena (aposentada). Dado o caráter esporádico de uso do portal, a interface deve possuir um modelo conceitual claro e autoexplicativo (ex: Assistente de Triagem Guiada), permitindo que o usuário construa um mapa mental correto logo no primeiro acesso, eliminando a necessidade de treinamento prévio ou leitura de extensa documentação técnica.
-   - **Princípio Geral de Projeto Associado:** Correspondência com as Expectativas dos Usuários; Conteúdo Relevante e Expressão Adequada.
-3. **Satisfação do Usuário *(Satisfaction)*:** Escolhida para combater o atual quadro de elevada insatisfação e abandono do portal. O excesso de informações (poluição visual) e a ausência de amparo do sistema levam os usuários a optarem por alternativas privadas como o "Reclame Aqui". Plataformas como esta oferecem uma experiência de usuário (UX) manifestamente superior, caracterizada por linguagem natural, *clean design* e *feedback* contínuo de status, atributos que elevam a percepção de valor, a confiança e a sensação de resolutividade. O redesign deve incorporar esses elementos para restaurar a credibilidade institucional do PROCON-DF.
-   - **Princípio Geral de Projeto Associado:** Conteúdo Relevante e Expressão Adequada; Visibilidade e Reconhecimento.
+   > **Princípio Geral de Projeto Associado:** Correspondência com as Expectativas dos Usuários; Conteúdo Relevante e Expressão Adequada.
+3. **Satisfação do Usuário *(Satisfaction)*:** Escolhida para combater o atual quadro de elevada insatisfação e abandono do portal. O excesso de informações (poluição visual) e a ausência de amparo do sistema levam os usuários a optarem por alternativas privadas como o "Reclamje Aqui"(veja mais). Plataformas como esta oferecem uma experiência de usuário (UX) manifestamente superior, caracterizada por linguagem natural, *clean design* e *feedback* contínuo de status, atributos que elevam a percepção de valor, a confiança e a sensação de resolutividade. O redesign deve incorporar esses elementos para restaurar a credibilidade institucional do PROCON-DF.
+   > **Princípio Geral de Projeto Associado:** Conteúdo Relevante e Expressão Adequada; Visibilidade e Reconhecimento.
 4. **Segurança no Uso (Prevenção de Erros):** Inserida em decorrência da elevada taxa de erros documentada na Análise Documental (ex: anexos ilegíveis ou documentação incompleta). Essa meta fundamenta o desenvolvimento de mecanismos heurísticos de prevenção, como a validação automatizada via OCR e a testagem compulsória de periféricos (áudio/vídeo) antecedendo a sala de conciliação virtual. O objetivo é estabelecer restrições preventivas que resguardem usuários com menor fluência digital contra falhas sistêmicas ou operacionais.
-   - **Princípio Geral de Projeto Associado:** Projeto para Erros; Antecipação das Necessidades do Usuário.
+   > **Princípio Geral de Projeto Associado:** Projeto para Erros; Antecipação das Necessidades do Usuário.
 5. **Facilidade de Recordação *(Memorability)*:** Tendo em vista o acesso episódico ao PROCON-DF (fornecedores como Gustavo acessam anualmente; consumidores, apenas em episódios de lesão consumerista), o sistema não deve impor uma alta carga de memorização na memória de curto prazo do usuário. A aplicação de padrões de design universais (consistência interna e externa) e a clara visibilidade do estado do sistema asseguram que o usuário possa retomar e inferir processos com facilidade, mesmo após longos hiatos de interação, favorecendo o reconhecimento em vez da recordação.
-   - **Princípio Geral de Projeto Associado:** Consistência e Padronização; Visibilidade e Reconhecimento; Equilíbrio entre Controle e Liberdade do Usuário.
+   > **Princípio Geral de Projeto Associado:** Consistência e Padronização; Visibilidade e Reconhecimento; Equilíbrio entre Controle e Liberdade do Usuário.
 
 ---
 
@@ -47,7 +47,8 @@ A tabela abaixo define os indicadores numéricos que comprovarão o sucesso do r
 
 ---
 
-## Metas de Usabilidade: Análise do PROCON-DF
+## Metas de Usabilidade: Análise do PROCON-DF 
+<div><a href="#"> </a></div>
 
 A análise a seguir examina os principais fatores que levam usuários a abandonar o portal oficial do
 [PROCON-DF](https://www.procon.df.gov.br/) em favor de alternativas como o
