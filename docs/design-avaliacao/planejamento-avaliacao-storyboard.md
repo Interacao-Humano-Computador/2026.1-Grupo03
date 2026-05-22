@@ -1,5 +1,13 @@
 # Planejamento da Avaliação do Storyboard
 
+## Colaboração
+Colaboração referente a [Etapa 4](../planejamento/cronograma-executado.md)
+
+| Autores | Contribuiu |
+|---|---|
+| Pedro Moretti | Elaborou o Artefato  |
+| Eduardo | Elaborou o Artefato  |
+
 Este documento detalha o planejamento para a avaliação dos storyboards elaborados para o projeto, utilizando o framework **DECIDE** proposto por Preece et al. (2002) e adaptado por Barbosa e Silva (2021)<sup><a href="#ref1">[1]</a></sup>.
 
 ## Introdução
@@ -133,24 +141,30 @@ O processo de avaliação não termina quando a entrevista acaba. Para que o tra
 
 Antes de avaliar com o público externo, a equipe deve conduzir um teste piloto com um colega. O objetivo é verificar se o roteiro dura o tempo planejado (estimado entre 15 e 20 minutos), se a câmera/gravação está funcionando corretamente e se as perguntas do roteiro semiestruturado estão claras e compreensíveis para o participante. 
 
-Os dados coletados durante o piloto devem ser descartados e o resultado não entra no relatório final, servindo apenas para o refinamento do processo de avaliação. Caso problemas sejam detectados, o planejamento deve ser corrigido antes do início das sessões oficiais com os usuários reais.
+Embora as respostas e opiniões coletadas durante o piloto devam ser descartadas (não integrando a análise qualitativa final dos resultados), a **execução do teste piloto deve ser registrada no documento de relato final**. Os avaliadores devem relatar a data, o horário, a duração, o participante piloto e, principalmente, quaisquer problemas ou dificuldades de comunicação identificados que levaram ao refinamento do roteiro e do protocolo antes das sessões oficiais.
+
 
 ---
+## Agradecimentos à IA
+
+Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao montar o padrão de seções e formatação de texto.
+
+## Referências 
+
+<div id="ref1"></div>
+
+> [1] BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021. (Capítulo 6, Seção 6.3.4, p. 107-108).
 
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :---: | :---: | :---: |
+| 1.2 | 22/05/2026 | Correção e alinhamento do teste piloto com o planejamento de relato | Eduardo Valadares e Pedro Moretti | Heitor Macedo |
 | 1.1 | 19/05/2026 | Adição da introdução, metodologia DECIDE, tabela de cronograma e detalhamento do roteiro de perguntas e execução | Eduardo Valadares | Heitor Macedo |
 | 1.0 | 19/05/2026 | Criação do planejamento de avaliação do storyboard | Pedro Moretti | Heitor Macedo |
 
 ---
 
-## Referências Bibliográficas
-
-<div id="ref1"></div>
-
-> [1] BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021. (Capítulo 6, Seção 6.3.4, p. 107-108).
 
 ---
 

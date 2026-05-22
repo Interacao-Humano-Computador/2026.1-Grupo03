@@ -6,6 +6,8 @@ Esta lista de verificação consolida os critérios obrigatórios presentes no P
 
 ## Glossário
 
+**Autor: Heitor Macedo Ricardo**
+
 Abaixo estão definidos termos técnicos presentes nesta lista de verificação para facilitar a compreensão por leitores não familiarizados com a área:
 
 * **IHC (Interação Humano-Computador)**: Campo de estudo focado no design, avaliação e implementação de sistemas interativos de computador para uso humano[(Barbosa et al., 2021, p. 10)](images/verificacao/IHC.png)..

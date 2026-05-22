@@ -145,6 +145,8 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento e auxí
 | `1.1` | 11/05/2026 | Inserção das imagens de comprovação bibliográfica. | Mateus Rodrigues Barreto | Pedro Moretti |
 | `1.0` | 10/05/2026 | Elaboração das Metas de Usabilidade. | Heitor Macedo Ricardo | Pedro Moretti |
 
+## Notas de Rodapé e Referências de Imagens
+
 <br>
 
 <div id="figura1" align="center">

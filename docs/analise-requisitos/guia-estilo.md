@@ -351,8 +351,10 @@ W3C. **Web Content Accessibility Guidelines (WCAG) 2.1**. 2018. Disponível em: 
 | `1.3` | 13/05/2026 | Conversão de termos técnicos de estilos para descrições explicativas e consolidação visual. | Pedro Moretti | Heitor Macedo |
 | `1.4` | 13/05/2026 | Inclusão de hexadecimais na paleta de cores, expansão das sequências de diálogo, adição de tipos de tela e reorganização da seção 6. | Pedro Moretti | Heitor Macedo |
 
-<br>
+## Notas de Rodapé e Referências de Imagens
 
+
+<br>
 ---
 
 <figure id="ref-barbosa" align="center">

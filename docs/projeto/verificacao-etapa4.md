@@ -6,6 +6,9 @@ Esta lista de verificação consolida os critérios obrigatórios presentes no P
 
 ## Glossário
 
+**Autor: Heitor Macedo Ricardo**
+
+
 Abaixo estão definidos termos técnicos presentes nesta lista de verificação para facilitar a compreensão por leitores não familiarizados com a área:
 
 * **Storyboard**: Sequência de esboços ilustrados (estilo quadrinhos) acompanhados de breves narrativas, que mostram como um usuário interage com o sistema no dia a dia. Costuma ser estruturado em **Setting** (o ambiente e quem está nele), **Sequence** (o passo a passo da ação) e **Satisfaction** (o resultado prático obtido) [(Barbosa et al., 2021, p. 107)](images/verificacao4/storyboard.png).

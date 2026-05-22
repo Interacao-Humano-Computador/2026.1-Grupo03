@@ -78,6 +78,8 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento e cria�
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 16/05/2026 | Criação do documento, introdução metodológica e Storyboard da Tarefa 1. | Heitor Ricardo | Heloisa Silva |
 
+## Notas de Rodapé e Referências de Imagens
+
 <div id="figura" align="center">
   <p>Figura 1 - Storyboard: Definição e Aplicação</p>
   <a href="../images/storyboardlivro1.png" target=_blank><img src="../images/storyboardlivro1.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>

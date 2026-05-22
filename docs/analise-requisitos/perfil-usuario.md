@@ -242,6 +242,8 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 | `1.4`  | 03/05/2026 | Inclusão da análise documental complementar (Pedro Moretti), integração dos achados ao perfil e adição das referências correspondentes.      | Pedro Augusto Moretti Moreira         | Heloisa Silva |
 | `1.5`  | 05/05/2026 | Ajustes a partir dos feedbacks da apresentação  | Heitor Macedo Ricardo | Heloisa Silva |
 | `1.6`  | 08/05/2026 | Unificação do perfil de consumidor, adição do perfil de funcionário e padronização em tabela dos resultados das entrevistas | Heitor Macedo Ricardo | Heloisa Silva |
+## Notas de Rodapé e Referências de Imagens
+
 
 <div id="figura0" align="center">
   <p>Figura 1 - Seção 7.3: De quem coletar os Dados?</p>

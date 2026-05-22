@@ -6,6 +6,9 @@ Esta lista de verificação consolida os critérios obrigatórios presentes no P
 
 ## Glossário
 
+**Autor: Heitor Macedo Ricardo**
+
+
 Abaixo estão definidos termos técnicos presentes nesta lista de verificação para facilitar a compreensão por leitores não familiarizados com a área:
 
 * **Características da Plataforma (Hardware/Software)**: Descrição das limitações físicas dos aparelhos (como tamanho de tela e memória de um computador/smartphone) e das ferramentas lógicas (sistemas operacionais e navegadores) para as quais o sistema é projetado[(Barbosa et al., 2021, p. 105)](images/verificacao3/caracteristicas.png).

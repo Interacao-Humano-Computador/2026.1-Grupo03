@@ -1,5 +1,12 @@
 # Planejamento da Avaliação de Tarefas
 
+## Colaboração
+Colaboração referente a [Etapa 4](../planejamento/cronograma-executado.md)
+
+| Autores | Contribuiu |
+|---|---|
+| Pedro Macedo | Elaborou o Artefato  |
+
 Este documento detalha o planejamento para a avaliação das tarefas propostas para o projeto, utilizando o framework **DECIDE** proposto por Preece et al. (2002) e adaptado por Barbosa e Silva (2021)<sup><a href="#ref1">[1]</a></sup>. O objetivo da avaliação é analisar como os usuários executam as tarefas definidas durante a etapa de análise de requisitos do sistema do PROCON-DF.
 
 ---
@@ -79,7 +86,7 @@ Para garantir a qualidade da avaliação, a equipe deverá organizar previamente
     * **Moderador/Avaliador:** Responsável por conduzir a sessão, explicar as tarefas e incentivar o participante a verbalizar seus pensamentos.
     * **Observador/Anotador:** Responsável pelas anotações, controle da gravação e registro de dificuldades observadas durante a execução.
 * **Tempo Estimado:** Cada sessão deverá durar aproximadamente entre 15 e 25 minutos.
-* **Teste Piloto:** Antes da avaliação oficial, será realizado um teste piloto com um integrante externo ao grupo para verificar clareza das instruções, tempo de execução e funcionamento das ferramentas utilizadas.
+* **Teste Piloto:** Antes da avaliação oficial, será realizado um teste piloto com um integrante externo ao grupo para verificar a clareza das instruções, tempo de execução e funcionamento das ferramentas de gravação. Embora os dados de desempenho do participante piloto sejam descartados na análise de usabilidade final, a **execução do piloto deve ser registrada formalmente no relato dos resultados**, detalhando a data, hora, perfil do participante piloto e os eventuais ajustes realizados no roteiro de testes e no protocolo.
 
 ---
 
@@ -114,20 +121,25 @@ Após a realização das sessões de avaliação, a equipe deverá organizar e i
     * Tabela contendo problemas identificados e propostas de correção.
 
 ---
+## Agradecimentos à IA
+
+Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao montar o padrão de seções e formatação de texto.
+
+## Referências 
+
+<div id="ref1"></div>
+
+> [1] BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021.
 
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :---: | :---: | :---: |
-| 1.0 | 19/05/2026 | Criação do planejamento da avaliação de tarefas | Pedro Macedo | A definir |
+| 1.1 | 22/05/2026 | Correção e alinhamento metodológico do teste piloto com o relato | Pedro Macedo | Pedro Moretti |
+| 1.0 | 19/05/2026 | Criação do planejamento da avaliação de tarefas | Pedro Macedo | Pedro Moretti |
 
 ---
 
-## Referências Bibliográficas
-
-<div id="ref1"></div>
-
-> [1] BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021.
 
 ---
 

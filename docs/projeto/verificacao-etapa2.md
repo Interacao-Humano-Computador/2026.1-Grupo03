@@ -6,6 +6,8 @@ Esta lista de verificação consolida os critérios de avaliação da **Etapa 2*
 
 ## Glossário
 
+**Autor: Heitor Macedo Ricardo**
+
 Abaixo estão definidos termos técnicos presentes nesta lista de verificação para facilitar a compreensão por leitores não familiarizados com a área:
 
 * **Perfil de Usuário**: Descrição detalhada dos traços e comportamentos do público-alvo (como características demográficas, experiência tecnológica, necessidades e hábitos)[(Barbosa et al., 2021, p. 151-152)](images/verificacao2/perfilusuario.png).

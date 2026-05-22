@@ -199,6 +199,8 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 | 1.1 | 10/05/2026 | Adição das imagens na referencia e agradecimento a IA | Pedro Macedo | Heitor Macedo Ricardo |
 | 1.0 | 10/05/2026 | Criação dos Princípios Gerais de Projeto. | Heitor Macedo Ricardo | Pedro Macedo |
 
+## Notas de Rodapé e Referências de Imagens
+
 <br>
 <div id="figura0" align="center">
   <p>Figura 1 - Início da Seção 10.2: Princípios e Diretrizes Gerais</p>
