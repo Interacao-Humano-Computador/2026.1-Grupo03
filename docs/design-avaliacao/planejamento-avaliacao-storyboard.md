@@ -76,7 +76,7 @@ Para garantir a viabilidade e o rigor metodológico da avaliação dos storyboar
 
 **Recrutamento de Participantes:** Os participantes serão recrutados seguindo estritamente o perfil de usuário e as personas definidas nas etapas iniciais do projeto. Serão selecionados de 3 a 5 participantes que representem cidadãos (pessoas físicas ou jurídicas) que utilizam os serviços do Procon-DF.
 
-**Preparação da Avaliação:** Cada sessão contará com um Entrevistador, responsável por guiar a conversa e apresentar os storyboards, e um Observador/Anotador, encarregado de registrar comportamentos, hesitações e gerenciar a gravação. A avaliação ocorrerá de forma remota (via Microsoft Teams, Google Meet ou Discord), e o entrevistador deverá solicitar que o participante compartilhe a tela quando necessário para observar reações em tempo real.
+**Preparação da Avaliação:** Cada sessão contará com um Entrevistador, responsável por guiar a conversa e apresentar os storyboards, e um Observador/Anotador, encarregado de registrar comportamentos, hesitações e gerenciar a gravação. A avaliação ocorrerá de forma presencial, em ambiente silencioso e sem interrupções.
 
 **Materiais Necessários:** Preparação dos arquivos digitais dos storyboards, Termo de Consentimento Livre e Esclarecido (TCLE), roteiro de perguntas padronizado e formulário de anotações.
 

@@ -70,7 +70,7 @@ Além disso, esse método é adequado para avaliações iniciais de baixa fideli
 Para garantir a qualidade da avaliação, a equipe deverá organizar previamente todos os aspectos práticos da execução.
 
 * **Recrutamento de Participantes:** Serão recrutados entre 3 e 4 participantes compatíveis com o perfil de usuário identificado nas personas e cenários do projeto.
-* **Ambiente da Avaliação:** A avaliação poderá ocorrer presencialmente ou de forma remota através de plataformas como Google Meet, Discord ou Microsoft Teams. O ambiente deve ser silencioso e sem interrupções.
+* **Ambiente da Avaliação:** A avaliação ocorrerá presencialmente. O ambiente deve ser silencioso e sem interrupções.
 * **Materiais Necessários:**
     * Protótipos, fluxos ou representações das tarefas.
     * Roteiro de avaliação documentado.

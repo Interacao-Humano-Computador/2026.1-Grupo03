@@ -47,16 +47,6 @@ Neste storyboard, o usuário Gustavo (Microempreendedor e Fornecedor), que traba
   <p><b>Fonte:</b> Pedro Moretti</p>
 </div>
 
-### 2.3. Tarefa 3: [Inserir o nome da tarefa do colega, ex: Registrar Denúncia Anônima]
-**Autor:** [Nome do Colega - ex: Heloisa]
-
-Breve descrição do contexto do cenário do colega (quem é a persona, o que ela faz e como ela se sente no final).
-
-**[INSERIR AQUI A FOTO DO STORYBOARD DA HELOISA]**
-*Figura 2 - Storyboard da [Tarefa]. Fonte: Elaborado por [Heloisa].*
-
----
-*(Nota para a equipe: Repetir a estrutura acima copiando e colando até a Tarefa 7, garantindo que os storyboards do Heitor, Heloisa, Moretti, Pedro Macedo, Eduardo, Matheus e Gabriel estejam documentados com suas respectivas tarefas).*
 ---
 
 ## 3. Comprovação Teórica e Referência Bibliográfica
