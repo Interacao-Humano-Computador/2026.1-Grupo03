@@ -1,5 +1,12 @@
 # Características da Plataforma
 
+## Colaboração
+Colaboração referente a [Etapa 3](../planejamento/cronograma-executado.md)
+
+| Autores | Contribuiu |
+|---|---|
+| Heloisa Silva | Elaboração do Artefato |
+
 ## Introdução
 
 O portal do Procon-DF é uma plataforma governamental voltada à defesa do consumidor no Distrito Federal. O site reúne serviços como registro de reclamações, denúncias, peticionamento eletrônico, acompanhamento de processos e acesso a informações institucionais.

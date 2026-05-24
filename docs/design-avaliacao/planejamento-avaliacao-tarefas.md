@@ -1,5 +1,12 @@
 # Planejamento da Avaliação de Tarefas
 
+## Colaboração
+Colaboração referente a [Etapa 4](../planejamento/cronograma-executado.md)
+
+| Autores | Contribuiu |
+|---|---|
+| Pedro Macedo | Elaborou o Artefato  |
+
 Este documento detalha o planejamento para a avaliação das tarefas propostas para o projeto, utilizando o framework **DECIDE** proposto por Preece et al. (2002) e adaptado por Barbosa e Silva (2021)<sup><a href="#ref1">[1]</a></sup>. O objetivo da avaliação é analisar como os usuários executam as tarefas definidas durante a etapa de análise de requisitos do sistema do PROCON-DF.
 
 ---
@@ -53,9 +60,9 @@ Como o projeto ainda não possui um sistema totalmente implementado, a avaliaç�
 
 Para garantir a qualidade da avaliação, a equipe deverá organizar previamente todos os aspectos práticos da execução:
 
-* **Recrutamento de Participantes:** Serão recrutados entre 3 e 4 participantes. **Atenção:** Os participantes recrutados *devem obrigatoriamente* se encaixar no perfil de usuário e nas personas elaboradas nas etapas anteriores do projeto.
-* **Ambiente da Avaliação:** A avaliação poderá ocorrer presencialmente ou de forma remota através de plataformas como Google Meet, Discord ou Microsoft Teams. O ambiente deve ser silencioso e sem interrupções.
-* **Ferramentas e Materiais Necessários:**
+* **Recrutamento de Participantes:** Serão recrutados entre 3 e 4 participantes compatíveis com o perfil de usuário identificado nas personas e cenários do projeto.
+* **Ambiente da Avaliação:** A avaliação ocorrerá presencialmente. O ambiente deve ser silencioso e sem interrupções.
+* **Materiais Necessários:**
     * Protótipos, fluxos ou representações das tarefas.
     * Roteiro de avaliação documentado e impresso/aberto na tela do avaliador.
     * Termo de Consentimento Livre e Esclarecido (TCLE) para leitura e aceite.
@@ -99,21 +106,25 @@ O processo de avaliação não termina quando a entrevista acaba. Para que o tra
     * **Tabela de Problemas e Melhorias:** Uma tabela contendo o problema encontrado, a justificativa do porquê ser um problema (baseado na fala do usuário) e a proposta de reprojeto/melhoria sugerida pela equipe.
 
 ---
+## Agradecimentos à IA
+
+Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao montar o padrão de seções e formatação de texto.
+
+## Referências 
+
+<div id="ref1"></div>
+
+> [1] BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021.
 
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :---: | :---: | :---: |
-| 1.1 | 24/05/2026 | Mudando para o padrão | Pedro Macedo | A definir |
-| 1.0 | 19/05/2026 | Criação do planejamento da avaliação de tarefas | Pedro Macedo | A definir |
+| 1.1 | 22/05/2026 | Correção e alinhamento metodológico do teste piloto com o relato | Pedro Macedo | Pedro Moretti |
+| 1.0 | 19/05/2026 | Criação do planejamento da avaliação de tarefas | Pedro Macedo | Pedro Moretti |
 
 ---
 
-## Referências Bibliográficas
-
-<div id="ref1"></div>
-
-> [1] BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021.
 
 ---
 

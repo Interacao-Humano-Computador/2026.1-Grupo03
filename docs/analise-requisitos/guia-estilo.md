@@ -2,11 +2,18 @@
 
 ---
 
+## Colaboração
+Colaboração referente a [Etapa 3](../planejamento/cronograma-executado.md)
+
+| Autores | Contribuiu |
+|---|---|
+| Pedro Moretti | Elaboração do Artefato |
+
 ## 1. <a name="introducao"></a>1 Introdução
 
 ### 1.1 Objetivo do Guia de Estilo
 
-Este guia constitui o registro formal das principais decisões de design da interface do portal Procon‑DF. Segundo **Barbosa e Silva (2021)**, o guia de estilo é uma ferramenta essencial para garantir que as diretrizes de IHC sejam efetivamente incorporadas no produto final, atuando como canal de comunicação entre designers e desenvolvedores.
+Este guia constitui o registro formal das principais decisões de design da interface do portal Procon‑DF. Segundo **Barbosa e Silva (2021)**<sup><a href="#ref-barbosa">[1]</a></sup>, o guia de estilo é uma ferramenta essencial para garantir que as diretrizes de IHC sejam efetivamente incorporadas no produto final, atuando como canal de comunicação entre designers e desenvolvedores.
 
 O propósito não é apenas restringir a criatividade por meio de regras, mas apoiar o trabalho coletivo por intermédio de um processo reflexivo de design (**BARBOSA; SILVA, 2021**), evitando que decisões fundamentais se percam em manutenções futuras.
 
@@ -66,10 +73,14 @@ O Procon‑DF é um portal governamental acessado por cidadãos buscando direito
 
 O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 colunas.
 
+Como pode ser observado na Figura 1, a estrutura prioriza o conteúdo de destaque com barra lateral de acesso rápido.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 1:</b> O seguinte exemplo de disposição espacial prioriza o conteúdo de destaque ladeado por uma barra lateral de acesso rápido.
+  </figcaption>
   <img src="../images/main-grid.png" alt="Grade Principal do Portal" width="600">
   <figcaption align="center">
-    <b>Figura 1:</b> O seguinte exemplo de disposição espacial prioriza o conteúdo de destaque ladeado por uma barra lateral de acesso rápido.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -77,10 +88,14 @@ O layout adota a metáfora de “blocos de serviço” sobre o sistema de 12 col
 **Espaçamentos utilitários (Rationale: Manter ritmo vertical consistente):**
 Os espaçamentos seguem uma escala definida para margens superiores (variando de 10 a 80 pixels), margens inferiores (de 20 a 80 pixels) e preenchimento interno padrão de 10 pixels.
 
+Conforme ilustrado na Figura 2, a grade de notícias usa categorias coloridas para segmentar tipos de informação.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 2:</b> O seguinte exemplo de componente de grade utiliza categorias coloridas para segmentar tipos de informação, como Fiscalização e Erratas.
+  </figcaption>
   <img src="../images/news-grid.png" alt="Grid de Notícias" width="600">
   <figcaption align="center">
-    <b>Figura 2:</b> O seguinte exemplo de componente de grade utiliza categorias coloridas para segmentar tipos de informação, como Fiscalização e Erratas.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -94,18 +109,26 @@ Os espaçamentos seguem uma escala definida para margens superiores (variando de
 | Cartão sem foto | Altura fixa de 400 pixels e preenchimento interno de 100 pixels no topo e 30 pixels nas demais laterais. |
 | Caixa de serviços | Bordas arredondadas de 10 pixels e altura de 263 pixels. |
 
+Como apresentado na Figura 3, a caixa de serviços organiza informações por categorias gráficas.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 3:</b> O seguinte exemplo de caixa de serviços demonstra a organização de informações por categorias gráficas.
+  </figcaption>
   <img src="../images/external-services.png" alt="Box de serviços" width="600">
   <figcaption align="center">
-    <b>Figura 3:</b> O seguinte exemplo de caixa de serviços demonstra a organização de informações por categorias gráficas.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
 
+Como pode ser observado na Figura 4, os cartões com fotografia aplicam preenchimentos e bordas padronizadas.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 4:</b> O seguinte exemplo de cartões com fotografia demonstra a aplicação de preenchimentos e bordas padronizadas.
+  </figcaption>
   <img src="../images/news-grid.png" alt="Cards com foto" width="600">
   <figcaption align="center">
-    <b>Figura 4:</b> O seguinte exemplo de cartões com fotografia demonstra a aplicação de preenchimentos e bordas padronizadas.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -120,18 +143,26 @@ Os espaçamentos seguem uma escala definida para margens superiores (variando de
 | **Open Sans** | Corpo de texto e parágrafos | Tamanho de 16 pixels com altura de linha entre 1,4 e 1,7 vezes o tamanho da fonte. |
 | **Montserrat** | Botões, menus e rótulos | Utilizada em elementos de interação; metadados em 14 pixels. |
 
+Na Figura 5, apresenta-se a aplicação da família Titillium Web em títulos para assegurar hierarquia visual.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 5:</b> O seguinte exemplo da família Titillium Web aplicada em títulos garante o impacto visual e a legibilidade da hierarquia.
+  </figcaption>
   <img src="../images/titulo-fonte.png" alt="Tipografia Titillium Web" width="300">
   <figcaption align="center">
-    <b>Figura 5:</b> O seguinte exemplo da família Titillium Web aplicada em títulos garante o impacto visual e a legibilidade da hierarquia.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
 
+Conforme ilustrado na Figura 6, a tipografia Montserrat aparece em submenus para facilitar a leitura de itens de navegação.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 6:</b> O seguinte exemplo da tipografia Montserrat aplicada em submenus garante clareza na leitura de itens de navegação interna.
+  </figcaption>
   <img src="../images/nav-items.png" alt="Itens de Menu" width="300">
   <figcaption align="center">
-    <b>Figura 6:</b> O seguinte exemplo da tipografia Montserrat aplicada em submenus garante clareza na leitura de itens de navegação interna.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -149,10 +180,14 @@ Os espaçamentos seguem uma escala definida para margens superiores (variando de
 
 > Nota: na implementação final do documento, os emojis devem ser substituídos por amostras gráficas exatas (amostras de cor) para fidelidade cromática.
 
+Como pode ser observado na Figura 7, a barra de navegação utiliza o amarelo institucional para reforçar a identidade do governo local.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 7:</b> O seguinte exemplo de barra de navegação utiliza o amarelo institucional para reforçar a identidade do governo local.
+  </figcaption>
   <img src="../images/navbar.png" alt="Barra de Navegação" width="600">
   <figcaption align="center">
-    <b>Figura 7:</b> O seguinte exemplo de barra de navegação utiliza o amarelo institucional para reforçar a identidade do governo local.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -161,10 +196,14 @@ Os espaçamentos seguem uma escala definida para margens superiores (variando de
 
 A interface utiliza dois conjuntos de símbolos: um focado na identidade e acessibilidade governamental (contraste, ajuste de fonte) e outro voltado para ações específicas do órgão (denúncias, reclamações).
 
+Na Figura 8, observa-se o logotipo institucional que estabelece a autoridade governamental no topo da interface.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 8:</b> O seguinte exemplo de logotipo institucional estabelece a autoridade governamental no topo da interface.
+  </figcaption>
   <img src="../images/gdf-logo.png" alt="Logotipo GDF" width="200">
   <figcaption align="center">
-    <b>Figura 8:</b> O seguinte exemplo de logotipo institucional estabelece a autoridade governamental no topo da interface.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -186,10 +225,14 @@ Para garantir previsibilidade e fluidez na interface, adotam-se os seguintes com
 
 O portal prioriza a interação por **apontar e clicar**. Botões apresentam um efeito tátil ao serem clicados, deslocando-se 1 pixel para baixo. Menus com itens internos desabilitam o clique no nível superior para forçar a abertura do submenu, que apresenta fundo cinza escuro ao passar o mouse.
 
+Como pode ser observado na Figura 9, a trilha de navegação indica a localização do usuário na hierarquia do portal.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 9:</b> O seguinte exemplo de trilha de navegação indica a localização exata do usuário dentro da hierarquia do portal.
+  </figcaption>
   <img src="../images/breadcrumb.png" alt="Trilha de Navegação" width="1000">
   <figcaption align="center">
-    <b>Figura 9:</b> O seguinte exemplo de trilha de navegação indica a localização exata do usuário dentro da hierarquia do portal.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -202,18 +245,26 @@ Conforme **Mayhew (1999** *apud* **BARBOSA; SILVA, 2021)**, os estilos minimizam
 
 Seguindo a **WCAG 2.1**, o sistema oferece ajuste de tamanho de fonte via controle deslizante e tradução automática para Libras.
 
+Conforme ilustrado na Figura 10, o painel de acessibilidade permite ao usuário customizar a interface para necessidades visuais.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 10:</b> O seguinte exemplo de painel de acessibilidade permite ao usuário customizar a interface para suas necessidades visuais.
+  </figcaption>
   <img src="../images/acessibility.png" alt="Controles de Acessibilidade" width="400">
   <figcaption align="center">
-    <b>Figura 10:</b> O seguinte exemplo de painel de acessibilidade permite ao usuário customizar a interface para suas necessidades visuais.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
 
+Na Figura 11, observa-se a ferramenta assistiva de tradução para Libras para suporte a usuarios surdos.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 11:</b> O seguinte exemplo de ferramenta assistiva garante suporte à comunidade surda através da tradução para Libras.
+  </figcaption>
   <img src="../images/libras.png" alt="Widget VLibras" width="200">
   <figcaption align="center">
-    <b>Figura 11:</b> O seguinte exemplo de ferramenta assistiva garante suporte à comunidade surda através da tradução para Libras.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -246,26 +297,38 @@ Os campos de formulário obedecem às seguintes regras:
 | Principal (Grande) | Fundo magenta, tipografia Montserrat e bordas arredondadas de 10 pixels com preenchimento interno generoso. | Chamada principal para ação (CTA). |
 | Secundário (Médio) | Fundo azul sólido com mudança para tom mais escuro ao passar o mouse. | Ações de suporte importantes. |
 
+Como pode ser observado na Figura 12, o botão de chamada principal utiliza a cor magenta para orientar a conclusão do serviço.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 12:</b> O seguinte exemplo de botão de chamada principal utiliza a cor magenta para guiar o usuário rumo à conclusão do serviço.
+  </figcaption>
   <img src="../images/cta-button.png" alt="Botão CTA" width="400">
   <figcaption align="center">
-    <b>Figura 12:</b> O seguinte exemplo de botão de chamada principal utiliza a cor magenta para guiar o usuário rumo à conclusão do serviço.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
 
+Conforme ilustrado na Figura 13, os blocos de interação destacam tarefas comuns com inversao de cores no feedback.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 13:</b> O seguinte exemplo de blocos de interação destaca as tarefas mais comuns com feedback visual de inversão de cores.
+  </figcaption>
   <img src="../images/most-searched.png" alt="Serviços Mais Procurados" width="600">
   <figcaption align="center">
-    <b>Figura 13:</b> O seguinte exemplo de blocos de interação destaca as tarefas mais comuns com feedback visual de inversão de cores.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
 
+Na Figura 14, a funcionalidade de busca aparece com alto contraste para facilitar a localizacao imediata.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 14:</b> O seguinte exemplo de funcionalidade de busca utiliza alto contraste de cor para permitir uma localização imediata.
+  </figcaption>
   <img src="../images/search-button.png" alt="Botão de Busca" width="100">
   <figcaption align="center">
-    <b>Figura 14:</b> O seguinte exemplo de funcionalidade de busca utiliza alto contraste de cor para permitir uma localização imediata.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -296,10 +359,14 @@ Para facilitar a criação de novas páginas e manter a coerência visual, defin
 
 ### 6.4 Rodapé
 
+Como pode ser observado na Figura 15, o rodape consolida informações institucionais e canais de contato de forma organizada.
+
 <figure align="center">
+  <figcaption align="center">
+    <b>Figura 15:</b> O seguinte exemplo de rodapé consolida as informações institucionais e canais de contato de forma clara e organizada.
+  </figcaption>
   <img src="../images/footer.png" alt="Rodapé do Portal" width="600">
   <figcaption align="center">
-    <b>Figura 15:</b> O seguinte exemplo de rodapé consolida as informações institucionais e canais de contato de forma clara e organizada.<br>
     Fonte: DISTRITO FEDERAL (2026).
   </figcaption>
 </figure>
@@ -344,22 +411,32 @@ W3C. **Web Content Accessibility Guidelines (WCAG) 2.1**. 2018. Disponível em: 
 | `1.3` | 13/05/2026 | Conversão de termos técnicos de estilos para descrições explicativas e consolidação visual. | Pedro Moretti | Heitor Macedo |
 | `1.4` | 13/05/2026 | Inclusão de hexadecimais na paleta de cores, expansão das sequências de diálogo, adição de tipos de tela e reorganização da seção 6. | Pedro Moretti | Heitor Macedo |
 
-<br>
+## Notas de Rodapé e Referências de Imagens
 
+
+<br>
 ---
 
+Conforme ilustrado na Figura 16, apresentam-se os principais elementos e consideracoes de design discutidos na referencia.
+
 <figure id="ref-barbosa" align="center">
+  <figcaption align="center">
+    <i><b>Figura 16:</b> Principais elementos e considerações do design.</i>
+  </figcaption>
   <img src="../images/guia-estilo-1.png" alt="Referência Barbosa 1" width="500">
   <figcaption align="center">
-    <i><b>Figura 16:</b> Principais elementos e considerações do design.<br></i>
     Fonte: (BARBOSA; SILVA, 2021, cap. 10.5, p. 241).
   </figcaption>
 </figure>
 
+Na Figura 17, observa-se a estrutura proposta para um guia de estilo segundo Barbosa e Silva.
+
 <figure align="center">
+  <figcaption align="center">
+    <i><b>Figura 17:</b> Estrutura proposta para um Guia de Estilo.</i>
+  </figcaption>
   <img src="../images/guia-estilo-2.png" alt="Referência Barbosa 2" width="500">
   <figcaption align="center">
-    <i><b>Figura 17:</b> Estrutura proposta para um Guia de Estilo.<br></i>
     Fonte: (BARBOSA; SILVA, 2021, cap. 10.5, p. 242).
   </figcaption>
 </figure>

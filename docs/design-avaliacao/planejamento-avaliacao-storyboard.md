@@ -1,6 +1,33 @@
 # Planejamento da Avaliação do Storyboard
 
-Este documento detalha o planejamento para a avaliação dos storyboards elaborados para o projeto, utilizando o framework **DECIDE** proposto por Preece et al. (2002) e adaptado por Barbosa e Silva (2021)<sup><a href="#ref1">[1]</a></sup>. 
+## Colaboração
+Colaboração referente a [Etapa 4](../planejamento/cronograma-executado.md)
+
+| Autores | Contribuiu |
+|---|---|
+| Pedro Moretti | Elaborou o Artefato  |
+| Eduardo | Elaborou o Artefato  |
+
+Este documento detalha o planejamento para a avaliação dos storyboards elaborados para o projeto, utilizando o framework **DECIDE** proposto por Preece et al. (2002) e adaptado por Barbosa e Silva (2021)<sup><a href="#ref1">[1]</a></sup>.
+
+## Introdução
+
+A avaliação de storyboards é essencial para validar se a narrativa visual comunica corretamente a solução proposta e se as interações ilustradas ressoam com os usuários finais. Este processo permite identificar pontos fracos na proposta de design antes do investimento em protótipos mais complexos, garantindo que a direção do projeto esteja alinhada com as necessidades e expectativas do público-alvo.
+
+---
+
+## Metodologia
+
+Este planejamento de avaliação segue o **framework DECIDE**, uma abordagem sistemática proposta por Preece et al. (2002) e adaptada por Barbosa e Silva (2021)<sup><a href="#ref1">[1]</a></sup> para estruturar avaliações em Interação Humano-Computador (IHC).
+
+O DECIDE funciona como um roteiro que orienta o avaliador através de seis etapas sequenciais, garantindo que todos os aspectos críticos sejam considerados. Cada letra representa uma fase do processo:
+
+- **D** – **Determinar** os objetivos gerais da avaliação e identificar por que se está avaliando
+- **E** – **Explorar** perguntas específicas que a avaliação deve responder
+- **C** – **Escolher** os métodos de avaliação mais apropriados
+- **I** – **Identificar** e administrar as questões práticas (recrutamento, cronograma, recursos)
+- **D** – **Decidir** como lidar com questões éticas e de segurança dos participantes
+- **E** – **Avaliar** (Evaluate) os dados coletados e relatar os resultados
 
 ---
 
@@ -45,19 +72,42 @@ A entrevista permite apresentar a narrativa visual ao usuário e investigar prof
 
 ## 4. I - Identificar e administrar as questões práticas <sup><a href="#fig-i">[5]</a></sup>
 
-Para que a avaliação ocorra sem problemas, a equipe deve seguir rigorosamente os aspectos organizacionais abaixo:
+Para garantir a viabilidade e o rigor metodológico da avaliação dos storyboards do site do Procon-DF, a equipe deverá gerenciar os seguintes aspectos organizacionais:
 
-*   **Recrutamento de Participantes:** Serão recrutados de 3 a 5 participantes. **Atenção:** Os participantes recrutados *devem obrigatoriamente* se encaixar no perfil de usuário e nas personas elaboradas nas etapas anteriores do projeto.
-*   **Ambiente da Avaliação:** A avaliação poderá ser conduzida de forma online (via Microsoft Teams, Discord, Google Meet, etc.) ou presencial. O ambiente escolhido deve ser calmo e livre de interrupções.
-*   **Ferramentas e Materiais Necessários:**
-    *   Arquivos digitais dos storyboards (ou versões impressas, se presencial).
-    *   Roteiro de entrevista documentado e impresso/aberto na tela do avaliador.
-    *   Termo de Consentimento Livre e Esclarecido (TCLE) para leitura e aceite.
-    *   Aplicativo para gravação de tela e/ou áudio (como o OBS Studio ou gravação nativa do Meet/Teams).
-*   **Dinâmica da Equipe (Papéis):** Cada sessão de avaliação exigirá a presença de pelo menos dois membros do grupo:
-    *   **Entrevistador (Avaliador):** Responsável por ler o TCLE, guiar o participante pela história do storyboard e fazer as perguntas do roteiro. Deve manter um tom neutro para não induzir as respostas.
-    *   **Observador/Anotador:** Fica responsável por gerenciar a gravação, anotar observações importantes (hesitações do usuário, expressões de confusão) e evitar interromper a entrevista.
-*   **Teste Piloto (Crucial):** Antes de avaliar com o público externo, a equipe deve conduzir um **Teste Piloto** com algum colega. O objetivo é testar se o roteiro dura o tempo planejado (estimado entre 15 e 20 minutos), se a câmera/gravação está funcionando e se as perguntas estão claras. O resultado do piloto não entra no relatório final.
+**Recrutamento de Participantes:** Os participantes serão recrutados seguindo estritamente o perfil de usuário e as personas definidas nas etapas iniciais do projeto. Serão selecionados de 3 a 5 participantes que representem cidadãos (pessoas físicas ou jurídicas) que utilizam os serviços do Procon-DF.
+
+**Preparação da Avaliação:** Cada sessão contará com um Entrevistador, responsável por guiar a conversa e apresentar os storyboards, e um Observador/Anotador, encarregado de registrar comportamentos, hesitações e gerenciar a gravação. A avaliação ocorrerá de forma presencial, em ambiente silencioso e sem interrupções.
+
+**Materiais Necessários:** Preparação dos arquivos digitais dos storyboards, Termo de Consentimento Livre e Esclarecido (TCLE), roteiro de perguntas padronizado e formulário de anotações.
+
+**Recursos e Custos:** A avaliação foi planejada para ter custo zero, utilizando plataformas de comunicação online gratuitas (Meet/Teams) e ferramentas de gravação nativas ou gratuitas (OBS Studio). Todos os participantes usarão seus próprios computadores ou dispositivos móveis com acesso à internet.
+
+**Cronograma:** As entrevistas serão agendadas conforme a disponibilidade dos participantes, seguindo o cronograma macro do projeto. Os resultados de cada sessão devem ser documentados imediatamente após a ocorrência.
+
+| Storyboard | Entrevistador(es) | Entrevistados | Horário de Início | Horário de Fim | Data | Local |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| [Nome do Storyboard] | [Nome] | [ID do Participante] | [Hora] | [Hora] | [Data] | [Plataforma] |
+
+**Roteiro de Perguntas (Abordagem Semiestruturada):** O roteiro será construído sob a ótica de uma entrevista semiestruturada, que busca um equilíbrio entre o rigor do planejamento e a flexibilidade da conversa. O roteiro não será apenas uma lista de perguntas fechadas, mas um guia composto por tópicos e perguntas abertas dispostos em uma ordem lógica. Essa estrutura permite que o avaliador tenha liberdade para explorar em maior profundidade as respostas do participante e até modificar a ordem dos assuntos se a conversa fluir naturalmente para outro ponto, desde que mantenha o foco nos objetivos da avaliação.
+
+Para manter o tom natural, o roteiro poderá conter "lembretes" de tópicos em vez de frases literais, evitando que o entrevistador quebre o ritmo da conversa ao ler as perguntas.
+
+**Perguntas de Exemplo para o Storyboard:**
+
+*   **Opinião Geral:** O que você achou dessa história apresentada? Ela faz sentido no contexto do Procon?
+*   **Verossimilhança:** Você consegue se imaginar realizando essas ações ou passando por essa situação na vida real?
+*   **Completude:** Na sua visão, falta algum passo importante para que o personagem complete a tarefa?
+*   **Clareza Visual:** Algum elemento do desenho (personagem, cenário ou objeto) gerou confusão?
+
+**Execução do Roteiro:** A entrevista será desenvolvida seguindo uma estrutura narrativa específica recomendada pela literatura para garantir o conforto do participante e a qualidade dos dados:
+
+*   **Apresentação:** O avaliador apresenta-se, explica os objetivos da pesquisa sobre o site do Procon e garante o sigilo dos dados.
+*   **Aquecimento:** São feitas perguntas de fácil resposta (dados demográficos e experiência com internet) para deixar o usuário à vontade.
+*   **Exploração do Storyboard (Parte Principal):** O entrevistador guia o usuário pela narrativa visual. Como a entrevista é semiestruturada, o avaliador deve ouvir atentamente e fazer perguntas de acompanhamento (follow-up) para se aprofundar em pontos inesperados ou opiniões críticas que o usuário manifeste espontaneamente.
+*   **Desaquecimento:** Momento para o participante expressar comentários finais e o avaliador desfazer qualquer tensão que tenha surgido durante as críticas ao storyboard.
+*   **Encerramento:** O avaliador agradece a participação, desliga a gravação e informa como o usuário pode entrar em contato com a equipe.
+
+**Atenção na Condução:** O entrevistador deve evitar formular perguntas que induzam o usuário a concordar com o storyboard. Em vez de perguntar "Você gostou de como o personagem fez a reclamação?", deve-se perguntar "O que você acha da forma como o personagem agiu?". Toda alteração sugerida deve ser anotada para análise posterior da equipe.
 
 ---
 
@@ -87,19 +137,34 @@ O processo de avaliação não termina quando a entrevista acaba. Para que o tra
 
 ---
 
-## Histórico de Versão
+## 7. Teste Piloto
 
-| Versão | Data | Descrição | Autor | Revisor |
-| :---: | :---: | :---: | :---: | :---: |
-| 1.0 | 19/05/2026 | Criação do planejamento de avaliação do storyboard | Pedro Moretti | Heitor Macedo |
+Antes de avaliar com o público externo, a equipe deve conduzir um teste piloto com um colega. O objetivo é verificar se o roteiro dura o tempo planejado (estimado entre 15 e 20 minutos), se a câmera/gravação está funcionando corretamente e se as perguntas do roteiro semiestruturado estão claras e compreensíveis para o participante. 
+
+Embora as respostas e opiniões coletadas durante o piloto devam ser descartadas (não integrando a análise qualitativa final dos resultados), a **execução do teste piloto deve ser registrada no documento de relato final**. Os avaliadores devem relatar a data, o horário, a duração, o participante piloto e, principalmente, quaisquer problemas ou dificuldades de comunicação identificados que levaram ao refinamento do roteiro e do protocolo antes das sessões oficiais.
+
 
 ---
+## Agradecimentos à IA
 
-## Referências Bibliográficas
+Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao montar o padrão de seções e formatação de texto.
+
+## Referências 
 
 <div id="ref1"></div>
 
 > [1] BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021. (Capítulo 6, Seção 6.3.4, p. 107-108).
+
+## Histórico de Versão
+
+| Versão | Data | Descrição | Autor | Revisor |
+| :---: | :---: | :---: | :---: | :---: |
+| 1.2 | 22/05/2026 | Correção e alinhamento do teste piloto com o planejamento de relato | Eduardo Valadares e Pedro Moretti | Heitor Macedo |
+| 1.1 | 19/05/2026 | Adição da introdução, metodologia DECIDE, tabela de cronograma e detalhamento do roteiro de perguntas e execução | Eduardo Valadares | Heitor Macedo |
+| 1.0 | 19/05/2026 | Criação do planejamento de avaliação do storyboard | Pedro Moretti | Heitor Macedo |
+
+---
+
 
 ---
 

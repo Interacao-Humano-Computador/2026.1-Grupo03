@@ -1,5 +1,15 @@
 # Análise de Tarefas: Acompanhamento de Reclamação
 
+## Colaboração
+Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
+
+| Autores | Contribuiu |
+|---|---|
+| Heitor Macedo |  Com 2 analises de tarefas |
+| Pedro Moretti |  Com 2 analises de tarefas |
+| Heloisa Silva |  Com 2 analises de tarefas |
+| Matheus Rodrigues |  Com 2 analises de tarefas |
+
 ## Introdução
 
 A Análise de Tarefas é uma etapa fundamental na engenharia de requisitos de sistemas interativos. Segundo Barbosa e Silva (2021), seu objetivo é compreender **como os usuários realizam seu trabalho, quais atividades executam e por quê**, identificando as estruturas que organizam as tarefas, os recursos cognitivos necessários e as possíveis fontes de erro. Ela pode ser aplicada tanto para avaliar sistemas existentes quanto para orientar o design de novos sistemas, e deve ser fundamentada em dados reais coletados junto aos usuários — como os obtidos no Grupo de Foco realizado com a Persona Laura em 30/04/2026.
@@ -324,8 +334,7 @@ GOAL 0: REGISTRAR RECLAMAÇÃO FINANCEIRA
 
 ## Agradecimentos à IA
 
-Agradecimento ao **Gemini** pela ajuda na estruturação e redação da Análise de Tarefas deste documento.
-
+Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao montar o padrão de seções e formatação de texto.
 ---
 
 ## Referências

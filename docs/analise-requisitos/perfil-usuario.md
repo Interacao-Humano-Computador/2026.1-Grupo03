@@ -1,5 +1,14 @@
 # Perfil de Usuário
 
+## Colaboração
+Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
+
+| Autores | Contribuiu |
+|---|---|
+| Heitor Macedo | Aplicou 3  Técnicas  |
+| Pedro Moretti | Aplicou 3 Técnicas  |
+| Heloisa Silva | Aplicou 2 Técnicas |
+
 ## Introdução
 
 O Perfil de Usuário é uma descrição detalhada das características dos usuários cujos objetivos devem ser apoiados pelo sistema sendo projetado. Segundo Barbosa e Silva (2021), conhecer o perfil de usuário permite que a equipe compreenda **quem são as pessoas** que utilizarão o sistema, como elas se comportam, quais são suas necessidades, experiências e expectativas.
@@ -218,7 +227,7 @@ O usuário interno (stakeholder) do órgão, responsável por receber, fazer a t
 
 ## Agradecimentos à IA
 
-Agradecimento ao **Gemini** pela ajuda na estruturação do deste documento.
+Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao montar o padrão de seções e formatação de texto.
 
 ---
 
@@ -233,6 +242,8 @@ Agradecimento ao **Gemini** pela ajuda na estruturação do deste documento.
 | `1.4`  | 03/05/2026 | Inclusão da análise documental complementar (Pedro Moretti), integração dos achados ao perfil e adição das referências correspondentes.      | Pedro Augusto Moretti Moreira         | Heloisa Silva |
 | `1.5`  | 05/05/2026 | Ajustes a partir dos feedbacks da apresentação  | Heitor Macedo Ricardo | Heloisa Silva |
 | `1.6`  | 08/05/2026 | Unificação do perfil de consumidor, adição do perfil de funcionário e padronização em tabela dos resultados das entrevistas | Heitor Macedo Ricardo | Heloisa Silva |
+## Notas de Rodapé e Referências de Imagens
+
 
 <div id="figura0" align="center">
   <p>Figura 1 - Seção 7.3: De quem coletar os Dados?</p>

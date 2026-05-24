@@ -47,16 +47,6 @@ Neste storyboard, o usuário Gustavo (Microempreendedor e Fornecedor), que traba
   <p><b>Fonte:</b> Pedro Moretti</p>
 </div>
 
-### 2.3. Tarefa 3: [Inserir o nome da tarefa do colega, ex: Registrar Denúncia Anônima]
-**Autor:** [Nome do Colega - ex: Heloisa]
-
-Breve descrição do contexto do cenário do colega (quem é a persona, o que ela faz e como ela se sente no final).
-
-**[INSERIR AQUI A FOTO DO STORYBOARD DA HELOISA]**
-*Figura 2 - Storyboard da [Tarefa]. Fonte: Elaborado por [Heloisa].*
-
----
-*(Nota para a equipe: Repetir a estrutura acima copiando e colando até a Tarefa 7, garantindo que os storyboards do Heitor, Heloisa, Moretti, Pedro Macedo, Eduardo, Matheus e Gabriel estejam documentados com suas respectivas tarefas).*
 ---
 
 ## 3. Comprovação Teórica e Referência Bibliográfica
@@ -77,6 +67,8 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento e cria�
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 16/05/2026 | Criação do documento, introdução metodológica e Storyboard da Tarefa 1. | Heitor Ricardo | Heloisa Silva |
+
+## Notas de Rodapé e Referências de Imagens
 
 <div id="figura" align="center">
   <p>Figura 1 - Storyboard: Definição e Aplicação</p>

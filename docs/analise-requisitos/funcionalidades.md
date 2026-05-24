@@ -1,8 +1,19 @@
 # Funcionalidades
 
+## Colaboração
+Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
+
+| Autores | Contribuiu |
+|---|---|
+| Heitor Macedo | Com 1 Funcionalidade  |
+| Pedro Moretti | Com 1 Funcionalidade |
+| Heloisa Silva | Com 1 Funcionalidade |
+| Matheus Rodrigues | Com 1 Funcionalidade  |
+| Pedro Macedo| Com 1 Funcionalidade |
 Este documento detalha as funcionalidades propostas para a modernização do portal PROCON-DF, focando em transparência, agilidade e acessibilidade digital tanto para consumidores quanto para fornecedores.
 
 ---
+
 
 ### 1. Portal de Acompanhamento de Reclamações com Notificações Ativas
 
@@ -303,6 +314,6 @@ Agradecimento ao Gemini pela ajuda na estruturação, redação e consolidação
 | `1.0` | 30/04/2026 | Criação da funcionalidade: Portal de Acompanhamento | Heitor Macedo Ricardo | Pedro Moretti |
 | `1.1` | 01/05/2026 | Integração da funcionalidade: Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | Heloisa Silva |
 | `1.2` | 01/05/2026 | Integração da funcionalidade: Validação de documentos com OCR | Heloisa Silva | Heitor Macedo |
-| `1.3` | 02/05/2026 | Integração da funcionalidade: Assistente de Triagem Guiada | Pedro Augusto | A definir |
+| `1.3` | 02/05/2026 | Integração da funcionalidade: Assistente de Triagem Guiada | Pedro Augusto | Mateus Rodrigues |
 | `1.4` | 03/05/2026 | Integração da funcionalidade: Painel de monitoramento de prazos | Mateus Rodrigues Barreto | Pedro Moretti |
 | `1.5` | 08/05/2026 | Padronização dos blocos de responsabilidade com hiperlinks de rastreabilidade entre artefatos. | Heitor Macedo Ricardo | Heloisa Silva |

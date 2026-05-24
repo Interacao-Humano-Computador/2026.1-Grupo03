@@ -74,17 +74,6 @@ Conheça os membros responsáveis por este projeto da disciplina de Interação 
 </div>
 </div>
 
-<div class="team-member" align="center" markdown>
-
-![Gabriel Robson Nunes Neiva da Silva](images/gabriel.jpeg){ .team-avatar }
-
-<div class="team-name" markdown>[Gabriel Robson Nunes Neiva da Silva](https://github.com/Mateus0xC){: target="_blank" }</div>
-
-<div class="bio" markdown>
-*FAlTA DESCRICAO E GITHUB*
-</div>
-</div>
-
 </div>
 
 ---
@@ -92,7 +81,8 @@ Conheça os membros responsáveis por este projeto da disciplina de Interação 
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor | Revisor |
-|:---:|:---:|:---|:---:|:---:|
-| 1.2 | 16/04/2026 | Inclusão do membro Gabriel. | Pedro Moretti | - |
+| :---: | :---: | :--- | :---: | :---: |
+| 1.3 | 16/04/2026 | Retirada do membro Gabriel. | Pedro Moretti | Heloísa |
+| 1.2 | 16/04/2026 | Inclusão do membro Gabriel. | Pedro Moretti | Heitor Macedo |
 | 1.1 | 16/04/2026 | Adição da seção "Introdução". | Pedro Moretti | Heitor Macedo Ricardo |
-| 1.0 | 12/04/2026 | Criação da página com o perfil dos integrantes | Pedro Moretti | Heitor Macedo Ricardo |
+| 1.0 | 12/04/2026 | Criação da página com o perfil dos integrantes. | Pedro Moretti | Heitor Macedo Ricardo |
