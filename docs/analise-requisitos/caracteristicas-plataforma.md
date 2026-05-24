@@ -188,7 +188,7 @@ Agradecimento ao **ChatGpt** pela ajuda na estruturação deste documento.
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.0` | 11/05/2026 | Estruturação inicial do documento com análise das oito características da plataforma (Usabilidade, Acessibilidade, Compatibilidade, Feedback, Eficiência, Personalização, Segurança e Escalabilidade). | Heloisa Laura Santos da Silva | - |
+| `1.0` | 11/05/2026 | Estruturação inicial do documento com análise das oito características da plataforma (Usabilidade, Acessibilidade, Compatibilidade, Feedback, Eficiência, Personalização, Segurança e Escalabilidade). | Heloisa Laura Santos da Silva | Mateus Rodrigues Barreto |
 
 ## Referência bibliográfica 
 

@@ -1,4 +1,4 @@
-﻿# Metas de Usabilidade
+# Metas de Usabilidade
 
 ## Colaboração
 Colaboração referente a [Etapa 3](../planejamento/cronograma-executado.md)
@@ -6,6 +6,7 @@ Colaboração referente a [Etapa 3](../planejamento/cronograma-executado.md)
 | Autores | Contribuiu |
 |---|---|
 | Heitor Macedo | Elaboração do Artefato  |
+| Mateus Rodrigues Barreto | Inserção das imagens de comprovação bibliográfica |
 
 ## 1. Introdução
 De acordo com a Engenharia de Usabilidade de Nielsen, descrita por Barbosa e Silva (2021) <sup><a href="#figura1">[1]</a></sup>, a definição das metas de usabilidade envolve estabelecer quais fatores de qualidade de uso devem ser priorizados no projeto. Para cada fator escolhido, é necessário definir como ele será avaliado, estabelecendo faixas de valores inaceitáveis, aceitáveis e ideais para os indicadores de interesse <sup><a href="#figura2">[2]</a></sup>.
