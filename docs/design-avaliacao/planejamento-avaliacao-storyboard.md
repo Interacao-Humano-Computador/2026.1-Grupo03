@@ -12,7 +12,7 @@ Este documento detalha o planejamento para a avaliação dos storyboards elabora
 
 ## Introdução
 
-A avaliação de storyboards é essencial para validar se a narrativa visual comunica corretamente a solução proposta e se as interações ilustradas ressoam com os usuários finais. Este processo permite identificar pontos fracos na proposta de design antes do investimento em protótipos mais complexos, garantindo que a direção do projeto esteja alinhada com as necessidades e expectativas do público-alvo.
+A avaliação de storyboards é essencial para identificar **problemas na interação e na interface** representados nas alternativas de design e para avaliar a **apropriação da tecnologia pelos usuários** diante da solução proposta. Este processo permite identificar pontos fracos na proposta de design antes do investimento em protótipos mais complexos, garantindo que a direção do projeto esteja alinhada com as necessidades e expectativas do público-alvo.
 
 ---
 
@@ -33,29 +33,61 @@ O DECIDE funciona como um roteiro que orienta o avaliador através de seis etapa
 
 ## 1. D - Determinar os objetivos da avaliação <sup><a href="#fig-d">[2]</a></sup>
 
-O objetivo principal desta avaliação é validar as alternativas de design propostas na fase de ideação, utilizando os storyboards como artefatos de comunicação. Antes de investir tempo em protótipos de alta fidelidade ou desenvolvimento de código, precisamos garantir que estamos construindo a solução certa.
+Com base nos tipos de avaliação descritos por Barbosa et al. (2021, Capítulo 11), esta avaliação está orientada a dois aspectos complementares: **avaliar problemas na interação e na interface** representados nos storyboards e **avaliar a apropriação da tecnologia pelos usuários** diante da solução proposta.
 
-Nossos objetivos específicos são:
+### Avaliar Problemas na Interação e na Interface
 
-*   **Verificar a compreensão da narrativa:** Avaliar se o usuário compreende o cenário, o contexto e as ações representadas nos quadros do storyboard.
-*   **Validar o fluxo de tarefas:** Confirmar se a sequência de ações desenhada para resolver o problema faz sentido lógico e prático para o usuário.
-*   **Identificar necessidades não atendidas:** Descobrir se a tecnologia/sistema ilustrado no storyboard realmente resolve a "dor" do usuário ou se faltam etapas cruciais.
+A avaliação de problemas na interação e na interface busca identificar, nos storyboards, elementos que possam prejudicar a qualidade de uso do sistema proposto (Barbosa et al., 2021, p. 249). Os problemas identificados serão classificados de acordo com sua gravidade e com os fatores de qualidade de uso prejudicados — usabilidade, experiência do usuário, acessibilidade ou comunicabilidade.
 
-> **Exemplo Prático:** Se o storyboard retrata um consumidor relatando uma reclamação no site do Procon-DF, o objetivo é saber se o usuário concorda que os passos ilustrados (acessar site > encontrar botão de denúncia > preencher formulário > receber protocolo) refletem o que ele naturalmente faria ou esperaria fazer.
+**Objetivos específicos para este aspecto:**
+
+* Identificar problemas na narrativa visual do storyboard que possam gerar confusão ou ambiguidade sobre o funcionamento do sistema.
+* Verificar se a sequência de ações representada comunica claramente as intenções de uso do sistema (comunicabilidade).
+* Avaliar se o fluxo proposto apresenta inconsistências ou lacunas que prejudiquem a usabilidade e a experiência do usuário.
+* Classificar os problemas encontrados quanto à gravidade potencial caso fossem implementados no sistema final.
+
+### Avaliar a Apropriação da Tecnologia pelos Usuários
+
+A avaliação da apropriação de tecnologia busca compreender se a solução proposta atende às necessidades dos usuários e se estes a incorporariam em seu cotidiano (Barbosa et al., 2021, p. 248-249).
+
+**Objetivos específicos para este aspecto:**
+
+* Compreender se o cenário retratado no storyboard reflete o contexto real de uso e as necessidades dos usuários do PROCON-DF.
+* Investigar se os participantes se identificam com a situação apresentada e se utilizariam o sistema proposto em seu dia a dia.
+* Verificar se a solução ilustrada oferece apoio computacional adequado para resolver o problema do usuário.
+* Avaliar a percepção de satisfação e agradabilidade dos participantes em relação à solução proposta.
+* Identificar possíveis barreiras que levariam os usuários a não adotar o sistema representado.
+
+> **Exemplo Prático:** Se o storyboard retrata um consumidor registrando uma reclamação no site do PROCON-DF, a avaliação investigará tanto problemas de interação (ex.: a sequência de passos é confusa? Faltam elementos de feedback?) quanto a apropriação da tecnologia (ex.: o usuário se sentiria confortável usando esse sistema? Ele acredita que o sistema reduziria o tempo para registrar uma reclamação?).
 
 ---
 
 ## 2. E - Explorar perguntas a serem respondidas <sup><a href="#fig-e">[3]</a></sup>
 
-Para operacionalizar os objetivos definidos acima, a equipe elaborou perguntas de pesquisa que conduzirão o roteiro da avaliação. O objetivo destas perguntas é investigar a interação do usuário com a proposta do sistema.
+Para tornar os objetivos operacionais, a equipe elaborou perguntas específicas organizadas pelos dois aspectos avaliados (Barbosa et al., 2021, p. 249-250).
 
-**Perguntas a serem respondidas pela avaliação:**
+### Perguntas sobre Problemas na Interação e na Interface
 
-1. O usuário consegue identificar o contexto e o problema enfrentado pelo personagem (persona) no storyboard?
-2. A motivação do personagem para usar o sistema faz sentido para os participantes? Eles fariam o mesmo?
-3. A sequência de ações ilustrada parece natural, ou o usuário pularia/adicionaria algum passo?
-4. O desfecho da história resolve satisfatoriamente o problema inicial do usuário?
-5. Qual a percepção geral do usuário sobre a utilidade do sistema proposto na história?
+Com base em Barbosa et al. (2021, p. 250-251), as seguintes perguntas nortearão a avaliação deste aspecto:
+
+1. Considerando cada perfil de usuário esperado: o usuário consegue operar o sistema?
+2. Ele atinge seu objetivo? Com quanta eficiência? Em quanto tempo? Após cometer quantos erros?
+3. Que parte da interface e da interação o deixa insatisfeito?
+4. Ele entende o que significa e para que serve cada elemento de interface? Ele vai entender o que deve fazer em seguida?
+5. Que problemas de IHC dificultam ou impedem o usuário de alcançar seus objetivos? Onde esses problemas se manifestam? Com que frequência tendem a ocorrer? Qual é a gravidade desses problemas?
+6. Quais barreiras o usuário encontra para atingir seus objetivos?
+
+### Perguntas sobre Apropriação da Tecnologia pelos Usuários
+
+Com base em Barbosa et al. (2021, p. 250), as seguintes perguntas nortearão a avaliação deste aspecto:
+
+7. De que maneira os usuários utilizam o sistema? Em que difere do planejado?
+8. Que variação houve no número de erros cometidos pelos usuários ao utilizarem o novo sistema? E no tempo que levam para atingir seus objetivos? E na sua satisfação com o sistema?
+9. O quanto os usuários consideram o apoio computacional adequado para auxiliá-los na realização de suas atividades?
+10. O quanto eles são motivados a explorar novas funcionalidades?
+11. Quais são os pontos fortes e fracos do sistema, na opinião dos usuários?
+12. Quais objetivos dos usuários podem ser alcançados através do sistema? E quais não podem? Quais necessidades e desejos foram ou não atendidos?
+13. Por que os usuários não incorporaram o sistema no seu cotidiano?
 
 ---
 
@@ -66,7 +98,7 @@ Como os storyboards são artefatos estáticos e narrativos de baixa fidelidade, 
 **Método Selecionado:** Investigação através de **Entrevistas Semiestruturadas com uso de Storyboards**.
 
 **Justificativa:** 
-A entrevista permite apresentar a narrativa visual ao usuário e investigar profundamente seus modelos mentais, opiniões e reações. O formato semiestruturado garante que as perguntas principais (definidas na etapa anterior) sejam feitas, mas dá ao avaliador a liberdade de fazer perguntas adicionais (ex: *"Por que você achou essa ação estranha?"*) sempre que o usuário apresentar um comportamento ou comentário inesperado.
+A entrevista permite apresentar a narrativa visual ao usuário e investigar profundamente suas opiniões e reações sobre a solução proposta. O formato semiestruturado garante que as perguntas sobre problemas na interação e na interface e sobre apropriação da tecnologia sejam abordadas, mas dá ao avaliador a liberdade de fazer perguntas adicionais (ex: *"Por que você achou essa ação estranha?"*, *"Você acha que essa sequência de ações faria sentido no seu dia a dia?"*) sempre que o usuário apresentar um comportamento ou comentário inesperado, aprofundando a coleta de dados em ambos os aspectos avaliados.
 
 ---
 
@@ -80,7 +112,7 @@ Para garantir a viabilidade e o rigor metodológico da avaliação dos storyboar
 
 **Materiais Necessários:** Preparação dos arquivos digitais dos storyboards, Termo de Consentimento Livre e Esclarecido (TCLE), roteiro de perguntas padronizado e formulário de anotações.
 
-**Recursos e Custos:** A avaliação foi planejada para ter custo zero, utilizando plataformas de comunicação online gratuitas (Meet/Teams) e ferramentas de gravação nativas ou gratuitas (OBS Studio). Todos os participantes usarão seus próprios computadores ou dispositivos móveis com acesso à internet.
+**Recursos e Custos:** A avaliação foi planejada para ter custo zero, utilizando plataformas de comunicação online gratuitas (Meet/Teams) e ferramentas de gravação nativas ou gratuitas (OBS Studio). Os storyboards serão compartilhados com os participantes por meio de apresentação de tela ou formato impresso, sem necessidade de interação com software por parte dos participantes.
 
 **Cronograma:** As entrevistas serão agendadas conforme a disponibilidade dos participantes, seguindo o cronograma macro do projeto. Os resultados de cada sessão devem ser documentados imediatamente após a ocorrência.
 
@@ -127,13 +159,14 @@ A avaliação envolve a participação de pessoas, logo, os princípios éticos 
 O processo de avaliação não termina quando a entrevista acaba. Para que o trabalho tenha validade, os dados coletados precisam ser tratados e consolidados da seguinte maneira:
 
 1.  **Transcrição e Compilação Bruta:** O observador deve assistir às gravações e transformar os relatos verbais em texto, extraindo citações marcantes, dificuldades e sugestões propostas pelos participantes.
-2.  **Análise e Categorização:** A equipe se reunirá para ler os dados compilados e tentar encontrar padrões. 
-    > **Exemplo:** Se 3 dos 4 participantes disseram *"Eu não entendi como o personagem saiu da tela inicial e foi parar no formulário"*, isso é agrupado como um problema estrutural no fluxo do storyboard.
-3.  **Identificação de Problemas e Sugestões:** A partir dos padrões identificados, a equipe extrairá a lista final de problemas do design proposto.
+2.  **Análise e Categorização:** A equipe se reunirá para ler os dados compilados e categorizá-los de acordo com os dois aspectos avaliados:
+    - **Problemas na interação e na interface:** agrupar por tipo de problema (ambiguidade na narrativa, lacunas no fluxo, problemas de comunicabilidade), gravidade potencial e fator de qualidade prejudicado.
+    - **Apropriação da tecnologia:** agrupar por percepções de relevância do cenário, identificação com o personagem, satisfação com a solução e intenção de uso.
+3.  **Identificação de Problemas e Sugestões:** A partir dos padrões identificados, a equipe extrairá a lista final de problemas do design proposto, classificados por gravidade e fator de qualidade de uso prejudicado.
 4.  **Relato dos Resultados:** Por fim, a equipe produzirá um documento contendo:
     *   **O planejamento e execução:** (Onde ocorreu, quem participou, perfil dos usuários reais).
     *   **Feedback Positivo:** O que os usuários gostaram e validaram na proposta.
-    *   **Tabela de Problemas e Melhorias:** Uma tabela contendo o problema encontrado, a justificativa do porquê ser um problema (baseado na fala do usuário) e a proposta de reprojeto/melhoria sugerida pela equipe.
+    *   **Tabela de Problemas e Melhorias:** Uma tabela contendo o problema encontrado, sua classificação de gravidade, o fator de qualidade prejudicado (usabilidade, experiência do usuário, acessibilidade ou comunicabilidade), a justificativa (baseada na fala do usuário) e a proposta de reprojeto/melhoria sugerida pela equipe.
 
 ---
 
@@ -173,6 +206,7 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 <div id="fig-d"></div>
 
 **Figura 1** - D: Determinar os objetivos da avaliação.
+
 ![Determinar os objetivos](./images/decide-d.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
@@ -180,6 +214,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 <div id="fig-e"></div>
 
 **Figura 2** - E: Explorar perguntas a serem respondidas.
+
 ![Explorar perguntas](./images/decide-e.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
@@ -187,6 +222,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 <div id="fig-c"></div>
 
 **Figura 3** - C: Escolher os métodos de avaliação.
+
 ![Escolher métodos](./images/decide-c.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
@@ -194,6 +230,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 <div id="fig-i"></div>
 
 **Figura 4** - I: Identificar e administrar as questões práticas.
+
 ![Identificar questões práticas](./images/decide-i.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
@@ -201,6 +238,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 <div id="fig-d2"></div>
 
 **Figura 5** - D: Decidir como lidar com as questões éticas.
+
 ![Decidir questões éticas](./images/decide-d2.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
@@ -208,6 +246,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 <div id="fig-e2"></div>
 
 **Figura 6** - E: Avaliar (Evaluate), interpretar e apresentar os dados.
+
 ![Avaliar dados](./images/decide-e2.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>

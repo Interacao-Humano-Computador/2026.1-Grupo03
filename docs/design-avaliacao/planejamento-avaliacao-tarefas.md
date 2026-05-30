@@ -7,52 +7,78 @@ Colaboração referente a [Etapa 4](../planejamento/cronograma-executado.md)
 |---|---|
 | Pedro Macedo | Elaborou o Artefato  |
 
-Este documento detalha o planejamento para a avaliação das tarefas propostas para o projeto, utilizando o framework **DECIDE** proposto por Preece et al. (2002) e adaptado por Barbosa e Silva (2021)<sup><a href="#ref1">[1]</a></sup>. O objetivo da avaliação é analisar como os usuários executam as tarefas definidas durante a etapa de análise de requisitos do sistema do PROCON-DF.
+Este documento detalha o planejamento para a avaliação dos modelos de tarefas propostos para o projeto, utilizando o framework **DECIDE** proposto por Preece et al. (2002) e adaptado por Barbosa e Silva (2021)<sup><a href="#ref1">[1]</a></sup>. A avaliação tem como objetivo identificar **problemas na interação e na interface** nos modelos de tarefas (CTT, HTA e GOMS) e avaliar a **apropriação da tecnologia pelos usuários** a partir das tarefas modeladas para o sistema do PROCON-DF, conforme os tipos de avaliação descritos por Barbosa et al. (2021, Capítulo 11).
 
 ---
 
 ## 1. D - Determinar os objetivos da avaliação <sup><a href="#fig-d">[2]</a></sup>
 
-O principal objetivo desta avaliação é verificar se as tarefas planejadas para o sistema são compreensíveis, eficientes e compatíveis com as expectativas e necessidades dos usuários identificados nas personas e cenários do projeto.
+Com base nos tipos de avaliação descritos por Barbosa et al. (2021, Capítulo 11), esta avaliação está orientada a dois aspectos complementares: **avaliar problemas na interação e na interface** nos modelos de tarefas (CTT, HTA e GOMS) e **avaliar a apropriação da tecnologia pelos usuários** a partir da estrutura das tarefas modeladas.
 
-A avaliação busca validar se os fluxos de interação permitem que os usuários realizem seus objetivos de maneira intuitiva, sem dificuldades excessivas ou ambiguidades na interface.
+### Avaliar Problemas na Interação e na Interface
 
-Nossos objetivos específicos são:
+A avaliação de problemas na interação e na interface busca identificar, classificar e documentar problemas na decomposição hierárquica, no sequenciamento e na estrutura das tarefas modeladas com CTT, HTA e GOMS (Barbosa et al., 2021, p. 249). Os problemas identificados serão classificados de acordo com sua gravidade, frequência com que tendem a ocorrer na estrutura modelada e os fatores de qualidade de uso prejudicados — usabilidade, experiência do usuário, acessibilidade ou comunicabilidade.
 
-* **Verificar a compreensão das tarefas:** Avaliar se os usuários conseguem entender o que deve ser feito em cada atividade proposta.
-* **Identificar dificuldades de navegação:** Observar em quais etapas os participantes demonstram dúvidas, hesitações ou erros durante a execução das tarefas.
-* **Validar o fluxo de interação:** Confirmar se a sequência de ações necessária para completar as tarefas corresponde ao modelo mental dos usuários.
-* **Analisar a eficiência das tarefas:** Verificar se os usuários conseguem concluir as atividades propostas sem esforço excessivo.
-* **Identificar oportunidades de melhoria:** Descobrir possíveis alterações na interface ou no fluxo de tarefas que tornem o sistema mais simples e intuitivo.
+**Objetivos específicos para este aspecto:**
 
-> **Exemplo Prático:** Caso a tarefa seja “Registrar reclamação”, o objetivo da avaliação será verificar se o usuário consegue localizar facilmente a funcionalidade, compreender os campos do formulário e concluir o processo sem dificuldades relevantes.
+* Identificar problemas na decomposição hierárquica das tarefas (níveis inadequados, tarefas faltantes ou redundantes).
+* Verificar inconsistências no sequenciamento e nas relações entre tarefas (ordem, concorrência, opcionalidade).
+* Analisar a coerência da granularidade entre as tarefas de um mesmo nível hierárquico.
+* Classificar os problemas encontrados quanto à gravidade e frequência potencial na estrutura modelada.
+* Relatar e justificar cada problema com base na análise dos modelos de tarefas.
+
+### Avaliar a Apropriação da Tecnologia pelos Usuários
+
+A avaliação da apropriação de tecnologia busca compreender se a estrutura das tarefas modeladas reflete adequadamente o contexto real de uso, as necessidades dos usuários e como eles incorporariam o sistema em seu cotidiano (Barbosa et al., 2021, p. 248-249).
+
+**Objetivos específicos para este aspecto:**
+
+* Compreender se a hierarquia e o sequenciamento das tarefas modeladas correspondem ao contexto real de uso e às necessidades dos usuários do PROCON-DF.
+* Investigar se as tarefas modeladas permitem que os usuários atinjam seus objetivos de forma eficiente, com menor número de passos e sem passos desnecessários.
+* Verificar se os usuários consideram a estrutura proposta adequada para apoiá-los na realização de suas atividades.
+* Avaliar se a decomposição das tarefas proposta atende às expectativas dos participantes.
+* Identificar possíveis lacunas entre as tarefas modeladas e as reais necessidades dos usuários.
+
+> **Exemplo Prático:** Considerando a tarefa "Registrar reclamação" modelada em CTT, a avaliação investigará problemas na decomposição (ex.: faltam sub-tarefas importantes? A ordem das sub-tarefas está correta? Há tarefas redundantes?) e a apropriação da tecnologia (ex.: a sequência modelada reflete como o usuário realmente realizaria o registro? Passos importantes foram omitidos?).
 
 ---
 
 ## 2. E - Explorar perguntas a serem respondidas <sup><a href="#fig-e">[3]</a></sup>
 
-Com base nos objetivos definidos anteriormente, a equipe elaborou perguntas que irão conduzir a avaliação das tarefas executadas pelos participantes.
+Para tornar os objetivos operacionais, a equipe elaborou perguntas específicas organizadas pelos dois aspectos avaliados (Barbosa et al., 2021, p. 249-250).
 
-**Perguntas a serem respondidas pela avaliação:**
+### Perguntas sobre Problemas na Interação e na Interface
 
-1. O usuário consegue compreender facilmente o objetivo da tarefa proposta?
-2. O fluxo necessário para executar a tarefa parece natural para o participante?
-3. O usuário encontra dificuldades para localizar funcionalidades importantes do sistema?
-4. Existem etapas que causam dúvidas, hesitações ou erros durante a execução?
-5. O usuário consegue concluir a tarefa sem auxílio externo?
-6. O participante considera a tarefa simples ou complexa?
-7. O resultado final da tarefa corresponde à expectativa do usuário?
-8. Quais sugestões os participantes apresentam para melhorar a execução das tarefas?
+Com base em Barbosa et al. (2021, p. 250-251), as seguintes perguntas nortearão a avaliação deste aspecto:
+
+1. A decomposição hierárquica das tarefas está correta e completa? Há tarefas faltantes ou redundantes?
+2. O sequenciamento e as relações entre as tarefas (ordem, concorrência, opcionalidade) estão coerentes com os objetivos dos usuários?
+3. A granularidade das tarefas em cada nível hierárquico é consistente?
+4. As tarefas modeladas representam adequadamente os passos necessários para o usuário realizar suas atividades?
+5. Que problemas na estrutura dos modelos de tarefas podem dificultar a compreensão ou a execução das atividades? Onde esses problemas se manifestam e qual sua gravidade?
+6. Quais barreiras na estrutura modelada podem impedir ou dificultar o usuário de alcançar seus objetivos?
+
+### Perguntas sobre Apropriação da Tecnologia pelos Usuários
+
+Com base em Barbosa et al. (2021, p. 250), as seguintes perguntas nortearão a avaliação deste aspecto:
+
+7. A estrutura das tarefas modeladas corresponde à maneira como os usuários realizam ou esperam realizar suas atividades?
+8. A variação no número de passos e na complexidade da decomposição está adequada para que os usuários atinjam seus objetivos de forma eficiente?
+9. Os usuários consideram a estrutura modelada adequada para auxiliá-los na realização de suas atividades?
+10. As tarefas modeladas motivam os usuários a explorar o fluxo completo da atividade?
+11. Quais são os pontos fortes e fracos da estrutura proposta, na opinião dos usuários?
+12. Quais objetivos dos usuários podem ser alcançados através das tarefas modeladas? E quais não podem? Quais necessidades foram ou não atendidas?
+13. Por que os usuários considerariam a estrutura modelada inadequada para o seu cotidiano?
 
 ---
 
 ## 3. C - Escolher (Choose) os métodos de avaliação <sup><a href="#fig-c">[4]</a></sup>
 
-Como o projeto ainda não possui um sistema totalmente implementado, a avaliação será conduzida utilizando tarefas previamente definidas e apresentadas aos participantes através de fluxos, descrições e representações de interface elaboradas pela equipe.
+Como o projeto ainda não possui um sistema implementado, a avaliação será conduzida utilizando os modelos de tarefas (CTT, HTA e GOMS) previamente elaborados e apresentados aos participantes através de diagramas, descrições e representações hierárquicas.
 
-**Método Selecionado:** Investigação através de **Teste de Usabilidade com protocolo Think Aloud (Pensar em Voz Alta)**.
+**Método Selecionado:** Investigação através de **Entrevistas Semiestruturadas com análise dos modelos de tarefas e protocolo Think Aloud (Pensar em Voz Alta)**.
 
-**Justificativa:** O teste de usabilidade permite observar diretamente como os participantes executam as tarefas propostas, identificando dificuldades reais durante a interação. Já a técnica Think Aloud incentiva os usuários a verbalizarem seus pensamentos, dúvidas e decisões ao longo da execução das tarefas. Essa combinação permite que a equipe compreenda quais elements da interface causam confusão, quais ações os usuários esperam realizar e quais partes do fluxo não correspondem ao modelo mental dos participantes. Além disso, esse método é adequado para avaliações iniciais de baixa fidelidade, mesmo sem um sistema funcional completamente implementado.
+**Justificativa:** A entrevista semiestruturada permite apresentar os diagramas de tarefas aos participantes e investigar suas opiniões sobre a decomposição, o sequenciamento e a estrutura proposta. A técnica Think Aloud incentiva os participantes a verbalizarem seus pensamentos, dúvidas e sugestões enquanto analisam os modelos, fornecendo dados ricos tanto para a identificação de problemas nos modelos de tarefas quanto para a compreensão da apropriação da tecnologia — se a estrutura modelada corresponde ao que o usuário considera adequado para suas necessidades. Essa combinação permite que a equipe identifique problemas de decomposição, inconsistências de sequenciamento e lacunas na modelagem, além de avaliar se a estrutura proposta atende ao contexto de uso dos participantes.
 
 ---
 
@@ -63,7 +89,7 @@ Para garantir a qualidade da avaliação, a equipe deverá organizar previamente
 * **Recrutamento de Participantes:** Serão recrutados entre 3 e 4 participantes compatíveis com o perfil de usuário identificado nas personas e cenários do projeto.
 * **Ambiente da Avaliação:** A avaliação ocorrerá presencialmente. O ambiente deve ser silencioso e sem interrupções.
 * **Materiais Necessários:**
-    * Protótipos, fluxos ou representações das tarefas.
+    * Diagramas dos modelos de tarefas (CTT, HTA, GOMS).
     * Roteiro de avaliação documentado e impresso/aberto na tela do avaliador.
     * Termo de Consentimento Livre e Esclarecido (TCLE) para leitura e aceite.
     * Ferramenta de gravação de áudio e/ou vídeo (como o OBS Studio ou gravação nativa do Meet/Teams).
@@ -88,7 +114,7 @@ A avaliação envolverá usuários reais, portanto os princípios éticos relaci
 * **Direito de Retirada:** Ficará explícito para o participante que ele pode desistir da entrevista a qualquer momento, sem precisar justificar e sem sofrer qualquer prejuízo.
 * **Privacidade e Anonimato:** Nenhuma informação pessoal sensível ou nome completo dos participantes será divulgado no relatório final da disciplina. Serão utilizados identificadores como "Participante 1 (P1)", "Participante 2 (P2)" e assim sucessivamente. Imagens de rosto serão borradas ou ocultadas nos relatórios, a menos que autorizado explicitamente.
 * **Uso das Gravações:** As gravações realizadas durante a avaliação serão utilizadas apenas para análise interna da equipe e não serão divulgadas publicamente.
-* **Foco na Interface, Não no Indivíduo:** O avaliador deve tranquilizar o usuário no início da sessão, dizendo: *"Nós estamos avaliando a interface e as tarefas do sistema, não o participante. Não existem respostas certas ou erradas; toda opinião e dificuldade encontrada contribui para a melhoria do projeto."*
+* **Foco nos Modelos, Não no Indivíduo:** O avaliador deve tranquilizar o usuário no início da sessão, dizendo: *"Nós estamos avaliando os modelos de tarefas e a estrutura proposta, não o participante. Não existem respostas certas ou erradas; toda opinião e dificuldade encontrada contribui para a melhoria do projeto."*
 
 ---
 
@@ -97,13 +123,14 @@ A avaliação envolverá usuários reais, portanto os princípios éticos relaci
 O processo de avaliação não termina quando a entrevista acaba. Para que o trabalho tenha validade, os dados coletados precisam ser tratados e consolidados da seguinte maneira:
 
 1.  **Transcrição e Compilação Bruta:** O observador deve assistir às gravações e transformar os relatos verbais em texto, extraindo citações marcantes, dificuldades e sugestões propostas pelos participantes.
-2.  **Análise e Categorização:** A equipe se reunirá para ler os dados compilados e tentar encontrar padrões. 
-    > **Exemplo:** Se 3 dos 4 participantes apresentaram dificuldades recorrentes e comentários na mesma etapa, isso é agrupado como um problema estrutural no fluxo de interação.
-3.  **Identificação de Problemas e Sugestões:** A partir dos padrões identificados, a equipe extrairá a lista final de problemas do design proposto relacionados à navegação e execução das tarefas.
+2.  **Análise e Categorização:** A equipe se reunirá para ler os dados compilados e categorizá-los de acordo com os dois aspectos avaliados:
+    - **Problemas na interação e na interface:** agrupar por tipo de problema (decomposição hierárquica, sequenciamento, granularidade, relações entre tarefas), gravidade e frequência.
+    - **Apropriação da tecnologia:** agrupar por percepções de adequação da estrutura, correspondência com o contexto real, completude e clareza dos modelos.
+3.  **Identificação de Problemas e Sugestões:** A partir dos padrões identificados, a equipe extrairá a lista final de problemas na interação e na interface identificados nos modelos de tarefas, classificados por gravidade e fator de qualidade de uso prejudicado.
 4.  **Relato dos Resultados:** Por fim, a equipe produzirá um documento contendo:
     * **O planejamento e execução:** (Onde ocorreu, quem participou, perfil dos usuários reais).
     * **Feedback Positivo:** O que os usuários gostaram e validaram na proposta.
-    * **Tabela de Problemas e Melhorias:** Uma tabela contendo o problema encontrado, a justificativa do porquê ser um problema (baseado na fala do usuário) e a proposta de reprojeto/melhoria sugerida pela equipe.
+    * **Tabela de Problemas e Melhorias:** Uma tabela contendo o problema identificado na interação e na interface dos modelos de tarefas, sua classificação de gravidade, o fator de qualidade prejudicado (usabilidade, experiência do usuário, acessibilidade ou comunicabilidade), a justificativa (baseada na fala do usuário) e a proposta de refinamento do modelo sugerida pela equipe.
 
 ---
 ## Agradecimentos à IA
@@ -133,6 +160,7 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 <div id="fig-d"></div>
 
 **Figura 1** - D: Determinar os objetivos da avaliação.
+
 ![Determinar os objetivos](./images/decide-d.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
@@ -140,6 +168,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 <div id="fig-e"></div>
 
 **Figura 2** - E: Explorar perguntas a serem respondidas.
+
 ![Explorar perguntas](./images/decide-e.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
@@ -147,6 +176,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 <div id="fig-c"></div>
 
 **Figura 3** - C: Escolher os métodos de avaliação.
+
 ![Escolher métodos](./images/decide-c.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
@@ -154,6 +184,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 <div id="fig-i"></div>
 
 **Figura 4** - I: Identificar e administrar as questões práticas.
+
 ![Identificar questões práticas](./images/decide-i.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
@@ -161,6 +192,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 <div id="fig-d2"></div>
 
 **Figura 5** - D: Decidir como lidar com as questões éticas.
+
 ![Decidir questões éticas](./images/decide-d2.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
@@ -168,6 +200,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 <div id="fig-e2"></div>
 
 **Figura 6** - E: Avaliar (Evaluate), interpretar e apresentar os dados.
+
 ![Avaliar dados](./images/decide-e2.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
