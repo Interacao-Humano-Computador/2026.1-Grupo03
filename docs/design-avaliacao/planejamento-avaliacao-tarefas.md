@@ -86,13 +86,13 @@ Como o projeto ainda não possui um sistema implementado, a avaliação será co
 
 Para garantir a qualidade da avaliação, a equipe deverá organizar previamente todos os aspectos práticos da execução:
 
-* **Recrutamento de Participantes:** Serão recrutados entre 3 e 4 participantes compatíveis com o perfil de usuário identificado nas personas e cenários do projeto.
+* **Recrutamento de Participantes:** Cada autor das tarefas modeladas será responsável por recrutar um usuário compatível com o perfil definido nas personas e cenários do projeto. Cada integrante da equipe conduzirá uma avaliação individual com seu respectivo usuário.
 * **Ambiente da Avaliação:** A avaliação ocorrerá presencialmente. O ambiente deve ser silencioso e sem interrupções.
 * **Materiais Necessários:**
     * Diagramas dos modelos de tarefas (CTT, HTA, GOMS).
     * Roteiro de avaliação documentado e impresso/aberto na tela do avaliador.
     * Termo de Consentimento Livre e Esclarecido (TCLE) para leitura e aceite.
-    * Ferramenta de gravação de áudio e/ou vídeo (como o OBS Studio ou gravação nativa do Meet/Teams).
+    * Celular para gravação de áudio e vídeo da sessão.
     * Formulário para anotações do observador.
 * **Tarefas Avaliadas:**
     * Registrar reclamação.
@@ -131,8 +131,16 @@ O processo de avaliação não termina quando a entrevista acaba. Para que o tra
     * **O planejamento e execução:** (Onde ocorreu, quem participou, perfil dos usuários reais).
     * **Feedback Positivo:** O que os usuários gostaram e validaram na proposta.
     * **Tabela de Problemas e Melhorias:** Uma tabela contendo o problema identificado na interação e na interface dos modelos de tarefas, sua classificação de gravidade, o fator de qualidade prejudicado (usabilidade, experiência do usuário, acessibilidade ou comunicabilidade), a justificativa (baseada na fala do usuário) e a proposta de refinamento do modelo sugerida pela equipe.
+---
+
+## 7. Teste Piloto
+
+Antes de avaliar com o público externo, a equipe deve conduzir um teste piloto com um colega. O objetivo é verificar se o roteiro dura o tempo planejado (estimado entre 15 e 25 minutos), se a câmera/gravação está funcionando corretamente e se as perguntas do roteiro semiestruturado estão claras e compreensíveis para o participante.
+
+Embora as respostas e opiniões coletadas durante o piloto devam ser descartadas (não integrando a análise qualitativa final dos resultados), a **execução do teste piloto deve ser registrada no documento de relato final**. Os avaliadores devem relatar a data, o horário, a duração, o participante piloto e, principalmente, quaisquer problemas ou dificuldades de comunicação identificados que levaram ao refinamento do roteiro e do protocolo antes das sessões oficiais.
 
 ---
+
 ## Agradecimentos à IA
 
 Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao montar o padrão de seções e formatação de texto.
@@ -147,6 +155,7 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :---: | :---: | :---: |
+| 1.2 | 29/05/2026 | Atualização dos objetivos e perguntas com base no livro; alinhamento com modelos CTT/HTA/GOMS | Pedro Moretti | Heitor Macedo |
 | 1.1 | 22/05/2026 | Correção e alinhamento metodológico do teste piloto com o relato | Pedro Macedo | Pedro Moretti |
 | 1.0 | 19/05/2026 | Criação do planejamento da avaliação de tarefas | Pedro Macedo | Pedro Moretti |
 

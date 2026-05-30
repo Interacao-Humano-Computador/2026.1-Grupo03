@@ -106,19 +106,19 @@ A entrevista permite apresentar a narrativa visual ao usuário e investigar prof
 
 Para garantir a viabilidade e o rigor metodológico da avaliação dos storyboards do site do Procon-DF, a equipe deverá gerenciar os seguintes aspectos organizacionais:
 
-**Recrutamento de Participantes:** Os participantes serão recrutados seguindo estritamente o perfil de usuário e as personas definidas nas etapas iniciais do projeto. Serão selecionados de 3 a 5 participantes que representem cidadãos (pessoas físicas ou jurídicas) que utilizam os serviços do Procon-DF.
+**Recrutamento de Participantes:** Cada autor dos storyboards será responsável por recrutar um usuário compatível com o perfil definido nas personas e cenários do projeto. Cada integrante da equipe conduzirá uma avaliação individual com seu respectivo usuário.
 
 **Preparação da Avaliação:** Cada sessão contará com um Entrevistador, responsável por guiar a conversa e apresentar os storyboards, e um Observador/Anotador, encarregado de registrar comportamentos, hesitações e gerenciar a gravação. A avaliação ocorrerá de forma presencial, em ambiente silencioso e sem interrupções.
 
 **Materiais Necessários:** Preparação dos arquivos digitais dos storyboards, Termo de Consentimento Livre e Esclarecido (TCLE), roteiro de perguntas padronizado e formulário de anotações.
 
-**Recursos e Custos:** A avaliação foi planejada para ter custo zero, utilizando plataformas de comunicação online gratuitas (Meet/Teams) e ferramentas de gravação nativas ou gratuitas (OBS Studio). Os storyboards serão compartilhados com os participantes por meio de apresentação de tela ou formato impresso, sem necessidade de interação com software por parte dos participantes.
+**Recursos e Custos:** A avaliação foi planejada para ter custo zero, utilizando celular para gravação de áudio e vídeo da sessão. Os storyboards serão apresentados aos participantes em formato digital, exibidos em computador, celular, tablet ou outro dispositivo.
 
 **Cronograma:** As entrevistas serão agendadas conforme a disponibilidade dos participantes, seguindo o cronograma macro do projeto. Os resultados de cada sessão devem ser documentados imediatamente após a ocorrência.
 
-| Storyboard | Entrevistador(es) | Entrevistados | Horário de Início | Horário de Fim | Data | Local |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Nome do Storyboard] | [Nome] | [ID do Participante] | [Hora] | [Hora] | [Data] | [Plataforma] |
+| Storyboard | Entrevistador(es) | Entrevistados | Horário de Início | Horário de Fim | Data |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| [Nome do Storyboard] | [Nome] | [ID do Participante] | [Hora] | [Hora] | [Data] |
 
 **Roteiro de Perguntas (Abordagem Semiestruturada):** O roteiro será construído sob a ótica de uma entrevista semiestruturada, que busca um equilíbrio entre o rigor do planejamento e a flexibilidade da conversa. O roteiro não será apenas uma lista de perguntas fechadas, mas um guia composto por tópicos e perguntas abertas dispostos em uma ordem lógica. Essa estrutura permite que o avaliador tenha liberdade para explorar em maior profundidade as respostas do participante e até modificar a ordem dos assuntos se a conversa fluir naturalmente para outro ponto, desde que mantenha o foco nos objetivos da avaliação.
 
@@ -192,6 +192,7 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :---: | :---: | :---: |
+| 1.3 | 29/05/2026 | Atualização dos objetivos e perguntas com base no livro; ajustes nos recursos e cronograma | Pedro Moretti | Heitor Macedo |
 | 1.2 | 22/05/2026 | Correção e alinhamento do teste piloto com o planejamento de relato | Eduardo Valadares e Pedro Moretti | Heitor Macedo |
 | 1.1 | 19/05/2026 | Adição da introdução, metodologia DECIDE, tabela de cronograma e detalhamento do roteiro de perguntas e execução | Eduardo Valadares | Heitor Macedo |
 | 1.0 | 19/05/2026 | Criação do planejamento de avaliação do storyboard | Pedro Moretti | Heitor Macedo |
