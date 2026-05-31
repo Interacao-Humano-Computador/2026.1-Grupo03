@@ -45,7 +45,7 @@ O protótipo abaixo é navegável diretamente no navegador. Clique nas telas par
   </div>
   <iframe
     id="prototipo-iframe"
-    src="OCR validacao - Wireframe (standalone).html"
+    src="../OCR%20validacao%20-%20Wireframe%20(standalone).html"
     width="100%"
     height="720"
     style="border:none;display:block;"
@@ -76,8 +76,19 @@ Documento desenvolvido como parte do projeto de IHC.
 
 ---
 
+
+
+## Agradecimentos
+
+Este artefato contou com o apoio de um assistente de inteligência artificial. O auxílio incluiu a organização e formatação do documento segundo as convenções do projeto, apoio na integração do protótipo via iframe e suporte na elaboração do HTML do protótipo — cobrindo a estrutura das telas, a lógica de navegação e o estilo visual de baixa fidelidade.
+
+---
+
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Heloisa Silva | — |
+
+
+---
