@@ -5,11 +5,12 @@ Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Heitor Macedo | Elaborou o Artefato |
+| Heitor Macedo | Elaborou o Artefato (Avaliação — Notificação Ativa) |
+| Pedro Moretti | Elaborou o Artefato (Avaliação — Sala de Conciliação Virtual) |
 
 ## Introdução
 
-Este artefato documenta os resultados obtidos durante a avaliação dos storyboards elaborados para o projeto do PROCON-DF. O objetivo desta avaliação foi verificar o lastro da narrativa visual com a realidade dos usuários, identificar problemas na proposta de interação e coletar percepções sobre a apropriação da tecnologia proposta. A avaliação foi planejada e conduzida conforme descrito no [Planejamento da Avaliação do Storyboard](./planejamento-avaliacao-storyboard.md) e os resultados são relatados segundo a estrutura definida no [Planejamento do Relato dos Resultados do Storyboard](./planejamento-relato-storyboard.md).
+Este artefato documenta os resultados obtidos durante as avaliações dos storyboards elaborados para o projeto do PROCON-DF. O objetivo destas avaliações foi verificar o lastro da narrativa visual com a realidade dos usuários, identificar problemas na proposta de interação e coletar percepções sobre a apropriação da tecnologia proposta. As avaliações foram planejadas e conduzidas conforme descrito no [Planejamento da Avaliação do Storyboard](./planejamento-avaliacao-storyboard.md) e os resultados são relatados segundo a estrutura definida no [Planejamento do Relato dos Resultados do Storyboard](./planejamento-relato-storyboard.md).
 
 ---
 
@@ -33,23 +34,34 @@ Especificamente, buscou-se responder às seguintes perguntas de pesquisa:
 
 ## 2. Método de avaliação empregado
 
+### Avaliação 1 — Notificação Ativa de Reclamação (Heitor Macedo)
+
 O método utilizado foi a **Entrevista Semiestruturada com uso do Storyboard**, conforme definido no [Planejamento da Avaliação do Storyboard](./planejamento-avaliacao-storyboard.md). O avaliador apresentou o storyboard ao participante em formato digital e conduziu a entrevista seguindo a estrutura narrativa planejada: apresentação, aquecimento, exploração do storyboard (parte principal), desaquecimento e encerramento.
 
 A participante leu os quadros do storyboard em tela, verbalizando sua compreensão enquanto avançava pelas cenas. A sessão foi integralmente gravada em vídeo para análise posterior.
+
+### Avaliação 2 — Sala de Conciliação Virtual (Pedro Moretti)
+
+O método utilizado foi a **Entrevista Semiestruturada com uso do Storyboard**, conforme definido no [Planejamento da Avaliação do Storyboard](./planejamento-avaliacao-storyboard.md). O avaliador apresentou o storyboard da Sala de Conciliação Virtual ao participante em formato digital e conduziu a entrevista seguindo a estrutura narrativa planejada.
+
+O participante leu os quadros do storyboard em tela, verbalizando sua compreensão enquanto avançava pelas cenas. A sessão foi integralmente gravada em vídeo para análise posterior.
 
 **Tabela 1 - Cronograma Executado**
 
 | Entrevistador | Entrevistado | Horário de Início | Horário de Fim | Data | Local |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | [Heitor Macedo](../equipe/equipe.md) | <span style="color: orange">P1</span> | 13:00 | 13:10 | 30/05/2026 | Presencial |
+| [Pedro Moretti](../equipe/equipe.md) | <span style="color: orange">P2</span> | 11:30 | 11:50 | 30/05/2026 | Presencial |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Heitor Macedo Ricardo.</i></p>
+<p><i>Fonte: Elaborado por Heitor Macedo Ricardo e Pedro Moretti.</i></p>
 </div>
 
 ---
 
 ## 3. Teste Piloto
+
+### Avaliação 1 — Heitor Macedo
 
 O teste piloto foi conduzido antes da sessão oficial com o participante real. O objetivo foi verificar o funcionamento do equipamento de gravação, a clareza da apresentação do storyboard em tela e a adequação das perguntas do roteiro semiestruturado.
 
@@ -64,26 +76,51 @@ O teste piloto foi conduzido antes da sessão oficial com o participante real. O
 
 <font size="3"><p style="text-align: center">Fonte: Heitor Macedo Ricardo.</p></font>
 
+### Avaliação 2 — Pedro Moretti
+
+O teste piloto foi conduzido antes da sessão oficial com o participante real. O objetivo foi verificar o funcionamento do equipamento de gravação (câmera e áudio), a clareza da apresentação do storyboard da Sala de Conciliação Virtual em tela e a adequação do roteiro semiestruturado e dos artefatos utilizados.
+
+* **Participante piloto:** Não houve um usuário alvo — o teste foi realizado apenas com o próprio moderador
+* **Funcionamento da gravação:** Câmera e áudio verificados e em funcionamento
+* **Resultados:** Os artefatos (storyboard, roteiro e documentos de apoio) foram considerados claros e adequados. Nenhum ajuste significativo foi necessário no protocolo antes da sessão oficial.
+* **Os dados coletados no teste piloto foram descartados e não integram os resultados desta avaliação.**
+
+<p style="text-align: center"><a href="# " target="blanket">[Link para gravação do Teste Piloto a ser inserido]</a></p>
+
+<font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
+
 ---
 
 ## 4. Número e perfil de avaliadores e dos participantes
 
-A avaliação contou com **um (1) participante real** recrutado, identificado de forma anônima como P1. O perfil da participante está alinhado com a persona **Laura** (Consumidora Reclamante) definida no projeto — jovem universitária que utiliza serviços digitais e pode precisar resolver pendências com fornecedores.
+A avaliação contou com **dois (2) participantes reais** recrutados, identificados de forma anônima como P1 e P2.
+
+### Participante P1 (Avaliação de Heitor Macedo)
+
+O perfil da participante está alinhado com a persona **Laura** (Consumidora Reclamante) definida no projeto — jovem universitária que utiliza serviços digitais e pode precisar resolver pendências com fornecedores.
+
+### Participante P2 (Avaliação de Pedro Moretti)
+
+O perfil do participante está alinhado com a persona **Gustavo** (Fornecedor/Comerciante) definida no projeto — empresário que precisa resolver conflitos com consumidores sem comprometer o funcionamento do seu negócio, buscando soluções que otimizem seu tempo e evitem deslocamentos ou perda de arrecadação.
 
 **Quadro 1 - Perfil dos participantes e avaliadores**
 
 | ID | Papel na Avaliação | Persona Correspondente / Alinhamento | Idade | Ocupação |
 | :---: | :---: | :---: | :---: | :---: |
 | P1 | Usuário Avaliador | Laura (Consumidora Reclamante) | 18 anos | Universitária |
+| P2 | Usuário Avaliador | Gustavo (Fornecedor/Comerciante) | 40 anos | Empresário |
 | A1 | Mediador | Heitor Macedo (Grupo 03) | 20 anos | Entrevistador |
+| A2 | Mediador | Pedro Moretti (Grupo 03) | 20 anos | Entrevistador |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Heitor Macedo Ricardo.</i></p>
+<p><i>Fonte: Elaborado por Heitor Macedo Ricardo e Pedro Moretti.</i></p>
 </div>
 
 ---
 
 ## 5. Storyboards e cenários apresentados
+
+### Avaliação 1 — Heitor Macedo (Notificação Ativa de Reclamação)
 
 O storyboard avaliado na sessão foi o **Storyboard de Notificação Ativa de Reclamação**, de autoria de [Heitor Macedo](../equipe/equipe.md), disponível na página [Storyboard](./storyboard.md).
 
@@ -95,9 +132,23 @@ A narrativa retrata a usuária **Laura**, que possui uma reclamação aberta jun
 4. Enviar documentação de forma simplificada;
 5. Acompanhar continuamente o processo até a resolução do caso.
 
+### Avaliação 2 — Pedro Moretti (Sala de Conciliação Virtual)
+
+O storyboard avaliado na sessão foi o **Storyboard da Sala de Conciliação Virtual**, de autoria de [Pedro Moretti](../equipe/equipe.md), disponível na página [Storyboard](./storyboard.md).
+
+A narrativa retrata o empresário **Gustavo**, que possui uma oficina mecânica e está envolvido em um conflito de consumo com um cliente. Gustavo está preocupado com a possibilidade de ter que fechar a oficina para participar de uma conciliação presencial, o que geraria perda de arrecadação. Com a solução proposta, Gustavo passa a:
+
+1. Receber notificação para participar de uma conciliação virtual;
+2. Clicar no link e testar os periféricos (câmera e microfone);
+3. Acessar a sala de conciliação virtual e interagir com o mediador e o consumidor;
+4. Visualizar documentos e evidências compartilhadas na sala;
+5. Negociar e assinar o acordo digitalmente, sem sair da oficina.
+
 ---
 
 ## 6. Sumário dos dados coletados
+
+### Avaliação 1 — Heitor Macedo
 
 **Tabela 2 - Respostas da Participante P1 ao Storyboard de Notificação Ativa**
 
@@ -121,9 +172,35 @@ Abaixo, o vídeo da sessão de avaliação com a participante P1:
 
 <font size="3"><p style="text-align: center">Fonte: Heitor Macedo Ricardo.</p></font>
 
+### Avaliação 2 — Pedro Moretti
+
+**Tabela 3 - Respostas do Participante P2 ao Storyboard da Sala de Conciliação Virtual**
+
+| Perguntas | Respostas |
+| :--- | :---: |
+| 1 – A narrativa apresentada pelo Storyboard está condizente com o título? | Sim |
+| 2 – O Storyboard em questão possui lastro na realidade? | Sim |
+| 3 – O Storyboard apresenta os principais aspectos da realização daquela tarefa? | Sim |
+| 4 – As ações realizadas no Storyboard seguem uma ordem sequencial, fluida e lógica? | Sim |
+| 5 – O storyboard possui uma composição visual com personagem, objetos e cenários identificáveis? | Sim |
+
+<div align="center">
+<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+</div>
+
+Abaixo, o vídeo da sessão de avaliação com o participante P2:
+
+<p style="text-align: center"><a href="# " target="blanket">[Link para gravação a ser inserido]</a></p>
+
+<p style="text-align: center"><iframe width="560" height="315" src="# " title="Relato Storyboard - P2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+
+<font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
+
 ---
 
 ## 7. Relato da interpretação e análise dos dados
+
+### 7.1 Avaliação 1 — Heitor Macedo (Notificação Ativa de Reclamação)
 
 A participante P1 demonstrou **plena compreensão da narrativa do storyboard**, descrevendo com precisão e riqueza de detalhes os quadros e o encadeamento lógico da história. Espontaneamente, ao percorrer as cenas, ela verbalizou em voz alta:
 
@@ -143,13 +220,67 @@ Sobre **utilização da solução proposta**, P1 afirmou que gostaria de usar o 
 
 Quando perguntada sobre o que mudaria no storyboard, P1 respondeu: *"Nada, acho que nada."*
 
+### 7.2 Avaliação 2 — Pedro Moretti (Sala de Conciliação Virtual)
+
+#### Compreensão Narrativa
+
+O participante P2 demonstrou **plena compreensão da narrativa do storyboard**, descrevendo corretamente o personagem, o conflito e a resolução proposta:
+
+> *"Gustavo tinha alguma questão com o consumidor e estava preocupado de ter que fechar a oficina para conciliação presencial."*
+
+#### Verossimilhança
+
+Sobre o **lastro com a realidade**, P2 classificou a história como **bem realista**, destacando o contexto atual de otimização do tempo:
+
+> *"Parece bem realista nos tempos atuais, onde queremos otimizar o dia a dia, economizar tempo."*
+
+#### Identificação com o Personagem
+
+P2 se **identificou com o personagem Gustavo**, reconhecendo a necessidade de soluções ágeis para resolver pendências sem perder tempo:
+
+> *"Sim, acho que as coisas estão muito ágeis, então precisamos dessas soluções que agilizem a resolução das questões."*
+
+#### Fluxo Narrativo e Comunicabilidade
+
+Quanto à **sequência lógica dos quadros**, P2 confirmou que o fluxo estava correto e que nenhuma cena quebrava a narrativa:
+
+> *"Não, está seguindo corretamente."*
+
+Sobre a **comunicabilidade** das ações representadas (clicar no link, testar câmera, falar com o mediador), P2 afirmou que o storyboard é claro e que as ações estão bem explicadas:
+
+> *"Não, está bem simples e explicando, fluindo bem."*
+
+#### Satisfação e Apropriação
+
+Sobre a **utilização da solução proposta**, P2 afirmou que gostaria de usar a Sala de Conciliação Virtual, destacando a economia de tempo e a redução de gastos como principais benefícios:
+
+> *"Gostaria de usar a solução, principalmente pela economia de tempo e por conseguir agilizar e resolver o problema sem despender de gastos ou perda de arrecadação, acha que é a melhor solução."*
+
+Quando perguntado sobre o que mudaria no storyboard, P2 respondeu: *"A história está bem desenvolvida, não mudaria nada."*
+
+#### Perguntas Finais de Integração
+
+Sobre a **coerência entre os diagramas de tarefas e o storyboard**, P2 afirmou que estava tudo coerente:
+
+> *"Tudo coerente."*
+
+Em uma escala de 1 a 5, P2 atribuiu **nota máxima (5)** para a ideia da Sala de Conciliação Virtual, justificando que a solução resolve, além do problema de conciliação, outros problemas gerados pela conciliação presencial:
+
+> *"Nota máxima para resolver, além do problema de conciliação, outros problemas gerados pela conciliação presencial."*
+
+Como sugestão final, P2 declarou não ter mudanças a propor, considerando a proposta bem desenvolvida e interessante:
+
+> *"Acredita que não, bem desenvolvida, com uma ideia bem interessante para resolver esses problemas e é uma boa proposta."*
+
 ---
 
 ## 8. Lista dos problemas encontrados
 
+### 8.1 Avaliação 1 — Heitor Macedo
+
 Não foram identificados problemas de interação, comunicabilidade, fluxo lógico ou composição visual no storyboard avaliado pela participante P1. A narrativa foi validada integralmente.
 
-**Quadro 2 - Problemas identificados na narrativa do Storyboard**
+**Quadro 2 - Problemas identificados na narrativa do Storyboard (Avaliação 1)**
 
 | ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Sugestão de Correção |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -160,23 +291,46 @@ Não foram identificados problemas de interação, comunicabilidade, fluxo lógi
 <p><i>Fonte: Elaborado por Heitor Macedo Ricardo.</i></p>
 </div>
 
+### 8.2 Avaliação 2 — Pedro Moretti
+
+Não foram identificados problemas de interação, comunicabilidade, fluxo lógico ou composição visual no storyboard avaliado pelo participante P2. A narrativa foi validada integralmente.
+
+**Quadro 3 - Problemas identificados na narrativa do Storyboard (Avaliação 2)**
+
+| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Sugestão de Correção |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | Nenhum problema identificado | — | — | — |
+
+<div align="center">
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico.</i></p>
+<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+</div>
+
 ---
 
 ## 9. Aspectos Éticos e Termo de Consentimento (TCLE)
 
+### Avaliação 1 — Heitor Macedo
+
 O Termo de Consentimento Livre e Esclarecido (TCLE) foi **lido integralmente pelo avaliador** no início da sessão, antes de qualquer coleta de dado. O avaliador esclareceu que a avaliação é do sistema e não da participante, que os dados coletados destinam-se exclusivamente à pesquisa acadêmica e que o anonimato seria preservado. A participante P1 manifestou seu consentimento verbalmente, registrado nos primeiros minutos da gravação da sessão.
 
-Os dados da participante são identificados exclusivamente pelo código **P1**, garantindo seu anonimato em todos os documentos produzidos. As gravações de áudio e vídeo estão armazenadas de forma segura e não serão compartilhadas fora do contexto da disciplina de Interação Humano-Computador da UnB.
+### Avaliação 2 — Pedro Moretti
+
+O Termo de Consentimento Livre e Esclarecido (TCLE) foi apresentado pelo avaliador no início da sessão. O avaliador esclareceu que a avaliação é do sistema — não do participante — e que os dados seriam usados exclusivamente para fins acadêmicos. O participante P2 confirmou verbalmente seu consentimento, conforme registrado no início da gravação da sessão.
+
+Os dados dos participantes são identificados exclusivamente pelos códigos **P1** e **P2**, garantindo seu anonimato em todos os documentos produzidos. As gravações de áudio e vídeo estão armazenadas de forma segura e não serão compartilhadas fora do contexto da disciplina de Interação Humano-Computador da UnB.
 
 ---
 
 ## 10. Planejamento para o reprojeto do sistema
 
+### 10.1 Avaliação 1 — Heitor Macedo
+
 Como **não foram identificados problemas** no storyboard avaliado, não há necessidade de reprojeto da narrativa visual com base nos dados coletados na sessão com P1. O storyboard validou com sucesso a pertinência, a clareza e o lastro com a realidade da proposta de **Notificação Ativa** para o sistema do PROCON-DF.
 
 Os resultados desta avaliação reforçam a direção de design adotada e orientam a construção do protótipo de papel na próxima etapa.
 
-**Tabela 3 - Cronograma de Reprojeto**
+**Tabela 4 - Cronograma de Reprojeto (Avaliação 1)**
 
 | Executores do Reprojeto | Horário de Início | Horário de Fim | Data |
 | :---: | :---: | :---: | :---: |
@@ -185,6 +339,23 @@ Os resultados desta avaliação reforçam a direção de design adotada e orient
 <div align="center">
 <p><i>Sem necessidade de reprojeto identificada nesta avaliação.</i></p>
 <p><i>Fonte: Elaborado por Heitor Macedo Ricardo.</i></p>
+</div>
+
+### 10.2 Avaliação 2 — Pedro Moretti
+
+Como **não foram identificados problemas** no storyboard avaliado, não há necessidade de reprojeto da narrativa visual com base nos dados coletados na sessão com P2. O storyboard validou com sucesso a pertinência, a clareza e o lastro com a realidade da proposta de **Sala de Conciliação Virtual** para o sistema do PROCON-DF.
+
+Os resultados desta avaliação reforçam a direção de design adotada e orientam a construção do protótipo de papel na próxima etapa.
+
+**Tabela 5 - Cronograma de Reprojeto (Avaliação 2)**
+
+| Executores do Reprojeto | Horário de Início | Horário de Fim | Data |
+| :---: | :---: | :---: | :---: |
+| — | — | — | — |
+
+<div align="center">
+<p><i>Sem necessidade de reprojeto identificada nesta avaliação.</i></p>
+<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
 </div>
 
 ---
@@ -197,4 +368,5 @@ Os resultados desta avaliação reforçam a direção de design adotada e orient
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
+| 1.1 | 31/05/2026 | Adição dos resultados da Avaliação do Storyboard da Sala de Conciliação Virtual com dados da entrevista com P2. | Pedro Moretti | Heitor Macedo |
 | 1.0 | 31/05/2026 | Criação do Relato dos Resultados da Avaliação do Storyboard com dados da entrevista com P1. | Heitor Macedo Ricardo | Pedro Moretti |
