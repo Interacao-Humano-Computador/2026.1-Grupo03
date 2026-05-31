@@ -124,10 +124,10 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
     | **Planejamento de Avaliação do Protótipo de Papel** | — | 1 | — | — | — | — |
     | **Planejamento do Relato do Protótipo de Papel** | — | 1 | — | — | — | — |
-    | **Protótipo de Papel** | — | — | — | — | — | — |
+    | **Protótipo de Papel** | — | — | — | — | — | 1 |
     | **Relato dos Resultados do Storyboard** | — | 1 | — | — | — | — |
     | **Relato dos Resultados da Análise de Tarefas** | — | 1 | — | — | — | — |
-    | **Total de documentos criados** | 0 | 4 | 0 | 0 | 0 | 0 |
+    | **Total de documentos criados** | 0 | 4 | 0 | 0 | 0 | 1 |
     | **Total de documentos revisados** | 0 | 0 | 0 | 4 | 0 | 0 |
 
 ---
