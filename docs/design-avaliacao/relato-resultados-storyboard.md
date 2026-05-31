@@ -7,6 +7,7 @@ Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
 |---|---|
 | Heitor Macedo | Elaborou o Artefato (Avaliação — Notificação Ativa) |
 | Pedro Moretti | Elaborou o Artefato (Avaliação — Sala de Conciliação Virtual) |
+| Heloisa Silva | Elaborou o Artefato (Avaliação — Validação de documento por OCR) |
 
 ## Introdução
 
@@ -52,9 +53,10 @@ O participante leu os quadros do storyboard em tela, verbalizando sua compreens�
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | [Heitor Macedo](../equipe/equipe.md) | <span style="color: orange">P1</span> | 13:00 | 13:10 | 30/05/2026 | Presencial |
 | [Pedro Moretti](../equipe/equipe.md) | <span style="color: orange">P2</span> | 11:30 | 11:50 | 30/05/2026 | Presencial |
+| [Pedro Moretti](../equipe/equipe.md) | <span style="color: orange">P3</span> | 15:30 | 16:00 | 30/05/2026 | Presencial |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Heitor Macedo Ricardo e Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Heitor Macedo Ricardo, Pedro Moretti e Heloisa Silva.</i></p>
 </div>
 
 ---
@@ -89,6 +91,19 @@ O teste piloto foi conduzido antes da sessão oficial com o participante real. O
 
 <font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
 
+### Avaliação 3 — Heloisa Silva
+
+Antes da realização da sessão oficial, foi executado um teste piloto com o objetivo de validar os procedimentos da avaliação. Foram verificados o funcionamento dos equipamentos de gravação (vídeo e áudio), a visualização do storyboard da Sala de Conciliação Virtual e a adequação do roteiro de entrevista utilizado durante a sessão.
+
+* **Participante piloto:** Não foi utilizado um participante representativo do público-alvo; o teste foi conduzido pela própria avaliadora.
+* **Funcionamento da gravação:** Os recursos de captura de vídeo e áudio foram testados e operaram corretamente.
+* **Resultados:** O storyboard, o roteiro semiestruturado e os materiais de apoio apresentaram boa compreensão e não demandaram alterações relevantes para a condução da avaliação oficial.
+* **Os registros e observações obtidos durante o teste piloto foram desconsiderados para a análise final e não compõem os resultados desta avaliação.**
+
+<p style="text-align: center"><a href="# " target="blanket">[Link para gravação do Teste Piloto a ser inserido]</a></p>
+
+<font size="3"><p style="text-align: center">Fonte: Heloisa Silva.</p></font>
+
 ---
 
 ## 4. Número e perfil de avaliadores e dos participantes
@@ -103,12 +118,17 @@ O perfil da participante está alinhado com a persona **Laura** (Consumidora Rec
 
 O perfil do participante está alinhado com a persona **Gustavo** (Fornecedor/Comerciante) definida no projeto — empresário que precisa resolver conflitos com consumidores sem comprometer o funcionamento do seu negócio, buscando soluções que otimizem seu tempo e evitem deslocamentos ou perda de arrecadação.
 
+### Participante P3 (Avaliação de Heloisa Silva)
+
+O perfil da participante está alinhado com a persona **Maria** (Consumidora Aposentada) definida no projeto — usuária que busca resolver problemas de consumo sem a necessidade de deslocamentos frequentes, valorizando processos simples, orientações claras e comunicação objetiva.  Sua principal expectativa é conseguir acompanhar o andamento de reclamações, compreender facilmente as orientações do PROCON-DF e realizar a maior parte do processo de forma prática pelo celular.
+
 **Quadro 1 - Perfil dos participantes e avaliadores**
 
 | ID | Papel na Avaliação | Persona Correspondente / Alinhamento | Idade | Ocupação |
 | :---: | :---: | :---: | :---: | :---: |
 | P1 | Usuário Avaliador | Laura (Consumidora Reclamante) | 18 anos | Universitária |
 | P2 | Usuário Avaliador | Gustavo (Fornecedor/Comerciante) | 40 anos | Empresário |
+| P3 | Usuário Avaliador | Maria (Consumidora Reclamante) | 67 anos | Aposentada |
 | A1 | Mediador | Heitor Macedo (Grupo 03) | 20 anos | Entrevistador |
 | A2 | Mediador | Pedro Moretti (Grupo 03) | 20 anos | Entrevistador |
 
@@ -143,6 +163,18 @@ A narrativa retrata o empresário **Gustavo**, que possui uma oficina mecânica 
 3. Acessar a sala de conciliação virtual e interagir com o mediador e o consumidor;
 4. Visualizar documentos e evidências compartilhadas na sala;
 5. Negociar e assinar o acordo digitalmente, sem sair da oficina.
+
+### Avaliação 3 — Heloisa Silva (Validação de Documentos por OCR)
+
+O storyboard avaliado na sessão foi o **Storyboard de Validação de Documentos por OCR**, de autoria de [Heloisa Silva](../equipe/equipe.md), disponível na página [Storyboard](./storyboard.md).
+
+A narrativa retrata a consumidora **Maria**, aposentada, que precisa complementar uma reclamação junto ao PROCON-DF enviando documentos comprobatórios. Maria utiliza o celular para acessar serviços digitais, mas tem dificuldades com formulários extensos e processos burocráticos. Com a solução proposta, Maria passa a:
+
+1. Receber uma solicitação para envio de documentos relacionados à sua reclamação;
+2. Fotografar ou anexar documentos, como faturas e comprovantes de pagamento, diretamente pelo celular;
+3. Utilizar a funcionalidade de OCR para extrair automaticamente as informações contidas nos documentos;
+4. Visualizar os dados identificados pelo sistema e confirmar sua correção;
+5. Enviar os documentos validados e acompanhar o andamento da reclamação sem a necessidade de preenchimento manual de informações.
 
 ---
 
@@ -195,6 +227,30 @@ Abaixo, o vídeo da sessão de avaliação com o participante P2:
 <p style="text-align: center"><iframe width="560" height="315" src="# " title="Relato Storyboard - P2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 
 <font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
+
+### Avaliação 3 — Heloisa Silva
+
+**Tabela 3 - Respostas da Participante P3 ao Storyboard de Validação de Documentos por OCR**
+
+| Perguntas | Respostas |
+| :--- | :---: |
+| 1 – A narrativa apresentada pelo Storyboard está condizente com o título? | Sim |
+| 2 – O Storyboard em questão possui lastro na realidade? | Sim |
+| 3 – O Storyboard apresenta os principais aspectos da realização daquela tarefa? | Sim |
+| 4 – As ações realizadas no Storyboard seguem uma ordem sequencial, fluida e lógica? | Sim |
+| 5 – O storyboard possui uma composição visual com personagem, objetos e cenários identificáveis? | Sim |
+
+<div align="center">
+<p><i>Fonte: Elaborado por Heloisa Silva.</i></p>
+</div>
+
+Abaixo, o vídeo da sessão de avaliação com a participante P3:
+
+<p style="text-align: center"><a href="# " target="blanket">[Link para gravação a ser inserido]</a></p>
+
+<p style="text-align: center"><iframe width="560" height="315" src="# " title="Relato Storyboard - P3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+
+<font size="3"><p style="text-align: center">Fonte: Heloisa Silva.</p></font>
 
 ---
 
@@ -272,6 +328,64 @@ Como sugestão final, P2 declarou não ter mudanças a propor, considerando a pr
 
 > *"Acredita que não, bem desenvolvida, com uma ideia bem interessante para resolver esses problemas e é uma boa proposta."*
 
+### 7.2 Avaliação 3 — Heloisa Silva (Validação de Documentos por OCR)
+
+#### Entendimento da Proposta
+
+Durante a avaliação, a participante P3 demonstrou compreender adequadamente a história apresentada no storyboard. Ela identificou o problema enfrentado pela personagem e reconheceu o papel da tecnologia de OCR na simplificação do processo de envio de documentos.
+
+> *"A personagem precisava encaminhar documentos para continuar a reclamação e o sistema ajudava a preencher as informações sem precisar digitar tudo."*
+
+#### Relação com Situações Reais
+
+Ao analisar a narrativa, P3 considerou que o cenário apresentado é compatível com situações frequentemente enfrentadas por consumidores em serviços públicos digitais.
+
+> *"Isso acontece bastante quando pedem comprovantes ou contas para resolver alguma solicitação."*
+
+A participante destacou que a necessidade de anexar documentos e conferir dados é uma etapa comum em diversos processos online.
+
+#### Proximidade com a Personagem
+
+P3 afirmou que conseguiu se enxergar na situação apresentada pela personagem Maria, principalmente por utilizar o celular para resolver demandas do dia a dia e por preferir processos simples e diretos.
+
+> *"Eu me identifico porque normalmente faço essas coisas pelo celular e gosto quando o sistema facilita o preenchimento."*
+
+#### Clareza das Etapas
+
+Em relação à organização da narrativa, a participante avaliou que as etapas estavam apresentadas de forma lógica e fácil de acompanhar.
+
+> *"Consegui entender cada passo sem dificuldade, desde o envio do documento até a confirmação dos dados."*
+
+A funcionalidade de OCR também foi compreendida sem necessidade de explicações adicionais.
+
+> *"Ficou claro que o sistema lê as informações da foto e mostra os dados para a pessoa verificar antes de enviar."*
+
+#### Percepção de Utilidade
+
+Quando questionada sobre a adoção da solução, P3 afirmou que utilizaria a funcionalidade por considerar que ela reduz esforço e torna o processo mais rápido.
+
+> *"Eu usaria porque evita preencher vários campos manualmente e deixa tudo mais prático."*
+
+Além disso, destacou que a conferência automática das informações pode diminuir erros durante o envio dos documentos.
+
+Ao ser perguntada sobre possíveis melhorias na narrativa, a participante informou que o storyboard cumpriu seu objetivo de comunicação e não identificou pontos que precisassem de alterações relevantes.
+
+> *"Achei bem explicado e fácil de acompanhar."*
+
+#### Avaliação Geral
+
+Sobre a integração entre os artefatos produzidos no projeto e o storyboard avaliado, P3 considerou que havia consistência entre a tarefa representada e a solução proposta.
+
+> *"Tudo faz sentido com o que a funcionalidade pretende resolver."*
+
+Ao atribuir uma nota para a proposta, a participante avaliou a funcionalidade com **5 em uma escala de 1 a 5**, justificando que a automação do preenchimento de dados pode facilitar significativamente a vida dos usuários.
+
+> *"Daria nota 5 porque ajuda bastante quem não tem muita experiência com tecnologia e precisa resolver as coisas pelo celular."*
+
+Como comentário final, P3 reforçou que a proposta possui potencial para tornar o processo de envio de documentos mais acessível e menos burocrático.
+
+> *"É uma solução simples, mas que pode ajudar muitas pessoas a concluir o processo sem dificuldades."*
+
 ---
 
 ## 8. Lista dos problemas encontrados
@@ -306,6 +420,23 @@ Não foram identificados problemas de interação, comunicabilidade, fluxo lógi
 <p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
 </div>
 
+### 8.2 Avaliação 3 — Heloisa Silva
+
+A análise da sessão realizada com a participante P3 não revelou dificuldades relevantes relacionadas à compreensão da narrativa, à sequência das ações ou à representação visual dos elementos presentes no storyboard. A participante conseguiu interpretar corretamente o funcionamento da validação de documentos por OCR e compreender o papel da funcionalidade dentro do contexto da reclamação.
+
+Além disso, não foram observados indícios de confusão quanto às etapas apresentadas, nem comentários que sugerissem necessidade de alterações na estrutura narrativa ou na comunicação da solução proposta.
+
+**Quadro 3 - Problemas identificados na narrativa do Storyboard (Avaliação 2)**
+
+| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Sugestão de Correção |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | Não foram identificados problemas durante a avaliação | — | — | — |
+
+<div align="center">
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico.</i></p>
+<p><i>Fonte: Elaborado por Heloisa Silva.</i></p>
+</div>
+
 ---
 
 ## 9. Aspectos Éticos e Termo de Consentimento (TCLE)
@@ -319,6 +450,14 @@ O Termo de Consentimento Livre e Esclarecido (TCLE) foi **lido integralmente pel
 O Termo de Consentimento Livre e Esclarecido (TCLE) foi apresentado pelo avaliador no início da sessão. O avaliador esclareceu que a avaliação é do sistema — não do participante — e que os dados seriam usados exclusivamente para fins acadêmicos. O participante P2 confirmou verbalmente seu consentimento, conforme registrado no início da gravação da sessão.
 
 Os dados dos participantes são identificados exclusivamente pelos códigos **P1** e **P2**, garantindo seu anonimato em todos os documentos produzidos. As gravações de áudio e vídeo estão armazenadas de forma segura e não serão compartilhadas fora do contexto da disciplina de Interação Humano-Computador da UnB.
+
+### Avaliação 3 — Heloisa Silva
+
+Antes do início da avaliação, foi apresentado à participante o Termo de Consentimento Livre e Esclarecido (TCLE), contendo informações sobre os objetivos da pesquisa, a forma de condução da sessão e a utilização dos dados coletados. Também foi esclarecido que o foco da avaliação estava na solução proposta e em seus artefatos, e não no desempenho individual da participante.
+
+Após os esclarecimentos, a participante P3 manifestou seu consentimento para participação na atividade e para a gravação da sessão, conforme registrado no material audiovisual da avaliação.
+
+Para preservar a privacidade da participante, sua identificação foi substituída pelo código **P3** em todos os documentos e relatórios produzidos. As gravações e demais registros coletados durante a avaliação serão utilizados exclusivamente para fins acadêmicos no contexto da disciplina de Interação Humano-Computador da Universidade de Brasília (UnB), permanecendo armazenados de forma segura e sem divulgação pública dos dados pessoais da participante.
 
 ---
 
@@ -358,6 +497,25 @@ Os resultados desta avaliação reforçam a direção de design adotada e orient
 <p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
 </div>
 
+### 10.3 Avaliação 2 — Heloisa Silva
+
+A sessão de avaliação conduzida com a participante P3 não evidenciou problemas que justificassem alterações na narrativa ou na estrutura do storyboard. A proposta de **Validação de Documentos por OCR** foi compreendida pela participante, que conseguiu identificar corretamente os objetivos da funcionalidade, as etapas envolvidas e os benefícios oferecidos pela automação do processo.
+
+Os resultados obtidos indicam que o storyboard comunica adequadamente a solução proposta, especialmente no que se refere à simplificação do envio de documentos e à redução do esforço necessário para o preenchimento manual de informações. Além disso, a participante considerou a funcionalidade compatível com situações reais enfrentadas por usuários do PROCON-DF.
+
+Dessa forma, não foram identificadas oportunidades de melhoria que demandassem a realização de um reprojeto nesta etapa. A avaliação contribui para validar as decisões de design adotadas e fornece evidências para a continuidade do desenvolvimento dos protótipos da solução.
+
+**Tabela 5 - Cronograma de Reprojeto (Avaliação 2)**
+
+| Executores do Reprojeto | Horário de Início | Horário de Fim | Data |
+| :---: | :---: | :---: | :---: |
+| — | — | — | — |
+
+<div align="center">
+<p><i>Nenhuma atividade de reprojeto foi considerada necessária após a avaliação realizada com a participante P3.</i></p>
+<p><i>Fonte: Elaborado por Heloisa Silva.</i></p>
+</div>
+
 ---
 
 ## Referência:
@@ -368,5 +526,6 @@ Os resultados desta avaliação reforçam a direção de design adotada e orient
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
+| 1.2 | 31/05/2026 | Adição dos resultados da Avaliação do Storyboard de Validação de Documentos por OCR com dados da entrevista com P3. | Heloisa Silva | Pedro Moretti |
 | 1.1 | 31/05/2026 | Adição dos resultados da Avaliação do Storyboard da Sala de Conciliação Virtual com dados da entrevista com P2. | Pedro Moretti | Heitor Macedo |
 | 1.0 | 31/05/2026 | Criação do Relato dos Resultados da Avaliação do Storyboard com dados da entrevista com P1. | Heitor Macedo Ricardo | Pedro Moretti |
