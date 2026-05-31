@@ -22,18 +22,36 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 
 * **Reprojeto (Planejamento de):** A elaboração de propostas de correções ou melhorias na interface e na interação, construídas após a identificação, consolidação e priorização dos problemas de usabilidade encontrados durante a avaliação com os usuários [(Barbosa et al., 2021, p. 263)](images/verificacao5/relatocostumater.png).
 
+* **Framework DECIDE:** Modelo estruturado em 6 etapas para orientar o planejamento e a realização de avaliações de IHC (*Determine* objetivos, *Explore* perguntas, *Choose* métodos, *Identify* questões práticas, *Decide* questões éticas e *Evaluate* dados) [(Barbosa et al., 2021, p. 264)](images/verificacao4/frameworkdecide.png).
+
+* **Teste Piloto:** Uma simulação prévia do teste real de usabilidade, feita com poucos participantes, para verificar se o roteiro e os equipamentos funcionam bem e corrigir problemas antes de iniciar as sessões oficiais [(Barbosa et al., 2021, p. 260)](images/verificacao4/testepiloto.png).
+
+---
+
+## Planejamento da Avaliação do Protótipo de Papel
+
+| ID | Critério de Avaliação | Fonte | Autor |
+|:--:|:---|:---:|:---:|
+| **E5-01** | O planejamento da avaliação do protótipo de papel segue rigorosamente todas as etapas do Framework DECIDE (Determinar objetivos, Explorar perguntas, Escolher métodos, Identificar questões práticas, Decidir questões éticas e Avaliar dados)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/frameworkdecide.png) | Pedro Moretti |
+| **E5-02** | O documento descreve de forma clara os objetivos da avaliação do protótipo (ex: explorar alternativas de design, encontrar problemas de interação) e os métodos escolhidos para realizá-la (ex: observação, simulação de uso)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/d.png) | Pedro Moretti |
+| **E5-03** | O planejamento identifica claramente as questões práticas da avaliação do protótipo, apresentando recrutamento (quem e quantos), orçamento e equipamentos necessários? | BARBOSA et al. (2021). [Imagem](images/verificacao4/i.png) | Pedro Moretti |
+| **E5-04** | O planejamento prevê a realização de um teste piloto, e o documento deixa explícito que seus resultados não serão apresentados no resultado final da avaliação? | BARBOSA et al. (2021). [Imagem](images/verificacao4/testepiloto.png) | Pedro Moretti |
+| **E5-05** | O planejamento aborda como as questões éticas serão tratadas, garantindo que os usuários não sejam prejudicados direta ou indiretamente (ex: mediante o uso do Termo de Consentimento Livre e Esclarecido)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/d.png) | Pedro Moretti |
+| **E5-06** | O planejamento estabelece como os dados coletados serão analisados e categorizados, prevendo a classificação dos problemas de usabilidade por gravidade e fator de qualidade prejudicado (usabilidade, experiência do usuário, acessibilidade ou comunicabilidade)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/metas.png) | Pedro Moretti |
+| **E5-07** | O planejamento define as tarefas ou cenários que os participantes deverão executar durante a avaliação do protótipo de papel e especifica como os dados serão registrados (ex: gravação de áudio/vídeo, anotações, screenshots)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/i.png) | Pedro Moretti |
+
 ---
 
 ## Relato dos Resultados da Avaliação do Protótipo de Papel
 
 | ID | Critério de Avaliação | Fonte | Autor |
 |:--:|:---|:---:|:---:|
-| **E5-01** | O relato dos resultados descreve de forma clara os objetivos e o escopo da avaliação, justificando a sua importância e o motivo de sua realização? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
-| **E5-02** | O relato apresenta o método utilizado e detalha a forma como a avaliação foi conduzida pelos avaliadores? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
-| **E5-03** | O documento expõe claramente o número e o perfil dos participantes (usuários reais entrevistados) e dos avaliadores (membros do grupo) que participaram das sessões? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
-| **E5-04** | O relato apresenta um sumário consolidado dos dados coletados (objetivos e subjetivos) e inclui uma análise e interpretação dessas informações, diferenciando tendências do grupo de dificuldades individuais? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
-| **E5-05** | O relato lista detalhadamente os problemas encontrados na interação (como dificuldades ou erros na narrativa do storyboard ou no fluxo da tarefa) e propõe um planejamento para o reprojeto do sistema? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
-| **E5-06** | Para documentar o planejamento do reprojeto, a lista de problemas de usabilidade não resolvidos indica fatores cruciais como: local onde o erro ocorreu, a justificativa do problema, a prioridade para correção e sugestões de melhoria? | BARBOSA et al. (2021). [Imagem](images/verificacao5/listausabilidade.png) | Heitor Macedo |
+| **E5-08** | O relato dos resultados descreve de forma clara os objetivos e o escopo da avaliação, justificando a sua importância e o motivo de sua realização? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
+| **E5-09** | O relato apresenta o método utilizado e detalha a forma como a avaliação foi conduzida pelos avaliadores? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
+| **E5-10** | O documento expõe claramente o número e o perfil dos participantes (usuários reais entrevistados) e dos avaliadores (membros do grupo) que participaram das sessões? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
+| **E5-11** | O relato apresenta um sumário consolidado dos dados coletados (objetivos e subjetivos) e inclui uma análise e interpretação dessas informações, diferenciando tendências do grupo de dificuldades individuais? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
+| **E5-12** | O relato lista detalhadamente os problemas encontrados na interação (como dificuldades ou erros na narrativa do storyboard ou no fluxo da tarefa) e propõe um planejamento para o reprojeto do sistema? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
+| **E5-13** | Para documentar o planejamento do reprojeto, a lista de problemas de usabilidade não resolvidos indica fatores cruciais como: local onde o erro ocorreu, a justificativa do problema, a prioridade para correção e sugestões de melhoria? | BARBOSA et al. (2021). [Imagem](images/verificacao5/listausabilidade.png) | Heitor Macedo |
 
 ---
 
