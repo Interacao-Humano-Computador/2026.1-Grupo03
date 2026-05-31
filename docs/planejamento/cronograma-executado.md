@@ -39,10 +39,10 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | Atividade Extraída do Plano de Ensino | Integrante Responsável<br><small>(nome · data de conclusão)</small> | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
     | :--- | :---: | :---: | :--- | :---: |
     | **Características da Plataforma** |  | [Mateus Rodrigues](../equipe/equipe.md) | [📄 Características da Plataforma](../analise-requisitos/caracteristicas-plataforma.md) | ✅ Concluído |
-    | **Princípios Gerais** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/05/2026</small> | | [📄 Princípios Gerais](../analise-requisitos/principios-gerais.md) | ✅ Concluído |
-    | **Metas de Usabilidade** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>11/05/2026</small> | | [📄 Metas de Usabilidade](../analise-requisitos/metas-usabilidade.md) | ✅ Concluído |
-    | **Guia de Estilo** | | | [📄 Guia de Estilo](../analise-requisitos/guia-estilo.md) | ✅ Concluído |
-    | **Lista de Verificação Etapa 3** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/05/2026</small> | | [📄 Verificação Etapa 3](../projeto/verificacao-etapa3.md) | ✅ Concluído |
+    | **Princípios Gerais** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/05/2026</small> | [Eduardo Valadares](../equipe/equipe.md) | [📄 Princípios Gerais](../analise-requisitos/principios-gerais.md) | ✅ Concluído |
+    | **Metas de Usabilidade** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>11/05/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [📄 Metas de Usabilidade](../analise-requisitos/metas-usabilidade.md) | ✅ Concluído |
+    | **Guia de Estilo** | | [Pedro Macedo](../equipe/equipe.md) | [📄 Guia de Estilo](../analise-requisitos/guia-estilo.md) | ✅ Concluído |
+    | **Lista de Verificação Etapa 3** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/05/2026</small> | [Heloisa Silva](../equipe/equipe.md) | [📄 Verificação Etapa 3](../projeto/verificacao-etapa3.md) | ✅ Concluído |
 
 === "Etapa 4"
     Nesta etapa, as tarefas foram direcionadas para o planejamento da avaliação e do relato dos resultados de Design.
@@ -54,6 +54,17 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Planejamento do Relato dos Resultados da Análise de Tarefas** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [📄 Planejamento de Relato de Tarefas](../design-avaliacao/planejamento-relato-tarefas.md) | ✅ Concluído |
     | **Planejamento do Relato dos Resultados do Storyboard** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> | [Heloisa Silva](../equipe/equipe.md) | [📄 Planejamento de Relato de Storyboard](../design-avaliacao/planejamento-relato-storyboard.md) | ✅ Concluído |
     | **Storyboard** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> [Pedro Moretti](../equipe/equipe.md)<br><small>19/05/2026</small> | [Heloisa Silva](../equipe/equipe.md) | [📄 Storyboard](../design-avaliacao/storyboard.md) | ✅ Concluído |
+
+=== "Etapa 5"
+    Nesta etapa, as tarefas foram direcionadas para o planejamento da avaliação do protótipo de papel e para a execução dos relatos dos resultados das avaliações de Storyboard e Análise de Tarefas.
+
+    | Atividade Extraída do Plano de Ensino | Integrante Responsável<br><small>(nome · data de conclusão)</small> | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
+    | :--- | :---: | :---: | :--- | :---: |
+    | **Planejamento da Avaliação do Protótipo de Papel** | [Heitor Macedo](../equipe/equipe.md)<br><small>31/05/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [📄 Planejamento de Avaliação do Protótipo de Papel](../design-avaliacao/planejamento-avaliacao-pp.md) | ✅ Concluído |
+    | **Planejamento do Relato dos Resultados do Protótipo de Papel** | [Heitor Macedo](../equipe/equipe.md)<br><small>31/05/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [📄 Planejamento do Relato dos Resultados do Protótipo de Papel](../design-avaliacao/planejamento-relato-resultados-pp.md) | ✅ Concluído |
+    | **Protótipo de Papel** | — | — | — | ⏳ Pendente |
+    | **Relato dos Resultados do Storyboard** | [Heitor Macedo](../equipe/equipe.md)<br><small>31/05/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [📄 Relato dos Resultados do Storyboard](../design-avaliacao/relato-resultados-storyboard.md) | ✅ Concluído |
+    | **Relato dos Resultados da Análise de Tarefas** | [Heitor Macedo](../equipe/equipe.md)<br><small>31/05/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [📄 Relato dos Resultados da Análise de Tarefas](../design-avaliacao/relato-resultados-analise-tarefas.md) | ✅ Concluído |
 
 ---
 
@@ -107,6 +118,18 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Total de documentos criados** | 1 | 3 | — | 1 | 1 | — |
     | **Total de documentos revisados** | — | 1 | 2 | 2 | — | — |
 
+=== "Etapa 5"
+
+    | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
+    | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+    | **Planejamento de Avaliação do Protótipo de Papel** | — | 1 | — | — | — | — |
+    | **Planejamento do Relato do Protótipo de Papel** | — | 1 | — | — | — | — |
+    | **Protótipo de Papel** | — | — | — | — | — | — |
+    | **Relato dos Resultados do Storyboard** | — | 1 | — | — | — | — |
+    | **Relato dos Resultados da Análise de Tarefas** | — | 1 | — | — | — | — |
+    | **Total de documentos criados** | 0 | 4 | 0 | 0 | 0 | 0 |
+    | **Total de documentos revisados** | 0 | 0 | 0 | 4 | 0 | 0 |
+
 ---
 
 ## Bibliografia
@@ -123,7 +146,8 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 | `1.0` | 12/04/2026 | Criação do documento com o Cronograma Executado (Etapa 1) e o Resumo Quantitativo da Equipe, extraídos do Dashboard de Gestão (index.md). | Heitor Macedo Ricardo | Heloisa Silva |
 | `1.1` | 30/04/2026 | Atualização da Etapa 2 com artefatos entregues por Heitor Macedo (Perfil de Usuário, Persona Laura, Cenário 1, Análise de Tarefas HTA+CTT, Funcionalidade de Notificações). | Heitor Macedo Ricardo | Mateus Rodrigues |
 | `1.2` | 03/05/2026 | Reestruturação da tabela da Etapa 2: coluna "Data" removida e data de conclusão associada individualmente a cada integrante responsável. | Heitor Macedo Ricardo | Pedro Moretti |
-| `1.3` | 03/05/2026 | Atualização com as contribuições de Mateus Rodrigues Barreto (Persona Roberto, Cenário 5, GOMS, Funcionalidade e Lista de Verificação). | Mateus Rodrigues Barreto | A definir |
-| `1.4` | 14/05/2026 | Atualização do Cronograma e Resumo Quantitativo com a inicialização da Etapa 3. | Heitor Macedo Ricardo | A definir |
+| `1.3` | 03/05/2026 | Atualização com as contribuições de Mateus Rodrigues Barreto (Persona Roberto, Cenário 5, GOMS, Funcionalidade e Lista de Verificação). | Mateus Rodrigues Barreto | Pedro Moretti |
+| `1.4` | 14/05/2026 | Atualização do Cronograma e Resumo Quantitativo com a inicialização da Etapa 3. | Heitor Macedo Ricardo | Eduardo Valadares |
 | `1.5` | 22/05/2026 | Atualização com o cronograma executado e resumo quantitativo da Etapa 4. | Heitor Macedo Ricardo | Heloisa Silva |
-| `1.6` | 24/05/2026 | Atualização de constribuções da Etapa 3. | Mateus Rodrigues Barreto | A definir |
+| `1.6` | 24/05/2026 | Atualização de constribuções da Etapa 3. | Mateus Rodrigues Barreto | Heloisa Silva |
+| `1.7` | 31/05/2026 | Adição da Etapa 5 com cronograma executado e resumo quantitativo. | Heitor Macedo Ricardo | Pedro Moretti |

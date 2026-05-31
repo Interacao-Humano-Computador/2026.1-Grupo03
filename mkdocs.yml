@@ -85,6 +85,11 @@ nav:
           - Planejamento do Relato dos Resultados de Tarefas: design-avaliacao/planejamento-relato-tarefas.md
           - Planejamento do Relato dos Resultados Storyboard: design-avaliacao/planejamento-relato-storyboard.md
           - Storyboard: design-avaliacao/storyboard.md
+          - Relato dos Resultados da Avaliação do Storyboard: design-avaliacao/relato-resultados-storyboard.md
+          - Relato dos Resultados da Análise de Tarefas: design-avaliacao/relato-resultados-analise-tarefas.md
+      - Nível 2:
+          - Planejamento da Avaliação do Protótipo de Papel: design-avaliacao/planejamento-avaliacao-pp.md
+          - Planejamento do Relato dos Resultados do Protótipo de Papel: design-avaliacao/planejamento-relato-resultados-pp.md
   - Inspeções (Verificação e Validação):
       - Nossas Entregas:
           - Entrega 01: inspecoes/entrega01.md

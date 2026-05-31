@@ -89,4 +89,4 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 | `1.2` | 03/05/2026 |Adição de itens | Pedro Moretti | Heitor Macedo |
 | `1.3` | 03/05/2026 | Reorganização por categorias (Perfil de Usuário, Personas, Cenários, Análise de Tarefas) com IDs padronizados. | Heitor Macedo Ricardo | Pedro Moretti |
 | `1.4` | 03/05/2026 | Adição de itens de verificação | Heloisa Silva | Pedro Moretti |
-| `1.5` | 03/05/2026 | Adição de novos itens técnicos. | Mateus Rodrigues Barreto | A definir |
+| `1.5` | 03/05/2026 | Adição de novos itens técnicos. | Mateus Rodrigues Barreto | Eduardo Valadares |
