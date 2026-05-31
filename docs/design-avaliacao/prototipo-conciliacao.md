@@ -92,5 +92,5 @@ As principais escolhas de design refletidas no protótipo são:
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Pedro Moretti | — |
+| 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Pedro Moretti | Mateu Barreto |
 

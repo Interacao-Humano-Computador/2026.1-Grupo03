@@ -128,7 +128,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Relato dos Resultados do Storyboard** | — | 1 | — | — | — | — |
     | **Relato dos Resultados da Análise de Tarefas** | — | 1 | — | — | — | — |
     | **Total de documentos criados** | 0 | 4 | 0 | 0 | 0 | 1 |
-    | **Total de documentos revisados** | 0 | 0 | 0 | 4 | 0 | 0 |
+    | **Total de documentos revisados** | 0 | 0 | 0 | 4 | 0 | 2 |
 
 ---
 
