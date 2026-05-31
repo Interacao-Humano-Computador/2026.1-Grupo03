@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PROCON-DF · Validação de Documentos por OCR — Wireframe</title>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+	<style>
+		:root{--paper:#f5f0e8;--paper-2:#efe8db;--ink:#2b2b2b;--ink-soft:#5c574e;--ink-faint:#948e80;--blue:#2f4f8f;--green:#5f8a5a;--hl:#ffe27a;--line:#3a352e}
+		*{box-sizing:border-box}
+		html,body{margin:0;padding:0;font-family:'Patrick Hand',cursive;color:var(--ink);background:var(--paper)}
+		.topbar{max-width:760px;margin:18px auto;padding:12px 18px;background:var(--paper-2);display:flex;justify-content:space-between;align-items:center;border-radius:10px}
+		.topbar h1{font-family:'Caveat',cursive;margin:0;font-size:22px}
+		.stage{max-width:760px;margin:12px auto;display:flex;justify-content:center}
+		.phone{width:375px;background:var(--paper);border-radius:34px;padding:10px;position:relative}
+		.phone::before{content:"";position:absolute;inset:0;border:2.5px solid var(--line);border-radius:38px;pointer-events:none}
+		.statusbar{display:flex;justify-content:space-between;font-size:13px;color:var(--ink-soft);padding:6px 10px}
+		.viewport{height:660px;overflow:hidden;border-radius:6px}
+		.screen{display:none;padding:10px 14px;height:100%;overflow:auto}
+		.screen.active{display:block}
+		.appbar{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+		.appbar .back{font-family:'Caveat',cursive;font-size:26px;cursor:pointer}
+		.appbar h2{margin:0;font-family:'Caveat',cursive;font-size:20px}
+		.form{background:#fff;border-radius:10px;padding:12px;border:1.5px dashed var(--line)}
+		.field{margin-bottom:10px}
+		.label{font-size:14px;color:var(--ink-faint);margin-bottom:4px}
+		.input{padding:10px;border-radius:8px;border:1px solid #e6e0d7;font-size:16px}
+		.btn{display:inline-block;padding:12px 14px;border-radius:10px;font-family:'Caveat',cursive;font-size:18px;background:linear-gradient(180deg,#ffe9a0,#ffdf7a);cursor:pointer;margin-top:8px}
+		.btn.ghost{background:transparent;border:1.2px dashed var(--line;color:var(--ink-soft));}
+		.upload-box{height:220px;border-radius:10px;background:#fbf7ee;border:1px dashed var(--line);display:flex;align-items:center;justify-content:center;flex-direction:column}
+		.doc-preview{width:100%;height:180px;background:#fff;border-radius:8px;border:1px solid #ece7dd;display:flex;align-items:center;justify-content:center}
+		.confidence{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+		.badge{padding:6px 8px;border-radius:8px;background:var(--hl);font-family:'Caveat',cursive}
+		.field-row{display:flex;gap:8px;align-items:center}
+		.conf-pill{font-size:13px;padding:4px 8px;border-radius:999px;background:#eef6ee;color:var(--green);border:1px solid rgba(95,138,90,0.12)}
+		.small{font-size:13px;color:var(--ink-faint)}
+	</style>
+</head>
+<body>
+
+<div class="topbar"><h1>PROCON-DF · Validação por OCR<small style="display:block;font-size:12px;color:var(--ink-soft)">Protótipo de baixa fidelidade · mobile 375px</small></h1>
+	<div>
+		<select id="jump" aria-label="Ir para tela"></select>
+	</div>
+</div>
+
+<div class="stage"><div class="phone">
+	<div class="statusbar"><span>9:41</span><span class="small">OCR • rascunho</span></div>
+	<div class="viewport" id="viewport">
+
+		<!-- Tela 1: Formulário vazio -->
+		<section class="screen active" data-screen="formulario">
+			<div class="appbar"><div class="back" data-go="formulario">←</div><h2>Enviar documento<small style="display:block;font-size:12px;color:var(--ink-soft)">Preencha os dados e anexe o documento</small></h2></div>
+			<div class="form">
+				<div class="field"><div class="label">Nome</div><input class="input" placeholder="Nome completo" aria-label="Nome"></div>
+				<div class="field"><div class="label">CPF / CNPJ</div><input class="input" placeholder="000.000.000-00" aria-label="CPF"></div>
+				<div class="field-row">
+					<div style="flex:1"><div class="label">Data</div><input class="input" placeholder="DD/MM/AAAA" aria-label="Data"></div>
+					<div style="width:120px"><div class="label">Valor</div><input class="input" placeholder="R$ 0,00" aria-label="Valor"></div>
+				</div>
+				<div class="field"><div class="label">Observações</div><input class="input" placeholder="Observações (opcional)" aria-label="Observações"></div>
+				<div style="margin-top:8px"><button class="btn" data-go="upload">➕ Adicionar documento</button></div>
+			</div>
+			<div style="margin-top:12px" class="small">Fonte: Formulário inicial para envio de documento; botão leva à tela de upload.</div>
+		</section>
+
+		<!-- Tela 2: Upload / Pré-visualização -->
+		<section class="screen" data-screen="upload">
+			<div class="appbar"><div class="back" data-go="formulario">←</div><h2>Pré-visualizar documento<small style="display:block;font-size:12px;color:var(--ink-soft)">Confirme antes de processar OCR</small></h2></div>
+			<div class="upload-box">
+				<div class="doc-preview">Miniatura do documento (foto ou PDF)</div>
+				<div style="margin-top:10px"><button class="btn" data-go="resultado">Processar OCR</button></div>
+				<div style="margin-top:8px" class="small">Dica: boa iluminação e documento alinhado melhoram a extração</div>
+			</div>
+		</section>
+
+		<!-- Tela 3: Formulário preenchido com indicadores -->
+		<section class="screen" data-screen="resultado">
+			<div class="appbar"><div class="back" data-go="upload">←</div><h2>Dados extraídos<small style="display:block;font-size:12px;color:var(--ink-soft)">Revise e confirme os campos</small></h2></div>
+			<div class="form">
+				<div class="field-row" style="align-items:center;justify-content:space-between"><div>
+					<div class="label">Nome</div>
+					<div style="font-family:'Caveat',cursive;font-size:18px">Heloisa</div>
+				</div><div class="conf-pill">92%</div></div>
+
+				<div class="field-row" style="align-items:center;justify-content:space-between;margin-top:8px"><div>
+					<div class="label">CPF</div>
+					<div style="font-family:'Caveat',cursive;font-size:18px">123.456.789-09</div>
+				</div><div class="conf-pill">87%</div></div>
+
+				<div class="field-row" style="align-items:center;justify-content:space-between;margin-top:8px"><div>
+					<div class="label">Data</div>
+					<div style="font-family:'Caveat',cursive;font-size:18px">12/04/2024</div>
+				</div><div class="conf-pill">95%</div></div>
+
+				<div class="field-row" style="align-items:center;justify-content:space-between;margin-top:8px"><div>
+					<div class="label">Valor</div>
+					<div style="font-family:'Caveat',cursive;font-size:18px">R$ 240,00</div>
+				</div><div class="conf-pill">78%</div></div>
+
+				<div style="margin-top:12px" class="confidence">
+					<div class="badge">Campos com <b>baixo</b> índice de confiança aparecem aqui</div>
+					<div class="small">Ajuste manual se necessário antes de enviar.</div>
+				</div>
+				<div style="margin-top:12px"><button class="btn" data-go="confirmar">✅ Confirmar e enviar</button></div>
+			</div>
+		</section>
+
+		<!-- Tela 4: Confirmação (simples) -->
+		<section class="screen" data-screen="confirmar">
+			<div class="appbar"><div class="back" data-go="resultado">←</div><h2>Confirmação</h2></div>
+			<div style="padding:12px">
+				<div style="background:#fbf7ee;padding:12px;border-radius:10px;border:1px solid #ece7dd">Documento processado com sucesso. Dados enviados ao PROCON-DF.</div>
+				<div style="margin-top:12px"><button class="btn" data-go="formulario">Novo documento</button></div>
+			</div>
+		</section>
+
+	</div><!-- /viewport -->
+</div></div><!-- /phone /stage -->
+
+<script>
+	(function(){
+		var labels={
+			formulario:'01 · Formulário',
+			upload:'02 · Upload',
+			resultado:'03 · Resultado',
+			confirmar:'04 · Confirmar'
+		};
+		var order=Object.keys(labels);
+		var screens={};document.querySelectorAll('.screen').forEach(function(s){screens[s.dataset.screen]=s});
+
+		var jump=document.getElementById('jump');
+		order.forEach(function(k){var o=document.createElement('option');o.value=k;o.textContent=labels[k];jump.appendChild(o);});
+
+		function show(id, skipHash){
+			if(!screens[id]) return;
+			Object.values(screens).forEach(s=>s.classList.remove('active'));
+			screens[id].classList.add('active');
+			jump.value = id;
+			screens[id].scrollTop = 0;
+			if(!skipHash){
+				try{ location.hash = id; }catch(e){}
+			}
+		}
+        
+		// Click handler for elements with data-go
+		document.addEventListener('click',function(e){
+			var t = e.target.closest('[data-go]');
+			if(t){
+				var dest = t.dataset.go;
+				show(dest);
+			}
+		});
+
+		// Jump select
+		jump.addEventListener('change',function(){ show(jump.value); });
+
+		// Support back/forward via hash
+		window.addEventListener('hashchange', function(){
+			var h = location.hash.replace(/^#/, '');
+			if(h && screens[h]) show(h, true);
+		});
+
+		// On load, honor hash if present
+		var initial = location.hash.replace(/^#/, '') || 'formulario';
+		if(initial && screens[initial]) show(initial, true); else show('formulario', true);
+	})();
+</script>
+
+</body>
+</html>
