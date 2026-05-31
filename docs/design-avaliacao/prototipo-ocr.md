@@ -88,7 +88,7 @@ Este artefato contou com o apoio de um assistente de inteligência artificial. O
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Heloisa Silva | — |
+| 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Heloisa Silva | Mateus Barreto |
 
 
 ---

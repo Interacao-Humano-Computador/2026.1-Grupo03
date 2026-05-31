@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PROCON-DF · Painel de Prazos — Wireframe</title>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+	<style>
+		:root{
+			--paper:#f5f0e8;--paper-2:#efe8db;--ink:#2b2b2b;--ink-soft:#5c574e;
+			--ink-faint:#948e80;--blue:#2f4f8f;--green:#5f8a5a;--red:#a83232;
+			--orange:#c47a1e;--hl:#ffe27a;--line:#3a352e;--red-bg:#fdecea;
+			--orange-bg:#fef6ea;--green-bg:#eef6ee
+		}
+		*{box-sizing:border-box}
+		html,body{margin:0;padding:0;font-family:'Patrick Hand',cursive;color:var(--ink);background:var(--paper)}
+		.topbar{max-width:760px;margin:18px auto;padding:12px 18px;background:var(--paper-2);display:flex;justify-content:space-between;align-items:center;border-radius:10px}
+		.topbar h1{font-family:'Caveat',cursive;margin:0;font-size:22px}
+		.stage{max-width:760px;margin:12px auto;display:flex;justify-content:center}
+		.phone{width:375px;background:var(--paper);border-radius:34px;padding:10px;position:relative}
+		.phone::before{content:"";position:absolute;inset:0;border:2.5px solid var(--line);border-radius:38px;pointer-events:none}
+		.statusbar{display:flex;justify-content:space-between;font-size:13px;color:var(--ink-soft);padding:6px 10px}
+		.viewport{height:660px;overflow:hidden;border-radius:6px}
+		.screen{display:none;padding:10px 14px;height:100%;overflow-y:auto}
+		.screen.active{display:block}
+		.appbar{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+		.appbar .back{font-family:'Caveat',cursive;font-size:26px;cursor:pointer;user-select:none}
+		.appbar h2{margin:0;font-family:'Caveat',cursive;font-size:20px;line-height:1.2}
+
+		/* semáforo / alerta principal */
+		.semaforo{border-radius:14px;padding:14px;margin-bottom:12px;border:2px solid}
+		.semaforo.vermelho{background:var(--red-bg);border-color:var(--red);color:var(--red)}
+		.semaforo.amarelo{background:var(--orange-bg);border-color:var(--orange);color:var(--orange)}
+		.semaforo.verde{background:var(--green-bg);border-color:var(--green);color:var(--green)}
+		.semaforo .emoji{font-size:32px;display:block;margin-bottom:6px}
+		.semaforo .dias{font-family:'Caveat',cursive;font-size:38px;font-weight:700;display:block;line-height:1}
+		.semaforo .legenda{font-size:14px;margin-top:4px;display:block}
+
+		/* cards de prazo */
+		.card{background:#fff;border-radius:10px;padding:10px 12px;margin-bottom:10px;border:1.5px dashed var(--line)}
+		.card .titulo{font-family:'Caveat',cursive;font-size:18px;margin-bottom:4px}
+		.card .detalhe{font-size:13px;color:var(--ink-soft)}
+		.pill{display:inline-block;padding:3px 10px;border-radius:999px;font-size:12px;font-family:'Caveat',cursive;font-size:14px}
+		.pill.vencido{background:var(--red-bg);color:var(--red)}
+		.pill.urgente{background:var(--orange-bg);color:var(--orange)}
+		.pill.ok{background:var(--green-bg);color:var(--green)}
+
+		/* linha do tempo */
+		.timeline{position:relative;padding-left:28px;margin:10px 0}
+		.timeline::before{content:"";position:absolute;left:10px;top:0;bottom:0;width:2px;background:var(--line);border-radius:2px}
+		.tl-item{position:relative;margin-bottom:14px}
+		.tl-item::before{content:"";position:absolute;left:-22px;top:6px;width:14px;height:14px;border-radius:50%;border:2px solid var(--line);background:var(--paper)}
+		.tl-item.done::before{background:var(--green);border-color:var(--green)}
+		.tl-item.active::before{background:var(--hl);border-color:var(--orange);box-shadow:0 0 0 3px rgba(196,122,30,.2)}
+		.tl-item.future::before{background:var(--paper-2);border-color:var(--ink-faint)}
+		.tl-item .tl-titulo{font-family:'Caveat',cursive;font-size:17px}
+		.tl-item .tl-data{font-size:13px;color:var(--ink-faint)}
+		.tl-item .tl-tag{font-size:12px;display:inline-block;padding:2px 8px;border-radius:6px;margin-top:3px}
+		.tl-item.done .tl-tag{background:var(--green-bg);color:var(--green)}
+		.tl-item.active .tl-tag{background:var(--orange-bg);color:var(--orange)}
+		.tl-item.future .tl-tag{background:var(--paper-2);color:var(--ink-faint)}
+
+		/* barra de progresso CDC */
+		.barra-wrap{margin:8px 0 12px}
+		.barra-label{font-size:13px;color:var(--ink-soft);display:flex;justify-content:space-between;margin-bottom:4px}
+		.barra-bg{background:var(--paper-2);border-radius:999px;height:14px;border:1px solid var(--line);overflow:hidden}
+		.barra-fill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--hl),#ffb347)}
+
+		/* prescrição */
+		.prescricao-box{background:#fff;border:2px dashed var(--red);border-radius:12px;padding:12px;margin-bottom:12px}
+		.prescricao-box .titulo{font-family:'Caveat',cursive;font-size:17px;color:var(--red)}
+		.prescricao-box .conta{font-family:'Caveat',cursive;font-size:32px;color:var(--red);display:block;margin:4px 0}
+		.prescricao-box .sub{font-size:13px;color:var(--ink-soft)}
+
+		/* botão principal */
+		.btn{display:inline-block;padding:12px 16px;border-radius:10px;font-family:'Caveat',cursive;font-size:19px;cursor:pointer;text-align:center;width:100%;margin-top:6px;border:none}
+		.btn.primary{background:linear-gradient(180deg,#ffe9a0,#ffdf7a);color:var(--ink)}
+		.btn.danger{background:linear-gradient(180deg,#f9a8a8,#e05050);color:#fff}
+		.btn.ghost{background:transparent;border:1.5px dashed var(--line);color:var(--ink-soft)}
+
+		/* notificação push */
+		.push{background:#fff;border-radius:14px;padding:12px;border:1.5px solid var(--line);margin-bottom:10px}
+		.push .push-header{font-size:12px;color:var(--ink-faint);display:flex;justify-content:space-between;margin-bottom:6px}
+		.push .push-titulo{font-family:'Caveat',cursive;font-size:18px;margin-bottom:4px}
+		.push .push-corpo{font-size:14px;color:var(--ink-soft)}
+
+		.small{font-size:13px;color:var(--ink-faint)}
+		.divider{border:none;border-top:1.2px dashed var(--line);margin:10px 0}
+	</style>
+</head>
+<body>
+
+<div class="topbar">
+	<h1>PROCON-DF · Painel de Prazos
+		<small style="display:block;font-size:12px;color:var(--ink-soft)">Protótipo de baixa fidelidade · mobile 375px</small>
+	</h1>
+	<div><select id="jump" aria-label="Ir para tela"></select></div>
+</div>
+
+<div class="stage"><div class="phone">
+	<div class="statusbar"><span>9:41</span><span class="small">Prazos • rascunho</span></div>
+	<div class="viewport" id="viewport">
+
+		<!-- TELA 1: Painel Principal (semáforo) -->
+		<section class="screen active" data-screen="painel">
+			<div class="appbar">
+				<h2>Meus Prazos<small style="display:block;font-size:12px;color:var(--ink-soft)">Reclamação #2024-08847</small></h2>
+			</div>
+
+			<!-- Semáforo vermelho: urgente -->
+			<div class="semaforo vermelho">
+				<span class="emoji">🔴</span>
+				<span class="dias">7 dias</span>
+				<span class="legenda">para a empresa responder (art. 49 CDC)</span>
+			</div>
+
+			<!-- Cards resumo -->
+			<div class="card" data-go="linha-do-tempo" style="cursor:pointer">
+				<div style="display:flex;justify-content:space-between;align-items:center">
+					<div class="titulo">📅 Resposta da empresa</div>
+					<span class="pill urgente">Urgente</span>
+				</div>
+				<div class="detalhe">Prazo: 12/06/2025 · 7 dias restantes</div>
+			</div>
+
+			<div class="card" data-go="linha-do-tempo" style="cursor:pointer">
+				<div style="display:flex;justify-content:space-between;align-items:center">
+					<div class="titulo">⚖️ Audiência de conciliação</div>
+					<span class="pill ok">Confirmada</span>
+				</div>
+				<div class="detalhe">Data: 20/06/2025 · 15 dias</div>
+			</div>
+
+			<div class="card" data-go="prescricao" style="cursor:pointer">
+				<div style="display:flex;justify-content:space-between;align-items:center">
+					<div class="titulo">⏳ Prescrição do direito</div>
+					<span class="pill ok">~5 anos</span>
+				</div>
+				<div class="detalhe">Caduca em: 05/05/2030 · Toque para detalhes</div>
+			</div>
+
+			<hr class="divider">
+			<button class="btn ghost" data-go="notificacoes">🔔 Ver alertas recebidos</button>
+			<div style="margin-top:8px" class="small">Toque em qualquer prazo para ver a linha do tempo completa.</div>
+		</section>
+
+		<!-- TELA 2: Linha do Tempo -->
+		<section class="screen" data-screen="linha-do-tempo">
+			<div class="appbar">
+				<div class="back" data-go="painel">←</div>
+				<h2>Linha do Tempo<small style="display:block;font-size:12px;color:var(--ink-soft)">Andamento da reclamação</small></h2>
+			</div>
+
+			<div class="barra-wrap">
+				<div class="barra-label"><span>Início</span><span>Resolução esperada</span></div>
+				<div class="barra-bg"><div class="barra-fill" style="width:40%"></div></div>
+				<div class="small" style="text-align:center;margin-top:4px">40% do prazo CDC decorrido</div>
+			</div>
+
+			<div class="timeline">
+				<div class="tl-item done">
+					<div class="tl-titulo">📩 Reclamação registrada</div>
+					<div class="tl-data">05/05/2025</div>
+					<span class="tl-tag">Concluído</span>
+				</div>
+				<div class="tl-item done">
+					<div class="tl-titulo">📨 Empresa notificada</div>
+					<div class="tl-data">06/05/2025</div>
+					<span class="tl-tag">Concluído</span>
+				</div>
+				<div class="tl-item active">
+					<div class="tl-titulo">⏱ Aguardando resposta</div>
+					<div class="tl-data">Prazo: 12/06/2025 — <b>7 dias</b></div>
+					<span class="tl-tag">Em andamento</span>
+				</div>
+				<div class="tl-item future">
+					<div class="tl-titulo">🤝 Audiência de conciliação</div>
+					<div class="tl-data">Previsto: 20/06/2025</div>
+					<span class="tl-tag">Futuro</span>
+				</div>
+				<div class="tl-item future">
+					<div class="tl-titulo">✅ Resolução / Encerramento</div>
+					<div class="tl-data">Previsto: após audiência</div>
+					<span class="tl-tag">Futuro</span>
+				</div>
+			</div>
+
+			<hr class="divider">
+			<!-- Botão aparece quando prazo da empresa zera -->
+			<div style="background:var(--red-bg);border-radius:10px;padding:10px;border:1px dashed var(--red);margin-bottom:8px">
+				<div style="font-family:'Caveat',cursive;font-size:15px;color:var(--red)">⚠️ Se a empresa não responder no prazo, este botão ficará disponível:</div>
+			</div>
+			<button class="btn danger" data-go="juizado">⚖️ Acionar Juizado Especial</button>
+			<div style="margin-top:8px" class="small">Disponível após expirar o prazo de resposta da empresa.</div>
+		</section>
+
+		<!-- TELA 3: Prescrição -->
+		<section class="screen" data-screen="prescricao">
+			<div class="appbar">
+				<div class="back" data-go="painel">←</div>
+				<h2>Prazo de Prescrição<small style="display:block;font-size:12px;color:var(--ink-soft)">Art. 27 CDC · Produto ou serviço</small></h2>
+			</div>
+
+			<div class="prescricao-box">
+				<div class="titulo">⏳ Seu direito de ação caduca em:</div>
+				<span class="conta">1.795 dias</span>
+				<div class="sub">≈ 4 anos, 11 meses e 8 dias · a partir de 05/05/2025</div>
+			</div>
+
+			<div class="card">
+				<div class="titulo">O que é prescrição?</div>
+				<div class="detalhe">É o prazo máximo para você entrar na Justiça ou acionar o PROCON. Após esse tempo, você perde o direito legal de reclamar.</div>
+			</div>
+
+			<div class="card">
+				<div class="titulo">📋 Base legal</div>
+				<div class="detalhe">CDC, art. 27 — 5 anos para fato do produto/serviço.<br>CDC, art. 26 — 30/90 dias para vício aparente.</div>
+			</div>
+
+			<hr class="divider">
+			<div style="background:var(--orange-bg);border-radius:10px;padding:10px;border:1px dashed var(--orange);margin-bottom:8px">
+				<div style="font-family:'Caveat',cursive;font-size:15px;color:var(--orange)">💡 Se o PROCON não resolver, você pode ir ao Juizado Especial antes que o prazo acabe.</div>
+			</div>
+			<button class="btn primary" data-go="juizado">Ver como acionar o Juizado</button>
+		</section>
+
+		<!-- TELA 4: Juizado Especial -->
+		<section class="screen" data-screen="juizado">
+			<div class="appbar">
+				<div class="back" data-go="painel">←</div>
+				<h2>Acionar Juizado Especial<small style="display:block;font-size:12px;color:var(--ink-soft)">Próximo passo jurídico</small></h2>
+			</div>
+
+			<div class="semaforo vermelho">
+				<span class="emoji">⚖️</span>
+				<span class="dias">Prazo expirado</span>
+				<span class="legenda">A empresa não respondeu em 30 dias (art. 49 CDC)</span>
+			</div>
+
+			<div class="card">
+				<div class="titulo">O que é o Juizado Especial?</div>
+				<div class="detalhe">É a Justiça gratuita para causas até 40 salários mínimos. Sem advogado obrigatório. Rápido e acessível.</div>
+			</div>
+
+			<div class="card">
+				<div class="titulo">📋 O que você precisa levar</div>
+				<div class="detalhe">
+					☐ RG / CPF<br>
+					☐ Comprovante de compra / contrato<br>
+					☐ Print das tentativas de contato<br>
+					☐ Número desta reclamação: <b>#2024-08847</b>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="titulo">📍 Juizado mais próximo</div>
+				<div class="detalhe">TJDFT — Fórum de Taguatinga<br>QSA 01, Lote 01 — 8h às 18h</div>
+			</div>
+
+			<hr class="divider">
+			<button class="btn primary" data-go="painel">Salvar orientações</button>
+			<button class="btn ghost" style="margin-top:8px" data-go="painel">Voltar ao painel</button>
+		</section>
+
+		<!-- TELA 5: Notificações recebidas -->
+		<section class="screen" data-screen="notificacoes">
+			<div class="appbar">
+				<div class="back" data-go="painel">←</div>
+				<h2>Alertas Recebidos<small style="display:block;font-size:12px;color:var(--ink-soft)">Histórico de notificações</small></h2>
+			</div>
+
+			<div class="push">
+				<div class="push-header"><span>PROCON-DF</span><span>Hoje, 8:14</span></div>
+				<div class="push-titulo">🔴 Faltam 7 dias!</div>
+				<div class="push-corpo">O prazo da empresa para responder sua reclamação #2024-08847 acaba em 12/06/2025.</div>
+			</div>
+
+			<div class="push">
+				<div class="push-header"><span>PROCON-DF</span><span>28/05, 9:00</span></div>
+				<div class="push-titulo">📅 Audiência confirmada</div>
+				<div class="push-corpo">Sua audiência de conciliação foi marcada para 20/06/2025. Você receberá um lembrete 48h antes.</div>
+			</div>
+
+			<div class="push">
+				<div class="push-header"><span>PROCON-DF</span><span>06/05, 14:30</span></div>
+				<div class="push-titulo">📨 Empresa notificada</div>
+				<div class="push-corpo">A empresa foi notificada sobre sua reclamação. O prazo de resposta começa a contar agora.</div>
+			</div>
+
+			<div class="push">
+				<div class="push-header"><span>PROCON-DF</span><span>05/05, 10:00</span></div>
+				<div class="push-titulo">✅ Reclamação registrada</div>
+				<div class="push-corpo">Reclamação #2024-08847 protocolada com sucesso. Acompanhe o andamento aqui.</div>
+			</div>
+
+			<hr class="divider">
+			<div class="small">Notificações enviadas por WhatsApp e e-mail.</div>
+		</section>
+
+	</div><!-- /viewport -->
+</div></div><!-- /phone /stage -->
+
+<script>
+(function(){
+	var labels = {
+		painel:         '01 · Painel Principal',
+		'linha-do-tempo':'02 · Linha do Tempo',
+		prescricao:     '03 · Prescrição',
+		juizado:        '04 · Juizado Especial',
+		notificacoes:   '05 · Alertas Recebidos'
+	};
+	var order = Object.keys(labels);
+	var screens = {};
+	document.querySelectorAll('.screen').forEach(function(s){ screens[s.dataset.screen] = s; });
+
+	var jump = document.getElementById('jump');
+	order.forEach(function(k){
+		var o = document.createElement('option');
+		o.value = k; o.textContent = labels[k];
+		jump.appendChild(o);
+	});
+
+	function show(id, skipHash){
+		if(!screens[id]) return;
+		Object.values(screens).forEach(s => s.classList.remove('active'));
+		screens[id].classList.add('active');
+		jump.value = id;
+		screens[id].scrollTop = 0;
+		if(!skipHash){ try{ location.hash = id; }catch(e){} }
+	}
+
+	document.addEventListener('click', function(e){
+		var t = e.target.closest('[data-go]');
+		if(t) show(t.dataset.go);
+	});
+
+	jump.addEventListener('change', function(){ show(jump.value); });
+
+	window.addEventListener('hashchange', function(){
+		var h = location.hash.replace(/^#/, '');
+		if(h && screens[h]) show(h, true);
+	});
+
+	var initial = location.hash.replace(/^#/, '') || 'painel';
+	show(screens[initial] ? initial : 'painel', true);
+})();
+</script>
+
+</body>
+</html>
