@@ -87,7 +87,7 @@ O teste piloto foi conduzido antes da sessão oficial com o participante real. O
 * **Resultados:** Os artefatos (storyboard, roteiro e documentos de apoio) foram considerados claros e adequados. Nenhum ajuste significativo foi necessário no protocolo antes da sessão oficial.
 * **Os dados coletados no teste piloto foram descartados e não integram os resultados desta avaliação.**
 
-<p style="text-align: center"><a href="# " target="blanket">[Link para gravação do Teste Piloto a ser inserido]</a></p>
+<p style="text-align: center"><a href="https://youtu.be/Xf8gCCi-uSY" target="blanket">Clique aqui para assistir ao Teste Piloto</a></p>
 
 <font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
 
@@ -222,9 +222,7 @@ Abaixo, o vídeo da sessão de avaliação com a participante P1:
 
 Abaixo, o vídeo da sessão de avaliação com o participante P2:
 
-<p style="text-align: center"><a href="# " target="blanket">[Link para gravação a ser inserido]</a></p>
-
-<p style="text-align: center"><iframe width="560" height="315" src="# " title="Relato Storyboard - P2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p style="text-align: center"><a href="https://youtu.be/vmji3e3J990" target="blanket">Clique aqui para assistir a gravação</a></p>
 
 <font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
 

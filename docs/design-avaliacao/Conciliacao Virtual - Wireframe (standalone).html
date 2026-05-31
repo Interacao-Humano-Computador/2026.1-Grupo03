@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PROCON-DF · Sala de Conciliação Virtual — Wireframe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f5f0e8;
+  --paper-2:#efe8db;
+  --ink:#2b2b2b;
+  --ink-soft:#5c574e;
+  --ink-faint:#948e80;
+  --blue:#2f4f8f;
+  --red:#c0392b;
+  --green:#5f8a5a;
+  --hl:#ffe27a;
+  --line:#3a352e;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+html,body{margin:0;padding:0;}
+body{
+  background-color:var(--paper);
+  background-image:
+    repeating-linear-gradient(0deg, transparent 0 31px, rgba(120,110,90,.10) 31px 32px),
+    radial-gradient(circle at 18% 12%, rgba(255,255,255,.5), transparent 55%);
+  color:var(--ink);
+  font-family:'Patrick Hand', 'Comic Sans MS', cursive;
+  font-size:17px;
+  line-height:1.45;
+  min-height:100vh;
+  padding:24px 16px 80px;
+}
+.rough{position:relative;}
+.rough::before{
+  content:"";position:absolute;inset:0;
+  border:2px solid var(--line);
+  border-radius:14px 11px 16px 9px / 11px 15px 9px 16px;
+  filter:url(#rough);
+  pointer-events:none;
+}
+.rough.dbl::after{
+  content:"";position:absolute;inset:2px;
+  border:1.5px solid var(--line);
+  border-radius:10px 14px 8px 15px / 14px 9px 16px 10px;
+  filter:url(#rough2);
+  opacity:.55;
+  pointer-events:none;
+}
+.topbar{
+  max-width:760px;margin:0 auto 22px;
+  display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;
+  background:var(--paper-2);padding:12px 18px;
+}
+.topbar h1{
+  font-family:'Caveat',cursive;font-weight:700;font-size:26px;margin:0;letter-spacing:.4px;
+}
+.topbar h1 small{display:block;font-size:14px;font-weight:500;color:var(--ink-soft);font-family:'Patrick Hand',cursive;}
+.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;}
+.controls label{font-size:15px;display:flex;align-items:center;gap:6px;cursor:pointer;color:var(--blue);font-family:'Caveat',cursive;font-size:19px;}
+select{
+  font-family:'Patrick Hand',cursive;font-size:15px;background:var(--paper);
+  border:1.5px dashed var(--line);border-radius:8px;padding:5px 8px;color:var(--ink);cursor:pointer;
+}
+input[type=checkbox]{width:18px;height:18px;accent-color:var(--blue);cursor:pointer;}
+.stage{position:relative;max-width:760px;margin:0 auto;display:flex;justify-content:center;}
+.phone{
+  position:relative;width:375px;flex:0 0 375px;
+  background:var(--paper);
+  padding:10px 10px 14px;
+  border-radius:34px 30px 34px 30px;
+}
+.phone::before{
+  content:"";position:absolute;inset:0;
+  border:2.5px solid var(--line);
+  border-radius:38px 34px 38px 34px / 40px 36px 40px 36px;
+  filter:url(#rough);pointer-events:none;
+}
+.notch{height:14px;display:flex;justify-content:center;align-items:center;}
+.notch span{width:60px;height:5px;border-radius:6px;background:var(--ink-faint);opacity:.6;}
+.statusbar{
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:13px;color:var(--ink-soft);padding:2px 14px 6px;font-family:'Patrick Hand',cursive;
+}
+.statusbar .dots{display:flex;gap:3px;align-items:center;}
+.statusbar .dots i{width:5px;height:5px;border-radius:50%;background:var(--ink-soft);display:inline-block;}
+.batt{width:20px;height:10px;border:1.4px solid var(--ink-soft);border-radius:2px;position:relative;display:inline-block;}
+.batt::after{content:"";position:absolute;left:1px;top:1px;bottom:1px;width:11px;background:var(--ink-soft);border-radius:1px;}
+.batt::before{content:"";position:absolute;right:-3px;top:2px;bottom:2px;width:2px;background:var(--ink-soft);border-radius:1px;}
+.viewport{position:relative;height:660px;overflow:hidden;border-radius:6px;}
+.screen{
+  position:absolute;inset:0;padding:8px 16px 20px;
+  overflow-y:auto;display:none;flex-direction:column;
+}
+.screen.active{display:flex;animation:fade .25s ease;}
+@keyframes fade{from{opacity:0;transform:translateY(6px);}to{opacity:1;transform:none;}}
+.screen::-webkit-scrollbar{width:6px;}
+.screen::-webkit-scrollbar-thumb{background:var(--ink-faint);border-radius:6px;}
+.appbar{
+  display:flex;align-items:center;gap:10px;margin:2px 0 14px;
+}
+.appbar .back{
+  font-family:'Caveat',cursive;font-size:30px;line-height:1;cursor:pointer;color:var(--ink);
+  width:34px;height:34px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;
+}
+.appbar .back:active{transform:scale(.9);}
+.appbar h2{margin:0;font-family:'Caveat',cursive;font-weight:700;font-size:25px;line-height:1.05;}
+.appbar h2 small{display:block;font-size:14px;color:var(--ink-soft);font-family:'Patrick Hand',cursive;}
+.crumb{font-size:14px;color:var(--ink-faint);margin-bottom:4px;}
+.btn{
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  font-family:'Caveat',cursive;font-weight:700;font-size:22px;
+  padding:13px 16px;background:transparent;color:var(--ink);
+  cursor:pointer;text-align:center;width:100%;margin:8px 0;user-select:none;
+}
+.btn:active{transform:translateY(1px) rotate(-.3deg);}
+.btn.primary{background:linear-gradient(180deg, #ffe9a0, #ffdf7a);}
+.btn.accept{background:linear-gradient(180deg,#d8f0cf,#c4e6b6);}
+.btn.danger{background:linear-gradient(180deg,#f0cfc9,#e6b6ad);color:#7a241a;}
+.btn.ghost{font-size:19px;color:var(--ink-soft);}
+.note{
+  position:absolute;width:178px;font-family:'Caveat',cursive;color:var(--blue);
+  font-size:19px;line-height:1.15;transition:opacity .2s;z-index:5;pointer-events:none;
+}
+.note .arrow{position:absolute;font-size:26px;line-height:1;}
+.note-l{right:calc(100% + 6px);text-align:right;}
+.note-l .arrow{left:calc(100% - 2px);}
+.note-r{left:calc(100% + 6px);text-align:left;}
+.note-r .arrow{right:calc(100% - 2px);}
+.notes-hidden .note{opacity:0;pointer-events:none;}
+@media(max-width:860px){.note{display:none;}.hide-on-mobile{display:none;}}
+
+.badge{font-family:'Caveat',cursive;font-weight:700;font-size:15px;color:#fff;background:var(--red);padding:3px 9px 1px;border-radius:9px 7px 10px 6px;transform:rotate(-2deg);white-space:nowrap;flex:0 0 auto;box-shadow:1px 1px 0 rgba(0,0,0,.15);}
+
+/* ============================================================
+   SCREEN 1 — NOTIFICAÇÃO WHATSAPP
+   ============================================================ */
+.chat{background:repeating-linear-gradient(0deg,transparent 0 23px,rgba(120,110,90,.07) 23px 24px);flex:1;display:flex;flex-direction:column;gap:12px;padding:6px 2px;}
+.chat-head{display:flex;align-items:center;gap:10px;padding:8px 10px;background:rgba(95,138,90,.16);margin:-8px -16px 6px;}
+.avatar{width:38px;height:38px;flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-family:'Caveat',cursive;font-weight:700;font-size:16px;color:var(--green);}
+.avatar::before{border-color:var(--green);border-radius:50%;}
+.chat-head .nm{font-family:'Caveat',cursive;font-weight:700;font-size:20px;}
+.chat-head .st{font-size:12px;color:var(--green);}
+.bubble{align-self:flex-start;max-width:88%;background:#fbf7ee;padding:12px 14px;font-size:16px;cursor:pointer;}
+.bubble:active{transform:scale(.99);}
+.bubble .lnk{color:var(--blue);text-decoration:underline;word-break:break-all;}
+.bubble .tm{display:block;text-align:right;font-size:12px;color:var(--ink-faint);margin-top:6px;}
+.bubble .tag{font-size:13px;padding:2px 8px;border-radius:8px;display:inline-block;margin-bottom:4px;}
+.bubble .tag.green{background:var(--green);color:#fff;}
+.tap-hint{align-self:flex-start;font-family:'Caveat',cursive;color:var(--ink-faint);font-size:17px;margin-left:6px;}
+
+/* ============================================================
+   SCREEN 2 — SALA DE ESPERA
+   ============================================================ */
+.waiting-room{display:flex;flex-direction:column;align-items:center;gap:10px;padding:10px 0;}
+.waiting-room .icon{font-size:48px;margin:10px 0;}
+.waiting-room .title{font-family:'Caveat',cursive;font-weight:700;font-size:28px;text-align:center;}
+.waiting-room .sub{font-size:15px;color:var(--ink-soft);text-align:center;}
+.countdown-box{width:100%;padding:14px;margin:6px 0;text-align:center;}
+.countdown-box .num{font-family:'Caveat',cursive;font-weight:700;font-size:42px;color:var(--blue);}
+.countdown-box .lbl{font-size:14px;color:var(--ink-faint);}
+.participant-list{width:100%;}
+.participant-list .p{display:flex;align-items:center;gap:10px;padding:8px 10px;margin:4px 0;}
+.participant-list .p .dot2{width:10px;height:10px;border-radius:50%;flex:0 0 auto;}
+.participant-list .p .dot2.green{background:var(--green);}
+.participant-list .p .dot2.yellow{background:#e6c300;}
+.participant-list .p .nm2{font-family:'Caveat',cursive;font-weight:600;font-size:19px;}
+.participant-list .p .role{font-size:13px;color:var(--ink-soft);}
+
+/* ============================================================
+   SCREEN 3 — TESTE DE PERIFÉRICOS
+   ============================================================ */
+.peripheral-test{display:flex;flex-direction:column;gap:14px;padding:6px 0;}
+.test-row{display:flex;align-items:center;gap:14px;padding:12px;margin:2px 0;}
+.test-row .icon-box{width:44px;height:44px;flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-size:24px;}
+.test-row .icon-box::before{border-radius:50%;}
+.test-row .info{flex:1;}
+.test-row .info .label{font-family:'Caveat',cursive;font-weight:600;font-size:20px;}
+.test-row .info .desc{font-size:14px;color:var(--ink-soft);}
+.test-row .status-indicator{width:28px;height:28px;border-radius:50%;flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;}
+.test-row .status-indicator.ok{background:var(--green);color:#fff;}
+.test-row .status-indicator.wait{background:var(--ink-faint);color:#fff;}
+.video-preview{width:100%;height:140px;border-radius:12px;display:flex;align-items:center;justify-content:center;margin:4px 0;}
+.video-preview .placeholder{font-family:'Caveat',cursive;font-size:22px;color:var(--ink-faint);}
+
+/* ============================================================
+   SCREEN 4 — SALA DE CONCILIAÇÃO (VIDEO CALL)
+   ============================================================ */
+.video-grid{display:flex;flex-direction:column;gap:6px;flex:1;}
+.video-row-main{display:flex;gap:6px;flex:1;min-height:160px;}
+.video-tile{position:relative;flex:1;border-radius:10px;display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.video-tile .avatar-big{font-family:'Caveat',cursive;font-weight:700;font-size:28px;opacity:.6;}
+.video-tile .label-tile{position:absolute;bottom:4px;left:4px;right:4px;display:flex;justify-content:space-between;padding:3px 8px;border-radius:6px;font-size:12px;}
+.video-tile .label-tile .name{font-family:'Caveat',cursive;font-weight:600;font-size:15px;}
+.video-tile .label-tile .role{font-size:12px;}
+.video-tile .speaking-indicator{position:absolute;inset:0;border:3px solid var(--green);border-radius:10px;opacity:0;pointer-events:none;}
+.video-tile.speaking .speaking-indicator{opacity:1;}
+.video-row-small{display:flex;gap:6px;height:100px;}
+.video-tile-sm{position:relative;flex:1;border-radius:10px;display:flex;align-items:center;justify-content:center;}
+.video-tile-sm .avatar-sm{font-family:'Caveat',cursive;font-weight:700;font-size:18px;opacity:.6;}
+.video-tile-sm .label-tile{position:absolute;bottom:4px;left:4px;right:4px;display:flex;justify-content:space-between;padding:2px 6px;border-radius:6px;font-size:11px;}
+.call-controls{display:flex;justify-content:center;gap:12px;padding:8px 0;margin-top:auto;}
+.call-controls .ctrl-btn{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;cursor:pointer;border:0;}
+.call-controls .ctrl-btn:active{transform:scale(.9);}
+.call-controls .ctrl-btn.mic{background:var(--paper-2);}
+.call-controls .ctrl-btn.mic.muted{background:var(--red);color:#fff;}
+.call-controls .ctrl-btn.cam{background:var(--paper-2);}
+.call-controls .ctrl-btn.cam.off{background:var(--red);color:#fff;}
+.call-controls .ctrl-btn.chat-btn{background:var(--blue);color:#fff;}
+.call-controls .ctrl-btn.hangup{background:var(--red);color:#fff;}
+.call-controls .ctrl-btn.doc{background:var(--paper-2);}
+.call-timer{text-align:center;font-size:14px;color:var(--ink-soft);padding:2px;}
+
+/* ============================================================
+   SCREEN 5 — CHAT DE EVIDÊNCIAS
+   ============================================================ */
+.evidence-chat{flex:1;display:flex;flex-direction:column;}
+.evidence-chat .msg-group{flex:1;overflow-y:auto;padding:6px 0;}
+.evidence-chat .msg-row{display:flex;gap:8px;margin:8px 0;}
+.evidence-chat .msg-row .sender{font-family:'Caveat',cursive;font-weight:600;font-size:18px;color:var(--ink-soft);width:40px;flex:0 0 auto;text-align:right;}
+.evidence-chat .msg-row .content{flex:1;}
+.evidence-chat .msg-row .content .bubble2{padding:10px 14px;margin:0;display:inline-block;max-width:100%;}
+.evidence-chat .msg-row .content .file-attachment{display:flex;align-items:center;gap:8px;padding:8px 12px;background:#fbf7ee;border-radius:10px;margin:4px 0;}
+.evidence-chat .msg-row .content .file-attachment .file-icon{font-size:24px;}
+.evidence-chat .msg-row .content .file-attachment .file-info .fn{font-size:14px;}
+.evidence-chat .msg-row .content .file-attachment .file-info .fs{font-size:12px;color:var(--ink-faint);}
+.evidence-chat .msg-row .content .time{font-size:11px;color:var(--ink-faint);margin-top:2px;}
+.evidence-chat .chat-input{display:flex;gap:8px;padding:8px 0;align-items:center;}
+.evidence-chat .chat-input .fieldbox{flex:1;}
+.evidence-chat .chat-input .fieldbox input{width:100%;font-family:'Patrick Hand',cursive;font-size:16px;background:transparent;border:0;outline:0;padding:10px 12px;color:var(--ink);}
+.evidence-chat .chat-input .send-btn{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--blue);color:#fff;cursor:pointer;font-size:18px;flex:0 0 auto;}
+.evidence-chat .chat-input .send-btn:active{transform:scale(.9);}
+.evidence-chat .chat-input .attach-btn{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--paper-2);cursor:pointer;font-size:18px;flex:0 0 auto;}
+
+/* ============================================================
+   SCREEN 6 — TERMO DE ACORDO
+   ============================================================ */
+.term-preview{flex:1;display:flex;flex-direction:column;gap:10px;}
+.term-preview .doc-header{display:flex;align-items:center;gap:10px;padding:8px 0;}
+.term-preview .doc-header .icon-doc{font-size:32px;}
+.term-preview .doc-header .info .title2{font-family:'Caveat',cursive;font-weight:700;font-size:20px;}
+.term-preview .doc-header .info .sub2{font-size:13px;color:var(--ink-soft);}
+.term-preview .doc-body{padding:14px;flex:1;overflow-y:auto;font-size:15px;line-height:1.5;background:#fbf7ee;border-radius:10px;}
+.term-preview .doc-body h4{margin:0 0 8px;font-family:'Caveat',cursive;font-size:18px;}
+.term-preview .doc-body p{margin:6px 0;}
+.term-preview .doc-body .highlight-box{background:var(--hl);padding:10px;border-radius:8px;margin:10px 0;}
+.term-preview .doc-body .highlight-box .val{font-family:'Caveat',cursive;font-weight:700;font-size:28px;}
+.term-preview .doc-footer{display:flex;gap:8px;padding:4px 0;}
+
+/* ============================================================
+   SCREEN 7 — ASSINATURA DIGITAL
+   ============================================================ */
+.sign-screen{display:flex;flex-direction:column;align-items:center;gap:12px;padding:14px 0;}
+.sign-screen .icon-sign{font-size:52px;margin:6px 0;}
+.sign-screen .title-sign{font-family:'Caveat',cursive;font-weight:700;font-size:28px;text-align:center;}
+.sign-screen .sub-sign{font-size:15px;color:var(--ink-soft);text-align:center;}
+.sign-screen .summary-card{width:100%;padding:14px;margin:6px 0;}
+.sign-screen .summary-card .row-s{display:flex;justify-content:space-between;padding:6px 0;font-size:15px;}
+.sign-screen .summary-card .row-s .key{color:var(--ink-soft);}
+.sign-screen .summary-card .row-s .val{font-family:'Caveat',cursive;font-weight:600;font-size:18px;}
+.govbr-btn{display:flex;align-items:center;justify-content:center;gap:10px;padding:16px;width:100%;background:linear-gradient(180deg,#d8f0cf,#c4e6b6);cursor:pointer;}
+.govbr-btn:active{transform:translateY(1px);}
+.govbr-btn .gov-icon{font-size:28px;}
+.govbr-btn .gov-text{font-family:'Caveat',cursive;font-weight:700;font-size:22px;}
+.bio-sign{align-items:center;gap:6px;cursor:pointer;display:none;flex-direction:column;margin-top:6px;}
+.bio-sign .ring{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;}
+.bio-sign .ring::before{border-radius:50%;border-color:var(--blue);}
+.bio-sign:active .ring{transform:scale(.92);}
+.bio-sign .lbl{font-size:15px;color:var(--blue);font-family:'Caveat',cursive;font-size:18px;}
+
+/* ============================================================
+   SCREEN 8 — ENCERRAMENTO
+   ============================================================ */
+.result-screen{display:flex;flex-direction:column;align-items:center;gap:12px;padding:20px 0;text-align:center;}
+.result-screen .icon-result{font-size:56px;margin:4px 0;}
+.result-screen .title-result{font-family:'Caveat',cursive;font-weight:700;font-size:32px;}
+.result-screen .sub-result{font-size:16px;color:var(--ink-soft);}
+.result-screen .detail-card{width:100%;padding:14px;margin:6px 0;text-align:left;}
+.result-screen .detail-card .row-r{display:flex;justify-content:space-between;padding:5px 0;font-size:14px;}
+.result-screen .detail-card .row-r .key2{color:var(--ink-soft);}
+.result-screen .detail-card .row-r .val2{font-family:'Caveat',cursive;font-weight:600;font-size:17px;}
+
+.legend{
+  max-width:760px;margin:16px auto 0;display:flex;gap:16px;flex-wrap:wrap;font-size:14px;font-family:'Patrick Hand',cursive;color:var(--ink-soft);
+}
+.legend .sw{display:flex;align-items:center;gap:6px;}
+.legend .sw i{width:16px;height:16px;border-radius:4px;display:inline-block;}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency="0.013" numOctaves="3" seed="7" result="n"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="n" scale="3.2"></feDisplacementMap></filter>
+  <filter id="rough2"><feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="33" result="n"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="n" scale="2.4"></feDisplacementMap></filter>
+</svg>
+
+<div class="topbar rough">
+  <h1>PROCON-DF · Sala de Conciliação Virtual<small>Protótipo de baixa fidelidade · mobile 375px · IHC</small></h1>
+  <div class="controls">
+    <select id="jump" aria-label="Ir para tela"></select>
+    <label><input type="checkbox" id="toggleNotes" checked=""> anotações</label>
+  </div>
+</div>
+
+<div class="stage" id="stage">
+  <div class="phone">
+    <div class="notch"><span></span></div>
+    <div class="statusbar">
+      <span>9:41</span>
+      <span class="dots"><i></i><i></i><i></i> · 4G &nbsp;<span class="batt"></span></span>
+    </div>
+    <div class="viewport" id="viewport">
+
+      <!-- ======== 1 · NOTIFICAÇÃO WHATSAPP ======== -->
+      <section class="screen active" data-screen="notificacao" data-screen-label="01 Notificação">
+        <div class="chat-head">
+          <div class="avatar rough">PD</div>
+          <div><div class="nm">PROCON-DF</div><div class="st">conta oficial · agora</div></div>
+        </div>
+        <div class="note note-l" style="top:120px"><span class="arrow">↘</span>notificação no canal preferido do usuário (WhatsApp)</div>
+        <div class="chat">
+          <div class="bubble rough" data-go="espera">
+            <span class="tag green">📅 Audiência agendada</span><br>
+            Olá, <b>Lucas</b>! A audiência de conciliação com <b>Panificadora do Guará</b> está marcada para <b>hoje às 10h</b>.
+            <br><br>Toque para acessar a sala virtual:
+            <br><span class="lnk">portal.procon.df.gov.br/sala/A8F2C</span>
+            <span class="tm">09:45 ✓✓</span>
+          </div>
+          <div class="bubble rough" data-go="espera" style="align-self:flex-start;max-width:70%;font-size:14px;background:#e8f5e9;">
+            ⏰ Lembrete: teste seu microfone e câmera <b>antes</b> de entrar. O teste leva 30 segundos.
+            <span class="tm">09:45 ✓✓</span>
+          </div>
+          <div class="tap-hint">👆 toque na mensagem para entrar na sala</div>
+          <div class="note note-r" style="top:380px"><span class="arrow">↙</span>lembrete de teste de periféricos reduz falhas técnicas</div>
+        </div>
+      </section>
+
+      <!-- ======== 2 · SALA DE ESPERA ======== -->
+      <section class="screen" data-screen="espera" data-screen-label="02 Sala de Espera">
+        <div class="appbar"><div class="back" data-go="notificacao">←</div><h2>Sala de Espera<small>audiência de conciliação</small></h2></div>
+        <div class="waiting-room">
+          <div class="icon">🤝</div>
+          <div class="title">Sala #A8F2C</div>
+          <div class="sub">A audiência começa em:</div>
+          <div class="countdown-box rough dbl">
+            <div class="num">04:32</div>
+            <div class="lbl">minutos até o horário agendado</div>
+          </div>
+          <div class="note note-r" style="top:210px"><span class="arrow">↙</span>sala de espera com contagem regressiva (HTA 2.1)</div>
+          <div class="participant-list">
+            <div class="p rough">
+              <div class="dot2 green"></div>
+              <div><div class="nm2">Você (Lucas)</div><div class="role">Consumidor</div></div>
+            </div>
+            <div class="p rough">
+              <div class="dot2 yellow"></div>
+              <div><div class="nm2">Gustavo Santos</div><div class="role">Fornecedor — Panificadora do Guará</div></div>
+            </div>
+            <div class="p rough">
+              <div class="dot2 green"></div>
+              <div><div class="nm2">Dr. Marcelo</div><div class="role">Mediador PROCON-DF</div></div>
+            </div>
+          </div>
+          <div class="btn primary rough dbl" data-go="teste" style="margin-top:4px">Entrar na sala</div>
+          <div class="note note-l" style="top:380px"><span class="arrow">↘</span>botão "Entrar" habilitado no horário (ou simulado aqui)</div>
+        </div>
+      </section>
+
+      <!-- ======== 3 · TESTE DE PERIFÉRICOS ======== -->
+      <section class="screen" data-screen="teste" data-screen-label="03 Teste Periféricos">
+        <div class="appbar"><div class="back" data-go="espera">←</div><h2>Teste de Equipamento<small>câmera e microfone</small></h2></div>
+        <div class="crumb" style="margin-bottom:10px">Vamos verificar se seu áudio e vídeo estão funcionando:</div>
+        <div class="peripheral-test">
+          <div class="video-preview rough" style="background:#d9d2c4;">
+            <div class="placeholder">📷 prévia da câmera</div>
+          </div>
+          <div class="note note-r" style="top:170px"><span class="arrow">↙</span>prévia em tempo real (HTA 2.2)</div>
+          <div class="test-row rough dbl">
+            <div class="icon-box rough">🎤</div>
+            <div class="info">
+              <div class="label">Microfone</div>
+              <div class="desc">Fale algo para testar</div>
+            </div>
+            <div class="status-indicator ok" id="micStatus">✓</div>
+          </div>
+          <div class="test-row rough dbl">
+            <div class="icon-box rough">📷</div>
+            <div class="info">
+              <div class="label">Câmera</div>
+              <div class="desc">Sua imagem está sendo capturada</div>
+            </div>
+            <div class="status-indicator ok" id="camStatus">✓</div>
+          </div>
+          <div class="note note-l" style="top:360px"><span class="arrow">↘</span>indicadores verdes = "Tudo funcionando!"</div>
+          <div class="btn primary rough dbl" data-go="sala">✅ Tudo funcionando! Entrar na sala</div>
+          <div class="btn ghost">🔧 Preciso de ajuda técnica</div>
+        </div>
+      </section>
+
+      <!-- ======== 4 · SALA DE CONCILIAÇÃO (VIDEO CALL) ======== -->
+      <section class="screen" data-screen="sala" data-screen-label="04 Videoconferência">
+        <div class="appbar" style="margin-bottom:6px">
+          <h2 style="font-size:20px">Conciliação<small>#A8F2C · Panificadora do Guará</small></h2>
+        </div>
+        <div class="call-timer">⏱ 00:03:42</div>
+        <div class="video-grid">
+          <div class="video-row-main">
+            <div class="video-tile rough" style="background:#d9d2c4;">
+              <div class="avatar-big">👤</div>
+              <div class="label-tile" style="background:rgba(43,43,43,.7);color:#fff;">
+                <span class="name">Gustavo Santos</span>
+                <span class="role" style="color:#a8d5a2;">Fornecedor</span>
+              </div>
+              <div class="speaking-indicator"></div>
+            </div>
+            <div class="video-tile rough" style="background:#d9d2c4;border:3px solid var(--green);">
+              <div class="avatar-big">👤</div>
+              <div class="label-tile" style="background:rgba(43,43,43,.7);color:#fff;">
+                <span class="name">Dr. Marcelo</span>
+                <span class="role" style="color:#ffd700;">Mediador</span>
+              </div>
+              <div class="speaking-indicator"></div>
+            </div>
+          </div>
+          <div class="video-row-small">
+            <div class="video-tile-sm rough" style="background:#c4bdb0;border:3px solid var(--hl);">
+              <div class="avatar-sm">👤</div>
+              <div class="label-tile" style="background:rgba(43,43,43,.7);color:#fff;">
+                <span class="name" style="font-size:13px;">Você (Lucas)</span>
+                <span class="role" style="color:#8fc9ff;">Consumidor</span>
+              </div>
+            </div>
+            <div class="video-tile-sm rough dbl" style="background:#d9d2c4;display:flex;align-items:center;justify-content:center;cursor:pointer;" data-go="evidencias">
+              <div style="text-align:center;font-family:'Caveat',cursive;color:var(--blue);">
+                <div style="font-size:28px;">📄</div>
+                <div style="font-size:14px;">Evidências</div>
+                <div style="font-size:12px;color:var(--ink-faint);">3 arquivos</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="note note-l" style="top:140px"><span class="arrow">↘</span>nome e papel fixos nos vídeos — heurística de reconhecimento</div>
+        <div class="note note-r" style="top:270px"><span class="arrow">↙</span>mediador destacado com borda verde (falante ativo)</div>
+        <div class="call-controls">
+          <button class="ctrl-btn mic rough" id="btnMic" title="Microfone">🎤</button>
+          <button class="ctrl-btn cam rough" id="btnCam" title="Câmera">📷</button>
+          <button class="ctrl-btn doc rough" data-go="evidencias" title="Evidências">📎</button>
+          <button class="ctrl-btn chat-btn rough" data-go="evidencias" title="Chat">💬</button>
+          <button class="ctrl-btn hangup rough" data-go="termo" title="Encerrar chamada">✕</button>
+        </div>
+      </section>
+
+      <!-- ======== 5 · CHAT DE EVIDÊNCIAS ======== -->
+      <section class="screen" data-screen="evidencias" data-screen-label="05 Evidências">
+        <div class="appbar"><div class="back" data-go="sala">←</div><h2>Evidências<small>compartilhadas na sessão</small></h2></div>
+        <div class="note note-l" style="top:120px"><span class="arrow">↘</span>chat integrado — HTA 3.3 (troca de documentos)</div>
+        <div class="evidence-chat">
+          <div class="msg-group">
+            <div class="msg-row">
+              <div class="sender">L:</div>
+              <div class="content">
+                <div class="bubble2 rough dbl">
+                  Boa dia! Aqui está o comprovante Pix do pagamento e os e-mails com a loja.
+                </div>
+                <div class="file-attachment rough">
+                  <div class="file-icon">📄</div>
+                  <div class="file-info">
+                    <div class="fn">comprovante_pix.pdf</div>
+                    <div class="fs">248 KB · enviado por você</div>
+                  </div>
+                  <div style="margin-left:auto;font-size:20px;">✓</div>
+                </div>
+                <div class="time">09:58</div>
+              </div>
+            </div>
+            <div class="msg-row">
+              <div class="sender">M:</div>
+              <div class="content">
+                <div class="bubble2 rough dbl">
+                  Obrigado, Lucas. Gustavo, confirma o valor de R$ 1.247,00?
+                </div>
+                <div class="time">09:59</div>
+              </div>
+            </div>
+            <div class="msg-row">
+              <div class="sender">G:</div>
+              <div class="content">
+                <div class="bubble2 rough dbl">
+                  Sim, valor confirmado. Segue print do sistema de pagamento.
+                </div>
+                <div class="file-attachment rough">
+                  <div class="file-icon">🖼️</div>
+                  <div class="file-info">
+                    <div class="fn">print_extrato.png</div>
+                    <div class="fs">1.2 MB · enviado pelo fornecedor</div>
+                  </div>
+                  <div style="margin-left:auto;font-size:20px;">✓</div>
+                </div>
+                <div class="time">09:59</div>
+              </div>
+            </div>
+          </div>
+          <div class="note note-r" style="top:360px"><span class="arrow">↙</span>documentos aparecem com miniatura e confirmação de entrega</div>
+          <div class="chat-input">
+            <div class="attach-btn rough">📎</div>
+            <div class="fieldbox rough" style="flex:1;"><input placeholder="Digite uma mensagem..."></div>
+            <div class="send-btn">➤</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== 6 · TERMO DE ACORDO ======== -->
+      <section class="screen" data-screen="termo" data-screen-label="06 Termo de Acordo">
+        <div class="appbar"><div class="back" data-go="sala">←</div><h2>Termo de Acordo<small>elaborado pelo mediador</small></h2></div>
+        <div class="crumb">O mediador elaborou a seguinte minuta de acordo:</div>
+        <div class="term-preview">
+          <div class="doc-body rough dbl">
+            <h4>📄 Termo de Conciliação — #A8F2C</h4>
+            <p><b>Partes:</b> Lucas Silva (consumidor) × Panificadora do Guará (fornecedor)</p>
+            <hr class="scribble-line" style="margin:8px 0;">
+            <p>A empresa <b>Panificadora do Guará</b> compromete-se a:</p>
+            <div class="highlight-box">
+              <div>💵 Estornar <b>integralmente</b> o valor de</div>
+              <div class="val">R$ 1.247,00</div>
+              <div>na conta original do Pix em até <b>5 dias úteis</b></div>
+            </div>
+            <p>📦 Fornecer um <b>voucher de cortesia</b> no valor de R$ 50,00 para próxima compra.</p>
+            <p>O consumidor declara-se <b>satisfeito</b> e dá por encerrada a reclamação #2024-8842.</p>
+          </div>
+          <div class="note note-r" style="top:180px"><span class="arrow">↙</span>termo editado ao vivo pelo mediador (Cenário 1)</div>
+          <div class="doc-footer">
+            <div class="btn accept rough dbl" data-go="assinatura" style="margin:0;flex:1">✓ Aceitar e assinar</div>
+            <div class="btn ghost" data-go="sala" style="margin:0;flex:0 0 auto;padding:13px 12px;">Sugerir alteração</div>
+          </div>
+          <div class="note note-l" style="top:380px"><span class="arrow">↘</span>linguagem simples — sem juridiquês</div>
+        </div>
+      </section>
+
+      <!-- ======== 7 · ASSINATURA DIGITAL ======== -->
+      <section class="screen" data-screen="assinatura" data-screen-label="07 Assinatura Digital">
+        <div class="appbar"><div class="back" data-go="termo">←</div><h2>Assinatura Digital<small>gov.br ou biometria</small></h2></div>
+        <div class="sign-screen">
+          <div class="icon-sign">✍️</div>
+          <div class="title-sign">Assine o acordo</div>
+          <div class="sub-sign">Sua assinatura tem <b>validade jurídica</b> e encerra a reclamação.</div>
+          <div class="summary-card rough dbl">
+            <div class="row-s"><span class="key">Acordo</span><span class="val">R$ 1.247,00 + voucher R$ 50</span></div>
+            <div class="row-s"><span class="key">Empresa</span><span class="val">Panificadora do Guará</span></div>
+            <div class="row-s"><span class="key">Status</span><span class="val" style="color:var(--green);">Aguardando sua assinatura</span></div>
+          </div>
+          <div class="note note-r" style="top:200px"><span class="arrow">↙</span>assinatura Gov.br com validade jurídica imediata (HTA 4.1)</div>
+          <div class="govbr-btn rough dbl" id="btnGovBr">
+            <div class="gov-icon">🇧🇷</div>
+            <div class="gov-text">Assinar com Gov.br</div>
+          </div>
+          <div class="sign-screen" style="padding:0;gap:4px;" id="bioSignContainer">
+            <div style="font-size:14px;color:var(--ink-soft);font-family:'Caveat',cursive;font-size:18px;">— ou —</div>
+            <div class="bio-sign" id="bioSign">
+              <div class="ring rough">
+                <svg width="30" height="36" viewBox="0 0 34 40" fill="none" stroke="#2f4f8f" stroke-width="2" stroke-linecap="round">
+                  <path d="M17 6 C9 6 5 12 5 20 C5 27 6 32 7 36"></path><path d="M17 12 C12 12 11 16 11 21 C11 27 12 31 13 35"></path><path d="M17 18 C15 18 17 25 17 34"></path><path d="M23 9 C28 12 29 17 29 23 C29 29 28 33 27 36"></path>
+                </svg>
+              </div>
+              <div class="lbl">assinar com biometria facial</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== 8 · ENCERRAMENTO ======== -->
+      <section class="screen" data-screen="encerramento" data-screen-label="08 Encerramento">
+        <div class="appbar"><div class="back" data-go="sala">←</div><h2>Conciliação encerrada</h2></div>
+        <div class="result-screen" id="resultSuccess">
+          <div class="icon-result">🎉</div>
+          <div class="title-result" style="color:var(--green)">Acordo firmado!</div>
+          <div class="sub-result">A reclamação #2024-8842 foi encerrada com sucesso.</div>
+          <div class="detail-card rough dbl">
+            <div class="row-r"><span class="key2">Valor do acordo</span><span class="val2">R$ 1.247,00</span></div>
+            <div class="row-r"><span class="key2">Voucher cortesia</span><span class="val2">R$ 50,00</span></div>
+            <div class="row-r"><span class="key2">Prazo p/ estorno</span><span class="val2">5 dias úteis</span></div>
+            <div class="row-r"><span class="key2">Status</span><span class="val2" style="color:var(--green);">Acordo firmado ✓</span></div>
+          </div>
+          <div class="note note-r" style="top:220px"><span class="arrow">↙</span>feedback de sucesso + resumo executado (HTA 4.1)</div>
+          <div class="btn primary rough dbl" data-go="notificacao">📩 Enviar PDF por WhatsApp</div>
+          <div class="btn ghost" data-go="notificacao">Voltar ao início</div>
+        </div>
+        <!-- hidden alternate: sem acordo -->
+        <div class="result-screen" id="resultNoAgreement" style="display:none;">
+          <div class="icon-result">📋</div>
+          <div class="title-result" style="color:var(--blue)">Sem acordo</div>
+          <div class="sub-result">A audiência foi encerrada sem consenso. O PROCON-DF analisará o caso em até <b>30 dias</b>.</div>
+          <div class="detail-card rough dbl">
+            <div class="row-r"><span class="key2">Status</span><span class="val2" style="color:#c0392b;">Sem acordo</span></div>
+            <div class="row-r"><span class="key2">Próximo passo</span><span class="val2">Análise do PROCON</span></div>
+            <div class="row-r"><span class="key2">Prazo</span><span class="val2">Até 30 dias</span></div>
+          </div>
+          <div class="note note-r" style="top:220px"><span class="arrow">↙</span>próximo passo claro — HTA 4.2 (evita sensação de abandono)</div>
+          <div class="btn ghost" data-go="notificacao">Voltar ao início</div>
+        </div>
+      </section>
+
+    </div><!-- /viewport -->
+  </div><!-- /phone -->
+</div><!-- /stage -->
+
+<div class="legend hide-on-mobile">
+  <span class="sw"><i style="background:#ffe27a"></i> etapa / ação principal</span>
+  <span class="sw"><i style="background:#c0392b"></i> precisa de atenção</span>
+  <span class="sw"><i style="background:#2f4f8f"></i> anotação de UX</span>
+</div>
+
+<script>
+(function(){
+  var labels={
+    notificacao:'1 · Notificação WhatsApp',
+    espera:'2 · Sala de Espera',
+    teste:'3 · Teste de Periféricos',
+    sala:'4 · Videoconferência',
+    evidencias:'5 · Chat de Evidências',
+    termo:'6 · Termo de Acordo',
+    assinatura:'7 · Assinatura Digital',
+    encerramento:'8 · Encerramento'
+  };
+  var order=Object.keys(labels);
+  var screens={};
+  document.querySelectorAll('.screen').forEach(function(s){screens[s.dataset.screen]=s;});
+
+  var jump=document.getElementById('jump');
+  order.forEach(function(k){var o=document.createElement('option');o.value=k;o.textContent=labels[k];jump.appendChild(o);});
+
+  var viewport=document.getElementById('viewport');
+  function show(id){
+    if(!screens[id])return;
+    Object.values(screens).forEach(function(s){s.classList.remove('active');});
+    screens[id].classList.add('active');
+    screens[id].scrollTop=0;
+    jump.value=id;
+    viewport.scrollTop=0;
+  }
+
+  document.addEventListener('click',function(e){
+    var t=e.target.closest('[data-go]');
+    if(t){show(t.dataset.go);}
+  });
+  jump.addEventListener('change',function(){show(jump.value);});
+
+  document.getElementById('toggleNotes').addEventListener('change',function(e){
+    document.getElementById('stage').classList.toggle('notes-hidden',!e.target.checked);
+  });
+
+  // Mic toggle
+  var btnMic=document.getElementById('btnMic');
+  var micOn=true;
+  btnMic.addEventListener('click',function(){
+    micOn=!micOn;
+    btnMic.classList.toggle('muted',!micOn);
+    btnMic.textContent=micOn?'🎤':'🔇';
+  });
+
+  // Cam toggle
+  var btnCam=document.getElementById('btnCam');
+  var camOn=true;
+  btnCam.addEventListener('click',function(){
+    camOn=!camOn;
+    btnCam.classList.toggle('off',!camOn);
+    btnCam.textContent=camOn?'📷':'📷';
+  });
+
+  // Gov.br -> biometric -> success
+  var btnGov=document.getElementById('btnGovBr');
+  var bioSign=document.getElementById('bioSign');
+  var bioContainer=document.getElementById('bioSignContainer');
+  btnGov.addEventListener('click',function(){
+    btnGov.style.display='none';
+    bioContainer.style.display='flex';
+  });
+  bioSign.addEventListener('click',function(){
+    var lbl=bioSign.querySelector('.lbl');
+    lbl.textContent='✓ assinado com biometria!';
+    lbl.style.color='#5f8a5a';
+    setTimeout(function(){show('encerramento');},600);
+  });
+
+  show('notificacao');
+})();
+</script>
+
+</body>
+</html>
