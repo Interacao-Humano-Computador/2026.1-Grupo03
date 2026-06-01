@@ -53,7 +53,6 @@ O participante leu os quadros do storyboard em tela, verbalizando sua compreens√
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | [Heitor Macedo](../equipe/equipe.md) | <span style="color: orange">P1</span> | 13:00 | 13:10 | 30/05/2026 | Presencial |
 | [Pedro Moretti](../equipe/equipe.md) | <span style="color: orange">P2</span> | 11:30 | 11:50 | 30/05/2026 | Presencial |
-| [Pedro Moretti](../equipe/equipe.md) | <span style="color: orange">P3</span> | 15:30 | 16:00 | 30/05/2026 | Presencial |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Heitor Macedo Ricardo, Pedro Moretti e Heloisa Silva.</i></p>

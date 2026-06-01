@@ -113,9 +113,9 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Planejamento de Avaliação de Storyboard** | 1 | — | — | 1 | — | — |
     | **Planejamento do Relato de Tarefas** | — | 1 | — | — | — | — |
     | **Planejamento do Relato de Storyboard** | — | 1 | — | — | — | — |
-    | **Storyboard** | — | 1 | — | — | — | — |
-    | **Lista de Verificação (Etapa 4 - itens)** | — | 5 | — | — | — | — |
-    | **Total de documentos criados** | 1 | 3 | — | 1 | 1 | — |
+    | **Storyboard** | — | 1 | — | 1 | — | — |
+    | **Lista de Verificação (Etapa 4 - itens)** | — | 5 | — | 9 | — | — |
+    | **Total de documentos criados** | 1 | 3 | — | 1 | 2 | — |
     | **Total de documentos revisados** | — | 1 | 2 | 2 | — | — |
 
 === "Etapa 5"
@@ -124,11 +124,12 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
     | **Planejamento de Avaliação do Protótipo de Papel** | — | 1 | — | — | — | — |
     | **Planejamento do Relato do Protótipo de Papel** | — | 1 | — | — | — | — |
-    | **Protótipo de Papel** | — | — | — | — | — | 1 |
-    | **Relato dos Resultados do Storyboard** | — | 1 | — | — | — | — |
-    | **Relato dos Resultados da Análise de Tarefas** | — | 1 | — | — | — | — |
-    | **Total de documentos criados** | 0 | 4 | 0 | 0 | 0 | 1 |
-    | **Total de documentos revisados** | 0 | 0 | 0 | 4 | 0 | 2 |
+    | **Protótipo de Papel** | — | — | — | 1 | — | 1 |
+    | **Relato dos Resultados do Storyboard** | — | 1 | — | 1 | — | — |
+    | **Relato dos Resultados da Análise de Tarefas** | — | 1 | — | 1 | — | — |
+    | **Lista de Verificação (Etapa 5 - itens)** | — | 6 | — | 7 | — | — |
+    | **Total de documentos criados** | 0 | 4 | 0 | 3 | 0 | 1 |
+    | **Total de documentos revisados** | 3 | 0 | 0 | 4 | 0 | 2 |
 
 ---
 

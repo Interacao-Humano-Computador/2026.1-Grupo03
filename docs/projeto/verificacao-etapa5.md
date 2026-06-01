@@ -66,4 +66,5 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 
 | Versão | Data       | Descrição                                                                              | Autor(es)     | Revisor(es)   |
 | :---   | :---       | :---                                                                                   | :---          | :---          |
+| `1.1`  | 31/05/2026 | Criação dos itens sobre framework DECIDE e atualização do glossário. | Pedro Moretti | Heitor Macedo |
 | `1.0`  | 31/05/2026 | Criação da lista de verificação da Etapa 5 com itens de relato de resultados e glossário. | Heitor Macedo | Pedro Moretti |
