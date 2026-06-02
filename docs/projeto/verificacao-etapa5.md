@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Esta lista de verificação consolida os critérios obrigatórios presentes no Plano de Ensino da disciplina, recomendados pelo Professor, e também inclui itens elaborados pelos integrantes do grupo relacionados ao conteúdo da disciplina, com seus respectivos autores, conforme a orientação registrada pelo Professor na tabela de Itens do Conteúdo da Disciplina. Assim, o documento reúne os parâmetros estratégicos definidos internamente pela equipe para garantir o rigor máximo e a qualidade técnica da **Etapa 5** dos artefatos do grupo e do grupo - 1.
+Esta lista de verificação consolida os critérios obrigatórios presentes no Plano de Ensino da disciplina, recomendados pelo Professor, e também inclui itens elaborados pelos integrantes do grupo relacionados ao conteúdo da disciplina, com seus respectivos autores, conforme a orientação registrada pelo Professor na tabela de Itens do Conteúdo da Disciplina. Assim, o documento reúne os parâmetros estratégicos definidos internamente pela equipe para garantir o rigor máximo e a qualidade técnica da **Etapa 5** dos artefatos do grupo e do grupo + 1.
 
 ---
 
