@@ -49,6 +49,16 @@ Neste storyboard, o usuário Gustavo (Microempreendedor e Fornecedor), que traba
 
 ---
 
+### 2.3 Tarefa 3: Assistente de Triagem Guiada para Reclamações
+
+Este storyboard ilustra a jornada de Ivone Maria da Silva, uma auxiliar de limpeza de 56 anos com pouca familiaridade tecnológica, utilizando seu smartphone para registrar uma reclamação sobre uma compra não entregue no portal do PROCON-DF. A narrativa visual demonstra o funcionamento prático do Assistente de Triagem Guiada, transformando uma experiência digital antes intimidadora em um fluxo interativo, limpo e em formato de passo a passo (wizard). Ao longo dos quadrinhos, Ivone localiza facilmente o botão central de alto contraste, compreende o papel do órgão por meio de uma linguagem cidadã, anexa a foto do seu comprovante de pagamento e finaliza o processo com total autonomia, segurança e alívio por não ter enfrentado jargões jurídicos ou poluição visual.
+
+<div id="figura1" align="center">
+  <p>Figura 3 - Storyboard da Tarefa 3</p>
+  <a href="../images/storyboardpedromacedo.png" target=_blank><img src="../images/storyboardpedromacedo.png" alt="Storybiard da Assistente de Triagem Guiada para Reclamações"></a>
+  <p><b>Fonte:</b> Pedro Macedo</p>
+</div>
+
 ## 3. Comprovação Teórica e Referência Bibliográfica
 A fundamentação da técnica de Storyboards aplicada neste artefato baseia-se na literatura oficial da disciplina.
 
@@ -59,13 +69,12 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento e cria�
 ## Referência:
 > BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021. (Capítulo 6, Seção 6.3.4, p. 107-108).
 
-**[INSERIR AQUI A FOTO/PRINT DA PÁGINA 107/108 DO LIVRO BARBOSA ET AL. ONDE FALA SOBRE STORYBOARDS ("O designer utiliza storyboards para explorar ideias sobre como melhorar a prática de trabalho...")]**
-
 ---
 
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
+| 1.1 | 02/06/2026 | Adição do sotyboard 3 | Pedro Macedo | Heloisa Silva |
 | 1.0 | 16/05/2026 | Criação do documento, introdução metodológica e Storyboard da Tarefa 1. | Heitor Ricardo | Heloisa Silva |
 
 ## Notas de Rodapé e Referências de Imagens
