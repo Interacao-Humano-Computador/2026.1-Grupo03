@@ -7,7 +7,7 @@ Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
 |---|---|
 | Heitor Macedo | Elaborou o Artefato |
 
-Este documento detalha o planejamento para a avaliação do protótipo de papel elaborado para o projeto, utilizando o framework **DECIDE** proposto por Preece et al. (2002) e adaptado por Barbosa e Silva (2021)<sup><a href="#ref1">[1]</a></sup>. A avaliação tem como objetivo identificar **problemas de usabilidade na interação e na interface** representados no protótipo de papel e **comparar ideias e alternativas de design** diante da solução proposta para o sistema do PROCON-DF.
+Este documento detalha o planejamento para a avaliação do protótipo de papel elaborado para o projeto, utilizando o framework **DECIDE** proposto por Preece et al. (2002) e adaptado por Barbosa e Silva (2021)<sup><a href="#ref1">[1]</a></sup>. A avaliação tem como objetivo identificar **problemas de usabilidade na interação e na interface** representados no protótipo de papel diante da solução proposta para o sistema do PROCON-DF.
 
 ---
 
@@ -15,7 +15,7 @@ Este documento detalha o planejamento para a avaliação do protótipo de papel 
 
 A avaliação do protótipo de papel é uma etapa fundamental para identificar problemas de usabilidade antes do investimento em soluções de maior fidelidade. Segundo Barbosa et al. (2021)<sup><a href="#ref1">[1]</a></sup>, o método de prototipação em papel avalia a usabilidade de um design de IHC por meio de simulações de uso com potenciais usuários, sendo uma opção rápida e econômica para identificar problemas de usabilidade antes de construir uma solução executável.
 
-Este processo permite identificar pontos fracos na proposta de design, **comparar ideias e alternativas**, **verificar a conformidade com padrões** de usabilidade e **identificar problemas na interação e na interface** antes do desenvolvimento do protótipo de alta fidelidade, garantindo que a direção do projeto esteja alinhada com as necessidades e expectativas do público-alvo do PROCON-DF.
+Este processo permite identificar pontos fracos na proposta de design, **verificar a conformidade com padrões** de usabilidade e **identificar problemas na interação e na interface** antes do desenvolvimento do protótipo de alta fidelidade, garantindo que a direção do projeto esteja alinhada com as necessidades e expectativas do público-alvo do PROCON-DF.
 
 ---
 
@@ -36,16 +36,15 @@ O DECIDE funciona como um roteiro que orienta o avaliador através de seis etapa
 
 ## 1. D - Determinar os objetivos da avaliação <sup><a href="#fig-d">[2]</a></sup>
 
-Com base nos tipos de avaliação descritos por Barbosa et al. (2021, Capítulo 11), esta avaliação está orientada a três aspectos complementares: **verificar a conformidade com um padrão**, **comparar ideias e alternativas de design** e **identificar problemas na interação e na interface** representados no protótipo de papel proposto para o sistema do PROCON-DF.
+Com base nos tipos de avaliação descritos por Barbosa et al. (2021, Capítulo 11), esta avaliação está orientada a dois aspectos complementares: **verificar a conformidade com um padrão** e **identificar problemas na interação e na interface** representados no protótipo de papel proposto para o sistema do PROCON-DF.
 
-### Verificar a Conformidade com um Padrão e Comparar Ideias de Design
+### Verificar a Conformidade com um Padrão
 
-A avaliação buscará identificar se o protótipo de papel proposto está em conformidade com padrões de usabilidade e se as soluções de design adotadas são as mais adequadas para o contexto do PROCON-DF (Barbosa et al., 2021, p. 249).
+A avaliação buscará identificar se o protótipo de papel proposto está em conformidade com padrões de usabilidade para o contexto do PROCON-DF (Barbosa et al., 2021, p. 249).
 
 **Objetivos específicos para este aspecto:**
 
 * Verificar se a organização visual e a arquitetura de informação do protótipo seguem padrões de usabilidade reconhecidos.
-* Comparar as alternativas de design propostas para fluxos críticos (registro de reclamação, consulta de andamento) e identificar qual apresenta melhor desempenho de uso.
 * Avaliar se a interface proposta é consistente e previsível para o usuário do PROCON-DF.
 
 ### Identificar Problemas na Interação e na Interface
@@ -67,14 +66,13 @@ A avaliação de problemas na interação e na interface busca identificar, nos 
 
 Para tornar os objetivos operacionais, a equipe elaborou perguntas específicas organizadas pelos aspectos avaliados (Barbosa et al., 2021, p. 249-250).
 
-### Perguntas sobre Conformidade e Comparação de Design
+### Perguntas sobre Conformidade com Padrões
 
 Com base em Barbosa et al. (2021, p. 250-251), as seguintes perguntas nortearão a avaliação deste aspecto:
 
 1. Com o protótipo de papel foi possível explorar conceitos de design?
 2. Foi observada alguma sugestão de melhoria para o protótipo proposto?
 3. A interface proposta está em conformidade com padrões de usabilidade reconhecidos (ex.: hierarquia visual, feedback de ação)?
-4. As alternativas de design avaliadas apresentam diferenças significativas de desempenho de uso?
 
 ### Perguntas sobre Problemas na Interação e na Interface
 
@@ -103,9 +101,9 @@ O método de observação direta permite que o avaliador identifique comportamen
 
 Para garantir a viabilidade e o rigor metodológico da avaliação do protótipo de papel do PROCON-DF, a equipe deverá gerenciar os seguintes aspectos organizacionais:
 
-**Recrutamento de Participantes:** Para a avaliação serão convidados entre 3 e 5 participantes que se encaixem no [perfil de usuário](../analise-requisitos/perfil-usuario.md) definido no projeto. Recomenda-se ter entre 3 a 5 participantes para obter resultados significativos e identificar problemas recorrentes de usabilidade. Os participantes devem apresentar semelhança com as [personas](../analise-requisitos/personas.md) do projeto — em especial Laura (Consumidora Reclamante) e Gustavo (Fornecedor/Comerciante).
+**Recrutamento de Participantes:** Cada integrante do grupo será responsável por recrutar **um participante** que se encaixe no [perfil de usuário](../analise-requisitos/perfil-usuario.md) definido no projeto. Os participantes devem apresentar semelhança com as [personas](../analise-requisitos/personas.md) do projeto — em especial Laura (Consumidora Reclamante) e Gustavo (Fornecedor/Comerciante).
 
-**Preparação da Avaliação:** Cada sessão contará com um **Entrevistador/Mediador**, responsável por guiar a simulação e apresentar as telas do protótipo, e um **Observador/Anotador**, encarregado de registrar comportamentos, hesitações e dificuldades do participante e de gerenciar a gravação. A avaliação ocorrerá de forma **presencial**, em ambiente silencioso e sem interrupções.
+**Preparação da Avaliação:** Cada sessão será conduzida **individualmente** por um integrante do grupo, que atuará simultaneamente como **moderador e anotador** — responsável por guiar a simulação, apresentar as telas do protótipo, registrar comportamentos, hesitações e dificuldades do participante e gerenciar a gravação. A avaliação ocorrerá de forma **presencial**, em ambiente silencioso e sem interrupções.
 
 **Tarefas Avaliadas:** As tarefas definidas para os participantes executarem com o protótipo de papel são as seguintes:
 
@@ -120,12 +118,13 @@ Para garantir a viabilidade e o rigor metodológico da avaliação do protótipo
 
 **Cronograma:** As entrevistas serão agendadas conforme a disponibilidade dos participantes, seguindo o cronograma macro do projeto. Os resultados de cada sessão devem ser documentados imediatamente após a ocorrência.
 
-| Protótipo/Tarefa | Entrevistador(es) | Entrevistado | Horário de Início | Horário de Fim | Data |
+| Sessão | Integrante | Participante | Horário de Início | Horário de Fim | Data |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Tarefa 1 - Registrar Reclamação] | [Nome] | [ID do Participante] | [Hora] | [Hora] | [Data] |
-| [Tarefa 2 - Consultar Andamento] | [Nome] | [ID do Participante] | [Hora] | [Hora] | [Data] |
-| [Tarefa 3 - Buscar Informações] | [Nome] | [ID do Participante] | [Hora] | [Hora] | [Data] |
-| [Tarefa 4 - Localizar Serviços] | [Nome] | [ID do Participante] | [Hora] | [Hora] | [Data] |
+| Sessão 1 | [Nome do Integrante] | [ID do Participante] | [Hora] | [Hora] | [Data] |
+| Sessão 2 | [Nome do Integrante] | [ID do Participante] | [Hora] | [Hora] | [Data] |
+| Sessão 3 | [Nome do Integrante] | [ID do Participante] | [Hora] | [Hora] | [Data] |
+| Sessão 4 | [Nome do Integrante] | [ID do Participante] | [Hora] | [Hora] | [Data] |
+| Sessão 5 | [Nome do Integrante] | [ID do Participante] | [Hora] | [Hora] | [Data] |
 
 **Roteiro de Perguntas (Abordagem Semiestruturada):** O roteiro será construído sob a ótica de uma entrevista semiestruturada, que busca um equilíbrio entre o rigor do planejamento e a flexibilidade da conversa. O roteiro não será apenas uma lista de perguntas fechadas, mas um guia composto por tópicos e perguntas abertas dispostos em uma ordem lógica. Essa estrutura permite que o avaliador tenha liberdade para explorar em maior profundidade as respostas do participante.
 
@@ -166,7 +165,7 @@ O processo de avaliação não termina quando a sessão acaba. Para que o trabal
 1. **Transcrição e Compilação Bruta:** O observador deve assistir às gravações e transformar os relatos verbais em texto, extraindo citações marcantes, dificuldades e sugestões propostas pelos participantes.
 2. **Análise e Categorização:** A equipe se reunirá para ler os dados compilados e categorizá-los de acordo com os aspectos avaliados:
     - **Problemas na interação e na interface:** agrupar por tipo de problema (rótulo confuso, fluxo ambíguo, elemento inacessível, feedback ausente), gravidade potencial e fator de qualidade prejudicado.
-    - **Conformidade e alternativas de design:** agrupar por elemento de interface avaliado e registrar qual alternativa de design apresentou melhor desempenho de uso.
+    - **Conformidade com padrões:** agrupar as observações por elemento de interface avaliado.
 3. **Identificação de Problemas e Sugestões:** A partir dos padrões identificados, a equipe extrairá a lista final de problemas de usabilidade encontrados no protótipo, classificados por gravidade e fator de qualidade de uso prejudicado.
 4. **Relato dos Resultados:** Por fim, a equipe produzirá um documento contendo:
     * **O planejamento e execução:** (Onde ocorreu, quem participou, perfil dos usuários reais).
