@@ -33,6 +33,91 @@ O protótipo cobre as seguintes telas e interações:
 
 ---
 
+## Fotos do Protótipo de Papel
+
+As imagens abaixo registram o protótipo de papel físico elaborado para a funcionalidade de Notificação Ativa, utilizado nas sessões de avaliação com usuários.
+
+<div align="center">
+  <p><b>Figura 2 — Protótipo de Papel (1/9)</b></p>
+  <img src="../images/IMG_3047.png" alt="Protótipo de papel - foto 1" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Heitor Macedo, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 3 — Protótipo de Papel (2/9)</b></p>
+  <img src="../images/IMG_3048.png" alt="Protótipo de papel - foto 2" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Heitor Macedo, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 4 — Protótipo de Papel (3/9)</b></p>
+  <img src="../images/IMG_3049.png" alt="Protótipo de papel - foto 3" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Heitor Macedo, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 5 — Protótipo de Papel (4/9)</b></p>
+  <img src="../images/IMG_3050.png" alt="Protótipo de papel - foto 4" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Heitor Macedo, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 6 — Protótipo de Papel (5/9)</b></p>
+  <img src="../images/IMG_3051.png" alt="Protótipo de papel - foto 5" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Heitor Macedo, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 7 — Protótipo de Papel (6/9)</b></p>
+  <img src="../images/IMG_3052.png" alt="Protótipo de papel - foto 6" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Heitor Macedo, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 8 — Protótipo de Papel (7/9)</b></p>
+  <img src="../images/IMG_3053.png" alt="Protótipo de papel - foto 7" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Heitor Macedo, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 9 — Protótipo de Papel (8/9)</b></p>
+  <img src="../images/IMG_3054.png" alt="Protótipo de papel - foto 8" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Heitor Macedo, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 10 — Protótipo de Papel (9/9)</b></p>
+  <img src="../images/IMG_3055.png" alt="Protótipo de papel - foto 9" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Heitor Macedo, 2026.</i></p></div>
+
+---
+
 ## Protótipo Interativo
 
 O protótipo abaixo é navegável diretamente no navegador. Clique nas telas para avançar no fluxo e simular a interação do usuário com a funcionalidade de Notificação Ativa.
@@ -61,7 +146,7 @@ O protótipo abaixo é navegável diretamente no navegador. Clique nas telas par
   </iframe>
 </div>
 
-<div align="center"><p><i>Fonte: Elaborado por Heitor Macedo.</i></p></div>
+<div align="center"><p><i>Fonte: Elaborado por Heitor Macedo com auxílio da ferrmante de inteligência artificial Claude.</i></p></div>
 
 ---
 

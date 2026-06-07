@@ -33,6 +33,16 @@ A inspeção valida cada critério definido e apresentado na Lista de Verificaç
 
 ---
 
+## Resumo Quantitativo
+
+| Resultado | Quantidade |
+|:---|:---:|
+| <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 14 |
+| <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 2 |
+| **Total** | **16** |
+
+---
+
 ## Apresentação
 
 [🎥 Assistir ao Vídeo da inspeção do grupo -1 no YouTube](https://youtu.be/y__leadPmpw?si=lkn8pFQ7xKYgP8Zt){ target="_blank" }

@@ -61,6 +61,18 @@ A inspeção valida cada critério definido pelo grupo e apresentado na Lista de
 
 ---
 
+## Resumo Quantitativo
+
+| Seção | <span style="background-color: #2e7d32; color: white; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | <span style="background-color: #d32f2f; color: white; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | Total |
+|:---|:---:|:---:|:---:|
+| Perfil de Usuário | 4 | 0 | 4 |
+| Personas | 7 | 0 | 7 |
+| Cenários | 5 | 0 | 5 |
+| Análise de Tarefas | 7 | 0 | 7 |
+| **Total** | **23** | **0** | **23** |
+
+---
+
 ## Apresentação
 
 A apresentação da Entrega 2 foi gravada com as câmeras abertas e publicada no YouTube na categoria "Não Listado", conforme exigência da disciplina.
