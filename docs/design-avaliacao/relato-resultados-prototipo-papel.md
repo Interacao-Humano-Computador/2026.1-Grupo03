@@ -49,7 +49,7 @@ O protótipo de papel avaliado foi o **Protótipo da Sala de Conciliação Virtu
 
 | Entrevistador | Entrevistado | Horário de Início | Horário de Fim | Data | Local |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Pedro Moretti](../equipe/equipe.md) | <span style="color: orange">P1</span> | 11:30 | 11:50 | 01/06/2026 | Presencial |
+| [Pedro Moretti](../equipe/equipe.md) | <span style="color: orange">P1</span> | 16:30 | 16:50 | 05/06/2026 | Presencial |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
@@ -134,13 +134,13 @@ O protótipo cobre as seguintes telas e interações, percorridas sequencialment
 | Pergunta | Resposta |
 | :--- | :---: |
 | 1 – Visão geral: Você achou que o fluxo foi fácil de seguir? Em algum momento se sentiu perdido? | "Bem fácil de seguir, não me senti perdida" |
-| 2 – Prevenção de erros: A etapa de teste de câmera/microfone foi útil? Ficou claro que era obrigatório? | "Útil, sem a possibilidade dos outros não ouvirem quando entrar na sala e ficou claro a obrigatoriedade" |
-| 3 – Ajuda e documentação: Você notou algum guia ou instrução? Sentiu falta de orientação? | "Achou que está bem intuitivo" |
-| 4 – Controle e liberdade: Sabia como silenciar o microfone/desligar câmera? Entendeu o "momento privado"? | "Entendeu, o chat já sabia usar e parece com outras videochamadas" |
-| 5 – Reconhecimento: Estava claro quem era cada participante? Nomes e papéis ajudaram? | "Sim, estava bem claro quem era mediador, fornecedor, nome e assim que entrou na sala conseguiu identificar" |
-| 6 – Assinatura digital: Como avalia a etapa de assinatura? O uso do Gov.br ficou claro? | "Sim, ficou claro e achou a questão de usar o Gov muito prática, porque todo já usamos essa assinatura, o que é um facilitador" |
-| 7 – Problemas encontrados: Teve alguma tela ou elemento confuso? | "Achou tudo bem intuitivo, bem tranquilo para resolver" |
-| 8 – Satisfação: Se sentiria confortável participando de uma audiência real por este sistema? | "Se sentiria muito confortável e acha uma ideia válida para a resolução de muitas questões de uma maneira simples e sem deslocamento" |
+| 2 – Prevenção de erros: A etapa de teste de câmera/microfone foi útil? Ficou claro que era obrigatório? | "Achei útil, porque se não testasse, os outros participantes poderiam não me ouvir quando eu entrasse na sala, e ficou claro que era obrigatório passar pelo teste antes de entrar" |
+| 3 – Ajuda e documentação: Você notou algum guia ou instrução? Sentiu falta de orientação? | "Achei que está bem intuitivo, não precisei de nenhum guia ou instrução adicional porque tudo era autoexplicativo" |
+| 4 – Controle e liberdade: Sabia como silenciar o microfone/desligar câmera? Entendeu o "momento privado"? | "Entendi como funcionava, o chat eu já sabia usar porque é parecido com outras plataformas de videochamada que já utilizo" |
+| 5 – Reconhecimento: Estava claro quem era cada participante? Nomes e papéis ajudaram? | "Sim, estava bem claro quem era o mediador, quem era o fornecedor, cada um com seu nome e papel, e assim que entrei na sala consegui identificar todos" |
+| 6 – Assinatura digital: Como avalia a etapa de assinatura? O uso do Gov.br ficou claro? | "Sim, ficou claro e achei a questão de usar o Gov muito prática, porque todos já usamos essa assinatura, o que é um facilitador" |
+| 7 – Problemas encontrados: Teve alguma tela ou elemento confuso? | "Achei tudo bem intuitivo, bem tranquilo e não encontrei nenhum elemento confuso" |
+| 8 – Satisfação: Se sentiria confortável participando de uma audiência real por este sistema? | "Me sentiria muito confortável e acho uma ideia válida para a resolução de muitas questões de uma maneira simples e sem precisar me deslocar" |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
@@ -166,7 +166,7 @@ A participante avaliou o fluxo completo (do convite ao termo assinado) como **mu
 
 ### Prevenção de Erros
 
-A etapa de **teste de câmera e microfone** foi destacada como útil, com a participante reconhecendo que a verificação obrigatória impede que os demais participantes não a ouçam ao entrar na sala. A obrigatoriedade da etapa ficou clara, demonstrando que o design cumpre o objetivo de prevenção de erros sem gerar confusão ou frustração.
+A etapa de **teste de câmera e microfone** foi destacada como útil, com a participante reconhecendo que a verificação obrigatória garante que os demais participantes a ouçam ao entrar na sala. A obrigatoriedade da etapa ficou clara, demonstrando que o design cumpre o objetivo de prevenção de erros sem gerar confusão ou frustração.
 
 ### Intuitividade e Aprendizado
 
@@ -178,7 +178,7 @@ A identificação visual dos participantes na sala de videoconferência (nomes e
 
 ### Assinatura Digital
 
-A etapa de assinatura digital via **Gov.br** foi recebida de forma muito positiva. A participante destacou que o uso da assinatura digital do Governo Federal é **prático e um facilitador**, uma vez que "todo já usamos essa assinatura". A validade jurídica do documento assinado ficou clara para a participante.
+A etapa de assinatura digital via **Gov.br** foi recebida de forma muito positiva. A participante destacou que o uso da assinatura digital do Governo Federal é **prático e um facilitador**, uma vez que "todos já usamos essa assinatura". A validade jurídica do documento assinado ficou clara para a participante.
 
 ### Satisfação Geral
 
@@ -218,7 +218,7 @@ Não foram identificados problemas de usabilidade, ambiguidades de interface ou 
 
 ## 9. Aspectos Éticos e Termo de Consentimento (TCLE)
 
-O Termo de Consentimento Livre e Esclarecido (TCLE) foi apresentado pelo avaliador no início da sessão, antes de qualquer coleta de dado. O avaliador esclareceu que a avaliação é do sistema — não da participante — e que os dados seriam usados exclusivamente para fins acadêmicos, garantindo o anonimato. A participante P1 manifestou seu consentimento verbalmente, registrado nos primeiros minutos da gravação da sessão.
+O Termo de Consentimento Livre e Esclarecido (TCLE) foi apresentado pelo avaliador no início da sessão, antes de qualquer coleta de dados. O avaliador esclareceu que a avaliação é do sistema — não da participante — e que os dados seriam usados exclusivamente para fins acadêmicos, garantindo o anonimato. A participante P1 manifestou seu consentimento verbalmente, registrado nos primeiros minutos da gravação da sessão.
 
 Os dados da participante são identificados exclusivamente pelo código **P1**, garantindo seu anonimato em todos os documentos produzidos. As gravações de áudio e vídeo estão armazenadas de forma segura e não serão compartilhadas fora do contexto da disciplina de Interação Humano-Computador da UnB.
 
@@ -246,6 +246,12 @@ Os resultados desta avaliação reforçam a direção de design adotada e orient
 ## Referência:
 
 > BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021. (Capítulo 11: Planejamento da Avaliação de IHC, Seção 11.7.5 - Consolidação e Relato dos Resultados, p. 263-264).
+
+---
+
+## Agradecimentos à IA
+
+Agradecimento ao **Claude** pela ajuda na correção e detalhamento das respostas da participante, adequando-as para a primeira pessoa, e na padronização da seção de agradecimentos.
 
 ---
 
