@@ -73,6 +73,17 @@ O objetivo desta inspeção é identificar conformidades e não conformidades no
 
 ---
 
+## Resumo Quantitativo
+
+| Seção | <span style="background-color: #2e7d32; color: white; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | <span style="background-color: #d32f2f; color: white; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | Total |
+|:---|:---:|:---:|:---:|
+| Planejamento geral do projeto | 10 | 2 | 12 |
+| Desenvolvimento do projeto | 7 | 4 | 11 |
+| Itens do conteúdo da disciplina | 12 | 6 | 18 |
+| **Total** | **29** | **12** | **41** |
+
+---
+
 ## Gravação da Inspeção
 
 A inspeção foi gravada e está disponível no YouTube (categoria "Não Listado"):

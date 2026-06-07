@@ -66,6 +66,17 @@ Nesta seção validamos o **Planejamento Geral**, **Desenvolvimento Inicial** e 
 
 ---
 
+## Resumo Quantitativo
+
+| Seção | <span style="background-color: #2e7d32; color: white; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | <span style="background-color: #d32f2f; color: white; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | Total |
+|:---|:---:|:---:|:---:|
+| Planejamento geral do projeto | 11 | 1 | 12 |
+| Desenvolvimento do projeto | 11 | 0 | 11 |
+| Itens do conteúdo da disciplina | 12 | 2 | 14 |
+| **Total** | **34** | **3** | **37** |
+
+---
+
 ## Apresentação
 
 A apresentação da Entrega 1 foi gravada com as câmeras abertas e publicada no YouTube na categoria "Não Listado", conforme exigência da disciplina.
