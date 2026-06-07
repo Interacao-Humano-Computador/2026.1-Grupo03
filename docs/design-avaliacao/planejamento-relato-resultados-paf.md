@@ -276,7 +276,7 @@ Agradecimento ao **Claude** pela ajuda na estruturação e na formatação dos t
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| 1.0 | 07/06/2026 | Criação do Planejamento do Relato dos Resultados do Protótipo de Alta Fidelidade. | [Heitor Macêdo Ricardo](https://github.com/HeitorM50/) | [A definir] |
+| 1.0 | 07/06/2026 | Criação do Planejamento do Relato dos Resultados do Protótipo de Alta Fidelidade. | [Heitor Macêdo Ricardo](https://github.com/HeitorM50/) | Pedro Moretti |
 
 ---
 
