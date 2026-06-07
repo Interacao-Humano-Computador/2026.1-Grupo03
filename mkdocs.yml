@@ -13,7 +13,6 @@ theme:
     - navigation.footer
     - search.suggest
     - search.highlight
-    - toc.integrate
     - content.code.copy
   palette:
     # Palette toggle for light mode
