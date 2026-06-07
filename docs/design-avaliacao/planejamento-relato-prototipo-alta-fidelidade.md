@@ -21,7 +21,6 @@ Este artefato documenta o planejamento detalhado para a avaliação do **Assiste
 
 Para estruturar este planejamento, adota-se o framework **DECIDE** (BARBOSA; SILVA, 2011), que orienta a avaliação de forma sistemática através de seis etapas sequenciais detalhadas na Tabela 1.
 
-<div align="center">
 
 **Tabela 1** – Framework DECIDE e suas definições
 
@@ -36,7 +35,6 @@ Para estruturar este planejamento, adota-se o framework **DECIDE** (BARBOSA; SIL
 
 Fonte: Barbosa e Silva (2011).
 
-</div>
 
 ### D - Determinar os Objetivos da Avaliação
 Esta avaliação tem como objetivo geral validar a usabilidade, a acessibilidade e a aceitabilidade do fluxo interativo do Assistente de Triagem Guiada em alta fidelidade. Os objetivos específicos compreendem:
@@ -129,3 +127,53 @@ Conforme recomendado pela literatura de IHC (BARBOSA; SILVA, 2011), o teste pilo
 | Versão | Data | Descrição | Autor | Revisor |
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 07/06/2026 | Elaboração inicial do planejamento da avaliação em alta fidelidade com framework DECIDE. | Pedro Augusto Macedo Del Castilo | Heitor Macedo |
+
+## Notas de Rodapé e Referências de Imagens
+
+<div id="fig-d"></div>
+
+**Figura 1** - D: Determinar os objetivos da avaliação.
+
+![Determinar os objetivos](./images/decide-d.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
+
+<div id="fig-e"></div>
+
+**Figura 2** - E: Explorar perguntas a serem respondidas.
+
+![Explorar perguntas](./images/decide-e.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
+
+<div id="fig-c"></div>
+
+**Figura 3** - C: Escolher os métodos de avaliação.
+
+![Escolher métodos](./images/decide-c.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
+
+<div id="fig-i"></div>
+
+**Figura 4** - I: Identificar e administrar as questões práticas.
+
+![Identificar questões práticas](./images/decide-i.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
+
+<div id="fig-d2"></div>
+
+**Figura 5** - D: Decidir como lidar com as questões éticas.
+
+![Decidir questões éticas](./images/decide-d2.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
+
+<div id="fig-e2"></div>
+
+**Figura 6** - E: Avaliar (Evaluate), interpretar e apresentar os dados.
+
+![Avaliar dados](./images/decide-e2.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
