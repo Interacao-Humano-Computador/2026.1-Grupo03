@@ -1,4 +1,4 @@
-# Relato dos Resultados da Avaliação do Protótipo de Papel
+# Relato dos Resultados da Avaliação do Protótipo de Papel — Sala de Conciliação Virtual
 
 ## Colaboração
 Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
@@ -66,7 +66,7 @@ O teste piloto foi conduzido antes da sessão oficial com o participante real. O
 * **Resultados:** Os artefatos (telas do protótipo, roteiro e documentos de apoio) foram considerados claros e adequados. Nenhum ajuste significativo foi necessário no protocolo antes da sessão oficial.
 * **Os dados coletados no teste piloto foram descartados e não integram os resultados desta avaliação.**
 
-<p style="text-align: center"><a href="#" target="blanket">[Link para gravação do Teste Piloto a ser inserido]</a></p>
+<p style="text-align: center"><a href="https://youtu.be/9wrrr5jZ-IA" target="blanket">Clique aqui para acessar a gravação do Teste Piloto</a></p>
 
 <font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
 
@@ -148,7 +148,7 @@ O protótipo cobre as seguintes telas e interações, percorridas sequencialment
 
 Abaixo, o vídeo da sessão de avaliação com a participante P1:
 
-<p style="text-align: center"><a href="#" target="blanket">[Link para gravação da sessão a ser inserido]</a></p>
+<p style="text-align: center"><a href="https://youtu.be/0GGjbLZvEM0" target="blanket">Clique aqui para acessar a gravação da sessão</a></p>
 
 <font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
 
