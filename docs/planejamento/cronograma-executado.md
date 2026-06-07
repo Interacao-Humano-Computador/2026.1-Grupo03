@@ -67,7 +67,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Relato dos Resultados da Análise de Tarefas** | [Heitor Macedo](../equipe/equipe.md)<br><small>31/05/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [📄 Relato dos Resultados da Análise de Tarefas](../design-avaliacao/relato-resultados-analise-tarefas.md) | ✅ Concluído |
 
 === "Etapa 6"
-    Nesta etapa, as tarefas foram direcionadas para o planejamento da avaliação do protótipo de alta fidelidade e o relato dos resultados do protótipo de papel.
+    Nesta etapa, as tarefas foram direcionadas para o planejamento da avaliação do protótipo de alta fidelidade, o relato dos resultados do protótipo de papel e a lista de verificação da etapa.
 
     | Atividade Extraída do Plano de Ensino | Integrante Responsável<br><small>(nome · data de conclusão)</small> | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
     | :--- | :---: | :---: | :--- | :---: |
@@ -78,7 +78,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Relato dos Resultados do Protótipo de Papel — Sala de Conciliação Virtual** | [Pedro Moretti](../equipe/equipe.md)<br><small>07/06/2026</small> | — | [📄 Relato dos Resultados do Protótipo de Papel](../design-avaliacao/relato-resultados-prototipo-papel.md) | ✅ Concluído |
     | **Relato dos Resultados do Protótipo de Papel — Assistente de Triagem Guiada** | [Pedro Macedo](../equipe/equipe.md)<br><small>—</small> | — | — | ⏳ Pendente |
     | **Relato dos Resultados do Protótipo de Papel — Painel de Monitoramento de Prazos** | [Mateus Rodrigues](../equipe/equipe.md)<br><small>—</small> | — | — | ⏳ Pendente |
-    | **Lista de Verificação (Etapa 6)** | — | — | — | ⏳ Pendente |
+    | **Lista de Verificação (Etapa 6)** | [Heitor Macedo](../equipe/equipe.md)<br><small>07/06/2026</small> · [Pedro Moretti](../equipe/equipe.md)<br><small>07/06/2026</small> | — | [📄 Lista de Verificação (Etapa 6)](../projeto/verificacao-etapa6.md) | ✅ Concluído |
 
 ---
 
@@ -152,7 +152,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Planejamento da Avaliação do Protótipo de Alta Fidelidade** | — | — | — | — | 1 | — |
     | **Planejamento do Relato dos Resultados do Protótipo de Alta Fidelidade** | — | 1 | — | — | — | — |
     | **Relato dos Resultados do Protótipo de Papel** | — | — | — | 1 | — | — |
-    | **Lista de Verificação (Etapa 6 - itens)** | — | — | — | — | — | — |
+    | **Lista de Verificação (Etapa 6 - itens)** | — | 5 | — | 7 | — | — |
     | **Total de documentos criados** | 0 | 1 | 0 | 1 | 1 | 0 |
     | **Total de documentos revisados** | 0 | 0 | 0 | 1 | 0 | 0 |
 
