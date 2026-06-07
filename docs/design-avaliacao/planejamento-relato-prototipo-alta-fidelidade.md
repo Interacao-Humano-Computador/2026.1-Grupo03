@@ -1,7 +1,8 @@
 # Planejamento da Avaliação do Protótipo de Alta Fidelidade — Assistente de Triagem Guiada
 
 ## Colaboração
-Colaboração referente à Etapa 6 do projeto.
+Colaboração referente à [Etapa 6](../planejamento/cronograma-executado.md)
+
 
 | Autores | Contribuiu |
 |---|---|
