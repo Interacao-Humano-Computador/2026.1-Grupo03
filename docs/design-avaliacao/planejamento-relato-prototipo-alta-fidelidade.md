@@ -35,27 +35,34 @@ Para estruturar este planejamento, adota-se o framework **DECIDE** (BARBOSA; SIL
 
 Fonte: Barbosa e Silva (2011).
 
+---
 
-### D - Determinar os Objetivos da Avaliação
+### D - Determinar os Objetivos da Avaliação <sup><a href="#fig-d">[1]</a></sup>
 Esta avaliação tem como objetivo geral validar a usabilidade, a acessibilidade e a aceitabilidade do fluxo interativo do Assistente de Triagem Guiada em alta fidelidade. Os objetivos específicos compreendem:
 - Avaliar se usuários com diferentes níveis de letramento digital conseguem concluir o registro de uma queixa de ponta a ponta sem auxílio externo;
 - Verificar o impacto da substituição de jargões jurídicos por linguagem cidadã na compreensão das instruções do órgão;
 - Identificar gargalos de navegação ou problemas de legibilidade na interface mobile.
+---
+### E - Explorar Perguntas a serem Respondidas <sup><a href="#fig-d">[2]</a></sup>
 
-### E - Explorar Perguntas a serem Respondidas
 Com base nos objetivos delineados e nas diretrizes de Barbosa e Silva (2011), foram formuladas as seguintes perguntas de pesquisa para guiar a análise dos avaliadores:
+
 1. O usuário compreendeu imediatamente o propósito do botão central de alto contraste na tela inicial?
 2. A categorização por *cards* visuais grandes permitiu ao usuário identificar seu problema por reconhecimento, reduzindo a necessidade de digitação?
 3. A barra de progresso no estilo *wizard* forneceu feedback adequado sobre a localização do usuário no fluxo?
 4. O usuário demonstrou hesitação, confusão ou insegurança em relação à segurança do ambiente (especialmente na transição para o Gov.br e upload de documentos)?
 5. As mensagens escritas em linguagem cidadã foram interpretadas corretamente ou causaram alguma ambiguidade?
 
-### C - Escolher os Métodos de Avaliação
-O método selecionado é o **Teste de Usabilidade**, combinado de forma complementar com a técnica de **Observação Direta** e o protocolo de **Pensar em Voz Alta (*Think Aloud*)**. 
+---
+
+### C - Escolher os Métodos de Avaliação <sup><a href="#fig-d">[3]</a></sup>
+
+O método selecionado é o **Teste de Usabilidade**, combinado de forma complementar com a técnica de **Observação Direta** e o protocolo de **Pensar em Voz Alta (*Think Aloud*)**.
 
 A escolha fundamenta-se na natureza estritamente **qualitativa** definida para esta avaliação. Ao solicitar que o usuário verbalize seus pensamentos, dúvidas e sentimentos enquanto interage presencialmente com o smartphone, a equipe conseguirá capturar com precisão as nuances de frustração, alívio ou confusão, fornecendo insumos ricos para ajustes finos de design emocional e cognitivo.
 
-### I - Identificar Questões Práticas da Avaliação
+---
+### I - Identificar Questões Práticas da Avaliação <sup><a href="#fig-d">[4]</a></sup>
 
 #### Recrutamento e Perfil dos Participantes
 O teste contará com uma amostra de **3 a 5 participantes**. Embora o foco prioritário do design seja atender às necessidades da persona primária, o recrutamento abrangerá perfis diversificados de cidadãos do Distrito Federal para assegurar que a simplificação do fluxo também beneficie usuários gerais e de outros segmentos demográficos, mantendo o processo inclusivo e abrangente.
@@ -82,7 +89,6 @@ O participante receberá um cenário fictício: *"Você comprou uma mercadoria p
 #### Custos e Prazos
 A avaliação será executada sem custos diretos para os participantes ou para a equipe, fazendo uso de equipamentos próprios dos estudantes. As sessões presenciais serão distribuídas conforme o cronograma provável apresentado na Tabela 2.
 
-<div align="center">
 
 **Tabela 2** – Cronograma provável das sessões de teste
 
@@ -95,12 +101,15 @@ A avaliação será executada sem custos diretos para os participantes ou para a
 
 Fonte: elaborado pelo autor (2026).
 
-</div>
+---
+### D - Decidir como Lidar com as Questões Éticas <sup><a href="#fig-d">[5]</a></sup>
 
-### D - Decidir como Lidar com as Questões Éticas
 Antes do início de qualquer atividade, o avaliador fará a leitura detalhada do Termo de Consentimento Livre e Esclarecido (TCLE). Será enfatizado ao participante que a interface está sendo testada, e não as suas habilidades individuais, assegurando um ambiente livre de pressão. O teste só prosseguirá após a assinatura física ou concordância verbal gravada do termo, garantindo o anonimato dos dados e o direito de interrupção a qualquer momento.
 
-### E - Avaliar, Interpretar e Apresentar os Dados
+---
+
+### E - Avaliar, Interpretar e Apresentar os Dados <sup><a href="#fig-d">[6]</a></sup>
+
 Por se tratar de uma coleta qualitativa baseada em observação e técnica *think aloud*, os dados serão consolidados através de uma análise de conteúdo descritiva após o término das rodadas. O avaliador anotará:
 - Os pontos exatos da tela onde os usuários manifestaram dúvidas ou hesitações em voz alta;
 - Padrões visuais ou textuais que causaram erros de interpretação;
@@ -122,11 +131,15 @@ Conforme recomendado pela literatura de IHC (BARBOSA; SILVA, 2011), o teste pilo
 
 ---
 
+## Agradecimento a IA
+
+Agradecimento ao **Gemini** pela estruturação, seguindo as normas ABNT, do documento.
+
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | 07/06/2026 | Elaboração inicial do planejamento da avaliação em alta fidelidade com framework DECIDE. | Pedro Augusto Macedo Del Castilo | Heitor Macedo |
+| 1.0 | 07/06/2026 | Elaboração inicial do planejamento da avaliação em alta fidelidade com framework DECIDE. | Pedro Macedo | Heitor Macedo |
 
 ## Notas de Rodapé e Referências de Imagens
 
