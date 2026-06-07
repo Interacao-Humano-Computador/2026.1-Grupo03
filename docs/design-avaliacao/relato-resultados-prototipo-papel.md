@@ -5,7 +5,7 @@ Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaborou o Artefato (Avaliação — Sala de Conciliação Virtual) |
+| Pedro Moretti | Elaborou o Artefato |
 
 ## Introdução
 
