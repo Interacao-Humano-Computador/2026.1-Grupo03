@@ -66,6 +66,20 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Relato dos Resultados do Storyboard** | [Heitor Macedo](../equipe/equipe.md)<br><small>31/05/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [📄 Relato dos Resultados do Storyboard](../design-avaliacao/relato-resultados-storyboard.md) | ✅ Concluído |
     | **Relato dos Resultados da Análise de Tarefas** | [Heitor Macedo](../equipe/equipe.md)<br><small>31/05/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [📄 Relato dos Resultados da Análise de Tarefas](../design-avaliacao/relato-resultados-analise-tarefas.md) | ✅ Concluído |
 
+=== "Etapa 6"
+    Nesta etapa, as tarefas foram direcionadas para o planejamento da avaliação do protótipo de alta fidelidade, o relato dos resultados do protótipo de papel e a lista de verificação da etapa.
+
+    | Atividade Extraída do Plano de Ensino | Integrante Responsável<br><small>(nome · data de conclusão)</small> | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
+    | :--- | :---: | :---: | :--- | :---: |
+    | **Planejamento da Avaliação do Protótipo de Alta Fidelidade** | [Pedro Macedo](../equipe/equipe.md)<br><small>07/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Planejamento da Avaliação do Protótipo de Alta Fidelidade](../design-avaliacao/planejamento-relato-prototipo-alta-fidelidade.md) | ✅ Concluído |
+    | **Planejamento do Relato dos Resultados do Protótipo de Alta Fidelidade** | [Heitor Macedo](../equipe/equipe.md)<br><small>07/06/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [📄 Planejamento do Relato dos Resultados — PAF](../design-avaliacao/planejamento-relato-resultados-paf.md) | ✅ Concluído |
+    | **Relato dos Resultados do Protótipo de Papel — Notificação Ativa** | [Heitor Macedo](../equipe/equipe.md)<br><small>07/06/2026</small> | — | [📄 Relato dos Resultados do Protótipo de Papel](../design-avaliacao/relato-resultados-prototipo-papel-notificacao-ativa.md) | ✅ Concluído |
+    | **Relato dos Resultados do Protótipo de Papel — Validação de Documentos por OCR** | [Heloisa Silva](../equipe/equipe.md)<br><small>—</small> | — | — | ⏳ Pendente |
+    | **Relato dos Resultados do Protótipo de Papel — Sala de Conciliação Virtual** | [Pedro Moretti](../equipe/equipe.md)<br><small>07/06/2026</small> | — | [📄 Relato dos Resultados do Protótipo de Papel](../design-avaliacao/relato-resultados-conciliacao-virtual.md) | ✅ Concluído |
+    | **Relato dos Resultados do Protótipo de Papel — Assistente de Triagem Guiada** | [Pedro Macedo](../equipe/equipe.md)<br><small>—</small> | — | — | ⏳ Pendente |
+    | **Relato dos Resultados do Protótipo de Papel — Painel de Monitoramento de Prazos** | [Mateus Rodrigues](../equipe/equipe.md)<br><small>—</small> | — | — | ⏳ Pendente |
+    | **Lista de Verificação (Etapa 6)** | [Heitor Macedo](../equipe/equipe.md)<br><small>07/06/2026</small> · [Pedro Moretti](../equipe/equipe.md)<br><small>07/06/2026</small> | — | [📄 Lista de Verificação (Etapa 6)](../projeto/verificacao-etapa6.md) | ✅ Concluído |
+
 ---
 
 ### Resumo Quantitativo da Equipe
@@ -122,7 +136,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
     | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-    | **Planejamento de Avaliação do Protótipo de Papel** | — | 1 | — | — | — | — |
+    | **Planejamento de Avaliação do Protótipo de Papel** | — | 1 | — | 1 | — | — |
     | **Planejamento do Relato do Protótipo de Papel** | — | 1 | — | — | — | — |
     | **Protótipo de Papel** | — | — | — | 1 | — | 1 |
     | **Relato dos Resultados do Storyboard** | — | 1 | — | 1 | — | — |
@@ -130,6 +144,17 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Lista de Verificação (Etapa 5 - itens)** | — | 6 | — | 7 | — | — |
     | **Total de documentos criados** | 0 | 4 | 0 | 3 | 0 | 1 |
     | **Total de documentos revisados** | 3 | 0 | 0 | 4 | 0 | 2 |
+
+=== "Etapa 6"
+
+    | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
+    | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+    | **Planejamento da Avaliação do Protótipo de Alta Fidelidade** | — | — | — | — | 1 | — |
+    | **Planejamento do Relato dos Resultados do Protótipo de Alta Fidelidade** | — | 1 | — | — | — | — |
+    | **Relato dos Resultados do Protótipo de Papel** | — | — | — | 1 | — | — |
+    | **Lista de Verificação (Etapa 6 - itens)** | — | 5 | — | 7 | — | — |
+    | **Total de documentos criados** | 0 | 1 | 0 | 1 | 1 | 0 |
+    | **Total de documentos revisados** | 0 | 2 | 0 | 1 | 0 | 0 |
 
 ---
 
@@ -152,3 +177,4 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 | `1.5` | 22/05/2026 | Atualização com o cronograma executado e resumo quantitativo da Etapa 4. | Heitor Macedo Ricardo | Heloisa Silva |
 | `1.6` | 24/05/2026 | Atualização de constribuções da Etapa 3. | Mateus Rodrigues Barreto | Heloisa Silva |
 | `1.7` | 31/05/2026 | Adição da Etapa 5 com cronograma executado e resumo quantitativo. | Heitor Macedo Ricardo | Pedro Moretti |
+| `1.8` | 07/06/2026 | Adição da Etapa 6 com planejamento do protótipo de alta fidelidade, relato de resultados do protótipo de papel e resumo quantitativo. | Heitor Macedo Ricardo | — |

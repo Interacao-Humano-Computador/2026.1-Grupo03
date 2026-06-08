@@ -37,6 +37,16 @@ A inspeção valida cada critério definido pelo grupo e apresentado na Lista de
 
 ---
 
+## Resumo Quantitativo
+
+| Seção | <span style="background-color: #2e7d32; color: white; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | <span style="background-color: #d32f2f; color: white; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | Total |
+|:---|:---:|:---:|:---:|
+| Planejamento da Avaliação do Protótipo de Papel | 7 | 0 | 7 |
+| Relato dos Resultados da Avaliação do Protótipo de Papel | 6 | 0 | 6 |
+| **Total** | **13** | **0** | **13** |
+
+---
+
 ## Apresentação
 
 A apresentação da Entrega 5 foi gravada com as câmeras abertas e publicada no YouTube na categoria "Não Listado", conforme exigência da disciplina.

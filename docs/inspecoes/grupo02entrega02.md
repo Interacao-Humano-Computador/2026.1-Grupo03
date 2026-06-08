@@ -61,6 +61,18 @@ A inspeção valida cada critério definido pelo grupo e apresentado na Lista de
 
 ---
 
+## Resumo Quantitativo
+
+| Seção | <span style="background-color: #2e7d32; color: white; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | <span style="background-color: #d32f2f; color: white; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | Total |
+|:---|:---:|:---:|:---:|
+| Perfil de Usuário | 4 | 0 | 4 |
+| Personas | 2 | 5 | 7 |
+| Cenários | 3 | 2 | 5 |
+| Análise de Tarefas | 7 | 0 | 7 |
+| **Total** | **16** | **7** | **23** |
+
+---
+
 ## Apresentação
 
 [🎥 Assistir ao Vídeo da inspeção do grupo -1 no YouTube](https://youtu.be/EqvDmrmP8Yc){ target="_blank" }

@@ -62,7 +62,7 @@ O protótipo abaixo é navegável diretamente no navegador. Clique nas telas par
   </iframe>
 </div>
 
-<div align="center"><p><i>Fonte: Elaborado por Pedro Moretti.</i></p></div>
+<div align="center"><p><i>Fonte: Protótipo HTML gerado por Deepseek.</i></p></div>
 
 ---
 
@@ -82,6 +82,98 @@ As principais escolhas de design refletidas no protótipo são:
 
 ---
 
+## Registro das Telas do Protótipo de Papel
+
+A seguir, apresentam-se as telas que compõem o protótipo de papel da Sala de Conciliação Virtual, desenhadas manualmente. Cada tela representa uma etapa do fluxo de interação percorrido pelo usuário.
+
+Na Figura 2, apresenta-se a tela de notificação recebida via WhatsApp com o link direto para a sala de conciliação virtual.
+
+<div id="figura2" align="center">
+  <p>Figura 2 - Tela de Notificação via WhatsApp</p>
+  <a href="../images/conciliacao/notificacao.jpeg" target=_blank>
+    <img src="../images/conciliacao/notificacao.jpeg" alt="Notificação recebida via WhatsApp com link para a sala virtual" width="500">
+  </a>
+  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+</div>
+
+Na Figura 3, observa-se a sala de espera com contagem regressiva e a lista de participantes aguardando o início da audiência.
+
+<div id="figura3" align="center">
+  <p>Figura 3 - Sala de Espera</p>
+  <a href="../images/conciliacao/sala-espera.jpeg" target=_blank>
+    <img src="../images/conciliacao/sala-espera.jpeg" alt="Sala de espera com contagem regressiva e lista de participantes" width="500">
+  </a>
+  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+</div>
+
+Na Figura 4, apresenta-se a tela de teste de periféricos, onde o usuário verifica o funcionamento da câmera e do microfone antes de entrar na sala.
+
+<div id="figura4" align="center">
+  <p>Figura 4 - Teste de Periféricos</p>
+  <a href="../images/conciliacao/teste-equipamento.jpeg" target=_blank>
+    <img src="../images/conciliacao/teste-equipamento.jpeg" alt="Teste guiado de câmera e microfone com indicadores visuais" width="500">
+  </a>
+  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+</div>
+
+Na Figura 5, apresenta-se a tela principal de videoconferência, com os vídeos dos participantes, identificação de nomes e papéis fixos, e os controles de mídia.
+
+<div id="figura5" align="center">
+  <p>Figura 5 - Videoconferência</p>
+  <a href="../images/conciliacao/tela-videochamada.jpeg" target=_blank>
+    <img src="../images/conciliacao/tela-videochamada.jpeg" alt="Sala de videoconferência com participantes, controles de mídia e painéis laterais" width="500">
+  </a>
+  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+</div>
+
+Na Figura 6, observa-se o chat de evidências integrado, utilizado para troca de documentos entre as partes com confirmação de entrega.
+
+<div id="figura6" align="center">
+  <p>Figura 6 - Chat de Evidências</p>
+  <a href="../images/conciliacao/chat-evidencias.jpeg" target=_blank>
+    <img src="../images/conciliacao/chat-evidencias.jpeg" alt="Painel de chat para troca de documentos com confirmação de entrega" width="500">
+  </a>
+  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+</div>
+
+Na Figura 7, apresenta-se o termo de acordo elaborado pelo mediador em linguagem simples, com valor e prazo destacados.
+
+<div id="figura7" align="center">
+  <p>Figura 7 - Termo de Acordo</p>
+  <a href="../images/conciliacao/termo-acordo.jpeg" target=_blank>
+    <img src="../images/conciliacao/termo-acordo.jpeg" alt="Minuta do termo de acordo em linguagem simples" width="500">
+  </a>
+  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+</div>
+
+Na Figura 8, observa-se a tela de assinatura digital, com autenticação via Gov.br.
+
+<div id="figura8" align="center">
+  <p>Figura 8 - Assinatura Digital</p>
+  <a href="../images/conciliacao/assinatura.jpeg" target=_blank>
+    <img src="../images/conciliacao/assinatura.jpeg" alt="Tela de assinatura digital via Gov.br" width="500">
+  </a>
+  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+</div>
+
+Na Figura 9, apresenta-se a tela de encerramento, exibindo a confirmação de que o acordo foi firmado com sucesso.
+
+<div id="figura9" align="center">
+  <p>Figura 9 - Acordo Firmado</p>
+  <a href="../images/conciliacao/acordo-firmado.jpeg" target=_blank>
+    <img src="../images/conciliacao/acordo-firmado.jpeg" alt="Tela de sucesso indicando que o acordo foi firmado" width="500">
+  </a>
+  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+</div>
+
+---
+
+## Agradecimentos à IA
+
+Agradecimento ao **DeepSeek** pela ajuda na estruturação e formatação deste documento, incluindo a organização das figuras em padrão ABNT e a padronização das seções, além da geração de um protótipo interativo.
+
+---
+
 ## Referência
 
 > BARBOSA, S. D. J.; SILVA, B. S.; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do usuário*. Autopublicação, 2021.
@@ -93,4 +185,5 @@ As principais escolhas de design refletidas no protótipo são:
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Pedro Moretti | Mateu Barreto |
+| 1.1 | 07/06/2026 | Adição das imagens do protótipo de papel e atualização da legenda do protótipo interativo. | Pedro Moretti | — |
 

@@ -66,6 +66,7 @@ nav:
           - Etapa 03: projeto/verificacao-etapa3.md
           - Etapa 04: projeto/verificacao-etapa4.md
           - Etapa 05: projeto/verificacao-etapa5.md
+          - Etapa 06: projeto/verificacao-etapa6.md
   - Análise de Requisitos:
       - Fase 1:
           - Perfil de Usuário: analise-requisitos/perfil-usuario.md
@@ -100,7 +101,8 @@ nav:
               - Painel de Monitoramento de Prazos: design-avaliacao/prototipo-prazos.md
               - Assistente de Triagem Guiada: design-avaliacao/prototipo-triagem.md
           - Relatos:
-              - Relato do Protótipo de Papel: design-avaliacao/relato-resultados-prototipo-papel.md
+              - Relato — Sala de Conciliação Virtual: design-avaliacao/relato-resultados-conciliacao-virtual.md
+              - Relato — Notificação Ativa: design-avaliacao/relato-resultados-notificacao-ativa.md
       - Nível 3:
           - Planejamentos:
               - Avaliação do Protótipo de Alta Fidelidade: design-avaliacao/planejamento-avaliacao-prototipo-alta-fidelidade.md
@@ -112,6 +114,7 @@ nav:
           - Entrega 03: inspecoes/entrega03.md
           - Entrega 04: inspecoes/entrega04.md
           - Entrega 05: inspecoes/entrega05.md
+          - Entrega 06: inspecoes/entrega06.md
       - Outros Grupos:
           - Inspeção Grupo 04 (Etapa 1): inspecoes/grupo04.md
           - Inspeção Grupo 02 (Etapa 2): inspecoes/grupo02entrega02.md

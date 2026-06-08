@@ -28,6 +28,16 @@ A inspeção valida cada critério definido e apresentado na Lista de Verificaç
 
 ---
 
+## Resumo Quantitativo
+
+| Resultado | Quantidade |
+|:---|:---:|
+| <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 9 |
+| <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 2 |
+| **Total** | **11** |
+
+---
+
 ## Apresentação
 
 A apresentação da inspeção do Grupo 04 - Entrega 3 foi gravada com as câmeras abertas e publicada no YouTube na categoria "Não Listado", conforme exigência da disciplina.

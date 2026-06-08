@@ -33,6 +33,16 @@ A inspeção valida cada critério definido pelo grupo e apresentado na Lista de
 
 ---
 
+## Resumo Quantitativo
+
+| Resultado | Quantidade |
+|:---|:---:|
+| <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 16 |
+| <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 0 |
+| **Total** | **16** |
+
+---
+
 ## Apresentação
 
 A apresentação da Entrega 4 foi gravada com as câmeras abertas e publicada no YouTube na categoria "Não Listado", conforme exigência da disciplina.
