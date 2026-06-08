@@ -73,7 +73,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | :--- | :---: | :---: | :--- | :---: |
     | **Planejamento da Avaliação do Protótipo de Alta Fidelidade** | [Pedro Macedo](../equipe/equipe.md)<br><small>07/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Planejamento da Avaliação do Protótipo de Alta Fidelidade](../design-avaliacao/planejamento-relato-prototipo-alta-fidelidade.md) | ✅ Concluído |
     | **Planejamento do Relato dos Resultados do Protótipo de Alta Fidelidade** | [Heitor Macedo](../equipe/equipe.md)<br><small>07/06/2026</small> | [Pedro Moretti](../equipe/equipe.md) | [📄 Planejamento do Relato dos Resultados — PAF](../design-avaliacao/planejamento-relato-resultados-paf.md) | ✅ Concluído |
-    | **Relato dos Resultados do Protótipo de Papel — Notificação Ativa** | [Heitor Macedo](../equipe/equipe.md)<br><small>—</small> | — | — | ⏳ Pendente |
+    | **Relato dos Resultados do Protótipo de Papel — Notificação Ativa** | [Heitor Macedo](../equipe/equipe.md)<br><small>07/06/2026</small> | — | [📄 Relato dos Resultados do Protótipo de Papel](../design-avaliacao/relato-resultados-prototipo-papel-notificacao-ativa.md) | ✅ Concluído |
     | **Relato dos Resultados do Protótipo de Papel — Validação de Documentos por OCR** | [Heloisa Silva](../equipe/equipe.md)<br><small>—</small> | — | — | ⏳ Pendente |
     | **Relato dos Resultados do Protótipo de Papel — Sala de Conciliação Virtual** | [Pedro Moretti](../equipe/equipe.md)<br><small>07/06/2026</small> | — | [📄 Relato dos Resultados do Protótipo de Papel](../design-avaliacao/relato-resultados-conciliacao-virtual.md) | ✅ Concluído |
     | **Relato dos Resultados do Protótipo de Papel — Assistente de Triagem Guiada** | [Pedro Macedo](../equipe/equipe.md)<br><small>—</small> | — | — | ⏳ Pendente |
@@ -154,7 +154,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Relato dos Resultados do Protótipo de Papel** | — | — | — | 1 | — | — |
     | **Lista de Verificação (Etapa 6 - itens)** | — | 5 | — | 7 | — | — |
     | **Total de documentos criados** | 0 | 1 | 0 | 1 | 1 | 0 |
-    | **Total de documentos revisados** | 0 | 0 | 0 | 1 | 0 | 0 |
+    | **Total de documentos revisados** | 0 | 2 | 0 | 1 | 0 | 0 |
 
 ---
 
