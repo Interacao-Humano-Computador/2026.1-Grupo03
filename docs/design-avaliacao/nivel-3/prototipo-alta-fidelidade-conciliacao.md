@@ -14,6 +14,7 @@ Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 Este artefato apresenta o **protótipo de alta fidelidade** desenvolvido para a funcionalidade de **Sala de Conciliação Virtual com Mediação Assistida** do sistema PROCON-DF. O protótipo foi construído em HTML, CSS (Tailwind) e JavaScript, seguindo o [Guia de Estilo](../../analise-requisitos/guia-estilo.md) do projeto.
 
 Diferentemente do protótipo de papel (baixa fidelidade), este protótipo incorpora:
+
 - **Paleta de cores oficial** — Azul Principal (#4079BC), Magenta CTA (#A93D8E), Amarelo Governo (#FFD200), Verde Sucesso (#29BCB6)
 - **Tipografia oficial** — Titillium Web (títulos), Open Sans (corpo), Montserrat (botões e UI)
 - **Padrões de componentes** — cartões, botões, campos, conforme especificado no guia de estilo
@@ -75,8 +76,8 @@ O protótipo foi construído com a seguinte pilha tecnológica:
 | Camada | Tecnologia | Função |
 |---|---|---|
 | **Estrutura** | HTML5 | Marcação semântica de cada tela e componentes de interface |
-| **Estilo** | CSS3 + Tailwind (CDN) | CSS customizado em `css/styles.css` para componentes reutilizáveis (cartões `.card`, botões `.btn-procon`, campos `.field`); Tailwind via CDN para utilitários de layout, espaçamento e tipografia |
-| **Interatividade** | JavaScript (vanilla) | `js/app.js` gerencia navegação entre as 8 telas, controle de estados (microfone ativo/desligado, câmera) e atualização dos controles de avanço/retrocesso |
+| **Estilo** | CSS3 + Tailwind (CDN) | CSS customizado para componentes reutilizáveis. Tailwind via CDN para utilitários de layout, espaçamento e tipografia |
+| **Interatividade** | JavaScript (vanilla) | Gerencia navegação entre as 8 telas, controle de estados (microfone ativo/desligado, câmera) e atualização dos controles de avanço/retrocesso |
 | **Tipografia** | Google Fonts | Titillium Web (títulos), Open Sans (corpo), Montserrat (botões e UI) — conforme [guia de estilo](../../analise-requisitos/guia-estilo.md) |
 | **Embutimento** | iframe aninhado | Cada tela é uma página HTML independente carregada via iframe no `index.html`, que simula um dispositivo móvel com moldura de telefone |
 
