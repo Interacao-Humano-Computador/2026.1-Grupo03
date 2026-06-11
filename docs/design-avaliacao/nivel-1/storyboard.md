@@ -24,13 +24,13 @@ Neste storyboard, a usuária Laura (Consumidora Reclamante), que possui uma roti
 
 <div id="figura0" align="center">
   <p>Figura 1 - Storyboard da Tarefa 1</p>
-  <a href=".../images/storyboardHeitor2.png" target=_blank><img src=".../images/storyboardHeitor2.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
+  <a href="../../images/storyboardHeitor2.png" target=_blank><img src="../../images/storyboardHeitor2.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> Heitor Macedo Ricardo</p>
 </div>
 
 <div id="figura2" align="center">
   <p>Figura 2 - Storyboard da Tarefa 1</p>
-  <a href=".../images/storyboardHeitor.png" target=_blank><img src=".../images/storyboardHeitor.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
+  <a href="../../images/storyboardHeitor.png" target=_blank><img src="../../images/storyboardHeitor.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> Heitor Macedo Ricardo</p>
 </div>
 
@@ -43,7 +43,7 @@ Neste storyboard, o usuário Gustavo (Microempreendedor e Fornecedor), que traba
 
 <div id="figura1" align="center">
   <p>Figura 2 - Storyboard da Tarefa 2</p>
-  <a href=".../images/storyboardPedro.jpeg" target=_blank><img src=".../images/storyboardPedro.jpeg" alt="Storyboard da Sala de Conciliação Virtual com Mediação Assistida"></a>
+  <a href="../../images/storyboardPedro.jpeg" target=_blank><img src="../../images/storyboardPedro.jpeg" alt="Storyboard da Sala de Conciliação Virtual com Mediação Assistida"></a>
   <p><b>Fonte:</b> Pedro Moretti</p>
 </div>
 
@@ -55,7 +55,7 @@ Este storyboard ilustra a jornada de Ivone Maria da Silva, uma auxiliar de limpe
 
 <div id="figura1" align="center">
   <p>Figura 3 - Storyboard da Tarefa 3</p>
-  <a href=".../images/storyboardpedromacedo.png" target=_blank><img src=".../images/storyboardpedromacedo.png" alt="Storybiard da Assistente de Triagem Guiada para Reclamações"></a>
+  <a href="../../images/storyboardpedromacedo.png" target=_blank><img src="../../images/storyboardpedromacedo.png" alt="Storybiard da Assistente de Triagem Guiada para Reclamações"></a>
   <p><b>Fonte:</b> Pedro Macedo</p>
 </div>
 
@@ -81,16 +81,16 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento e cria�
 
 <div id="figura" align="center">
   <p>Figura 1 - Storyboard: Definição e Aplicação</p>
-  <a href=".../images/storyboardlivro1.png" target=_blank><img src=".../images/storyboardlivro1.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
+  <a href="../../images/storyboardlivro1.png" target=_blank><img src="../../images/storyboardlivro1.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> BARBOSA et al. (2021, p. 263).</p>
 </div>
 <div id="figura1" align="center">
   <p>Figura 2 - Storyboard: Exemplo de Protótipo de Baixa Fidelidade</p>
-  <a href=".../images/storyboardlivro2.png" target=_blank><img src=".../images/storyboardlivro2.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
+  <a href="../../images/storyboardlivro2.png" target=_blank><img src="../../images/storyboardlivro2.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> BARBOSA et al. (2021, p. 263).</p>
 </div>
 <div id="figura2" align="center">
   <p>Figura 3 - Storyboard: Exemplo de Protótipo de Baixa Fidelidade</p>
-  <a href=".../images/storyboardlivro3.png" target=_blank><img src=".../images/storyboardlivro3.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
+  <a href="../../images/storyboardlivro3.png" target=_blank><img src="../../images/storyboardlivro3.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> BARBOSA et al. (2021, p. 263).</p>
 </div>

@@ -40,7 +40,7 @@ O protótipo abaixo é navegável diretamente no navegador. Toque nos elementos 
   </div>
   <iframe
     id="prototipo-iframe"
-    src="../prototipo-alta-fidelidade/conciliacao-virtual/index.html"
+    src="../../prototipo-alta-fidelidade/conciliacao-virtual/index.html"
     width="100%"
     height="820"
     style="border:none;display:block;"

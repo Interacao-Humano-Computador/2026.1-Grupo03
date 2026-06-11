@@ -45,6 +45,10 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
+validation:
+  nav:
+    omitted_files: ignore
+
 nav:
   - Início: index.md
   - A Equipe:
