@@ -1,7 +1,7 @@
 # Relato dos Resultados da Avaliação do Protótipo de Papel — Sala de Conciliação Virtual
 
 ## Colaboração
-Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
+Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
@@ -41,7 +41,7 @@ A sessão foi integralmente gravada em vídeo para análise posterior.
 
 O protótipo de papel avaliado foi o **Protótipo da Sala de Conciliação Virtual**, disponível em formato digital interativo:
 
-<p style="text-align: center"><a href="../Conciliacao%20Virtual%20-%20Wireframe%20(standalone).html" target="blanket">Clique aqui para acessar o Protótipo de Papel</a></p>
+<p style="text-align: center"><a href="../../Conciliacao%20Virtual%20-%20Wireframe%20(standalone).html" target="blanket">Clique aqui para acessar o Protótipo de Papel</a></p>
 
 <font size="3"><p style="text-align: center">Fonte: Elaborado por Pedro Moretti.</p></font>
 
@@ -49,7 +49,7 @@ O protótipo de papel avaliado foi o **Protótipo da Sala de Conciliação Virtu
 
 | Entrevistador | Entrevistado | Horário de Início | Horário de Fim | Data | Local |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Pedro Moretti](../equipe/equipe.md) | <span style="color: orange">P1</span> | 16:30 | 16:50 | 05/06/2026 | Presencial |
+| [Pedro Moretti](../../equipe/equipe.md) | <span style="color: orange">P1</span> | 16:30 | 16:50 | 05/06/2026 | Presencial |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Pedro Moretti.</i></p>

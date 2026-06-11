@@ -1,7 +1,7 @@
 # Planejamento do Relato dos Resultados - Protótipo de Papel
 
 ## Colaboração
-Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
+Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
@@ -71,7 +71,7 @@ Nesta seção, deve-se registrar formalmente a execução do teste piloto realiz
 
 ### 4. Número e perfil de avaliadores e dos participantes
 
-O relato deve apresentar o número final de participantes reais recrutados (de 3 a 5 participantes) e justificar seu alinhamento com o [perfil de usuário](../analise-requisitos/perfil-usuario.md) e as [personas](../analise-requisitos/personas.md) do site do PROCON-DF (ex: Consumidor Reclamante, Fornecedor/Comerciante). Deve-se apresentar a tabela preenchida com a identificação anônima dos participantes (P1 a P5) e a identificação dos avaliadores da equipe (mediador e observador).
+O relato deve apresentar o número final de participantes reais recrutados (de 3 a 5 participantes) e justificar seu alinhamento com o [perfil de usuário](../../analise-requisitos/perfil-usuario.md) e as [personas](../../analise-requisitos/personas.md) do site do PROCON-DF (ex: Consumidor Reclamante, Fornecedor/Comerciante). Deve-se apresentar a tabela preenchida com a identificação anônima dos participantes (P1 a P5) e a identificação dos avaliadores da equipe (mediador e observador).
 
 **Quadro 1 - Perfil dos participantes e avaliadores**
 
@@ -187,6 +187,6 @@ Agradecimento ao **Claude** pela ajuda na estruturação deste documento ao mont
 
 <div id="figura0" align="center">
   <p>Figura 1 - Consolidação e Relato dos Resultados</p>
-  <a href="../images/consolidacao.png" target=_blank><img src="../images/consolidacao.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
+  <a href=".../images/consolidacao.png" target=_blank><img src=".../images/consolidacao.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> BARBOSA et al. (2021, p. 263).</p>
 </div>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROCON-DF · Sala de Conciliação Virtual — Protótipo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700;900&family=Open+Sans:wght@400;600&family=Montserrat:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="phone">
+    <div class="phone-notch">
+      <div class="pill"></div>
+      <div class="cam-dot"></div>
+    </div>
+
+    <div class="status-bar">
+      <span class="time">9:41</span>
+      <span class="icons">
+        <svg width="16" height="12" viewBox="0 0 16 12">
+          <rect x="1" y="1" width="14" height="10" rx="1.5" fill="none" stroke="#a0aec0" stroke-width="1.2" />
+          <rect x="3" y="3" width="7" height="6" rx=".5" fill="#a0aec0" />
+        </svg>
+      </span>
+    </div>
+
+    <div class="viewport">
+      <iframe id="screen-frame" src="telas/01-notificacao.html" title="Tela do Protótipo"></iframe>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>

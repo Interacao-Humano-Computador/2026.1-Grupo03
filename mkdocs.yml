@@ -81,32 +81,16 @@ nav:
           - Guia de Estilo: analise-requisitos/guia-estilo.md
   - Design, Avaliação e Desenvolvimento:
       - Nível 1:
-          - Planejamentos:
-              - Avaliação de Tarefas: design-avaliacao/planejamento-avaliacao-tarefas.md
-              - Avaliação do Storyboard: design-avaliacao/planejamento-avaliacao-storyboard.md
-              - Relato dos Resultados de Tarefas: design-avaliacao/planejamento-relato-tarefas.md
-              - Relato dos Resultados do Storyboard: design-avaliacao/planejamento-relato-storyboard.md
-          - Storyboard: design-avaliacao/storyboard.md
-          - Relatos:
-              - Relato do Storyboard: design-avaliacao/relato-resultados-storyboard.md
-              - Relato da Análise de Tarefas: design-avaliacao/relato-resultados-analise-tarefas.md
+          - Planejamentos: design-avaliacao/nivel-1/planejamentos-nivel1.md
+          - Storyboards: design-avaliacao/nivel-1/storyboards.md
+          - Relatos: design-avaliacao/nivel-1/relatos-nivel1.md
       - Nível 2:
-          - Planejamentos:
-              - Avaliação do Protótipo de Papel: design-avaliacao/planejamento-avaliacao-pp.md
-              - Relato dos Resultados do Protótipo de Papel: design-avaliacao/planejamento-relato-resultados-pp.md
-          - Protótipos de Papel:
-              - Notificação Ativa: design-avaliacao/prototipo.md
-              - Sala de Conciliação Virtual: design-avaliacao/prototipo-conciliacao.md
-              - Validação por OCR: design-avaliacao/prototipo-ocr.md
-              - Painel de Monitoramento de Prazos: design-avaliacao/prototipo-prazos.md
-              - Assistente de Triagem Guiada: design-avaliacao/prototipo-triagem.md
-          - Relatos:
-              - Relato — Sala de Conciliação Virtual: design-avaliacao/relato-resultados-conciliacao-virtual.md
-              - Relato — Notificação Ativa: design-avaliacao/relato-resultados-notificacao-ativa.md
+          - Planejamentos: design-avaliacao/nivel-2/planejamentos-nivel2.md
+          - Protótipos de Papel: design-avaliacao/nivel-2/prototipos-papel.md
+          - Relatos: design-avaliacao/nivel-2/relatos-nivel2.md
       - Nível 3:
-          - Planejamentos:
-              - Avaliação do Protótipo de Alta Fidelidade: design-avaliacao/planejamento-avaliacao-prototipo-alta-fidelidade.md
-              - Relato dos Resultados do Protótipo de Alta Fidelidade: design-avaliacao/planejamento-relato-resultados-paf.md
+          - Planejamentos: design-avaliacao/nivel-3/planejamentos-nivel3.md
+          - Protótipos de Alta Fidelidade: design-avaliacao/nivel-3/prototipos-alta-fidelidade.md
   - Inspeções (Verificação e Validação):
       - Nossas Entregas:
           - Entrega 01: inspecoes/entrega01.md

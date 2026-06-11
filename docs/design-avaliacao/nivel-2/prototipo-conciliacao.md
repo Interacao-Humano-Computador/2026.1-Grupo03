@@ -1,7 +1,7 @@
 # Protótipo de Papel — Sala de Conciliação Virtual
 
 ## Colaboração
-Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
+Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
@@ -53,7 +53,7 @@ O protótipo abaixo é navegável diretamente no navegador. Clique nas telas par
   </div>
   <iframe
     id="prototipo-iframe"
-    src="../Conciliacao%20Virtual%20-%20Wireframe%20(standalone).html"
+    src="../../Conciliacao%20Virtual%20-%20Wireframe%20(standalone).html"
     width="100%"
     height="720"
     style="border:none;display:block;"
@@ -90,8 +90,8 @@ Na Figura 2, apresenta-se a tela de notificação recebida via WhatsApp com o li
 
 <div id="figura2" align="center">
   <p>Figura 2 - Tela de Notificação via WhatsApp</p>
-  <a href="../images/conciliacao/notificacao.jpeg" target=_blank>
-    <img src="../images/conciliacao/notificacao.jpeg" alt="Notificação recebida via WhatsApp com link para a sala virtual" width="500">
+  <a href=".../images/conciliacao/notificacao.jpeg" target=_blank>
+    <img src=".../images/conciliacao/notificacao.jpeg" alt="Notificação recebida via WhatsApp com link para a sala virtual" width="500">
   </a>
   <p><b>Fonte:</b> Pedro Moretti (2026).</p>
 </div>
@@ -100,8 +100,8 @@ Na Figura 3, observa-se a sala de espera com contagem regressiva e a lista de pa
 
 <div id="figura3" align="center">
   <p>Figura 3 - Sala de Espera</p>
-  <a href="../images/conciliacao/sala-espera.jpeg" target=_blank>
-    <img src="../images/conciliacao/sala-espera.jpeg" alt="Sala de espera com contagem regressiva e lista de participantes" width="500">
+  <a href=".../images/conciliacao/sala-espera.jpeg" target=_blank>
+    <img src=".../images/conciliacao/sala-espera.jpeg" alt="Sala de espera com contagem regressiva e lista de participantes" width="500">
   </a>
   <p><b>Fonte:</b> Pedro Moretti (2026).</p>
 </div>
@@ -110,8 +110,8 @@ Na Figura 4, apresenta-se a tela de teste de periféricos, onde o usuário verif
 
 <div id="figura4" align="center">
   <p>Figura 4 - Teste de Periféricos</p>
-  <a href="../images/conciliacao/teste-equipamento.jpeg" target=_blank>
-    <img src="../images/conciliacao/teste-equipamento.jpeg" alt="Teste guiado de câmera e microfone com indicadores visuais" width="500">
+  <a href=".../images/conciliacao/teste-equipamento.jpeg" target=_blank>
+    <img src=".../images/conciliacao/teste-equipamento.jpeg" alt="Teste guiado de câmera e microfone com indicadores visuais" width="500">
   </a>
   <p><b>Fonte:</b> Pedro Moretti (2026).</p>
 </div>
@@ -120,8 +120,8 @@ Na Figura 5, apresenta-se a tela principal de videoconferência, com os vídeos 
 
 <div id="figura5" align="center">
   <p>Figura 5 - Videoconferência</p>
-  <a href="../images/conciliacao/tela-videochamada.jpeg" target=_blank>
-    <img src="../images/conciliacao/tela-videochamada.jpeg" alt="Sala de videoconferência com participantes, controles de mídia e painéis laterais" width="500">
+  <a href=".../images/conciliacao/tela-videochamada.jpeg" target=_blank>
+    <img src=".../images/conciliacao/tela-videochamada.jpeg" alt="Sala de videoconferência com participantes, controles de mídia e painéis laterais" width="500">
   </a>
   <p><b>Fonte:</b> Pedro Moretti (2026).</p>
 </div>
@@ -130,8 +130,8 @@ Na Figura 6, observa-se o chat de evidências integrado, utilizado para troca de
 
 <div id="figura6" align="center">
   <p>Figura 6 - Chat de Evidências</p>
-  <a href="../images/conciliacao/chat-evidencias.jpeg" target=_blank>
-    <img src="../images/conciliacao/chat-evidencias.jpeg" alt="Painel de chat para troca de documentos com confirmação de entrega" width="500">
+  <a href=".../images/conciliacao/chat-evidencias.jpeg" target=_blank>
+    <img src=".../images/conciliacao/chat-evidencias.jpeg" alt="Painel de chat para troca de documentos com confirmação de entrega" width="500">
   </a>
   <p><b>Fonte:</b> Pedro Moretti (2026).</p>
 </div>
@@ -140,8 +140,8 @@ Na Figura 7, apresenta-se o termo de acordo elaborado pelo mediador em linguagem
 
 <div id="figura7" align="center">
   <p>Figura 7 - Termo de Acordo</p>
-  <a href="../images/conciliacao/termo-acordo.jpeg" target=_blank>
-    <img src="../images/conciliacao/termo-acordo.jpeg" alt="Minuta do termo de acordo em linguagem simples" width="500">
+  <a href=".../images/conciliacao/termo-acordo.jpeg" target=_blank>
+    <img src=".../images/conciliacao/termo-acordo.jpeg" alt="Minuta do termo de acordo em linguagem simples" width="500">
   </a>
   <p><b>Fonte:</b> Pedro Moretti (2026).</p>
 </div>
@@ -150,8 +150,8 @@ Na Figura 8, observa-se a tela de assinatura digital, com autenticação via Gov
 
 <div id="figura8" align="center">
   <p>Figura 8 - Assinatura Digital</p>
-  <a href="../images/conciliacao/assinatura.jpeg" target=_blank>
-    <img src="../images/conciliacao/assinatura.jpeg" alt="Tela de assinatura digital via Gov.br" width="500">
+  <a href=".../images/conciliacao/assinatura.jpeg" target=_blank>
+    <img src=".../images/conciliacao/assinatura.jpeg" alt="Tela de assinatura digital via Gov.br" width="500">
   </a>
   <p><b>Fonte:</b> Pedro Moretti (2026).</p>
 </div>
@@ -160,8 +160,8 @@ Na Figura 9, apresenta-se a tela de encerramento, exibindo a confirmação de qu
 
 <div id="figura9" align="center">
   <p>Figura 9 - Acordo Firmado</p>
-  <a href="../images/conciliacao/acordo-firmado.jpeg" target=_blank>
-    <img src="../images/conciliacao/acordo-firmado.jpeg" alt="Tela de sucesso indicando que o acordo foi firmado" width="500">
+  <a href=".../images/conciliacao/acordo-firmado.jpeg" target=_blank>
+    <img src=".../images/conciliacao/acordo-firmado.jpeg" alt="Tela de sucesso indicando que o acordo foi firmado" width="500">
   </a>
   <p><b>Fonte:</b> Pedro Moretti (2026).</p>
 </div>

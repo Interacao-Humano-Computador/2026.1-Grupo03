@@ -207,7 +207,7 @@ Agradecimento ao Gemini pela ajuda na estruturação e alinhamento deste documen
 
 **Figura 1** - D: Determinar os objetivos da avaliação.
 
-![Determinar os objetivos](./images/decide-d.png)
+![Determinar os objetivos](../images/decide-d.png)
 
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
@@ -215,7 +215,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
 **Figura 2** - E: Explorar perguntas a serem respondidas.
 
-![Explorar perguntas](./images/decide-e.png)
+![Explorar perguntas](../images/decide-e.png)
 
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
@@ -223,7 +223,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
 **Figura 3** - C: Escolher os métodos de avaliação.
 
-![Escolher métodos](./images/decide-c.png)
+![Escolher métodos](../images/decide-c.png)
 
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
@@ -231,7 +231,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
 **Figura 4** - I: Identificar e administrar as questões práticas.
 
-![Identificar questões práticas](./images/decide-i.png)
+![Identificar questões práticas](../images/decide-i.png)
 
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
@@ -239,7 +239,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
 **Figura 5** - D: Decidir como lidar com as questões éticas.
 
-![Decidir questões éticas](./images/decide-d2.png)
+![Decidir questões éticas](../images/decide-d2.png)
 
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
@@ -247,6 +247,6 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
 **Figura 6** - E: Avaliar (Evaluate), interpretar e apresentar os dados.
 
-![Avaliar dados](./images/decide-e2.png)
+![Avaliar dados](../images/decide-e2.png)
 
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>

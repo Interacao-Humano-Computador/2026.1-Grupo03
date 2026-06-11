@@ -1,7 +1,7 @@
 # Planejamento da Avaliação do Protótipo de Papel
 
 ## Colaboração
-Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
+Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
@@ -101,7 +101,7 @@ O método de observação direta permite que o avaliador identifique comportamen
 
 Para garantir a viabilidade e o rigor metodológico da avaliação do protótipo de papel do PROCON-DF, a equipe deverá gerenciar os seguintes aspectos organizacionais:
 
-**Recrutamento de Participantes:** Cada integrante do grupo será responsável por recrutar **um participante** que se encaixe no [perfil de usuário](../analise-requisitos/perfil-usuario.md) definido no projeto. Os participantes devem apresentar semelhança com as [personas](../analise-requisitos/personas.md) do projeto — em especial Laura (Consumidora Reclamante) e Gustavo (Fornecedor/Comerciante).
+**Recrutamento de Participantes:** Cada integrante do grupo será responsável por recrutar **um participante** que se encaixe no [perfil de usuário](../../analise-requisitos/perfil-usuario.md) definido no projeto. Os participantes devem apresentar semelhança com as [personas](../../analise-requisitos/personas.md) do projeto — em especial Laura (Consumidora Reclamante) e Gustavo (Fornecedor/Comerciante).
 
 **Preparação da Avaliação:** Cada sessão será conduzida **individualmente** por um integrante do grupo, que atuará simultaneamente como **moderador e anotador** — responsável por guiar a simulação, apresentar as telas do protótipo, registrar comportamentos, hesitações e dificuldades do participante e gerenciar a gravação. A avaliação ocorrerá de forma **presencial**, em ambiente silencioso e sem interrupções.
 
@@ -209,7 +209,7 @@ Agradecimento ao **Claude** pela ajuda na estruturação deste documento ao mont
 
 **Figura 1** - D: Determinar os objetivos da avaliação.
 
-![Determinar os objetivos](./images/decide-d.png)
+![Determinar os objetivos](../images/decide-d.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
@@ -217,7 +217,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
 **Figura 2** - E: Explorar perguntas a serem respondidas.
 
-![Explorar perguntas](./images/decide-e.png)
+![Explorar perguntas](../images/decide-e.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
@@ -225,7 +225,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
 **Figura 3** - C: Escolher os métodos de avaliação.
 
-![Escolher métodos](./images/decide-c.png)
+![Escolher métodos](../images/decide-c.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
@@ -233,7 +233,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
 **Figura 4** - I: Identificar e administrar as questões práticas.
 
-![Identificar questões práticas](./images/decide-i.png)
+![Identificar questões práticas](../images/decide-i.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
@@ -241,7 +241,7 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
 **Figura 5** - D: Decidir como lidar com as questões éticas.
 
-![Decidir questões éticas](./images/decide-d2.png)
+![Decidir questões éticas](../images/decide-d2.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
@@ -249,6 +249,6 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 
 **Figura 6** - E: Avaliar (Evaluate), interpretar e apresentar os dados.
 
-![Avaliar dados](./images/decide-e2.png)
+![Avaliar dados](../images/decide-e2.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>

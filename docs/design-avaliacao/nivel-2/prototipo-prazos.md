@@ -1,7 +1,7 @@
 # Protótipo de Papel — Painel de Monitoramento de Prazos com Alertas Jurídicos
 
 ## Colaboração
-Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
+Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
@@ -50,7 +50,7 @@ O protótipo abaixo é navegável diretamente no navegador. Clique nas telas par
   </div>
   <iframe
     id="prototipo-iframe"
-    src="../Painel%20Prazos%20-%20Wireframe%20(standalone).html"
+    src="../../Painel%20Prazos%20-%20Wireframe%20(standalone).html"
     width="100%"
     height="720"
     style="border:none;display:block;"

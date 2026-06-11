@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PROCON-DF · Encerramento</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700;900&family=Open+Sans:wght@400;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="../css/styles.css">
+<style>body{background:#fff;min-height:auto;padding:0;margin:0;display:block}</style>
+</head>
+<body style="background:#fff;min-height:auto;padding:0;margin:0;display:block">
+
+<div style="display:flex;flex-direction:column;height:700px">
+  <div class="gov-top"><span>PROCON-DF</span> GOVERNO DO DISTRITO FEDERAL</div>
+  <div class="appbar">
+    <a href="04-sala.html" class="back">←</a>
+    <h2>Conciliação encerrada</h2>
+  </div>
+
+  <div id="resultSuccess" style="flex:1;padding:24px 20px;display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center">
+    <div class="result-icon" style="background:#E6FFFA;color:#29BCB6">🎉</div>
+    <div style="font-family:'Titillium Web',sans-serif;font-weight:700;font-size:26px;color:#29BCB6">Acordo firmado!</div>
+    <div style="font-size:14px;color:#718096">A reclamação #2024-8842 foi encerrada com sucesso.</div>
+    <div class="sign-card" style="width:100%;text-align:left">
+      <div class="row"><span class="lbl">Valor do acordo</span><span class="val">R$ 1.247,00</span></div>
+      <div class="row"><span class="lbl">Voucher cortesia</span><span class="val">R$ 50,00</span></div>
+      <div class="row"><span class="lbl">Prazo p/ estorno</span><span class="val">5 dias úteis</span></div>
+      <div class="row" style="border-bottom:none"><span class="lbl">Status</span><span class="val" style="color:#29BCB6">Acordo firmado ✓</span></div>
+    </div>
+    <a href="01-notificacao.html" class="btn-procon primary" style="margin-top:8px;text-decoration:none">📩 Enviar PDF por WhatsApp</a>
+    <a href="01-notificacao.html" class="btn-procon ghost" style="text-decoration:none">Voltar ao início</a>
+  </div>
+
+  <div id="resultNoAgreement" style="display:none;flex:1;padding:24px 20px;flex-direction:column;align-items:center;gap:10px;text-align:center">
+    <div class="result-icon" style="background:#EBF4FF;color:#4079BC">📋</div>
+    <div style="font-family:'Titillium Web',sans-serif;font-weight:700;font-size:24px;color:#4079BC">Sem acordo</div>
+    <div style="font-size:14px;color:#718096">A audiência foi encerrada sem consenso. O PROCON-DF analisará o caso em até <b>30 dias</b>.</div>
+    <div class="sign-card" style="width:100%;text-align:left">
+      <div class="row"><span class="lbl">Status</span><span class="val" style="color:#E53E3E">Sem acordo</span></div>
+      <div class="row"><span class="lbl">Próximo passo</span><span class="val">Análise do PROCON</span></div>
+      <div class="row" style="border-bottom:none"><span class="lbl">Prazo</span><span class="val">Até 30 dias</span></div>
+    </div>
+    <a href="01-notificacao.html" class="btn-procon ghost" style="margin-top:8px;text-decoration:none">Voltar ao início</a>
+  </div>
+</div>
+
+</body>
+</html>

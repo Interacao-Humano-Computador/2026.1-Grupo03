@@ -1,7 +1,7 @@
 # Protótipo de Papel — Validação de Documentos por OCR
 
 ## Colaboração
-Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
+Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
@@ -45,7 +45,7 @@ O protótipo abaixo é navegável diretamente no navegador. Clique nas telas par
   </div>
   <iframe
     id="prototipo-iframe"
-    src="../OCR%20validacao%20-%20Wireframe%20(standalone).html"
+    src="../../OCR%20validacao%20-%20Wireframe%20(standalone).html"
     width="100%"
     height="720"
     style="border:none;display:block;"

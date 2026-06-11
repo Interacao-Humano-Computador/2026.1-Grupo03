@@ -1,7 +1,7 @@
 # Relato dos Resultados da Avaliação do Storyboard
 
 ## Colaboração
-Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
+Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
@@ -51,8 +51,8 @@ O participante leu os quadros do storyboard em tela, verbalizando sua compreens�
 
 | Entrevistador | Entrevistado | Horário de Início | Horário de Fim | Data | Local |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Heitor Macedo](../equipe/equipe.md) | <span style="color: orange">P1</span> | 13:00 | 13:10 | 30/05/2026 | Presencial |
-| [Pedro Moretti](../equipe/equipe.md) | <span style="color: orange">P2</span> | 11:30 | 11:50 | 30/05/2026 | Presencial |
+| [Heitor Macedo](../../equipe/equipe.md) | <span style="color: orange">P1</span> | 13:00 | 13:10 | 30/05/2026 | Presencial |
+| [Pedro Moretti](../../equipe/equipe.md) | <span style="color: orange">P2</span> | 11:30 | 11:50 | 30/05/2026 | Presencial |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Heitor Macedo Ricardo, Pedro Moretti e Heloisa Silva.</i></p>
@@ -141,7 +141,7 @@ O perfil da participante está alinhado com a persona **Maria** (Consumidora Apo
 
 ### Avaliação 1 — Heitor Macedo (Notificação Ativa de Reclamação)
 
-O storyboard avaliado na sessão foi o **Storyboard de Notificação Ativa de Reclamação**, de autoria de [Heitor Macedo](../equipe/equipe.md), disponível na página [Storyboard](./storyboard.md).
+O storyboard avaliado na sessão foi o **Storyboard de Notificação Ativa de Reclamação**, de autoria de [Heitor Macedo](../../equipe/equipe.md), disponível na página [Storyboard](./storyboard.md).
 
 A narrativa retrata a usuária **Laura**, que possui uma reclamação aberta junto ao PROCON-DF e enfrenta a frustração de não receber qualquer retorno sobre o andamento do processo pelo sistema atual — sem notificações, sem status, sem clareza. Com a solução proposta, Laura passa a:
 
@@ -153,7 +153,7 @@ A narrativa retrata a usuária **Laura**, que possui uma reclamação aberta jun
 
 ### Avaliação 2 — Pedro Moretti (Sala de Conciliação Virtual)
 
-O storyboard avaliado na sessão foi o **Storyboard da Sala de Conciliação Virtual**, de autoria de [Pedro Moretti](../equipe/equipe.md), disponível na página [Storyboard](./storyboard.md).
+O storyboard avaliado na sessão foi o **Storyboard da Sala de Conciliação Virtual**, de autoria de [Pedro Moretti](../../equipe/equipe.md), disponível na página [Storyboard](./storyboard.md).
 
 A narrativa retrata o empresário **Gustavo**, que possui uma oficina mecânica e está envolvido em um conflito de consumo com um cliente. Gustavo está preocupado com a possibilidade de ter que fechar a oficina para participar de uma conciliação presencial, o que geraria perda de arrecadação. Com a solução proposta, Gustavo passa a:
 
@@ -165,7 +165,7 @@ A narrativa retrata o empresário **Gustavo**, que possui uma oficina mecânica 
 
 ### Avaliação 3 — Heloisa Silva (Validação de Documentos por OCR)
 
-O storyboard avaliado na sessão foi o **Storyboard de Validação de Documentos por OCR**, de autoria de [Heloisa Silva](../equipe/equipe.md), disponível na página [Storyboard](./storyboard.md).
+O storyboard avaliado na sessão foi o **Storyboard de Validação de Documentos por OCR**, de autoria de [Heloisa Silva](../../equipe/equipe.md), disponível na página [Storyboard](./storyboard.md).
 
 A narrativa retrata a consumidora **Maria**, aposentada, que precisa complementar uma reclamação junto ao PROCON-DF enviando documentos comprobatórios. Maria utiliza o celular para acessar serviços digitais, mas tem dificuldades com formulários extensos e processos burocráticos. Com a solução proposta, Maria passa a:
 

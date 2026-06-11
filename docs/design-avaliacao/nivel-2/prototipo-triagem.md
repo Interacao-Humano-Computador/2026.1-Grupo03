@@ -2,7 +2,7 @@
 
 ## Colaboração
 
-Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
+Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
@@ -31,37 +31,37 @@ O protótipo cobre as seguintes telas e interações focadas na jornada mobile d
 Abaixo estão dispostos os espaços reservados para a inclusão dos esboços de papel correspondentes a cada tela do fluxo, estruturados em conformidade com as normas ABNT para apresentação de ilustrações.
 
 ### Figura 1 – Tela 1: Home do PROCON-DF com foco em Clean Design
-![Tela 1](./images/Tela1-Triagem.png)
+![Tela 1](../images/Tela1-Triagem.png)
 
 **Fonte:** Elaborado pelo autore (2026).
 
 ### Figura 2 – Tela 2: Seleção de categoria por cards ilustrados
-![Tela 2](./images/Tela2-Triagem.png)
+![Tela 2](../images/Tela2-Triagem.png)
 
 **Fonte:** Elaborado pelo autor (2026).
 
 ### Figura 3 – Tela 3: Filtro de contato amigável
-![Tela 3](./images/Tela3-Triagem.png)
+![Tela 3](../images/Tela3-Triagem.png)
 
 **Fonte:** Elaborado pelo autor (2026).
 
 ### Figura 4 – Tela 4: Painel pedagógico em linguagem cidadã
-![Tela 4](./images/Tela4-Triagem.png)
+![Tela 4](../images/Tela4-Triagem.png)
 
 **Fonte:** Elaborado pelo autor (2026).
 
 ### Figura 5 – Tela 5: Identificação simplificada via Gov.br
-![Tela 5](./images/Tela5-Triagem.png)
+![Tela 5](../images/Tela5-Triagem.png)
 
 **Fonte:** Elaborado pelo autor (2026).
 
 ### Figura 6 – Tela 6: Área de upload guiado por câmera
-![Tela 6](./images/Tela6-Triagem.png)
+![Tela 6](../images/Tela6-Triagem.png)
 
 **Fonte:** Elaborado pelo autor (2026).
 
 ### Figura 7 – Tela 7: Confirmação de protocolo e satisfação
-![Tela 7](./images/Tela7-Triagem.png)
+![Tela 7](../images/Tela7-Triagem.png)
 
 **Fonte:** Elaborado pelo autor (2026).
 

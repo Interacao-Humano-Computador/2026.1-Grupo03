@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROCON-DF · Assinatura Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700;900&family=Open+Sans:wght@400;600&family=Montserrat:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    body {
+      background: #fff;
+      min-height: auto;
+      padding: 0;
+      margin: 0;
+      display: block
+    }
+  </style>
+</head>
+
+<body style="background:#fff;min-height:auto;padding:0;margin:0;display:block">
+
+  <div style="display:flex;flex-direction:column;height:700px">
+    <div class="gov-top"><span>PROCON-DF</span> GOVERNO DO DISTRITO FEDERAL</div>
+    <div class="appbar">
+      <a href="06-termo.html" class="back">←</a>
+      <h2>Assinatura Digital<small>Gov.br</small></h2>
+    </div>
+
+    <div
+      style="flex:1;padding:16px 20px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center">
+      <div style="font-size:48px;margin-top:4px">✍️</div>
+      <div style="font-family:'Titillium Web',sans-serif;font-weight:700;font-size:22px;color:#2D3748">Assine o acordo
+      </div>
+      <div style="font-size:13px;color:#718096;max-width:280px">Sua assinatura tem <b>validade jurídica</b> e encerra a
+        reclamação.</div>
+
+      <div class="sign-card" style="width:100%">
+        <div class="row"><span class="lbl">Acordo</span><span class="val">R$ 1.247,00 + voucher R$ 50</span></div>
+        <div class="row" style="border-bottom:none"><span class="lbl">Empresa</span><span class="val">Panificadora do
+            Guará</span></div>
+        <div class="row" style="border-bottom:none;padding-top:8px"><span class="lbl">Status</span><span class="val"
+            style="color:#29BCB6">Aguardando sua assinatura</span></div>
+      </div>
+
+      <button class="btn-procon success" id="btnGovBr" style="display:flex;gap:10px;margin-top:4px">
+        <span style="font-size:20px">🇧🇷</span> Assinar com Gov.br
+      </button>
+
+
+    </div>
+  </div>
+
+  <script>
+    var btnGov = document.getElementById('btnGovBr');
+    if (btnGov) btnGov.addEventListener('click', function () { window.location.href = '08-encerramento.html'; });
+  </script>
+</body>
+
+</html>

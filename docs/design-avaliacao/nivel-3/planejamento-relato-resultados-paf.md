@@ -1,7 +1,7 @@
 # Planejamento do Relato dos Resultados — Protótipo de Alta Fidelidade
 
 ## Colaboração
-Colaboração referente à [Etapa 6](../planejamento/cronograma-executado.md)
+Colaboração referente à [Etapa 6](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
@@ -90,7 +90,7 @@ Nesta seção, deve-se registrar formalmente a execução do teste piloto realiz
 
 ### 4. Seleção e Perfil dos Participantes
 
-O relato deve apresentar o número final de participantes recrutados (de 3 a 5 participantes por funcionalidade) e justificar o alinhamento do perfil selecionado com o [perfil de usuário](../analise-requisitos/perfil-usuario.md) e as [personas](../analise-requisitos/personas.md) do portal do PROCON-DF (ex.: Consumidor Reclamante, Fornecedor/Comerciante, Usuário Iniciante). Devem ser apresentadas as tabelas de expectativa e de realidade descritas abaixo.
+O relato deve apresentar o número final de participantes recrutados (de 3 a 5 participantes por funcionalidade) e justificar o alinhamento do perfil selecionado com o [perfil de usuário](../../analise-requisitos/perfil-usuario.md) e as [personas](../../analise-requisitos/personas.md) do portal do PROCON-DF (ex.: Consumidor Reclamante, Fornecedor/Comerciante, Usuário Iniciante). Devem ser apresentadas as tabelas de expectativa e de realidade descritas abaixo.
 
 #### Expectativa — Perfil Planejado
 
@@ -284,6 +284,6 @@ Agradecimento ao **Claude** pela ajuda na estruturação e na formatação dos t
 
 <div id="figura0" align="center">
   <p>Figura 1 — Consolidação e Relato dos Resultados</p>
-  <a href="../images/consolidacao.png" target=_blank><img src="../images/consolidacao.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
+  <a href=".../images/consolidacao.png" target=_blank><img src=".../images/consolidacao.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> BARBOSA et al. (2021, p. 263).</p>
 </div>

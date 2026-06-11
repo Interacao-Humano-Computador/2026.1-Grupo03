@@ -1,7 +1,7 @@
 # Relato dos Resultados da Avaliação do Protótipo de Papel — Notificação Ativa
 
 ## Colaboração
-Colaboração referente a [Etapa 5](../planejamento/cronograma-executado.md)
+Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
@@ -41,7 +41,7 @@ A sessão foi integralmente gravada em vídeo para análise posterior.
 
 O protótipo de papel avaliado foi o **Protótipo de Notificação Ativa**, disponível em formato digital interativo:
 
-<p style="text-align: center"><a href="../Notificacao%20Ativa%20-%20Wireframe%20(standalone).html" target="blanket">Clique aqui para acessar o Protótipo de Papel</a></p>
+<p style="text-align: center"><a href="../../Notificacao%20Ativa%20-%20Wireframe%20(standalone).html" target="blanket">Clique aqui para acessar o Protótipo de Papel</a></p>
 
 <font size="3"><p style="text-align: center">Fonte: Elaborado por Heitor Macêdo Ricardo.</p></font>
 
@@ -49,7 +49,7 @@ O protótipo de papel avaliado foi o **Protótipo de Notificação Ativa**, disp
 
 | Entrevistador | Entrevistado | Horário de Início | Horário de Fim | Data | Local |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Heitor Macêdo Ricardo](../equipe/equipe.md) | <span style="color: orange">P1</span> | 18:00 | 18:10 | 05/06/2026 | Presencial |
+| [Heitor Macêdo Ricardo](../../equipe/equipe.md) | <span style="color: orange">P1</span> | 18:00 | 18:10 | 05/06/2026 | Presencial |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Heitor Macêdo Ricardo.</i></p>
@@ -233,7 +233,7 @@ Com base nos dados coletados, o único ponto de atenção identificado é de nat
 
 | Atividade de Reprojeto | Responsável | Data Prevista |
 | :--- | :---: | :---: |
-| Adicionar nota explicativa sobre validade jurídica da assinatura biométrica na tela "Acordo Aceito" | [Heitor Macêdo Ricardo](../equipe/equipe.md) | [DD/MM/2026] |
+| Adicionar nota explicativa sobre validade jurídica da assinatura biométrica na tela "Acordo Aceito" | [Heitor Macêdo Ricardo](../../equipe/equipe.md) | [DD/MM/2026] |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Heitor Macêdo Ricardo.</i></p>

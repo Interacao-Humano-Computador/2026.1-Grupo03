@@ -2,7 +2,7 @@
 
 
 ## Colaboração
-Colaboração referente a [Etapa 4](../planejamento/cronograma-executado.md)
+Colaboração referente a [Etapa 4](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
@@ -142,6 +142,6 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 
 <div id="figura0" align="center">
   <p>Figura 1 - Consolidação e Relato dos Resultados</p>
-  <a href="../images/consolidacao.png" target=_blank><img src="../images/consolidacao.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
+  <a href=".../images/consolidacao.png" target=_blank><img src=".../images/consolidacao.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> BARBOSA et al. (2021, p. 263).</p>
 </div>
