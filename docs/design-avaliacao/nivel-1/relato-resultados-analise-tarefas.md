@@ -101,14 +101,14 @@ O perfil da participante está alinhado com a persona **Laura** (Consumidora Rec
 
 ### Participante P2 (Avaliação de Pedro Moretti)
 
-O perfil do participante está alinhado com a persona **Gustavo** (Fornecedor/Comerciante) definida no projeto — empreendedor que precisa resolver conflitos com consumidores sem comprometer o funcionamento do seu negócio, buscando soluções que otimizem seu tempo e evitem deslocamentos ou perda de arrecadação.
+O perfil do participante está alinhado com o perfil de usuário primário **Fornecedor (Representante da Empresa)** — empreendedor que precisa resolver conflitos com consumidores sem comprometer o funcionamento do seu negócio, buscando soluções que otimizem seu tempo e evitem deslocamentos ou perda de arrecadação.
 
 **Quadro 1 - Perfil dos participantes e avaliadores**
 
-| ID | Papel na Avaliação | Persona Correspondente / Alinhamento | Idade | Ocupação |
+| ID | Papel na Avaliação | Perfil de Usuário / Alinhamento | Idade | Ocupação |
 | :---: | :---: | :---: | :---: | :---: |
-| P1 | Usuário Avaliador | Laura (Consumidora Reclamante) | 18 anos | Universitária |
-| P2 | Usuário Avaliador | Gustavo (Fornecedor/Comerciante) | 40 anos | Empresário |
+| P1 | Usuário Avaliador | Consumidor (Reclamante e Informacional) | 18 anos | Universitária |
+| P2 | Usuário Avaliador | Fornecedor (Representante da Empresa) | 40 anos | Empresário |
 | A1 | Moderador | Heitor Macedo (Grupo 03) | 20 | Entrevistador |
 | A2 | Moderador | Pedro Moretti (Grupo 03) | 20 anos | Entrevistador |
 

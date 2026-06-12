@@ -78,13 +78,13 @@ A avaliação contou com **um (1) participante real** recrutado, identificado de
 
 ### Participante P1
 
-O perfil da participante está alinhado com a persona **Gustavo** (Fornecedor/Comerciante) definida no projeto — empresária que precisa resolver conflitos com consumidores sem comprometer o funcionamento do seu negócio, buscando soluções que otimizem seu tempo e evitem deslocamentos ou perda de arrecadação. A participante possui experiência prévia com serviços digitais e videochamadas, e já precisou resolver um problema de consumo presencialmente no PROCON, o que lhe confere familiaridade com o contexto avaliado.
+O perfil da participante está alinhado com o perfil de usuário primário **Fornecedor (Representante da Empresa)** — empresária que precisa resolver conflitos com consumidores sem comprometer o funcionamento do seu negócio, buscando soluções que otimizem seu tempo e evitem deslocamentos ou perda de arrecadação. A participante possui experiência prévia com serviços digitais e videochamadas, e já precisou resolver um problema de consumo presencialmente no PROCON, o que lhe confere familiaridade com o contexto avaliado.
 
 **Quadro 1 - Perfil dos participantes e avaliadores**
 
-| ID | Papel na Avaliação | Persona Correspondente / Alinhamento | Idade | Ocupação |
+| ID | Papel na Avaliação | Perfil de Usuário / Alinhamento | Idade | Ocupação |
 | :---: | :---: | :---: | :---: | :---: |
-| P1 | Usuário Avaliador | Gustavo (Fornecedor/Comerciante) | 40 anos | Empresária |
+| P1 | Usuário Avaliador | Fornecedor (Representante da Empresa) | 40 anos | Empresária |
 | A1 | Mediador | Pedro Moretti (Grupo 03) | 20 anos | Entrevistador |
 
 <div align="center">
@@ -158,7 +158,7 @@ Abaixo, o vídeo da sessão de avaliação com a participante P1:
 
 ### Perfil e Contexto do Participante
 
-A participante P1, empresária de 40 anos, relatou utilizar serviços online diariamente e possuir experiência com videochamadas (Zoom, Google Meet, WhatsApp), mencionando que "na época ainda tinham problemas, hoje em dia já está bem melhor". Ela também já havia resolvido um problema de consumo presencialmente no PROCON, o que lhe confere conhecimento prático do contexto avaliado. Este perfil está alinhado com a persona **Gustavo** (Fornecedor/Comerciante), que busca soluções que otimizem seu tempo e evitem deslocamentos.
+A participante P1, empresária de 40 anos, relatou utilizar serviços online diariamente e possuir experiência com videochamadas (Zoom, Google Meet, WhatsApp), mencionando que "na época ainda tinham problemas, hoje em dia já está bem melhor". Ela também já havia resolvido um problema de consumo presencialmente no PROCON, o que lhe confere conhecimento prático do contexto avaliado. Este perfil está alinhado com o perfil de usuário primário **Fornecedor (Representante da Empresa)**, que busca soluções que otimizem seu tempo e evitem deslocamentos.
 
 ### Navegabilidade e Fluidez do Fluxo
 
@@ -259,3 +259,4 @@ Agradecimento ao **Claude** pela ajuda na correção e detalhamento das resposta
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 01/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Papel — Sala de Conciliação Virtual com dados da entrevista com P1. | Pedro Moretti | — |
+| 1.1 | 12/06/2026 | Substituição de referências a personas por perfil de usuário primário Fornecedor (Representante da Empresa). | Pedro Moretti | Heitor Macedo |

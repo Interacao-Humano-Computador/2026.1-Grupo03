@@ -29,7 +29,7 @@ O protótipo cobre as seguintes telas e interações:
 4. **Videoconferência** — sala principal com vídeo dos participantes, nomes/papéis fixos e controles de mídia
 5. **Chat de evidências** — painel de troca de documentos com confirmação de entrega
 6. **Termo de acordo** — minuta elaborada pelo mediador em linguagem simples
-7. **Assinatura digital** — autenticação via Gov.br ou biometria facial
+7. **Assinatura digital** — autenticação via Gov.br
 8. **Encerramento** — tela de sucesso (acordo firmado) ou comunicação de encerramento sem acordo
 
 ---
@@ -77,7 +77,7 @@ As principais escolhas de design refletidas no protótipo são:
 - **Botões grandes de microfone/câmera** — controles sempre visíveis para mutar/desmutar, seguindo recomendação HTA operação 3.2
 - **Chat de evidências integrado** — troca de documentos com confirmação de entrega e miniatura, conforme HTA operação 3.3
 - **Termo em linguagem simples** — sem jargão jurídico, destacando valor e prazo (heurística de correspondência com o mundo real)
-- **Assinatura digital via Gov.br ou biometria** — dupla opção de autenticação para diferentes perfis de usuário, conforme HTA operação 4.1
+- **Assinatura digital via Gov.br** — autenticação via plataforma digital do governo por facilidade e validade juridica, conforme HTA operação 4.1
 - **Próximo passo claro pós-encerramento** — tanto em caso de acordo quanto sem acordo, evitando sensação de abandono (HTA operação 4.2)
 
 ---

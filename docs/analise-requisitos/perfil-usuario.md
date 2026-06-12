@@ -131,7 +131,7 @@ A consolidação das análises documentais — baseadas no Sindec Nacional, Cart
 
 A triangulação dos dados coletados permite contrastar a amostra qualitativa primária (focada em jovens com alta fluência digital e pequenos empresários) com os dados quantitativos e documentais (que revelam um público mais maduro, majoritariamente feminino e com variados níveis de letramento digital). 
 
-O resultado dessa consolidação nos permite definir com clareza três perfis distintos de usuários para o sistema, estruturados de acordo com seus objetivos, sua frequência de uso e seu impacto nas decisões de design de acordo com a seção 7.3 do livro de Barbosa et al. (2021)<sup><a href="#figura0">[1]</a></sup>:
+O resultado dessa consolidação nos permite definir com clareza **três perfis primários de usuários** para o sistema, uma vez que todos utilizam o sistema de forma diária e contínua no contexto do PROCON-DF, estruturados de acordo com seus objetivos, sua frequência de uso e seu impacto nas decisões de design de acordo com a seção 7.3 do livro de Barbosa et al. (2021)<sup><a href="#figura0">[1]</a></sup>:
 
 ### Perfil Primário: O Consumidor (Reclamante e Informacional)
 
@@ -144,7 +144,7 @@ O usuário foco principal do sistema, representando a grande maioria dos acessos
 - **Objetivo:** Registrar uma reclamação de forma rápida, eficiente e guiada para solucionar problemas financeiros ou de serviços; e também tirar dúvidas em perguntas frequentes (FAQ), consultar listas de empresas não recomendadas e entender a legislação.
 - **Dores e Necessidades:** Sofrem com o vocabulário jurídico, com processos longos e fragmentados e com dificuldades de encontrar informações relevantes em meio a uma navegação confusa. Necessitam de fluxos passo a passo altamente guiados, linguagem extremamente simples (sem "juridiquês"), ferramenta de busca robusta, categorização temática e expectativas claras sobre pré-requisitos (como a obrigatoriedade do protocolo prévio da empresa).
 
-### Perfil Secundário: O Fornecedor / Pequeno Empreendedor
+### Perfil Primário: O Fornecedor / Pequeno Empreendedor
 
 #### Obtido através da Entrevista (Fornecedores)
 
@@ -155,7 +155,7 @@ O usuário representante do setor produtivo, que acessa o sistema majoritariamen
 - **Objetivo:** Resolver pendências administrativas, responder notificações oficiais e manter a regularidade da sua empresa.
 - **Dores e Necessidades:** Sentem-se ignorados e prejudicados pela estrutura do portal atual. Precisam de um acesso direto ("Área da Empresa") e clareza nas notificações, eliminando o ruído visual gerado por cartilhas de consumidor ou notícias institucionais que não se aplicam ao seu negócio.
 
-### Perfil Terciário: O Funcionário / Atendente do PROCON-DF
+### Perfil Primário: O Funcionário / Atendente do PROCON-DF
 
 #### Obtido através da Análise Documental (PROCON-DF)
 
@@ -242,6 +242,7 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 | `1.4`  | 03/05/2026 | Inclusão da análise documental complementar (Pedro Moretti), integração dos achados ao perfil e adição das referências correspondentes.      | Pedro Augusto Moretti Moreira         | Heloisa Silva |
 | `1.5`  | 05/05/2026 | Ajustes a partir dos feedbacks da apresentação  | Heitor Macedo Ricardo | Heloisa Silva |
 | `1.6`  | 08/05/2026 | Unificação do perfil de consumidor, adição do perfil de funcionário e padronização em tabela dos resultados das entrevistas | Heitor Macedo Ricardo | Heloisa Silva |
+| `1.7`  | 12/06/2026 | Reclassificação dos perfis: Fornecedor e Funcionário passam a ser primários (antes secundário e terciário), pois todos utilizam o sistema diariamente. | Pedro Moretti | Heitor Macedo |
 ## Notas de Rodapé e Referências de Imagens
 
 

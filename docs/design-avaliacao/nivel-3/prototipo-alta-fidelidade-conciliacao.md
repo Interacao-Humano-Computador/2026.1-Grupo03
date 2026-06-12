@@ -18,7 +18,7 @@ Diferentemente do protótipo de papel (baixa fidelidade), este protótipo incorp
 - **Paleta de cores oficial** — Azul Principal (#4079BC), Magenta CTA (#A93D8E), Amarelo Governo (#FFD200), Verde Sucesso (#29BCB6)
 - **Tipografia oficial** — Titillium Web (títulos), Open Sans (corpo), Montserrat (botões e UI)
 - **Padrões de componentes** — cartões, botões, campos, conforme especificado no guia de estilo
-- **Interações realistas** — toggle de microfone/câmera, fluxo de assinatura Gov.br → biometria
+- **Interações realistas** — toggle de microfone/câmera, fluxo de assinatura Gov.br
 
 ---
 

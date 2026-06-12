@@ -60,7 +60,7 @@ No horário agendado, Laura recebeu uma notificação no WhatsApp com um link de
 
 Na sala, o mediador do PROCON e o representante da operadora já a aguardavam. A conversa foi direta: a operadora reconheceu o erro e ofereceu o estorno imediato do valor nas próximas faturas. Laura escutou atentamente a proposta. O mediador redigiu o termo de acordo e o compartilhou na tela. A interface mobile destacou de forma clara os pontos essenciais do documento, sem letras miúdas ou jargões jurídicos confusos. 
 
-Com a orientação do mediador, que destacou o botão de ação principal na interface de Laura, ela tocou em "Assinar Acordo" e confirmou a assinatura usando a biometria facial do próprio celular. Em menos de 10 minutos, o problema estava resolvido. O sistema enviou imediatamente o comprovante em PDF para o seu WhatsApp. Laura sentiu-se empoderada e aliviada por ter resolvido tudo de forma fluida, a tempo de entrar tranquilamente na sua próxima aula de Administração.
+Com a orientação do mediador, que destacou o botão de ação principal na interface de Laura, ela tocou em "Assinar Acordo" e confirmou a assinatura usando o Gov.br. Em menos de 10 minutos, o problema estava resolvido. O sistema enviou imediatamente o comprovante em PDF para o seu WhatsApp. Laura sentiu-se empoderada e aliviada por ter resolvido tudo de forma fluida, a tempo de entrar tranquilamente na sua próxima aula de Administração.
 
 ---
 
@@ -72,8 +72,8 @@ Segundo **Barbosa e Silva (2021, p. 158)**, os 7 elementos obrigatórios de um c
 - **Atores:** Laura Mendes (estudante universitária e Persona Primária), o Mediador do PROCON-DF e o Representante da Operadora de telefonia.
 - **Objetivos:** Participar de uma audiência de conciliação para resolver uma cobrança indevida de R$ 89,90 de forma rápida, sem necessidade de logins complexos, e formalizar o acordo a tempo de comparecer à próxima aula.
 - **Planejamento:** Laura planejou utilizar seus 15 minutos de intervalo acadêmico. Para isso, deslocou-se para um local com melhor sinal e utilizou fones de ouvido para isolar o ruído externo do ambiente universitário.
-- **Ações:** (1) Tocar na notificação do link recebido via WhatsApp; (2) conceder permissões de câmera e microfone no navegador mobile; (3) escutar a proposta na videoconferência; (4) ler o resumo do termo de acordo na tela; (5) tocar em "Assinar Acordo" e autenticar a assinatura via biometria facial.
-- **Eventos:** (1) O sistema envia automaticamente o link de ingresso pelo WhatsApp; (2) a plataforma adapta a interface de vídeo e visualização de documentos para o modo retrato (mobile-first); (3) o mediador utiliza recursos do sistema para destacar o botão de ação para Laura; (4) o sistema processa a biometria e envia o comprovante de resolução pelo WhatsApp.
+- **Ações:** (1) Tocar na notificação do link recebido via WhatsApp; (2) conceder permissões de câmera e microfone no navegador mobile; (3) escutar a proposta na videoconferência; (4) ler o resumo do termo de acordo na tela; (5) tocar em "Assinar Acordo" e autenticar a assinuta com Gov.br.
+- **Eventos:** (1) O sistema envia automaticamente o link de ingresso pelo WhatsApp; (2) a plataforma adapta a interface de vídeo e visualização de documentos para o modo retrato (mobile-first); (3) o mediador utiliza recursos do sistema para destacar o botão de ação para Laura; (4) o sistema processa a assinatura e envia o comprovante de resolução pelo WhatsApp.
 - **Avaliação:** Laura sentiu-se empoderada pela eficiência do processo. A ausência de burocracia e de jargões inacessíveis, aliada à fluidez de uma interface otimizada para smartphones, permitiu a resolução de um conflito jurídico de forma rápida, respeitando sua rotina acadêmica.
 
 !!! info "Responsável por este artefato"
