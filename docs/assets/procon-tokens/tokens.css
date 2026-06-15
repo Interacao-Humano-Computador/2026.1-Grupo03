@@ -1,0 +1,97 @@
+/*
+ * Design Tokens — Procon-DF (https://www.procon.df.gov.br/)
+ * Extraído via Playwright · emulação iPhone 12 (390×844, 3×dpr)
+ * Data: 2026-06-14
+ *
+ * USO: importe este arquivo e use as variáveis para se inspirar
+ * no visual do portal.  Não copie conteúdo ou logotipos do site.
+ */
+
+:root {
+  /* ── Paleta ────────────────────────────────────────────── */
+  --color-primary:        #4079BC; /* rgb(64,121,188)  — azul principal (botão, link) */
+  --color-primary-dark:   #346398; /* rgb(52,99,152)   — borda/hover do botão        */
+  --color-accent:         #FFD200; /* rgb(255,210,0)   — amarelo destaque             */
+
+  --color-text:           #515151; /* rgb(81,81,81)    — texto geral                 */
+  --color-text-muted:     #777777; /* rgb(119,119,119) — texto secundário            */
+  --color-text-inverse:   #FFFFFF; /* branco (sobre fundos escuros)                  */
+
+  --color-bg:             #FFFFFF; /* fundo padrão                                   */
+  --color-bg-subtle:      #F8F8F8; /* fundo do nav/header                            */
+  --color-bg-light:       #F5F5F5; /* fundo de seções alternadas                     */
+
+  --color-border:         #E7E7E7; /* borda do nav                                   */
+  --color-border-input:   #E0E0E0; /* borda de inputs                                */
+  --color-border-muted:   #CCCCCC; /* bordas sutis                                   */
+
+  /* ── Tipografia ────────────────────────────────────────── */
+  --font-heading: "Titillium Web", sans-serif;   /* h1–h4                            */
+  --font-body:    "Open Sans", sans-serif;        /* p, a, button, label, span        */
+
+  --text-xs:   13px;   /* --wp--preset--font-size--small  */
+  --text-sm:   14px;   /* links, inputs                   */
+  --text-base: 16px;   /* body default                    */
+  --text-lg:   18px;   /* parágrafos principais           */
+  --text-xl:   20px;   /* --wp--preset--font-size--medium */
+  --text-2xl:  24px;   /* h3, h4                          */
+  --text-4xl:  36px;   /* h1, h2                          */
+  --text-huge: 42px;   /* --wp--preset--font-size--huge   */
+
+  --font-weight-normal:    400;
+  --font-weight-medium:    500;   /* headings                        */
+  --font-weight-bold:      700;   /* parágrafos, links               */
+
+  --leading-tight:  1.1;   /* h1/h2: 39.6/36 ≈ 1.1             */
+  --leading-normal: 1.25;  /* h3/h4: 26.4/24 ≈ 1.1             */
+  --leading-body:   1.43;  /* links: 20/14 ≈ 1.43               */
+
+  /* ── Espaçamento (ritmo = 15px) ───────────────────────── */
+  --space-1:  4px;
+  --space-2:  9px;
+  --space-3:  12px;
+  --space-4:  15px;   /* unidade base (mais frequente)      */
+  --space-5:  20px;
+  --space-6:  30px;
+  --space-8:  40px;
+
+  /* ── Componentes ───────────────────────────────────────── */
+  /* Botão */
+  --btn-padding:        9px 20px;
+  --btn-bg:             var(--color-primary);
+  --btn-color:          var(--color-text-inverse);
+  --btn-border:         1px solid var(--color-primary-dark);
+  --btn-border-radius:  0px;   /* sem arredondamento */
+  --btn-font:           var(--font-body);
+  --btn-font-size:      var(--text-base);
+  --btn-font-weight:    var(--font-weight-normal);
+
+  /* Input / campo de pesquisa */
+  --input-padding:      15px 12px;
+  --input-bg:           var(--color-bg);
+  --input-color:        var(--color-text);
+  --input-border:       1px solid var(--color-border-input);
+  --input-border-radius: 0px;
+  --input-font:         var(--font-body);
+  --input-font-size:    var(--text-sm);
+
+  /* Nav / Header */
+  --nav-bg:             var(--color-bg-subtle);
+  --nav-border:         1px solid var(--color-border);
+  --nav-font:           var(--font-body);
+  --nav-font-size:      var(--text-base);
+  --nav-color:          var(--color-text);
+
+  /* Footer (.rodape) */
+  --footer-padding:     0px 15px;
+  --footer-margin:      30px 0px 40px;
+  --footer-font:        var(--font-body);
+  --footer-font-size:   var(--text-base);
+  --footer-color:       var(--color-text);
+
+  /* Sombras */
+  --shadow-natural: 6px 6px 9px rgba(0,0,0,0.2);
+  --shadow-deep:    12px 12px 50px rgba(0,0,0,0.4);
+  --shadow-sharp:   6px 6px 0px rgba(0,0,0,0.2);
+  --shadow-crisp:   6px 6px 0px rgb(0,0,0);
+}

@@ -80,6 +80,17 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Relato dos Resultados do Protótipo de Papel — Painel de Monitoramento de Prazos** | [Mateus Rodrigues](../equipe/equipe.md)<br><small>—</small> | — | — | ⏳ Pendente |
     | **Lista de Verificação (Etapa 6)** | [Heitor Macedo](../equipe/equipe.md)<br><small>07/06/2026</small> · [Pedro Moretti](../equipe/equipe.md)<br><small>07/06/2026</small> | — | [📄 Lista de Verificação (Etapa 6)](../projeto/verificacao-etapa6.md) | ✅ Concluído |
 
+=== "Etapa 7"
+    Nesta etapa, as tarefas foram direcionadas para a construção e avaliação dos protótipos de alta fidelidade e a elaboração dos relatos dos resultados correspondentes.
+
+    | Atividade Extraída do Plano de Ensino | Integrante Responsável<br><small>(nome · data de conclusão)</small> | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
+    | :--- | :---: | :---: | :--- | :---: |
+    | **Protótipo de Alta Fidelidade — Notificação Ativa** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Protótipo de Alta Fidelidade — Notificação Ativa](../design-avaliacao/nivel-3/prototipo-alta-fidelidade-notificacao-ativa.md) | ✅ Concluído |
+    | **Protótipo de Alta Fidelidade — Sala de Conciliação Virtual** | [Pedro Moretti](../equipe/equipe.md)<br><small>12/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Protótipo de Alta Fidelidade — Sala de Conciliação Virtual](../design-avaliacao/nivel-3/prototipo-alta-fidelidade-conciliacao.md) | ✅ Concluído |
+    | **Relato dos Resultados do Protótipo de Alta Fidelidade — Notificação Ativa** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Relato dos Resultados — Notificação Ativa](../design-avaliacao/nivel-3/relato-resultados-alta-fidelidade-notificacao-ativa.md) | ✅ Concluído |
+    | **Relato dos Resultados do Protótipo de Alta Fidelidade — Sala de Conciliação Virtual** | [Pedro Moretti](../equipe/equipe.md)<br><small>12/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Relato dos Resultados — Sala de Conciliação Virtual](../design-avaliacao/nivel-3/relato-resultados-alta-fidelidade-conciliacao-virtual.md) | ✅ Concluído |
+    | **Lista de Verificação (Etapa 7)** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/06/2026</small> | — | [📄 Lista de Verificação (Etapa 7)](../projeto/verificacao-etapa7.md) | ✅ Concluído |
+
 ---
 
 ### Resumo Quantitativo da Equipe
@@ -156,6 +167,16 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Total de documentos criados** | 0 | 1 | 0 | 1 | 1 | 0 |
     | **Total de documentos revisados** | 0 | 2 | 0 | 1 | 0 | 0 |
 
+=== "Etapa 7"
+
+    | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Moretti | Pedro Macedo | Mateus Rodrigues |
+    | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+    | **Protótipo de Alta Fidelidade** | — | 1 | — | 1 | — | — |
+    | **Relato dos Resultados do Protótipo de Alta Fidelidade** | — | 1 | — | 1 | — | — |
+    | **Lista de Verificação (Etapa 7 - itens)** | — | 5 | — | — | — | — |
+    | **Total de documentos criados** | 0 | 2 | 0 | 2 | 0 | 0 |
+    | **Total de documentos revisados** | 0 | 4 | 0 | 0 | 0 | 0 |
+
 ---
 
 ## Bibliografia
@@ -178,3 +199,4 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 | `1.6` | 24/05/2026 | Atualização de constribuções da Etapa 3. | Mateus Rodrigues Barreto | Heloisa Silva |
 | `1.7` | 31/05/2026 | Adição da Etapa 5 com cronograma executado e resumo quantitativo. | Heitor Macedo Ricardo | Pedro Moretti |
 | `1.8` | 07/06/2026 | Adição da Etapa 6 com planejamento do protótipo de alta fidelidade, relato de resultados do protótipo de papel e resumo quantitativo. | Heitor Macedo Ricardo | — |
+| `1.9` | 14/06/2026 | Adição da Etapa 7 com protótipos de alta fidelidade, relatos dos resultados e lista de verificação. | Heitor Macedo Ricardo | — |
