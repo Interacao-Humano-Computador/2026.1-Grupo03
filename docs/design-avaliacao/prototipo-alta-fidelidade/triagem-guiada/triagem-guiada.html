@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>PROCON-DF · Triagem Guiada — Protótipo</title>
+  <!-- Google Fonts oficial do guia de estilo -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open Sans:wght@400;600;700&family=Titillium Web:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #4079BC;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: 'Open Sans', sans-serif;
+      padding: 24px;
+    }
+
+    /* ---------- TELEFONE ---------- */
+    .phone {
+      width: 375px;
+      height: 700px;
+      background: #FFFFFF;
+      border-radius: 44px;
+      box-shadow: 0 25px 50px -12px rgba(0,0,0,0.4);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    /* Status bar + notch (estilo GOV) */
+    .status-bar {
+      background: #4079BC;
+      padding: 12px 20px 6px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      font-weight: 600;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .notch-spacer {
+      height: 4px;
+      background: #FFD200;
+    }
+
+    /* Header padrão */
+    .app-header {
+      background: #4079BC;
+      padding: 16px 20px 12px;
+      color: white;
+    }
+    .app-header h1 {
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      margin: 0;
+    }
+    .app-header p {
+      font-size: 13px;
+      opacity: 0.85;
+      margin-top: 4px;
+    }
+
+    /* Navegação entre telas */
+    .screen-container {
+      flex: 1;
+      overflow-y: auto;
+      position: relative;
+      background: #F5F7FA;
+    }
+    .screen {
+      display: none;
+      padding: 20px;
+      flex-direction: column;
+      gap: 20px;
+      height: 100%;
+    }
+    .screen.active {
+      display: flex;
+    }
+
+    /* Botões principais */
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 14px 16px;
+      border: none;
+      border-radius: 12px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .btn-primary {
+      background: #FFD200;
+      color: #1E2A3A;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .btn-primary:active { transform: scale(0.98); background: #e5bd00; }
+    .btn-secondary {
+      background: white;
+      border: 1.5px solid #4079BC;
+      color: #4079BC;
+    }
+    .btn-secondary:active { background: #eef4fb; }
+
+    /* Cards de categoria */
+    .category-card {
+      background: white;
+      border-radius: 20px;
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      transition: 0.1s;
+      cursor: pointer;
+      border: 1px solid #E2E8F0;
+    }
+    .category-card:active { transform: scale(0.99); background: #FAFCFE; }
+    .cat-icon { font-size: 40px; min-width: 56px; text-align: center; }
+    .cat-info h3 { font-family: 'Titillium Web', sans-serif; font-weight: 600; font-size: 18px; color: #1E2A3A; }
+    .cat-info p { font-size: 13px; color: #5A6B7A; margin-top: 4px; }
+
+    /* Sim/Não */
+    .yesno-group {
+      display: flex;
+      gap: 16px;
+      margin: 8px 0;
+    }
+    .yesno-group .btn { flex: 1; }
+
+    /* Painel informativo */
+    .info-panel {
+      background: #EFF6FF;
+      border-left: 5px solid #4079BC;
+      padding: 18px;
+      border-radius: 16px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #1E2A3A;
+    }
+    .info-panel strong { color: #4079BC; }
+
+    /* Gov.br */
+    .gov-card {
+      background: #FFFFFF;
+      border-radius: 24px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      border: 1px solid #E2E8F0;
+    }
+    .gov-btn {
+      background: #1351B4;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 40px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 12px;
+    }
+
+    /* Upload */
+    .upload-area {
+      border: 2px dashed #A0AEC0;
+      border-radius: 24px;
+      padding: 28px 16px;
+      text-align: center;
+      cursor: pointer;
+      background: #FAFCFE;
+      transition: 0.1s;
+    }
+    .upload-area:active { background: #F0F4F9; }
+    .upload-icon { font-size: 44px; margin-bottom: 12px; }
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #CBD5E0;
+      border-radius: 16px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      resize: vertical;
+    }
+
+    /* Sucesso */
+    .protocolo {
+      background: #FFD200;
+      font-family: 'Montserrat', monospace;
+      font-size: 26px;
+      font-weight: 700;
+      padding: 10px 18px;
+      border-radius: 60px;
+      display: inline-block;
+      margin: 12px 0;
+      color: #1E2A3A;
+    }
+    .whatsapp-note {
+      background: #E9F7EF;
+      border-left: 5px solid #25D366;
+      padding: 12px;
+      border-radius: 12px;
+      font-size: 14px;
+    }
+
+    /* Voltar / navegação */
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: none;
+      border: none;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      color: #4079BC;
+      font-size: 14px;
+      cursor: pointer;
+      margin-bottom: 12px;
+    }
+
+    /* Rodapé fixo (controles) */
+    .bottom-controls {
+      background: white;
+      padding: 12px 20px;
+      border-top: 1px solid #E2E8F0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+    .ctrl-btn {
+      background: #F1F5F9;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 30px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    .pip {
+      width: 6px;
+      height: 6px;
+      background: #CBD5E0;
+      border-radius: 50%;
+      display: inline-block;
+      margin: 0 3px;
+    }
+    .pip.active { background: #4079BC; width: 18px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+<div class="phone">
+  <!-- status bar + faixa amarela gov -->
+  <div class="status-bar">
+    <span>9:41</span>
+    <span>📶 🔋</span>
+  </div>
+  <div class="notch-spacer"></div>
+
+  <!-- Área das telas -->
+  <div class="screen-container" id="screenContainer">
+    <!-- TELA 1 - HOME / BOTÃO CENTRAL -->
+    <div class="screen active" data-screen="home">
+      <div class="app-header">
+        <h1>PROCON-DF</h1>
+        <p>Seus direitos, nossa missão</p>
+      </div>
+      <div style="flex:1; display:flex; flex-direction:column; justify-content:center; gap:24px;">
+        <button class="btn btn-primary" style="font-size:22px; padding:20px;" data-nav="categoria">+ Iniciar queixa</button>
+        <div class="info-panel" style="text-align:center;">
+          🛡️ Atendimento gratuito · mediação de conflitos de consumo
+        </div>
+      </div>
+    </div>
+
+    <!-- TELA 2 - CATEGORIA (cards grandes) -->
+    <div class="screen" data-screen="categoria">
+      <button class="back-link" data-nav="home">← Voltar</button>
+      <h2 style="font-family:'Titillium Web'; font-weight:600; font-size:20px;">Qual é o problema?</h2>
+      <p style="font-size:13px; color:#5A6B7A; margin-bottom:8px;">Escolha a opção mais parecida</p>
+      <div style="display:flex; flex-direction:column; gap:12px;">
+        <div class="category-card" data-nav="contato"><div class="cat-icon">📱💻</div><div class="cat-info"><h3>Produto com defeito</h3><p>Eletrônicos, eletrodomésticos</p></div></div>
+        <div class="category-card" data-nav="contato"><div class="cat-icon">📦🚚</div><div class="cat-info"><h3>Atraso / não entrega</h3><p>Compras online, entregas</p></div></div>
+        <div class="category-card" data-nav="contato"><div class="cat-icon">💳📄</div><div class="cat-info"><h3>Cobrança indevida</h3><p>Valor errado na fatura</p></div></div>
+        <div class="category-card" data-nav="contato"><div class="cat-icon">🏠🔧</div><div class="cat-info"><h3>Serviço mal prestado</h3><p>Reparos, instalações</p></div></div>
+      </div>
+    </div>
+
+    <!-- TELA 3 - CONTATO PRÉVIO (Sim/Não) -->
+    <div class="screen" data-screen="contato">
+      <button class="back-link" data-nav="categoria">← Voltar</button>
+      <h2 style="font-family:'Titillium Web';">Você já tentou resolver com a empresa?</h2>
+      <div class="yesno-group">
+        <button class="btn btn-primary" data-nav="linguagem">Sim</button>
+        <button class="btn btn-secondary" data-nav="linguagem">Não</button>
+      </div>
+      <div class="info-panel">
+        🤝 Mesmo se você não conseguiu contato, o PROCON pode ajudar. Vamos orientar você.
+      </div>
+    </div>
+
+    <!-- TELA 4 - LINGUAGEM CIDADÃ (explicação clara) -->
+    <div class="screen" data-screen="linguagem">
+      <button class="back-link" data-nav="contato">← Voltar</button>
+      <h2 style="font-family:'Titillium Web';">O que faz o PROCON?</h2>
+      <div class="info-panel" style="background:#F1F5F9; border-left-color:#FFD200;">
+        <p><strong>Em português claro:</strong></p>
+        <ul style="margin-left:20px; margin-top:8px;">
+          <li>✔️ Recebemos sua reclamação e notificamos a empresa</li>
+          <li>✔️ Buscamos um acordo bom para os dois lados (conciliação)</li>
+          <li>✔️ Se não houver acordo, orientamos você para o Juizado Especial</li>
+        </ul>
+        <p style="margin-top:12px;"><strong>Gratuito, 100% online, sem advogado para começar.</strong></p>
+      </div>
+      <button class="btn btn-primary" data-nav="identificacao">Entendi, quero continuar</button>
+    </div>
+
+    <!-- TELA 5 - IDENTIFICAÇÃO GOV.BR -->
+    <div class="screen" data-screen="identificacao">
+      <button class="back-link" data-nav="linguagem">← Voltar</button>
+      <h2 style="font-family:'Titillium Web';">Identifique-se com segurança</h2>
+      <div class="gov-card">
+        <div style="font-size:48px;">🔐</div>
+        <p style="margin:12px 0;">Use sua conta <strong>gov.br</strong><br>(nível prata ou ouro)</p>
+        <button class="gov-btn" id="fakeGovBtn">Entrar com gov.br</button>
+        <p style="font-size:12px; margin-top:12px;">Seus dados ficam protegidos. O PROCON acessa apenas nome, CPF e e-mail.</p>
+      </div>
+    </div>
+
+    <!-- TELA 6 - UPLOAD DE EVIDÊNCIAS + descrição -->
+    <div class="screen" data-screen="upload">
+      <button class="back-link" data-nav="identificacao">← Voltar</button>
+      <h2>Comprovantes</h2>
+      <p style="font-size:13px;">Quanto mais informação, melhor para o seu caso.</p>
+      <div class="upload-area" id="fakeCamera">
+        <div class="upload-icon">📸</div>
+        <div style="font-weight:600;">Tirar foto da nota fiscal / comprovante</div>
+        <div style="font-size:12px; margin-top:6px;">ou escolher da galeria</div>
+      </div>
+      <label style="font-weight:600; margin-top:8px;">Descreva o que aconteceu (opcional)</label>
+      <textarea rows="3" placeholder="Ex.: comprei em 10/03, o produto veio com defeito e a empresa não respondeu..."></textarea>
+      <button class="btn btn-primary" id="finishClaim">Enviar reclamação</button>
+    </div>
+
+    <!-- TELA 7 - SUCESSO + PROTOCOLO + WHATSAPP -->
+    <div class="screen" data-screen="sucesso">
+      <button class="back-link" data-nav="upload">← Voltar</button>
+      <div style="text-align:center;">
+        <div class="protocolo">PRO-2025-004217</div>
+        <p style="font-size:14px;">Guarde este número</p>
+      </div>
+      <div class="whatsapp-note">
+        💬 <strong>Receba atualizações no WhatsApp</strong><br>
+        O PROCON pode enviar alertas sobre sua reclamação diretamente pelo WhatsApp. Toque no botão para ativar.
+      </div>
+      <button class="btn btn-primary" id="whatsappBtn" style="background:#25D366; color:white;">📲 Ativar alertas no WhatsApp</button>
+      <button class="btn btn-secondary" data-nav="home">Ir para o início</button>
+      <div class="info-panel" style="margin-top:12px;">
+        📌 A empresa tem até <strong>10 dias</strong> para apresentar uma resposta. Você será avisado.
+      </div>
+    </div>
+  </div>
+
+  <!-- barra de navegação inferior (pips + voltar/reiniciar) -->
+  <div class="bottom-controls">
+    <button class="ctrl-btn" id="prevBtn">← Voltar</button>
+    <div id="pipsContainer" style="display:flex; gap:6px;"></div>
+    <button class="ctrl-btn" id="restartBtn">Reiniciar</button>
+  </div>
+</div>
+
+<script>
+  // Definição das telas na ordem
+  const screens = ['home', 'categoria', 'contato', 'linguagem', 'identificacao', 'upload', 'sucesso'];
+  let currentIndex = 0;
+
+  // elementos
+  const screenDivs = document.querySelectorAll('.screen');
+  const container = document.getElementById('screenContainer');
+  const pipsDiv = document.getElementById('pipsContainer');
+  const prevBtn = document.getElementById('prevBtn');
+  const restartBtn = document.getElementById('restartBtn');
+
+  function updatePips() {
+    pipsDiv.innerHTML = '';
+    screens.forEach((s, idx) => {
+      const pip = document.createElement('span');
+      pip.className = 'pip';
+      if (idx === currentIndex) pip.classList.add('active');
+      pipsDiv.appendChild(pip);
+    });
+  }
+
+  function showScreen(index) {
+    if (index < 0) index = 0;
+    if (index >= screens.length) index = screens.length - 1;
+    currentIndex = index;
+    const targetId = screens[currentIndex];
+    screenDivs.forEach(div => {
+      div.classList.remove('active');
+      if (div.dataset.screen === targetId) div.classList.add('active');
+    });
+    updatePips();
+  }
+
+  function nextScreen() {
+    if (currentIndex + 1 < screens.length) showScreen(currentIndex + 1);
+  }
+
+  function prevScreen() {
+    if (currentIndex - 1 >= 0) showScreen(currentIndex - 1);
+  }
+
+  // navegação via atributo data-nav
+  document.querySelectorAll('[data-nav]').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      const target = el.getAttribute('data-nav');
+      const idx = screens.indexOf(target);
+      if (idx !== -1) showScreen(idx);
+    });
+  });
+
+  // botões inferiores
+  prevBtn.addEventListener('click', prevScreen);
+  restartBtn.addEventListener('click', () => showScreen(0));
+
+  // simulações de ações
+  document.getElementById('fakeGovBtn')?.addEventListener('click', () => {
+    const idxUpload = screens.indexOf('upload');
+    if (idxUpload !== -1) showScreen(idxUpload);
+  });
+
+  document.getElementById('fakeCamera')?.addEventListener('click', () => {
+    alert('📸 Simulação: câmera aberta. Neste protótipo, imagine que você tirou a foto do comprovante.');
+  });
+
+  document.getElementById('finishClaim')?.addEventListener('click', () => {
+    const idxSucesso = screens.indexOf('sucesso');
+    if (idxSucesso !== -1) showScreen(idxSucesso);
+  });
+
+  document.getElementById('whatsappBtn')?.addEventListener('click', (e) => {
+    e.target.textContent = '✅ Ativado! Você receberá notificações';
+    e.target.disabled = true;
+    e.target.style.opacity = '0.8';
+  });
+
+  // inicia
+  showScreen(0);
+</script>
+</body>
+</html>
