@@ -33,6 +33,12 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 | **E7-03** | A coleta de dados durante os testes com o protótipo de alta fidelidade prevê a medição quantitativa da performance do usuário, como grau de sucesso, quantidade de erros cometidos, tempo necessário e níveis de satisfação? | BARBOSA et al. (2021). [Imagem](images/verificacao7/item3Heitor.png) | Heitor Macedo |
 | **E7-04** | Na fase de consolidação dos dados do protótipo de alta fidelidade, os avaliadores categorizaram os problemas encontrados descrevendo em que partes da interface ocorrem, seus impactos na usabilidade e as hipóteses sobre suas possíveis causas? | BARBOSA et al. (2021). [Imagem](images/verificacao7/item4Heitor.png) | Heitor Macedo |
 | **E7-05** | O documento final de relato dos resultados do protótipo de alta fidelidade contém tabelas e gráficos que sumarizam as medições realizadas durante os testes, além da lista detalhada dos problemas e sugestões de solução? | BARBOSA et al. (2021). [Imagem](images/verificacao7/item5Heitor.png) | Heitor Macedo |
+| **E7-06** | O relato dos resultados descreve de forma clara os objetivos e o escopo da avaliação do protótipo de alta fidelidade, justificando a sua importância e o motivo de sua realização? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
+| **E7-07** | O relato apresenta o método utilizado e detalha a forma como a avaliação do protótipo de alta fidelidade foi conduzida pelos avaliadores? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
+| **E7-08** | O relato expõe claramente o número e o perfil dos participantes (usuários reais) e dos avaliadores (membros do grupo) que participaram das sessões de teste do protótipo de alta fidelidade? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
+| **E7-09** | O relato apresenta um sumário consolidado dos dados coletados (objetivos e subjetivos) e inclui uma análise e interpretação dessas informações, diferenciando tendências do grupo de dificuldades individuais? | BARBOSA et al. (2021). [Imagem](images/verificacao5/relatocostumater.png) | Heitor Macedo |
+| **E7-10** | Para documentar o planejamento do reprojeto, a lista de problemas de usabilidade não resolvidos no protótipo de alta fidelidade indica aspectos como: local onde o erro ocorreu, a justificativa do problema, a prioridade para correção e sugestões de melhoria? | BARBOSA et al. (2021). [Imagem](images/verificacao5/listausabilidade.png) | Heitor Macedo |
+| **E7-11** | O relato aborda como as questões éticas foram tratadas durante a avaliação do protótipo de alta fidelidade, garantindo que os usuários não foram prejudicados direta ou indiretamente (ex: mediante o uso do Termo de Consentimento Livre e Esclarecido)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/d.png) | Heitor Macedo |
 
 ---
 
@@ -47,4 +53,5 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 
 | Versão | Data       | Descrição                                                                                         | Autor(es)     | Revisor(es)   |
 | :---   | :---       | :---                                                                                              | :---          | :---          |
+| `1.1`  | 16/06/2026 | Adição de itens de etapas anteriores (E7-06 a E7-11) para complementar o relato dos resultados do protótipo de alta fidelidade. | Heitor Macedo | Pedro Moretti |
 | `1.0`  | 14/06/2026 | Criação da lista de verificação da Etapa 7 com itens sobre o relato do protótipo de alta fidelidade. | Heitor Macedo | —             |

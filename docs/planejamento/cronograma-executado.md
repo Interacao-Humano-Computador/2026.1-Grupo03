@@ -173,9 +173,9 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
     | **Protótipo de Alta Fidelidade** | — | 1 | — | 1 | — | — |
     | **Relato dos Resultados do Protótipo de Alta Fidelidade** | — | 1 | — | 1 | — | — |
-    | **Lista de Verificação (Etapa 7 - itens)** | — | 5 | — | — | — | — |
+    | **Lista de Verificação (Etapa 7 - itens)** | — | 5 | — | 6 | — | — |
     | **Total de documentos criados** | 0 | 2 | 0 | 2 | 0 | 0 |
-    | **Total de documentos revisados** | 0 | 4 | 0 | 0 | 0 | 0 |
+    | **Total de documentos revisados** | 0 | 4 | 0 | 3 | 0 | 0 |
 
 ---
 
