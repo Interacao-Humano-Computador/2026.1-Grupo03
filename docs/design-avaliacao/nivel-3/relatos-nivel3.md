@@ -23,6 +23,7 @@ Esta página consolida os relatos de resultados das avaliações conduzidas no *
 |---|---|---|---|
 | Relato — Sala de Conciliação Virtual | Pedro Moretti | Avaliação do protótipo de alta fidelidade da Sala de Conciliação Virtual | [Acessar](relato-resultados-alta-fidelidade-conciliacao-virtual.md) |
 | Relato — Notificação Ativa | Heitor Macedo | Avaliação do protótipo de alta fidelidade da Notificação Ativa | [Acessar](relato-resultados-alta-fidelidade-notificacao-ativa.md) |
+| Relato — Assistente de Triagem Guiada | Pedro Macedo | Avaliação do protótipo de alta fidelidade da Notificação Ativa | [Acessar](relato-resultados-alta-fidelidade-triagem-guiada.md) |
 
 ---
 
@@ -40,6 +41,7 @@ Esta seção sintetiza, de forma interparticipante e entre funcionalidades, os d
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Sala de Conciliação Virtual | Pedro Moretti | P1 | Fornecedor (empresária, 40 anos) | 12/06/2026 | 3 | 100% | 0 |
 | Notificação Ativa | Heitor Macedo | P1 | Consumidor (professor, 44 anos) | 13/06/2026 | 1 (fluxo completo) | 100% | 0 |
+| Triagem Guiada | Pedro Macedo | P1 | Consumidor (professora, 60 anos) | 16/06/2026 | 1 (fluxo completo) | 100% | 0 |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Pedro Moretti e Heitor Macedo.</i></p>
@@ -81,6 +83,8 @@ Em ambas as avaliações, os participantes manifestaram espontaneamente que as f
 | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
 | Notificação Ativa | P01 | Visualização da Proposta | Prazo de crédito (10 dias úteis) sem destaque visual proporcional à sua relevância na decisão | 1 | 1/1 | Correção planejada |
 | Sala de Conciliação Virtual | — | — | Nenhum problema identificado | — | — | — |
+| Assistente de Triagem Guiada | P01 | Tela 6 | Não há opção para caso não tenha evidencia | 1 | 1 | Correção planejada |
+
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Cosmético; (2) Pequeno; (3) Grande; (4) Catastrófico.</i></p>
@@ -127,7 +131,7 @@ A sugestão S01 está alinhada com a convergência identificada no ponto 2 (valo
 
 ### Conclusão
 
-Os resultados do Nível 3 são positivos em sua totalidade. As avaliações dos protótipos de alta fidelidade da **Sala de Conciliação Virtual** e da **Notificação Ativa** demonstram que o design proposto pela equipe está alinhado com as necessidades dos usuários do PROCON-DF — tanto do perfil Fornecedor quanto do perfil Consumidor Reclamante. O único problema identificado é cosmético e possui correção planejada de baixa complexidade. As duas funcionalidades estão prontas para avançar à etapa de implementação, com base nos dados coletados neste ciclo de avaliação.
+Os resultados do Nível 3 são positivos em sua totalidade. As avaliações dos protótipos de alta fidelidade da **Sala de Conciliação Virtual** , da **Notificação Ativa** e **Assistente de Triagem Guiada** demonstram que o design proposto pela equipe está alinhado com as necessidades dos usuários do PROCON-DF — tanto do perfil Fornecedor quanto do perfil Consumidor Reclamante. Os únicos problemas identificados são cosmético e possui correção planejada de baixa complexidade. As tres funcionalidades estão prontas para avançar à etapa de implementação, com base nos dados coletados neste ciclo de avaliação.
 
 ---
 
@@ -144,3 +148,4 @@ Os resultados do Nível 3 são positivos em sua totalidade. As avaliações dos 
 | 1.0 | 12/06/2026 | Criação da página de consolidação dos relatos do Nível 3. | Pedro Moretti | Heitor Macedo |
 | 1.1 | 14/06/2026 | Adição do relato de Notificação Ativa e atualização da colaboração. | Heitor Macedo | Heitor Macedo |
 | 1.2 | 14/06/2026 | Adição da seção de Triangulação e Consolidação dos Resultados do Nível 3. | Heitor Macedo | Heitor Macedo |
+| 1.3 | 16/06/2026 | Adição do relato do Assistente de Triagem Guiada 3. | Pedro Macedo | Heitor Macedo |
