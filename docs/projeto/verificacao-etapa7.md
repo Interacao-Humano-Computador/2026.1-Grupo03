@@ -20,7 +20,7 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 
 * **Padrões de Design (Design Patterns):** Soluções padronizadas para problemas recorrentes em interfaces que descrevem "o que" (a solução), "usar quando" (situações em que se aplica) e "por que" (dados que justificam sua adequação) [(Barbosa et al., 2021, p. 232)](images/verificacao7/padroes_design.png).
 
-* **Protótipo de Alta Fidelidade:** Representação que apresenta o desenho completo da interface, possivelmente feito em um editor de imagens ou ferramenta especializada (como Adobe XD ou Figma), em que já estão incorporadas as decisões a respeito de tamanhos, posições, cores, fontes e outros detalhes visuais [(Barbosa et al., 2021, p. 210)](images/verificacao7/prototipo_alta_fidelidade.png).
+* **Protótipo de Alta Fidelidade:** Representação que apresenta o desenho completo da interface, possivelmente feito em um editor de imagens ou ferramenta especializada (como Adobe XD ou Figma), em que já estão incorporadas as decisões a respeito de tamanhos, posições, cores, fontes e outros detalhes visuais [(Barbosa et al., 2021, p. 210)](../images/verificacao7/prototipo_alta_fidelidade.png).
 
 ---
 

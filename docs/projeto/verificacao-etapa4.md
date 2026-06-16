@@ -60,4 +60,4 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 
 | Versão | Data       | Descrição                                                                         | Autor(es)     | Revisor(es)   |
 | :---   | :---       | :---                                                                              | :---          | :---          |
-| `1.0`  | 19/05/2026 | Criação da lista de verificação da Etapa 4 com base nos critérios de Storyboards. | Pedro Moretti |               |
+| `1.0`  | 19/05/2026 | Criação da lista de verificação da Etapa 4 com base nos critérios de Storyboards. | Pedro Moretti | Heitor Macedo |
