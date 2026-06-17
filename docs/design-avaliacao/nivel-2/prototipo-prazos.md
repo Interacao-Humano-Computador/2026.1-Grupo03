@@ -13,7 +13,7 @@ Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 
 O protótipo de papel é um método de prototipação de baixa fidelidade que permite explorar ideias de design de forma rápida e econômica, sem a necessidade de implementação. Segundo Barbosa et al. (2021), o método consiste em simular a interface com o usuário por meio de esboços em papel (ou equivalentes digitais de baixa fidelidade), possibilitando identificar problemas de usabilidade e comparar alternativas de design antes do investimento em soluções de maior fidelidade.
 
-Este artefato apresenta o protótipo de papel desenvolvido para a funcionalidade de **Painel de Monitoramento de Prazos com Alertas Jurídicos** do sistema PROCON-DF. A funcionalidade visa oferecer ao consumidor um painel inteligente que exibe, em linguagem simples, todos os prazos legais vinculados à sua reclamação — incluindo o prazo de resposta da empresa (CDC, art. 49), datas de audiência, contagem regressiva do prazo de prescrição (CDC, art. 27) e encaminhamento automático ao Juizado Especial quando o prazo expira sem resolução.
+Este artefato apresenta o protótipo de papel desenvolvido para a funcionalidade de **Painel de Monitoramento de Prazos com Alertas Jurídicos** do sistema PROCON-DF. A funcionalidade visa oferecer ao consumidor um painel inteligente que exibe, em linguagem simples, todos os prazos legais vinculados à sua reclamação — incluindo o prazo de resposta da empresa (CDC, art. 49), datas de audiência, contagem regressiva do prazo de prescrição (CDC, art. 27) e encaminhamento ao Juizado Especial quando o prazo expira sem resolução. O protótipo também cobre a autenticação do consumidor no portal, etapa anterior ao acesso ao painel.
 
 O protótipo foi elaborado com base na análise de tarefas (HTA e CTT), nos cenários de uso e na persona **Carlos** — servidor público de 45 anos, pouco familiarizado com jargão jurídico, que precisa acompanhar sua reclamação de forma clara e ser avisado proativamente sobre vencimentos sem precisar consultar o portal manualmente.
 
@@ -23,11 +23,12 @@ O protótipo foi elaborado com base na análise de tarefas (HTA e CTT), nos cen�
 
 O protótipo cobre as seguintes telas e interações:
 
-1. **Painel principal (semáforo)** — visão geral com indicador de urgência colorido (🔴/🟡/🟢), prazo em destaque e cards de atalho para cada prazo relevante
-2. **Linha do tempo** — barra de progresso do CDC e sequência visual de etapas (concluída / em andamento / futura), com botão de acionamento ao Juizado quando o prazo expira
-3. **Prazo de prescrição** — contagem regressiva em dias com explicação em linguagem simples e base legal (art. 27 CDC)
-4. **Acionar Juizado Especial** — orientação passo a passo sobre documentos necessários e localização do fórum mais próximo
-5. **Alertas recebidos** — histórico de notificações push enviadas ao consumidor por WhatsApp/e-mail
+1. **Login** — autenticação por CPF e senha ou por biometria facial, com validação visual de campos e fallback em caso de falha no reconhecimento
+2. **Painel principal (semáforo)** — visão geral com indicador de urgência colorido, prazo em destaque e lista com atalho para cada prazo relevante
+3. **Linha do tempo** — sequência visual de etapas (concluída / em andamento / futura), com botão de acionamento ao Juizado quando o prazo de resposta da empresa expira
+4. **Prazo de prescrição** — contagem regressiva em dias com explicação em linguagem simples e base legal (art. 27 CDC)
+5. **Acionar Juizado Especial** — checklist interativo de documentos necessários, com confirmação obrigatória de cada item antes da liberação do botão de salvar orientações, e localização do fórum mais próximo
+6. **Alertas recebidos** — histórico de notificações push enviadas ao consumidor por WhatsApp/e-mail
 
 ---
 
@@ -67,7 +68,8 @@ O protótipo abaixo é navegável diretamente no navegador. Clique nas telas par
 
 As principais escolhas de design refletidas no protótipo são:
 
-- **Semáforo de urgência (🔴/🟡/🟢)** — indicador visual imediato do nível de criticidade do prazo dominante, sem necessidade de leitura; inspirado em interfaces de rastreamento e apps de saúde
+- **Autenticação com dois caminhos** — CPF/senha ou biometria facial, com fallback explícito em caso de falha no reconhecimento, conforme recomendação da HTA quanto à flexibilidade de acesso para diferentes perfis de usuário
+- **Semáforo de urgência** — indicador visual imediato do nível de criticidade do prazo dominante, sem necessidade de leitura; inspirado em interfaces de rastreamento e apps de saúde
 - **Contagem em dias em destaque** — número grande e legível como foco principal do painel, conforme heurística de visibilidade do status do sistema (Nielsen)
 - **Linha do tempo estilo rastreamento** — analogia com rastreamento de encomenda (iFood/Correios), tornando etapas jurídicas compreensíveis para usuários sem formação legal
 - **Linguagem simples sem jargão jurídico** — termos como "seu direito de ação caduca" em vez de "prazo prescricional extintivo", conforme heurística de correspondência com o mundo real (Nielsen)
@@ -101,3 +103,4 @@ Este artefato contou com o apoio do assistente de IA **Claude** (Anthropic), que
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Mateus Barreto | — |
+| 1.1 | 17/06/2026 | Adição de novas telas ao protótipo. | Mateus Barreto | — |

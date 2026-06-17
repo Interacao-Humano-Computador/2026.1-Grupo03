@@ -1,350 +1,1412 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>PROCON-DF · Painel de Prazos — Wireframe</title>
-	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Patrick+Hand&display=swap"
+		rel="stylesheet">
 	<style>
-		:root{
-			--paper:#f5f0e8;--paper-2:#efe8db;--ink:#2b2b2b;--ink-soft:#5c574e;
-			--ink-faint:#948e80;--blue:#2f4f8f;--green:#5f8a5a;--red:#a83232;
-			--orange:#c47a1e;--hl:#ffe27a;--line:#3a352e;--red-bg:#fdecea;
-			--orange-bg:#fef6ea;--green-bg:#eef6ee
+		:root {
+			--paper: #f5f0e8;
+			--paper-2: #efe8db;
+			--ink: #2b2b2b;
+			--ink-soft: #5c574e;
+			--ink-faint: #948e80;
+			--line: #3a352e;
+
+			/* sistema único de status — usado em TUDO: destaque, lista, timeline, badges */
+			--s-urgente: #a83232;
+			--s-urgente-bg: #fdecea;
+			--s-atencao: #c47a1e;
+			--s-atencao-bg: #fef6ea;
+			--s-ok: #5f8a5a;
+			--s-ok-bg: #eef6ee;
+			--s-neutro: #948e80;
+			--s-neutro-bg: #efe8db;
+
+			--hl: #ffe27a;
 		}
-		*{box-sizing:border-box}
-		html,body{margin:0;padding:0;font-family:'Patrick Hand',cursive;color:var(--ink);background:var(--paper)}
-		.topbar{max-width:760px;margin:18px auto;padding:12px 18px;background:var(--paper-2);display:flex;justify-content:space-between;align-items:center;border-radius:10px}
-		.topbar h1{font-family:'Caveat',cursive;margin:0;font-size:22px}
-		.stage{max-width:760px;margin:12px auto;display:flex;justify-content:center}
-		.phone{width:375px;background:var(--paper);border-radius:34px;padding:10px;position:relative}
-		.phone::before{content:"";position:absolute;inset:0;border:2.5px solid var(--line);border-radius:38px;pointer-events:none}
-		.statusbar{display:flex;justify-content:space-between;font-size:13px;color:var(--ink-soft);padding:6px 10px}
-		.viewport{height:660px;overflow:hidden;border-radius:6px}
-		.screen{display:none;padding:10px 14px;height:100%;overflow-y:auto}
-		.screen.active{display:block}
-		.appbar{display:flex;align-items:center;gap:10px;margin-bottom:8px}
-		.appbar .back{font-family:'Caveat',cursive;font-size:26px;cursor:pointer;user-select:none}
-		.appbar h2{margin:0;font-family:'Caveat',cursive;font-size:20px;line-height:1.2}
 
-		/* semáforo / alerta principal */
-		.semaforo{border-radius:14px;padding:14px;margin-bottom:12px;border:2px solid}
-		.semaforo.vermelho{background:var(--red-bg);border-color:var(--red);color:var(--red)}
-		.semaforo.amarelo{background:var(--orange-bg);border-color:var(--orange);color:var(--orange)}
-		.semaforo.verde{background:var(--green-bg);border-color:var(--green);color:var(--green)}
-		.semaforo .emoji{font-size:32px;display:block;margin-bottom:6px}
-		.semaforo .dias{font-family:'Caveat',cursive;font-size:38px;font-weight:700;display:block;line-height:1}
-		.semaforo .legenda{font-size:14px;margin-top:4px;display:block}
+		* {
+			box-sizing: border-box
+		}
 
-		/* cards de prazo */
-		.card{background:#fff;border-radius:10px;padding:10px 12px;margin-bottom:10px;border:1.5px dashed var(--line)}
-		.card .titulo{font-family:'Caveat',cursive;font-size:18px;margin-bottom:4px}
-		.card .detalhe{font-size:13px;color:var(--ink-soft)}
-		.pill{display:inline-block;padding:3px 10px;border-radius:999px;font-size:12px;font-family:'Caveat',cursive;font-size:14px}
-		.pill.vencido{background:var(--red-bg);color:var(--red)}
-		.pill.urgente{background:var(--orange-bg);color:var(--orange)}
-		.pill.ok{background:var(--green-bg);color:var(--green)}
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Patrick Hand', cursive;
+			color: var(--ink);
+			background: var(--paper)
+		}
 
-		/* linha do tempo */
-		.timeline{position:relative;padding-left:28px;margin:10px 0}
-		.timeline::before{content:"";position:absolute;left:10px;top:0;bottom:0;width:2px;background:var(--line);border-radius:2px}
-		.tl-item{position:relative;margin-bottom:14px}
-		.tl-item::before{content:"";position:absolute;left:-22px;top:6px;width:14px;height:14px;border-radius:50%;border:2px solid var(--line);background:var(--paper)}
-		.tl-item.done::before{background:var(--green);border-color:var(--green)}
-		.tl-item.active::before{background:var(--hl);border-color:var(--orange);box-shadow:0 0 0 3px rgba(196,122,30,.2)}
-		.tl-item.future::before{background:var(--paper-2);border-color:var(--ink-faint)}
-		.tl-item .tl-titulo{font-family:'Caveat',cursive;font-size:17px}
-		.tl-item .tl-data{font-size:13px;color:var(--ink-faint)}
-		.tl-item .tl-tag{font-size:12px;display:inline-block;padding:2px 8px;border-radius:6px;margin-top:3px}
-		.tl-item.done .tl-tag{background:var(--green-bg);color:var(--green)}
-		.tl-item.active .tl-tag{background:var(--orange-bg);color:var(--orange)}
-		.tl-item.future .tl-tag{background:var(--paper-2);color:var(--ink-faint)}
+		.topbar {
+			max-width: 760px;
+			margin: 18px auto;
+			padding: 12px 18px;
+			background: var(--paper-2);
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border-radius: 10px
+		}
 
-		/* barra de progresso CDC */
-		.barra-wrap{margin:8px 0 12px}
-		.barra-label{font-size:13px;color:var(--ink-soft);display:flex;justify-content:space-between;margin-bottom:4px}
-		.barra-bg{background:var(--paper-2);border-radius:999px;height:14px;border:1px solid var(--line);overflow:hidden}
-		.barra-fill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--hl),#ffb347)}
+		.topbar h1 {
+			font-family: 'Caveat', cursive;
+			margin: 0;
+			font-size: 22px
+		}
 
-		/* prescrição */
-		.prescricao-box{background:#fff;border:2px dashed var(--red);border-radius:12px;padding:12px;margin-bottom:12px}
-		.prescricao-box .titulo{font-family:'Caveat',cursive;font-size:17px;color:var(--red)}
-		.prescricao-box .conta{font-family:'Caveat',cursive;font-size:32px;color:var(--red);display:block;margin:4px 0}
-		.prescricao-box .sub{font-size:13px;color:var(--ink-soft)}
+		.stage {
+			max-width: 760px;
+			margin: 12px auto;
+			display: flex;
+			justify-content: center
+		}
 
-		/* botão principal */
-		.btn{display:inline-block;padding:12px 16px;border-radius:10px;font-family:'Caveat',cursive;font-size:19px;cursor:pointer;text-align:center;width:100%;margin-top:6px;border:none}
-		.btn.primary{background:linear-gradient(180deg,#ffe9a0,#ffdf7a);color:var(--ink)}
-		.btn.danger{background:linear-gradient(180deg,#f9a8a8,#e05050);color:#fff}
-		.btn.ghost{background:transparent;border:1.5px dashed var(--line);color:var(--ink-soft)}
+		.phone {
+			width: 375px;
+			background: var(--paper);
+			border-radius: 34px;
+			padding: 10px;
+			position: relative
+		}
 
-		/* notificação push */
-		.push{background:#fff;border-radius:14px;padding:12px;border:1.5px solid var(--line);margin-bottom:10px}
-		.push .push-header{font-size:12px;color:var(--ink-faint);display:flex;justify-content:space-between;margin-bottom:6px}
-		.push .push-titulo{font-family:'Caveat',cursive;font-size:18px;margin-bottom:4px}
-		.push .push-corpo{font-size:14px;color:var(--ink-soft)}
+		.phone::before {
+			content: "";
+			position: absolute;
+			inset: 0;
+			border: 2.5px solid var(--line);
+			border-radius: 38px;
+			pointer-events: none
+		}
 
-		.small{font-size:13px;color:var(--ink-faint)}
-		.divider{border:none;border-top:1.2px dashed var(--line);margin:10px 0}
+		.statusbar {
+			display: flex;
+			justify-content: space-between;
+			font-size: 13px;
+			color: var(--ink-soft);
+			padding: 6px 10px
+		}
+
+		.viewport {
+			height: 660px;
+			overflow: hidden;
+			border-radius: 6px
+		}
+
+		.screen {
+			display: none;
+			padding: 14px 16px;
+			height: 100%;
+			overflow-y: auto
+		}
+
+		.screen.active {
+			display: block
+		}
+
+		/* ======== TIPOGRAFIA — hierarquia fixa, usada igual em toda tela ======== */
+		.eyebrow {
+			font-size: 12px;
+			color: var(--ink-faint);
+			letter-spacing: .02em;
+			margin-bottom: 2px
+		}
+
+		.screen-title {
+			font-family: 'Caveat', cursive;
+			font-size: 24px;
+			font-weight: 700;
+			margin: 0
+		}
+
+		.section-label {
+			font-size: 12px;
+			color: var(--ink-faint);
+			text-transform: uppercase;
+			letter-spacing: .04em;
+			margin: 18px 0 8px;
+			font-family: 'Patrick Hand', cursive
+		}
+
+		.section-label:first-of-type {
+			margin-top: 0
+		}
+
+		.body-text {
+			font-size: 15px;
+			color: var(--ink-soft);
+			line-height: 1.5
+		}
+
+		.small {
+			font-size: 13px;
+			color: var(--ink-faint)
+		}
+
+		.appbar {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			margin-bottom: 4px
+		}
+
+		.appbar .back {
+			font-family: 'Caveat', cursive;
+			font-size: 28px;
+			cursor: pointer;
+			user-select: none;
+			line-height: 1;
+			color: var(--ink-soft)
+		}
+
+		/* ======== DESTAQUE PRINCIPAL — um só por tela, mesma estrutura sempre ======== */
+		.headline {
+			border-radius: 16px;
+			padding: 18px;
+			display: flex;
+			align-items: center;
+			gap: 14px;
+			border: 1.5px solid
+		}
+
+		.headline.urgente {
+			background: var(--s-urgente-bg);
+			border-color: var(--s-urgente)
+		}
+
+		.headline.atencao {
+			background: var(--s-atencao-bg);
+			border-color: var(--s-atencao)
+		}
+
+		.headline.ok {
+			background: var(--s-ok-bg);
+			border-color: var(--s-ok)
+		}
+
+		.headline-dot {
+			width: 14px;
+			height: 14px;
+			border-radius: 50%;
+			flex: 0 0 auto
+		}
+
+		.headline.urgente .headline-dot {
+			background: var(--s-urgente)
+		}
+
+		.headline.atencao .headline-dot {
+			background: var(--s-atencao)
+		}
+
+		.headline.ok .headline-dot {
+			background: var(--s-ok)
+		}
+
+		.headline-value {
+			font-family: 'Caveat', cursive;
+			font-size: 34px;
+			font-weight: 700;
+			line-height: 1;
+			display: block
+		}
+
+		.headline.urgente .headline-value {
+			color: var(--s-urgente)
+		}
+
+		.headline.atencao .headline-value {
+			color: var(--s-atencao)
+		}
+
+		.headline.ok .headline-value {
+			color: var(--s-ok)
+		}
+
+		.headline-desc {
+			font-size: 14px;
+			color: var(--ink-soft);
+			margin-top: 3px;
+			display: block
+		}
+
+		/* ======== LISTA DE PRAZOS — um único formato de linha, sem variações ======== */
+		.deadline-list {
+			display: flex;
+			flex-direction: column;
+			gap: 1px;
+			background: var(--line);
+			border-radius: 12px;
+			overflow: hidden;
+			border: 1.5px solid var(--line)
+		}
+
+		.deadline-row {
+			background: #fff;
+			padding: 12px 14px;
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			cursor: pointer
+		}
+
+		.deadline-row .dot {
+			width: 9px;
+			height: 9px;
+			border-radius: 50%;
+			flex: 0 0 auto
+		}
+
+		.deadline-row.urgente .dot {
+			background: var(--s-urgente)
+		}
+
+		.deadline-row.atencao .dot {
+			background: var(--s-atencao)
+		}
+
+		.deadline-row.ok .dot {
+			background: var(--s-ok)
+		}
+
+		.deadline-row .info {
+			flex: 1;
+			min-width: 0
+		}
+
+		.deadline-row .titulo {
+			font-family: 'Caveat', cursive;
+			font-size: 18px;
+			line-height: 1.1
+		}
+
+		.deadline-row .data {
+			font-size: 12.5px;
+			color: var(--ink-faint);
+			margin-top: 1px
+		}
+
+		.deadline-row .status-text {
+			font-size: 13px;
+			font-family: 'Caveat', cursive;
+			font-weight: 700;
+			white-space: nowrap
+		}
+
+		.deadline-row.urgente .status-text {
+			color: var(--s-urgente)
+		}
+
+		.deadline-row.atencao .status-text {
+			color: var(--s-atencao)
+		}
+
+		.deadline-row.ok .status-text {
+			color: var(--s-ok)
+		}
+
+		.deadline-row .chevron {
+			color: var(--ink-faint);
+			font-family: 'Caveat', cursive;
+			font-size: 18px
+		}
+
+		/* ======== TIMELINE — uma trilha, sem barra de progresso separada competindo ======== */
+		.timeline {
+			position: relative;
+			padding-left: 24px
+		}
+
+		.timeline::before {
+			content: "";
+			position: absolute;
+			left: 6px;
+			top: 4px;
+			bottom: 4px;
+			width: 2px;
+			background: var(--paper-2)
+		}
+
+		.tl-item {
+			position: relative;
+			padding-bottom: 18px
+		}
+
+		.tl-item:last-child {
+			padding-bottom: 0
+		}
+
+		.tl-item::before {
+			content: "";
+			position: absolute;
+			left: -24px;
+			top: 2px;
+			width: 13px;
+			height: 13px;
+			border-radius: 50%;
+			border: 2.5px solid;
+			background: var(--paper)
+		}
+
+		.tl-item.done::before {
+			border-color: var(--s-ok);
+			background: var(--s-ok)
+		}
+
+		.tl-item.active::before {
+			border-color: var(--s-atencao);
+			background: var(--hl);
+			box-shadow: 0 0 0 4px var(--s-atencao-bg)
+		}
+
+		.tl-item.future::before {
+			border-color: var(--ink-faint);
+			background: var(--paper)
+		}
+
+		.tl-item .tl-titulo {
+			font-family: 'Caveat', cursive;
+			font-size: 18px;
+			line-height: 1.2
+		}
+
+		.tl-item.future .tl-titulo {
+			color: var(--ink-faint)
+		}
+
+		.tl-item .tl-data {
+			font-size: 13px;
+			color: var(--ink-faint);
+			margin-top: 1px
+		}
+
+		.tl-item.active .tl-data {
+			color: var(--s-atencao);
+			font-weight: 600
+		}
+
+		/* ======== CARD — bloco de conteúdo de apoio, formato único ======== */
+		.card {
+			background: #fff;
+			border-radius: 12px;
+			padding: 14px;
+			border: 1.5px solid var(--paper-2)
+		}
+
+		.card+.card {
+			margin-top: 10px
+		}
+
+		.card .titulo {
+			font-family: 'Caveat', cursive;
+			font-size: 17px;
+			margin-bottom: 5px
+		}
+
+		.card .body-text {
+			font-size: 14px
+		}
+
+		.checklist {
+			font-size: 14px;
+			color: var(--ink-soft);
+			line-height: 1.7;
+			margin-top: 2px
+		}
+
+		/* ======== CHECKLIST INTERATIVO (Juizado) ======== */
+		.check-item {
+			display: flex;
+			align-items: flex-start;
+			gap: 10px;
+			padding: 9px 0;
+			cursor: pointer;
+			user-select: none
+		}
+
+		.check-item+.check-item {
+			border-top: 1px solid var(--paper-2)
+		}
+
+		.check-box {
+			width: 20px;
+			height: 20px;
+			border-radius: 5px;
+			border: 1.8px solid var(--ink-faint);
+			flex: 0 0 auto;
+			margin-top: 1px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: background .15s, border-color .15s
+		}
+
+		.check-box svg {
+			width: 12px;
+			height: 10px;
+			opacity: 0;
+			transition: opacity .1s
+		}
+
+		.check-item.checked .check-box {
+			background: var(--s-ok);
+			border-color: var(--s-ok)
+		}
+
+		.check-item.checked .check-box svg {
+			opacity: 1
+		}
+
+		.check-text {
+			font-size: 14.5px;
+			color: var(--ink-soft);
+			line-height: 1.35;
+			padding-top: 1px
+		}
+
+		.check-item.checked .check-text {
+			color: var(--ink-faint);
+			text-decoration: line-through
+		}
+
+		.check-progress {
+			font-size: 12.5px;
+			color: var(--ink-faint);
+			margin-top: 10px;
+			text-align: center
+		}
+
+		/* ======== BOTÕES — três variações, papéis claros ======== */
+		.btn {
+			display: block;
+			width: 100%;
+			padding: 13px 16px;
+			border-radius: 10px;
+			font-family: 'Caveat', cursive;
+			font-size: 18px;
+			font-weight: 600;
+			cursor: pointer;
+			text-align: center;
+			border: none;
+			margin-top: 10px
+		}
+
+		.btn:disabled {
+			opacity: .4;
+			cursor: not-allowed
+		}
+
+		.btn.primary {
+			background: var(--ink);
+			color: var(--paper)
+		}
+
+		.btn.danger {
+			background: var(--s-urgente);
+			color: #fff
+		}
+
+		.btn.ghost {
+			background: transparent;
+			border: 1.5px solid var(--paper-2);
+			color: var(--ink-soft)
+		}
+
+		.btn:first-of-type {
+			margin-top: 0
+		}
+
+		.callout {
+			border-radius: 10px;
+			padding: 10px 12px;
+			font-size: 13.5px;
+			display: flex;
+			gap: 8px;
+			align-items: flex-start;
+			line-height: 1.4
+		}
+
+		.callout.atencao {
+			background: var(--s-atencao-bg);
+			color: var(--ink-soft)
+		}
+
+		.callout .icon {
+			flex: 0 0 auto;
+			font-size: 16px
+		}
+
+		/* ======== NOTIFICAÇÕES — lista, não cartões avulsos ======== */
+		.notif-list {
+			display: flex;
+			flex-direction: column
+		}
+
+		.notif {
+			padding: 12px 0;
+			border-bottom: 1px solid var(--paper-2)
+		}
+
+		.notif:last-child {
+			border-bottom: none
+		}
+
+		.notif-top {
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+			margin-bottom: 3px
+		}
+
+		.notif-titulo {
+			font-family: 'Caveat', cursive;
+			font-size: 17px;
+			display: flex;
+			align-items: center;
+			gap: 6px
+		}
+
+		.notif-time {
+			font-size: 12px;
+			color: var(--ink-faint);
+			flex: 0 0 auto
+		}
+
+		.notif-body {
+			font-size: 13.5px;
+			color: var(--ink-soft);
+			line-height: 1.4
+		}
+
+		.notif-dot {
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			flex: 0 0 auto
+		}
+
+		.notif-dot.urgente {
+			background: var(--s-urgente)
+		}
+
+		.notif-dot.atencao {
+			background: var(--s-atencao)
+		}
+
+		.notif-dot.ok {
+			background: var(--s-ok)
+		}
+
+		.divider {
+			border: none;
+			border-top: 1px solid var(--paper-2);
+			margin: 16px 0
+		}
+
+		/* ======== LOGIN ======== */
+		.brand {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 8px;
+			margin: 18px 0 22px
+		}
+
+		.brand .logo {
+			width: 58px;
+			height: 58px;
+			border-radius: 50%;
+			border: 2px solid var(--line);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-family: 'Caveat', cursive;
+			font-weight: 700;
+			font-size: 13px;
+			line-height: 1;
+			text-align: center;
+			background: #fff
+		}
+
+		.brand .t {
+			font-family: 'Caveat', cursive;
+			font-size: 22px;
+			font-weight: 700
+		}
+
+		.brand .s {
+			font-size: 13px;
+			color: var(--ink-faint)
+		}
+
+		.field-group {
+			margin-bottom: 14px
+		}
+
+		.field-label {
+			font-size: 13px;
+			color: var(--ink-soft);
+			margin-bottom: 5px;
+			display: flex;
+			justify-content: space-between
+		}
+
+		.field-label .req {
+			color: var(--s-urgente);
+			font-size: 12px
+		}
+
+		.field-box {
+			position: relative;
+			display: flex;
+			align-items: center;
+			background: #fff;
+			border: 1.5px solid var(--paper-2);
+			border-radius: 10px;
+			padding: 0 12px;
+			transition: border-color .15s
+		}
+
+		.field-box.focused {
+			border-color: var(--ink-soft)
+		}
+
+		.field-box.error {
+			border-color: var(--s-urgente)
+		}
+
+		.field-box input {
+			flex: 1;
+			border: none;
+			outline: none;
+			background: transparent;
+			font-family: 'Patrick Hand', cursive;
+			font-size: 16px;
+			padding: 11px 0;
+			color: var(--ink);
+			width: 100%
+		}
+
+		.field-box input::placeholder {
+			color: var(--ink-faint)
+		}
+
+		.field-toggle {
+			font-size: 12px;
+			color: var(--ink-faint);
+			cursor: pointer;
+			user-select: none;
+			flex: 0 0 auto;
+			padding-left: 8px
+		}
+
+		.field-toggle:hover {
+			color: var(--ink-soft)
+		}
+
+		.field-error {
+			font-size: 12.5px;
+			color: var(--s-urgente);
+			margin-top: 5px;
+			display: none;
+			align-items: center;
+			gap: 4px
+		}
+
+		.field-error.show {
+			display: flex
+		}
+
+		.btn-login {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 8px;
+			width: 100%;
+			padding: 13px;
+			border-radius: 10px;
+			border: none;
+			background: var(--ink);
+			color: var(--paper);
+			font-family: 'Caveat', cursive;
+			font-size: 18px;
+			font-weight: 600;
+			cursor: pointer;
+			margin-top: 4px;
+			position: relative;
+			overflow: hidden
+		}
+
+		.btn-login:disabled {
+			opacity: .55;
+			cursor: default
+		}
+
+		.btn-login .spinner {
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			border: 2px solid rgba(245, 240, 232, .35);
+			border-top-color: var(--paper);
+			animation: spin .7s linear infinite;
+			display: none
+		}
+
+		.btn-login.loading .spinner {
+			display: inline-block
+		}
+
+		.btn-login.loading .label {
+			opacity: .85
+		}
+
+		@keyframes spin {
+			to {
+				transform: rotate(360deg)
+			}
+		}
+
+		.divider-or {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			margin: 18px 0;
+			color: var(--ink-faint);
+			font-size: 12px
+		}
+
+		.divider-or::before,
+		.divider-or::after {
+			content: "";
+			flex: 1;
+			height: 1px;
+			background: var(--paper-2)
+		}
+
+		.bio-option {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 8px;
+			cursor: pointer
+		}
+
+		.bio-ring {
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			border: 2px solid var(--paper-2);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: border-color .2s, transform .15s, background .2s
+		}
+
+		.bio-ring svg {
+			width: 28px;
+			height: 32px
+		}
+
+		.bio-option:hover .bio-ring {
+			border-color: var(--ink-soft)
+		}
+
+		.bio-option.scanning .bio-ring {
+			border-color: var(--s-atencao);
+			background: var(--s-atencao-bg);
+			animation: pulse 1s ease-in-out infinite
+		}
+
+		.bio-option.success .bio-ring {
+			border-color: var(--s-ok);
+			background: var(--s-ok-bg)
+		}
+
+		@keyframes pulse {
+
+			0%,
+			100% {
+				transform: scale(1)
+			}
+
+			50% {
+				transform: scale(1.06)
+			}
+		}
+
+		.bio-label {
+			font-size: 13px;
+			color: var(--ink-faint);
+			font-family: 'Caveat', cursive;
+			font-size: 16px
+		}
+
+		.bio-option.scanning .bio-label {
+			color: var(--s-atencao)
+		}
+
+		.bio-option.success .bio-label {
+			color: var(--s-ok)
+		}
+
+		.login-footer {
+			display: flex;
+			justify-content: center;
+			gap: 6px;
+			margin-top: 20px;
+			font-size: 13px
+		}
+
+		.login-footer a {
+			color: var(--ink-soft);
+			text-decoration: underline;
+			cursor: pointer
+		}
+
+		.fallback-banner {
+			display: none;
+			background: var(--s-atencao-bg);
+			border: 1px solid var(--s-atencao);
+			border-radius: 10px;
+			padding: 10px 12px;
+			font-size: 13px;
+			color: var(--ink-soft);
+			margin-top: 14px;
+			align-items: flex-start;
+			gap: 8px
+		}
+
+		.fallback-banner.show {
+			display: flex
+		}
 	</style>
 </head>
+
 <body>
 
-<div class="topbar">
-	<h1>PROCON-DF · Painel de Prazos
-		<small style="display:block;font-size:12px;color:var(--ink-soft)">Protótipo de baixa fidelidade · mobile 375px</small>
-	</h1>
-	<div><select id="jump" aria-label="Ir para tela"></select></div>
-</div>
+	<div class="topbar">
+		<h1>PROCON-DF · Painel de Prazos
+			<small
+				style="display:block;font-size:12px;color:var(--ink-soft);font-family:'Patrick Hand',cursive">Protótipo
+				de baixa fidelidade · mobile 375px</small>
+		</h1>
+		<div><select id="jump" aria-label="Ir para tela"></select></div>
+	</div>
 
-<div class="stage"><div class="phone">
-	<div class="statusbar"><span>9:41</span><span class="small">Prazos • rascunho</span></div>
-	<div class="viewport" id="viewport">
+	<div class="stage">
+		<div class="phone">
+			<div class="statusbar"><span>9:41</span><span class="small">Prazos • rascunho</span></div>
+			<div class="viewport" id="viewport">
 
-		<!-- TELA 1: Painel Principal (semáforo) -->
-		<section class="screen active" data-screen="painel">
-			<div class="appbar">
-				<h2>Meus Prazos<small style="display:block;font-size:12px;color:var(--ink-soft)">Reclamação #2024-08847</small></h2>
-			</div>
+				<!-- TELA 0: Login -->
+				<section class="screen active" data-screen="login">
+					<div class="brand">
+						<div class="logo">PROCON<br>DF</div>
+						<div class="t">Acesso ao portal</div>
+						<div class="s">acompanhe seus prazos e reclamações</div>
+					</div>
 
-			<!-- Semáforo vermelho: urgente -->
-			<div class="semaforo vermelho">
-				<span class="emoji">🔴</span>
-				<span class="dias">7 dias</span>
-				<span class="legenda">para a empresa responder (art. 49 CDC)</span>
-			</div>
+					<div id="loginForm">
+						<div class="field-group">
+							<div class="field-label">CPF</div>
+							<div class="field-box" id="cpfBox">
+								<input id="cpfInput" inputmode="numeric" placeholder="000.000.000-00" maxlength="14"
+									autocomplete="off">
+							</div>
+							<div class="field-error" id="cpfError"><span>⚠</span><span>Digite um CPF válido (11
+									dígitos)</span></div>
+						</div>
 
-			<!-- Cards resumo -->
-			<div class="card" data-go="linha-do-tempo" style="cursor:pointer">
-				<div style="display:flex;justify-content:space-between;align-items:center">
-					<div class="titulo">📅 Resposta da empresa</div>
-					<span class="pill urgente">Urgente</span>
-				</div>
-				<div class="detalhe">Prazo: 12/06/2025 · 7 dias restantes</div>
-			</div>
+						<div class="field-group">
+							<div class="field-label">Senha <span class="req">obrigatório</span></div>
+							<div class="field-box" id="senhaBox">
+								<input id="senhaInput" type="password" placeholder="sua senha" autocomplete="off">
+								<span class="field-toggle" id="senhaToggle">mostrar</span>
+							</div>
+							<div class="field-error" id="senhaError"><span>⚠</span><span>Digite sua senha para
+									continuar</span></div>
+						</div>
 
-			<div class="card" data-go="linha-do-tempo" style="cursor:pointer">
-				<div style="display:flex;justify-content:space-between;align-items:center">
-					<div class="titulo">⚖️ Audiência de conciliação</div>
-					<span class="pill ok">Confirmada</span>
-				</div>
-				<div class="detalhe">Data: 20/06/2025 · 15 dias</div>
-			</div>
+						<button type="button" class="btn-login" id="btnEntrar">
+							<span class="spinner"></span>
+							<span class="label" id="btnEntrarLabel">Entrar</span>
+						</button>
+					</div>
 
-			<div class="card" data-go="prescricao" style="cursor:pointer">
-				<div style="display:flex;justify-content:space-between;align-items:center">
-					<div class="titulo">⏳ Prescrição do direito</div>
-					<span class="pill ok">~5 anos</span>
-				</div>
-				<div class="detalhe">Caduca em: 05/05/2030 · Toque para detalhes</div>
-			</div>
+					<div class="divider-or">ou</div>
 
-			<hr class="divider">
-			<button class="btn ghost" data-go="notificacoes">🔔 Ver alertas recebidos</button>
-			<div style="margin-top:8px" class="small">Toque em qualquer prazo para ver a linha do tempo completa.</div>
-		</section>
+					<div class="bio-option" id="bioOption">
+						<div class="bio-ring">
+							<svg viewBox="0 0 34 40" fill="none" stroke="#2f4f8f" stroke-width="2"
+								stroke-linecap="round">
+								<path d="M17 6 C9 6 5 12 5 20 C5 27 6 32 7 36"></path>
+								<path d="M17 12 C12 12 11 16 11 21 C11 27 12 31 13 35"></path>
+								<path d="M17 18 C15 18 17 25 17 34"></path>
+								<path d="M23 9 C28 12 29 17 29 23 C29 29 28 33 27 36"></path>
+							</svg>
+						</div>
+						<div class="bio-label" id="bioLabel">entrar com biometria facial</div>
+					</div>
 
-		<!-- TELA 2: Linha do Tempo -->
-		<section class="screen" data-screen="linha-do-tempo">
-			<div class="appbar">
-				<div class="back" data-go="painel">←</div>
-				<h2>Linha do Tempo<small style="display:block;font-size:12px;color:var(--ink-soft)">Andamento da reclamação</small></h2>
-			</div>
+					<div class="fallback-banner" id="fallbackBanner">
+						<span>⚠</span>
+						<span>Não foi possível reconhecer seu rosto. Tente novamente.</span>
+					</div>
 
-			<div class="barra-wrap">
-				<div class="barra-label"><span>Início</span><span>Resolução esperada</span></div>
-				<div class="barra-bg"><div class="barra-fill" style="width:40%"></div></div>
-				<div class="small" style="text-align:center;margin-top:4px">40% do prazo CDC decorrido</div>
-			</div>
+					<div class="login-footer"><a id="esqueciSenha">esqueci minha senha</a></div>
+				</section>
 
-			<div class="timeline">
-				<div class="tl-item done">
-					<div class="tl-titulo">📩 Reclamação registrada</div>
-					<div class="tl-data">05/05/2025</div>
-					<span class="tl-tag">Concluído</span>
-				</div>
-				<div class="tl-item done">
-					<div class="tl-titulo">📨 Empresa notificada</div>
-					<div class="tl-data">06/05/2025</div>
-					<span class="tl-tag">Concluído</span>
-				</div>
-				<div class="tl-item active">
-					<div class="tl-titulo">⏱ Aguardando resposta</div>
-					<div class="tl-data">Prazo: 12/06/2025 — <b>7 dias</b></div>
-					<span class="tl-tag">Em andamento</span>
-				</div>
-				<div class="tl-item future">
-					<div class="tl-titulo">🤝 Audiência de conciliação</div>
-					<div class="tl-data">Previsto: 20/06/2025</div>
-					<span class="tl-tag">Futuro</span>
-				</div>
-				<div class="tl-item future">
-					<div class="tl-titulo">✅ Resolução / Encerramento</div>
-					<div class="tl-data">Previsto: após audiência</div>
-					<span class="tl-tag">Futuro</span>
-				</div>
-			</div>
+				<!-- TELA 1: Painel Principal -->
+				<section class="screen" data-screen="painel">
+					<div class="eyebrow">Reclamação #2024-08847</div>
+					<h2 class="screen-title">Meus Prazos</h2>
 
-			<hr class="divider">
-			<!-- Botão aparece quando prazo da empresa zera -->
-			<div style="background:var(--red-bg);border-radius:10px;padding:10px;border:1px dashed var(--red);margin-bottom:8px">
-				<div style="font-family:'Caveat',cursive;font-size:15px;color:var(--red)">⚠️ Se a empresa não responder no prazo, este botão ficará disponível:</div>
-			</div>
-			<button class="btn danger" data-go="juizado">⚖️ Acionar Juizado Especial</button>
-			<div style="margin-top:8px" class="small">Disponível após expirar o prazo de resposta da empresa.</div>
-		</section>
+					<div class="section-label">Prazo mais urgente</div>
+					<div class="headline urgente">
+						<div class="headline-dot"></div>
+						<div>
+							<span class="headline-value">7 dias</span>
+							<span class="headline-desc">para a empresa responder · art. 49 CDC</span>
+						</div>
+					</div>
 
-		<!-- TELA 3: Prescrição -->
-		<section class="screen" data-screen="prescricao">
-			<div class="appbar">
-				<div class="back" data-go="painel">←</div>
-				<h2>Prazo de Prescrição<small style="display:block;font-size:12px;color:var(--ink-soft)">Art. 27 CDC · Produto ou serviço</small></h2>
-			</div>
+					<div class="section-label">Todos os prazos</div>
+					<div class="deadline-list">
+						<div class="deadline-row urgente" data-go="linha-do-tempo">
+							<div class="dot"></div>
+							<div class="info">
+								<div class="titulo">Resposta da empresa</div>
+								<div class="data">até 12/06/2025</div>
+							</div>
+							<div class="status-text">7 dias</div>
+							<div class="chevron">›</div>
+						</div>
+						<div class="deadline-row ok" data-go="linha-do-tempo">
+							<div class="dot"></div>
+							<div class="info">
+								<div class="titulo">Audiência de conciliação</div>
+								<div class="data">20/06/2025</div>
+							</div>
+							<div class="status-text">15 dias</div>
+							<div class="chevron">›</div>
+						</div>
+						<div class="deadline-row ok" data-go="prescricao">
+							<div class="dot"></div>
+							<div class="info">
+								<div class="titulo">Prescrição do direito</div>
+								<div class="data">caduca em 05/05/2030</div>
+							</div>
+							<div class="status-text">~5 anos</div>
+							<div class="chevron">›</div>
+						</div>
+					</div>
 
-			<div class="prescricao-box">
-				<div class="titulo">⏳ Seu direito de ação caduca em:</div>
-				<span class="conta">1.795 dias</span>
-				<div class="sub">≈ 4 anos, 11 meses e 8 dias · a partir de 05/05/2025</div>
-			</div>
+					<button class="btn ghost" data-go="notificacoes">Ver alertas recebidos</button>
+					<button class="btn ghost" data-go="login" style="margin-top:8px">Sair</button>
+				</section>
 
-			<div class="card">
-				<div class="titulo">O que é prescrição?</div>
-				<div class="detalhe">É o prazo máximo para você entrar na Justiça ou acionar o PROCON. Após esse tempo, você perde o direito legal de reclamar.</div>
-			</div>
+				<!-- TELA 2: Linha do Tempo -->
+				<section class="screen" data-screen="linha-do-tempo">
+					<div class="appbar">
+						<div class="back" data-go="painel">←</div>
+						<div>
+							<div class="eyebrow">Andamento da reclamação</div>
+							<h2 class="screen-title">Linha do Tempo</h2>
+						</div>
+					</div>
 
-			<div class="card">
-				<div class="titulo">📋 Base legal</div>
-				<div class="detalhe">CDC, art. 27 — 5 anos para fato do produto/serviço.<br>CDC, art. 26 — 30/90 dias para vício aparente.</div>
-			</div>
+					<div class="section-label">Etapas</div>
+					<div class="timeline">
+						<div class="tl-item done">
+							<div class="tl-titulo">Reclamação registrada</div>
+							<div class="tl-data">05/05/2025 · concluído</div>
+						</div>
+						<div class="tl-item done">
+							<div class="tl-titulo">Empresa notificada</div>
+							<div class="tl-data">06/05/2025 · concluído</div>
+						</div>
+						<div class="tl-item active">
+							<div class="tl-titulo">Aguardando resposta</div>
+							<div class="tl-data">prazo até 12/06/2025 — faltam 7 dias</div>
+						</div>
+						<div class="tl-item future">
+							<div class="tl-titulo">Audiência de conciliação</div>
+							<div class="tl-data">previsto para 20/06/2025</div>
+						</div>
+						<div class="tl-item future">
+							<div class="tl-titulo">Resolução / encerramento</div>
+							<div class="tl-data">previsto após a audiência</div>
+						</div>
+					</div>
 
-			<hr class="divider">
-			<div style="background:var(--orange-bg);border-radius:10px;padding:10px;border:1px dashed var(--orange);margin-bottom:8px">
-				<div style="font-family:'Caveat',cursive;font-size:15px;color:var(--orange)">💡 Se o PROCON não resolver, você pode ir ao Juizado Especial antes que o prazo acabe.</div>
-			</div>
-			<button class="btn primary" data-go="juizado">Ver como acionar o Juizado</button>
-		</section>
+					<div class="divider"></div>
+					<div class="callout atencao">
+						<span class="icon">⚠</span>
+						<span>Se a empresa não responder no prazo, o botão abaixo passa a ficar disponível.</span>
+					</div>
+					<button class="btn danger" data-go="juizado">Acionar Juizado Especial</button>
+				</section>
 
-		<!-- TELA 4: Juizado Especial -->
-		<section class="screen" data-screen="juizado">
-			<div class="appbar">
-				<div class="back" data-go="painel">←</div>
-				<h2>Acionar Juizado Especial<small style="display:block;font-size:12px;color:var(--ink-soft)">Próximo passo jurídico</small></h2>
-			</div>
+				<!-- TELA 3: Prescrição -->
+				<section class="screen" data-screen="prescricao">
+					<div class="appbar">
+						<div class="back" data-go="painel">←</div>
+						<div>
+							<div class="eyebrow">Art. 27 CDC · Produto ou serviço</div>
+							<h2 class="screen-title">Prazo de Prescrição</h2>
+						</div>
+					</div>
 
-			<div class="semaforo vermelho">
-				<span class="emoji">⚖️</span>
-				<span class="dias">Prazo expirado</span>
-				<span class="legenda">A empresa não respondeu em 30 dias (art. 49 CDC)</span>
-			</div>
+					<div class="section-label">Seu direito de ação caduca em</div>
+					<div class="headline ok">
+						<div class="headline-dot"></div>
+						<div>
+							<span class="headline-value">1.795 dias</span>
+							<span class="headline-desc">≈ 4 anos e 11 meses · a partir de 05/05/2025</span>
+						</div>
+					</div>
 
-			<div class="card">
-				<div class="titulo">O que é o Juizado Especial?</div>
-				<div class="detalhe">É a Justiça gratuita para causas até 40 salários mínimos. Sem advogado obrigatório. Rápido e acessível.</div>
-			</div>
+					<div class="section-label">Entenda</div>
+					<div class="card">
+						<div class="titulo">O que é prescrição?</div>
+						<div class="body-text">É o prazo máximo para você entrar na Justiça ou acionar o PROCON. Depois
+							desse prazo, você perde o direito legal de reclamar.</div>
+					</div>
+					<div class="card">
+						<div class="titulo">Base legal</div>
+						<div class="body-text">CDC, art. 27 — 5 anos para fato do produto ou serviço.<br>CDC, art. 26 —
+							30 ou 90 dias para vício aparente.</div>
+					</div>
 
-			<div class="card">
-				<div class="titulo">📋 O que você precisa levar</div>
-				<div class="detalhe">
-					☐ RG / CPF<br>
-					☐ Comprovante de compra / contrato<br>
-					☐ Print das tentativas de contato<br>
-					☐ Número desta reclamação: <b>#2024-08847</b>
-				</div>
-			</div>
+				</section>
 
-			<div class="card">
-				<div class="titulo">📍 Juizado mais próximo</div>
-				<div class="detalhe">TJDFT — Fórum de Taguatinga<br>QSA 01, Lote 01 — 8h às 18h</div>
-			</div>
+				<!-- TELA 4: Juizado Especial -->
+				<section class="screen" data-screen="juizado">
+					<div class="appbar">
+						<div class="back" data-go="painel">←</div>
+						<div>
+							<div class="eyebrow">Próximo passo jurídico</div>
+							<h2 class="screen-title">Acionar Juizado Especial</h2>
+						</div>
+					</div>
 
-			<hr class="divider">
-			<button class="btn primary" data-go="painel">Salvar orientações</button>
-			<button class="btn ghost" style="margin-top:8px" data-go="painel">Voltar ao painel</button>
-		</section>
+					<div class="section-label">Situação atual</div>
+					<div class="headline urgente">
+						<div class="headline-dot"></div>
+						<div>
+							<span class="headline-value">Prazo expirado</span>
+							<span class="headline-desc">a empresa não respondeu em 30 dias · art. 49 CDC</span>
+						</div>
+					</div>
 
-		<!-- TELA 5: Notificações recebidas -->
-		<section class="screen" data-screen="notificacoes">
-			<div class="appbar">
-				<div class="back" data-go="painel">←</div>
-				<h2>Alertas Recebidos<small style="display:block;font-size:12px;color:var(--ink-soft)">Histórico de notificações</small></h2>
-			</div>
+					<div class="section-label">Como funciona</div>
+					<div class="card">
+						<div class="titulo">O que é o Juizado Especial?</div>
+						<div class="body-text">Justiça gratuita para causas de até 40 salários mínimos. Não exige
+							advogado e costuma ser mais rápida.</div>
+					</div>
 
-			<div class="push">
-				<div class="push-header"><span>PROCON-DF</span><span>Hoje, 8:14</span></div>
-				<div class="push-titulo">🔴 Faltam 7 dias!</div>
-				<div class="push-corpo">O prazo da empresa para responder sua reclamação #2024-08847 acaba em 12/06/2025.</div>
-			</div>
+					<div class="section-label">O que levar — marque conforme for separando</div>
+					<div class="card">
+						<div class="check-item" data-check="rg">
+							<div class="check-box"><svg viewBox="0 0 12 10" fill="none" stroke="#fff" stroke-width="1.6"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path d="M1 5 L4 8 L11 1"></path>
+								</svg></div>
+							<div class="check-text">RG ou CPF</div>
+						</div>
+						<div class="check-item" data-check="comprovante">
+							<div class="check-box"><svg viewBox="0 0 12 10" fill="none" stroke="#fff" stroke-width="1.6"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path d="M1 5 L4 8 L11 1"></path>
+								</svg></div>
+							<div class="check-text">Comprovante de compra ou contrato</div>
+						</div>
+						<div class="check-item" data-check="prints">
+							<div class="check-box"><svg viewBox="0 0 12 10" fill="none" stroke="#fff" stroke-width="1.6"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path d="M1 5 L4 8 L11 1"></path>
+								</svg></div>
+							<div class="check-text">Prints das tentativas de contato</div>
+						</div>
+						<div class="check-item" data-check="numero">
+							<div class="check-box"><svg viewBox="0 0 12 10" fill="none" stroke="#fff" stroke-width="1.6"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path d="M1 5 L4 8 L11 1"></path>
+								</svg></div>
+							<div class="check-text">Número desta reclamação: <b>#2024-08847</b></div>
+						</div>
+						<div class="check-progress" id="checkProgress">0 de 4 itens separados</div>
+					</div>
 
-			<div class="push">
-				<div class="push-header"><span>PROCON-DF</span><span>28/05, 9:00</span></div>
-				<div class="push-titulo">📅 Audiência confirmada</div>
-				<div class="push-corpo">Sua audiência de conciliação foi marcada para 20/06/2025. Você receberá um lembrete 48h antes.</div>
-			</div>
+					<div class="section-label">Onde fica</div>
+					<div class="card">
+						<div class="titulo">TJDFT — Fórum de Taguatinga</div>
+						<div class="body-text">QSA 01, Lote 01 · atendimento das 8h às 18h</div>
+					</div>
 
-			<div class="push">
-				<div class="push-header"><span>PROCON-DF</span><span>06/05, 14:30</span></div>
-				<div class="push-titulo">📨 Empresa notificada</div>
-				<div class="push-corpo">A empresa foi notificada sobre sua reclamação. O prazo de resposta começa a contar agora.</div>
-			</div>
+					<div class="divider"></div>
+					<button class="btn primary" id="btnSalvarOrientacoes" data-go="painel" disabled>Entendi</button>
+					<button class="btn ghost" data-go="painel">Voltar ao painel</button>
+				</section>
 
-			<div class="push">
-				<div class="push-header"><span>PROCON-DF</span><span>05/05, 10:00</span></div>
-				<div class="push-titulo">✅ Reclamação registrada</div>
-				<div class="push-corpo">Reclamação #2024-08847 protocolada com sucesso. Acompanhe o andamento aqui.</div>
-			</div>
+				<!-- TELA 5: Notificações recebidas -->
+				<section class="screen" data-screen="notificacoes">
+					<div class="appbar">
+						<div class="back" data-go="painel">←</div>
+						<div>
+							<div class="eyebrow">Histórico</div>
+							<h2 class="screen-title">Alertas Recebidos</h2>
+						</div>
+					</div>
 
-			<hr class="divider">
-			<div class="small">Notificações enviadas por WhatsApp e e-mail.</div>
-		</section>
+					<div class="section-label">Enviados por WhatsApp e e-mail</div>
+					<div class="notif-list">
+						<div class="notif">
+							<div class="notif-top">
+								<div class="notif-titulo"><span class="notif-dot urgente"></span>Faltam 7 dias</div>
+								<div class="notif-time">hoje, 8:14</div>
+							</div>
+							<div class="notif-body">O prazo da empresa para responder sua reclamação #2024-08847 acaba
+								em 12/06/2025.</div>
+						</div>
+						<div class="notif">
+							<div class="notif-top">
+								<div class="notif-titulo"><span class="notif-dot ok"></span>Audiência confirmada</div>
+								<div class="notif-time">28/05, 9:00</div>
+							</div>
+							<div class="notif-body">Sua audiência de conciliação foi marcada para 20/06/2025. Você
+								receberá um lembrete 48h antes.</div>
+						</div>
+						<div class="notif">
+							<div class="notif-top">
+								<div class="notif-titulo"><span class="notif-dot ok"></span>Empresa notificada</div>
+								<div class="notif-time">06/05, 14:30</div>
+							</div>
+							<div class="notif-body">A empresa foi notificada sobre sua reclamação. O prazo de resposta
+								começa a contar agora.</div>
+						</div>
+						<div class="notif">
+							<div class="notif-top">
+								<div class="notif-titulo"><span class="notif-dot ok"></span>Reclamação registrada</div>
+								<div class="notif-time">05/05, 10:00</div>
+							</div>
+							<div class="notif-body">Reclamação #2024-08847 protocolada com sucesso. Acompanhe o
+								andamento aqui.</div>
+						</div>
+					</div>
+				</section>
 
-	</div><!-- /viewport -->
-</div></div><!-- /phone /stage -->
+			</div><!-- /viewport -->
+		</div>
+	</div><!-- /phone /stage -->
 
-<script>
-(function(){
-	var labels = {
-		painel:         '01 · Painel Principal',
-		'linha-do-tempo':'02 · Linha do Tempo',
-		prescricao:     '03 · Prescrição',
-		juizado:        '04 · Juizado Especial',
-		notificacoes:   '05 · Alertas Recebidos'
-	};
-	var order = Object.keys(labels);
-	var screens = {};
-	document.querySelectorAll('.screen').forEach(function(s){ screens[s.dataset.screen] = s; });
+	<script>
+		// ===== LOGIN: máscara, validação, biometria simulada =====
+		(function () {
+			var cpfInput = document.getElementById('cpfInput');
+			var cpfBox = document.getElementById('cpfBox');
+			var cpfError = document.getElementById('cpfError');
+			var senhaInput = document.getElementById('senhaInput');
+			var senhaBox = document.getElementById('senhaBox');
+			var senhaError = document.getElementById('senhaError');
+			var senhaToggle = document.getElementById('senhaToggle');
+			var form = document.getElementById('loginForm');
+			var btnEntrar = document.getElementById('btnEntrar');
+			var btnEntrarLabel = document.getElementById('btnEntrarLabel');
+			var bioOption = document.getElementById('bioOption');
+			var bioLabel = document.getElementById('bioLabel');
+			var fallbackBanner = document.getElementById('fallbackBanner');
+			var esqueciSenha = document.getElementById('esqueciSenha');
+			var bioAttempts = 0;
 
-	var jump = document.getElementById('jump');
-	order.forEach(function(k){
-		var o = document.createElement('option');
-		o.value = k; o.textContent = labels[k];
-		jump.appendChild(o);
-	});
+			// máscara de CPF em tempo real: 000.000.000-00
+			cpfInput.addEventListener('input', function () {
+				var v = cpfInput.value.replace(/\D/g, '').slice(0, 11);
+				if (v.length > 9) v = v.replace(/(\d{3})(\d{3})(\d{3})(\d{1,2})/, '$1.$2.$3-$4');
+				else if (v.length > 6) v = v.replace(/(\d{3})(\d{3})(\d{1,3})/, '$1.$2.$3');
+				else if (v.length > 3) v = v.replace(/(\d{3})(\d{1,3})/, '$1.$2');
+				cpfInput.value = v;
+				cpfBox.classList.remove('error');
+				cpfError.classList.remove('show');
+			});
+			cpfInput.addEventListener('focus', function () { cpfBox.classList.add('focused'); });
+			cpfInput.addEventListener('blur', function () { cpfBox.classList.remove('focused'); });
 
-	function show(id, skipHash){
-		if(!screens[id]) return;
-		Object.values(screens).forEach(s => s.classList.remove('active'));
-		screens[id].classList.add('active');
-		jump.value = id;
-		screens[id].scrollTop = 0;
-		if(!skipHash){ try{ location.hash = id; }catch(e){} }
-	}
+			senhaInput.addEventListener('focus', function () { senhaBox.classList.add('focused'); });
+			senhaInput.addEventListener('blur', function () { senhaBox.classList.remove('focused'); });
+			senhaInput.addEventListener('input', function () {
+				senhaBox.classList.remove('error');
+				senhaError.classList.remove('show');
+			});
 
-	document.addEventListener('click', function(e){
-		var t = e.target.closest('[data-go]');
-		if(t) show(t.dataset.go);
-	});
+			// mostrar/ocultar senha
+			senhaToggle.addEventListener('click', function () {
+				var hidden = senhaInput.type === 'password';
+				senhaInput.type = hidden ? 'text' : 'password';
+				senhaToggle.textContent = hidden ? 'ocultar' : 'mostrar';
+			});
 
-	jump.addEventListener('change', function(){ show(jump.value); });
+			function digitsOnly(s) { return s.replace(/\D/g, ''); }
 
-	window.addEventListener('hashchange', function(){
-		var h = location.hash.replace(/^#/, '');
-		if(h && screens[h]) show(h, true);
-	});
+			function fazerLogin() {
+				if (btnEntrar.disabled) return;
 
-	var initial = location.hash.replace(/^#/, '') || 'painel';
-	show(screens[initial] ? initial : 'painel', true);
-})();
-</script>
+				// simula chamada de autenticação — não exige preenchimento real, é um protótipo de fluxo
+				btnEntrar.disabled = true;
+				btnEntrar.classList.add('loading');
+				btnEntrarLabel.textContent = 'Entrando…';
+
+				setTimeout(function () {
+					btnEntrar.classList.remove('loading');
+					btnEntrarLabel.textContent = 'Entrar';
+					btnEntrar.disabled = false;
+					if (window.goToScreen) window.goToScreen('painel');
+				}, 900);
+			}
+
+			btnEntrar.addEventListener('click', fazerLogin);
+
+			// permite confirmar com Enter dentro dos campos
+			[cpfInput, senhaInput].forEach(function (el) {
+				el.addEventListener('keydown', function (e) {
+					if (e.key === 'Enter') { e.preventDefault(); fazerLogin(); }
+				});
+			});
+
+			// biometria: primeira tentativa falha (mostra fallback), segunda tentativa funciona
+			bioOption.addEventListener('click', function () {
+				if (bioOption.classList.contains('scanning')) return;
+				fallbackBanner.classList.remove('show');
+				bioOption.classList.add('scanning');
+				bioLabel.textContent = 'reconhecendo rosto…';
+
+				setTimeout(function () {
+					bioOption.classList.remove('scanning');
+					bioAttempts++;
+					if (bioAttempts === 1) {
+						bioLabel.textContent = 'entrar com biometria facial';
+						fallbackBanner.classList.add('show');
+						return;
+					}
+					bioOption.classList.add('success');
+					bioLabel.textContent = '✓ reconhecido!';
+					setTimeout(function () {
+						if (window.goToScreen) window.goToScreen('painel');
+					}, 500);
+				}, 1100);
+			});
+
+			esqueciSenha.addEventListener('click', function () {
+				esqueciSenha.textContent = 'link de recuperação enviado por e-mail ✓';
+				esqueciSenha.style.pointerEvents = 'none';
+				esqueciSenha.style.color = 'var(--s-ok)';
+			});
+
+			window.resetLoginState = function () {
+				cpfInput.value = '';
+				senhaInput.value = '';
+				senhaInput.type = 'password';
+				senhaToggle.textContent = 'mostrar';
+				cpfBox.classList.remove('error', 'focused');
+				senhaBox.classList.remove('error', 'focused');
+				cpfError.classList.remove('show');
+				senhaError.classList.remove('show');
+				bioOption.classList.remove('scanning', 'success');
+				bioLabel.textContent = 'entrar com biometria facial';
+				fallbackBanner.classList.remove('show');
+				btnEntrar.disabled = false;
+				btnEntrar.classList.remove('loading');
+				btnEntrarLabel.textContent = 'Entrar';
+				bioAttempts = 0;
+				esqueciSenha.textContent = 'esqueci minha senha';
+				esqueciSenha.style.pointerEvents = '';
+				esqueciSenha.style.color = '';
+			};
+		})();
+	</script>
+
+	<script>
+		// ===== JUIZADO: checklist interativo — botão só libera com tudo marcado =====
+		(function () {
+			var items = document.querySelectorAll('.check-item');
+			var progress = document.getElementById('checkProgress');
+			var btnSalvar = document.getElementById('btnSalvarOrientacoes');
+			if (!items.length) return;
+
+			function update() {
+				var total = items.length;
+				var checked = document.querySelectorAll('.check-item.checked').length;
+				progress.textContent = checked + ' de ' + total + ' itens separados';
+				var pronto = checked === total;
+				btnSalvar.disabled = !pronto;
+				btnSalvar.textContent = pronto ? 'Entendi' : 'Marque todos os itens para continuar';
+			}
+
+			items.forEach(function (item) {
+				item.addEventListener('click', function () {
+					item.classList.toggle('checked');
+					update();
+				});
+			});
+
+			update();
+		})();
+	</script>
+
+	<script>
+		(function () {
+			var labels = {
+				login: '00 · Login',
+				painel: '01 · Painel Principal',
+				'linha-do-tempo': '02 · Linha do Tempo',
+				prescricao: '03 · Prescrição',
+				juizado: '04 · Juizado Especial',
+				notificacoes: '05 · Alertas Recebidos'
+			};
+			var order = Object.keys(labels);
+			var screens = {};
+			document.querySelectorAll('.screen').forEach(function (s) { screens[s.dataset.screen] = s; });
+
+			var jump = document.getElementById('jump');
+			order.forEach(function (k) {
+				var o = document.createElement('option');
+				o.value = k; o.textContent = labels[k];
+				jump.appendChild(o);
+			});
+
+			function show(id, skipHash) {
+				if (!screens[id]) return;
+				Object.values(screens).forEach(s => s.classList.remove('active'));
+				screens[id].classList.add('active');
+				jump.value = id;
+				screens[id].scrollTop = 0;
+				if (!skipHash) { try { location.hash = id; } catch (e) { } }
+				if (id === 'login' && typeof window.resetLoginState === 'function') { window.resetLoginState(); }
+			}
+			window.goToScreen = show;
+
+			document.addEventListener('click', function (e) {
+				var t = e.target.closest('[data-go]');
+				if (t) show(t.dataset.go);
+			});
+
+			jump.addEventListener('change', function () { show(jump.value); });
+
+			window.addEventListener('hashchange', function () {
+				var h = location.hash.replace(/^#/, '');
+				if (h && screens[h]) show(h, true);
+			});
+
+			var initial = location.hash.replace(/^#/, '') || 'login';
+			show(screens[initial] ? initial : 'login', true);
+		})();
+	</script>
 
 </body>
+
 </html>
