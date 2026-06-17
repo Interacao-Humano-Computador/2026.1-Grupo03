@@ -128,10 +128,10 @@ O perfil do participante está alinhado com o perfil de usuário primário **Con
 | Campo | Dado Coletado |
 | :--- | :--- |
 | **Nome / Identificação** | P2 (anônimo) |
-| **Faixa etária** | [a preencher] |
+| **Faixa etária** | 36 |
 | **Vínculo com o PROCON-DF** | Usuário de serviços digitais; potencial consumidor reclamante |
 | **Familiaridade com tecnologia** | Alta — navegou pelo protótipo sem hesitações e identificou com precisão todos os elementos de interface durante o Think Aloud |
-| **Ocupação** | [a preencher] |
+| **Ocupação** | Físico |
 | **O perfil atende ao planejado?** | (x) Sim — Participante com familiaridade com tecnologia compatível com o perfil-alvo e capacidade de articular percepções sobre a interface |
 
 <div align="center">
