@@ -53,5 +53,5 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 
 | Versão | Data       | Descrição                                                                                         | Autor(es)     | Revisor(es)   |
 | :---   | :---       | :---                                                                                              | :---          | :---          |
-| `1.1`  | 16/06/2026 | Adição de itens de etapas anteriores (E7-06 a E7-11) para complementar o relato dos resultados do protótipo de alta fidelidade. | Pedro Moretti | Pedro Moretti |
+| `1.1`  | 16/06/2026 | Adição de itens de etapas anteriores (E7-06 a E7-11) para complementar o relato dos resultados do protótipo de alta fidelidade. | Pedro Moretti | Heitor Macedo |
 | `1.0`  | 14/06/2026 | Criação da lista de verificação da Etapa 7 com itens sobre o relato do protótipo de alta fidelidade. | Heitor Macedo | Pedro Moretti             |
