@@ -5,7 +5,7 @@ Colaboração referente a [Etapa 7](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Mateus Rodrigues Barreto | Elaborou o Artefato |
+| Mateus Barreto | Elaborou o Artefato |
 
 ---
 
@@ -13,16 +13,14 @@ Colaboração referente a [Etapa 7](../../planejamento/cronograma-executado.md)
 
 Este artefato apresenta o **protótipo de alta fidelidade** desenvolvido para a funcionalidade de **Painel de Monitoramento de Prazos com Alertas Jurídicos** do sistema PROCON-DF. O protótipo foi construído em HTML, CSS e JavaScript, seguindo o [Guia de Estilo](../../analise-requisitos/guia-estilo.md) do projeto.
 
-A funcionalidade visa oferecer ao consumidor um painel inteligente que exibe, em linguagem simples, todos os prazos legais vinculados à sua reclamação — incluindo o prazo de resposta da empresa (CDC, art. 49), datas de audiência, contagem regressiva do prazo de prescrição (CDC, art. 27) e encaminhamento ao Juizado Especial quando o prazo expira sem resolução. O protótipo também cobre a autenticação do consumidor no portal.
+A funcionalidade permite que o cidadão acompanhe, em linguagem simples, todos os prazos legais vinculados à sua reclamação — incluindo o prazo de resposta da empresa (CDC, art. 49), datas de audiência, contagem regressiva do prazo de prescrição (CDC, art. 27) e o encaminhamento ao Juizado Especial quando o prazo expira sem resolução, sem necessidade de consulta manual ao portal.
 
 Diferentemente do protótipo de papel (baixa fidelidade), este protótipo incorpora:
 
-- **Paleta de cores oficial** — Azul Principal, Amarelo Governo, Verde Sucesso e tons neutros conforme o guia de estilo
-- **Tipografia oficial** — Titillium Web (títulos), Open Sans (corpo e UI), Montserrat
-- **Padrões de componentes** — cartões, botões, timeline, campos de entrada, pop-ups, conforme especificado no guia de estilo
-- **Interações realistas** — fluxo completo de login, validação de campos, simulação de biometria facial, navegação por abas e interação com a linha do tempo e checklist.
-
-O protótipo foi elaborado com base na análise de tarefas (HTA e CTT), nos cenários de uso e na persona **Roberto** — gerente de logística de 52 anos, pragmático, com conhecimento básico de seus direitos, que precisa de um painel centralizado para acompanhar os prazos de resposta do fornecedor de forma clara e objetiva.
+- **Paleta de cores oficial** — Azul Principal (#4079BC), Amarelo Governo (#FFD200), Verde (#29BCB6), Magenta (#A93D8E) e Vermelho (#CF2E2E), conforme o guia de estilo
+- **Tipografia oficial** — Titillium Web (títulos), Open Sans (corpo) e Montserrat (elementos de interface)
+- **Padrões de componentes** — cartões de destaque, badges de status, linha do tempo com indicadores de progresso, checklist interativo, modal de confirmação, conforme especificado no guia de estilo
+- **Interações realistas** — fluxo completo de login (CPF/senha ou biometria), navegação entre prazos, acionamento condicionado do Juizado Especial e confirmação de documentos via checklist
 
 ---
 
@@ -37,7 +35,7 @@ O protótipo abaixo é navegável diretamente no navegador. Toque nos elementos 
 <div id="prototipo-wrapper" style="width:100%;border:1px solid #E2E8F0;border-radius:12px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,0.1);position:relative;">
   <div style="background:#2D3748;padding:8px 12px;display:flex;justify-content:flex-end;">
     <button
-      onclick="(function(){var w=document.getElementById('prototipo-wrapper');var f=document.getElementById('prototipo-iframe');if(!document.fullscreenElement){w.requestFullscreen().then(function(){f.style.height='100vh';w.style.borderRadius='0';});} else {document.exitFullscreen().then(function(){f.style.height='820px';w.style.borderRadius='12px';});}})();"
+      onclick="(function(){var w=document.getElementById('prototipo-wrapper');var f=document.getElementById('prototipo-iframe');if(!document.fullscreenElement){w.requestFullscreen().then(function(){f.style.height='100vh';w.style.borderRadius='0';});} else {document.exitFullscreen().then(function(){f.style.height='900px';w.style.borderRadius='12px';});}})();"
       style="background:transparent;border:1px solid rgba(255,255,255,0.4);color:#fff;padding:4px 14px;border-radius:6px;cursor:pointer;font-size:13px;display:flex;align-items:center;gap:6px;">
       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
       Tela cheia
@@ -47,14 +45,14 @@ O protótipo abaixo é navegável diretamente no navegador. Toque nos elementos 
     id="prototipo-iframe"
     src="../../prototipo-alta-fidelidade/painel-prazos/painel-prazos.html"
     width="100%"
-    height="820"
+    height="900"
     style="border:none;display:block;"
     title="Protótipo de Alta Fidelidade — Painel de Prazos PROCON-DF"
     allow="fullscreen">
   </iframe>
 </div>
 
-<div align="center"><p><i>Fonte: Mateus Rodrigues Barreto (2026).</i></p></div>
+<div align="center"><p><i>Fonte: Mateus Barreto (2026).</i></p></div>
 
 ---
 
@@ -62,12 +60,13 @@ O protótipo abaixo é navegável diretamente no navegador. Toque nos elementos 
 
 O protótipo cobre o fluxo completo da funcionalidade de Painel de Prazos:
 
-1. **Login** — autenticação por CPF e senha ou por biometria facial, com validação visual de campos e *fallback* em caso de falha no reconhecimento.
-2. **Painel principal (Hero de status)** — visão geral com indicador de urgência colorido (que substitui o "semáforo" da versão em papel), prazo em destaque e lista com atalho para cada prazo relevante.
-3. **Linha do tempo** — sequência visual de etapas (concluída / em andamento / futura), com alerta sobre o que ocorrerá quando o prazo de resposta da empresa expirar.
-4. **Acionar Juizado Especial** — botão que simula a disponibilização de encaminhamento ao Juizado Especial e apresenta um checklist interativo de documentos necessários e localização do fórum mais próximo.
-5. **Prazo de prescrição** — contagem regressiva em dias com explicação em linguagem simples e base legal (art. 27 CDC).
-6. **Alertas recebidos** — histórico de notificações *push* enviadas ao consumidor por WhatsApp/e-mail, ajudando-o a se manter orientado.
+1. **Tela de Login** — autenticação com CPF e senha, com máscara automática de formatação e alternativa de biometria facial
+2. **Painel Principal** — destaque do prazo mais urgente em cartão colorido por nível de criticidade, seguido da lista completa de prazos da reclamação
+3. **Linha do Tempo** — exibição cronológica das etapas do processo (concluídas, em andamento e futuras), com indicadores visuais de progresso
+4. **Prazo de Prescrição** — contagem regressiva em dias até a caducidade do direito de ação, com explicação em linguagem simples e base legal
+5. **Acionar Juizado Especial** — tela exibida quando o prazo de resposta da empresa expira, com checklist interativo de documentos necessários e localização do fórum
+6. **Modal de Confirmação** — pop-up de sucesso ao salvar as orientações do Juizado Especial
+7. **Alertas Recebidos** — histórico de notificações enviadas ao consumidor por WhatsApp e e-mail
 
 ---
 
@@ -77,22 +76,21 @@ O protótipo cobre o fluxo completo da funcionalidade de Painel de Prazos:
 |---|---|---|
 | **Estrutura** | HTML5 | Marcação semântica de cada tela e fluxo de navegação |
 | **Estilo** | CSS3 | Fidelidade visual ao guia de estilo do PROCON-DF (paleta, tipografia, componentes) |
-| **Interatividade** | JavaScript (vanilla) | Gerencia a navegação entre telas, os estados dos componentes interativos (checagem de lista, simulação biométrica) e os pop-ups |
+| **Interatividade** | JavaScript (vanilla) | Gerencia a navegação entre telas, validação de campos, checklist interativo e estado do modal |
 | **Distribuição** | Standalone (single file) | Arquivo HTML autocontido, sem dependências de servidor |
 
 ---
 
 ## Decisões de Design
 
-As principais escolhas de design refletidas no protótipo de alta fidelidade são:
-
 | Decisão | Justificativa |
 |---|---|
-| **Biometria facial na entrada** | Flexibiliza a autenticação e reduz o atrito, ideal para usuários com dificuldade de memorizar senhas, possuindo alternativa de fallback (CPF/senha) em caso de erro de leitura. |
-| **Hero de status colorido** | Indicador visual imediato do nível de criticidade do prazo dominante, sem necessidade de leitura detalhada (substitui o semáforo de urgência da baixa fidelidade). |
-| **Checklist interativo de documentos** | A lista de documentos obriga a marcação antes de liberar as próximas etapas, induzindo a preparação correta para o acesso ao Juizado Especial. |
-| **Linha do tempo estilo rastreamento** | Analogia com rastreamento de encomendas que simplifica o entendimento das etapas processuais. |
-| **Linguagem direta e não jurídica** | O jargão é minimizado ("seu direito de ação caduca" ao invés de termos como "decadência/prescrição"), enquanto as bases legais são mantidas discretas no canto da interface (Ex: "art. 27 CDC"). |
+| **Cartão de destaque colorido por criticidade** | Substitui o "semáforo" do protótipo de papel por um componente de maior fidelidade visual, mantendo a comunicação imediata do nível de urgência sem necessidade de leitura |
+| **Biometria com falha simulada na primeira tentativa** | Representa o fluxo de fallback de autenticação de forma realista, permitindo observar a reação do usuário diante de uma falha de reconhecimento |
+| **Um único caminho para o Juizado Especial** | O botão "Acionar Juizado Especial" existe apenas na Linha do Tempo, vinculado exclusivamente à expiração do prazo de resposta da empresa, evitando que o usuário confunda esse gatilho com o da Prescrição |
+| **Checklist interativo com botão condicionado** | Cada documento necessário deve ser marcado individualmente; o botão de confirmação só é liberado quando todos os itens são conferidos, reforçando a prevenção de erros antes de uma ação importante |
+| **Modal de confirmação ao salvar orientações** | Fornece feedback explícito de sucesso da ação, em vez de apenas navegar silenciosamente para outra tela |
+| **Base legal sempre visível** | Referência ao artigo do CDC exibida em cada prazo, permitindo verificação pelo usuário mais avançado sem poluir a interface principal |
 
 ---
 
@@ -106,4 +104,4 @@ As principais escolhas de design refletidas no protótipo de alta fidelidade sã
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 17/06/2026 | Criação do documento e adição do protótipo de alta fidelidade interativo. | Mateus Rodrigues Barreto | — |
+| 1.0 | 18/06/2026 | Criação do documento e adição do protótipo de alta fidelidade interativo. | Mateus Barreto | — |
