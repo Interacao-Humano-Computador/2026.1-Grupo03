@@ -24,11 +24,13 @@ O protótipo foi elaborado com base na análise de tarefas (HTA e CTT), nos cen�
 O protótipo cobre as seguintes telas e interações:
 
 1. **Login** — autenticação por CPF e senha ou por biometria facial, com validação visual de campos e fallback em caso de falha no reconhecimento
-2. **Painel principal (semáforo)** — visão geral com indicador de urgência colorido, prazo em destaque e lista com atalho para cada prazo relevante
-3. **Linha do tempo** — sequência visual de etapas (concluída / em andamento / futura), com botão de acionamento ao Juizado quando o prazo de resposta da empresa expira
-4. **Prazo de prescrição** — contagem regressiva em dias com explicação em linguagem simples e base legal (art. 27 CDC)
-5. **Acionar Juizado Especial** — checklist interativo de documentos necessários, com confirmação obrigatória de cada item antes da liberação do botão de salvar orientações, e localização do fórum mais próximo
-6. **Alertas recebidos** — histórico de notificações push enviadas ao consumidor por WhatsApp/e-mail
+2. **Minhas Reclamações** — tela intermediária exibida logo após o login, listando todas as reclamações do consumidor (em andamento e encerradas) com badges de status; permite selecionar qual reclamação acompanhar ou adicionar um protocolo existente
+3. **Adicionar Protocolo** — tela para vincular uma reclamação já registrada no PROCON-DF à conta do usuário, com campo de busca por número de protocolo, estados de "buscando" e "encontrado/não encontrado" simulados e dica de onde localizar o número
+4. **Painel principal (semáforo)** — visão geral com indicador de urgência colorido, prazo em destaque e lista com atalho para cada prazo relevante
+5. **Linha do tempo** — sequência visual de etapas (concluída / em andamento / futura), com botão de acionamento ao Juizado quando o prazo de resposta da empresa expira
+6. **Prazo de prescrição** — contagem regressiva em dias com explicação em linguagem simples e base legal (art. 27 CDC)
+7. **Acionar Juizado Especial** — checklist interativo de documentos necessários, com confirmação obrigatória de cada item antes da liberação do botão de salvar orientações, e localização do fórum mais próximo
+8. **Alertas recebidos** — histórico de notificações push enviadas ao consumidor por WhatsApp/e-mail
 
 ---
 
@@ -69,6 +71,8 @@ O protótipo abaixo é navegável diretamente no navegador. Clique nas telas par
 As principais escolhas de design refletidas no protótipo são:
 
 - **Autenticação com dois caminhos** — CPF/senha ou biometria facial, com fallback explícito em caso de falha no reconhecimento, conforme recomendação da HTA quanto à flexibilidade de acesso para diferentes perfis de usuário
+- **Tela de seleção de reclamação pós-login** — em vez de exibir diretamente um único painel, o fluxo passa por uma lista de reclamações do usuário, tornando o protótipo mais realista para consumidores com múltiplos registros ativos; a tela distingue visualmente reclamações em andamento (com badge de urgência) e encerradas
+- **Adição de protocolo existente** — fluxo dedicado para vincular reclamações já registradas no PROCON-DF, com feedback de "buscando", "não encontrado" e "encontrado" para demonstrar os estados possíveis da operação
 - **Semáforo de urgência** — indicador visual imediato do nível de criticidade do prazo dominante, sem necessidade de leitura; inspirado em interfaces de rastreamento e apps de saúde
 - **Contagem em dias em destaque** — número grande e legível como foco principal do painel, conforme heurística de visibilidade do status do sistema (Nielsen)
 - **Linha do tempo estilo rastreamento** — analogia com rastreamento de encomenda (iFood/Correios), tornando etapas jurídicas compreensíveis para usuários sem formação legal
@@ -104,3 +108,4 @@ Este artefato contou com o apoio do assistente de IA **Claude** (Anthropic), que
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Mateus Barreto | — |
 | 1.1 | 17/06/2026 | Adição de novas telas ao protótipo. | Mateus Barreto | — |
+| 1.2 | 19/06/2026 | Adição das telas "Minhas Reclamações" e "Adicionar Protocolo"; login passa a redirecionar para seleção de reclamação. | Mateus Barreto | — |

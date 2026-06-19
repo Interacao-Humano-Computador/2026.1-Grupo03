@@ -61,12 +61,14 @@ O protótipo abaixo é navegável diretamente no navegador. Toque nos elementos 
 O protótipo cobre o fluxo completo da funcionalidade de Painel de Prazos:
 
 1. **Tela de Login** — autenticação com CPF e senha, com máscara automática de formatação e alternativa de biometria facial
-2. **Painel Principal** — destaque do prazo mais urgente em cartão colorido por nível de criticidade, seguido da lista completa de prazos da reclamação
-3. **Linha do Tempo** — exibição cronológica das etapas do processo (concluídas, em andamento e futuras), com indicadores visuais de progresso
-4. **Prazo de Prescrição** — contagem regressiva em dias até a caducidade do direito de ação, com explicação em linguagem simples e base legal
-5. **Acionar Juizado Especial** — tela exibida quando o prazo de resposta da empresa expira, com checklist interativo de documentos necessários e localização do fórum
-6. **Modal de Confirmação** — pop-up de sucesso ao salvar as orientações do Juizado Especial
-7. **Alertas Recebidos** — histórico de notificações enviadas ao consumidor por WhatsApp e e-mail
+2. **Minhas Reclamações** — tela intermediária exibida após o login, listando as reclamações do consumidor com badges de status (urgente/resolvida) e acesso ao fluxo de adicionar protocolo existente
+3. **Adicionar Protocolo** — tela de vinculação de reclamação já registrada no PROCON-DF por número de protocolo, com estados visuais de carregamento, "não encontrado" e "encontrado" simulados de forma interativa
+4. **Painel Principal** — destaque do prazo mais urgente em cartão colorido por nível de criticidade, seguido da lista completa de prazos da reclamação
+5. **Linha do Tempo** — exibição cronológica das etapas do processo (concluídas, em andamento e futuras), com indicadores visuais de progresso
+6. **Prazo de Prescrição** — contagem regressiva em dias até a caducidade do direito de ação, com explicação em linguagem simples e base legal
+7. **Acionar Juizado Especial** — tela exibida quando o prazo de resposta da empresa expira, com checklist interativo de documentos necessários e localização do fórum
+8. **Modal de Confirmação** — pop-up de sucesso ao salvar as orientações do Juizado Especial
+9. **Alertas Recebidos** — histórico de notificações enviadas ao consumidor por WhatsApp e e-mail
 
 ---
 
@@ -86,6 +88,8 @@ O protótipo cobre o fluxo completo da funcionalidade de Painel de Prazos:
 | Decisão | Justificativa |
 |---|---|
 | **Cartão de destaque colorido por criticidade** | Substitui o "semáforo" do protótipo de papel por um componente de maior fidelidade visual, mantendo a comunicação imediata do nível de urgência sem necessidade de leitura |
+| **Tela de seleção de reclamação pós-login** | Em vez de exibir diretamente um único painel, o fluxo passa por uma lista de reclamações com badges de status, tornando o protótipo mais fiel ao cenário real de usuários com múltiplos registros; o badge piscante em vermelho orienta visualmente para a reclamação urgente |
+| **Fluxo de adição de protocolo existente** | Tela dedicada com campo de busca e três estados visuais distintos (carregando, não encontrado, encontrado) demonstra de forma realista o feedback do sistema e a prevenção de erros antes de vincular uma reclamação |
 | **Biometria com falha simulada na primeira tentativa** | Representa o fluxo de fallback de autenticação de forma realista, permitindo observar a reação do usuário diante de uma falha de reconhecimento |
 | **Um único caminho para o Juizado Especial** | O botão "Acionar Juizado Especial" existe apenas na Linha do Tempo, vinculado exclusivamente à expiração do prazo de resposta da empresa, evitando que o usuário confunda esse gatilho com o da Prescrição |
 | **Checklist interativo com botão condicionado** | Cada documento necessário deve ser marcado individualmente; o botão de confirmação só é liberado quando todos os itens são conferidos, reforçando a prevenção de erros antes de uma ação importante |
@@ -105,3 +109,5 @@ O protótipo cobre o fluxo completo da funcionalidade de Painel de Prazos:
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
 | 1.0 | 18/06/2026 | Criação do documento e adição do protótipo de alta fidelidade interativo. | Mateus Barreto | — |
+| 1.1 | 19/06/2026 | Adição das telas "Minhas Reclamações" e "Adicionar Protocolo"; login passa a redirecionar para seleção de reclamação. | Mateus Barreto | — |
+| 1.2 | 19/06/2026 | Ajuste do botão de reclamações no menu inferior do painel para navegar de volta à listagem de reclamações. | Mateus Barreto | — |
