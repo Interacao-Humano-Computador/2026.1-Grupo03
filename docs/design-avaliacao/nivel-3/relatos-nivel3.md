@@ -97,7 +97,7 @@ Em duas das três funcionalidades, os participantes demonstraram atenção e val
 <p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira e Heitor Macedo.</i></p>
 </div>
 
-O Nível 3 acumula três problemas identificados em dois protótipos distintos. O único problema de gravidade 2 (Pequeno) foi encontrado na Notificação Ativa (P02): a tela de resposta comunica claramente as consequências do aceite, mas omite as do rejeite — uma assimetria informacional que pode induzir viés decisório em usuários que não conhecem seus direitos pós-recusa. Os dois problemas cosméticos (NA P01, TG P01) correspondem a lacunas de visibilidade de informação (prazo de crédito) e de cobertura de caminho alternativo (ausência de evidência), nenhum dos quais impede a conclusão da tarefa. A Sala de Conciliação Virtual não apresentou nenhum problema.
+O Nível 3 acumula três problemas identificados em dois protótipos distintos. O único problema de gravidade 2 (Pequeno) foi encontrado na Notificação Ativa (P02): a tela de resposta comunica claramente as consequências do aceite, mas omite as do rejeite — uma assimetria informacional que pode induzir viés decisório em usuários que não conhecem seus direitos pós-recusa. Os dois problemas cosméticos (NA P01, TG P01) correspondem a lacunas de visibilidade de informação (prazo de crédito) e de cobertura de caminho alternativo (ausência de evidência), nenhum dos quais impede a conclusão da tarefa. Ressalva-se que a Sala de Conciliação Virtual e o Assistente de Triagem Guiada contaram com apenas uma sessão cada (n=1); portanto, não foram identificados problemas nessas funcionalidades, mas a amostra reduzida recomenda cautela — sessões adicionais poderiam revelar obstáculos não observados na avaliação singular.
 
 Os três tipos de problema identificados têm naturezas distintas e complementares:
 - **Hierarquia visual** (NA P01): informação presente mas com baixa proeminência
@@ -144,11 +144,11 @@ Nota-se que S04 (Triagem Guiada) tem a maior prioridade da tabela: a obrigatorie
 
 ### Conclusão
 
-Os resultados do Nível 3 são positivos em sua totalidade, consolidados sobre uma base de **7 sessões, 3 funcionalidades e perfis de usuário que cobrem de 18 a 60 anos**. As avaliações dos protótipos de alta fidelidade da **Sala de Conciliação Virtual**, da **Notificação Ativa** e do **Assistente de Triagem Guiada** demonstram que o design proposto pela equipe está alinhado com as necessidades dos usuários do PROCON-DF — tanto do perfil Fornecedor quanto do perfil Consumidor Reclamante.
+Os resultados do Nível 3 são positivos em sua totalidade, consolidados sobre uma base de **7 sessões, 3 funcionalidades e perfis de usuário que cobrem de 18 a 60 anos**. As avaliações dos protótipos de alta fidelidade da **Sala de Conciliação Virtual**, da **Notificação Ativa** e do **Assistente de Triagem Guiada** indicam que o design proposto pela equipe está alinhado com as necessidades dos usuários do PROCON-DF — tanto do perfil Fornecedor quanto do perfil Consumidor Reclamante.
 
-A amostra expandida da Notificação Ativa (5 participantes) foi decisiva para revelar o problema P02 — que não teria sido identificado com apenas 1 sessão —, demonstrando o valor de múltiplas sessões de teste para funcionalidades de decisão crítica. Os dois problemas cosméticos e o único problema de gravidade 2 possuem correções planejadas de baixa complexidade, sem necessidade de redesenho estrutural em nenhum dos três fluxos.
+A amostra expandida da Notificação Ativa (5 participantes) foi decisiva para revelar o problema P02 — que não teria sido identificado com apenas 1 sessão —, demonstrando o valor de múltiplas sessões de teste para funcionalidades de decisão crítica. Essa constatação impõe uma ressalva importante para as funcionalidades avaliadas com apenas uma sessão (Conciliação Virtual e Triagem Guiada): os resultados positivos observados em suas sessões únicas não devem ser interpretados como certificação definitiva de conformidade, mas como indícios encorajadores que precisam ser corroborados por ao menos uma sessão adicional antes que se possa afirmar a ausência de problemas com maior confiança. Os dois problemas cosméticos e o único problema de gravidade 2 identificados na Notificação Ativa possuem correções planejadas de baixa complexidade, sem necessidade de redesenho estrutural.
 
-As três funcionalidades estão prontas para avançar à etapa de implementação, com base nos dados coletados neste ciclo de avaliação.
+As três funcionalidades apresentam direção de design promissora e podem avançar à etapa de implementação, desde que as funcionalidades com apenas uma sessão sejam submetidas a avaliações complementares para fortalecer a base empírica das conclusões.
 
 ---
 
