@@ -13,7 +13,7 @@ Colaboração referente à [Etapa 5](../../planejamento/cronograma-executado.md)
 
 ## Introdução
 
-Esta página consolida os relatos de resultados das avaliações conduzidas no **Nível 2** do processo de Design, Avaliação e Desenvolvimento. Os relatos documentam os resultados obtidos nas avaliações dos protótipos de papel, incluindo problemas de usabilidade identificados, feedback dos participantes e planejamento de reprojeto.
+Esta página consolida os relatos de resultados das avaliações conduzidas no **Nível 2** do processo de Design, Avaliação e Desenvolvimento. Os relatos documentam os resultados obtidos nas avaliações dos protótipos de papel, incluindo problemas de usabilidade identificados, feedback dos participantes e planejamento de reprojeto. Trata-se de avaliação **formativa**<sup><a href="#figura1">[1]</a></sup>, pois conduzida sobre protótipo de papel — representação de baixa fidelidade da solução —, antes da implementação do design em alta fidelidade, com o propósito de identificar e corrigir problemas enquanto o custo de mudança ainda é baixo.
 
 ---
 
@@ -77,13 +77,13 @@ Ambos os protótipos incluem telas de confirmação antes de ações definitivas
 
 **Tabela — Problemas de usabilidade consolidados do Nível 2**
 
-| Funcionalidade | ID | Tela / Etapa | Descrição do Problema | Gravidade | Freq. | Status |
-| :--- | :---: | :--- | :--- | :---: | :---: | :---: |
-| Notificação Ativa | PB1 | Tela: Acordo Aceito — Assinatura | Participante demonstrou incerteza sobre a validade jurídica da assinatura biométrica como forma de formalização contratual | 1 | 1/1 | Correção planejada |
-| Sala de Conciliação Virtual | — | — | Nenhum problema identificado | — | — | — |
+| Funcionalidade | ID | Tela / Etapa | Descrição do Problema | Gravidade | Freq. | Persistência | Status |
+| :--- | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
+| Notificação Ativa | PB1 | Tela: Acordo Aceito — Assinatura | Participante demonstrou incerteza sobre a validade jurídica da assinatura biométrica como forma de formalização contratual | 1 | 1/1 | Pontual | Correção planejada |
+| Sala de Conciliação Virtual | — | — | Nenhum problema identificado | — | — | — | — |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Cosmético; (2) Pequeno; (3) Grande; (4) Catastrófico.</i></p>
+<p><i>Nota sobre a Gravidade: (1) Cosmético; (2) Pequeno; (3) Grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
 </div>
 
@@ -146,3 +146,17 @@ Os resultados do Nível 2 são amplamente positivos. As avaliações dos protót
 |---|---|---|---|---|
 | 1.0 | 11/06/2026 | Criação da página de consolidação dos relatos do Nível 2. | Pedro Augusto Moretti Moreira | Heitor Macedo |
 | 1.1 | 14/06/2026 | Adição da seção de Triangulação e Consolidação dos Resultados do Nível 2 e atualização da colaboração. | Heitor Macedo | Heitor Macedo |
+
+## Notas de Rodapé e Referências de Imagens
+
+<div id="figura1" align="center">
+  <p>Figura 1 - Definição de avaliação formativa</p>
+  <a href="../../images/avaliacaoformativa.png" target="_blank"><img src="../../images/avaliacaoformativa.png" alt="Definição de avaliação formativa — Barbosa et al. (2021, Cap. 11.3, p. 251)" width="700"></a>
+  <p><b>Fonte:</b> BARBOSA et al. (2021, Cap. 11.3, p. 251).</p>
+</div>
+
+<div id="figura2" align="center">
+  <p>Figura 2 - Tabela 12.11 — Caracterização dos métodos de avaliação de IHC</p>
+  <a href="../../images/tabela1211.png" target="_blank"><img src="../../images/tabela1211.png" alt="Tabela 12.11 — Métodos de avaliação de IHC — Barbosa et al. (2021, Cap. 12, p. 308)" width="700"></a>
+  <p><b>Fonte:</b> BARBOSA et al. (2021, Cap. 12, p. 308).</p>
+</div>

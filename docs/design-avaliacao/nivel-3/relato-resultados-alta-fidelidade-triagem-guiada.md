@@ -35,7 +35,7 @@ Especificamente, buscou-se responder às seguintes perguntas de pesquisa:
 
 ## 2. Método de avaliação empregado
 
-O método utilizado foi o **Teste de Usabilidade com Observação Direta e protocolo Think Aloud**, conforme definido no [Planejamento da Avaliação do Protótipo de Alta Fidelidade](./planejamento-avaliacao-prototipo-alta-fidelidade.md). O avaliador disponibilizou o protótipo interativo rodando em um dispositivo móvel e conduziu a sessão seguindo a estrutura narrativa planejada: apresentação e TCLE, briefing com cenário e instruções de Think Aloud, simulação com o protótipo (interação direta com o fluxo completo), perguntas avaliativas pós-tarefa por blocos temáticos e encerramento. O participante foi estimulado a pensar em voz alta enquanto navegava, verbalizando suas ações, expectativas e impressões.
+Os métodos empregados foram: **Teste de Usabilidade** (método de observação<sup><a href="#fig-cap122">[1]</a></sup>), conduzido com protocolo Think Aloud e observação direta durante a execução das tarefas, complementado por **Entrevista Semiestruturada** pós-sessão (método de investigação<sup><a href="#fig-cap116">[2]</a></sup>). A combinação segue a recomendação de Barbosa et al. (2021, Cap. 11.6) de integrar a investigação à observação para obter dados mais robustos; o Teste de Usabilidade pertence à família dos métodos de observação (Barbosa et al., 2021, Cap. 12.2), e a Entrevista Semiestruturada à família dos métodos de investigação (Cap. 11.6). Ambos foram aplicados conforme definido no [Planejamento da Avaliação do Protótipo de Alta Fidelidade](./planejamento-avaliacao-prototipo-alta-fidelidade.md). O avaliador disponibilizou o protótipo interativo rodando em um dispositivo móvel e conduziu a sessão seguindo a estrutura narrativa planejada: apresentação e TCLE, briefing com cenário e instruções de Think Aloud, simulação com o protótipo (interação direta com o fluxo completo), perguntas avaliativas pós-tarefa por blocos temáticos e encerramento. O participante foi estimulado a pensar em voz alta enquanto navegava, verbalizando suas ações, expectativas e impressões.
 
 A sessão foi integralmente gravada em vídeo para análise posterior.
 
@@ -108,7 +108,7 @@ O perfil do participante está alinhado com o perfil de usuário primário **Con
 | **Vínculo com o PROCON-DF** | Usuário de serviços digitais; potencial consumidor reclamante |
 | **Familiaridade com tecnologia** | Media |
 | **Ocupação** | Professor |
-| **O perfil atende ao planejado?** | (x) Sim — Participante dentro da faixa etária prevista, com familiaridade com tecnologia compatível com o perfil-alvo |
+| **O perfil atende ao planejado?** | (x) Parcialmente — o perfil individual do participante atende ao planejado; a quantidade efetiva (n = 1) é inferior à faixa planejada (3–5). A restrição foi motivada por indisponibilidade de horários e limitação da janela do cronograma acadêmico. Os dados obtidos têm caráter qualitativo (Barbosa & Silva, 2021, Cap. 12), conforme critério de amostragem estabelecido no [Planejamento do Relato dos Resultados](./planejamento-relato-resultados-paf.md). |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Pedro Macedo.</i></p>
@@ -156,12 +156,31 @@ O protótipo de alta fidelidade cobre as seguintes telas e interações, percorr
 
 **Tabela 2 - Sumário quantitativo da execução da tarefa no protótipo de alta fidelidade**
 
-| Participante | Tarefa Solicitada | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| P1 | Acompanhar reclamação e responder à proposta (fluxo completo) | Sim | 0 | Não | 1 |
+| Participante | Tarefa Solicitada | Tempo de Execução | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| P1 | Fazer uma reclamação (fluxo completo de triagem guiada) | [mm:ss] | Sim | 0 | Não | 1 |
 
 <div align="center">
 <p><i>Nota sobre o Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>
+<p><i>Fonte: Elaborado por Pedro Macedo.</i></p>
+</div>
+
+**Confronto com a meta de Eficiência**
+
+A meta definida em Metas de Usabilidade estabelece, para registrar uma reclamação completa via Assistente de Triagem Guiada:
+
+| Faixa | Critério |
+| :--- | :--- |
+| Ideal | < 5 min |
+| Aceitável | 5–10 min |
+| Inaceitável | > 10 min |
+
+| Participante | Tempo de Execução | Faixa |
+| :---: | :---: | :---: |
+| P1 | [mm:ss] | [ideal / aceitável / inaceitável] |
+
+<div align="center">
+<p><i>Nota — Com n = 1, não é possível calcular média ou desvio padrão; registra-se o tempo da única sessão como referência qualitativa.</i></p>
 <p><i>Fonte: Elaborado por Pedro Macedo.</i></p>
 </div>
 
@@ -178,12 +197,12 @@ Abaixo, o vídeo da sessão de avaliação com o participante P1:
 
 **Quadro 2 - Problemas identificados no Protótipo de Alta Fidelidade**
 
-| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Frequência | Sugestão de Correção para o Protótipo |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| P01 | Upload Guiado das evidencias | Não há a opção de não haver uma nota fiscal do produto | "E se eu não tiver a nota fiscal?" | 1 | 1/1 participante | Tirar a obrigação de colocar evidencia com foto |
+| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção para o Protótipo |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| P01 | Upload Guiado das evidencias | Não há a opção de não haver uma nota fiscal do produto | "E se eu não tiver a nota fiscal?" | 1 | 1/1 participante | Não verificável (n=1) | Tirar a obrigação de colocar evidencia com foto |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Pedro Macedo.</i></p>
 </div>
 
@@ -276,3 +295,21 @@ Agradecimento ao **Claude** pela ajuda na elaboração e estruturação deste re
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 14/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade | Pedro Macedo | Heitor Macedo |
+
+## Notas de Rodapé e Referências de Imagens
+
+<div id="fig-cap122"></div>
+
+**Figura 1** - Cap. 12.2 — O Teste de Usabilidade como método de observação (Barbosa et al., 2021).
+
+![Cap. 12.2 — Teste de Usabilidade como método de observação](../images/cap122.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, Cap. 12.2).
+
+<div id="fig-cap116"></div>
+
+**Figura 2** - Cap. 11.6 — Classificação dos métodos de avaliação em investigação, observação e inspeção (Barbosa et al., 2021).
+
+![Cap. 11.6 — Classificação dos métodos de avaliação](../images/cap116.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, Cap. 11.6).

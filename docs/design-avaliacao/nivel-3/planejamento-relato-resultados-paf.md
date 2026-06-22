@@ -90,7 +90,7 @@ Nesta seção, deve-se registrar formalmente a execução do teste piloto realiz
 
 ### 4. Seleção e Perfil dos Participantes
 
-O relato deve apresentar o número final de participantes recrutados (de 3 a 5 participantes por funcionalidade) e justificar o alinhamento do perfil selecionado com o [perfil de usuário](../../analise-requisitos/perfil-usuario.md) e as [personas](../../analise-requisitos/personas.md) do portal do PROCON-DF (ex.: Consumidor Reclamante, Fornecedor/Comerciante, Usuário Iniciante). Devem ser apresentadas as tabelas de expectativa e de realidade descritas abaixo.
+O relato deve apresentar o número final de participantes recrutados (de 3 a 5 participantes por funcionalidade) e justificar o alinhamento do perfil selecionado com o [perfil de usuário](../../analise-requisitos/perfil-usuario.md) e as [personas](../../analise-requisitos/personas.md) do portal do PROCON-DF (ex.: Consumidor Reclamante, Fornecedor/Comerciante, Usuário Iniciante). Reconhece-se que funcionalidades avaliadas com número reduzido de participantes (n = 1) fornecem resultados de caráter qualitativo — identificação de problemas de interação e comunicabilidade —, enquanto funcionalidades com amostra completa (n ≥ 3) permitem também resultados quantitativos (tempo médio, desvio padrão, taxa de conclusão), conforme a distinção entre os dois tipos de resultado de teste de usabilidade em Barbosa et al. (2021, Cap. 12). As divergências entre amostra planejada e efetiva são registradas e justificadas no relato de cada funcionalidade. Devem ser apresentadas as tabelas de expectativa e de realidade descritas abaixo.
 
 #### Expectativa — Perfil Planejado
 
@@ -154,12 +154,12 @@ Os dados de desempenho e satisfação coletados durante as sessões de teste de 
 
 **Tabela 4** — Sumário quantitativo da execução das tarefas no protótipo de alta fidelidade.
 
-| Participante | Tarefa Solicitada | Concluída? | Qtd. de Erros | Pediu Ajuda? | Nível de Dificuldade (1–5) |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| P1 | [Tarefa 1] | [Sim / Não] | [Valor] | [Sim / Não] | [Valor] |
-| P1 | [Tarefa 2] | [Sim / Não] | [Valor] | [Sim / Não] | [Valor] |
-| P2 | [Tarefa 1] | [Sim / Não] | [Valor] | [Sim / Não] | [Valor] |
-| P2 | [Tarefa 2] | [Sim / Não] | [Valor] | [Sim / Não] | [Valor] |
+| Participante | Tarefa Solicitada | Tempo de Execução | Concluída? | Qtd. de Erros | Pediu Ajuda? | Nível de Dificuldade (1–5) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| P1 | [Tarefa 1] | [mm:ss] | [Sim / Não] | [Valor] | [Sim / Não] | [Valor] |
+| P1 | [Tarefa 2] | [mm:ss] | [Sim / Não] | [Valor] | [Sim / Não] | [Valor] |
+| P2 | [Tarefa 1] | [mm:ss] | [Sim / Não] | [Valor] | [Sim / Não] | [Valor] |
+| P2 | [Tarefa 2] | [mm:ss] | [Sim / Não] | [Valor] | [Sim / Não] | [Valor] |
 
 <div align="center">
 <p><i>Nota — Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>
@@ -185,7 +185,7 @@ Esta seção registra os problemas de usabilidade identificados durante as sess�
 | **1** | Cosmético | Não compromete a execução da tarefa; trata-se de melhoria estética ou de nomenclatura sem impacto na usabilidade |
 | **2** | Pequeno | Causa hesitação ou confusão pontual, mas o participante consegue completar a tarefa com pequeno esforço adicional |
 | **3** | Grande | Compromete significativamente a execução de uma etapa da tarefa; o participante tem dificuldade considerável para prosseguir |
-| **4** | Catastrófico | Impede a conclusão da tarefa; o participante não consegue avançar sem auxílio externo |
+| **4** | Catastrófico | Impede o usuário de realizar a tarefa e alcançar seus objetivos; correção extremamente prioritária antes do lançamento |
 
 <div align="center">
 <p><i>Fonte: Adaptado de Barbosa et al. (2021).</i></p>
@@ -193,9 +193,9 @@ Esta seção registra os problemas de usabilidade identificados durante as sess�
 
 **Quadro 2** — Problemas de usabilidade identificados no protótipo de alta fidelidade.
 
-| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento) | Severidade (1–4) | Frequência | Sugestão de Correção |
-| :---: | :---: | :--- | :--- | :---: | :---: | :--- |
-| P01 | [Tela / Etapa] | [Descrição do problema encontrado] | [O que o participante disse ou fez] | [1 a 4] | [Nº de participantes afetados] | [Como corrigir no redesign] |
+| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento) | Severidade (1–4) | Frequência | Persistência | Sugestão de Correção |
+| :---: | :---: | :--- | :--- | :---: | :---: | :---: | :--- |
+| P01 | [Tela / Etapa] | [Descrição do problema encontrado] | [O que o participante disse ou fez] | [1 a 4] | [Nº de participantes afetados] | [Pontual / Recorrente / Estrutural] | [Como corrigir no redesign] |
 
 <div align="center">
 <p><i>Fonte: Elaborado pelos autores.</i></p>

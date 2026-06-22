@@ -13,7 +13,7 @@ Colaboração referente à [Etapa 7](../../planejamento/cronograma-executado.md)
 
 ## Introdução
 
-Esta página consolida os relatos de resultados das avaliações conduzidas no **Nível 3** do processo de Design, Avaliação e Desenvolvimento. Os relatos documentam os resultados obtidos nas avaliações dos protótipos de alta fidelidade, incluindo problemas de usabilidade identificados, feedback dos participantes e planejamento de reprojeto.
+Esta página consolida os relatos de resultados das avaliações conduzidas no **Nível 3** do processo de Design, Avaliação e Desenvolvimento. Os relatos documentam os resultados obtidos nas avaliações dos protótipos de alta fidelidade, incluindo problemas de usabilidade identificados, feedback dos participantes e planejamento de reprojeto. Trata-se de avaliação **somativa**<sup><a href="#figura1">[1]</a></sup>, conduzida sobre protótipo de alta fidelidade — representação próxima à solução final —, por meio de teste de usabilidade com observação direta e protocolo Think Aloud, com o propósito de verificar a conformidade do design com padrões de usabilidade e validar os fluxos de interação antes da entrega final.
 
 ---
 
@@ -85,15 +85,15 @@ Em duas das três funcionalidades, os participantes demonstraram atenção e val
 
 **Tabela — Problemas de usabilidade consolidados do Nível 3**
 
-| Funcionalidade | ID | Tela / Etapa | Descrição do Problema | Gravidade | Frequência | Status |
-| :--- | :---: | :--- | :--- | :---: | :---: | :---: |
-| Notificação Ativa | P01 | Visualização da Proposta | Prazo de crédito (10 dias úteis) sem destaque visual proporcional à sua relevância na decisão do usuário | 1 — Cosmético | 1/5 participantes | Correção planejada |
-| Notificação Ativa | P02 | Tela de Resposta (Aceitar ou Recusar) | A tela não comunica as consequências da recusa da proposta, gerando hesitação sobre o que acontecerá com a reclamação caso a proposta seja rejeitada | 2 — Pequeno | 1/5 participantes | Correção planejada |
-| Sala de Conciliação Virtual | — | — | Nenhum problema identificado | — | — | — |
-| Assistente de Triagem Guiada | P01 | Upload Guiado de Evidências (Tela 6) | Não há opção para o caso de o usuário não possuir nota fiscal ou comprovante de compra, tornando o campo de evidência implicitamente obrigatório | 1 — Cosmético | 1/1 participante | Correção planejada |
+| Funcionalidade | ID | Tela / Etapa | Descrição do Problema | Gravidade | Frequência | Persistência | Status |
+| :--- | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
+| Notificação Ativa | P01 | Visualização da Proposta | Prazo de crédito (10 dias úteis) sem destaque visual proporcional à sua relevância na decisão do usuário | 1 — Cosmético | 1/5 participantes | Pontual | Correção planejada |
+| Notificação Ativa | P02 | Tela de Resposta (Aceitar ou Recusar) | A tela não comunica as consequências da recusa da proposta, gerando hesitação sobre o que acontecerá com a reclamação caso a proposta seja rejeitada | 2 — Pequeno | 1/5 participantes | Pontual | Correção planejada |
+| Sala de Conciliação Virtual | — | — | Nenhum problema identificado | — | — | — | — |
+| Assistente de Triagem Guiada | P01 | Upload Guiado de Evidências (Tela 6) | Não há opção para o caso de o usuário não possuir nota fiscal ou comprovante de compra, tornando o campo de evidência implicitamente obrigatório | 1 — Cosmético | 1/1 participante | Não verificável (n=1) | Correção planejada |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Cosmético; (2) Pequeno; (3) Grande; (4) Catastrófico.</i></p>
+<p><i>Nota sobre a Gravidade: (1) Cosmético; (2) Pequeno; (3) Grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira e Heitor Macedo.</i></p>
 </div>
 
@@ -146,7 +146,7 @@ Nota-se que S04 (Triagem Guiada) tem a maior prioridade da tabela: a obrigatorie
 
 Os resultados do Nível 3 são positivos em sua totalidade, consolidados sobre uma base de **7 sessões, 3 funcionalidades e perfis de usuário que cobrem de 18 a 60 anos**. As avaliações dos protótipos de alta fidelidade da **Sala de Conciliação Virtual**, da **Notificação Ativa** e do **Assistente de Triagem Guiada** indicam que o design proposto pela equipe está alinhado com as necessidades dos usuários do PROCON-DF — tanto do perfil Fornecedor quanto do perfil Consumidor Reclamante.
 
-A amostra expandida da Notificação Ativa (5 participantes) foi decisiva para revelar o problema P02 — que não teria sido identificado com apenas 1 sessão —, demonstrando o valor de múltiplas sessões de teste para funcionalidades de decisão crítica. Essa constatação impõe uma ressalva importante para as funcionalidades avaliadas com apenas uma sessão (Conciliação Virtual e Triagem Guiada): os resultados positivos observados em suas sessões únicas não devem ser interpretados como certificação definitiva de conformidade, mas como indícios encorajadores que precisam ser corroborados por ao menos uma sessão adicional antes que se possa afirmar a ausência de problemas com maior confiança. Os dois problemas cosméticos e o único problema de gravidade 2 identificados na Notificação Ativa possuem correções planejadas de baixa complexidade, sem necessidade de redesenho estrutural.
+A amostra expandida da Notificação Ativa (5 participantes) produziu resultados tanto quantitativos — tempo médio de execução, desvio padrão e taxa de conclusão — quanto qualitativos, e foi decisiva para revelar o problema P02, que não teria sido identificado com apenas uma sessão. A Sala de Conciliação Virtual e o Assistente de Triagem Guiada, avaliados com n = 1, forneceram exclusivamente resultados qualitativos — identificação de problemas de interação e feedback do usuário —, conforme a distinção entre os dois tipos de resultado de teste de usabilidade descrita em Barbosa et al. (2021, Cap. 12). Os resultados positivos observados nessas sessões únicas não devem ser interpretados como certificação definitiva de conformidade, mas como indícios encorajadores que precisam ser corroborados por ao menos uma sessão adicional antes que se possa afirmar a ausência de problemas com maior confiança. Os dois problemas cosméticos e o único problema de gravidade 2 identificados na Notificação Ativa possuem correções planejadas de baixa complexidade, sem necessidade de redesenho estrutural.
 
 As três funcionalidades apresentam direção de design promissora e podem avançar à etapa de implementação, desde que as funcionalidades com apenas uma sessão sejam submetidas a avaliações complementares para fortalecer a base empírica das conclusões.
 
@@ -167,3 +167,17 @@ As três funcionalidades apresentam direção de design promissora e podem avan�
 | 1.2 | 14/06/2026 | Adição da seção de Triangulação e Consolidação dos Resultados do Nível 3. | Heitor Macedo | Heitor Macedo |
 | 1.3 | 16/06/2026 | Adição do relato do Assistente de Triagem Guiada 3. | Pedro Macedo | Heitor Macedo |
 | 1.4 | 16/06/2026 | Atualização completa da seção de Triangulação e Consolidação dos Resultados: expansão para 7 sessões (5 Notificação Ativa, 1 Conciliação Virtual, 1 Triagem Guiada), atualização da tabela síntese, convergências, tabela de problemas consolidados (incluindo NA P02, gravidade 2), sugestões S02–S04 e respostas às perguntas de pesquisa. | Heitor Macedo | Heitor Macedo |
+
+## Notas de Rodapé e Referências de Imagens
+
+<div id="figura1" align="center">
+  <p>Figura 1 - Definição de avaliação somativa</p>
+  <a href="../../images/avaliacaosomativa.png" target="_blank"><img src="../../images/avaliacaosomativa.png" alt="Definição de avaliação somativa — Barbosa et al. (2021, Cap. 11.3, p. 251)" width="700"></a>
+  <p><b>Fonte:</b> BARBOSA et al. (2021, Cap. 11.3, p. 251).</p>
+</div>
+
+<div id="figura2" align="center">
+  <p>Figura 2 - Tabela 12.11 — Caracterização dos métodos de avaliação de IHC</p>
+  <a href="../../images/tabela1211.png" target="_blank"><img src="../../images/tabela1211.png" alt="Tabela 12.11 — Métodos de avaliação de IHC — Barbosa et al. (2021, Cap. 12, p. 308)" width="700"></a>
+  <p><b>Fonte:</b> BARBOSA et al. (2021, Cap. 12, p. 308).</p>
+</div>

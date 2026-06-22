@@ -76,7 +76,7 @@ Com base em Barbosa et al. (2021, p. 250), as seguintes perguntas nortearão a a
 
 Como o projeto ainda não possui um sistema implementado, a avaliação será conduzida utilizando os modelos de tarefas (CTT, HTA e GOMS) previamente elaborados e apresentados aos participantes através de diagramas, descrições e representações hierárquicas.
 
-**Método Selecionado:** Investigação através de **Entrevistas Semiestruturadas com análise dos modelos de tarefas e protocolo Think Aloud (Pensar em Voz Alta)**.
+**Método empregado:** **Entrevista Semiestruturada** sobre os modelos de tarefas (método de investigação<sup><a href="#fig-cap116">[8]</a></sup>, Barbosa et al., 2021, Cap. 11.6), apoiada pela técnica Think Aloud durante a análise dos diagramas. Por não haver, nesta etapa, um sistema operável, não se aplica o Teste de Usabilidade (método de observação, Barbosa et al., 2021, Cap. 12.2); a avaliação recai sobre representações dos modelos de tarefas (CTT, HTA, GOMS), o que caracteriza investigação com apoio de artefatos.
 
 **Justificativa:** A entrevista semiestruturada permite apresentar os diagramas de tarefas aos participantes e investigar suas opiniões sobre a decomposição, o sequenciamento e a estrutura proposta. A técnica Think Aloud incentiva os participantes a verbalizarem seus pensamentos, dúvidas e sugestões enquanto analisam os modelos, fornecendo dados ricos tanto para a identificação de problemas nos modelos de tarefas quanto para a compreensão da apropriação da tecnologia — se a estrutura modelada corresponde ao que o usuário considera adequado para suas necessidades. Essa combinação permite que a equipe identifique problemas de decomposição, inconsistências de sequenciamento e lacunas na modelagem, além de avaliar se a estrutura proposta atende ao contexto de uso dos participantes.
 
@@ -213,3 +213,11 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 ![Avaliar dados](../images/decide-e2.png)
 <div></div>
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
+
+<div id="fig-cap116"></div>
+
+**Figura 7** - Cap. 11.6 — Classificação dos métodos de avaliação em investigação, observação e inspeção (Barbosa et al., 2021).
+
+![Cap. 11.6 — Classificação dos métodos de avaliação](../images/cap116.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, Cap. 11.6).

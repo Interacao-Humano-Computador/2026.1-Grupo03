@@ -35,7 +35,7 @@ Especificamente, buscou-se responder às seguintes perguntas de pesquisa:
 
 ## 2. Método de avaliação empregado
 
-O método utilizado foi o **Teste de Usabilidade com Observação Direta e protocolo Think Aloud**, conforme definido no [Planejamento da Avaliação do Protótipo de Alta Fidelidade](./planejamento-avaliacao-prototipo-alta-fidelidade.md). O avaliador disponibilizou o protótipo interativo rodando em um dispositivo móvel e conduziu a sessão seguindo a estrutura narrativa planejada: apresentação e TCLE, aquecimento, simulação com o protótipo (parte principal com três tarefas), perguntas focadas pós-tarefa, desaquecimento e encerramento. O participante foi estimulado a pensar em voz alta enquanto navegava, verbalizando suas ações, expectativas e impressões.
+Os métodos empregados foram: **Teste de Usabilidade** (método de observação<sup><a href="#fig-cap122">[1]</a></sup>), conduzido com protocolo Think Aloud e observação direta durante a execução das tarefas, complementado por **Entrevista Semiestruturada** pós-sessão (método de investigação<sup><a href="#fig-cap116">[2]</a></sup>). A combinação segue a recomendação de Barbosa et al. (2021, Cap. 11.6) de integrar a investigação à observação para obter dados mais robustos; o Teste de Usabilidade pertence à família dos métodos de observação (Barbosa et al., 2021, Cap. 12.2), e a Entrevista Semiestruturada à família dos métodos de investigação (Cap. 11.6). Ambos foram aplicados conforme definido no [Planejamento da Avaliação do Protótipo de Alta Fidelidade](./planejamento-avaliacao-prototipo-alta-fidelidade.md). O avaliador disponibilizou o protótipo interativo rodando em um dispositivo móvel e conduziu a sessão seguindo a estrutura narrativa planejada: apresentação e TCLE, aquecimento, simulação com o protótipo (parte principal com três tarefas), perguntas focadas pós-tarefa, desaquecimento e encerramento. O participante foi estimulado a pensar em voz alta enquanto navegava, verbalizando suas ações, expectativas e impressões.
 
 A sessão foi integralmente gravada em vídeo para análise posterior.
 
@@ -79,6 +79,40 @@ Foram identificados **seis (6) potenciais participantes** alinhados ao perfil de
 ### Participante P1
 
 O perfil da participante está alinhado com o perfil de usuário primário **Fornecedor (Representante da Empresa)** — empresária que precisa resolver conflitos com consumidores sem comprometer o funcionamento do seu negócio, buscando soluções que otimizem seu tempo e evitem deslocamentos ou perda de arrecadação. A participante possui experiência prévia com serviços digitais e videochamadas, e já havia participado da sessão de avaliação do protótipo de papel na etapa anterior, o que lhe confere familiaridade com o contexto e com o fluxo avaliado.
+
+#### Expectativa — Perfil Planejado
+
+**Tabela 2 — Perfil de participante planejado para a avaliação**
+
+| Critério de Seleção | Descrição Planejada |
+| :--- | :--- |
+| **Faixa etária** | Adultos entre 25 e 60 anos, representando fornecedores ou comerciantes com atuação no mercado |
+| **Vínculo com o PROCON-DF** | Fornecedor/Comerciante — representante de empresa acionada por reclamação de consumidor |
+| **Familiaridade com tecnologia** | Média a alta — usuário habitual de serviços digitais e ferramentas de comunicação remota |
+| **Quantidade planejada** | De 3 a 5 participantes |
+| **Funcionalidade coberta** | Sala de Conciliação Virtual — fluxo completo de acesso, audiência e assinatura do termo de acordo |
+| **Justificativa** | Alinhado ao perfil de usuário "Gustavo" (persona Fornecedor/Comerciante) definido nas etapas anteriores do projeto |
+
+<div align="center">
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
+</div>
+
+#### Realidade — Participante Efetivo
+
+**Tabela 3 — Dados do participante entrevistado**
+
+| Campo | Dado Coletado |
+| :--- | :--- |
+| **Nome / Identificação** | P1 (anônimo) |
+| **Faixa etária** | 40 anos |
+| **Vínculo com o PROCON-DF** | Fornecedor — empresária com experiência em processos de conciliação |
+| **Familiaridade com tecnologia** | Alta — usuária habitual de serviços digitais e videochamadas |
+| **Ocupação** | Empresária |
+| **O perfil atende ao planejado?** | (x) Parcialmente — o perfil individual da participante atende ao planejado; a quantidade efetiva (n = 1) é inferior à faixa planejada (3–5). A restrição foi motivada por indisponibilidade de horários e limitação da janela do cronograma acadêmico. Os dados obtidos têm caráter qualitativo (Barbosa & Silva, 2021, Cap. 12), conforme critério de amostragem estabelecido no [Planejamento do Relato dos Resultados](./planejamento-relato-resultados-paf.md). |
+
+<div align="center">
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
+</div>
 
 **Quadro 1 - Perfil dos participantes e avaliadores**
 
@@ -132,14 +166,35 @@ O protótipo de alta fidelidade cobre as seguintes telas e interações, percorr
 
 **Tabela 2 - Sumário quantitativo da execução das tarefas no protótipo de alta fidelidade**
 
-| Participante | Tarefa Solicitada | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| P1 | Preparação e acesso à sala de espera | Sim | 0 | Não | 1 |
-| P1 | Interação na sessão de vídeo | Sim | 0 | Não | 1 |
-| P1 | Revisão e assinatura digital do termo | Sim | 0 | Não | 1 |
+| Participante | Tarefa Solicitada | Tempo de Execução | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| P1 | Preparação e acesso à sala de espera | [mm:ss] | Sim | 0 | Não | 1 |
+| P1 | Interação na sessão de vídeo | [mm:ss] | Sim | 0 | Não | 1 |
+| P1 | Revisão e assinatura digital do termo | [mm:ss] | Sim | 0 | Não | 1 |
 
 <div align="center">
 <p><i>Nota sobre o Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
+</div>
+
+**Confronto com a meta de Eficiência**
+
+A meta definida em Metas de Usabilidade estabelece, para o fluxo completo da Sala de Conciliação Virtual:
+
+| Faixa | Critério |
+| :--- | :--- |
+| Ideal | < 5 min |
+| Aceitável | 5–10 min |
+| Inaceitável | > 10 min |
+
+| Tarefa | Tempo de Execução (P1) | Faixa |
+| :--- | :---: | :---: |
+| Preparação e acesso à sala de espera | [mm:ss] | [ideal / aceitável / inaceitável] |
+| Interação na sessão de vídeo | [mm:ss] | [ideal / aceitável / inaceitável] |
+| Revisão e assinatura digital do termo | [mm:ss] | [ideal / aceitável / inaceitável] |
+
+<div align="center">
+<p><i>Nota — Com n = 1, não é possível calcular média ou desvio padrão; registra-se o tempo da única sessão como referência qualitativa.</i></p>
 <p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
@@ -220,12 +275,12 @@ Não foram identificados problemas de usabilidade, ambiguidades de interface ou 
 
 **Quadro 2 - Problemas identificados no Protótipo de Alta Fidelidade**
 
-| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Sugestão de Correção para o Protótipo |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| — | — | Nenhum problema identificado | — | — | — |
+| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção para o Protótipo |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | Nenhum problema identificado | — | — | — | — | — |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
@@ -275,3 +330,21 @@ Agradecimento ao **Claude** pela ajuda na correção e detalhamento das resposta
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 12/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade — Sala de Conciliação Virtual com dados da entrevista com P1. | Pedro Augusto Moretti Moreira | — |
 | 1.1 | 12/06/2026 | Substituição de referências a personas por perfil de usuário primário Fornecedor (Representante da Empresa). | Pedro Augusto Moretti Moreira | Heitor Macedo |
+
+## Notas de Rodapé e Referências de Imagens
+
+<div id="fig-cap122"></div>
+
+**Figura 1** - Cap. 12.2 — O Teste de Usabilidade como método de observação (Barbosa et al., 2021).
+
+![Cap. 12.2 — Teste de Usabilidade como método de observação](../images/cap122.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, Cap. 12.2).
+
+<div id="fig-cap116"></div>
+
+**Figura 2** - Cap. 11.6 — Classificação dos métodos de avaliação em investigação, observação e inspeção (Barbosa et al., 2021).
+
+![Cap. 11.6 — Classificação dos métodos de avaliação](../images/cap116.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, Cap. 11.6).

@@ -35,7 +35,7 @@ Especificamente, buscou-se responder às seguintes perguntas de pesquisa:
 
 ## 2. Método de avaliação empregado
 
-O método utilizado foi o **Teste de Usabilidade com Observação Direta e protocolo Think Aloud**, conforme definido no [Planejamento da Avaliação do Protótipo de Alta Fidelidade](./planejamento-avaliacao-prototipo-alta-fidelidade.md). O avaliador disponibilizou o protótipo interativo rodando em um dispositivo móvel e conduziu a sessão seguindo a estrutura narrativa planejada: apresentação e TCLE, briefing com cenário e instruções de Think Aloud, simulação com o protótipo (interação direta com o fluxo completo), perguntas avaliativas pós-tarefa por blocos temáticos e encerramento. O participante foi estimulado a pensar em voz alta enquanto navegava, verbalizando suas ações, expectativas e impressões.
+Os métodos empregados foram: **Teste de Usabilidade** (método de observação<sup><a href="#fig-cap122">[1]</a></sup>), conduzido com protocolo Think Aloud e observação direta durante a execução das tarefas, complementado por **Entrevista Semiestruturada** pós-sessão (método de investigação<sup><a href="#fig-cap116">[2]</a></sup>). A combinação segue a recomendação de Barbosa et al. (2021, Cap. 11.6) de integrar a investigação à observação para obter dados mais robustos; o Teste de Usabilidade pertence à família dos métodos de observação (Barbosa et al., 2021, Cap. 12.2), e a Entrevista Semiestruturada à família dos métodos de investigação (Cap. 11.6). Ambos foram aplicados conforme definido no [Planejamento da Avaliação do Protótipo de Alta Fidelidade](./planejamento-avaliacao-prototipo-alta-fidelidade.md). O avaliador disponibilizou o protótipo interativo rodando em um dispositivo móvel e conduziu a sessão seguindo a estrutura narrativa planejada: apresentação e TCLE, briefing com cenário e instruções de Think Aloud, simulação com o protótipo (interação direta com o fluxo completo), perguntas avaliativas pós-tarefa por blocos temáticos e encerramento. O participante foi estimulado a pensar em voz alta enquanto navegava, verbalizando suas ações, expectativas e impressões.
 
 A sessão foi integralmente gravada em vídeo para análise posterior.
 
@@ -248,16 +248,40 @@ O protótipo de alta fidelidade cobre as seguintes telas e interações, percorr
 
 **Tabela 2 - Sumário quantitativo da execução da tarefa no protótipo de alta fidelidade**
 
-| Participante | Tarefa Solicitada | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| P1 | Acompanhar reclamação e responder à proposta (fluxo completo) | Sim | 0 | Não | 1 |
-| P2 | Acompanhar reclamação e responder à proposta (fluxo completo) | Sim | 0 | Não | 1 |
-| P3 | Acompanhar reclamação e responder à proposta (fluxo completo) | Sim | 0 | Não | 1 |
-| P4 | Acompanhar reclamação e responder à proposta (fluxo completo) | Sim | 0 | Não | 1 |
-| P5 | Acompanhar reclamação e responder à proposta (fluxo completo) | Sim | 0 | Sim | 1 |
+| Participante | Tarefa Solicitada | Tempo de Execução | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| P1 | Acompanhar reclamação e responder à proposta (fluxo completo) | [mm:ss] | Sim | 0 | Não | 1 |
+| P2 | Acompanhar reclamação e responder à proposta (fluxo completo) | [mm:ss] | Sim | 0 | Não | 1 |
+| P3 | Acompanhar reclamação e responder à proposta (fluxo completo) | [mm:ss] | Sim | 0 | Não | 1 |
+| P4 | Acompanhar reclamação e responder à proposta (fluxo completo) | [mm:ss] | Sim | 0 | Não | 1 |
+| P5 | Acompanhar reclamação e responder à proposta (fluxo completo) | [mm:ss] | Sim | 0 | Sim | 1 |
 
 <div align="center">
 <p><i>Nota sobre o Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>
+<p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
+</div>
+
+**Confronto com a meta de Eficiência**
+
+A meta definida em Metas de Usabilidade estabelece, para responder à proposta via fluxo completo de Notificação Ativa:
+
+| Faixa | Critério |
+| :--- | :--- |
+| Ideal | < 5 min |
+| Aceitável | 5–10 min |
+| Inaceitável | > 10 min |
+
+| Participante | Tempo de Execução | Faixa |
+| :---: | :---: | :---: |
+| P1 | [mm:ss] | [ideal / aceitável / inaceitável] |
+| P2 | [mm:ss] | [ideal / aceitável / inaceitável] |
+| P3 | [mm:ss] | [ideal / aceitável / inaceitável] |
+| P4 | [mm:ss] | [ideal / aceitável / inaceitável] |
+| P5 | [mm:ss] | [ideal / aceitável / inaceitável] |
+| **Média (n=5)** | **[mm:ss]** | **[ideal / aceitável / inaceitável]** |
+| **Desvio Padrão** | **[mm:ss]** | — |
+
+<div align="center">
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
 </div>
 
@@ -397,13 +421,13 @@ Abaixo, o vídeo da sessão de avaliação com o participante P5:
 
 **Quadro 2 - Problemas identificados no Protótipo de Alta Fidelidade**
 
-| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Frequência | Sugestão de Correção para o Protótipo |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| P01 | Tela de Visualização da Proposta | O prazo de crédito (10 dias úteis) não possui destaque visual proporcional à sua relevância na decisão do usuário | "O prazo de crédito de 10 dias úteis eu não tinha percebido de imediato" (P1) | 1 | 1/5 participantes | Aumentar o peso tipográfico ou adicionar um ícone de destaque (ex: ícone de calendário) ao lado do prazo de crédito para elevar sua visibilidade dentro da hierarquia informacional da tela |
-| P02 | Tela de Resposta (Aceitar ou Recusar) | A tela não comunica as consequências da recusa da proposta, gerando hesitação no usuário sobre o que acontecerá com sua reclamação caso a proposta seja rejeitada | "Se eu recusar essa proposta, que que eu ainda vou ter? Posso interagir com você?" (P5) | 2 | 1/5 participantes | Adicionar uma nota informativa na tela de resposta descrevendo o próximo passo em caso de recusa (ex.: "Se recusar, sua reclamação continuará aberta para nova proposta ou audiência de conciliação") |
+| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção para o Protótipo |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| P01 | Tela de Visualização da Proposta | O prazo de crédito (10 dias úteis) não possui destaque visual proporcional à sua relevância na decisão do usuário | "O prazo de crédito de 10 dias úteis eu não tinha percebido de imediato" (P1) | 1 | 1/5 participantes | Pontual — superado na primeira exposição; não reportado pelos demais participantes | Aumentar o peso tipográfico ou adicionar um ícone de destaque (ex: ícone de calendário) ao lado do prazo de crédito para elevar sua visibilidade dentro da hierarquia informacional da tela |
+| P02 | Tela de Resposta (Aceitar ou Recusar) | A tela não comunica as consequências da recusa da proposta, gerando hesitação no usuário sobre o que acontecerá com sua reclamação caso a proposta seja rejeitada | "Se eu recusar essa proposta, que que eu ainda vou ter? Posso interagir com você?" (P5) | 2 | 1/5 participantes | Pontual — dúvida verbalizada uma vez em P5; resolvida com orientação do avaliador | Adicionar uma nota informativa na tela de resposta descrevendo o próximo passo em caso de recusa (ex.: "Se recusar, sua reclamação continuará aberta para nova proposta ou audiência de conciliação") |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
 </div>
 
@@ -612,3 +636,21 @@ Agradecimento ao **Claude** pela ajuda na elaboração e estruturação deste re
 | 1.3 | 16/06/2026 | Incorporação dos dados da sessão com P3 (34 anos, Engenheiro Elétrico, presencial 17:40–17:50): perfil (Tabela 3c), respostas pós-tarefa (Tabela 4b), feedback (Tabela 6 expandida), atualização da frequência de P01 (1/3) e adição da sugestão S03. | Heitor Macedo | Heitor Macedo |
 | 1.4 | 16/06/2026 | Incorporação dos dados da sessão com P4 (18 anos, Universitária, presencial 19:40–19:50 de 14/06/2026): perfil (Tabela 3d), respostas pós-tarefa (Tabela 4c), feedback (Tabela 6 expandida), atualização da frequência de P01 (1/4). Nenhuma nova sugestão ou problema registrado. | Heitor Macedo | Heitor Macedo |
 | 1.5 | 16/06/2026 | Incorporação dos dados da sessão com P5 (45 anos, Orientadora Educacional, presencial 16:40–16:50 de 16/06/2026): perfil (Tabela 3e), respostas pós-tarefa (Tabela 4d), feedback (Tabela 6 expandida), atualização da frequência de P01 (1/5) e identificação do novo problema P02 (ausência de informação sobre consequências da recusa da proposta, gravidade 2). Tabela de Reprojeto expandida com P02. | Heitor Macedo | Heitor Macedo |
+
+## Notas de Rodapé e Referências de Imagens
+
+<div id="fig-cap122"></div>
+
+**Figura 1** - Cap. 12.2 — O Teste de Usabilidade como método de observação (Barbosa et al., 2021).
+
+![Cap. 12.2 — Teste de Usabilidade como método de observação](../images/cap122.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, Cap. 12.2).
+
+<div id="fig-cap116"></div>
+
+**Figura 2** - Cap. 11.6 — Classificação dos métodos de avaliação em investigação, observação e inspeção (Barbosa et al., 2021).
+
+![Cap. 11.6 — Classificação dos métodos de avaliação](../images/cap116.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, Cap. 11.6).

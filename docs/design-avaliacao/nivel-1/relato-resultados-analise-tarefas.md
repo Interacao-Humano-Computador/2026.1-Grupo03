@@ -297,14 +297,14 @@ Como sugestão final, P2 declarou não ter mudanças a propor, considerando a pr
 
 **Quadro 2 - Problemas identificados nos modelos de tarefas e na navegação do sistema (Avaliação 1)**
 
-| ID | Local / Passo na Tarefa | Descrição do Problema | Evidência (Fala ou comportamento) | Gravidade (1 a 4) | Sugestão de Correção |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| PB1 | Diagrama CTT — símbolos de notação | Os símbolos do CTT (sequência, concorrência, escolha) não ficaram claros para a participante, gerando confusão na leitura do fluxo | *"Eu não entendi muito não. Foi meio fora de ordem, né?"* | 2 | Incluir legenda explicativa dos símbolos no próprio artefato; avaliar o uso de notação simplificada na apresentação ao usuário |
-| PB2 | Etapa de envio de documentos (HTA/CTT) | A sub-tarefa de "enviar documentação" carece de orientação sobre quais documentos são necessários, formato aceito e como realizar o envio corretamente | *"Quais documentações, qual o formato da documentação, como que envia certinho para não deixar dúvidas"* | 2 | Detalhar a sub-tarefa de envio no diagrama; na interface, adicionar orientações sobre tipos de arquivo aceitos e tamanho máximo |
-| PB3 | Navegação no site real — "Registrar Reclamação" | O caminho para registrar uma reclamação no site atual não é intuitivo; a participante passou por 2 caminhos incorretos antes de encontrar a opção correta (Serviços > Carta de Serviços > Serviços para o consumidor > Registrar reclamação) | Usuária navegou por múltiplos cliques antes de encontrar; verbalizou: *"Não é isso que eu quero"* em dois momentos | 3 | Adicionar acesso direto a "Registrar Reclamação" no menu principal do site; incluir atalho visível na página inicial |
+| ID | Local / Passo na Tarefa | Descrição do Problema | Evidência (Fala ou comportamento) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| PB1 | Diagrama CTT — símbolos de notação | Os símbolos do CTT (sequência, concorrência, escolha) não ficaram claros para a participante, gerando confusão na leitura do fluxo | *"Eu não entendi muito não. Foi meio fora de ordem, né?"* | 2 | 1/1 | Pontual — superado após orientação do avaliador | Incluir legenda explicativa dos símbolos no próprio artefato; avaliar o uso de notação simplificada na apresentação ao usuário |
+| PB2 | Etapa de envio de documentos (HTA/CTT) | A sub-tarefa de "enviar documentação" carece de orientação sobre quais documentos são necessários, formato aceito e como realizar o envio corretamente | *"Quais documentações, qual o formato da documentação, como que envia certinho para não deixar dúvidas"* | 2 | 1/1 | Estrutural — lacuna no artefato; não verificável como erro de execução | Detalhar a sub-tarefa de envio no diagrama; na interface, adicionar orientações sobre tipos de arquivo aceitos e tamanho máximo |
+| PB3 | Navegação no site real — "Registrar Reclamação" | O caminho para registrar uma reclamação no site atual não é intuitivo; a participante passou por 2 caminhos incorretos antes de encontrar a opção correta (Serviços > Carta de Serviços > Serviços para o consumidor > Registrar reclamação) | Usuária navegou por múltiplos cliques antes de encontrar; verbalizou: *"Não é isso que eu quero"* em dois momentos | 3 | 1/1 | Recorrente — erros repetidos em múltiplos passos até encontrar o caminho correto | Adicionar acesso direto a "Registrar Reclamação" no menu principal do site; incluir atalho visível na página inicial |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Heitor Macedo Ricardo.</i></p>
 </div>
 
@@ -312,13 +312,13 @@ Como sugestão final, P2 declarou não ter mudanças a propor, considerando a pr
 
 **Quadro 3 - Problemas identificados nos modelos de tarefas — Sala de Conciliação Virtual (Avaliação 2)**
 
-| ID | Local / Passo na Tarefa | Descrição do Problema | Evidência (Fala ou comportamento) | Gravidade (1 a 4) | Sugestão de Correção |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| PB4 | Etapa de visualização de documentos (HTA/CTT) | A etapa de visualização de documentos na Sala de Conciliação Virtual carece de orientações mais claras sobre como proceder, quais documentos estão disponíveis e como interagir com eles | *"Talvez na hora de visualizar documentos, poderia ter uma explicação melhor nessa parte"* | 2 | Adicionar descrições e instruções visuais na interface de visualização de documentos; incluir tooltips ou um guia rápido sobre como navegar e anexar documentos |
-| PB5 | Fluxo geral — Transição para conciliação presencial | Não está claro no modelo como lidar com casos em que os documentos são complexos e a conciliação virtual não é suficiente; o diagrama não prevê um mecanismo de transição para o formato presencial | *"Talvez se os documentos fossem complexos precisaria de um encontro presencial"* | 2 | Incluir no modelo uma tarefa de "Avaliação de complexidade" que permita ao sistema ou ao mediador sinalizar a necessidade de conciliação presencial, com fluxo de transição claro |
+| ID | Local / Passo na Tarefa | Descrição do Problema | Evidência (Fala ou comportamento) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| PB4 | Etapa de visualização de documentos (HTA/CTT) | A etapa de visualização de documentos na Sala de Conciliação Virtual carece de orientações mais claras sobre como proceder, quais documentos estão disponíveis e como interagir com eles | *"Talvez na hora de visualizar documentos, poderia ter uma explicação melhor nessa parte"* | 2 | 1/1 | Estrutural — lacuna no artefato; não representado no diagrama | Adicionar descrições e instruções visuais na interface de visualização de documentos; incluir tooltips ou um guia rápido sobre como navegar e anexar documentos |
+| PB5 | Fluxo geral — Transição para conciliação presencial | Não está claro no modelo como lidar com casos em que os documentos são complexos e a conciliação virtual não é suficiente; o diagrama não prevê um mecanismo de transição para o formato presencial | *"Talvez se os documentos fossem complexos precisaria de um encontro presencial"* | 2 | 1/1 | Estrutural — lacuna no artefato; não representado no diagrama | Incluir no modelo uma tarefa de "Avaliação de complexidade" que permita ao sistema ou ao mediador sinalizar a necessidade de conciliação presencial, com fluxo de transição claro |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 

@@ -393,9 +393,9 @@ Não foram identificados problemas de interação, comunicabilidade, fluxo lógi
 
 **Quadro 2 - Problemas identificados na narrativa do Storyboard (Avaliação 1)**
 
-| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Sugestão de Correção |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| — | — | Nenhum problema identificado | — | — | — |
+| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | Nenhum problema identificado | — | — | — | — | — |
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico.</i></p>
@@ -408,9 +408,9 @@ Não foram identificados problemas de interação, comunicabilidade, fluxo lógi
 
 **Quadro 3 - Problemas identificados na narrativa do Storyboard (Avaliação 2)**
 
-| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Sugestão de Correção |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| — | — | Nenhum problema identificado | — | — | — |
+| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | Nenhum problema identificado | — | — | — | — | — |
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico.</i></p>
@@ -425,9 +425,9 @@ Além disso, não foram observados indícios de confusão quanto às etapas apre
 
 **Quadro 3 - Problemas identificados na narrativa do Storyboard (Avaliação 2)**
 
-| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Sugestão de Correção |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| — | — | Não foram identificados problemas durante a avaliação | — | — | — |
+| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | Não foram identificados problemas durante a avaliação | — | — | — | — | — |
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico.</i></p>

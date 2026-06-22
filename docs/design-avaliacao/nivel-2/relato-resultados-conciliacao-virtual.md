@@ -35,7 +35,7 @@ Especificamente, buscou-se responder às seguintes perguntas de pesquisa:
 
 ## 2. Método de avaliação empregado
 
-O método utilizado foi a **Observação e Entrevista Semiestruturada com uso do Protótipo de Papel**, conforme definido no [Planejamento da Avaliação do Protótipo de Papel](./planejamento-avaliacao-pp.md). O avaliador apresentou as telas do protótipo impressas em papel, uma a uma, simulando a interação do usuário com o sistema. O participante apontava com o dedo onde clicaria e verbalizava suas ações e pensamentos em voz alta. A sessão foi conduzida seguindo a estrutura narrativa planejada: apresentação e TCLE, aquecimento, simulação com o protótipo (parte principal), perguntas focadas pós-tarefa, desaquecimento e encerramento.
+Os métodos empregados foram: **Teste de Usabilidade com Protótipo de Papel** (método de observação<sup><a href="#fig-cap122">[1]</a></sup>), conduzido com observação direta e técnica Think Aloud durante a execução das tarefas, complementado por **Entrevista Semiestruturada** pós-sessão (método de investigação<sup><a href="#fig-cap116">[2]</a></sup>). A combinação segue a recomendação de Barbosa et al. (2021, Cap. 11.6) de integrar a investigação à observação para obter dados mais robustos; o Teste de Usabilidade pertence à família dos métodos de observação (Barbosa et al., 2021, Cap. 12.2), e a Entrevista Semiestruturada à família dos métodos de investigação (Cap. 11.6). Ambos foram aplicados conforme definido no [Planejamento da Avaliação do Protótipo de Papel](./planejamento-avaliacao-pp.md). O avaliador apresentou as telas do protótipo impressas em papel, uma a uma, simulando a interação do usuário com o sistema. O participante apontava com o dedo onde clicaria e verbalizava suas ações e pensamentos em voz alta. A sessão foi conduzida seguindo a estrutura narrativa planejada: apresentação e TCLE, aquecimento, simulação com o protótipo (parte principal), perguntas focadas pós-tarefa, desaquecimento e encerramento.
 
 A sessão foi integralmente gravada em vídeo para análise posterior.
 
@@ -219,12 +219,12 @@ Não foram identificados problemas de usabilidade, ambiguidades de interface ou 
 
 **Quadro 2 - Problemas identificados no Protótipo de Papel**
 
-| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Sugestão de Correção para o Protótipo |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| — | — | Nenhum problema identificado | — | — | — |
+| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção para o Protótipo |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | Nenhum problema identificado | — | — | — | — | — |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
@@ -274,3 +274,21 @@ Agradecimento ao **Claude** pela ajuda na correção e detalhamento das resposta
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 01/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Papel — Sala de Conciliação Virtual com dados da entrevista com P1. | Pedro Augusto Moretti Moreira | — |
 | 1.1 | 12/06/2026 | Substituição de referências a personas por perfil de usuário primário Fornecedor (Representante da Empresa). | Pedro Augusto Moretti Moreira | Heitor Macedo |
+
+## Notas de Rodapé e Referências de Imagens
+
+<div id="fig-cap122"></div>
+
+**Figura 1** - Cap. 12.2 — O Teste de Usabilidade como método de observação (Barbosa et al., 2021).
+
+![Cap. 12.2 — Teste de Usabilidade como método de observação](../images/cap122.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, Cap. 12.2).
+
+<div id="fig-cap116"></div>
+
+**Figura 2** - Cap. 11.6 — Classificação dos métodos de avaliação em investigação, observação e inspeção (Barbosa et al., 2021).
+
+![Cap. 11.6 — Classificação dos métodos de avaliação](../images/cap116.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, Cap. 11.6).

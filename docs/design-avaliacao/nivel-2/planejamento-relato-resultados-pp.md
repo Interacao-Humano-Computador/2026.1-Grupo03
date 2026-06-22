@@ -133,12 +133,12 @@ As falhas de usabilidade, ambiguidades de interface e problemas de fluxo identif
 
 **Quadro 2 - Problemas identificados no Protótipo de Papel**
 
-| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Sugestão de Correção para o Protótipo |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| PB1 | [Tela de início] | [Descrição do problema encontrado] | [O que o participante disse ou fez] | [1 a 4] | [Como corrigir no protótipo ou no redesign] |
+| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção para o Protótipo |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| PB1 | [Tela de início] | [Descrição do problema encontrado] | [O que o participante disse ou fez] | [1 a 4] | [Nº de participantes afetados] | [Pontual / Recorrente / Estrutural] | [Como corrigir no protótipo ou no redesign] |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado pelos autores.</i></p>
 </div>
 

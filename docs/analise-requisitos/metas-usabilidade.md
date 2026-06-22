@@ -9,7 +9,7 @@ Colaboração referente a [Etapa 3](../planejamento/cronograma-executado.md)
 | Mateus Rodrigues Barreto | Inserção das imagens de comprovação bibliográfica |
 
 ## 1. Introdução
-De acordo com a Engenharia de Usabilidade de Nielsen, descrita por Barbosa e Silva (2021) <sup><a href="#figura1">[1]</a></sup>, a definição das metas de usabilidade envolve estabelecer quais fatores de qualidade de uso devem ser priorizados no projeto. Para cada fator escolhido, é necessário definir como ele será avaliado, estabelecendo faixas de valores inaceitáveis, aceitáveis e ideais para os indicadores de interesse <sup><a href="#figura2">[2]</a></sup>.
+De acordo com a Engenharia de Usabilidade de Nielsen (1993 apud Barbosa & Silva, 2021, p. 35) <sup><a href="#figura1">[1]</a></sup>, a definição das metas de usabilidade envolve estabelecer quais fatores de qualidade de uso devem ser priorizados no projeto. Para cada fator escolhido, é necessário definir como ele será avaliado, estabelecendo faixas de valores inaceitáveis, aceitáveis e ideais para os indicadores de interesse <sup><a href="#figura2">[2]</a></sup>.
 
 Com base no Perfil de Usuário levantado para o sistema do PROCON-DF, selecionamos metas focadas na agilidade e na intuição, buscando garantir que os cidadãos e fornecedores consigam utilizar a plataforma sem frustrações e com o mínimo de carga cognitiva.
 
@@ -54,7 +54,7 @@ A tabela abaixo define os indicadores numéricos que comprovarão o sucesso do r
 A análise a seguir examina os principais fatores que levam usuários a abandonar o portal oficial do
 [PROCON-DF](https://www.procon.df.gov.br/) em favor de alternativas como o
 [Reclame Aqui](https://www.reclameaqui.com.br/) ou os canais de atendimento das próprias lojas online.
-Essa avaliação é fundamentada nas metas de usabilidade propostas por Nielsen (1994 apud Barbosa et al., 2021) e Sharp, Rogers e Preece (2019 apud Barbosa et al., 2021), aplicadas à experiência de registro de reclamações no site avaliado.
+Essa avaliação é fundamentada nas metas de usabilidade propostas por Nielsen (1993 apud Barbosa & Silva, 2021, p. 35–36) e Sharp, Rogers e Preece (2019 apud Barbosa & Silva, 2021), aplicadas à experiência de registro de reclamações no site avaliado.
 
 ---
 
@@ -87,8 +87,7 @@ reduzindo ao mínimo o esforço necessário para agir.
 
 Por não possuir um fluxo padronizado e reconhecível, o portal exige que o usuário reapenda o caminho a cada
 novo acesso. A ausência de um *call-to-action* destacado na página inicial  como um botão "Registre sua
-reclamação"  impede que o sistema seja reconhecido em vez de recordado, violando diretamente o heurístico
-de Nielsen de *reconhecimento em vez de recordação*.
+reclamação"  impede que o sistema seja reconhecido em vez de recordado, contrariando o fator de **Facilidade de Recordação** (*Memorability*) de Nielsen (1993 apud Barbosa & Silva, 2021, p. 35–36), que recomenda minimizar a carga da memória de curto prazo ao favorecer o reconhecimento em vez da recordação.
 
 ---
 
