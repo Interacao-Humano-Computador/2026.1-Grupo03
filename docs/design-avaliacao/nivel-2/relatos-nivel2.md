@@ -38,7 +38,7 @@ Esta seção sintetiza, de forma interparticipante e entre funcionalidades, os d
 
 | Funcionalidade | Avaliador | Participante | Perfil | Data | Nº de Tarefas | Taxa de Conclusão | Problemas (Gravidade ≥ 2) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | P1 | Fornecedor (empresária, 40 anos) | 05/06/2026 | 1 (fluxo completo) | 100% | 0 |
+| Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | P1 | Fornecedor (empresária, 40 anos) | 05/06/2026 | 3 | 100% (3/3) | 0 |
 | Notificação Ativa | Heitor Macedo | P1 | Consumidor (universitária, ~18 anos) | 05/06/2026 | 1 (fluxo completo) | 100% | 0 |
 
 <div align="center">

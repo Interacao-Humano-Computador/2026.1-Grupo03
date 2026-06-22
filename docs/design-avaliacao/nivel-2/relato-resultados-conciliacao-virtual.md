@@ -95,11 +95,23 @@ O perfil da participante está alinhado com o perfil de usuário primário **For
 
 ## 5. Tarefas executadas pelos participantes
 
-A tarefa executada pela participante foi específica para a funcionalidade de **Sala de Conciliação Virtual**, consistindo em um fluxo contínuo que abrange desde o recebimento do convite até a assinatura do termo de acordo.
+A avaliação foi dividida em três tarefas que cobrem o fluxo completo da funcionalidade de **Sala de Conciliação Virtual**, desde o acesso ao link até a assinatura digital do termo de acordo.
 
 ### Cenário Apresentado
 
 > "Você é um consumidor que comprou um produto na panificadora, teve um problema e a loja não quis resolver. Você registrou uma reclamação no PROCON-DF. Depois de alguns dias, o PROCON marcou uma audiência de conciliação, e você recebeu um e-mail avisando que a audiência será online, por videochamada, dentro do próprio portal do PROCON. A sua missão hoje é participar dessa audiência virtual do começo ao fim: desde receber o convite até sair da sala com o termo de acordo assinado digitalmente."
+
+### Tarefa 1: Preparação e Acesso à Sala de Espera
+
+A participante foi instruída a, a partir da tela inicial do link, navegar pelas orientações, realizar o teste obrigatório de periféricos (câmera e microfone) e confirmar o funcionamento para ingressar na sala de audiência.
+
+### Tarefa 2: Interação na Sessão de Vídeo
+
+A participante deveria identificar quem era quem na tela (mediador e representante da empresa), desativar o microfone por um instante e, em seguida, utilizar o chat lateral de evidências para anexar e enviar o comprovante de compra solicitado pelo mediador.
+
+### Tarefa 3: Revisão e Assinatura Digital do Termo
+
+Após a mediação, a participante deveria visualizar o termo de acordo gerado pelo mediador, realizar o processo de assinatura digital integrada utilizando a autenticação do portal Gov.br e prosseguir até que o sistema indicasse o encerramento da audiência com sucesso.
 
 ### Fluxo de Telas do Protótipo
 
@@ -122,7 +134,9 @@ O protótipo cobre as seguintes telas e interações, percorridas sequencialment
 
 | Participante | Tarefa Solicitada | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| P1 | Participar de audiência de conciliação virtual | Sim | 0 | Não | 1 |
+| P1 | Preparação e acesso à sala de espera | Sim | 0 | Não | 1 |
+| P1 | Interação na sessão de vídeo | Sim | 0 | Não | 1 |
+| P1 | Revisão e assinatura digital do termo | Sim | 0 | Não | 1 |
 
 <div align="center">
 <p><i>Nota sobre o Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>
