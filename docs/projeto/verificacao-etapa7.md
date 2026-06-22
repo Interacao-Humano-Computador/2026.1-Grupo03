@@ -12,15 +12,15 @@ Esta lista de verificação consolida os critérios obrigatórios presentes no P
 
 Abaixo estão definidos termos técnicos presentes nesta lista de verificação para facilitar a compreensão por leitores não familiarizados com a área:
 
-* **Categorização de Problemas:** Etapa da consolidação dos testes onde o avaliador agrupa as dificuldades encontradas, descrevendo cada categoria de problema, em que partes da interface ela ocorre e os impactos imediatos na usabilidade do sistema avaliado [(Barbosa et al., 2021, p. 289)](images/verificacao7/categorizacao_problemas.png).
+* **Categorização de Problemas:** Etapa da consolidação dos testes onde o avaliador agrupa as dificuldades encontradas, descrevendo cada categoria de problema, em que partes da interface ela ocorre e os impactos imediatos na usabilidade do sistema avaliado [(Barbosa et al., 2021, p. 289)](images/verificacao7/categorizacaodeproblemas.png).
 
-* **Design Rationale (Lógica de Design):** O registro formal e histórico das escolhas de projeto, mantendo o rastreamento entre uma decisão de design e os elementos de discussão que culminaram naquela decisão [(Barbosa et al., 2021, p. 242)](images/verificacao7/design_rationale.png).
+* **Design Rationale (Lógica de Design):** O registro formal e histórico das escolhas de projeto, mantendo o rastreamento entre uma decisão de design e os elementos de discussão que culminaram naquela decisão [(Barbosa et al., 2021, p. 242)](images/verificacao7/designrationale.png).
 
-* **Medições de Usabilidade:** Dados quantitativos extraídos nos testes de alta fidelidade onde, para cada tarefa realizada por cada participante, é possível medir o grau de sucesso da execução, o total de erros cometidos, quantos erros de cada tipo ocorreram e o tempo necessário para concluí-la [(Barbosa et al., 2021, p. 289)](images/verificacao7/medicoes_usabilidade.png).
+* **Medições de Usabilidade:** Dados quantitativos extraídos nos testes de alta fidelidade onde, para cada tarefa realizada por cada participante, é possível medir o grau de sucesso da execução, o total de erros cometidos, quantos erros de cada tipo ocorreram e o tempo necessário para concluí-la [(Barbosa et al., 2021, p. 289)](images/verificacao7/medicoesdeusabilidade.png).
 
-* **Padrões de Design (Design Patterns):** Soluções padronizadas para problemas recorrentes em interfaces que descrevem "o que" (a solução), "usar quando" (situações em que se aplica) e "por que" (dados que justificam sua adequação) [(Barbosa et al., 2021, p. 232)](images/verificacao7/padroes_design.png).
+* **Padrões de Design (Design Patterns):** Soluções padronizadas para problemas recorrentes em interfaces que descrevem "o que" (a solução), "usar quando" (situações em que se aplica) e "por que" (dados que justificam sua adequação) [(Barbosa et al., 2021, p. 232)](images/verificacao7/padroesdedesign.png).
 
-* **Protótipo de Alta Fidelidade:** Representação que apresenta o desenho completo da interface, possivelmente feito em um editor de imagens ou ferramenta especializada (como Adobe XD ou Figma), em que já estão incorporadas as decisões a respeito de tamanhos, posições, cores, fontes e outros detalhes visuais [(Barbosa et al., 2021, p. 210)](../images/verificacao7/prototipo_alta_fidelidade.png).
+* **Protótipo de Alta Fidelidade:** Representação que apresenta o desenho completo da interface, possivelmente feito em um editor de imagens ou ferramenta especializada (como Adobe XD ou Figma), em que já estão incorporadas as decisões a respeito de tamanhos, posições, cores, fontes e outros detalhes visuais [(Barbosa et al., 2021, p. 210)](images/verificacao7/prototipodealtafidelidade.png).
 
 ---
 
