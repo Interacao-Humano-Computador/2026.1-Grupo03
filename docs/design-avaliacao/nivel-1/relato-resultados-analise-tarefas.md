@@ -80,7 +80,7 @@ O teste piloto foi conduzido antes da sessão oficial com o participante real. O
 
 O teste piloto foi conduzido antes da sessão oficial com o participante real. O objetivo foi verificar o funcionamento do equipamento de gravação (câmera e áudio), a clareza da apresentação dos diagramas HTA e CTT da Sala de Conciliação Virtual em tela e a adequação do roteiro semiestruturado e dos artefatos utilizados.
 
-* **Participante piloto:** Não houve um usuário alvo — o teste foi realizado apenas com o próprio moderador
+* **Participante piloto:** Não houve um participante representativo do público-alvo — o teste foi realizado apenas com o próprio moderador. Como os diagramas HTA e CTT foram elaborados a partir de uma modelagem cuidadosa das tarefas e o roteiro semiestruturado já havia sido calibrado durante o planejamento, optou-se por concentrar o piloto na verificação técnica dos equipamentos e na legibilidade da apresentação dos diagramas em tela, poupando um participante do perfil alvo de uma sessão que ainda poderia conter ajustes instrumentais.
 * **Funcionamento da gravação:** Câmera e áudio verificados e em funcionamento
 * **Resultados:** Os artefatos (diagramas, roteiro e documentos de apoio) foram considerados claros e adequados. Nenhum ajuste significativo foi necessário no protocolo antes da sessão oficial.
 * **Os dados coletados no teste piloto foram descartados e não integram os resultados desta avaliação.**

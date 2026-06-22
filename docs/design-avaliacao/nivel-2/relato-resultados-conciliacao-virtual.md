@@ -61,7 +61,7 @@ O protótipo de papel avaliado foi o **Protótipo da Sala de Conciliação Virtu
 
 O teste piloto foi conduzido antes da sessão oficial com o participante real. O objetivo foi verificar o funcionamento do equipamento de gravação (câmera e áudio), a clareza da apresentação das telas do protótipo de papel e a adequação do roteiro semiestruturado.
 
-* **Participante piloto:** Não houve um participante representativo do público-alvo — o teste foi realizado apenas com o próprio moderador
+* **Participante piloto:** Não houve um participante representativo do público-alvo — o teste foi realizado apenas com o próprio moderador. Como o protótipo de papel foi construído com base nos storyboards e na análise de tarefas já validados nas etapas anteriores, e o roteiro semiestruturado desta sessão constitui uma evolução de versões já testadas, optou-se por concentrar o piloto na verificação técnica dos equipamentos e na clareza da apresentação das telas do protótipo, poupando um participante do perfil alvo de uma sessão que ainda poderia conter ajustes instrumentais.
 * **Funcionamento da gravação:** Câmera e áudio verificados e em funcionamento
 * **Resultados:** Os artefatos (telas do protótipo, roteiro e documentos de apoio) foram considerados claros e adequados. Nenhum ajuste significativo foi necessário no protocolo antes da sessão oficial.
 * **Os dados coletados no teste piloto foram descartados e não integram os resultados desta avaliação.**

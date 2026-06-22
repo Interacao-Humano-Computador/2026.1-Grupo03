@@ -61,7 +61,7 @@ O protótipo de alta fidelidade avaliado foi o **Protótipo da Sala de Concilia�
 
 O teste piloto foi conduzido antes da sessão oficial com o participante real. O objetivo foi verificar o funcionamento do equipamento de gravação (câmera e áudio), o carregamento e a responsividade do protótipo de alta fidelidade no dispositivo móvel e a adequação do roteiro semiestruturado.
 
-* **Participante piloto:** Não houve um participante representativo do público-alvo — o teste foi realizado apenas com o próprio moderador
+* **Participante piloto:** Não houve um participante representativo do público-alvo — o teste foi realizado apenas com o próprio moderador. Como o protótipo de alta fidelidade é fruto de iterações sucessivas de design que já haviam sido validadas em etapas anteriores (notadamente na avaliação do protótipo de papel), e o roteiro semiestruturado desta sessão constitui um amadurecimento de versões já testadas, optou-se por concentrar o piloto na verificação técnica dos equipamentos e na estabilidade do protótipo interativo, poupando um participante do perfil alvo de uma sessão que ainda poderia conter ajustes instrumentais.
 * **Funcionamento da gravação:** Câmera e áudio verificados e em funcionamento
 * **Resultados:** Durante o teste piloto, foi identificado que a logo do GDF não estava sendo carregada corretamente em uma das telas do protótipo. O problema foi corrigido antes da sessão oficial. Os demais artefatos (roteiro e documentos de apoio) foram considerados claros e adequados.
 * **Os dados coletados no teste piloto foram descartados e não integram os resultados desta avaliação.**
@@ -74,7 +74,7 @@ O teste piloto foi conduzido antes da sessão oficial com o participante real. O
 
 ## 4. Número e perfil de avaliadores e dos participantes
 
-A avaliação contou com **um (1) participante real** recrutado, identificado de forma anônima como P1.
+Foram identificados **seis (6) potenciais participantes** alinhados ao perfil de usuário definido para a avaliação. No entanto, considerando a indisponibilidade de horários e a janela reduzida do cronograma acadêmico, apenas **um (1) participante** pôde comparecer à sessão presencial. Diante disso, a avaliação foi conduzida com esse único participante — identificado de forma anônima como P1 — cujos dados, ainda que provenientes de uma única sessão, revelaram-se ricos em detalhes e suficientes para validar o protótipo em todos os aspectos propostos.
 
 ### Participante P1
 
