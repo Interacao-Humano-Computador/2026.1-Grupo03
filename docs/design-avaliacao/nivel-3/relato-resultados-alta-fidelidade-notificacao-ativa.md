@@ -53,6 +53,7 @@ O protótipo de alta fidelidade avaliado foi o **Protótipo de Notificação Ati
 | [Heitor Macedo](../../equipe/equipe.md) | <span style="color: orange">P2</span> | 18:00 | 18:10 | 15/06/2026 | Presencial |
 | [Heitor Macedo](../../equipe/equipe.md) | <span style="color: orange">P3</span> | 17:40 | 17:50 | 16/06/2026 | Presencial |
 | [Heitor Macedo](../../equipe/equipe.md) | <span style="color: orange">P4</span> | 19:40 | 19:50 | 14/06/2026 | Presencial |
+| [Heitor Macedo](../../equipe/equipe.md) | <span style="color: orange">P5</span> | 16:40 | 16:50 | 16/06/2026 | Presencial |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
@@ -77,7 +78,7 @@ O teste piloto foi conduzido antes da sessão oficial com o participante real. O
 
 ## 4. Número e perfil de avaliadores e dos participantes
 
-A avaliação contou com **quatro (4) participantes reais** recrutados, identificados de forma anônima como P1, P2, P3 e P4.
+A avaliação contou com **cinco (5) participantes reais** recrutados, identificados de forma anônima como P1, P2, P3, P4 e P5.
 
 ### Participante P1
 
@@ -128,7 +129,7 @@ O perfil do participante está alinhado com o perfil de usuário primário **Con
 | Campo | Dado Coletado |
 | :--- | :--- |
 | **Nome / Identificação** | P2 (anônimo) |
-| **Faixa etária** | 36 |
+| **Faixa etária** | 35 anos |
 | **Vínculo com o PROCON-DF** | Usuário de serviços digitais; potencial consumidor reclamante |
 | **Familiaridade com tecnologia** | Alta — navegou pelo protótipo sem hesitações e identificou com precisão todos os elementos de interface durante o Think Aloud |
 | **Ocupação** | Físico |
@@ -175,6 +176,27 @@ O perfil do participante representa o **usuário mais jovem da amostra**, univer
 | **Familiaridade com tecnologia** | Alta — nativa digital, demonstrou familiaridade imediata com notificações WhatsApp, badges de alerta e fluxos de assinatura digital |
 | **Ocupação** | Universitária |
 | **O perfil atende ao planejado?** | (x) Sim — Participante dentro da faixa etária prevista, com familiaridade com tecnologia compatível com o perfil-alvo; perfil mais próximo da persona "Laura" entre todos os participantes |
+
+<div align="center">
+<p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
+</div>
+
+### Participante P5
+
+O perfil do participante está alinhado com o perfil de usuário primário **Consumidor (Cidadão Reclamante)** — profissional da área educacional, 45 anos, com familiaridade moderada-alta com tecnologia. P5 demonstrou atenção ao conteúdo textual durante todo o fluxo, lendo em voz alta cada elemento da interface de forma sistemática, o que revelou compreensão consistente das informações apresentadas. Sua contribuição mais significativa foi a verbalização da dúvida sobre as consequências da recusa da proposta — um aspecto não mencionado pelos participantes anteriores e que representa um novo achado de design.
+
+#### Realidade — Participante Efetivo
+
+**Tabela 3e — Dados do participante P5 entrevistado**
+
+| Campo | Dado Coletado |
+| :--- | :--- |
+| **Nome / Identificação** | P5 (anônimo) |
+| **Faixa etária** | 45 anos |
+| **Vínculo com o PROCON-DF** | Usuária de serviços digitais; potencial consumidora reclamante |
+| **Familiaridade com tecnologia** | Média-alta — percorreu o fluxo de forma autônoma, leu cuidadosamente todos os elementos textuais e interagiu com o protótipo sem necessidade de orientação de navegação |
+| **Ocupação** | Orientadora Educacional |
+| **O perfil atende ao planejado?** | (x) Sim — Participante dentro da faixa etária prevista, com familiaridade com tecnologia compatível com o perfil-alvo |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
@@ -232,6 +254,7 @@ O protótipo de alta fidelidade cobre as seguintes telas e interações, percorr
 | P2 | Acompanhar reclamação e responder à proposta (fluxo completo) | Sim | 0 | Não | 1 |
 | P3 | Acompanhar reclamação e responder à proposta (fluxo completo) | Sim | 0 | Não | 1 |
 | P4 | Acompanhar reclamação e responder à proposta (fluxo completo) | Sim | 0 | Não | 1 |
+| P5 | Acompanhar reclamação e responder à proposta (fluxo completo) | Sim | 0 | Sim | 1 |
 
 <div align="center">
 <p><i>Nota sobre o Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>
@@ -344,13 +367,40 @@ Abaixo, o vídeo da sessão de avaliação com o participante P4:
 
 ---
 
+**Tabela 4d - Respostas do Participante P5 às Perguntas Pós-Tarefa**
+
+| Bloco | Pergunta | Resposta |
+| :--- | :--- | :---: |
+| A. Canal de Notificação | Você acha que o sistema de notificação sendo recebido diretamente pelo WhatsApp é mais fácil e prático do que se você recebesse, por exemplo, uma notificação tradicional no celular (como um SMS ou notificação do próprio site)? Qual é a sua preferência? | "Ah, o pelo WhatsApp é mais viável, mais rápido." |
+| B. Tela de Listagem e Detalhes da Reclamação | Sobre a disposição das informações nessa página, você consegue perceber facilmente quais são as suas reclamações, quais estão abertas e quais delas têm uma atualização? O que achou especificamente dessa tela? Ela é facilmente compreensível? | "Não, achei bem compreensivo. Gostei. Foi bem bem claro." |
+| C. Linha do Tempo | Essa tela apresenta uma linha do tempo com as datas e os status das etapas do processo. Você acha essa ferramenta útil para o acompanhamento do cidadão? Qual é a sua percepção? | "Sim, eu achei porque aqui tem a linha do tempo, né? Então assim, quando foi registrado, tem uma sinopse de tudo que foi feito em análise, em conciliação, proposta recebida. Quer dizer, aí aqui tá mostrando também onde vai ser encerrado, né?" |
+| D. Visualização da Proposta | Avaliando a disposição das informações nessa tela: as informações estão facilmente entendíveis? Você sentiu falta de alguma informação importante ou algo não ficou claro? | "Não, foi bem direto, né? Achei que foi bem direto." |
+| E. Tela de Resposta e Pop-up de Confirmação | Nessa tela de tomada de decisão, você acha que essa tela é útil ou é descartável e poderia estar em outro lugar? | "Ela é útil e ela é clara, deveria estar aqui mesmo." |
+| E. Tela de Resposta e Pop-up de Confirmação | Ao clicar em aceitar, aparece um pop-up de advertência informando que a ação é irreversível. Você acha que esse pop-up é útil para evitar cliques por erro ou engano dos usuários? | "Ele é útil. Bom, tem de ter." |
+| F. Protocolo e Métodos de Assinatura | Após o aceite, a tela mostra o protocolo, a data, o horário e avisa que falta o processo de assinatura. Para você, essa tela é útil ou deveria ter mais alguma informação? | "Foi útil. Gostei. Bem claro." |
+| F. Protocolo e Métodos de Assinatura | Você acha que as duas opções de assinatura (biometria e GOV.BR) são suficientes e úteis, ou o portal do PROCON deveria oferecer mais alguma outra alternativa? | "Não, são úteis. Acho que seria bom essas duas aqui. São bem objetivas e rápidas, né? E eu acredito também na questão da segurança. Eu acho que são para te dar uma segurança." |
+| F. Protocolo e Métodos de Assinatura | Sobre o fechamento da tarefa, essa tela final: você adicionaria alguma informação ou removeria alguma? | "Não, tá bem resumido. Gostei. Proposta aceita, acordo assinado, encerrado, acordo cumprido, tá claro. Não, não senti mais necessidades, não." |
+
+<div align="center">
+<p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
+</div>
+
+Abaixo, o vídeo da sessão de avaliação com o participante P5:
+
+<p style="text-align: center"><a href="https://youtu.be/_-lTuff3NSE" target="blanket">Clique aqui para acessar a gravação da sessão com P5</a></p>
+
+<font size="3"><p style="text-align: center">Fonte: Heitor Macedo.</p></font>
+
+---
+
 ## 7. Lista dos problemas encontrados
 
 **Quadro 2 - Problemas identificados no Protótipo de Alta Fidelidade**
 
 | ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Frequência | Sugestão de Correção para o Protótipo |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| P01 | Tela de Visualização da Proposta | O prazo de crédito (10 dias úteis) não possui destaque visual proporcional à sua relevância na decisão do usuário | "O prazo de crédito de 10 dias úteis eu não tinha percebido de imediato" (P1) | 1 | 1/4 participantes | Aumentar o peso tipográfico ou adicionar um ícone de destaque (ex: ícone de calendário) ao lado do prazo de crédito para elevar sua visibilidade dentro da hierarquia informacional da tela |
+| P01 | Tela de Visualização da Proposta | O prazo de crédito (10 dias úteis) não possui destaque visual proporcional à sua relevância na decisão do usuário | "O prazo de crédito de 10 dias úteis eu não tinha percebido de imediato" (P1) | 1 | 1/5 participantes | Aumentar o peso tipográfico ou adicionar um ícone de destaque (ex: ícone de calendário) ao lado do prazo de crédito para elevar sua visibilidade dentro da hierarquia informacional da tela |
+| P02 | Tela de Resposta (Aceitar ou Recusar) | A tela não comunica as consequências da recusa da proposta, gerando hesitação no usuário sobre o que acontecerá com sua reclamação caso a proposta seja rejeitada | "Se eu recusar essa proposta, que que eu ainda vou ter? Posso interagir com você?" (P5) | 2 | 1/5 participantes | Adicionar uma nota informativa na tela de resposta descrevendo o próximo passo em caso de recusa (ex.: "Se recusar, sua reclamação continuará aberta para nova proposta ou audiência de conciliação") |
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
@@ -362,7 +412,7 @@ Adicionalmente, os participantes levantaram **sugestões de melhoria** (não cla
 | ID | Sugestão | Participante | Contexto | Prioridade |
 | :---: | :---: | :---: | :---: | :---: |
 | S01 | Adicionar uma terceira opção de assinatura digital vinculada ao cadastro próprio do portal PROCON-DF | P1 | "Uma assinatura da própria plataforma do PROCON — um cadastro que o usuário fez anteriormente poderia ser uma possibilidade" | Média — aumenta a inclusão digital para usuários sem biometria ou sem conta GOV.BR ativa |
-| S02 | Adicionar canal de e-mail como alternativa ao WhatsApp para recebimento das notificações ativas | P2 | "Também seria uma boa opção [o e-mail]" | Baixa — WhatsApp foi validado como canal principal pelos quatro participantes; e-mail seria complementar |
+| S02 | Adicionar canal de e-mail como alternativa ao WhatsApp para recebimento das notificações ativas | P2 | "Também seria uma boa opção [o e-mail]" | Baixa — WhatsApp foi validado como canal principal pelos cinco participantes; e-mail seria complementar |
 | S03 | Enviar confirmação do acordo assinado por e-mail ou SMS ao usuário após a tela de sucesso | P3 | "Provavelmente uma recomendação, um envio para o e-mail ou até mesmo por SMS do acordo finalizado" | Média — registra o comprovante do acordo fora da plataforma e aumenta a confiança do usuário na resolução |
 
 <div align="center">
@@ -445,6 +495,22 @@ Esta seção registra o feedback coletado ao longo das sessões de teste, inclui
 | P4 | Pós-tarefa — Bloco F (Tela de Protocolo) | "Não teria outra informação, acho que é útil." | Validação |
 | P4 | Pós-tarefa — Bloco F (Métodos de Assinatura) | "Acho que as duas são válidas e são úteis, acredito." | Validação |
 | P4 | Pós-tarefa — Bloco F (Tela Final) | "Não, acho que é suficiente. Já deixa claro que tudo foi feito, não preciso de mais nada." | Validação |
+| P5 | Think Aloud — Lista de Reclamações | "Nova atualização, loja XYZ Electron, TV de LED, compra não entregue em conciliação, proposta recebida. Ver o andamento." | Validação |
+| P5 | Think Aloud — Linha do Tempo | "Acompanhe sua reclamação: registrada, reclamação recebida, em análise dia 13/06, em conciliação dia 14. Negociação ainda está aberta. Proposta recebida. Hoje às 14:32, a empresa enviou uma proposta de acordo." | Validação |
+| P5 | Think Aloud — Visualização da Proposta | "Veio a proposta, reembolso integral de R$1.249, o valor total que você pagou. Responda até dia 21. O que a empresa propôs? Tipo de solução, devolução do dinheiro, valor de 1.249, forma crédito na conta, prazo do crédito, até 10 dias úteis." | Validação |
+| P5 | Think Aloud — Proposta (texto simples) | "Crédito na conta. Em palavras simples, a loja vai devolver todo o valor que você pagou direto na sua conta em até 10 dias úteis após você aceitar." | Validação |
+| P5 | Think Aloud — Tela de Resposta | "Você aceita essa proposta? Leia o resumo antes de decidir. Sua resposta será registrada oficialmente no Procom. Resumo. Reembolso integral por crédito na conta em até 10 dias úteis. Encerra a reclamação com acordo cumprido. Atenção, ao aceitar a reclamação é encerrada e a decisão não pode ser desfeita." | Validação |
+| P5 | Think Aloud — Tela de Resposta (dúvida sobre recusa) | "Se eu recusar essa proposta, que que eu ainda vou ter? Posso interagir com você?" | Crítica |
+| P5 | Think Aloud — Assinatura | "Assinar, assinatura digital, né?" | Validação |
+| P5 | Pós-tarefa — Bloco A (Canal de Notificação) | "Ah, o pelo WhatsApp é mais viável, mais rápido." | Validação |
+| P5 | Pós-tarefa — Bloco B (Lista de Reclamações) | "Não, achei bem compreensivo. Gostei. Foi bem bem claro." | Validação |
+| P5 | Pós-tarefa — Bloco C (Linha do Tempo) | "Sim, eu achei porque aqui tem a linha do tempo, né? Tem uma sinopse de tudo que foi feito em análise, em conciliação, proposta recebida. Tá mostrando também onde vai ser encerrado, né?" | Validação |
+| P5 | Pós-tarefa — Bloco D (Proposta) | "Não, foi bem direto, né? Achei que foi bem direto." | Validação |
+| P5 | Pós-tarefa — Bloco E (Tela de Resposta) | "Ela é útil e ela é clara, deveria estar aqui mesmo." | Validação |
+| P5 | Pós-tarefa — Bloco E (Pop-up de Confirmação) | "Ele é útil. Bom, tem de ter." | Validação |
+| P5 | Pós-tarefa — Bloco F (Tela de Protocolo) | "Foi útil. Gostei. Bem claro." | Validação |
+| P5 | Pós-tarefa — Bloco F (Métodos de Assinatura) | "Não, são úteis. Acho que seria bom essas duas aqui. São bem objetivas e rápidas, né? E eu acredito também na questão da segurança. Eu acho que são para te dar uma segurança." | Validação |
+| P5 | Pós-tarefa — Bloco F (Tela Final) | "Não, tá bem resumido. Gostei. Proposta aceita, acordo assinado, encerrado, acordo cumprido, tá claro. Não, não senti mais necessidades, não." | Validação |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
@@ -456,64 +522,65 @@ Esta seção registra o feedback coletado ao longo das sessões de teste, inclui
 
 ### Perfil e Contexto dos Participantes
 
-Os quatro participantes apresentaram perfis diversificados em faixa etária (18 a 44 anos) e ocupação (professor, universitária, participantes com perfil genérico de consumidores digitais, e engenheiro elétrico), mas convergiram no nível de familiaridade tecnológica e no alinhamento com o perfil de usuário primário **Consumidor (Cidadão Reclamante)**. P4 (18 anos, universitária) representa o perfil mais próximo da persona "Laura" definida nas etapas anteriores do projeto, sendo a única participante do sexo feminino e nativa digital da amostra. Todos os quatro demonstraram plena autonomia de operação ao longo do fluxo.
+Os cinco participantes apresentaram perfis diversificados em faixa etária (18 a 45 anos) e ocupação (professor, universitária, engenheiro elétrico, orientadora educacional e participante com perfil genérico de consumidor digital), mas convergiram no nível de familiaridade tecnológica e no alinhamento com o perfil de usuário primário **Consumidor (Cidadão Reclamante)**. P4 (18 anos, universitária) é a que mais se aproxima da persona "Laura". P5 (45 anos, orientadora educacional) e P1 (44 anos, professor) representam o extremo mais experiente da faixa etária e compartilharam um padrão de leitura cuidadosa e sistemática de toda a interface. Todos os cinco concluíram a tarefa com 100% de sucesso e nível de dificuldade 1 (muito fácil).
 
 ### Canal de Notificação (Bloco A)
 
-O WhatsApp como canal de notificação foi validado unanimemente pelos quatro participantes. P1 descreveu-o como "muito, muito prático" e alinhado ao uso cotidiano do celular; P2 validou e acrescentou o e-mail como canal alternativo (S02); P3 confirmou com ênfase; P4 forneceu a justificativa mais específica e reveladora: **"às vezes a gente silencia os aplicativos que não interessa, né? E aí no WhatsApp a gente vai ver"** — demonstrando que a escolha pelo WhatsApp supera o push notification por razões comportamentais (usuários ignoram notificações de apps desconhecidos mas mantêm o WhatsApp sempre visível). A convergência unânime entre perfis tão distintos reforça de forma consistente a validade desta decisão de design.
+O WhatsApp como canal de notificação foi validado unanimemente pelos cinco participantes. P1 descreveu-o como "muito, muito prático"; P3 confirmou com ênfase; P4 forneceu a justificativa comportamental mais específica ("às vezes a gente silencia os aplicativos que não interessa, né? E aí no WhatsApp a gente vai ver"); P5 foi concisa e direta: "mais viável, mais rápido". A unanimidade entre cinco perfis distintos — incluindo a faixa etária mais elevada (P5, 45 anos) — reforça de forma robusta a validade desta decisão de design.
 
 ### Tela de Listagem e Detalhes da Reclamação (Bloco B)
 
-A tela de listagem foi avaliada positivamente por todos os participantes, mas P4 forneceu a análise mais detalhada e específica da amostra inteira. Ela identificou e nomeou explicitamente os mecanismos visuais de sinalização: **o badge de "nova atualização"** ("tem os sinais que mostra nova atualização, bem alerta"), **o contraste visual entre reclamações abertas e encerradas** ("para não confundir com a outra, já tem encerrado e ela tá meio escura") e **o papel das datas** ("a data, a data ajuda"). Esse nível de detalhamento valida decisões de design específicas — o uso de badges de alerta, o esmaecimento de itens encerrados e a exibição explícita de datas — que não haviam sido destacadas individualmente pelos demais participantes.
+Todos os cinco participantes consideraram a tela de listagem clara e compreensível. P4 forneceu a análise mais granular, identificando explicitamente os badges de alerta, o esmaecimento de itens encerrados e o papel das datas. P5 foi concisa mas afirmativa: "achei bem compreensivo. Foi bem bem claro." A consistência de avaliações positivas, incluindo os participantes com menor familiaridade digital (P5), indica que os mecanismos visuais de sinalização da tela funcionam efetivamente para perfis variados.
 
 ### Linha do Tempo / Timeline (Bloco C)
 
-A linha do tempo foi avaliada como muito útil pelos quatro participantes. P1 e P2 destacaram sua utilidade para acompanhar o histórico do processo; P3 identificou um uso emergente como instrumento probatório para futuras negociações; P4 validou a utilidade de forma direta: "você consegue ver cada passo certinho". A percepção de P4 ("a data é muito bom ali do tempo") reforça a importância da granularidade temporal do componente, convergindo com a observação de P1 sobre o valor do acompanhamento desde o registro da reclamação.
+A linha do tempo foi avaliada como muito útil pelos cinco participantes. P3 identificou valor probatório ("para ter argumento para uma futura reclamação"); P4 destacou a granularidade das datas; P5 forneceu a observação mais específica desta sessão ao notar que a timeline "tá mostrando também onde vai ser encerrado, né?" — demonstrando que ela leu a timeline prospectivamente, antecipando o estado final do processo. Esse insight valida a decisão de exibir o estado "encerrado" na linha do tempo mesmo antes da conclusão.
 
 ### Visualização da Proposta da Empresa (Bloco D)
 
-P2, P3 e P4 avaliaram a tela de proposta sem ressalvas. P4 foi especialmente articulada: relatou que buscava resposta para "como é que eles vão devolver" e "em quanto tempo" — e confirmou que ambas as perguntas foram respondidas pela tela. P4 também leu "crédito na conta em até 10 dias úteis" explicitamente durante o Think Aloud e mencionou "10 dias úteis" novamente na tela de protocolo, comprovando percepção clara deste dado. Apenas P1 não percebeu o prazo de imediato (P01). A frequência de 1/4 participantes confirma que P01 é de caráter cosmético e que a informação está acessível para a maioria dos usuários.
+P2, P3, P4 e P5 avaliaram a tela de proposta positivamente. P5 leu todos os detalhes de forma sequencial e literal durante o Think Aloud — incluindo "tipo de solução", "valor", "forma" e "prazo do crédito, até 10 dias úteis" — e também leu o texto em linguagem simples ("em palavras simples, a loja vai devolver todo o valor direto na sua conta em até 10 dias úteis após você aceitar"), demonstrando plena compreensão de ambas as camadas de informação. Apenas P1 não percebeu o prazo de imediato (P01). A frequência de 1/5 confirma o caráter cosmético do problema P01.
 
 ### Tela de Resposta e Pop-up de Confirmação (Bloco E)
 
-O pop-up de confirmação da ação irreversível foi avaliado positivamente pelos quatro participantes com alta consistência. P4 e P3 responderam "com certeza, muito útil"; P1 e P2 também validaram com entusiasmo. P4 acrescentou que a tela de resposta "reforça na cabeça da pessoa se ela realmente quer aceitar isso" — identificando o valor cognitivo da repetição das condições antes da confirmação definitiva, um insight convergente com P1 que afirmou que a tela "reafirma aquilo que informou na tela anterior".
+O pop-up de confirmação foi novamente avaliado com entusiasmo: P5 disse "ele é útil, bom, tem de ter" — a expressão "tem de ter" denota um julgamento de necessidade, não apenas de utilidade. No entanto, P5 verbalizou durante o Think Aloud a dúvida mais relevante identificada em toda a avaliação: **"Se eu recusar essa proposta, que que eu ainda vou ter?"** — revelando que a tela comunica claramente as consequências do aceite (irreversível, encerrado), mas não as consequências da recusa. Esse comportamento originou o problema P02 (gravidade 2, pequeno): um viés informacional que pode induzir o usuário a aceitar propostas por desconhecimento das alternativas pós-recusa.
 
 ### Protocolo e Métodos de Assinatura (Bloco F)
 
-A tela de protocolo foi considerada completa e bem organizada pelos quatro participantes. P4 e P2 confirmaram que não há informação faltante; P3 destacou o "hint intuitivo". Em relação às assinaturas, P4 validou as duas opções disponíveis de forma direta ("as duas são válidas e são úteis") sem sugerir alternativas adicionais. P4 foi também a única que demonstrou leve dúvida momentânea ao se deparar com as opções GOV.BR e biometria ("O que é isso? Clica."), mas resolveu a dúvida autonomamente sem precisar de orientação, completando a assinatura com sucesso e demonstrando surpresa positiva com a simplicidade do processo ("Sério? Assinei."). A tela final foi avaliada como suficiente por P4 de forma categórica: "já deixa claro que tudo foi feito, não preciso de mais nada."
+A tela de protocolo foi validada por todos os cinco participantes. P5 reconheceu de imediato a natureza da etapa seguinte ("Assinar, assinatura digital, né?") e avaliou a tela positivamente. Em relação às opções de assinatura, P5 foi a única entre os cinco a mencionar explicitamente o critério de **segurança**: "eu acredito também na questão da segurança. Eu acho que são para te dar uma segurança" — uma perspectiva distinta das avaliações anteriores (que focaram em praticidade, familiaridade e inclusão digital). A tela final foi avaliada positivamente de forma unânime; P5 leu os elementos em voz alta ("Proposta aceita, acordo assinado, encerrado, acordo cumprido") e confirmou não sentir falta de nada.
 
 ### Respostas às Perguntas de Pesquisa
 
 | Pergunta | Resposta |
 | :--- | :---: |
-| Com o protótipo de alta fidelidade foi possível validar os conceitos visuais e o comportamento das interações planejadas? | Sim — os quatro participantes completaram o fluxo integral e validaram os conceitos visuais e comportamentos interativos em cenários realistas de uso |
-| Foi observada alguma sugestão de melhoria ou refinamento para o layout e componentes propostos? | Sim — P1 sugeriu terceira opção de assinatura (S01); P2 sugeriu e-mail como canal de notificação alternativo (S02); P3 sugeriu envio de confirmação pós-assinatura por e-mail/SMS (S03); P4 não sugeriu melhorias adicionais |
-| A interface interativa está em conformidade com padrões de usabilidade e acessibilidade reconhecidos? | Sim — os quatro participantes navegaram sem dificuldades e avaliaram positivamente a clareza dos elementos, a hierarquia de informações e a consistência dos fluxos |
-| Foi possível identificar problemas de usabilidade ou gargalos nos fluxos interativos? | Sim — foi identificado um problema de baixa gravidade (P01 cosmético): o prazo de crédito não tinha destaque visual proporcional, percebido por 1 dos 4 participantes |
-| O usuário consegue operar o sistema representado no protótipo de alta fidelidade? Ele atinge seu objetivo de forma autônoma? Com quanta eficiência? | Sim — os quatro participantes concluíram a tarefa com 100% de sucesso, 0 erros, sem pedido de ajuda e com nível de dificuldade 1/5 (muito fácil) |
-| Que parte da interface, do design visual ou do fluxo de telas o deixa insatisfeito, inseguro ou confuso? | Nenhuma parte causou insatisfação ou confusão significativa; P1 apontou a baixa proeminência do prazo de crédito como único ponto de atenção; P4 demonstrou curiosidade momentânea sobre as opções de assinatura, resolvida autonomamente |
-| O usuário entende o significado e a função de cada elemento interativo e instrução textual presente na tela? | Sim — todos os elementos foram compreendidos pelos quatro participantes sem necessidade de explicação adicional do avaliador |
-| Quais barreiras cognitivas ou operacionais o usuário encontra para atingir seus objetivos nas tarefas propostas? | Nenhuma barreira operacional foi identificada; P1 teve leve dificuldade de percepção do prazo de crédito (P01 cosmético) sem impacto na conclusão; P4 demonstrou curiosidade rápida sobre os métodos de assinatura, superada com autonomia |
+| Com o protótipo de alta fidelidade foi possível validar os conceitos visuais e o comportamento das interações planejadas? | Sim — os cinco participantes completaram o fluxo integral e validaram os conceitos visuais e comportamentos interativos em cenários realistas de uso |
+| Foi observada alguma sugestão de melhoria ou refinamento para o layout e componentes propostos? | Sim — P1 sugeriu terceira opção de assinatura (S01); P2 sugeriu e-mail como canal alternativo (S02); P3 sugeriu envio de confirmação pós-assinatura (S03); P4 e P5 não sugeriram melhorias adicionais |
+| A interface interativa está em conformidade com padrões de usabilidade e acessibilidade reconhecidos? | Sim — os cinco participantes navegaram sem dificuldades e avaliaram positivamente a clareza dos elementos, a hierarquia de informações e a consistência dos fluxos |
+| Foi possível identificar problemas de usabilidade ou gargalos nos fluxos interativos? | Sim — foram identificados dois problemas: P01 (cosmético, 1/5) — baixo destaque do prazo de crédito; P02 (pequeno, 1/5) — ausência de informação sobre as consequências da recusa da proposta |
+| O usuário consegue operar o sistema representado no protótipo de alta fidelidade? Ele atinge seu objetivo de forma autônoma? Com quanta eficiência? | Sim — os cinco participantes concluíram a tarefa com 100% de sucesso, 0 erros e nível de dificuldade 1/5 (muito fácil); P5 pediu uma breve clarificação ao avaliador sem impacto na conclusão |
+| Que parte da interface, do design visual ou do fluxo de telas o deixa insatisfeito, inseguro ou confuso? | P1 apontou a baixa proeminência do prazo de crédito (P01); P5 verbalizou incerteza sobre o que acontece após a recusa da proposta (P02); nenhuma outra parte causou insatisfação identificável |
+| O usuário entende o significado e a função de cada elemento interativo e instrução textual presente na tela? | Sim — todos os elementos foram compreendidos pelos cinco participantes; P5 demonstrou compreensão lendo cada elemento em voz alta de forma sistemática |
+| Quais barreiras cognitivas ou operacionais o usuário encontra para atingir seus objetivos nas tarefas propostas? | P01 gerou leve dificuldade de percepção para P1 (cosmético); P02 gerou hesitação pontual em P5 sobre o caminho de recusa, resolvida com orientação do avaliador sem impacto na conclusão; nenhuma barreira operacional foi identificada |
 
 ---
 
 ## 10. Aspectos Éticos e Termo de Consentimento (TCLE)
 
-O Termo de Consentimento Livre e Esclarecido (TCLE) foi apresentado pelo avaliador no início de cada sessão, antes de qualquer coleta de dados. O avaliador esclareceu que a avaliação é do sistema — não do participante — e que os dados seriam usados exclusivamente para fins acadêmicos, garantindo o anonimato. Os participantes P1, P2, P3 e P4 manifestaram seu consentimento verbalmente, registrado nos primeiros minutos da gravação de cada sessão.
+O Termo de Consentimento Livre e Esclarecido (TCLE) foi apresentado pelo avaliador no início de cada sessão, antes de qualquer coleta de dados. O avaliador esclareceu que a avaliação é do sistema — não do participante — e que os dados seriam usados exclusivamente para fins acadêmicos, garantindo o anonimato. Os participantes P1, P2, P3, P4 e P5 manifestaram seu consentimento verbalmente, registrado nos primeiros minutos da gravação de cada sessão.
 
-Os dados dos participantes são identificados exclusivamente pelos códigos **P1**, **P2**, **P3** e **P4**, garantindo seu anonimato em todos os documentos produzidos. As gravações de áudio e vídeo estão armazenadas de forma segura e não serão compartilhadas fora do contexto da disciplina de Interação Humano-Computador da UnB.
+Os dados dos participantes são identificados exclusivamente pelos códigos **P1**, **P2**, **P3**, **P4** e **P5**, garantindo seu anonimato em todos os documentos produzidos. As gravações de áudio e vídeo estão armazenadas de forma segura e não serão compartilhadas fora do contexto da disciplina de Interação Humano-Computador da UnB.
 
 ---
 
 ## 11. Planejamento de Reprojeto do Sistema
 
-Com base nos dados coletados das quatro sessões, um problema cosmético foi identificado (P01) e três sugestões de melhoria foram registradas (S01, S02 e S03). O reprojeto previsto é de escopo reduzido e pode ser incorporado na próxima iteração do protótipo sem impactar o fluxo geral da funcionalidade.
+Com base nos dados coletados das cinco sessões, dois problemas foram identificados (P01 cosmético, P02 pequeno) e três sugestões de melhoria foram registradas (S01, S02 e S03). O reprojeto previsto é de escopo reduzido e pode ser incorporado na próxima iteração do protótipo sem impactar o fluxo geral da funcionalidade.
 
 **Tabela 5 - Cronograma de Reprojeto**
 
 | Item | Ação de Reprojeto | Executor | Data Prevista |
 | :---: | :---: | :---: | :---: |
 | P01 | Elevar o destaque visual do prazo de crédito na tela de Visualização da Proposta (ajuste tipográfico ou adição de ícone de calendário) | Heitor Macedo | A definir |
+| P02 | Adicionar nota informativa na tela de Resposta descrevendo o próximo passo em caso de recusa (ex.: "Se recusar, sua reclamação continuará aberta para nova proposta ou audiência de conciliação") | Heitor Macedo | A definir |
 | S01 | Avaliar a viabilidade de adicionar uma terceira opção de assinatura via cadastro PROCON-DF para próximas iterações | Heitor Macedo | A definir |
 | S02 | Avaliar a viabilidade de incluir e-mail como canal complementar de notificação ativa, além do WhatsApp | Heitor Macedo | A definir |
 | S03 | Adicionar envio automático de confirmação por e-mail ou SMS ao usuário após a assinatura do acordo na tela de sucesso | Heitor Macedo | A definir |
@@ -542,5 +609,6 @@ Agradecimento ao **Claude** pela ajuda na elaboração e estruturação deste re
 | 1.0 | 14/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade — Notificação Ativa com dados da entrevista com P1. | Heitor Macedo | Heitor Macedo |
 | 1.1 | 14/06/2026 | Adição das seções de Feedback dos Usuários e Tabelas de Expectativa/Realidade do Perfil, Coluna de Frequência na tabela de problemas e reordenação das seções conforme planejamento. | Heitor Macedo | Heitor Macedo |
 | 1.2 | 16/06/2026 | Incorporação dos dados da sessão com P2: perfil (Tabela 3b), respostas pós-tarefa (Tabela 4), feedback (Tabela 6 expandida), atualização da frequência de P01 (1/2) e adição da sugestão S02. | Heitor Macedo | Heitor Macedo |
-| 1.3 | 16/06/2026 | Incorporação dos dados da sessão com P3 (34 anos, Engenheiro Elétrico, presencial 17:40–17:50): perfil (Tabela 3c), respostas pós-tarefa (Tabela 4b), feedback (Tabela 6 expandida), atualização da frequência de P01 (1/3) e adição da sugestão S03 (confirmação pós-assinatura por e-mail/SMS). | Heitor Macedo | Heitor Macedo |
-| 1.4 | 16/06/2026 | Incorporação dos dados da sessão com P4 (18 anos, Universitária, presencial 19:40–19:50 de 14/06/2026): perfil (Tabela 3d), respostas pós-tarefa (Tabela 4c), feedback (Tabela 6 expandida), atualização da frequência de P01 (1/4) e adição do link de vídeo da sessão. Nenhuma nova sugestão ou problema registrado. | Heitor Macedo | Heitor Macedo |
+| 1.3 | 16/06/2026 | Incorporação dos dados da sessão com P3 (34 anos, Engenheiro Elétrico, presencial 17:40–17:50): perfil (Tabela 3c), respostas pós-tarefa (Tabela 4b), feedback (Tabela 6 expandida), atualização da frequência de P01 (1/3) e adição da sugestão S03. | Heitor Macedo | Heitor Macedo |
+| 1.4 | 16/06/2026 | Incorporação dos dados da sessão com P4 (18 anos, Universitária, presencial 19:40–19:50 de 14/06/2026): perfil (Tabela 3d), respostas pós-tarefa (Tabela 4c), feedback (Tabela 6 expandida), atualização da frequência de P01 (1/4). Nenhuma nova sugestão ou problema registrado. | Heitor Macedo | Heitor Macedo |
+| 1.5 | 16/06/2026 | Incorporação dos dados da sessão com P5 (45 anos, Orientadora Educacional, presencial 16:40–16:50 de 16/06/2026): perfil (Tabela 3e), respostas pós-tarefa (Tabela 4d), feedback (Tabela 6 expandida), atualização da frequência de P01 (1/5) e identificação do novo problema P02 (ausência de informação sobre consequências da recusa da proposta, gravidade 2). Tabela de Reprojeto expandida com P02. | Heitor Macedo | Heitor Macedo |
