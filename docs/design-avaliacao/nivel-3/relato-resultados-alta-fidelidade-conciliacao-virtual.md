@@ -5,7 +5,7 @@ Colaboração referente a [Etapa 6](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaborou o Artefato |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 
 ## Introdução
 
@@ -43,16 +43,16 @@ O protótipo de alta fidelidade avaliado foi o **Protótipo da Sala de Concilia�
 
 <p style="text-align: center"><a href="../prototipo-alta-fidelidade-conciliacao" target="blanket">Clique aqui para acessar o Protótipo de Alta Fidelidade</a></p>
 
-<font size="3"><p style="text-align: center">Fonte: Elaborado por Pedro Moretti.</p></font>
+<font size="3"><p style="text-align: center">Fonte: Elaborado por Pedro Augusto Moretti Moreira.</p></font>
 
 **Tabela 1 - Cronograma Executado**
 
 | Entrevistador | Entrevistado | Horário de Início | Horário de Fim | Data | Local |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Pedro Moretti](../../equipe/equipe.md) | <span style="color: orange">P1</span> | 10:30 | 11:10 | 12/06/2026 | Presencial |
+| [Pedro Augusto Moretti Moreira](../../equipe/equipe.md) | <span style="color: orange">P1</span> | 10:30 | 11:10 | 12/06/2026 | Presencial |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ---
@@ -68,7 +68,7 @@ O teste piloto foi conduzido antes da sessão oficial com o participante real. O
 
 <p style="text-align: center"><a href="https://youtu.be/HU0sU2rVnE4" target="blanket">Clique aqui para acessar a gravação do Teste Piloto</a></p>
 
-<font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
+<font size="3"><p style="text-align: center">Fonte: Pedro Augusto Moretti Moreira.</p></font>
 
 ---
 
@@ -85,10 +85,10 @@ O perfil da participante está alinhado com o perfil de usuário primário **For
 | ID | Papel na Avaliação | Perfil de Usuário / Alinhamento | Idade | Ocupação |
 | :---: | :---: | :---: | :---: | :---: |
 | P1 | Usuário Avaliador | Fornecedor (Representante da Empresa) | 40 anos | Empresária |
-| A1 | Mediador | Pedro Moretti (Grupo 03) | 20 anos | Moderador |
+| A1 | Mediador | Pedro Augusto Moretti Moreira (Grupo 03) | 20 anos | Moderador |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ---
@@ -140,7 +140,7 @@ O protótipo de alta fidelidade cobre as seguintes telas e interações, percorr
 
 <div align="center">
 <p><i>Nota sobre o Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 **Tabela 3 - Respostas da Participante P1 às Perguntas Pós-Tarefa**
@@ -162,14 +162,14 @@ O protótipo de alta fidelidade cobre as seguintes telas e interações, percorr
 | E. Percepção Geral de Valor | Qual foi a etapa mais confusa de todo o processo que realizamos hoje? Se você fosse o designer, o que mudaria nela? | "Não identifiquei nada que precisa ser mudado, bem claro, intuitivo, explicativo, com todas as telas bem desenhadas" |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 Abaixo, o vídeo da sessão de avaliação com a participante P1:
 
 <p style="text-align: center"><a href="https://youtu.be/CYzyM1BqrG4" target="blanket">Clique aqui para acessar a gravação da sessão</a></p>
 
-<font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
+<font size="3"><p style="text-align: center">Fonte: Pedro Augusto Moretti Moreira.</p></font>
 
 ---
 
@@ -226,7 +226,7 @@ Não foram identificados problemas de usabilidade, ambiguidades de interface ou 
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ---
@@ -253,7 +253,7 @@ Os resultados desta avaliação reforçam a direção de design adotada e indica
 
 <div align="center">
 <p><i>Sem necessidade de reprojeto identificada nesta avaliação.</i></p>
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ---
@@ -273,5 +273,5 @@ Agradecimento ao **Claude** pela ajuda na correção e detalhamento das resposta
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | 12/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade — Sala de Conciliação Virtual com dados da entrevista com P1. | Pedro Moretti | — |
-| 1.1 | 12/06/2026 | Substituição de referências a personas por perfil de usuário primário Fornecedor (Representante da Empresa). | Pedro Moretti | Heitor Macedo |
+| 1.0 | 12/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade — Sala de Conciliação Virtual com dados da entrevista com P1. | Pedro Augusto Moretti Moreira | — |
+| 1.1 | 12/06/2026 | Substituição de referências a personas por perfil de usuário primário Fornecedor (Representante da Empresa). | Pedro Augusto Moretti Moreira | Heitor Macedo |

@@ -6,7 +6,7 @@ Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
 | Autores | Contribuiu |
 |---|---|
 | Heitor Macedo | Aplicou 3  Técnicas  |
-| Pedro Moretti | Aplicou 3 Técnicas  |
+| Pedro Augusto Moretti Moreira | Aplicou 3 Técnicas  |
 | Heloisa Silva | Aplicou 2 Técnicas |
 
 ## Introdução
@@ -30,7 +30,7 @@ Técnica de elicitação qualitativa que reúne usuários representativos para d
 Eficaz para revelar a jornada emocional do consumidor e as barreiras que o levam a desistir do sistema oficial.
 
 **Aplicação:**
-Realizada presencialmente em **30/04/2026** com três participantes, mediada por Heitor Macedo, Pedro Moretti e Heloisa. Foco em usabilidade e jornada de reclamação.
+Realizada presencialmente em **30/04/2026** com três participantes, mediada por Heitor Macedo, Pedro Augusto Moretti Moreira e Heloisa. Foco em usabilidade e jornada de reclamação.
 
 ### Entrevistas (Fornecedores)
 
@@ -116,7 +116,7 @@ A entrevista focada no setor produtivo revelou necessidades e atitudes distintas
 
 A análise documental permitiu expandir a visão sobre o público real do PROCON-DF, trazendo dados quantitativos e comportamentais de larga escala, que contrastam e complementam a amostra qualitativa.
 
-#### Análise Documental realizada por Heitor Macedo, Heloisa Silva e Pedro Moretti
+#### Análise Documental realizada por Heitor Macedo, Heloisa Silva e Pedro Augusto Moretti Moreira
 
 A consolidação das análises documentais — baseadas no Sindec Nacional, Carta de Serviços (2025), teses acadêmicas, matérias jornalísticas e na própria estrutura do portal (FAQ, cartilhas) — revela os seguintes achados principais:
 
@@ -235,14 +235,14 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 
 | Versão | Data       | Descrição                                                                                                                                    | Autor(es)                             | Revisor       |
 | :----- | :--------- | :------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------ | :------------ |
-| `1.0`  | 30/04/2026 | Criação do documento com dados do Grupo de Foco.                                                                                             | Heitor Macedo, Heloisa, Pedro Moretti | Heloisa Silva |
+| `1.0`  | 30/04/2026 | Criação do documento com dados do Grupo de Foco.                                                                                             | Heitor Macedo, Heloisa, Pedro Augusto Moretti Moreira | Heloisa Silva |
 | `1.1`  | 01/05/2026 | Integração de Perfil de Fornecedor via entrevista semiestruturada.                                                                           | Pedro Augusto Moretti Moreira         | Heitor Macedo |
-| `1.2`  | 03/05/2026 | Inclusão e consolidação da análise documental e dos perfis geracionais (incluindo distribuição dos atendimentos). E adição da bibliografia. | Heloisa Silva                         | Pedro Moretti |
+| `1.2`  | 03/05/2026 | Inclusão e consolidação da análise documental e dos perfis geracionais (incluindo distribuição dos atendimentos). E adição da bibliografia. | Heloisa Silva                         | Pedro Augusto Moretti Moreira |
 | `1.3`  | 03/05/2026 | Adição da entrevista ao consumidor (Heitor Macedo Ricardo), reorganização das tabelas de Material de Apoio e Relatórios, e nova análise documental do PROCON-DF. | Heitor Macedo Ricardo | Heloisa Silva |
-| `1.4`  | 03/05/2026 | Inclusão da análise documental complementar (Pedro Moretti), integração dos achados ao perfil e adição das referências correspondentes.      | Pedro Augusto Moretti Moreira         | Heloisa Silva |
+| `1.4`  | 03/05/2026 | Inclusão da análise documental complementar (Pedro Augusto Moretti Moreira), integração dos achados ao perfil e adição das referências correspondentes.      | Pedro Augusto Moretti Moreira         | Heloisa Silva |
 | `1.5`  | 05/05/2026 | Ajustes a partir dos feedbacks da apresentação  | Heitor Macedo Ricardo | Heloisa Silva |
 | `1.6`  | 08/05/2026 | Unificação do perfil de consumidor, adição do perfil de funcionário e padronização em tabela dos resultados das entrevistas | Heitor Macedo Ricardo | Heloisa Silva |
-| `1.7`  | 12/06/2026 | Reclassificação dos perfis: Fornecedor e Funcionário passam a ser primários (antes secundário e terciário), pois todos utilizam o sistema diariamente. | Pedro Moretti | Heitor Macedo |
+| `1.7`  | 12/06/2026 | Reclassificação dos perfis: Fornecedor e Funcionário passam a ser primários (antes secundário e terciário), pois todos utilizam o sistema diariamente. | Pedro Augusto Moretti Moreira | Heitor Macedo |
 ## Notas de Rodapé e Referências de Imagens
 
 

@@ -196,8 +196,8 @@ Agradecimento ao **Claude** pela ajuda na estruturação deste documento ao mont
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :---: | :---: | :---: |
-| 1.0 | 31/05/2026 | Criação do planejamento da avaliação do protótipo de papel | Heitor Macedo | Pedro Moretti |
-| 1.1 | 07/0/2026 | Atualização dos objetivos e do recrutamento | Heitor Macedo | Pedro Moretti |
+| 1.0 | 31/05/2026 | Criação do planejamento da avaliação do protótipo de papel | Heitor Macedo | Pedro Augusto Moretti Moreira |
+| 1.1 | 07/0/2026 | Atualização dos objetivos e do recrutamento | Heitor Macedo | Pedro Augusto Moretti Moreira |
 
 ---
 

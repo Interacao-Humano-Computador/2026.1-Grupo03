@@ -78,6 +78,6 @@ Agradecimento ao Google Gemini pela ajuda na construção técnica e escrita da 
 
 | Versão | Data       | Descrição                                      | Autor        | Revisores |
 |:---|:---|:---|:---|:---|
-| 1.2    | 2026-04-11 | Ajustando local dos pdfs                  | Pedro Macedo | Pedro Moretti |
-| 1.1    | 2026-04-16 | Adição da seção de Introdução.              | Pedro Moretti | Heitor Macedo |
-| 1.0    | 2026-04-11 | Criação do documento inicial                  | Pedro Macedo | Pedro Moretti |
+| 1.2    | 2026-04-11 | Ajustando local dos pdfs                  | Pedro Macedo | Pedro Augusto Moretti Moreira |
+| 1.1    | 2026-04-16 | Adição da seção de Introdução.              | Pedro Augusto Moretti Moreira | Heitor Macedo |
+| 1.0    | 2026-04-11 | Criação do documento inicial                  | Pedro Macedo | Pedro Augusto Moretti Moreira |

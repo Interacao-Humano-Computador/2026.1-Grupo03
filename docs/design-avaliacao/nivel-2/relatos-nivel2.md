@@ -6,7 +6,7 @@ Colaboração referente à [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaborou o Artefato |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 | Heitor Macedo | Realizou a triangulação |
 
 ---
@@ -21,7 +21,7 @@ Esta página consolida os relatos de resultados das avaliações conduzidas no *
 
 | Documento | Autor(es) | Objeto Avaliado | Acesso |
 |---|---|---|---|
-| Relato — Sala de Conciliação Virtual | Pedro Moretti | Avaliação do protótipo de papel da Sala de Conciliação Virtual | [Acessar](relato-resultados-conciliacao-virtual.md) |
+| Relato — Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | Avaliação do protótipo de papel da Sala de Conciliação Virtual | [Acessar](relato-resultados-conciliacao-virtual.md) |
 | Relato — Notificação Ativa | Heitor Macedo Ricardo | Avaliação do protótipo de papel da Notificação Ativa | [Acessar](relato-resultados-notificacao-ativa.md) |
 
 ---
@@ -38,7 +38,7 @@ Esta seção sintetiza, de forma interparticipante e entre funcionalidades, os d
 
 | Funcionalidade | Avaliador | Participante | Perfil | Data | Nº de Tarefas | Taxa de Conclusão | Problemas (Gravidade ≥ 2) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Sala de Conciliação Virtual | Pedro Moretti | P1 | Fornecedor (empresária, 40 anos) | 05/06/2026 | 1 (fluxo completo) | 100% | 0 |
+| Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | P1 | Fornecedor (empresária, 40 anos) | 05/06/2026 | 1 (fluxo completo) | 100% | 0 |
 | Notificação Ativa | Heitor Macedo | P1 | Consumidor (universitária, ~18 anos) | 05/06/2026 | 1 (fluxo completo) | 100% | 0 |
 
 <div align="center">
@@ -144,5 +144,5 @@ Os resultados do Nível 2 são amplamente positivos. As avaliações dos protót
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 11/06/2026 | Criação da página de consolidação dos relatos do Nível 2. | Pedro Moretti | Heitor Macedo |
+| 1.0 | 11/06/2026 | Criação da página de consolidação dos relatos do Nível 2. | Pedro Augusto Moretti Moreira | Heitor Macedo |
 | 1.1 | 14/06/2026 | Adição da seção de Triangulação e Consolidação dos Resultados do Nível 2 e atualização da colaboração. | Heitor Macedo | Heitor Macedo |

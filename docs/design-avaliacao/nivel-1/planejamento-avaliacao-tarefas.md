@@ -155,9 +155,9 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :---: | :---: | :---: |
-| 1.2 | 29/05/2026 | Atualização dos objetivos e perguntas com base no livro; alinhamento com modelos CTT/HTA/GOMS | Pedro Moretti | Heitor Macedo |
-| 1.1 | 22/05/2026 | Correção e alinhamento metodológico do teste piloto com o relato | Pedro Macedo | Pedro Moretti |
-| 1.0 | 19/05/2026 | Criação do planejamento da avaliação de tarefas | Pedro Macedo | Pedro Moretti |
+| 1.2 | 29/05/2026 | Atualização dos objetivos e perguntas com base no livro; alinhamento com modelos CTT/HTA/GOMS | Pedro Augusto Moretti Moreira | Heitor Macedo |
+| 1.1 | 22/05/2026 | Correção e alinhamento metodológico do teste piloto com o relato | Pedro Macedo | Pedro Augusto Moretti Moreira |
+| 1.0 | 19/05/2026 | Criação do planejamento da avaliação de tarefas | Pedro Macedo | Pedro Augusto Moretti Moreira |
 
 ---
 

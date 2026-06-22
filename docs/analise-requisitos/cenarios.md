@@ -6,7 +6,7 @@ Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
 | Autores | Contribuiu |
 |---|---|
 | Heitor Macedo | Com 1 Cenário   |
-| Pedro Moretti |  Com 2 Cenário |
+| Pedro Augusto Moretti Moreira |  Com 2 Cenário |
 | Heloisa Silva |  Com 1 Cenário |
 | Matheus Rodrigues | Com 1 Cenário  |
 | Pedro Macedo | Com 1 Cenário |

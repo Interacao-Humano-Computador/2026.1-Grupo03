@@ -6,7 +6,7 @@ Colaboração referente à [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaborou o Artefato |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 | Heitor Macedo | Realizou a triangulação |
 
 ---
@@ -21,8 +21,8 @@ Esta página consolida os relatos de resultados das avaliações conduzidas no *
 
 | Documento | Autor(es) | Objeto Avaliado | Acesso |
 |---|---|---|---|
-| Relato dos Resultados — Storyboard | Heitor Macedo, Pedro Moretti, Heloisa Silva | Avaliação dos storyboards das funcionalidades do PROCON-DF | [Acessar](relato-resultados-storyboard.md) |
-| Relato dos Resultados — Análise de Tarefas | Heitor Macedo, Pedro Moretti | Avaliação dos modelos de tarefas (HTA e CTT) | [Acessar](relato-resultados-analise-tarefas.md) |
+| Relato dos Resultados — Storyboard | Heitor Macedo, Pedro Augusto Moretti Moreira, Heloisa Silva | Avaliação dos storyboards das funcionalidades do PROCON-DF | [Acessar](relato-resultados-storyboard.md) |
+| Relato dos Resultados — Análise de Tarefas | Heitor Macedo, Pedro Augusto Moretti Moreira | Avaliação dos modelos de tarefas (HTA e CTT) | [Acessar](relato-resultados-analise-tarefas.md) |
 
 ---
 
@@ -38,8 +38,8 @@ Esta seção sintetiza, de forma interparticipante e entre métodos de avaliaç�
 
 | Método | Avaliadores | Participantes | Perfis | Nº de Avaliações | Taxa de Conclusão | Problemas (Gravidade ≥ 2) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Storyboard | Heitor Macedo, Pedro Moretti, Heloisa Silva | P1, P2, P3 | Universitária (18), Empresário (40), Aposentada (67) | 3 | 100% | 0 |
-| Análise de Tarefas (HTA + CTT) | Heitor Macedo, Pedro Moretti | P1, P2 | Universitária (18), Empresário (40) | 2 | 100% | 5 |
+| Storyboard | Heitor Macedo, Pedro Augusto Moretti Moreira, Heloisa Silva | P1, P2, P3 | Universitária (18), Empresário (40), Aposentada (67) | 3 | 100% | 0 |
+| Análise de Tarefas (HTA + CTT) | Heitor Macedo, Pedro Augusto Moretti Moreira | P1, P2 | Universitária (18), Empresário (40) | 2 | 100% | 5 |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
@@ -133,5 +133,5 @@ Os resultados do Nível 1 são positivos no que se refere à validação conceit
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 11/06/2026 | Criação da página de consolidação dos relatos do Nível 1. | Pedro Moretti | Heitor Macedo |
+| 1.0 | 11/06/2026 | Criação da página de consolidação dos relatos do Nível 1. | Pedro Augusto Moretti Moreira | Heitor Macedo |
 | 1.1 | 14/06/2026 | Adição da seção de Triangulação e Consolidação dos Resultados do Nível 1 e atualização da colaboração. | Heitor Macedo | Heitor Macedo |

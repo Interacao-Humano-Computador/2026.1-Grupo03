@@ -181,7 +181,7 @@ Agradecimento ao **Claude** pela ajuda na estruturação deste documento ao mont
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | 31/05/2026 | Criação do Planejamento do Relato dos Resultados do Protótipo de Papel. | Heitor Macedo Ricardo | Pedro Moretti |
+| 1.0 | 31/05/2026 | Criação do Planejamento do Relato dos Resultados do Protótipo de Papel. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
 
 ## Notas de Rodapé e Referências de Imagens
 

@@ -53,12 +53,12 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 |:--:|:---|:---:|:---:|
 | **E3-04** | O Guia de Estilo do projeto foi construído respeitando rigorosamente a estrutura de 6 tópicos: Introdução, Resultados de análise, Elementos de interface, Elementos de interação, Elementos de ação e Vocabulário/Padrões? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao/VerificacaoHeitor-3-4.png) | Heitor Macedo |
 | **E3-05** | O Guia de Estilo documentado corresponde de fato às necessidades do site avaliado, servindo de insumo padronizado para as próximas fases de design? | (BARBOSA; SILVA, 2021). [Imagem 1](images/verificacao/VerificacaoHeitor-3-4.png), [Imagem 2](images/verificacao/VerificacaoHeitor-3-1.png) | Heitor Macedo |
-| **E3-06** | O guia de estilo aborda o elemento **layout** (proporção e grids, uso de metáforas espaciais, design gráfico de exibidores e ferramentas)? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Moretti |
-| **E3-07** | O guia de estilo aborda **tipografia** e seu uso em diálogos, formulários e relatórios? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Moretti |
-| **E3-08** | O guia de estilo aborda **simbolismo** (clareza e consistência no design de ícones)? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Moretti |
-| **E3-09** | O guia de estilo aborda o uso de **cores**? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Moretti |
-| **E3-10** | O guia de estilo aborda **visualização de informação** (design de gráficos, diagramas e mapas)? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Moretti |
-| **E3-11** | O guia de estilo aborda o **design de telas e elementos de interface** (widgets)? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Moretti |
+| **E3-06** | O guia de estilo aborda o elemento **layout** (proporção e grids, uso de metáforas espaciais, design gráfico de exibidores e ferramentas)? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Augusto Moretti Moreira |
+| **E3-07** | O guia de estilo aborda **tipografia** e seu uso em diálogos, formulários e relatórios? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Augusto Moretti Moreira |
+| **E3-08** | O guia de estilo aborda **simbolismo** (clareza e consistência no design de ícones)? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Augusto Moretti Moreira |
+| **E3-09** | O guia de estilo aborda o uso de **cores**? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Augusto Moretti Moreira |
+| **E3-10** | O guia de estilo aborda **visualização de informação** (design de gráficos, diagramas e mapas)? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Augusto Moretti Moreira |
+| **E3-11** | O guia de estilo aborda o **design de telas e elementos de interface** (widgets)? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Augusto Moretti Moreira |
 
 ---
 ## Referências
@@ -70,4 +70,4 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 
 | Versão | Data       | Descrição                                 | Autor(es)     | Revisor(es) |
 | :---   | :---       | :---                                      | :---          | :---        |
-| `1.0`  | 14/05/2026 | Criação da lista de verificação da Etapa 3. | Heitor Macedo | Pedro Moretti |
+| `1.0`  | 14/05/2026 | Criação da lista de verificação da Etapa 3. | Heitor Macedo | Pedro Augusto Moretti Moreira |

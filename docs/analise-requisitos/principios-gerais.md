@@ -193,8 +193,8 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.4 | 21/05/2026 | Formatação do documento | Heitor Macêdo Ricardo | Pedro Moretti |
-| 1.3 | 17/05/2026 | Formatação das Referências | Heitor Macedo Ricardo | Pedro Moretti |
+| 1.4 | 21/05/2026 | Formatação do documento | Heitor Macêdo Ricardo | Pedro Augusto Moretti Moreira |
+| 1.3 | 17/05/2026 | Formatação das Referências | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
 | 1.2 | 10/05/2026 | Correção das referências por imagem | Heitor Macedo Ricardo | Pedro Macedo |
 | 1.1 | 10/05/2026 | Adição das imagens na referencia e agradecimento a IA | Pedro Macedo | Heitor Macedo Ricardo |
 | 1.0 | 10/05/2026 | Criação dos Princípios Gerais de Projeto. | Heitor Macedo Ricardo | Pedro Macedo |

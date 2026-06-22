@@ -5,7 +5,7 @@ Colaboração referente a [Etapa 4](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaborou o Artefato  |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato  |
 | Eduardo | Elaborou o Artefato  |
 
 Este documento detalha o planejamento para a avaliação dos storyboards elaborados para o projeto, utilizando o framework **DECIDE** proposto por Preece et al. (2002) e adaptado por Barbosa e Silva (2021)<sup><a href="#ref1">[1]</a></sup>.
@@ -192,10 +192,10 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :---: | :---: | :---: |
-| 1.3 | 29/05/2026 | Atualização dos objetivos e perguntas com base no livro; ajustes nos recursos e cronograma | Pedro Moretti | Heitor Macedo |
-| 1.2 | 22/05/2026 | Correção e alinhamento do teste piloto com o planejamento de relato | Eduardo Valadares e Pedro Moretti | Heitor Macedo |
+| 1.3 | 29/05/2026 | Atualização dos objetivos e perguntas com base no livro; ajustes nos recursos e cronograma | Pedro Augusto Moretti Moreira | Heitor Macedo |
+| 1.2 | 22/05/2026 | Correção e alinhamento do teste piloto com o planejamento de relato | Eduardo Valadares e Pedro Augusto Moretti Moreira | Heitor Macedo |
 | 1.1 | 19/05/2026 | Adição da introdução, metodologia DECIDE, tabela de cronograma e detalhamento do roteiro de perguntas e execução | Eduardo Valadares | Heitor Macedo |
-| 1.0 | 19/05/2026 | Criação do planejamento de avaliação do storyboard | Pedro Moretti | Heitor Macedo |
+| 1.0 | 19/05/2026 | Criação do planejamento de avaliação do storyboard | Pedro Augusto Moretti Moreira | Heitor Macedo |
 
 ---
 

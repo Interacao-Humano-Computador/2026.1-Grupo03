@@ -5,7 +5,7 @@ Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaborou o Artefato |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 
 ---
 
@@ -93,7 +93,7 @@ Na Figura 2, apresenta-se a tela de notificação recebida via WhatsApp com o li
   <a href="../../images/conciliacao/notificacao.jpeg" target=_blank>
     <img src="../../images/conciliacao/notificacao.jpeg" alt="Notificação recebida via WhatsApp com link para a sala virtual" width="500">
   </a>
-  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+  <p><b>Fonte:</b> Pedro Augusto Moretti Moreira (2026).</p>
 </div>
 
 Na Figura 3, observa-se a sala de espera com contagem regressiva e a lista de participantes aguardando o início da audiência.
@@ -103,7 +103,7 @@ Na Figura 3, observa-se a sala de espera com contagem regressiva e a lista de pa
   <a href="../../images/conciliacao/sala-espera.jpeg" target=_blank>
     <img src="../../images/conciliacao/sala-espera.jpeg" alt="Sala de espera com contagem regressiva e lista de participantes" width="500">
   </a>
-  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+  <p><b>Fonte:</b> Pedro Augusto Moretti Moreira (2026).</p>
 </div>
 
 Na Figura 4, apresenta-se a tela de teste de periféricos, onde o usuário verifica o funcionamento da câmera e do microfone antes de entrar na sala.
@@ -113,7 +113,7 @@ Na Figura 4, apresenta-se a tela de teste de periféricos, onde o usuário verif
   <a href="../../images/conciliacao/teste-equipamento.jpeg" target=_blank>
     <img src="../../images/conciliacao/teste-equipamento.jpeg" alt="Teste guiado de câmera e microfone com indicadores visuais" width="500">
   </a>
-  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+  <p><b>Fonte:</b> Pedro Augusto Moretti Moreira (2026).</p>
 </div>
 
 Na Figura 5, apresenta-se a tela principal de videoconferência, com os vídeos dos participantes, identificação de nomes e papéis fixos, e os controles de mídia.
@@ -123,7 +123,7 @@ Na Figura 5, apresenta-se a tela principal de videoconferência, com os vídeos 
   <a href="../../images/conciliacao/tela-videochamada.jpeg" target=_blank>
     <img src="../../images/conciliacao/tela-videochamada.jpeg" alt="Sala de videoconferência com participantes, controles de mídia e painéis laterais" width="500">
   </a>
-  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+  <p><b>Fonte:</b> Pedro Augusto Moretti Moreira (2026).</p>
 </div>
 
 Na Figura 6, observa-se o chat de evidências integrado, utilizado para troca de documentos entre as partes com confirmação de entrega.
@@ -133,7 +133,7 @@ Na Figura 6, observa-se o chat de evidências integrado, utilizado para troca de
   <a href="../../images/conciliacao/chat-evidencias.jpeg" target=_blank>
     <img src="../../images/conciliacao/chat-evidencias.jpeg" alt="Painel de chat para troca de documentos com confirmação de entrega" width="500">
   </a>
-  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+  <p><b>Fonte:</b> Pedro Augusto Moretti Moreira (2026).</p>
 </div>
 
 Na Figura 7, apresenta-se o termo de acordo elaborado pelo mediador em linguagem simples, com valor e prazo destacados.
@@ -143,7 +143,7 @@ Na Figura 7, apresenta-se o termo de acordo elaborado pelo mediador em linguagem
   <a href="../../images/conciliacao/termo-acordo.jpeg" target=_blank>
     <img src="../../images/conciliacao/termo-acordo.jpeg" alt="Minuta do termo de acordo em linguagem simples" width="500">
   </a>
-  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+  <p><b>Fonte:</b> Pedro Augusto Moretti Moreira (2026).</p>
 </div>
 
 Na Figura 8, observa-se a tela de assinatura digital, com autenticação via Gov.br.
@@ -153,7 +153,7 @@ Na Figura 8, observa-se a tela de assinatura digital, com autenticação via Gov
   <a href="../../images/conciliacao/assinatura.jpeg" target=_blank>
     <img src="../../images/conciliacao/assinatura.jpeg" alt="Tela de assinatura digital via Gov.br" width="500">
   </a>
-  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+  <p><b>Fonte:</b> Pedro Augusto Moretti Moreira (2026).</p>
 </div>
 
 Na Figura 9, apresenta-se a tela de encerramento, exibindo a confirmação de que o acordo foi firmado com sucesso.
@@ -163,7 +163,7 @@ Na Figura 9, apresenta-se a tela de encerramento, exibindo a confirmação de qu
   <a href="../../images/conciliacao/acordo-firmado.jpeg" target=_blank>
     <img src="../../images/conciliacao/acordo-firmado.jpeg" alt="Tela de sucesso indicando que o acordo foi firmado" width="500">
   </a>
-  <p><b>Fonte:</b> Pedro Moretti (2026).</p>
+  <p><b>Fonte:</b> Pedro Augusto Moretti Moreira (2026).</p>
 </div>
 
 ---
@@ -184,6 +184,6 @@ Agradecimento ao **DeepSeek** pela ajuda na estruturação e formatação deste 
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Pedro Moretti | Mateu Barreto |
-| 1.1 | 07/06/2026 | Adição das imagens do protótipo de papel e atualização da legenda do protótipo interativo. | Pedro Moretti | — |
+| 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Pedro Augusto Moretti Moreira | Mateu Barreto |
+| 1.1 | 07/06/2026 | Adição das imagens do protótipo de papel e atualização da legenda do protótipo interativo. | Pedro Augusto Moretti Moreira | — |
 

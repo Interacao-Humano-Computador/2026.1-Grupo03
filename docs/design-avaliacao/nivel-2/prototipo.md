@@ -184,4 +184,4 @@ Este artefato contou com o apoio do assistente de IA **Claude** (Anthropic), que
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Heitor Macedo | Pedro Moretti |
+| 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Heitor Macedo | Pedro Augusto Moretti Moreira |

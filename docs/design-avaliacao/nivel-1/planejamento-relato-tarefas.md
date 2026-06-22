@@ -142,8 +142,8 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.1 | 22/05/2026 | Correção e alinhamento metodológico com o planejamento de avaliação. | Heitor Macedo Ricardo | Pedro Moretti |
-| 1.0 | 17/05/2026 | Criação do Planejamento do Relato dos Resultados da Análise de Tarefas. | Heitor Macedo Ricardo | Pedro Moretti |
+| 1.1 | 22/05/2026 | Correção e alinhamento metodológico com o planejamento de avaliação. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
+| 1.0 | 17/05/2026 | Criação do Planejamento do Relato dos Resultados da Análise de Tarefas. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
 
 ## Notas de Rodapé e Referências de Imagens
 

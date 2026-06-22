@@ -82,7 +82,7 @@ Conheça os membros responsáveis por este projeto da disciplina de Interação 
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :--- | :---: | :---: |
-| 1.3 | 16/04/2026 | Retirada do membro Gabriel. | Pedro Moretti | Heloísa |
-| 1.2 | 16/04/2026 | Inclusão do membro Gabriel. | Pedro Moretti | Heitor Macedo |
-| 1.1 | 16/04/2026 | Adição da seção "Introdução". | Pedro Moretti | Heitor Macedo Ricardo |
-| 1.0 | 12/04/2026 | Criação da página com o perfil dos integrantes. | Pedro Moretti | Heitor Macedo Ricardo |
+| 1.3 | 16/04/2026 | Retirada do membro Gabriel. | Pedro Augusto Moretti Moreira | Heloísa |
+| 1.2 | 16/04/2026 | Inclusão do membro Gabriel. | Pedro Augusto Moretti Moreira | Heitor Macedo |
+| 1.1 | 16/04/2026 | Adição da seção "Introdução". | Pedro Augusto Moretti Moreira | Heitor Macedo Ricardo |
+| 1.0 | 12/04/2026 | Criação da página com o perfil dos integrantes. | Pedro Augusto Moretti Moreira | Heitor Macedo Ricardo |

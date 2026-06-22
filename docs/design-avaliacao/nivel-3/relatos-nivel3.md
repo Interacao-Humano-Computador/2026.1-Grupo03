@@ -6,7 +6,7 @@ Colaboração referente à [Etapa 7](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaborou o Artefato |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 | Heitor Macedo | Realizou a Triangulação |
 
 ---
@@ -21,7 +21,7 @@ Esta página consolida os relatos de resultados das avaliações conduzidas no *
 
 | Documento | Autor(es) | Objeto Avaliado | Acesso |
 |---|---|---|---|
-| Relato — Sala de Conciliação Virtual | Pedro Moretti | Avaliação do protótipo de alta fidelidade da Sala de Conciliação Virtual | [Acessar](relato-resultados-alta-fidelidade-conciliacao-virtual.md) |
+| Relato — Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | Avaliação do protótipo de alta fidelidade da Sala de Conciliação Virtual | [Acessar](relato-resultados-alta-fidelidade-conciliacao-virtual.md) |
 | Relato — Notificação Ativa | Heitor Macedo | Avaliação do protótipo de alta fidelidade da Notificação Ativa | [Acessar](relato-resultados-alta-fidelidade-notificacao-ativa.md) |
 | Relato — Assistente de Triagem Guiada | Pedro Macedo | Avaliação do protótipo de alta fidelidade da Notificação Ativa | [Acessar](relato-resultados-alta-fidelidade-triagem-guiada.md) |
 
@@ -39,12 +39,12 @@ Esta seção sintetiza, de forma interparticipante e entre funcionalidades, os d
 
 | Funcionalidade | Avaliador | Participante | Perfil | Data | Nº de Tarefas | Taxa de Conclusão | Problemas (Gravidade ≥ 2) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Sala de Conciliação Virtual | Pedro Moretti | P1 | Fornecedor (empresária, 40 anos) | 12/06/2026 | 3 | 100% | 0 |
+| Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | P1 | Fornecedor (empresária, 40 anos) | 12/06/2026 | 3 | 100% | 0 |
 | Notificação Ativa | Heitor Macedo | P1 | Consumidor (professor, 44 anos) | 13/06/2026 | 1 (fluxo completo) | 100% | 0 |
 | Triagem Guiada | Pedro Macedo | P1 | Consumidor (professora, 60 anos) | 16/06/2026 | 1 (fluxo completo) | 100% | 0 |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Pedro Moretti e Heitor Macedo.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira e Heitor Macedo.</i></p>
 </div>
 
 ---
@@ -88,7 +88,7 @@ Em ambas as avaliações, os participantes manifestaram espontaneamente que as f
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Cosmético; (2) Pequeno; (3) Grande; (4) Catastrófico.</i></p>
-<p><i>Fonte: Elaborado por Pedro Moretti e Heitor Macedo.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira e Heitor Macedo.</i></p>
 </div>
 
 O único problema identificado em todo o Nível 3 é de **gravidade cosmética (1)**: na tela de visualização da proposta da Notificação Ativa, o prazo de crédito de 10 dias úteis não possui destaque visual proporcional à sua relevância para a decisão do usuário. A informação está presente, mas não é percebida de imediato.
@@ -106,7 +106,7 @@ A ausência de problemas na Sala de Conciliação Virtual e a presença de apena
 | S01 | Notificação Ativa | Adicionar terceira opção de assinatura digital vinculada ao cadastro próprio do portal PROCON-DF | P1 (pós-tarefa) | Média |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Pedro Moretti e Heitor Macedo.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira e Heitor Macedo.</i></p>
 </div>
 
 A sugestão S01 está alinhada com a convergência identificada no ponto 2 (valorização de múltiplas opções de assinatura) e pode ser avaliada para implementação em iterações futuras, aumentando a inclusão digital para usuários sem conta GOV.BR ativa ou sem biometria disponível no dispositivo.
@@ -124,7 +124,7 @@ A sugestão S01 está alinhada com a convergência identificada no ponto 2 (valo
 | Foram observadas sugestões de refinamento? | Sim — 1 sugestão (S01): adicionar terceira opção de assinatura digital na Notificação Ativa |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Pedro Moretti e Heitor Macedo.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira e Heitor Macedo.</i></p>
 </div>
 
 ---
@@ -145,7 +145,7 @@ Os resultados do Nível 3 são positivos em sua totalidade. As avaliações dos 
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 12/06/2026 | Criação da página de consolidação dos relatos do Nível 3. | Pedro Moretti | Heitor Macedo |
+| 1.0 | 12/06/2026 | Criação da página de consolidação dos relatos do Nível 3. | Pedro Augusto Moretti Moreira | Heitor Macedo |
 | 1.1 | 14/06/2026 | Adição do relato de Notificação Ativa e atualização da colaboração. | Heitor Macedo | Heitor Macedo |
 | 1.2 | 14/06/2026 | Adição da seção de Triangulação e Consolidação dos Resultados do Nível 3. | Heitor Macedo | Heitor Macedo |
 | 1.3 | 16/06/2026 | Adição do relato do Assistente de Triagem Guiada 3. | Pedro Macedo | Heitor Macedo |

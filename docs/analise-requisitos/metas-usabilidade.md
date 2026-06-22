@@ -143,9 +143,9 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento e auxí
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.2` | 21/05/2026 | Formatação do documento. | Heitor Macêdo Ricardo | Pedro Moretti |
-| `1.1` | 11/05/2026 | Inserção das imagens de comprovação bibliográfica. | Mateus Rodrigues Barreto | Pedro Moretti |
-| `1.0` | 10/05/2026 | Elaboração das Metas de Usabilidade. | Heitor Macedo Ricardo | Pedro Moretti |
+| `1.2` | 21/05/2026 | Formatação do documento. | Heitor Macêdo Ricardo | Pedro Augusto Moretti Moreira |
+| `1.1` | 11/05/2026 | Inserção das imagens de comprovação bibliográfica. | Mateus Rodrigues Barreto | Pedro Augusto Moretti Moreira |
+| `1.0` | 10/05/2026 | Elaboração das Metas de Usabilidade. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
 
 ## Notas de Rodapé e Referências de Imagens
 
