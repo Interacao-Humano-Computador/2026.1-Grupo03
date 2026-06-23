@@ -34,6 +34,82 @@ O protótipo cobre as seguintes telas e interações:
 
 ---
 
+## Fotos do Protótipo de Papel
+
+As imagens abaixo registram o protótipo de papel físico elaborado para a funcionalidade de Monitoramento de Prazos, utilizado nas sessões de avaliação com usuários.
+
+<div align="center">
+  <p><b>Figura 2 — Protótipo de Papel (1/8)</b></p>
+  <img src="../../images/pp_telas/pp-painel-1.jpg" alt="Protótipo de papel - foto 1" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Mateus Barreto, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 3 — Protótipo de Papel (2/8)</b></p>
+  <img src="../../images/pp_telas/pp-painel-2.jpg" alt="Protótipo de papel - foto 2" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Mateus Barreto, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 4 — Protótipo de Papel (3/8)</b></p>
+  <img src="../../images/pp_telas/pp-painel-3.jpg" alt="Protótipo de papel - foto 3" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Mateus Barreto, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 5 — Protótipo de Papel (4/8)</b></p>
+  <img src="../../images/pp_telas/pp-painel-4.jpg" alt="Protótipo de papel - foto 4" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Mateus Barreto, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 6 — Protótipo de Papel (5/8)</b></p>
+  <img src="../../images/pp_telas/pp-painel-5.jpg" alt="Protótipo de papel - foto 5" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Mateus Barreto, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 7 — Protótipo de Papel (6/8)</b></p>
+  <img src="../../images/pp_telas/pp-painel-6.jpg" alt="Protótipo de papel - foto 6" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Mateus Barreto, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 8 — Protótipo de Papel (7/8)</b></p>
+  <img src="../../images/pp_telas/pp-painel-7.jpg" alt="Protótipo de papel - foto 7" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Mateus Barreto, 2026.</i></p></div>
+
+---
+
+<div align="center">
+  <p><b>Figura 9 — Protótipo de Papel (8/8)</b></p>
+  <img src="../../images/pp_telas/pp-painel-8.jpg" alt="Protótipo de papel - foto 8" style="max-width:700px;width:100%;border-radius:8px;">
+</div>
+
+<div align="center"><p><i>Fonte: Mateus Barreto, 2026.</i></p></div>
+
+---
+
 ## Protótipo Interativo
 
 O protótipo abaixo é navegável diretamente no navegador. Clique nas telas para avançar no fluxo e simular a interação do usuário com a funcionalidade de Monitoramento de Prazos.
@@ -109,3 +185,4 @@ Este artefato contou com o apoio do assistente de IA **Claude** (Anthropic), que
 | 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Mateus Barreto | — |
 | 1.1 | 17/06/2026 | Adição de novas telas ao protótipo. | Mateus Barreto | — |
 | 1.2 | 19/06/2026 | Adição das telas "Minhas Reclamações" e "Adicionar Protocolo"; login passa a redirecionar para seleção de reclamação. | Mateus Barreto | — |
+| 1.3 | 22/06/2026 | Adição das imagens do protótipo de papel e reestruturação do layout do artefato. | Mateus Barreto | — |
