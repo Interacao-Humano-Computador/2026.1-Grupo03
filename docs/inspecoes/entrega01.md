@@ -21,7 +21,7 @@ Nesta seção validamos o **Planejamento Geral**, **Desenvolvimento Inicial** e 
 | **3** | O cronograma do planejamento apresenta um período de gravação da apresentação de cada etapa? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **4** | O cronograma prever um período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **5** | A motivação e os critérios para a escolha do site? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **6** | O planejamento e avaliação dos sites selecionados? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
+| **6** | O planejamento e avaliação dos sites selecionados? | Sugestão do Professor | Professor | <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 1.5 |
 | **7** | Possui opção de contraste de cores? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **8** | Os artefatos: Planejamento do Projeto, equipe, lista de sites avaliados, site selecionado para o projeto da disciplina, Ferramentas do projeto, Processo de Design, cronograma das atividades? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **9** | Uma página com as atas de reunião com o acesso à gravação (vídeo), quando houver? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
@@ -34,15 +34,15 @@ Nesta seção validamos o **Planejamento Geral**, **Desenvolvimento Inicial** e 
 | ID | Critério | Fonte | Autor | Resposta Conforme/NãoConforme | Versão |
 |:--:|:---|:---:|:---:|:---:|:---|
 | **1** | O histórico de versão está padronizado? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **2** | O(s) autor(es) e o(s) revisor(es) estão identificados para cada artefato? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **3** | Todos os artefatos possuem referências bibliográficas e/ou bibliografia? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
+| **2** | O(s) autor(es) e o(s) revisor(es) estão identificados para cada artefato? | Sugestão do Professor | Professor | <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 1.5 |
+| **3** | Todos os artefatos possuem referências bibliográficas e/ou bibliografia? | Sugestão do Professor | Professor | <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 1.5 |
 | **4** | As tabelas e imagens possuem legenda e fonte, e são chamadas dentro do texto? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **5** | Existe um texto introdutório apresentando os artefatos? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **6** | O cronograma executado indica quem realizou cada artefato/atividade, com datas de início e fim da construção/realização? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **7** | Há ata(s) da(s) reunião(ões) com data, horário de início e fim, participantes, objetivo e atividades definidas? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **8** | Há gravação da reunião do grupo? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **9** | Existe vídeo de apresentação publicado no YouTube na categoria "não listado"? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **10** | Há tabela de contribuição no início do artefato com o nome de todos os integrantes, a contribuição de cada um e hiperligação para atividade e gravação (se houver)? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
+| **10** | Há tabela de contribuição no início do artefato com o nome de todos os integrantes, a contribuição de cada um e hiperligação para atividade e gravação (se houver)? | Sugestão do Professor | Professor | <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 1.5 |
 | **11** | O artefato possui seção de agradecimentos apresentando o uso de Inteligência Artificial (IA) Generativa? | Sugestão do Professor | Professor | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 
 ### Itens do conteúdo da disciplina
@@ -59,10 +59,14 @@ Nesta seção validamos o **Planejamento Geral**, **Desenvolvimento Inicial** e 
 | **8** | É detalhado no processo de design a sequência que se deve executar cada as atividades básicas? | (BARBOSA; SILVA, 2021) | Heloisa Silva | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **9** | É detalhado no processo de design cada artefato gerado e consumido em cada etapa? | (BARBOSA; SILVA, 2021) | Heloisa Silva | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **10** | É especificado qual foi o sistema/serviço escolhido para o projeto de IHC? | Grupo | Pedro Augusto Moretti Moreira | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **11** | Está planejada a iteratividade no projeto? | (BARBOSA; SILVA, 2021) | Pedro Augusto Moretti Moreira | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
+| **11** | Está planejada a iteratividade no projeto? | (BARBOSA; SILVA, 2021) | Pedro Augusto Moretti Moreira | <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 1.5 |
 | **12** | Há previsão de utilização de métricas observáveis através de experimentos ou estudos empíricos com protótipos? | (BARBOSA; SILVA, 2021) | Pedro Augusto Moretti Moreira | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
 | **13** | É apresentado qual a utilidade do site/serviço para os usuários? | Grupo | Pedro Augusto Moretti Moreira | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
-| **14** | Os artefatos de design previstos incluem cenários (descrições textuais), esboços de interface ou outro modelo? | (BARBOSA; SILVA, 2021) | Pedro Augusto Moretti Moreira | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.0 |
+| **14** | As ferramentas presentes no artefato são usadas no projeto? | Grupo | Eduardo Valadares | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.5 |
+| **15** | O artefato é atualizado em caso de adição de uma nova ferramenta? | Grupo | Eduardo Valadares | <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 1.5 |
+| **16** | As ferramentas possuem seus links oficiais de acesso disponibilizados no artefato? | Grupo | Eduardo Valadares | <span style="background-color: #2e7d32; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | 1.5 |
+| **17** | A descrição do sistema/serviço no artefato inclui a definição inicial dos perfis dos usuários-alvo e o seu contexto de uso? | (BARBOSA; SILVA, 2021) | Eduardo Valadares | <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 1.5 |
+| **18** | O planejamento do projeto prevê a garantia dos aspectos éticos de pesquisa (Autonomia, Beneficência, Não Maleficência e Justiça) para as próximas etapas? | (BARBOSA; SILVA, 2021) | Eduardo Valadares | <span style="background-color: #d32f2f; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | 1.5 |
 
 ---
 
@@ -70,10 +74,10 @@ Nesta seção validamos o **Planejamento Geral**, **Desenvolvimento Inicial** e 
 
 | Seção | <span style="background-color: #2e7d32; color: white; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold;">Conforme</span> | <span style="background-color: #d32f2f; color: white; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold;">Não Conforme</span> | Total |
 |:---|:---:|:---:|:---:|
-| Planejamento geral do projeto | 11 | 1 | 12 |
-| Desenvolvimento do projeto | 11 | 0 | 11 |
-| Itens do conteúdo da disciplina | 12 | 2 | 14 |
-| **Total** | **34** | **3** | **37** |
+| Planejamento geral do projeto | 10 | 2 | 12 |
+| Desenvolvimento do projeto | 8 | 3 | 11 |
+| Itens do conteúdo da disciplina | 12 | 6 | 18 |
+| **Total** | **30** | **11** | **41** |
 
 ---
 
@@ -98,6 +102,7 @@ A equipe agradece ao **Microsoft Copilot** pelo suporte técnico prestado na edi
 
 | Versão | Data | Descrição | Autor | Revisor |
 |:---:|:---:|:---|:---:|:---:|
+| 1.5 | 23/06/2026 | Sincronização da seção "Itens do conteúdo da disciplina" com a lista de verificação oficial (18 itens, adição dos itens 14–18). Marcação como Não Conforme do item 6 (Planejamento geral); itens 2, 3 e 10 (Desenvolvimento do projeto); e itens 11, 15, 17 e 18 (Itens do conteúdo da disciplina). Atualização do Resumo Quantitativo. | Heitor Macedo | Pedro Augusto Moretti Moreira |
 | 1.4 | 16/04/2026 | Marcação como Não Conforme do item 12 (Planejamento) e itens 5 e 6 (Itens do conteúdo da disciplina). | Heitor Macedo | Pedro Augusto Moretti Moreira |
 | 1.3 | 16/04/2026 | Adição da seção "Introdução". | Heitor Macedo | Pedro Augusto Moretti Moreira |
 | 1.2 | 12/04/2026 | Adição da seção de Apresentação com link do YouTube e atualização das fontes | Heitor Macedo | Pedro Augusto Moretti Moreira |
