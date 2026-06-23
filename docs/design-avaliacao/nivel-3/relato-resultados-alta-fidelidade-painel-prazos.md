@@ -49,9 +49,9 @@ O protótipo de alta fidelidade avaliado foi o **Protótipo de Painel de Monitor
 
 | Entrevistador | Entrevistado | Horário de Início | Horário de Fim | Data | Local |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Mateus Barreto](../../equipe/equipe.md) | <span style="color: orange">P1</span> | 15:12 | 15:27 | 20/06/2026 | Presencial |
-| [Mateus Barreto](../../equipe/equipe.md) | <span style="color: orange">P2</span> | 15:30 | 15:40 | 20/06/2026 | Presencial |
-| [Mateus Barreto](../../equipe/equipe.md) | <span style="color: orange">P3</span> | 19:00 | 19:09 | 21/06/2026 | Presencial |
+| [Mateus Barreto](../../equipe/equipe.md) | <span style="color: orange">P1</span> | 17:58 | 18:01 | 21/06/2026 | Presencial |
+| [Mateus Barreto](../../equipe/equipe.md) | <span style="color: orange">P2</span> | 18:04 | 18:06 | 21/06/2026 | Presencial |
+| [Mateus Barreto](../../equipe/equipe.md) | <span style="color: orange">P3</span> | 18:09 | 18:11 | 21/06/2026 | Presencial |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Mateus Barreto.</i></p>
@@ -126,18 +126,34 @@ O participante percorreu as seguintes etapas no protótipo de alta fidelidade:
 
 **Tabela 3 - Sumário quantitativo da execução da tarefa**
 
-| Participante | Tarefa Solicitada | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| P1 | Fluxo completo do Painel de Prazos | Sim | 0 | Não | 1 |
-| P2 | Fluxo completo do Painel de Prazos | Sim | 1 | Sim | 2 |
-| P3 | Fluxo completo do Painel de Prazos | Sim | 1 | Sim | 2 |
+| Participante | Tarefa Solicitada | Concluída? (Sim/Não) | Tempo de Execução | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| P1 | Fluxo completo do Painel de Prazos | Sim | 3 min 32 s | 0 | Não | 1 |
+| P2 | Fluxo completo do Painel de Prazos | Sim | 2 min 15 s | 1 | Sim | 2 |
+| P3 | Fluxo completo do Painel de Prazos | Sim | 2 min 09 s | 1 | Sim | 2 |
 
 <div align="center">
 <p><i>Nota sobre o Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>
 <p><i>Fonte: Elaborado por Mateus Barreto.</i></p>
 </div>
 
-**Tabela 4 - Respostas dos Participantes às Perguntas Pós-Tarefa**
+### Confronto com as Metas de Usabilidade (Eficiência)
+
+A avaliação somativa "julga a qualidade de uso buscando evidências de que as metas de design foram alcançadas" e permite avaliar o grau em que a meta foi atingida através do tempo médio despendido e do desvio padrão (Barbosa et al., 2021, Cap. 11 e 12).
+
+**Tabela 4 - Confronto com a meta de Eficiência**
+
+A meta definida em Metas de Usabilidade estabelece, para a execução do fluxo completo da reclamação: ideal < 5 min, aceitável 5–10 min, inaceitável > 10 min.
+
+| Participante | Tempo de Execução | Avaliação frente à Meta |
+| :---: | :---: | :---: |
+| P1 | 3 min 32 s | Ideal (< 5 min) |
+| P2 | 2 min 15 s | Ideal (< 5 min) |
+| P3 | 2 min 09 s | Ideal (< 5 min) |
+
+Com uma amostra de n=3, o tempo médio de execução das tarefas foi de **2 min 39 s**, com um desvio padrão de **0 min 46 s**. Todos os participantes situaram-se na faixa ideal estabelecida pela meta de usabilidade.
+
+**Tabela 5 - Respostas dos Participantes às Perguntas Pós-Tarefa**
 
 | Pergunta | Resposta de P1 | Resposta de P2 | Resposta de P3 |
 | :--- | :--- | :--- | :--- |
@@ -184,7 +200,7 @@ Com base nos testes com os três participantes, foram identificados três proble
 
 Esta seção compila as verbalizações espontâneas gravadas durante a simulação Think Aloud de P1 e P2:
 
-**Tabela 5 — Feedback dos participantes**
+**Tabela 6 — Feedback dos participantes**
 
 | Participante | Momento da Sessão | Fala ou Percepção do Participante | Natureza |
 | :---: | :--- | :--- | :---: |
@@ -228,7 +244,7 @@ O Termo de Consentimento Livre e Esclarecido (TCLE) foi assinado pelos participa
 
 Baseando-se nos testes com P1, P2 e P3, planejam-se as seguintes ações de reprojeto:
 
-**Tabela 6 - Cronograma de Reprojeto**
+**Tabela 7 - Cronograma de Reprojeto**
 
 | Item | Ação de Reprojeto | Executor | Data Prevista |
 | :---: | :---: | :---: | :---: |
@@ -259,3 +275,5 @@ Agradecimento ao **Gemini** pela formatação inicial das falas de P1, P2 e P3 a
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 23/06/2026 | Criação do Relato do Protótipo de Alta Fidelidade — Painel de Prazos com dados de P1, P2 e P3. | [Mateus Barreto](../../equipe/equipe.md) | — |
+| 1.1 | 23/06/2026 | Correção de dias e horários do cronograma e contabilização do tempo de execução das tarefas. | [Mateus Barreto](../../equipe/equipe.md) | — |
+| 1.2 | 23/06/2026 | Adição da análise e tabela de confronto com as Metas de Usabilidade (Eficiência). | [Mateus Barreto](../../equipe/equipe.md) | — |

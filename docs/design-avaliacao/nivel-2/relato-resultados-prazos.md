@@ -37,7 +37,7 @@ Especificamente, buscou-se responder às seguintes perguntas de pesquisa:
 
 O método utilizado foi a **Observação e Entrevista Semiestruturada com uso do Protótipo de Papel**, conforme definido no [Planejamento da Avaliação do Protótipo de Papel](./planejamento-avaliacao-pp.md). O avaliador apresentou as telas do protótipo impressas em papel, uma a uma, simulando a interação do usuário com o sistema. Os participantes apontavam com o dedo onde clicaria e verbalizavam suas ações e pensamentos em voz alta (protocolo *Think Aloud*). A sessão foi conduzida seguindo a estrutura narrativa planejada: apresentação e TCLE, aquecimento, simulação com o protótipo (parte principal), perguntas focadas pós-tarefa, desaquecimento e encerramento.
 
-As sessões foram integralmente gravadas em vídeo para análise posterior. Ressalta-se que o tempo de execução de cada tarefa não foi contabilizado, uma vez que a aplicação do protocolo *Think Aloud* (onde o participante verbaliza continuamente suas ações e pensamentos em voz alta) interfere diretamente no ritmo natural de interação, tornando a métrica de tempo imprecisa e secundária em relação à identificação de problemas de usabilidade.<sup><a href="#fig-think-aloud">[1]</a></sup>
+As sessões foram integralmente gravadas em vídeo para análise posterior.
 
 O protótipo de papel avaliado foi o **Protótipo de Painel de Monitoramento de Prazos**, disponível em formato digital interativo:
 
@@ -132,19 +132,34 @@ O protótipo cobre as seguintes telas e interações, percorridas sequencialment
 
 **Tabela 2 - Sumário quantitativo da execução das tarefas no protótipo de papel**
 
-| Participante | Tarefa Solicitada | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| P1 | Acompanhar reclamação e monitorar prazos | Sim | 1 | Sim | 2 |
-| P2 | Acompanhar reclamação e monitorar prazos | Sim | 1 | Sim | 2 |
-| P3 | Acompanhar reclamação e monitorar prazos | Sim | 0 | Não | 1 |
+| Participante | Tarefa Solicitada | Concluída? (Sim/Não) | Tempo de Execução | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| P1 | Acompanhar reclamação e monitorar prazos | Sim | 9 min 04 s | 1 | Sim | 2 |
+| P2 | Acompanhar reclamação e monitorar prazos | Sim | 6 min 20 s | 1 | Sim | 2 |
+| P3 | Acompanhar reclamação e monitorar prazos | Sim | 5 min 58 s | 0 | Não | 1 |
 
 <div align="center">
 <p><i>Nota sobre o Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>
-<p><i>Nota sobre o Tempo de Execução: O tempo de execução das tarefas não foi contabilizado/mensurado neste sumário quantitativo. A adoção do protocolo Think Aloud exige que os participantes verbalizem continuamente seus pensamentos e tirem dúvidas com o mediador durante a navegação, o que altera significativamente a velocidade e o ritmo de interação com o protótipo de papel, tornando o tempo de execução uma métrica imprecisa para este ciclo de avaliação.</i></p>
 <p><i>Fonte: Elaborado por Mateus Barreto.</i></p>
 </div>
 
-**Tabela 3 - Respostas dos Participantes às Perguntas Pós-Tarefa**
+### Confronto com as Metas de Usabilidade (Eficiência)
+
+A avaliação somativa "julga a qualidade de uso buscando evidências de que as metas de design foram alcançadas" e permite avaliar o grau em que a meta foi atingida através do tempo médio despendido e do desvio padrão (Barbosa et al., 2021, Cap. 11 e 12).
+
+**Tabela 3 - Confronto com a meta de Eficiência**
+
+A meta definida em Metas de Usabilidade estabelece, para acompanhar prazos e fluxos: ideal < 5 min, aceitável 5–10 min, inaceitável > 10 min.
+
+| Participante | Tempo de Execução | Avaliação frente à Meta |
+| :---: | :---: | :---: |
+| P1 | 9 min 04 s | Aceitável (5–10 min) |
+| P2 | 6 min 20 s | Aceitável (5–10 min) |
+| P3 | 5 min 58 s | Aceitável (5–10 min) |
+
+Com uma amostra de n=3, o tempo médio de execução das tarefas foi de **7 min 07 s**, com um desvio padrão de **1 min 42 s**. Todos os participantes situaram-se na faixa aceitável estabelecida pela meta de usabilidade.
+
+**Tabela 4 - Respostas dos Participantes às Perguntas Pós-Tarefa**
 
 | Pergunta | Resposta de P1 | Resposta de P2 | Resposta de P3 |
 | :--- | :--- | :--- | :--- |
@@ -239,7 +254,7 @@ Com base nos resultados obtidos, planeja-se realizar ajustes focados em layout e
 * **Tela de Prazo Expirado (PB1):** Evidenciar a transição digital-físico, fornecendo um checklist detalhado e instruções visuais claras.
 * **Acesso à Linha do Tempo (PB2):** Adicionar indicação visual explícita de clique nos cartões de prazo (ex.: setas ou botões textuais) para facilitar a descoberta de que são interativos e abrem a linha do tempo.
 
-**Tabela 4 - Cronograma de Reprojeto**
+**Tabela 5 - Cronograma de Reprojeto**
 
 | Atividade de Reprojeto | Responsável | Data Prevista |
 | :--- | :---: | :---: |
@@ -270,15 +285,4 @@ Agradecimento ao **Gemini** pela consolidação dos dados coletados na entrevist
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 22/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Papel — Painel de Prazos. | Mateus Barreto | — |
 | 1.1 | 22/06/2026 | Ajuste nos problemas (PB2 substituído, PB3 removido), notas do Think Aloud e correção do perfil de fluência tecnológica dos participantes e conhecimento jurídico de P2. | Mateus Barreto | — |
-
----
-
-## Notas de Rodapé e Referências de Imagens
-
-<div id="fig-think-aloud"></div>
-
-**Figura 1** - Relação entre o protocolo Think Aloud e o tempo de execução.
-
-![Relação Think Aloud e tempo](../images/thinkAloudTempo.png)
-<div></div>
-Fonte: BARBOSA, S. D. J. et al. Interação Humano-Computador e Experiência do Usuário. 1. ed. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+| 1.2 | 23/06/2026 | Inclusão do tempo de execução e do confronto com a meta de eficiência, removendo nota técnica sobre o Think Aloud. | Mateus Barreto | — |
