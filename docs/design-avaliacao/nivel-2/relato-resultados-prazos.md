@@ -258,9 +258,9 @@ Com base nos resultados obtidos, planeja-se realizar ajustes focados em layout e
 
 | Atividade de Reprojeto | Responsável | Data Prevista |
 | :--- | :---: | :---: |
-| Refinamento de UX Writing para as telas do Painel de Prazos | [Mateus Barreto](../../equipe/equipe.md) | 25/06/2026 |
-| Ajuste visual e adição de checklist na Tela de Prazo Expirado (PB1) | [Mateus Barreto](../../equipe/equipe.md) | 25/06/2026 |
-| Adição de indicativo visual de clique e interatividade nos cards de prazo (PB2) | [Mateus Barreto](../../equipe/equipe.md) | 25/06/2026 |
+| Refinamento de UX Writing para as telas do Painel de Prazos | [Mateus Barreto](../../equipe/equipe.md) | 21/06/2026 |
+| Ajuste visual e adição de checklist na Tela de Prazo Expirado (PB1) | [Mateus Barreto](../../equipe/equipe.md) | 21/06/2026 |
+| Adição de indicativo visual de clique e interatividade nos cards de prazo (PB2) | [Mateus Barreto](../../equipe/equipe.md) | 21/06/2026 |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Mateus Barreto.</i></p>
