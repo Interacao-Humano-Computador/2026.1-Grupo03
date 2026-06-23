@@ -137,6 +137,59 @@ O participante percorreu as seguintes etapas no protótipo de alta fidelidade:
 <p><i>Fonte: Elaborado por Mateus Barreto.</i></p>
 </div>
 
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Nível de Dificuldade por Participante", "subtitle": "Escala: 1 = Muito Fácil · 5 = Muito Difícil"},
+  "data": {
+    "values": [
+      {"participante": "P1", "dificuldade": 1, "concluiu": "Sim", "pediu_ajuda": "Não"},
+      {"participante": "P2", "dificuldade": 2, "concluiu": "Sim", "pediu_ajuda": "Sim"},
+      {"participante": "P3", "dificuldade": 2, "concluiu": "Sim", "pediu_ajuda": "Sim"}
+    ]
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "color": "#4079BC", "cornerRadiusEnd": 4},
+      "encoding": {
+        "x": {"field": "participante", "type": "nominal", "title": "Participante", "axis": {"labelFontSize": 13}},
+        "y": {
+          "field": "dificuldade",
+          "type": "quantitative",
+          "title": "Nível de Dificuldade",
+          "scale": {"domain": [0, 5]},
+          "axis": {"tickCount": 5}
+        },
+        "tooltip": [
+          {"field": "participante", "title": "Participante"},
+          {"field": "dificuldade", "title": "Nível de Dificuldade"},
+          {"field": "concluiu", "title": "Concluiu?"},
+          {"field": "pediu_ajuda", "title": "Pediu Ajuda?"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "rule", "color": "#d32f2f", "strokeDash": [6, 4], "size": 2},
+      "encoding": {
+        "y": {"datum": 3, "type": "quantitative"},
+        "color": {"value": "#d32f2f"}
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "right", "dx": -4, "dy": -6, "color": "#d32f2f", "fontSize": 11},
+      "encoding": {
+        "y": {"datum": 3, "type": "quantitative"},
+        "x": {"datum": "P3"},
+        "text": {"value": "Limiar aceitável (≤ 3)"}
+      }
+    }
+  ],
+  "width": "container",
+  "height": 220
+}
+```
+
+
 ### Confronto com as Metas de Usabilidade (Eficiência)
 
 A avaliação somativa "julga a qualidade de uso buscando evidências de que as metas de design foram alcançadas" e permite avaliar o grau em que a meta foi atingida através do tempo médio despendido e do desvio padrão (Barbosa et al., 2021, Cap. 11 e 12).
@@ -223,6 +276,88 @@ Esta seção compila as verbalizações espontâneas gravadas durante a simulaç
 <p><i>Fonte: Elaborado por Mateus Barreto.</i></p>
 </div>
 
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Natureza do Feedback por Participante", "subtitle": "Feedbacks coletados nas sessões Think Aloud e pós-tarefa"},
+  "data": {
+    "values": [
+      {"participante": "P1", "natureza": "Validação", "qtd": 4},
+      {"participante": "P2", "natureza": "Validação", "qtd": 3},
+      {"participante": "P2", "natureza": "Hesitação / Correção", "qtd": 1},
+      {"participante": "P2", "natureza": "Crítica",   "qtd": 1},
+      {"participante": "P3", "natureza": "Validação", "qtd": 3},
+      {"participante": "P3", "natureza": "Hesitação / Correção", "qtd": 1},
+      {"participante": "P3", "natureza": "Crítica",   "qtd": 1}
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "participante",
+      "type": "nominal",
+      "title": "Participante",
+      "axis": {"labelFontSize": 13}
+    },
+    "y": {
+      "field": "qtd",
+      "type": "quantitative",
+      "title": "Quantidade de Feedbacks",
+      "stack": "zero"
+    },
+    "color": {
+      "field": "natureza",
+      "type": "nominal",
+      "title": "Natureza",
+      "scale": {
+        "domain": ["Validação", "Hesitação / Correção", "Crítica"],
+        "range": ["#4079BC", "#9c27b0", "#d32f2f"]
+      }
+    },
+    "tooltip": [
+      {"field": "participante", "title": "Participante"},
+      {"field": "natureza",    "title": "Natureza"},
+      {"field": "qtd",         "title": "Quantidade"}
+    ]
+  },
+  "width": "container",
+  "height": 260
+}
+```
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Distribuição Geral das Naturezas de Feedback", "subtitle": "Total de 14 feedbacks registrados"},
+  "data": {
+    "values": [
+      {"natureza": "Validação", "total": 10},
+      {"natureza": "Hesitação / Correção",  "total": 2},
+      {"natureza": "Crítica",   "total": 2}
+    ]
+  },
+  "mark": {"type": "arc", "innerRadius": 70, "outerRadius": 130},
+  "encoding": {
+    "theta": {"field": "total", "type": "quantitative"},
+    "color": {
+      "field": "natureza",
+      "type": "nominal",
+      "title": "Natureza",
+      "scale": {
+        "domain": ["Validação", "Hesitação / Correção", "Crítica"],
+        "range": ["#4079BC", "#9c27b0", "#d32f2f"]
+      }
+    },
+    "tooltip": [
+      {"field": "natureza", "title": "Natureza"},
+      {"field": "total",    "title": "Quantidade"}
+    ]
+  },
+  "width": 340,
+  "height": 340
+}
+```
+
 ---
 
 ## 9. Análise e Interpretação dos Resultados
@@ -274,6 +409,7 @@ Agradecimento ao **Gemini** pela formatação inicial das falas de P1, P2 e P3 a
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | 23/06/2026 | Criação do Relato do Protótipo de Alta Fidelidade — Painel de Prazos com dados de P1, P2 e P3. | [Mateus Barreto](../../equipe/equipe.md) | — |
-| 1.1 | 23/06/2026 | Correção de dias e horários do cronograma e contabilização do tempo de execução das tarefas. | [Mateus Barreto](../../equipe/equipe.md) | — |
+| 1.3 | 23/06/2026 | Adição dos gráficos com Vega-Lite para resumir nível de dificuldade e natureza de feedback. | [Mateus Barreto](../../equipe/equipe.md) | — |
 | 1.2 | 23/06/2026 | Adição da análise e tabela de confronto com as Metas de Usabilidade (Eficiência). | [Mateus Barreto](../../equipe/equipe.md) | — |
+| 1.1 | 23/06/2026 | Correção de dias e horários do cronograma e contabilização do tempo de execução das tarefas. | [Mateus Barreto](../../equipe/equipe.md) | — |
+| 1.0 | 23/06/2026 | Criação do Relato do Protótipo de Alta Fidelidade — Painel de Prazos com dados de P1, P2 e P3. | [Mateus Barreto](../../equipe/equipe.md) | — |
