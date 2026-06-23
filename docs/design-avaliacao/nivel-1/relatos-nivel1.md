@@ -45,6 +45,32 @@ Esta seção sintetiza, de forma interparticipante e entre métodos de avaliaç�
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
 </div>
 
+O **Gráfico 1** contrasta o número de problemas identificados por método: os storyboards foram aprovados sem nenhum problema, enquanto a Análise de Tarefas concentrou os cinco problemas do Nível 1.
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Gráfico 1 — Problemas Identificados por Método", "subtitle": "Avaliações do Nível 1 (formativas)"},
+  "data": {
+    "values": [
+      {"metodo": "Storyboard", "problemas": 0},
+      {"metodo": "Análise de Tarefas", "problemas": 5}
+    ]
+  },
+  "mark": {"type": "bar", "color": "#4079BC", "cornerRadiusEnd": 4},
+  "encoding": {
+    "y": {"field": "metodo", "type": "nominal", "title": null, "sort": "-x", "axis": {"labelFontSize": 12}},
+    "x": {"field": "problemas", "type": "quantitative", "title": "Nº de Problemas", "scale": {"domain": [0, 6]}},
+    "tooltip": [
+      {"field": "metodo", "title": "Método"},
+      {"field": "problemas", "title": "Problemas"}
+    ]
+  },
+  "width": "container",
+  "height": 160
+}
+```
+
 ---
 
 ### Convergências entre os Relatos
@@ -90,6 +116,37 @@ Em todas as avaliações do Nível 1, os participantes concluíram as tarefas se
 <p><i>Nota sobre a Gravidade: (1) Cosmético; (2) Pequeno; (3) Grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
 </div>
+
+O **Gráfico 2** detalha a distribuição de gravidade dos cinco problemas: quatro de gravidade 2 (pequeno) e um de gravidade 3 (grande — PB3, navegação no site atual). Nenhum problema catastrófico foi identificado.
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Gráfico 2 — Distribuição de Gravidade dos Problemas", "subtitle": "5 problemas consolidados do Nível 1"},
+  "data": {
+    "values": [
+      {"gravidade": "2 — Pequeno", "total": 4},
+      {"gravidade": "3 — Grande", "total": 1}
+    ]
+  },
+  "mark": {"type": "arc", "innerRadius": 70, "outerRadius": 130},
+  "encoding": {
+    "theta": {"field": "total", "type": "quantitative"},
+    "color": {
+      "field": "gravidade",
+      "type": "nominal",
+      "title": "Gravidade",
+      "scale": {"domain": ["2 — Pequeno", "3 — Grande"], "range": ["#FFD200", "#fb8c00"]}
+    },
+    "tooltip": [
+      {"field": "gravidade", "title": "Gravidade"},
+      {"field": "total", "title": "Nº de Problemas"}
+    ]
+  },
+  "width": 340,
+  "height": 340
+}
+```
 
 **Divergência de perfil: impacto da familiaridade tecnológica**
 

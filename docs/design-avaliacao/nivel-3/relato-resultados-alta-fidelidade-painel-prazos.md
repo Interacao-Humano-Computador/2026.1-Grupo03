@@ -137,10 +137,12 @@ O participante percorreu as seguintes etapas no protótipo de alta fidelidade:
 <p><i>Fonte: Elaborado por Mateus Barreto.</i></p>
 </div>
 
+O **Gráfico 1** resume o nível de dificuldade autorrelatado por cada participante (Tabela 3), frente ao limiar aceitável (≤ 3).
+
 ```vegalite
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text": "Nível de Dificuldade por Participante", "subtitle": "Escala: 1 = Muito Fácil · 5 = Muito Difícil"},
+  "title": {"text": "Gráfico 1 — Nível de Dificuldade por Participante", "subtitle": "Escala: 1 = Muito Fácil · 5 = Muito Difícil"},
   "data": {
     "values": [
       {"participante": "P1", "dificuldade": 1, "concluiu": "Sim", "pediu_ajuda": "Não"},
@@ -204,7 +206,44 @@ A meta definida em Metas de Usabilidade estabelece, para a execução do fluxo c
 | P2 | 2 min 15 s | Ideal (< 5 min) |
 | P3 | 2 min 09 s | Ideal (< 5 min) |
 
-Com uma amostra de n=3, o tempo médio de execução das tarefas foi de **2 min 39 s**, com um desvio padrão de **0 min 46 s**. Todos os participantes situaram-se na faixa ideal estabelecida pela meta de usabilidade.
+Com uma amostra de n=3, o tempo médio de execução das tarefas foi de **2 min 39 s**, com um desvio padrão de **0 min 46 s**. Todos os participantes situaram-se na faixa ideal estabelecida pela meta de usabilidade. O **Gráfico 2** posiciona cada participante frente ao limiar da faixa ideal (5 min), evidenciando a folga em relação à meta.
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Gráfico 2 — Tempo de Execução frente à Meta de Eficiência", "subtitle": "Faixa ideal: < 5 min (300 s). Todos os participantes ficaram bem abaixo do limiar."},
+  "data": {
+    "values": [
+      {"participante": "P1", "segundos": 212, "tempo": "3 min 32 s"},
+      {"participante": "P2", "segundos": 135, "tempo": "2 min 15 s"},
+      {"participante": "P3", "segundos": 129, "tempo": "2 min 09 s"}
+    ]
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "color": "#4079BC", "cornerRadiusEnd": 4},
+      "encoding": {
+        "x": {"field": "participante", "type": "nominal", "title": "Participante", "axis": {"labelFontSize": 13}},
+        "y": {"field": "segundos", "type": "quantitative", "title": "Tempo de Execução (segundos)", "scale": {"domain": [0, 360]}},
+        "tooltip": [
+          {"field": "participante", "title": "Participante"},
+          {"field": "tempo", "title": "Tempo"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "rule", "color": "#2e7d32", "strokeDash": [6, 4], "size": 2},
+      "encoding": {"y": {"datum": 300, "type": "quantitative"}}
+    },
+    {
+      "mark": {"type": "text", "align": "right", "dx": -4, "dy": -6, "color": "#2e7d32", "fontSize": 11},
+      "encoding": {"y": {"datum": 300}, "x": {"datum": "P3"}, "text": {"value": "Limiar ideal (5 min)"}}
+    }
+  ],
+  "width": "container",
+  "height": 240
+}
+```
 
 **Tabela 5 - Respostas dos Participantes às Perguntas Pós-Tarefa**
 
@@ -247,6 +286,41 @@ Com base nos testes com os três participantes, foram identificados três proble
 <p><i>Fonte: Elaborado por Mateus Barreto.</i></p>
 </div>
 
+O **Gráfico 3** cruza a frequência (número de participantes afetados, de 3) com a gravidade de cada problema, destacando o **PB2-1** (gravidade 3, 2/3 participantes) como prioridade de reprojeto.
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Gráfico 3 — Gravidade × Frequência dos Problemas", "subtitle": "Frequência = nº de participantes afetados (n=3); cor = gravidade (1 a 4)"},
+  "data": {
+    "values": [
+      {"id": "PB1-1", "frequencia": 1, "gravidade": 1, "tela": "Visualização de Prazos Legais"},
+      {"id": "PB2-1", "frequencia": 2, "gravidade": 3, "tela": "Visualização de Prazos Legais"},
+      {"id": "PB2-2", "frequencia": 2, "gravidade": 2, "tela": "Orientações do Juizado Especial"}
+    ]
+  },
+  "mark": {"type": "bar", "cornerRadiusEnd": 4},
+  "encoding": {
+    "x": {"field": "id", "type": "nominal", "title": "Problema", "axis": {"labelFontSize": 13}},
+    "y": {"field": "frequencia", "type": "quantitative", "title": "Participantes Afetados", "scale": {"domain": [0, 3]}, "axis": {"tickCount": 3}},
+    "color": {
+      "field": "gravidade",
+      "type": "ordinal",
+      "title": "Gravidade",
+      "scale": {"domain": [1, 2, 3, 4], "range": ["#2e7d32", "#FFD200", "#fb8c00", "#d32f2f"]}
+    },
+    "tooltip": [
+      {"field": "id", "title": "Problema"},
+      {"field": "tela", "title": "Tela"},
+      {"field": "gravidade", "title": "Gravidade (1–4)"},
+      {"field": "frequencia", "title": "Participantes afetados (de 3)"}
+    ]
+  },
+  "width": "container",
+  "height": 240
+}
+```
+
 ---
 
 ## 8. Feedback dos Usuários
@@ -276,10 +350,12 @@ Esta seção compila as verbalizações espontâneas gravadas durante a simulaç
 <p><i>Fonte: Elaborado por Mateus Barreto.</i></p>
 </div>
 
+O **Gráfico 4** classifica os 14 feedbacks da Tabela 6 por participante e natureza, evidenciando o predomínio de verbalizações de validação e a concentração das hesitações/críticas em P2 e P3 (confusão entre prazos e retorno do juizado).
+
 ```vegalite
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text": "Natureza do Feedback por Participante", "subtitle": "Feedbacks coletados nas sessões Think Aloud e pós-tarefa"},
+  "title": {"text": "Gráfico 4 — Natureza do Feedback por Participante", "subtitle": "Feedbacks coletados nas sessões Think Aloud e pós-tarefa (Tabela 6)"},
   "data": {
     "values": [
       {"participante": "P1", "natureza": "Validação", "qtd": 4},
@@ -325,10 +401,12 @@ Esta seção compila as verbalizações espontâneas gravadas durante a simulaç
 }
 ```
 
+O **Gráfico 5** resume a proporção geral das naturezas de feedback: das 14 verbalizações registradas, 10 foram de validação (71%), confirmando a boa aceitação geral do protótipo.
+
 ```vegalite
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text": "Distribuição Geral das Naturezas de Feedback", "subtitle": "Total de 14 feedbacks registrados"},
+  "title": {"text": "Gráfico 5 — Distribuição Geral das Naturezas de Feedback", "subtitle": "Total de 14 feedbacks registrados"},
   "data": {
     "values": [
       {"natureza": "Validação", "total": 10},

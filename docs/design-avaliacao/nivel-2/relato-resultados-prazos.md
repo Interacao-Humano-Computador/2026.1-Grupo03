@@ -157,7 +157,53 @@ A meta definida em Metas de Usabilidade estabelece, para acompanhar prazos e flu
 | P2 | 6 min 20 s | Aceitável (5–10 min) |
 | P3 | 5 min 58 s | Aceitável (5–10 min) |
 
-Com uma amostra de n=3, o tempo médio de execução das tarefas foi de **7 min 07 s**, com um desvio padrão de **1 min 42 s**. Todos os participantes situaram-se na faixa aceitável estabelecida pela meta de usabilidade.
+Com uma amostra de n=3, o tempo médio de execução das tarefas foi de **7 min 07 s**, com um desvio padrão de **1 min 42 s**. Todos os participantes situaram-se na faixa aceitável estabelecida pela meta de usabilidade. O **Gráfico 1** posiciona cada participante entre os limiares ideal (5 min) e aceitável (10 min).
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Gráfico 1 — Tempo de Execução frente à Meta de Eficiência", "subtitle": "Ideal < 5 min (300 s) · Aceitável 5–10 min (300–600 s). Todos na faixa aceitável."},
+  "data": {
+    "values": [
+      {"participante": "P1", "segundos": 544, "tempo": "9 min 04 s", "erros": 1},
+      {"participante": "P2", "segundos": 380, "tempo": "6 min 20 s", "erros": 1},
+      {"participante": "P3", "segundos": 358, "tempo": "5 min 58 s", "erros": 0}
+    ]
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "color": "#4079BC", "cornerRadiusEnd": 4},
+      "encoding": {
+        "x": {"field": "participante", "type": "nominal", "title": "Participante", "axis": {"labelFontSize": 13}},
+        "y": {"field": "segundos", "type": "quantitative", "title": "Tempo de Execução (segundos)", "scale": {"domain": [0, 660]}},
+        "tooltip": [
+          {"field": "participante", "title": "Participante"},
+          {"field": "tempo", "title": "Tempo"},
+          {"field": "erros", "title": "Erros"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "rule", "color": "#2e7d32", "strokeDash": [6, 4], "size": 2},
+      "encoding": {"y": {"datum": 300, "type": "quantitative"}}
+    },
+    {
+      "mark": {"type": "text", "align": "right", "dx": -4, "dy": -6, "color": "#2e7d32", "fontSize": 11},
+      "encoding": {"y": {"datum": 300}, "x": {"datum": "P3"}, "text": {"value": "Limiar ideal (5 min)"}}
+    },
+    {
+      "mark": {"type": "rule", "color": "#d32f2f", "strokeDash": [6, 4], "size": 2},
+      "encoding": {"y": {"datum": 600, "type": "quantitative"}}
+    },
+    {
+      "mark": {"type": "text", "align": "right", "dx": -4, "dy": -6, "color": "#d32f2f", "fontSize": 11},
+      "encoding": {"y": {"datum": 600}, "x": {"datum": "P3"}, "text": {"value": "Limiar inaceitável (10 min)"}}
+    }
+  ],
+  "width": "container",
+  "height": 260
+}
+```
 
 **Tabela 4 - Respostas dos Participantes às Perguntas Pós-Tarefa**
 
@@ -172,6 +218,47 @@ Com uma amostra de n=3, o tempo médio de execução das tarefas foi de **7 min 
 <div align="center">
 <p><i>Fonte: Elaborado por Mateus Barreto.</i></p>
 </div>
+
+O **Gráfico 2** tabula as respostas pós-tarefa (Tabela 4). As perguntas foram quase unânimes, exceto as de número 1 e 3 — ambas relacionadas à mesma origem (a falta de sinalização de clique no cartão de prazo, problema PB2), em que 2 dos 3 participantes responderam "Sim". *A polaridade de "Sim"/"Não" depende de cada pergunta — o gráfico apresenta a contagem factual das respostas.*
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Gráfico 2 — Respostas Pós-Tarefa (n=3)", "subtitle": "Contagem de respostas Sim/Não por pergunta"},
+  "data": {
+    "values": [
+      {"pergunta": "1. Sentiu-se perdido?", "resposta": "Sim", "qtd": 2},
+      {"pergunta": "1. Sentiu-se perdido?", "resposta": "Não", "qtd": 1},
+      {"pergunta": "2. Faltou instrução?", "resposta": "Sim", "qtd": 0},
+      {"pergunta": "2. Faltou instrução?", "resposta": "Não", "qtd": 3},
+      {"pergunta": "3. Botão/palavra confusa?", "resposta": "Sim", "qtd": 2},
+      {"pergunta": "3. Botão/palavra confusa?", "resposta": "Não", "qtd": 1},
+      {"pergunta": "4. Confortável em usar?", "resposta": "Sim", "qtd": 3},
+      {"pergunta": "4. Confortável em usar?", "resposta": "Não", "qtd": 0},
+      {"pergunta": "5. Esperava algo ausente?", "resposta": "Sim", "qtd": 0},
+      {"pergunta": "5. Esperava algo ausente?", "resposta": "Não", "qtd": 3}
+    ]
+  },
+  "mark": {"type": "bar"},
+  "encoding": {
+    "y": {"field": "pergunta", "type": "nominal", "title": null, "axis": {"labelFontSize": 12}},
+    "x": {"field": "qtd", "type": "quantitative", "title": "Nº de Participantes", "scale": {"domain": [0, 3]}, "axis": {"tickCount": 3}},
+    "color": {
+      "field": "resposta",
+      "type": "nominal",
+      "title": "Resposta",
+      "scale": {"domain": ["Sim", "Não"], "range": ["#4079BC", "#cfd8dc"]}
+    },
+    "tooltip": [
+      {"field": "pergunta", "title": "Pergunta"},
+      {"field": "resposta", "title": "Resposta"},
+      {"field": "qtd", "title": "Nº de Participantes"}
+    ]
+  },
+  "width": "container",
+  "height": 220
+}
+```
 
 Abaixo, os links para os vídeos das sessões de avaliação:
 

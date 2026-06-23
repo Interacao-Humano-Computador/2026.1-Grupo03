@@ -52,6 +52,34 @@ Esta seção sintetiza, de forma interparticipante e entre funcionalidades, os d
 
 Somados, o Nível 3 acumula **10 sessões de avaliação**, **12 tarefas executadas** (3 na Conciliação Virtual, 5 na Notificação Ativa, 1 na Triagem Guiada e 3 no Painel de Monitoramento de Prazos). Nos testes do Painel de Monitoramento de Prazos, foram observados 2 erros cometidos (P2 e P3 confundiram o prazo de conciliação com o de prescrição) e 2 intervenções de ajuda/orientação pelo mediador, todos resolvidos com sucesso durante as sessões sem impedir a conclusão das tarefas.
 
+O **Gráfico 1** mostra a distribuição das 10 sessões entre as quatro funcionalidades avaliadas, evidenciando a concentração de esforço na Notificação Ativa (5 sessões).
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Gráfico 1 — Sessões de Avaliação por Funcionalidade", "subtitle": "Total: 10 sessões com 10 participantes reais"},
+  "data": {
+    "values": [
+      {"funcionalidade": "Conciliação Virtual", "sessoes": 1},
+      {"funcionalidade": "Notificação Ativa", "sessoes": 5},
+      {"funcionalidade": "Triagem Guiada", "sessoes": 1},
+      {"funcionalidade": "Painel de Prazos", "sessoes": 3}
+    ]
+  },
+  "mark": {"type": "bar", "color": "#4079BC", "cornerRadiusEnd": 4},
+  "encoding": {
+    "y": {"field": "funcionalidade", "type": "nominal", "title": null, "sort": "-x", "axis": {"labelFontSize": 12}},
+    "x": {"field": "sessoes", "type": "quantitative", "title": "Nº de Sessões", "scale": {"domain": [0, 6]}},
+    "tooltip": [
+      {"field": "funcionalidade", "title": "Funcionalidade"},
+      {"field": "sessoes", "title": "Sessões"}
+    ]
+  },
+  "width": "container",
+  "height": 200
+}
+```
+
 ---
 
 ### Convergências entre os Relatos
@@ -103,6 +131,43 @@ Em duas das três funcionalidades, os participantes demonstraram atenção e val
 <p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira e Heitor Macedo.</i></p>
 </div>
 
+O **Gráfico 2** distribui os seis problemas por funcionalidade e gravidade, deixando claro que o Painel de Monitoramento de Prazos concentra os problemas mais graves — incluindo o único de gravidade 3 (PB2-1).
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Gráfico 2 — Problemas por Funcionalidade e Gravidade", "subtitle": "6 problemas consolidados; cor = gravidade (1 a 4)"},
+  "data": {
+    "values": [
+      {"funcionalidade": "Notificação Ativa", "gravidade": 1, "qtd": 1},
+      {"funcionalidade": "Notificação Ativa", "gravidade": 2, "qtd": 1},
+      {"funcionalidade": "Triagem Guiada", "gravidade": 1, "qtd": 1},
+      {"funcionalidade": "Painel de Prazos", "gravidade": 1, "qtd": 1},
+      {"funcionalidade": "Painel de Prazos", "gravidade": 2, "qtd": 1},
+      {"funcionalidade": "Painel de Prazos", "gravidade": 3, "qtd": 1}
+    ]
+  },
+  "mark": {"type": "bar"},
+  "encoding": {
+    "x": {"field": "funcionalidade", "type": "nominal", "title": null, "axis": {"labelAngle": 0, "labelFontSize": 11}},
+    "y": {"field": "qtd", "type": "quantitative", "title": "Nº de Problemas", "stack": "zero", "axis": {"tickCount": 3}},
+    "color": {
+      "field": "gravidade",
+      "type": "ordinal",
+      "title": "Gravidade",
+      "scale": {"domain": [1, 2, 3, 4], "range": ["#2e7d32", "#FFD200", "#fb8c00", "#d32f2f"]}
+    },
+    "tooltip": [
+      {"field": "funcionalidade", "title": "Funcionalidade"},
+      {"field": "gravidade", "title": "Gravidade (1–4)"},
+      {"field": "qtd", "title": "Nº de Problemas"}
+    ]
+  },
+  "width": "container",
+  "height": 240
+}
+```
+
 O Nível 3 acumula seis problemas de usabilidade mapeados em três protótipos distintos. O problema de maior gravidade (PB2-1, Gravidade 3) foi detectado no Painel de Monitoramento de Prazos, onde a proximidade visual levou P2 e P3 a confundirem o prazo administrativo de conciliação do Procon com a prescrição legal para acionamento judicial. Este protótipo também apresentou um atrito de retrocesso de fluxo (PB2-2, Gravidade 2) e uma hesitação visual de P1 em localizar a prescrição (PB1-1, Gravidade 1). O único outro problema de gravidade 2 foi encontrado na Notificação Ativa (P02), relacionado à falta de clareza das consequências de recusa de proposta. Os problemas cosméticos (Notificação Ativa P01, Triagem Guiada P01, Painel Prazos PB1-1) correspondem a detalhes de layout ou caminhos alternativos que não obstruem o fluxo principal. Ressalva-se que a Sala de Conciliação Virtual e o Assistente de Triagem Guiada contaram com apenas uma sessão cada, de modo que a ausência de maiores problemas nesses fluxos deve ser corroborada por testes complementares.
 
 Os três tipos de problema identificados têm naturezas distintas e complementares:
@@ -130,6 +195,38 @@ Essa complementaridade sugere uma oportunidade de revisão transversal: garantir
 <div align="center">
 <p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira e Heitor Macedo.</i></p>
 </div>
+
+O **Gráfico 3** resume a prioridade das sete sugestões consolidadas: três de prioridade alta (S04, S06, S07 — concentradas na Triagem Guiada e no Painel de Prazos), três de prioridade média e uma de prioridade baixa.
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Gráfico 3 — Prioridade das Sugestões de Melhoria", "subtitle": "7 sugestões consolidadas (S01–S07)"},
+  "data": {
+    "values": [
+      {"prioridade": "Alta", "total": 3},
+      {"prioridade": "Média", "total": 3},
+      {"prioridade": "Baixa", "total": 1}
+    ]
+  },
+  "mark": {"type": "arc", "innerRadius": 70, "outerRadius": 130},
+  "encoding": {
+    "theta": {"field": "total", "type": "quantitative"},
+    "color": {
+      "field": "prioridade",
+      "type": "nominal",
+      "title": "Prioridade",
+      "scale": {"domain": ["Alta", "Média", "Baixa"], "range": ["#d32f2f", "#FFD200", "#4079BC"]}
+    },
+    "tooltip": [
+      {"field": "prioridade", "title": "Prioridade"},
+      {"field": "total", "title": "Nº de Sugestões"}
+    ]
+  },
+  "width": 340,
+  "height": 340
+}
+```
 
 Nota-se que S04 (Triagem Guiada) tem a maior prioridade da tabela: a obrigatoriedade implícita de evidência fotográfica pode excluir do fluxo usuários sem comprovante disponível, impactando diretamente a acessibilidade funcional do portal. As sugestões S01 e S03 (Notificação Ativa) reforçam o padrão de múltiplas opções e comprovação externa que emergiu em toda a amostra do Nível 3.
 

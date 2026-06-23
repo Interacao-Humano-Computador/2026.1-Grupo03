@@ -179,6 +179,43 @@ Abaixo, o vídeo da sessão de avaliação com a participante P1:
 <p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
+O **Gráfico 1** compara o nível de dificuldade por tarefa entre os dois participantes (Tabelas 1 e 2). Destaca-se o pico de P1 na análise do diagrama **CTT** (dificuldade 4), enquanto P2 — com maior letramento técnico — classificou a mesma tarefa como muito fácil.
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Gráfico 1 — Nível de Dificuldade por Tarefa e Participante", "subtitle": "Escala: 1 = Muito Fácil · 5 = Muito Difícil"},
+  "data": {
+    "values": [
+      {"tarefa": "Diagrama HTA", "participante": "P1", "dificuldade": 1},
+      {"tarefa": "Navegar no site", "participante": "P1", "dificuldade": 3},
+      {"tarefa": "Diagrama CTT", "participante": "P1", "dificuldade": 4},
+      {"tarefa": "Diagrama HTA", "participante": "P2", "dificuldade": 1},
+      {"tarefa": "Diagrama CTT", "participante": "P2", "dificuldade": 1}
+    ]
+  },
+  "mark": {"type": "bar", "cornerRadiusEnd": 3},
+  "encoding": {
+    "x": {"field": "tarefa", "type": "nominal", "title": "Tarefa", "axis": {"labelAngle": 0, "labelFontSize": 12}},
+    "xOffset": {"field": "participante"},
+    "y": {"field": "dificuldade", "type": "quantitative", "title": "Nível de Dificuldade", "scale": {"domain": [0, 5]}, "axis": {"tickCount": 5}},
+    "color": {
+      "field": "participante",
+      "type": "nominal",
+      "title": "Participante",
+      "scale": {"domain": ["P1", "P2"], "range": ["#4079BC", "#FFD200"]}
+    },
+    "tooltip": [
+      {"field": "tarefa", "title": "Tarefa"},
+      {"field": "participante", "title": "Participante"},
+      {"field": "dificuldade", "title": "Dificuldade (1–5)"}
+    ]
+  },
+  "width": "container",
+  "height": 240
+}
+```
+
 Abaixo, o vídeo da sessão de avaliação com o participante P2:
 
 <p style="text-align: center"><a href="https://youtu.be/vmji3e3J990" target="blanket">Clique aqui para assistir a gravação</a></p>
@@ -321,6 +358,37 @@ Como sugestão final, P2 declarou não ter mudanças a propor, considerando a pr
 <p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
+
+O **Gráfico 2** resume a distribuição de gravidade dos cinco problemas identificados (Quadros 2 e 3): quatro de gravidade 2 (pequeno) e um de gravidade 3 (grande, PB3 — navegação no site atual). Nenhum problema catastrófico foi encontrado.
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Gráfico 2 — Distribuição de Gravidade dos Problemas", "subtitle": "5 problemas identificados nas Avaliações 1 e 2"},
+  "data": {
+    "values": [
+      {"gravidade": "2 — Pequeno", "total": 4},
+      {"gravidade": "3 — Grande", "total": 1}
+    ]
+  },
+  "mark": {"type": "arc", "innerRadius": 70, "outerRadius": 130},
+  "encoding": {
+    "theta": {"field": "total", "type": "quantitative"},
+    "color": {
+      "field": "gravidade",
+      "type": "nominal",
+      "title": "Gravidade",
+      "scale": {"domain": ["2 — Pequeno", "3 — Grande"], "range": ["#FFD200", "#fb8c00"]}
+    },
+    "tooltip": [
+      {"field": "gravidade", "title": "Gravidade"},
+      {"field": "total", "title": "Nº de Problemas"}
+    ]
+  },
+  "width": 340,
+  "height": 340
+}
+```
 
 ---
 

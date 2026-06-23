@@ -92,6 +92,40 @@ Ambos os protótipos incluem telas de confirmação antes de ações definitivas
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
 </div>
 
+O **Gráfico 1** distribui os três problemas por funcionalidade e gravidade. A Sala de Conciliação Virtual não acumulou problemas; o Painel de Monitoramento de Prazos concentra os dois problemas de gravidade 2.
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Gráfico 1 — Problemas por Funcionalidade e Gravidade", "subtitle": "3 problemas consolidados; cor = gravidade (1 a 4)"},
+  "data": {
+    "values": [
+      {"funcionalidade": "Notificação Ativa", "gravidade": 1, "qtd": 1},
+      {"funcionalidade": "Painel de Prazos", "gravidade": 2, "qtd": 2},
+      {"funcionalidade": "Conciliação Virtual", "gravidade": 1, "qtd": 0}
+    ]
+  },
+  "mark": {"type": "bar"},
+  "encoding": {
+    "x": {"field": "funcionalidade", "type": "nominal", "title": null, "axis": {"labelAngle": 0, "labelFontSize": 11}},
+    "y": {"field": "qtd", "type": "quantitative", "title": "Nº de Problemas", "stack": "zero", "axis": {"tickCount": 3}},
+    "color": {
+      "field": "gravidade",
+      "type": "ordinal",
+      "title": "Gravidade",
+      "scale": {"domain": [1, 2, 3, 4], "range": ["#2e7d32", "#FFD200", "#fb8c00", "#d32f2f"]}
+    },
+    "tooltip": [
+      {"field": "funcionalidade", "title": "Funcionalidade"},
+      {"field": "gravidade", "title": "Gravidade (1–4)"},
+      {"field": "qtd", "title": "Nº de Problemas"}
+    ]
+  },
+  "width": "container",
+  "height": 220
+}
+```
+
 Os problemas identificados no Nível 2 são de gravidade reduzida: um de **gravidade cosmética (1)** na Notificação Ativa (dúvida sobre a validade jurídica da biometria) e dois de **gravidade pequena (2)** no Painel de Monitoramento de Prazos (quebra de modelo mental na transição digital-físico e dificuldade em localizar de cara o botão para a linha do tempo). Esses problemas não impediram a conclusão das tarefas nem geraram confusão operacional grave.
 
 A ausência de problemas na Conciliação Virtual e a presença de problemas de baixa gravidade nas demais funcionalidades indicam que os protótipos de papel do Nível 2 estão bem alinhados com as necessidades e expectativas dos usuários.
@@ -111,6 +145,37 @@ A ausência de problemas na Conciliação Virtual e a presença de problemas de 
 <div align="center">
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
 </div>
+
+O **Gráfico 2** resume a prioridade das três sugestões consolidadas: duas de prioridade média (S02 e S03, ambas no Painel de Prazos) e uma de prioridade baixa (S01, Notificação Ativa).
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Gráfico 2 — Prioridade das Sugestões de Melhoria", "subtitle": "3 sugestões consolidadas (S01–S03)"},
+  "data": {
+    "values": [
+      {"prioridade": "Média", "total": 2},
+      {"prioridade": "Baixa", "total": 1}
+    ]
+  },
+  "mark": {"type": "arc", "innerRadius": 70, "outerRadius": 130},
+  "encoding": {
+    "theta": {"field": "total", "type": "quantitative"},
+    "color": {
+      "field": "prioridade",
+      "type": "nominal",
+      "title": "Prioridade",
+      "scale": {"domain": ["Alta", "Média", "Baixa"], "range": ["#d32f2f", "#FFD200", "#4079BC"]}
+    },
+    "tooltip": [
+      {"field": "prioridade", "title": "Prioridade"},
+      {"field": "total", "title": "Nº de Sugestões"}
+    ]
+  },
+  "width": 340,
+  "height": 340
+}
+```
 
 Não foram registradas sugestões de melhoria na avaliação da Conciliação Virtual — a participante declarou o sistema completo e adequado em todos os aspectos.
 
