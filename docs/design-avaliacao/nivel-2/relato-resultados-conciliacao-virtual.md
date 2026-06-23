@@ -132,11 +132,11 @@ O protótipo cobre as seguintes telas e interações, percorridas sequencialment
 
 **Tabela 2 - Sumário quantitativo da execução das tarefas no protótipo de papel**
 
-| Participante | Tarefa Solicitada | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| P1 | Preparação e acesso à sala de espera | Sim | 0 | Não | 1 |
-| P1 | Interação na sessão de vídeo | Sim | 0 | Não | 1 |
-| P1 | Revisão e assinatura digital do termo | Sim | 0 | Não | 1 |
+| Participante | Tarefa Solicitada | Tempo de Execução | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| P1 | Preparação e acesso à sala de espera | 03:20 | Sim | 0 | Não | 1 |
+| P1 | Interação na sessão de vídeo | 02:10 | Sim | 0 | Não | 1 |
+| P1 | Revisão e assinatura digital do termo | 02:45 | Sim | 0 | Não | 1 |
 
 <div align="center">
 <p><i>Nota sobre o Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>

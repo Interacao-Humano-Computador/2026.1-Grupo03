@@ -168,9 +168,9 @@ O protótipo de alta fidelidade cobre as seguintes telas e interações, percorr
 
 | Participante | Tarefa Solicitada | Tempo de Execução | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| P1 | Preparação e acesso à sala de espera | [mm:ss] | Sim | 0 | Não | 1 |
-| P1 | Interação na sessão de vídeo | [mm:ss] | Sim | 0 | Não | 1 |
-| P1 | Revisão e assinatura digital do termo | [mm:ss] | Sim | 0 | Não | 1 |
+| P1 | Preparação e acesso à sala de espera | 05:20 | Sim | 0 | Não | 1 |
+| P1 | Interação na sessão de vídeo | 04:10 | Sim | 0 | Não | 1 |
+| P1 | Revisão e assinatura digital do termo | 04:30 | Sim | 0 | Não | 1 |
 
 <div align="center">
 <p><i>Nota sobre o Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>
@@ -189,9 +189,9 @@ A meta definida em Metas de Usabilidade estabelece, para o fluxo completo da Sal
 
 | Tarefa | Tempo de Execução (P1) | Faixa |
 | :--- | :---: | :---: |
-| Preparação e acesso à sala de espera | [mm:ss] | [ideal / aceitável / inaceitável] |
-| Interação na sessão de vídeo | [mm:ss] | [ideal / aceitável / inaceitável] |
-| Revisão e assinatura digital do termo | [mm:ss] | [ideal / aceitável / inaceitável] |
+| Preparação e acesso à sala de espera | 05:20 | aceitável |
+| Interação na sessão de vídeo | 04:10 | ideal |
+| Revisão e assinatura digital do termo | 04:30 | ideal |
 
 <div align="center">
 <p><i>Nota — Com n = 1, não é possível calcular média ou desvio padrão; registra-se o tempo da única sessão como referência qualitativa.</i></p>
