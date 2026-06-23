@@ -6,7 +6,7 @@ Colaboração referente à [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaborou o Artefato |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 | Heitor Macedo | Realizou a triangulação |
 | Mateus Barreto | Atualizou consolidação com novo relato |
 
@@ -14,7 +14,7 @@ Colaboração referente à [Etapa 5](../../planejamento/cronograma-executado.md)
 
 ## Introdução
 
-Esta página consolida os relatos de resultados das avaliações conduzidas no **Nível 2** do processo de Design, Avaliação e Desenvolvimento. Os relatos documentam os resultados obtidos nas avaliações dos protótipos de papel, incluindo problemas de usabilidade identificados, feedback dos participantes e planejamento de reprojeto.
+Esta página consolida os relatos de resultados das avaliações conduzidas no **Nível 2** do processo de Design, Avaliação e Desenvolvimento. Os relatos documentam os resultados obtidos nas avaliações dos protótipos de papel, incluindo problemas de usabilidade identificados, feedback dos participantes e planejamento de reprojeto. Trata-se de avaliação **formativa**<sup><a href="#figura1">[1]</a></sup>, pois conduzida sobre protótipo de papel — representação de baixa fidelidade da solução —, antes da implementação do design em alta fidelidade, com o propósito de identificar e corrigir problemas enquanto o custo de mudança ainda é baixo.
 
 ---
 
@@ -22,7 +22,7 @@ Esta página consolida os relatos de resultados das avaliações conduzidas no *
 
 | Documento | Autor(es) | Objeto Avaliado | Acesso |
 |---|---|---|---|
-| Relato — Sala de Conciliação Virtual | Pedro Moretti | Avaliação do protótipo de papel da Sala de Conciliação Virtual | [Acessar](relato-resultados-conciliacao-virtual.md) |
+| Relato — Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | Avaliação do protótipo de papel da Sala de Conciliação Virtual | [Acessar](relato-resultados-conciliacao-virtual.md) |
 | Relato — Notificação Ativa | Heitor Macedo Ricardo | Avaliação do protótipo de papel da Notificação Ativa | [Acessar](relato-resultados-notificacao-ativa.md) |
 | Relato — Painel de Monitoramento de Prazos | Mateus Barreto | Avaliação do protótipo de papel do Painel de Monitoramento de Prazos | [Acessar](relato-resultados-prazos.md) |
 
@@ -40,7 +40,7 @@ Esta seção sintetiza, de forma interparticipante e entre funcionalidades, os d
 
 | Funcionalidade | Avaliador | Participante | Perfil | Data | Nº de Tarefas | Taxa de Conclusão | Problemas (Gravidade ≥ 2) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Sala de Conciliação Virtual | Pedro Moretti | P1 | Fornecedor (empresária, 40 anos) | 05/06/2026 | 1 (fluxo completo) | 100% | 0 |
+| Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | P1 | Fornecedor (empresária, 40 anos) | 05/06/2026 | 3 | 100% (3/3) | 0 |
 | Notificação Ativa | Heitor Macedo | P1 | Consumidor (universitária, ~18 anos) | 05/06/2026 | 1 (fluxo completo) | 100% | 0 |
 | Painel de Monitoramento de Prazos | Mateus Barreto | P1 | Consumidor (psicóloga, 45 anos) | 20/06/2026 | 1 (fluxo completo) | 100% | 2 (PB1, PB2) |
 | Painel de Monitoramento de Prazos | Mateus Barreto | P2 | Consumidor (professor, 46 anos) | 20/06/2026 | 1 (fluxo completo) | 100% | 1 (PB2) |
@@ -80,17 +80,15 @@ Ambos os protótipos incluem telas de confirmação antes de ações definitivas
 
 ### Divergências e Pontos de Atenção
 
-**Tabela — Problemas de usabilidade consolidados do Nível 2**
-
-| Funcionalidade | ID | Tela / Etapa | Descrição do Problema | Gravidade | Freq. | Status |
-| :--- | :---: | :--- | :--- | :---: | :---: | :---: |
-| Notificação Ativa | PB1 | Tela: Acordo Aceito — Assinatura | Participante demonstrou incerteza sobre a validade jurídica da assinatura biométrica como forma de formalização contratual | 1 | 1/1 | Correção planejada |
-| Painel de Monitoramento de Prazos | PB1 | Tela: Prazo Expirado — Juizado Especial | Quebra de modelo mental na transição digital-físico (dúvida sobre ir a um local físico) | 2 | 1/3 | Correção planejada |
-| Painel de Monitoramento de Prazos | PB2 | Tela: Painel Principal / Linha do Tempo | Ausência de sinalização de clique no cartão de prazo para acessar a linha do tempo (identificado em P1 e P2; P3 não foi solicitada a realizar esta ação) | 2 | 2/2 | Correção planejada |
-| Sala de Conciliação Virtual | — | — | Nenhum problema identificado | — | — | — |
+| Funcionalidade | ID | Tela / Etapa | Descrição do Problema | Gravidade | Freq. | Persistência | Status |
+| :--- | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
+| Notificação Ativa | PB1 | Tela: Acordo Aceito — Assinatura | Participante demonstrou incerteza sobre a validade jurídica da assinatura biométrica como forma de formalização contratual | 1 | 1/1 | Pontual | Correção planejada |
+| Painel de Monitoramento de Prazos | PB1 | Tela: Prazo Expirado — Juizado Especial | Quebra de modelo mental na transição digital-físico (dúvida sobre ir a um local físico) | 2 | 1/3 | Pontual | Correção planejada |
+| Painel de Monitoramento de Prazos | PB2 | Tela: Painel Principal / Linha do Tempo | Ausência de sinalização de clique no cartão de prazo para acessar a linha do tempo (identificado em P1 e P2; P3 não foi solicitada a realizar esta ação) | 2 | 2/2 | Persistente | Correção planejada |
+| Sala de Conciliação Virtual | — | — | Nenhum problema identificado | — | — | — | — |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Cosmético; (2) Pequeno; (3) Grande; (4) Catastrófico.</i></p>
+<p><i>Nota sobre a Gravidade: (1) Cosmético; (2) Pequeno; (3) Grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
 </div>
 
@@ -153,6 +151,20 @@ Os resultados do Nível 2 são amplamente positivos. As avaliações dos protót
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 11/06/2026 | Criação da página de consolidação dos relatos do Nível 2. | Pedro Moretti | Heitor Macedo |
+| 1.0 | 11/06/2026 | Criação da página de consolidação dos relatos do Nível 2. | Pedro Augusto Moretti Moreira | Heitor Macedo |
 | 1.1 | 14/06/2026 | Adição da seção de Triangulação e Consolidação dos Resultados do Nível 2 e atualização da colaboração. | Heitor Macedo | Heitor Macedo |
 | 1.2 | 22/06/2026 | Integração do relato de prazos e atualização da consolidação de resultados (refinamento de problemas/sugestões). | Mateus Barreto | Heitor Macedo |
+
+## Notas de Rodapé e Referências de Imagens
+
+<div id="figura1" align="center">
+  <p>Figura 1 - Definição de avaliação formativa</p>
+  <a href="../../images/avaliacaoformativa.png" target="_blank"><img src="../../images/avaliacaoformativa.png" alt="Definição de avaliação formativa — Barbosa et al. (2021, Cap. 11.3, p. 251)" width="700"></a>
+  <p><b>Fonte:</b> BARBOSA et al. (2021, Cap. 11.3, p. 251).</p>
+</div>
+
+<div id="figura2" align="center">
+  <p>Figura 2 - Tabela 12.11 — Caracterização dos métodos de avaliação de IHC</p>
+  <a href="../../images/tabela1211.png" target="_blank"><img src="../../images/tabela1211.png" alt="Tabela 12.11 — Métodos de avaliação de IHC — Barbosa et al. (2021, Cap. 12, p. 308)" width="700"></a>
+  <p><b>Fonte:</b> BARBOSA et al. (2021, Cap. 12, p. 308).</p>
+</div>

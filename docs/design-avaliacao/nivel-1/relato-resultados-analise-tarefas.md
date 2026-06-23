@@ -6,7 +6,7 @@ Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 | Autores | Contribuiu |
 |---|---|
 | Heitor Macedo | Elaborou o Artefato (Avaliação — Acompanhar Reclamação) |
-| Pedro Moretti | Elaborou o Artefato (Avaliação — Sala de Conciliação Virtual) |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato (Avaliação — Sala de Conciliação Virtual) |
 
 ## Introdução
 
@@ -46,7 +46,7 @@ A sessão foi estruturada em três momentos:
 2. **Navegação no site real:** O avaliador solicitou que a participante navegasse no site do PROCON-DF para localizar onde seria possível registrar uma reclamação e acompanhar seu andamento.
 3. **Análise do diagrama CTT:** O avaliador apresentou o diagrama CTT da mesma tarefa e coletou a percepção da participante sobre os símbolos e o fluxo representado.
 
-### Avaliação 2 — Sala de Conciliação Virtual (Pedro Moretti)
+### Avaliação 2 — Sala de Conciliação Virtual (Pedro Augusto Moretti Moreira)
 
 O método utilizado foi a **Entrevista Semiestruturada com análise dos modelos de tarefas (HTA e CTT) e protocolo Think Aloud**, conforme definido no [Planejamento da Avaliação da Análise de Tarefas](./planejamento-avaliacao-tarefas.md).
 
@@ -76,18 +76,18 @@ O teste piloto foi conduzido antes da sessão oficial com o participante real. O
 
 <font size="3"><p style="text-align: center">Fonte: Heitor Macedo Ricardo.</p></font>
 
-### Avaliação 2 — Pedro Moretti
+### Avaliação 2 — Pedro Augusto Moretti Moreira
 
 O teste piloto foi conduzido antes da sessão oficial com o participante real. O objetivo foi verificar o funcionamento do equipamento de gravação (câmera e áudio), a clareza da apresentação dos diagramas HTA e CTT da Sala de Conciliação Virtual em tela e a adequação do roteiro semiestruturado e dos artefatos utilizados.
 
-* **Participante piloto:** Não houve um usuário alvo — o teste foi realizado apenas com o próprio moderador
+* **Participante piloto:** Não houve um participante representativo do público-alvo — o teste foi realizado apenas com o próprio moderador. Como os diagramas HTA e CTT foram elaborados a partir de uma modelagem cuidadosa das tarefas e o roteiro semiestruturado já havia sido calibrado durante o planejamento, optou-se por concentrar o piloto na verificação técnica dos equipamentos e na legibilidade da apresentação dos diagramas em tela, poupando um participante do perfil alvo de uma sessão que ainda poderia conter ajustes instrumentais.
 * **Funcionamento da gravação:** Câmera e áudio verificados e em funcionamento
 * **Resultados:** Os artefatos (diagramas, roteiro e documentos de apoio) foram considerados claros e adequados. Nenhum ajuste significativo foi necessário no protocolo antes da sessão oficial.
 * **Os dados coletados no teste piloto foram descartados e não integram os resultados desta avaliação.**
 
 <p style="text-align: center"><a href="https://youtu.be/Xf8gCCi-uSY" target="blanket">Clique aqui para assistir ao Teste Piloto</a></p>
 
-<font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
+<font size="3"><p style="text-align: center">Fonte: Pedro Augusto Moretti Moreira.</p></font>
 
 ---
 
@@ -99,7 +99,7 @@ A avaliação contou com **dois (2) participantes reais** recrutados, identifica
 
 O perfil da participante está alinhado com a persona **Laura** (Consumidora Reclamante) definida no projeto — jovem universitária com acesso à internet e experiência com aplicativos digitais.
 
-### Participante P2 (Avaliação de Pedro Moretti)
+### Participante P2 (Avaliação de Pedro Augusto Moretti Moreira)
 
 O perfil do participante está alinhado com o perfil de usuário primário **Fornecedor (Representante da Empresa)** — empreendedor que precisa resolver conflitos com consumidores sem comprometer o funcionamento do seu negócio, buscando soluções que otimizem seu tempo e evitem deslocamentos ou perda de arrecadação.
 
@@ -110,10 +110,10 @@ O perfil do participante está alinhado com o perfil de usuário primário **For
 | P1 | Usuário Avaliador | Consumidor (Reclamante e Informacional) | 18 anos | Universitária |
 | P2 | Usuário Avaliador | Fornecedor (Representante da Empresa) | 40 anos | Empresário |
 | A1 | Moderador | Heitor Macedo (Grupo 03) | 20 | Entrevistador |
-| A2 | Moderador | Pedro Moretti (Grupo 03) | 20 anos | Entrevistador |
+| A2 | Moderador | Pedro Augusto Moretti Moreira (Grupo 03) | 20 anos | Entrevistador |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Heitor Macedo Ricardo e Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Heitor Macedo Ricardo e Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ---
@@ -130,7 +130,7 @@ As seguintes tarefas foram executadas durante a sessão de avaliação:
 
 3. **Leitura e análise do diagrama CTT** — a participante foi convidada a percorrer o diagrama CTT da mesma tarefa, verbalizando sua compreensão dos símbolos e do fluxo representado.
 
-### Avaliação 2 — Pedro Moretti (Sala de Conciliação Virtual)
+### Avaliação 2 — Pedro Augusto Moretti Moreira (Sala de Conciliação Virtual)
 
 As seguintes tarefas foram executadas durante a sessão de avaliação:
 
@@ -165,9 +165,9 @@ Abaixo, o vídeo da sessão de avaliação com a participante P1:
 
 <font size="3"><p style="text-align: center">Fonte: Heitor Macedo Ricardo.</p></font>
 
-### Avaliação 2 — Pedro Moretti
+### Avaliação 2 — Pedro Augusto Moretti Moreira
 
-**Tabela 2 - Sumário quantitativo da execução das tarefas — Pedro Moretti**
+**Tabela 2 - Sumário quantitativo da execução das tarefas — Pedro Augusto Moretti Moreira**
 
 | Participante | Tarefa Solicitada | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -176,14 +176,14 @@ Abaixo, o vídeo da sessão de avaliação com a participante P1:
 
 <div align="center">
 <p><i>Nota sobre o Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 Abaixo, o vídeo da sessão de avaliação com o participante P2:
 
 <p style="text-align: center"><a href="https://youtu.be/vmji3e3J990" target="blanket">Clique aqui para assistir a gravação</a></p>
 
-<font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
+<font size="3"><p style="text-align: center">Fonte: Pedro Augusto Moretti Moreira.</p></font>
 
 ---
 
@@ -235,7 +235,7 @@ Sobre o sistema de notificação ativa, P1 afirmou que o utilizaria em seu dia a
 
 ---
 
-### 7.2 Avaliação 2 — Pedro Moretti (Sala de Conciliação Virtual)
+### 7.2 Avaliação 2 — Pedro Augusto Moretti Moreira (Sala de Conciliação Virtual)
 
 #### Diagrama HTA — Compreensão e Validação
 
@@ -297,29 +297,29 @@ Como sugestão final, P2 declarou não ter mudanças a propor, considerando a pr
 
 **Quadro 2 - Problemas identificados nos modelos de tarefas e na navegação do sistema (Avaliação 1)**
 
-| ID | Local / Passo na Tarefa | Descrição do Problema | Evidência (Fala ou comportamento) | Gravidade (1 a 4) | Sugestão de Correção |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| PB1 | Diagrama CTT — símbolos de notação | Os símbolos do CTT (sequência, concorrência, escolha) não ficaram claros para a participante, gerando confusão na leitura do fluxo | *"Eu não entendi muito não. Foi meio fora de ordem, né?"* | 2 | Incluir legenda explicativa dos símbolos no próprio artefato; avaliar o uso de notação simplificada na apresentação ao usuário |
-| PB2 | Etapa de envio de documentos (HTA/CTT) | A sub-tarefa de "enviar documentação" carece de orientação sobre quais documentos são necessários, formato aceito e como realizar o envio corretamente | *"Quais documentações, qual o formato da documentação, como que envia certinho para não deixar dúvidas"* | 2 | Detalhar a sub-tarefa de envio no diagrama; na interface, adicionar orientações sobre tipos de arquivo aceitos e tamanho máximo |
-| PB3 | Navegação no site real — "Registrar Reclamação" | O caminho para registrar uma reclamação no site atual não é intuitivo; a participante passou por 2 caminhos incorretos antes de encontrar a opção correta (Serviços > Carta de Serviços > Serviços para o consumidor > Registrar reclamação) | Usuária navegou por múltiplos cliques antes de encontrar; verbalizou: *"Não é isso que eu quero"* em dois momentos | 3 | Adicionar acesso direto a "Registrar Reclamação" no menu principal do site; incluir atalho visível na página inicial |
+| ID | Local / Passo na Tarefa | Descrição do Problema | Evidência (Fala ou comportamento) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| PB1 | Diagrama CTT — símbolos de notação | Os símbolos do CTT (sequência, concorrência, escolha) não ficaram claros para a participante, gerando confusão na leitura do fluxo | *"Eu não entendi muito não. Foi meio fora de ordem, né?"* | 2 | 1/1 | Pontual — superado após orientação do avaliador | Incluir legenda explicativa dos símbolos no próprio artefato; avaliar o uso de notação simplificada na apresentação ao usuário |
+| PB2 | Etapa de envio de documentos (HTA/CTT) | A sub-tarefa de "enviar documentação" carece de orientação sobre quais documentos são necessários, formato aceito e como realizar o envio corretamente | *"Quais documentações, qual o formato da documentação, como que envia certinho para não deixar dúvidas"* | 2 | 1/1 | Estrutural — lacuna no artefato; não verificável como erro de execução | Detalhar a sub-tarefa de envio no diagrama; na interface, adicionar orientações sobre tipos de arquivo aceitos e tamanho máximo |
+| PB3 | Navegação no site real — "Registrar Reclamação" | O caminho para registrar uma reclamação no site atual não é intuitivo; a participante passou por 2 caminhos incorretos antes de encontrar a opção correta (Serviços > Carta de Serviços > Serviços para o consumidor > Registrar reclamação) | Usuária navegou por múltiplos cliques antes de encontrar; verbalizou: *"Não é isso que eu quero"* em dois momentos | 3 | 1/1 | Recorrente — erros repetidos em múltiplos passos até encontrar o caminho correto | Adicionar acesso direto a "Registrar Reclamação" no menu principal do site; incluir atalho visível na página inicial |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Heitor Macedo Ricardo.</i></p>
 </div>
 
-### 8.2 Avaliação 2 — Pedro Moretti
+### 8.2 Avaliação 2 — Pedro Augusto Moretti Moreira
 
 **Quadro 3 - Problemas identificados nos modelos de tarefas — Sala de Conciliação Virtual (Avaliação 2)**
 
-| ID | Local / Passo na Tarefa | Descrição do Problema | Evidência (Fala ou comportamento) | Gravidade (1 a 4) | Sugestão de Correção |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| PB4 | Etapa de visualização de documentos (HTA/CTT) | A etapa de visualização de documentos na Sala de Conciliação Virtual carece de orientações mais claras sobre como proceder, quais documentos estão disponíveis e como interagir com eles | *"Talvez na hora de visualizar documentos, poderia ter uma explicação melhor nessa parte"* | 2 | Adicionar descrições e instruções visuais na interface de visualização de documentos; incluir tooltips ou um guia rápido sobre como navegar e anexar documentos |
-| PB5 | Fluxo geral — Transição para conciliação presencial | Não está claro no modelo como lidar com casos em que os documentos são complexos e a conciliação virtual não é suficiente; o diagrama não prevê um mecanismo de transição para o formato presencial | *"Talvez se os documentos fossem complexos precisaria de um encontro presencial"* | 2 | Incluir no modelo uma tarefa de "Avaliação de complexidade" que permita ao sistema ou ao mediador sinalizar a necessidade de conciliação presencial, com fluxo de transição claro |
+| ID | Local / Passo na Tarefa | Descrição do Problema | Evidência (Fala ou comportamento) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| PB4 | Etapa de visualização de documentos (HTA/CTT) | A etapa de visualização de documentos na Sala de Conciliação Virtual carece de orientações mais claras sobre como proceder, quais documentos estão disponíveis e como interagir com eles | *"Talvez na hora de visualizar documentos, poderia ter uma explicação melhor nessa parte"* | 2 | 1/1 | Estrutural — lacuna no artefato; não representado no diagrama | Adicionar descrições e instruções visuais na interface de visualização de documentos; incluir tooltips ou um guia rápido sobre como navegar e anexar documentos |
+| PB5 | Fluxo geral — Transição para conciliação presencial | Não está claro no modelo como lidar com casos em que os documentos são complexos e a conciliação virtual não é suficiente; o diagrama não prevê um mecanismo de transição para o formato presencial | *"Talvez se os documentos fossem complexos precisaria de um encontro presencial"* | 2 | 1/1 | Estrutural — lacuna no artefato; não representado no diagrama | Incluir no modelo uma tarefa de "Avaliação de complexidade" que permita ao sistema ou ao mediador sinalizar a necessidade de conciliação presencial, com fluxo de transição claro |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ---
@@ -330,7 +330,7 @@ Como sugestão final, P2 declarou não ter mudanças a propor, considerando a pr
 
 O Termo de Consentimento Livre e Esclarecido (TCLE) foi reapresentado pelo avaliador no início desta sessão, que ocorreu em sequência à avaliação do storyboard. O avaliador reforçou que a avaliação é do sistema — não da participante — e que os dados seriam usados exclusivamente para fins acadêmicos. A participante P1 confirmou verbalmente seu consentimento, conforme registrado no início da gravação desta sessão.
 
-### Avaliação 2 — Pedro Moretti
+### Avaliação 2 — Pedro Augusto Moretti Moreira
 
 O Termo de Consentimento Livre e Esclarecido (TCLE) foi apresentado pelo avaliador no início da sessão. O avaliador esclareceu que a avaliação é do sistema — não do participante — e que os dados seriam usados exclusivamente para fins acadêmicos. O participante P2 confirmou verbalmente seu consentimento, conforme registrado no início da gravação da sessão.
 
@@ -360,7 +360,7 @@ Refinar o diagrama CTT com legendas dos símbolos diretamente no artefato. Detal
 <p><i>Fonte: Elaborado por Heitor Macedo Ricardo.</i></p>
 </div>
 
-### 10.2 A partir da Avaliação 2 (Pedro Moretti)
+### 10.2 A partir da Avaliação 2 (Pedro Augusto Moretti Moreira)
 
 Com base nos problemas identificados no Quadro 3, as seguintes correções devem ser priorizadas:
 
@@ -374,10 +374,10 @@ Incluir no modelo HTA/CTT uma sub-tarefa de "Avaliação de complexidade documen
 
 | Executores do Reprojeto | Horário de Início | Horário de Fim | Data |
 | :---: | :---: | :---: | :---: |
-| Pedro Moretti | 19:00 | 20:00 | 01/06/2026 |
+| Pedro Augusto Moretti Moreira | 19:00 | 20:00 | 01/06/2026 |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ---
@@ -390,5 +390,5 @@ Incluir no modelo HTA/CTT uma sub-tarefa de "Avaliação de complexidade documen
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.1 | 31/05/2026 | Adição dos resultados da Avaliação da Análise de Tarefas da Sala de Conciliação Virtual com dados da entrevista com P2. | Pedro Moretti | Heitor Macedo |
-| 1.0 | 31/05/2026 | Criação do Relato dos Resultados da Avaliação da Análise de Tarefas com dados da entrevista com P1. | Heitor Macedo Ricardo | Pedro Moretti |
+| 1.1 | 31/05/2026 | Adição dos resultados da Avaliação da Análise de Tarefas da Sala de Conciliação Virtual com dados da entrevista com P2. | Pedro Augusto Moretti Moreira | Heitor Macedo |
+| 1.0 | 31/05/2026 | Criação do Relato dos Resultados da Avaliação da Análise de Tarefas com dados da entrevista com P1. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |

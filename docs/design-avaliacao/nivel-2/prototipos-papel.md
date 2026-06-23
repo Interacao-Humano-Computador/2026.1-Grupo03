@@ -6,7 +6,7 @@ Colaboração referente à [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaborou o Artefato |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 
 ---
 
@@ -23,7 +23,7 @@ Os protótipos foram elaborados com base na análise de tarefas (HTA e CTT), nos
 | Funcionalidade | Autor | Fluxo | Acesso |
 |---|---|---|---|
 | Notificação Ativa | Heitor Macedo | Notificação via WhatsApp/SMS/e-mail com painel de progresso da reclamação | [Acessar](prototipo.md) |
-| Sala de Conciliação Virtual | Pedro Moretti | Videoconferência com mediação, chat de evidências e assinatura digital (8 telas) | [Acessar](prototipo-conciliacao.md) |
+| Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | Videoconferência com mediação, chat de evidências e assinatura digital (8 telas) | [Acessar](prototipo-conciliacao.md) |
 | Validação por OCR | Heloisa Silva | Envio de documento, extração por OCR, revisão e confirmação de dados (4 telas) | [Acessar](prototipo-ocr.md) |
 | Painel de Monitoramento de Prazos | Mateus | Painel com prazos legais, contagem regressiva e alertas automáticos | [Acessar](prototipo-prazos.md) |
 | Assistente de Triagem Guiada | Pedro Macedo | Fluxo wizard de perguntas em linguagem cidadã para classificação da reclamação | [Acessar](prototipo-triagem.md) |
@@ -77,4 +77,4 @@ Agradecimento ao **DeepSeek** pelo auxílio na estruturação deste arquivo.
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 11/06/2026 | Criação da página de consolidação dos protótipos de papel. | Pedro Moretti | — |
+| 1.0 | 11/06/2026 | Criação da página de consolidação dos protótipos de papel. | Pedro Augusto Moretti Moreira | — |

@@ -5,7 +5,7 @@ Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaborou o Artefato |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 
 ## Introdução
 
@@ -35,7 +35,7 @@ Especificamente, buscou-se responder às seguintes perguntas de pesquisa:
 
 ## 2. Método de avaliação empregado
 
-O método utilizado foi a **Observação e Entrevista Semiestruturada com uso do Protótipo de Papel**, conforme definido no [Planejamento da Avaliação do Protótipo de Papel](./planejamento-avaliacao-pp.md). O avaliador apresentou as telas do protótipo impressas em papel, uma a uma, simulando a interação do usuário com o sistema. O participante apontava com o dedo onde clicaria e verbalizava suas ações e pensamentos em voz alta. A sessão foi conduzida seguindo a estrutura narrativa planejada: apresentação e TCLE, aquecimento, simulação com o protótipo (parte principal), perguntas focadas pós-tarefa, desaquecimento e encerramento.
+Os métodos empregados foram: **Teste de Usabilidade com Protótipo de Papel** (método de observação<sup><a href="#fig-cap122">[1]</a></sup>), conduzido com observação direta e técnica Think Aloud durante a execução das tarefas, complementado por **Entrevista Semiestruturada** pós-sessão (método de investigação<sup><a href="#fig-cap116">[2]</a></sup>). A combinação segue a recomendação de Barbosa et al. (2021, Cap. 11.6) de integrar a investigação à observação para obter dados mais robustos; o Teste de Usabilidade pertence à família dos métodos de observação (Barbosa et al., 2021, Cap. 12.2), e a Entrevista Semiestruturada à família dos métodos de investigação (Cap. 11.6). Ambos foram aplicados conforme definido no [Planejamento da Avaliação do Protótipo de Papel](./planejamento-avaliacao-pp.md). O avaliador apresentou as telas do protótipo impressas em papel, uma a uma, simulando a interação do usuário com o sistema. O participante apontava com o dedo onde clicaria e verbalizava suas ações e pensamentos em voz alta. A sessão foi conduzida seguindo a estrutura narrativa planejada: apresentação e TCLE, aquecimento, simulação com o protótipo (parte principal), perguntas focadas pós-tarefa, desaquecimento e encerramento.
 
 A sessão foi integralmente gravada em vídeo para análise posterior.
 
@@ -43,16 +43,16 @@ O protótipo de papel avaliado foi o **Protótipo da Sala de Conciliação Virtu
 
 <p style="text-align: center"><a href="../../Conciliacao%20Virtual%20-%20Wireframe%20(standalone).html" target="blanket">Clique aqui para acessar o Protótipo de Papel</a></p>
 
-<font size="3"><p style="text-align: center">Fonte: Elaborado por Pedro Moretti.</p></font>
+<font size="3"><p style="text-align: center">Fonte: Elaborado por Pedro Augusto Moretti Moreira.</p></font>
 
 **Tabela 1 - Cronograma Executado**
 
 | Entrevistador | Entrevistado | Horário de Início | Horário de Fim | Data | Local |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Pedro Moretti](../../equipe/equipe.md) | <span style="color: orange">P1</span> | 16:30 | 16:50 | 05/06/2026 | Presencial |
+| [Pedro Augusto Moretti Moreira](../../equipe/equipe.md) | <span style="color: orange">P1</span> | 16:30 | 16:50 | 05/06/2026 | Presencial |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ---
@@ -61,14 +61,14 @@ O protótipo de papel avaliado foi o **Protótipo da Sala de Conciliação Virtu
 
 O teste piloto foi conduzido antes da sessão oficial com o participante real. O objetivo foi verificar o funcionamento do equipamento de gravação (câmera e áudio), a clareza da apresentação das telas do protótipo de papel e a adequação do roteiro semiestruturado.
 
-* **Participante piloto:** Não houve um participante representativo do público-alvo — o teste foi realizado apenas com o próprio moderador
+* **Participante piloto:** Não houve um participante representativo do público-alvo — o teste foi realizado apenas com o próprio moderador. Como o protótipo de papel foi construído com base nos storyboards e na análise de tarefas já validados nas etapas anteriores, e o roteiro semiestruturado desta sessão constitui uma evolução de versões já testadas, optou-se por concentrar o piloto na verificação técnica dos equipamentos e na clareza da apresentação das telas do protótipo, poupando um participante do perfil alvo de uma sessão que ainda poderia conter ajustes instrumentais.
 * **Funcionamento da gravação:** Câmera e áudio verificados e em funcionamento
 * **Resultados:** Os artefatos (telas do protótipo, roteiro e documentos de apoio) foram considerados claros e adequados. Nenhum ajuste significativo foi necessário no protocolo antes da sessão oficial.
 * **Os dados coletados no teste piloto foram descartados e não integram os resultados desta avaliação.**
 
 <p style="text-align: center"><a href="https://youtu.be/9wrrr5jZ-IA" target="blanket">Clique aqui para acessar a gravação do Teste Piloto</a></p>
 
-<font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
+<font size="3"><p style="text-align: center">Fonte: Pedro Augusto Moretti Moreira.</p></font>
 
 ---
 
@@ -85,21 +85,33 @@ O perfil da participante está alinhado com o perfil de usuário primário **For
 | ID | Papel na Avaliação | Perfil de Usuário / Alinhamento | Idade | Ocupação |
 | :---: | :---: | :---: | :---: | :---: |
 | P1 | Usuário Avaliador | Fornecedor (Representante da Empresa) | 40 anos | Empresária |
-| A1 | Mediador | Pedro Moretti (Grupo 03) | 20 anos | Entrevistador |
+| A1 | Mediador | Pedro Augusto Moretti Moreira (Grupo 03) | 20 anos | Entrevistador |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ---
 
 ## 5. Tarefas executadas pelos participantes
 
-A tarefa executada pela participante foi específica para a funcionalidade de **Sala de Conciliação Virtual**, consistindo em um fluxo contínuo que abrange desde o recebimento do convite até a assinatura do termo de acordo.
+A avaliação foi dividida em três tarefas que cobrem o fluxo completo da funcionalidade de **Sala de Conciliação Virtual**, desde o acesso ao link até a assinatura digital do termo de acordo.
 
 ### Cenário Apresentado
 
 > "Você é um consumidor que comprou um produto na panificadora, teve um problema e a loja não quis resolver. Você registrou uma reclamação no PROCON-DF. Depois de alguns dias, o PROCON marcou uma audiência de conciliação, e você recebeu um e-mail avisando que a audiência será online, por videochamada, dentro do próprio portal do PROCON. A sua missão hoje é participar dessa audiência virtual do começo ao fim: desde receber o convite até sair da sala com o termo de acordo assinado digitalmente."
+
+### Tarefa 1: Preparação e Acesso à Sala de Espera
+
+A participante foi instruída a, a partir da tela inicial do link, navegar pelas orientações, realizar o teste obrigatório de periféricos (câmera e microfone) e confirmar o funcionamento para ingressar na sala de audiência.
+
+### Tarefa 2: Interação na Sessão de Vídeo
+
+A participante deveria identificar quem era quem na tela (mediador e representante da empresa), desativar o microfone por um instante e, em seguida, utilizar o chat lateral de evidências para anexar e enviar o comprovante de compra solicitado pelo mediador.
+
+### Tarefa 3: Revisão e Assinatura Digital do Termo
+
+Após a mediação, a participante deveria visualizar o termo de acordo gerado pelo mediador, realizar o processo de assinatura digital integrada utilizando a autenticação do portal Gov.br e prosseguir até que o sistema indicasse o encerramento da audiência com sucesso.
 
 ### Fluxo de Telas do Protótipo
 
@@ -122,11 +134,13 @@ O protótipo cobre as seguintes telas e interações, percorridas sequencialment
 
 | Participante | Tarefa Solicitada | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| P1 | Participar de audiência de conciliação virtual | Sim | 0 | Não | 1 |
+| P1 | Preparação e acesso à sala de espera | Sim | 0 | Não | 1 |
+| P1 | Interação na sessão de vídeo | Sim | 0 | Não | 1 |
+| P1 | Revisão e assinatura digital do termo | Sim | 0 | Não | 1 |
 
 <div align="center">
 <p><i>Nota sobre o Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 **Tabela 3 - Respostas da Participante P1 às Perguntas Pós-Tarefa**
@@ -143,14 +157,14 @@ O protótipo cobre as seguintes telas e interações, percorridas sequencialment
 | 8 – Satisfação: Se sentiria confortável participando de uma audiência real por este sistema? | "Me sentiria muito confortável e acho uma ideia válida para a resolução de muitas questões de uma maneira simples e sem precisar me deslocar" |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 Abaixo, o vídeo da sessão de avaliação com a participante P1:
 
 <p style="text-align: center"><a href="https://youtu.be/0GGjbLZvEM0" target="blanket">Clique aqui para acessar a gravação da sessão</a></p>
 
-<font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
+<font size="3"><p style="text-align: center">Fonte: Pedro Augusto Moretti Moreira.</p></font>
 
 ---
 
@@ -205,13 +219,13 @@ Não foram identificados problemas de usabilidade, ambiguidades de interface ou 
 
 **Quadro 2 - Problemas identificados no Protótipo de Papel**
 
-| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Sugestão de Correção para o Protótipo |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| — | — | Nenhum problema identificado | — | — | — |
+| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção para o Protótipo |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | Nenhum problema identificado | — | — | — | — | — |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ---
@@ -238,7 +252,7 @@ Os resultados desta avaliação reforçam a direção de design adotada e orient
 
 <div align="center">
 <p><i>Sem necessidade de reprojeto identificada nesta avaliação.</i></p>
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ---
@@ -258,5 +272,23 @@ Agradecimento ao **Claude** pela ajuda na correção e detalhamento das resposta
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | 01/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Papel — Sala de Conciliação Virtual com dados da entrevista com P1. | Pedro Moretti | — |
-| 1.1 | 12/06/2026 | Substituição de referências a personas por perfil de usuário primário Fornecedor (Representante da Empresa). | Pedro Moretti | Heitor Macedo |
+| 1.0 | 01/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Papel — Sala de Conciliação Virtual com dados da entrevista com P1. | Pedro Augusto Moretti Moreira | — |
+| 1.1 | 12/06/2026 | Substituição de referências a personas por perfil de usuário primário Fornecedor (Representante da Empresa). | Pedro Augusto Moretti Moreira | Heitor Macedo |
+
+## Notas de Rodapé e Referências de Imagens
+
+<div id="fig-cap122"></div>
+
+**Figura 1** - Cap. 12.2 — O Teste de Usabilidade como método de observação (Barbosa et al., 2021).
+
+![Cap. 12.2 — Teste de Usabilidade como método de observação](../images/cap122.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, Cap. 12.2).
+
+<div id="fig-cap116"></div>
+
+**Figura 2** - Cap. 11.6 — Classificação dos métodos de avaliação em investigação, observação e inspeção (Barbosa et al., 2021).
+
+![Cap. 11.6 — Classificação dos métodos de avaliação](../images/cap116.png)
+<div></div>
+Fonte: BARBOSA et al. (2021, Cap. 11.6).

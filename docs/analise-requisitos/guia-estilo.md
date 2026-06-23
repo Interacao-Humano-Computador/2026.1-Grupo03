@@ -7,7 +7,7 @@ Colaboração referente a [Etapa 3](../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaboração do Artefato |
+| Pedro Augusto Moretti Moreira | Elaboração do Artefato |
 
 ## 1. <a name="introducao"></a>1 Introdução
 
@@ -407,9 +407,9 @@ W3C. **Web Content Accessibility Guidelines (WCAG) 2.1**. 2018. Disponível em: 
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :--- | :--- | :--- | :--- | :--- |
-| `1.0` | 11/05/2026 | Estruturação inicial baseada em Barbosa e Silva (2021). | Pedro Moretti | Heitor Macedo |
-| `1.3` | 13/05/2026 | Conversão de termos técnicos de estilos para descrições explicativas e consolidação visual. | Pedro Moretti | Heitor Macedo |
-| `1.4` | 13/05/2026 | Inclusão de hexadecimais na paleta de cores, expansão das sequências de diálogo, adição de tipos de tela e reorganização da seção 6. | Pedro Moretti | Heitor Macedo |
+| `1.0` | 11/05/2026 | Estruturação inicial baseada em Barbosa e Silva (2021). | Pedro Augusto Moretti Moreira | Heitor Macedo |
+| `1.3` | 13/05/2026 | Conversão de termos técnicos de estilos para descrições explicativas e consolidação visual. | Pedro Augusto Moretti Moreira | Heitor Macedo |
+| `1.4` | 13/05/2026 | Inclusão de hexadecimais na paleta de cores, expansão das sequências de diálogo, adição de tipos de tela e reorganização da seção 6. | Pedro Augusto Moretti Moreira | Heitor Macedo |
 
 ## Notas de Rodapé e Referências de Imagens
 

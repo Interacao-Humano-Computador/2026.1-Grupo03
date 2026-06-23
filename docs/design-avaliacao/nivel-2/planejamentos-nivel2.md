@@ -6,7 +6,7 @@ Colaboração referente à [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaborou o Artefato |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 
 ---
 
@@ -35,4 +35,4 @@ Esta página consolida os planejamentos de avaliação e de relato de resultados
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 11/06/2026 | Criação da página de consolidação dos planejamentos do Nível 2. | Pedro Moretti | — |
+| 1.0 | 11/06/2026 | Criação da página de consolidação dos planejamentos do Nível 2. | Pedro Augusto Moretti Moreira | — |

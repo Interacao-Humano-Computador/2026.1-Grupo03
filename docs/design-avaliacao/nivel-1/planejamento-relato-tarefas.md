@@ -105,12 +105,12 @@ As falhas de interação, ambiguidades de layout e problemas de fluxo no modelo 
 
 **Quadro 2 - Padronização e priorização dos problemas identificados**
 
-| ID | Local / Passo na Tarefa | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Sugestão de Correção |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| PB1 | Tela de Login | [Descrição do problema] | [Ex: Usuário tentou digitar sem pontuar e o campo bloqueou] | [1 a 4] | [Como corrigir] |
+| ID | Local / Passo na Tarefa | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| PB1 | Tela de Login | [Descrição do problema] | [Ex: Usuário tentou digitar sem pontuar e o campo bloqueou] | [1 a 4] | [Nº de participantes afetados] | [Pontual / Recorrente / Estrutural] | [Como corrigir] |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Heitor Macedo Ricardo (adaptado).</i></p>
 </div>
 
@@ -142,8 +142,8 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.1 | 22/05/2026 | Correção e alinhamento metodológico com o planejamento de avaliação. | Heitor Macedo Ricardo | Pedro Moretti |
-| 1.0 | 17/05/2026 | Criação do Planejamento do Relato dos Resultados da Análise de Tarefas. | Heitor Macedo Ricardo | Pedro Moretti |
+| 1.1 | 22/05/2026 | Correção e alinhamento metodológico com o planejamento de avaliação. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
+| 1.0 | 17/05/2026 | Criação do Planejamento do Relato dos Resultados da Análise de Tarefas. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
 
 ## Notas de Rodapé e Referências de Imagens
 

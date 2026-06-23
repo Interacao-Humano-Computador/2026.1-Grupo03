@@ -206,12 +206,12 @@ Não foram identificados problemas de usabilidade que impedissem ou dificultasse
 
 **Quadro 2 — Problemas identificados no Protótipo de Papel**
 
-| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Sugestão de Correção para o Protótipo |
-| :---: | :---: | :--- | :--- | :---: | :--- |
-| PB1 | Tela: Acordo Aceito — Assinatura | Participante demonstrou incerteza sobre a validade jurídica da biometria como forma de assinatura de contrato, sugerindo oferecer alternativa de assinatura manuscrita | *"Às vezes podia ter uma opção também de assinar escrevendo... Não sei se a biometria já vale para assinar um contrato."* | 1 | Incluir na tela de assinatura uma breve nota explicativa sobre a validade jurídica da assinatura biométrica (ex.: "Sua biometria tem validade jurídica conforme a Lei nº 14.063/2020") e/ou oferecer método alternativo de assinatura |
+| ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção para o Protótipo |
+| :---: | :---: | :--- | :--- | :---: | :---: | :---: | :--- |
+| PB1 | Tela: Acordo Aceito — Assinatura | Participante demonstrou incerteza sobre a validade jurídica da biometria como forma de assinatura de contrato, sugerindo oferecer alternativa de assinatura manuscrita | *"Às vezes podia ter uma opção também de assinar escrevendo... Não sei se a biometria já vale para assinar um contrato."* | 1 | 1/1 | Pontual — verbalização única; não impediu a conclusão da tarefa | Incluir na tela de assinatura uma breve nota explicativa sobre a validade jurídica da assinatura biométrica (ex.: "Sua biometria tem validade jurídica conforme a Lei nº 14.063/2020") e/ou oferecer método alternativo de assinatura |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
+<p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Heitor Macêdo Ricardo.</i></p>
 </div>
 

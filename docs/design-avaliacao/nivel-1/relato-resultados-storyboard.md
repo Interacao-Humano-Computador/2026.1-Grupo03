@@ -6,7 +6,7 @@ Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 | Autores | Contribuiu |
 |---|---|
 | Heitor Macedo | Elaborou o Artefato (Avaliação — Notificação Ativa) |
-| Pedro Moretti | Elaborou o Artefato (Avaliação — Sala de Conciliação Virtual) |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato (Avaliação — Sala de Conciliação Virtual) |
 | Heloisa Silva | Elaborou o Artefato (Avaliação — Validação de documento por OCR) |
 
 ## Introdução
@@ -41,7 +41,7 @@ O método utilizado foi a **Entrevista Semiestruturada com uso do Storyboard**, 
 
 A participante leu os quadros do storyboard em tela, verbalizando sua compreensão enquanto avançava pelas cenas. A sessão foi integralmente gravada em vídeo para análise posterior.
 
-### Avaliação 2 — Sala de Conciliação Virtual (Pedro Moretti)
+### Avaliação 2 — Sala de Conciliação Virtual (Pedro Augusto Moretti Moreira)
 
 O método utilizado foi a **Entrevista Semiestruturada com uso do Storyboard**, conforme definido no [Planejamento da Avaliação do Storyboard](./planejamento-avaliacao-storyboard.md). O avaliador apresentou o storyboard da Sala de Conciliação Virtual ao participante em formato digital e conduziu a entrevista seguindo a estrutura narrativa planejada.
 
@@ -52,10 +52,10 @@ O participante leu os quadros do storyboard em tela, verbalizando sua compreens�
 | Entrevistador | Entrevistado | Horário de Início | Horário de Fim | Data | Local |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | [Heitor Macedo](../../equipe/equipe.md) | <span style="color: orange">P1</span> | 13:00 | 13:10 | 30/05/2026 | Presencial |
-| [Pedro Moretti](../../equipe/equipe.md) | <span style="color: orange">P2</span> | 11:30 | 11:50 | 30/05/2026 | Presencial |
+| [Pedro Augusto Moretti Moreira](../../equipe/equipe.md) | <span style="color: orange">P2</span> | 11:30 | 11:50 | 30/05/2026 | Presencial |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Heitor Macedo Ricardo, Pedro Moretti e Heloisa Silva.</i></p>
+<p><i>Fonte: Elaborado por Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira e Heloisa Silva.</i></p>
 </div>
 
 ---
@@ -77,18 +77,18 @@ O teste piloto foi conduzido antes da sessão oficial com o participante real. O
 
 <font size="3"><p style="text-align: center">Fonte: Heitor Macedo Ricardo.</p></font>
 
-### Avaliação 2 — Pedro Moretti
+### Avaliação 2 — Pedro Augusto Moretti Moreira
 
 O teste piloto foi conduzido antes da sessão oficial com o participante real. O objetivo foi verificar o funcionamento do equipamento de gravação (câmera e áudio), a clareza da apresentação do storyboard da Sala de Conciliação Virtual em tela e a adequação do roteiro semiestruturado e dos artefatos utilizados.
 
-* **Participante piloto:** Não houve um usuário alvo — o teste foi realizado apenas com o próprio moderador
+* **Participante piloto:** Não houve um participante representativo do público-alvo — o teste foi realizado apenas com o próprio moderador. Como o storyboard e o roteiro semiestruturado foram construídos a partir de uma compreensão aprofundada do fluxo de conciliação e já haviam sido refinados durante o planejamento, optou-se por concentrar o piloto na verificação técnica dos equipamentos e na clareza da apresentação visual das telas, poupando um participante do perfil alvo de uma sessão que ainda poderia conter ajustes instrumentais.
 * **Funcionamento da gravação:** Câmera e áudio verificados e em funcionamento
 * **Resultados:** Os artefatos (storyboard, roteiro e documentos de apoio) foram considerados claros e adequados. Nenhum ajuste significativo foi necessário no protocolo antes da sessão oficial.
 * **Os dados coletados no teste piloto foram descartados e não integram os resultados desta avaliação.**
 
 <p style="text-align: center"><a href="https://youtu.be/Xf8gCCi-uSY" target="blanket">Clique aqui para assistir ao Teste Piloto</a></p>
 
-<font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
+<font size="3"><p style="text-align: center">Fonte: Pedro Augusto Moretti Moreira.</p></font>
 
 ### Avaliação 3 — Heloisa Silva
 
@@ -113,7 +113,7 @@ A avaliação contou com **dois (2) participantes reais** recrutados, identifica
 
 O perfil da participante está alinhado com a persona **Laura** (Consumidora Reclamante) definida no projeto — jovem universitária que utiliza serviços digitais e pode precisar resolver pendências com fornecedores.
 
-### Participante P2 (Avaliação de Pedro Moretti)
+### Participante P2 (Avaliação de Pedro Augusto Moretti Moreira)
 
 O perfil do participante está alinhado com a persona **Gustavo** (Fornecedor/Comerciante) definida no projeto — empresário que precisa resolver conflitos com consumidores sem comprometer o funcionamento do seu negócio, buscando soluções que otimizem seu tempo e evitem deslocamentos ou perda de arrecadação.
 
@@ -129,10 +129,10 @@ O perfil da participante está alinhado com a persona **Maria** (Consumidora Apo
 | P2 | Usuário Avaliador | Gustavo (Fornecedor/Comerciante) | 40 anos | Empresário |
 | P3 | Usuário Avaliador | Maria (Consumidora Reclamante) | 67 anos | Aposentada |
 | A1 | Mediador | Heitor Macedo (Grupo 03) | 20 anos | Entrevistador |
-| A2 | Mediador | Pedro Moretti (Grupo 03) | 20 anos | Entrevistador |
+| A2 | Mediador | Pedro Augusto Moretti Moreira (Grupo 03) | 20 anos | Entrevistador |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Heitor Macedo Ricardo e Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Heitor Macedo Ricardo e Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ---
@@ -151,9 +151,9 @@ A narrativa retrata a usuária **Laura**, que possui uma reclamação aberta jun
 4. Enviar documentação de forma simplificada;
 5. Acompanhar continuamente o processo até a resolução do caso.
 
-### Avaliação 2 — Pedro Moretti (Sala de Conciliação Virtual)
+### Avaliação 2 — Pedro Augusto Moretti Moreira (Sala de Conciliação Virtual)
 
-O storyboard avaliado na sessão foi o **Storyboard da Sala de Conciliação Virtual**, de autoria de [Pedro Moretti](../../equipe/equipe.md), disponível na página [Storyboard](./storyboard.md).
+O storyboard avaliado na sessão foi o **Storyboard da Sala de Conciliação Virtual**, de autoria de [Pedro Augusto Moretti Moreira](../../equipe/equipe.md), disponível na página [Storyboard](./storyboard.md).
 
 A narrativa retrata o empresário **Gustavo**, que possui uma oficina mecânica e está envolvido em um conflito de consumo com um cliente. Gustavo está preocupado com a possibilidade de ter que fechar a oficina para participar de uma conciliação presencial, o que geraria perda de arrecadação. Com a solução proposta, Gustavo passa a:
 
@@ -203,7 +203,7 @@ Abaixo, o vídeo da sessão de avaliação com a participante P1:
 
 <font size="3"><p style="text-align: center">Fonte: Heitor Macedo Ricardo.</p></font>
 
-### Avaliação 2 — Pedro Moretti
+### Avaliação 2 — Pedro Augusto Moretti Moreira
 
 **Tabela 3 - Respostas do Participante P2 ao Storyboard da Sala de Conciliação Virtual**
 
@@ -216,14 +216,14 @@ Abaixo, o vídeo da sessão de avaliação com a participante P1:
 | 5 – O storyboard possui uma composição visual com personagem, objetos e cenários identificáveis? | Sim |
 
 <div align="center">
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 Abaixo, o vídeo da sessão de avaliação com o participante P2:
 
 <p style="text-align: center"><a href="https://youtu.be/vmji3e3J990" target="blanket">Clique aqui para assistir a gravação</a></p>
 
-<font size="3"><p style="text-align: center">Fonte: Pedro Moretti.</p></font>
+<font size="3"><p style="text-align: center">Fonte: Pedro Augusto Moretti Moreira.</p></font>
 
 ### Avaliação 3 — Heloisa Silva
 
@@ -273,7 +273,7 @@ Sobre **utilização da solução proposta**, P1 afirmou que gostaria de usar o 
 
 Quando perguntada sobre o que mudaria no storyboard, P1 respondeu: *"Nada, acho que nada."*
 
-### 7.2 Avaliação 2 — Pedro Moretti (Sala de Conciliação Virtual)
+### 7.2 Avaliação 2 — Pedro Augusto Moretti Moreira (Sala de Conciliação Virtual)
 
 #### Compreensão Narrativa
 
@@ -393,28 +393,28 @@ Não foram identificados problemas de interação, comunicabilidade, fluxo lógi
 
 **Quadro 2 - Problemas identificados na narrativa do Storyboard (Avaliação 1)**
 
-| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Sugestão de Correção |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| — | — | Nenhum problema identificado | — | — | — |
+| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | Nenhum problema identificado | — | — | — | — | — |
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico.</i></p>
 <p><i>Fonte: Elaborado por Heitor Macedo Ricardo.</i></p>
 </div>
 
-### 8.2 Avaliação 2 — Pedro Moretti
+### 8.2 Avaliação 2 — Pedro Augusto Moretti Moreira
 
 Não foram identificados problemas de interação, comunicabilidade, fluxo lógico ou composição visual no storyboard avaliado pelo participante P2. A narrativa foi validada integralmente.
 
 **Quadro 3 - Problemas identificados na narrativa do Storyboard (Avaliação 2)**
 
-| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Sugestão de Correção |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| — | — | Nenhum problema identificado | — | — | — |
+| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | Nenhum problema identificado | — | — | — | — | — |
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico.</i></p>
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ### 8.2 Avaliação 3 — Heloisa Silva
@@ -425,9 +425,9 @@ Além disso, não foram observados indícios de confusão quanto às etapas apre
 
 **Quadro 3 - Problemas identificados na narrativa do Storyboard (Avaliação 2)**
 
-| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Sugestão de Correção |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| — | — | Não foram identificados problemas durante a avaliação | — | — | — |
+| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | Não foram identificados problemas durante a avaliação | — | — | — | — | — |
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico.</i></p>
@@ -442,7 +442,7 @@ Além disso, não foram observados indícios de confusão quanto às etapas apre
 
 O Termo de Consentimento Livre e Esclarecido (TCLE) foi **lido integralmente pelo avaliador** no início da sessão, antes de qualquer coleta de dado. O avaliador esclareceu que a avaliação é do sistema e não da participante, que os dados coletados destinam-se exclusivamente à pesquisa acadêmica e que o anonimato seria preservado. A participante P1 manifestou seu consentimento verbalmente, registrado nos primeiros minutos da gravação da sessão.
 
-### Avaliação 2 — Pedro Moretti
+### Avaliação 2 — Pedro Augusto Moretti Moreira
 
 O Termo de Consentimento Livre e Esclarecido (TCLE) foi apresentado pelo avaliador no início da sessão. O avaliador esclareceu que a avaliação é do sistema — não do participante — e que os dados seriam usados exclusivamente para fins acadêmicos. O participante P2 confirmou verbalmente seu consentimento, conforme registrado no início da gravação da sessão.
 
@@ -477,7 +477,7 @@ Os resultados desta avaliação reforçam a direção de design adotada e orient
 <p><i>Fonte: Elaborado por Heitor Macedo Ricardo.</i></p>
 </div>
 
-### 10.2 Avaliação 2 — Pedro Moretti
+### 10.2 Avaliação 2 — Pedro Augusto Moretti Moreira
 
 Como **não foram identificados problemas** no storyboard avaliado, não há necessidade de reprojeto da narrativa visual com base nos dados coletados na sessão com P2. O storyboard validou com sucesso a pertinência, a clareza e o lastro com a realidade da proposta de **Sala de Conciliação Virtual** para o sistema do PROCON-DF.
 
@@ -491,7 +491,7 @@ Os resultados desta avaliação reforçam a direção de design adotada e orient
 
 <div align="center">
 <p><i>Sem necessidade de reprojeto identificada nesta avaliação.</i></p>
-<p><i>Fonte: Elaborado por Pedro Moretti.</i></p>
+<p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira.</i></p>
 </div>
 
 ### 10.3 Avaliação 2 — Heloisa Silva
@@ -523,6 +523,6 @@ Dessa forma, não foram identificadas oportunidades de melhoria que demandassem 
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.2 | 31/05/2026 | Adição dos resultados da Avaliação do Storyboard de Validação de Documentos por OCR com dados da entrevista com P3. | Heloisa Silva | Pedro Moretti |
-| 1.1 | 31/05/2026 | Adição dos resultados da Avaliação do Storyboard da Sala de Conciliação Virtual com dados da entrevista com P2. | Pedro Moretti | Heitor Macedo |
-| 1.0 | 31/05/2026 | Criação do Relato dos Resultados da Avaliação do Storyboard com dados da entrevista com P1. | Heitor Macedo Ricardo | Pedro Moretti |
+| 1.2 | 31/05/2026 | Adição dos resultados da Avaliação do Storyboard de Validação de Documentos por OCR com dados da entrevista com P3. | Heloisa Silva | Pedro Augusto Moretti Moreira |
+| 1.1 | 31/05/2026 | Adição dos resultados da Avaliação do Storyboard da Sala de Conciliação Virtual com dados da entrevista com P2. | Pedro Augusto Moretti Moreira | Heitor Macedo |
+| 1.0 | 31/05/2026 | Criação do Relato dos Resultados da Avaliação do Storyboard com dados da entrevista com P1. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |

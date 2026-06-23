@@ -32,13 +32,13 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 
 | ID | Critério de Avaliação | Fonte | Autor |
 |:--:|:---|:---:|:---:|
-| **E5-01** | O planejamento da avaliação do protótipo de papel segue rigorosamente todas as etapas do Framework DECIDE (Determinar objetivos, Explorar perguntas, Escolher métodos, Identificar questões práticas, Decidir questões éticas e Avaliar dados)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/frameworkdecide.png) | Pedro Moretti |
-| **E5-02** | O documento descreve de forma clara os objetivos da avaliação do protótipo (ex: explorar alternativas de design, encontrar problemas de interação) e os métodos escolhidos para realizá-la (ex: observação, simulação de uso)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/d.png) | Pedro Moretti |
-| **E5-03** | O planejamento identifica claramente as questões práticas da avaliação do protótipo, apresentando recrutamento (quem e quantos), orçamento e equipamentos necessários? | BARBOSA et al. (2021). [Imagem](images/verificacao4/i.png) | Pedro Moretti |
-| **E5-04** | O planejamento prevê a realização de um teste piloto, e o documento deixa explícito que seus resultados não serão apresentados no resultado final da avaliação? | BARBOSA et al. (2021). [Imagem](images/verificacao4/testepiloto.png) | Pedro Moretti |
-| **E5-05** | O planejamento aborda como as questões éticas serão tratadas, garantindo que os usuários não sejam prejudicados direta ou indiretamente (ex: mediante o uso do Termo de Consentimento Livre e Esclarecido)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/d.png) | Pedro Moretti |
-| **E5-06** | O planejamento estabelece como os dados coletados serão analisados e categorizados, prevendo a classificação dos problemas de usabilidade por gravidade e fator de qualidade prejudicado (usabilidade, experiência do usuário, acessibilidade ou comunicabilidade)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/metas.png) | Pedro Moretti |
-| **E5-07** | O planejamento define as tarefas ou cenários que os participantes deverão executar durante a avaliação do protótipo de papel e especifica como os dados serão registrados (ex: gravação de áudio/vídeo, anotações, screenshots)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/i.png) | Pedro Moretti |
+| **E5-01** | O planejamento da avaliação do protótipo de papel segue rigorosamente todas as etapas do Framework DECIDE (Determinar objetivos, Explorar perguntas, Escolher métodos, Identificar questões práticas, Decidir questões éticas e Avaliar dados)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/frameworkdecide.png) | Pedro Augusto Moretti Moreira |
+| **E5-02** | O documento descreve de forma clara os objetivos da avaliação do protótipo (ex: explorar alternativas de design, encontrar problemas de interação) e os métodos escolhidos para realizá-la (ex: observação, simulação de uso)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/d.png) | Pedro Augusto Moretti Moreira |
+| **E5-03** | O planejamento identifica claramente as questões práticas da avaliação do protótipo, apresentando recrutamento (quem e quantos), orçamento e equipamentos necessários? | BARBOSA et al. (2021). [Imagem](images/verificacao4/i.png) | Pedro Augusto Moretti Moreira |
+| **E5-04** | O planejamento prevê a realização de um teste piloto, e o documento deixa explícito que seus resultados não serão apresentados no resultado final da avaliação? | BARBOSA et al. (2021). [Imagem](images/verificacao4/testepiloto.png) | Pedro Augusto Moretti Moreira |
+| **E5-05** | O planejamento aborda como as questões éticas serão tratadas, garantindo que os usuários não sejam prejudicados direta ou indiretamente (ex: mediante o uso do Termo de Consentimento Livre e Esclarecido)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/d.png) | Pedro Augusto Moretti Moreira |
+| **E5-06** | O planejamento estabelece como os dados coletados serão analisados e categorizados, prevendo a classificação dos problemas de usabilidade por gravidade e fator de qualidade prejudicado (usabilidade, experiência do usuário, acessibilidade ou comunicabilidade)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/metas.png) | Pedro Augusto Moretti Moreira |
+| **E5-07** | O planejamento define as tarefas ou cenários que os participantes deverão executar durante a avaliação do protótipo de papel e especifica como os dados serão registrados (ex: gravação de áudio/vídeo, anotações, screenshots)? | BARBOSA et al. (2021). [Imagem](images/verificacao4/i.png) | Pedro Augusto Moretti Moreira |
 
 ---
 
@@ -66,5 +66,5 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 
 | Versão | Data       | Descrição                                                                              | Autor(es)     | Revisor(es)   |
 | :---   | :---       | :---                                                                                   | :---          | :---          |
-| `1.1`  | 31/05/2026 | Criação dos itens sobre framework DECIDE e atualização do glossário. | Pedro Moretti | Heitor Macedo |
-| `1.0`  | 31/05/2026 | Criação da lista de verificação da Etapa 5 com itens de relato de resultados e glossário. | Heitor Macedo | Pedro Moretti |
+| `1.1`  | 31/05/2026 | Criação dos itens sobre framework DECIDE e atualização do glossário. | Pedro Augusto Moretti Moreira | Heitor Macedo |
+| `1.0`  | 31/05/2026 | Criação da lista de verificação da Etapa 5 com itens de relato de resultados e glossário. | Heitor Macedo | Pedro Augusto Moretti Moreira |

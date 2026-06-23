@@ -6,7 +6,7 @@ Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
 | Autores | Contribuiu |
 |---|---|
 | Heitor Macedo | Criou 2 Personas  |
-| Pedro Moretti | Criou 2 Personas  |
+| Pedro Augusto Moretti Moreira | Criou 2 Personas  |
 | Pedro Macedo |  Criou 1 Personas |
 | Heloisa Silva | Criou 1 Personas  |
 | Matheus Rodrigues |  Criou 1 Personas |
@@ -455,6 +455,6 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 | `1.1` | 01/05/2026 | Adição e expansão profunda das personas Lucas e Gustavo e da Antipersona Hugo com base nos dados consolidados. | Pedro Augusto Moretti Moreira | Heloisa Silva |
 | `1.2` | 03/05/2026 | Inclusão da Persona Primária Maria Helena com base na análise documental. | Heloisa Silva | Heitor Macedo |
 | `1.3` | 03/05/2026 | Criação da persona Ivone (Etapa 2). | Pedro Macedo | Heitor Macedo |
-| `1.4` | 03/05/2026 | Inclusão da Persona Primária Roberto Oliveira. | Mateus Rodrigues Barreto | Pedro Moretti |
-| `1.5` | 03/05/2026 | Padronização da imagem da Persona Laura para o padrão `<p align="center"><img>` das demais personas; adição da Antipersona Seu José com foto, tabela de atributos e 4 seções temáticas. | Heitor Macedo Ricardo | Pedro Moretti |
+| `1.4` | 03/05/2026 | Inclusão da Persona Primária Roberto Oliveira. | Mateus Rodrigues Barreto | Pedro Augusto Moretti Moreira |
+| `1.5` | 03/05/2026 | Padronização da imagem da Persona Laura para o padrão `<p align="center"><img>` das demais personas; adição da Antipersona Seu José com foto, tabela de atributos e 4 seções temáticas. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
 | `1.6` | 08/05/2026 | Padronização dos blocos de responsabilidade com hiperlinks de rastreabilidade entre artefatos. | Heitor Macedo Ricardo | Heloisa Silva |

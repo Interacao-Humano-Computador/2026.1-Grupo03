@@ -6,7 +6,7 @@ Colaboração referente a [Etapa 2](../planejamento/cronograma-executado.md)
 | Autores | Contribuiu |
 |---|---|
 | Heitor Macedo |  Com 2 analises de tarefas |
-| Pedro Moretti |  Com 2 analises de tarefas |
+| Pedro Augusto Moretti Moreira |  Com 2 analises de tarefas |
 | Heloisa Silva |  Com 2 analises de tarefas |
 | Matheus Rodrigues |  Com 2 analises de tarefas |
 
@@ -351,5 +351,5 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento ao mont
 | `1.1` | 30/04/2026 | Elaboração da Análise de Tarefas com HTA e CTT para a funcionalidade de Conciliação Virtual. | Pedro Augusto Moretti Moreira | Heitor Macedo |
 | `1.2` | 03/05/2026 | Inserção da HTA e CTT de validação de documentos com OCR e ajustes de conteúdo. | Heloisa Silva | Pedro Augusto Moretti |
 | `1.3` | 03/05/2026 | Adição da Análise GOMS para a tarefa de registro de reclamação financeira. | Mateus Rodrigues Barreto | Heloisa Silva |
-| `1.4` | 05/05/2026 | Inclusão da legenda de cores e operadores utilizados nos diagramas HTA. | Heitor Macedo Ricardo | Pedro Moretti |
+| `1.4` | 05/05/2026 | Inclusão da legenda de cores e operadores utilizados nos diagramas HTA. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
 | `1.5` | 08/05/2026 | Padronização dos blocos de responsabilidade com hiperlinks de rastreabilidade entre artefatos. | Heitor Macedo Ricardo | Heloisa Silva |

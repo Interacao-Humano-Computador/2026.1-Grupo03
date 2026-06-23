@@ -5,7 +5,7 @@ Colaboração referente a [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaborou o Artefato |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 
 ---
 
@@ -50,7 +50,7 @@ O protótipo abaixo é navegável diretamente no navegador. Toque nos elementos 
   </iframe>
 </div>
 
-<div align="center"><p><i>Fonte: Pedro Moretti (2026).</i></p></div>
+<div align="center"><p><i>Fonte: Pedro Augusto Moretti Moreira (2026).</i></p></div>
 
 ---
 
@@ -114,5 +114,5 @@ Agradecimento ao **DeepSeek** pelo auxílio na estruturação do design do prot�
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 11/06/2026 | Criação do documento e adição do protótipo de alta fidelidade interativo. | Pedro Moretti | — |
-| 1.1 | 11/06/2026 | Adição da seção de arquitetura do protótipo (HTML, CSS, Tailwind, JS). | Pedro Moretti | — |
+| 1.0 | 11/06/2026 | Criação do documento e adição do protótipo de alta fidelidade interativo. | Pedro Augusto Moretti Moreira | — |
+| 1.1 | 11/06/2026 | Adição da seção de arquitetura do protótipo (HTML, CSS, Tailwind, JS). | Pedro Augusto Moretti Moreira | — |

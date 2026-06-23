@@ -97,9 +97,9 @@ As falhas narrativas, ambiguidades visuais e problemas de fluxo identificados pe
 
 **Quadro 2 - Problemas identificados na narrativa dos Storyboards**
 
-| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento do Usuário) | Gravidade (1 a 4) | Sugestão de Correção para o Protótipo |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| PB1 | Quadro 3 | [Descrição do problema encontrado] | [O que o participante disse ou fez] | [1 a 4] | [Como corrigir no protótipo de papel] |
+| ID | Cena / Quadro do Storyboard | Descrição do Problema | Justificativa (Fala/Comportamento do Usuário) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção para o Protótipo |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| PB1 | Quadro 3 | [Descrição do problema encontrado] | [O que o participante disse ou fez] | [1 a 4] | [Nº de participantes afetados] | [Pontual / Recorrente / Estrutural] | [Como corrigir no protótipo de papel] |
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a compreensão do sistema).</i></p>

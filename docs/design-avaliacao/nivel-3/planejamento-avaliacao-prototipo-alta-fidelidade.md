@@ -85,7 +85,7 @@ Com base em Barbosa et al. (2021, p. 250-251), as seguintes perguntas nortearão
 ### 3. C - Escolher (Choose) os métodos de avaliação <sup><a href="#fig-c">[3]</a></sup>
 Como o protótipo de alta fidelidade oferece uma simulação interativa com alto grau de realismo visual e comportamental, os métodos baseados em testes diretos e observação ativa são perfeitamente aplicáveis.
 
-**Método Selecionado:** Investigação através de Teste de Usabilidade, Observação Direta e Entrevista Semiestruturada com uso do Protótipo de Alta Fidelidade (incluindo a técnica de Pensar em Voz Alta — *Think Aloud*).
+**Métodos empregados:** **Teste de Usabilidade** (método de observação<sup><a href="#fig-cap122">[7]</a></sup>), conduzido com protocolo Think Aloud e observação direta durante a execução das tarefas com o Protótipo de Alta Fidelidade, complementado por **Entrevista Semiestruturada** pós-sessão (método de investigação<sup><a href="#fig-cap116">[8]</a></sup>). A combinação segue a recomendação de Barbosa et al. (2021, Cap. 11.6) de integrar a investigação à observação para obter dados mais robustos; o Teste de Usabilidade pertence à família dos métodos de observação (Barbosa et al., 2021, Cap. 12.2), e a Entrevista Semiestruturada à família dos métodos de investigação (Cap. 11.6).
 
 **Justificativa:** O método de observação direta em conjunto com o protocolo *Think Aloud* permite que o avaliador capte o comportamento, as expressões faciais e as linhas de raciocínio do participante em tempo real enquanto ele opera o protótipo no dispositivo. Complementarmente, a entrevista semiestruturada após as tarefas possibilita coletar de forma flexível as impressões subjetivas do usuário sobre a estética e a clareza da interface. O formato semiestruturado dá liberdade ao avaliador para realizar perguntas de acompanhamento (*follow-up*) contextualizadas a partir de falhas ou hesitações específicas manifestadas pelo participante ao longo do teste. Toda a sessão deve ser estritamente gravada e documentada.
 
@@ -250,3 +250,19 @@ Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
 ![Avaliar dados](../images/decide-e2.png)
 
 Fonte: BARBOSA et al. (2021, p. 264).<sup><a href="#ref1">[1]</a></sup>
+
+<div id="fig-cap122"></div>
+
+**Figura 7** - Cap. 12.2 — O Teste de Usabilidade como método de observação (Barbosa et al., 2021).
+
+![Cap. 12.2 — Teste de Usabilidade como método de observação](../images/cap122.png)
+
+Fonte: BARBOSA et al. (2021, Cap. 12.2).
+
+<div id="fig-cap116"></div>
+
+**Figura 8** - Cap. 11.6 — Classificação dos métodos de avaliação em investigação, observação e inspeção (Barbosa et al., 2021).
+
+![Cap. 11.6 — Classificação dos métodos de avaliação](../images/cap116.png)
+
+Fonte: BARBOSA et al. (2021, Cap. 11.6).

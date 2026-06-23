@@ -6,14 +6,14 @@ Colaboração referente à [Etapa 5](../../planejamento/cronograma-executado.md)
 
 | Autores | Contribuiu |
 |---|---|
-| Pedro Moretti | Elaborou o Artefato |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 | Heitor Macedo | Realizou a triangulação |
 
 ---
 
 ## Introdução
 
-Esta página consolida os relatos de resultados das avaliações conduzidas no **Nível 1** do processo de Design, Avaliação e Desenvolvimento. Os relatos documentam os resultados obtidos nas avaliações dos storyboards e da análise de tarefas, incluindo problemas de usabilidade identificados, feedback dos participantes e planejamento de reprojeto.
+Esta página consolida os relatos de resultados das avaliações conduzidas no **Nível 1** do processo de Design, Avaliação e Desenvolvimento. Os relatos documentam os resultados obtidos nas avaliações dos storyboards e da análise de tarefas, incluindo problemas de usabilidade identificados, feedback dos participantes e planejamento de reprojeto. Trata-se de avaliação **formativa**<sup><a href="#figura1">[1]</a></sup>, conduzida sobre representações parciais da solução — modelos de tarefas (HTA e CTT) e storyboards — antes de qualquer implementação interativa, com o propósito de identificar problemas e orientar o refinamento do design nas fases iniciais do desenvolvimento.
 
 ---
 
@@ -21,8 +21,8 @@ Esta página consolida os relatos de resultados das avaliações conduzidas no *
 
 | Documento | Autor(es) | Objeto Avaliado | Acesso |
 |---|---|---|---|
-| Relato dos Resultados — Storyboard | Heitor Macedo, Pedro Moretti, Heloisa Silva | Avaliação dos storyboards das funcionalidades do PROCON-DF | [Acessar](relato-resultados-storyboard.md) |
-| Relato dos Resultados — Análise de Tarefas | Heitor Macedo, Pedro Moretti | Avaliação dos modelos de tarefas (HTA e CTT) | [Acessar](relato-resultados-analise-tarefas.md) |
+| Relato dos Resultados — Storyboard | Heitor Macedo, Pedro Augusto Moretti Moreira, Heloisa Silva | Avaliação dos storyboards das funcionalidades do PROCON-DF | [Acessar](relato-resultados-storyboard.md) |
+| Relato dos Resultados — Análise de Tarefas | Heitor Macedo, Pedro Augusto Moretti Moreira | Avaliação dos modelos de tarefas (HTA e CTT) | [Acessar](relato-resultados-analise-tarefas.md) |
 
 ---
 
@@ -38,8 +38,8 @@ Esta seção sintetiza, de forma interparticipante e entre métodos de avaliaç�
 
 | Método | Avaliadores | Participantes | Perfis | Nº de Avaliações | Taxa de Conclusão | Problemas (Gravidade ≥ 2) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Storyboard | Heitor Macedo, Pedro Moretti, Heloisa Silva | P1, P2, P3 | Universitária (18), Empresário (40), Aposentada (67) | 3 | 100% | 0 |
-| Análise de Tarefas (HTA + CTT) | Heitor Macedo, Pedro Moretti | P1, P2 | Universitária (18), Empresário (40) | 2 | 100% | 5 |
+| Storyboard | Heitor Macedo, Pedro Augusto Moretti Moreira, Heloisa Silva | P1, P2, P3 | Universitária (18), Empresário (40), Aposentada (67) | 3 | 100% | 0 |
+| Análise de Tarefas (HTA + CTT) | Heitor Macedo, Pedro Augusto Moretti Moreira | P1, P2 | Universitária (18), Empresário (40) | 2 | 100% | 5 |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
@@ -77,17 +77,17 @@ Em todas as avaliações do Nível 1, os participantes concluíram as tarefas se
 
 **Tabela — Problemas de usabilidade consolidados do Nível 1**
 
-| Método | ID | Objeto Avaliado | Descrição do Problema | Gravidade | Freq. | Status |
-| :--- | :---: | :--- | :--- | :---: | :---: | :---: |
-| Análise de Tarefas | PB1 | CTT — Notificação Ativa | Notação CTT não intuitiva para participantes sem formação técnica | 2 | 1/2 | Correção planejada |
-| Análise de Tarefas | PB2 | HTA — Notificação Ativa | Etapas de envio de documentos são excessivamente genéricas, sem instruções claras | 2 | 1/2 | Correção planejada |
-| Análise de Tarefas | PB3 | Site PROCON-DF atual | Navegação até "Registrar Reclamação" não é intuitiva — usuário cometeu 2 erros | 3 | 1/2 | Correção planejada |
-| Análise de Tarefas | PB4 | CTT — Conciliação Virtual | Ausência de tela de visualização de documentos no fluxo de conciliação | 2 | 1/2 | Correção planejada |
-| Análise de Tarefas | PB5 | HTA/CTT — Conciliação Virtual | Falta de representação explícita da transição para atendimento presencial | 2 | 2/2 | Correção planejada |
-| Storyboard | — | Todos os storyboards | Nenhum problema identificado | — | — | — |
+| Método | ID | Objeto Avaliado | Descrição do Problema | Gravidade | Freq. | Persistência | Status |
+| :--- | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
+| Análise de Tarefas | PB1 | CTT — Notificação Ativa | Notação CTT não intuitiva para participantes sem formação técnica | 2 | 1/2 | Pontual | Correção planejada |
+| Análise de Tarefas | PB2 | HTA — Notificação Ativa | Etapas de envio de documentos são excessivamente genéricas, sem instruções claras | 2 | 1/2 | Estrutural | Correção planejada |
+| Análise de Tarefas | PB3 | Site PROCON-DF atual | Navegação até "Registrar Reclamação" não é intuitiva — usuário cometeu 2 erros | 3 | 1/2 | Recorrente | Correção planejada |
+| Análise de Tarefas | PB4 | CTT — Conciliação Virtual | Ausência de tela de visualização de documentos no fluxo de conciliação | 2 | 1/2 | Estrutural | Correção planejada |
+| Análise de Tarefas | PB5 | HTA/CTT — Conciliação Virtual | Falta de representação explícita da transição para atendimento presencial | 2 | 2/2 | Estrutural | Correção planejada |
+| Storyboard | — | Todos os storyboards | Nenhum problema identificado | — | — | — | — |
 
 <div align="center">
-<p><i>Nota sobre a Gravidade: (1) Cosmético; (2) Pequeno; (3) Grande; (4) Catastrófico.</i></p>
+<p><i>Nota sobre a Gravidade: (1) Cosmético; (2) Pequeno; (3) Grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
 </div>
 
@@ -133,5 +133,19 @@ Os resultados do Nível 1 são positivos no que se refere à validação conceit
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 11/06/2026 | Criação da página de consolidação dos relatos do Nível 1. | Pedro Moretti | Heitor Macedo |
+| 1.0 | 11/06/2026 | Criação da página de consolidação dos relatos do Nível 1. | Pedro Augusto Moretti Moreira | Heitor Macedo |
 | 1.1 | 14/06/2026 | Adição da seção de Triangulação e Consolidação dos Resultados do Nível 1 e atualização da colaboração. | Heitor Macedo | Heitor Macedo |
+
+## Notas de Rodapé e Referências de Imagens
+
+<div id="figura1" align="center">
+  <p>Figura 1 - Definição de avaliação formativa</p>
+  <a href="../../images/avaliacaoformativa.png" target="_blank"><img src="../../images/avaliacaoformativa.png" alt="Definição de avaliação formativa — Barbosa et al. (2021, Cap. 11.3, p. 251)" width="700"></a>
+  <p><b>Fonte:</b> BARBOSA et al. (2021, Cap. 11.3, p. 251).</p>
+</div>
+
+<div id="figura2" align="center">
+  <p>Figura 2 - Tabela 12.11 — Caracterização dos métodos de avaliação de IHC</p>
+  <a href="../../images/tabela1211.png" target="_blank"><img src="../../images/tabela1211.png" alt="Tabela 12.11 — Métodos de avaliação de IHC — Barbosa et al. (2021, Cap. 12, p. 308)" width="700"></a>
+  <p><b>Fonte:</b> BARBOSA et al. (2021, Cap. 12, p. 308).</p>
+</div>

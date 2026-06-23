@@ -6,7 +6,7 @@ Colaboração referente à [Etapa 7](../../planejamento/cronograma-executado.md)
 
 | Autores       | Contribuiu          |
 | ------------- | ------------------- |
-| Pedro Moretti | Elaborou o Artefato |
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 | Heitor Macedo | Elaborou o Artefato |
 | Pedro Macedo  | Elaborou o Artefato |
 
@@ -82,6 +82,6 @@ Agradecimento ao **DeepSeek** pelo auxílio na estruturação deste arquivo.
 
 | Versão | Data       | Descrição                                                                           | Autor(es)     | Revisor(es)   |
 | ------ | ---------- | ----------------------------------------------------------------------------------- | ------------- | ------------- |
-| 1.0    | 11/06/2026 | Criação da página de consolidação dos protótipos de alta fidelidade.                | Pedro Moretti | Heitor Macedo |
+| 1.0    | 11/06/2026 | Criação da página de consolidação dos protótipos de alta fidelidade.                | Pedro Augusto Moretti Moreira | Heitor Macedo |
 | 1.1    | 14/06/2026 | Adição do protótipo de Notificação Ativa e atualização dos resultados consolidados. | Heitor Macedo | Heitor Macedo |
 | 1.2    | 17/06/2026 | Adição do protótipo do Painel de Prazos.                                            | Mateus Barreto | —            |
