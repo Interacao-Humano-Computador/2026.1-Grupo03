@@ -53,7 +53,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Planejamento da Avaliação do Storyboard** | [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>19/05/2026</small> [Eduardo Valadares](../equipe/equipe.md)<br><small>19/05/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Planejamento de Avaliação de Storyboard](../design-avaliacao/nivel-1/planejamento-avaliacao-storyboard.md) | ✅ Concluído |
     | **Planejamento do Relato dos Resultados da Análise de Tarefas** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> | [Pedro Augusto Moretti Moreira](../equipe/equipe.md) | [📄 Planejamento de Relato de Tarefas](../design-avaliacao/nivel-1/planejamento-relato-tarefas.md) | ✅ Concluído |
     | **Planejamento do Relato dos Resultados do Storyboard** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> | [Heloisa Silva](../equipe/equipe.md) | [📄 Planejamento de Relato de Storyboard](../design-avaliacao/nivel-1/planejamento-relato-storyboard.md) | ✅ Concluído |
-    | **Storyboard** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>19/05/2026</small> | [Heloisa Silva](../equipe/equipe.md) | [📄 Storyboard](../design-avaliacao/nivel-1/storyboard.md) | ✅ Concluído |
+    | **Storyboard** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>19/05/2026</small> [Pedro Macedo](../equipe/equipe.md)<br><small>02/06/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>23/06/2026</small> | [Heloisa Silva](../equipe/equipe.md) | [📄 Storyboard](../design-avaliacao/nivel-1/storyboard.md) | ✅ Concluído |
 
 === "Etapa 5"
     Nesta etapa, as tarefas foram direcionadas para o planejamento da avaliação do protótipo de papel e para a execução dos relatos dos resultados das avaliações de Storyboard e Análise de Tarefas.
@@ -140,9 +140,9 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Planejamento de Avaliação de Storyboard** | 1 | — | — | 1 | — | — |
     | **Planejamento do Relato de Tarefas** | — | 1 | — | — | — | — |
     | **Planejamento do Relato de Storyboard** | — | 1 | — | — | — | — |
-    | **Storyboard** | — | 1 | — | 1 | — | — |
+    | **Storyboard** | — | 1 | — | 1 | — | 1 |
     | **Lista de Verificação (Etapa 4 - itens)** | — | 5 | — | 9 | — | — |
-    | **Total de documentos criados** | 1 | 3 | — | 2 | 2 | — |
+    | **Total de documentos criados** | 1 | 3 | — | 2 | 2 | 1 |
     | **Total de documentos revisados** | — | 1 | 2 | 2 | — | — |
 
 === "Etapa 5"

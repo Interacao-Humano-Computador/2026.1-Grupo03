@@ -7,6 +7,9 @@ Colaboração referente à [Etapa 4](../../planejamento/cronograma-executado.md)
 | Autores | Contribuiu |
 |---|---|
 | Pedro Augusto Moretti Moreira | Elaborou o Artefato |
+| Heitor Macedo Ricardo | Adicionou o Storyboard da Notificação Ativa |
+| Pedro Macedo | Adicionou o Storyboard da Triagem Guiada |
+| Mateus Barreto | Adicionou o Storyboard do Painel de Prazos |
 
 ---
 
@@ -20,7 +23,7 @@ Esta página consolida os artefatos relacionados aos **storyboards** do sistema 
 
 | Artefato | Autor(es) | Descrição | Acesso |
 |---|---|---|---|
-| Storyboard | Equipe | 3 storyboards explorando as funcionalidades do sistema, um por integrante | [Acessar](storyboard.md) |
+| Storyboard | Equipe | 4 storyboards explorando as funcionalidades do sistema, um por integrante | [Acessar](storyboard.md) |
 | Relato dos Resultados — Storyboard | Heitor Macedo, Pedro Augusto Moretti Moreira, Heloisa Silva | Resultados da avaliação dos storyboards com usuários | [Acessar](relato-resultados-storyboard.md) |
 
 ---
@@ -36,3 +39,4 @@ Esta página consolida os artefatos relacionados aos **storyboards** do sistema 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
 | 1.0 | 11/06/2026 | Criação da página de consolidação dos storyboards. | Pedro Augusto Moretti Moreira | — |
+| 1.1 | 23/06/2026 | Atualização da quantidade de storyboards. | Mateus Barreto | — |

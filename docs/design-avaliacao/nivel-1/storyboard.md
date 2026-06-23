@@ -1,7 +1,7 @@
 ## 1. Introdução
 O storyboard é um protótipo de baixa fidelidade essencial nas fases iniciais da concepção de uma interface. Ele é extremamente útil devido à sua simplicidade, baixo custo e rápida produção, o que significa que alternativas de design podem ser rapidamente testadas e alteradas. 
 
-Segundo Barbosa *et al.* (2021, p. 107)<sup><a href="#figura5">[1]</a></sup>, no design contextual, "o designer utiliza storyboards para explorar ideias sobre como melhorar a prática de trabalho com o suporte oferecido pela tecnologia". Ao utilizar storyboards em conjunto com os cenários (elaborados na Etapa 2), é possível visualizar e planejar a sequência de eventos, a posição dos personagens e a disposição visual das informações. Isso ajuda a identificar possíveis problemas narrativos e ajustar a dinâmica da interação do usuário com o sistema.
+Segundo Barbosa *et al.* (2021, p. 107)<sup><a href="#figura6">[1]</a></sup>, no design contextual, "o designer utiliza storyboards para explorar ideias sobre como melhorar a prática de trabalho com o suporte oferecido pela tecnologia". Ao utilizar storyboards em conjunto com os cenários (elaborados na Etapa 2), é possível visualizar e planejar a sequência de eventos, a posição dos personagens e a disposição visual das informações. Isso ajuda a identificar possíveis problemas narrativos e ajustar a dinâmica da interação do usuário com o sistema.
 
 Para padronizar a criação, os modelos de storyboard deste projeto contêm os seguintes elementos:
 
@@ -50,6 +50,7 @@ Neste storyboard, o usuário Gustavo (Microempreendedor e Fornecedor), que traba
 ---
 
 ### 2.3 Tarefa 3: Assistente de Triagem Guiada para Reclamações
+**Autor:** Pedro Macedo
 
 Este storyboard ilustra a jornada de Ivone Maria da Silva, uma auxiliar de limpeza de 56 anos com pouca familiaridade tecnológica, utilizando seu smartphone para registrar uma reclamação sobre uma compra não entregue no portal do PROCON-DF. A narrativa visual demonstra o funcionamento prático do Assistente de Triagem Guiada, transformando uma experiência digital antes intimidadora em um fluxo interativo, limpo e em formato de passo a passo (wizard). Ao longo dos quadrinhos, Ivone localiza facilmente o botão central de alto contraste, compreende o papel do órgão por meio de uma linguagem cidadã, anexa a foto do seu comprovante de pagamento e finaliza o processo com total autonomia, segurança e alívio por não ter enfrentado jargões jurídicos ou poluição visual.
 
@@ -58,6 +59,21 @@ Este storyboard ilustra a jornada de Ivone Maria da Silva, uma auxiliar de limpe
   <a href="../../images/storyboardpedromacedo.png" target=_blank><img src="../../images/storyboardpedromacedo.png" alt="Storybiard da Assistente de Triagem Guiada para Reclamações"></a>
   <p><b>Fonte:</b> Pedro Macedo</p>
 </div>
+
+---
+
+### 2.4. Tarefa 4: Painel de Acompanhamento de Prazos
+**Autor:** Mateus Barreto
+
+Este storyboard ilustra a jornada de Carlos, um consumidor que aguarda a resposta de empresas em reclamações registradas no PROCON-DF. A narrativa demonstra como o painel de acompanhamento de prazos permite visualizar datas críticas, entender o andamento do processo e identificar rapidamente casos em que o prazo legal expirou. Ao receber orientações sobre os próximos procedimentos e os documentos necessários para dar continuidade à demanda no Juizado Especial, Carlos ganha clareza sobre suas opções e conclui a experiência sentindo-se seguro, orientado e preparado para defender seus direitos.
+
+<div id="figura5" align="center">
+  <p>Figura 5 - Storyboard da Tarefa 4</p>
+  <a href="../../images/storyboardMateus.jpg" target=_blank><img src="../../images/storyboardMateus.jpg" alt="Storyboard do Painel de Acompanhamento de Prazos"></a>
+  <p><b>Fonte:</b> Mateus Barreto</p>
+</div>
+
+---
 
 ## 3. Comprovação Teórica e Referência Bibliográfica
 A fundamentação da técnica de Storyboards aplicada neste artefato baseia-se na literatura oficial da disciplina.
@@ -74,23 +90,24 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento e cria�
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.1 | 02/06/2026 | Adição do sotyboard 3 | Pedro Macedo | Heloisa Silva |
 | 1.0 | 16/05/2026 | Criação do documento, introdução metodológica e Storyboard da Tarefa 1. | Heitor Ricardo | Heloisa Silva |
+| 1.1 | 02/06/2026 | Adição do Storyboard 3 | Pedro Macedo | Heloisa Silva |
+| 1.2 | 23/06/2026 | Adição do Storyboard 4 e formatação do documento | Mateus Barreto | — |
 
 ## Notas de Rodapé e Referências de Imagens
 
-<div id="figura5" align="center">
-  <p>Figura 5 - Storyboard: Definição e Aplicação</p>
-  <a href="../../images/storyboardlivro1.png" target=_blank><img src="../../images/storyboardlivro1.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
-  <p><b>Fonte:</b> BARBOSA et al. (2021, p. 263).</p>
-</div>
 <div id="figura6" align="center">
-  <p>Figura 6 - Storyboard: Exemplo de Protótipo de Baixa Fidelidade</p>
-  <a href="../../images/storyboardlivro2.png" target=_blank><img src="../../images/storyboardlivro2.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
+  <p>Figura 6 - Storyboard: Definição e Aplicação</p>
+  <a href="../../images/storyboardlivro1.png" target=_blank><img src="../../images/storyboardlivro1.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> BARBOSA et al. (2021, p. 263).</p>
 </div>
 <div id="figura7" align="center">
   <p>Figura 7 - Storyboard: Exemplo de Protótipo de Baixa Fidelidade</p>
+  <a href="../../images/storyboardlivro2.png" target=_blank><img src="../../images/storyboardlivro2.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
+  <p><b>Fonte:</b> BARBOSA et al. (2021, p. 263).</p>
+</div>
+<div id="figura8" align="center">
+  <p>Figura 8 - Storyboard: Exemplo de Protótipo de Baixa Fidelidade</p>
   <a href="../../images/storyboardlivro3.png" target=_blank><img src="../../images/storyboardlivro3.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> BARBOSA et al. (2021, p. 263).</p>
 </div>
