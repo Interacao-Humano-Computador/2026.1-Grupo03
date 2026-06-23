@@ -8,6 +8,7 @@ Colaboração referente à [Etapa 7](../../planejamento/cronograma-executado.md)
 |---|---|
 | Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 | Heitor Macedo | Realizou a Triangulação |
+| Mateus Barreto | Atualizou consolidação com novo relato |
 
 ---
 
