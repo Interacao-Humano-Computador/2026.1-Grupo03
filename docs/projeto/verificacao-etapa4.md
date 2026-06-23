@@ -19,6 +19,24 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 
 ---
 
+## Desenvolvimento do projeto
+
+| ID | Critério de Avaliação | Fonte | Autor | Resposta Sim/Não | Versão, Data e hora da avaliação |
+|:--:|:---|:---:|:---:|:---:|:---|
+| **D4-01** | O histórico de versão está padronizado? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor |  | |
+| **D4-02** | O(s) autor(es) e o(s) revisor(es) estão identificados para cada artefato? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor |  | |
+| **D4-03** | Todos os artefatos possuem referências bibliográficas e/ou bibliografia? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor |  | |
+| **D4-04** | As tabelas e imagens possuem legenda e fonte, e são chamadas dentro do texto? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor |  | |
+| **D4-05** | Existe um texto introdutório apresentando os artefatos? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor |  | |
+| **D4-06** | O cronograma executado indica quem realizou cada artefato/atividade, com datas de início e fim da construção/realização? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor |  | |
+| **D4-07** | Há ata(s) da(s) reunião(ões) com data, horário de início e fim, participantes, objetivo e atividades definidas? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor |  | |
+| **D4-08** | Há gravação da reunião do grupo? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor |  | |
+| **D4-09** | Existe vídeo de apresentação publicado no YouTube na categoria "não listado"? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor |  | |
+| **D4-10** | Há tabela de contribuição no início do artefato com o nome de todos os integrantes, a contribuição de cada um e hiperligação para atividade e gravação (se houver)? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor |  | |
+| **D4-11** | O artefato possui seção de agradecimentos apresentando o uso de Inteligência Artificial (IA) Generativa? | <span style="background-color: #1976d2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">Sugestão do Professor</span> | Professor |  | |
+
+---
+
 ## Storyboard
 
 | ID | Critério de Avaliação | Fonte | Autor |
@@ -61,3 +79,4 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 | Versão | Data       | Descrição                                                                         | Autor(es)     | Revisor(es)   |
 | :---   | :---       | :---                                                                              | :---          | :---          |
 | `1.0`  | 19/05/2026 | Criação da lista de verificação da Etapa 4 com base nos critérios de Storyboards. | Pedro Augusto Moretti Moreira | Heitor Macedo |
+| `1.1`  | 23/06/2026 | Adição do bloco "Desenvolvimento do projeto" com 11 critérios do professor. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
