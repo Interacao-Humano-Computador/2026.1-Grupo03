@@ -1,7 +1,7 @@
 ## 1. Introdução
 O storyboard é um protótipo de baixa fidelidade essencial nas fases iniciais da concepção de uma interface. Ele é extremamente útil devido à sua simplicidade, baixo custo e rápida produção, o que significa que alternativas de design podem ser rapidamente testadas e alteradas. 
 
-Segundo Barbosa *et al.* (2021, p. 107)<sup><a href="#figura">[1]</a></sup>, no design contextual, "o designer utiliza storyboards para explorar ideias sobre como melhorar a prática de trabalho com o suporte oferecido pela tecnologia". Ao utilizar storyboards em conjunto com os cenários (elaborados na Etapa 2), é possível visualizar e planejar a sequência de eventos, a posição dos personagens e a disposição visual das informações. Isso ajuda a identificar possíveis problemas narrativos e ajustar a dinâmica da interação do usuário com o sistema.
+Segundo Barbosa *et al.* (2021, p. 107)<sup><a href="#figura5">[1]</a></sup>, no design contextual, "o designer utiliza storyboards para explorar ideias sobre como melhorar a prática de trabalho com o suporte oferecido pela tecnologia". Ao utilizar storyboards em conjunto com os cenários (elaborados na Etapa 2), é possível visualizar e planejar a sequência de eventos, a posição dos personagens e a disposição visual das informações. Isso ajuda a identificar possíveis problemas narrativos e ajustar a dinâmica da interação do usuário com o sistema.
 
 Para padronizar a criação, os modelos de storyboard deste projeto contêm os seguintes elementos:
 
@@ -22,7 +22,7 @@ Como resultado da nossa análise de tarefas, a equipe desenvolveu 7 storyboards 
 
 Neste storyboard, a usuária Laura (Consumidora Reclamante), que possui uma rotina agitada na universidade e no estágio, deseja saber o status da sua denúncia sem precisar entrar ativamente no site do PROCON todos os dias (o que gerava ansiedade). O cenário ilustra o Funcionário do PROCON atualizando o processo no sistema interno, o que dispara imediatamente uma notificação no smartphone de Laura. Ao clicar, ela visualiza uma barra de progresso simples, sem jargões jurídicos, e fica satisfeita e aliviada ao ver que a empresa já foi notificada.
 
-<div id="figura0" align="center">
+<div id="figura1" align="center">
   <p>Figura 1 - Storyboard da Tarefa 1</p>
   <a href="../../images/storyboardHeitor2.png" target=_blank><img src="../../images/storyboardHeitor2.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> Heitor Macedo Ricardo</p>
@@ -41,8 +41,8 @@ Neste storyboard, a usuária Laura (Consumidora Reclamante), que possui uma roti
 
 Neste storyboard, o usuário Gustavo (Microempreendedor e Fornecedor), que trabalha sozinho em sua oficina e não pode fechar o balcão para evitar prejuízos, precisa resolver uma disputa de consumo com um cliente sem reviver o estresse de deslocamento e espera das audiências presenciais tradicionais. O cenário ilustra Gustavo recebendo uma notificação com o link da sala no celular, realizando a validação automática de seus periféricos no portal (prevenção de erros) e participando da audiência em vídeo de forma integrada com o Consumidor (Lucas) e a Mediadora do PROCON-DF (Mariana). A resolução se encerra com a assinatura digital do termo via Gov.br, deixando Gustavo satisfeito e aliviado por resolver a pendência jurídica em 20 minutos, mantendo sua oficina aberta.
 
-<div id="figura1" align="center">
-  <p>Figura 2 - Storyboard da Tarefa 2</p>
+<div id="figura3" align="center">
+  <p>Figura 3 - Storyboard da Tarefa 2</p>
   <a href="../../images/storyboardPedro.jpeg" target=_blank><img src="../../images/storyboardPedro.jpeg" alt="Storyboard da Sala de Conciliação Virtual com Mediação Assistida"></a>
   <p><b>Fonte:</b> Pedro Augusto Moretti Moreira</p>
 </div>
@@ -53,8 +53,8 @@ Neste storyboard, o usuário Gustavo (Microempreendedor e Fornecedor), que traba
 
 Este storyboard ilustra a jornada de Ivone Maria da Silva, uma auxiliar de limpeza de 56 anos com pouca familiaridade tecnológica, utilizando seu smartphone para registrar uma reclamação sobre uma compra não entregue no portal do PROCON-DF. A narrativa visual demonstra o funcionamento prático do Assistente de Triagem Guiada, transformando uma experiência digital antes intimidadora em um fluxo interativo, limpo e em formato de passo a passo (wizard). Ao longo dos quadrinhos, Ivone localiza facilmente o botão central de alto contraste, compreende o papel do órgão por meio de uma linguagem cidadã, anexa a foto do seu comprovante de pagamento e finaliza o processo com total autonomia, segurança e alívio por não ter enfrentado jargões jurídicos ou poluição visual.
 
-<div id="figura1" align="center">
-  <p>Figura 3 - Storyboard da Tarefa 3</p>
+<div id="figura4" align="center">
+  <p>Figura 4 - Storyboard da Tarefa 3</p>
   <a href="../../images/storyboardpedromacedo.png" target=_blank><img src="../../images/storyboardpedromacedo.png" alt="Storybiard da Assistente de Triagem Guiada para Reclamações"></a>
   <p><b>Fonte:</b> Pedro Macedo</p>
 </div>
@@ -79,18 +79,18 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento e cria�
 
 ## Notas de Rodapé e Referências de Imagens
 
-<div id="figura" align="center">
-  <p>Figura 1 - Storyboard: Definição e Aplicação</p>
+<div id="figura5" align="center">
+  <p>Figura 5 - Storyboard: Definição e Aplicação</p>
   <a href="../../images/storyboardlivro1.png" target=_blank><img src="../../images/storyboardlivro1.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> BARBOSA et al. (2021, p. 263).</p>
 </div>
-<div id="figura1" align="center">
-  <p>Figura 2 - Storyboard: Exemplo de Protótipo de Baixa Fidelidade</p>
+<div id="figura6" align="center">
+  <p>Figura 6 - Storyboard: Exemplo de Protótipo de Baixa Fidelidade</p>
   <a href="../../images/storyboardlivro2.png" target=_blank><img src="../../images/storyboardlivro2.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> BARBOSA et al. (2021, p. 263).</p>
 </div>
-<div id="figura2" align="center">
-  <p>Figura 3 - Storyboard: Exemplo de Protótipo de Baixa Fidelidade</p>
+<div id="figura7" align="center">
+  <p>Figura 7 - Storyboard: Exemplo de Protótipo de Baixa Fidelidade</p>
   <a href="../../images/storyboardlivro3.png" target=_blank><img src="../../images/storyboardlivro3.png" alt="Seção 11.7.5 do livro Barbosa e Silva"></a>
   <p><b>Fonte:</b> BARBOSA et al. (2021, p. 263).</p>
 </div>
