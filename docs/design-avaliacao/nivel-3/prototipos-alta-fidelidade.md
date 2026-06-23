@@ -27,6 +27,7 @@ Os protótipos são interativos e navegáveis diretamente no navegador, permitin
 | Sala de Conciliação Virtual  | Videoconferência com mediação assistida, chat de evidências e assinatura digital                                       | 8 telas (notificação → encerramento)    | [Acessar protótipo](prototipo-alta-fidelidade-conciliacao.md)       |
 | Notificação Ativa            | Recebimento de notificação via WhatsApp, acompanhamento da linha do tempo e resposta à proposta com assinatura digital | 11 telas (notificação → acordo firmado) | [Acessar protótipo](prototipo-alta-fidelidade-notificacao-ativa.md) |
 | Assistente de Triagem Guiada | Reclamação de algum objeto                                                                                             | 7 telas (reclamação → notificação)      | [Acessar protótipo](prototipo-alta-fidelidade-triagem-guiada.md)    |
+| Painel de Prazos             | Painel de monitoramento de prazos, com indicativos visuais, linha do tempo interativa e orientação jurídica.           | 6 telas (login → notificações)          | [Acessar protótipo](prototipo-alta-fidelidade-painel-prazos.md)     |
 
 ### Sala de Conciliação Virtual
 
@@ -35,6 +36,10 @@ Cobre o fluxo completo de uma audiência de conciliação virtual: o cidadão re
 ### Notificação Ativa
 
 Cobre o fluxo completo da funcionalidade de notificação ativa: o cidadão recebe uma notificação diretamente no WhatsApp sobre uma atualização em sua reclamação, realiza login, acessa a lista de reclamações, visualiza a linha do tempo do processo, revisa a proposta da empresa, aceita-a e assina digitalmente por biometria ou GOV.BR, finalizando com a tela de acordo firmado.
+
+### Painel de Prazos
+
+Cobre o fluxo de login no sistema, visualização do status dos prazos legais atrelados a uma reclamação, com ênfase na verificação da linha do tempo e do acionamento ao Juizado Especial quando necessário.
 
 ---
 
@@ -46,7 +51,6 @@ Os seguintes protótipos de alta fidelidade estão previstos com base nos [prot�
 | --------------------------------- | ------------------------------------------ |
 | Notificação Ativa                 | [Acessar](../nivel-2/prototipo.md)         |
 | Validação por OCR                 | [Acessar](../nivel-2/prototipo-ocr.md)     |
-| Painel de Monitoramento de Prazos | [Acessar](../nivel-2/prototipo-prazos.md)  |
 | Assistente de Triagem Guiada      | [Acessar](../nivel-2/prototipo-triagem.md) |
 
 ---
@@ -80,3 +84,4 @@ Agradecimento ao **DeepSeek** pelo auxílio na estruturação deste arquivo.
 | ------ | ---------- | ----------------------------------------------------------------------------------- | ------------- | ------------- |
 | 1.0    | 11/06/2026 | Criação da página de consolidação dos protótipos de alta fidelidade.                | Pedro Augusto Moretti Moreira | Heitor Macedo |
 | 1.1    | 14/06/2026 | Adição do protótipo de Notificação Ativa e atualização dos resultados consolidados. | Heitor Macedo | Heitor Macedo |
+| 1.2    | 17/06/2026 | Adição do protótipo do Painel de Prazos.                                            | Mateus Barreto | —            |

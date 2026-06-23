@@ -1,0 +1,118 @@
+# Protótipo de Alta Fidelidade — Painel de Monitoramento de Prazos com Alertas Jurídicos
+
+## Colaboração
+Colaboração referente a [Etapa 7](../../planejamento/cronograma-executado.md)
+
+| Autores | Contribuiu |
+|---|---|
+| Mateus Barreto | Elaborou o Artefato |
+
+---
+
+## Introdução
+
+Este artefato apresenta o **protótipo de alta fidelidade** desenvolvido para a funcionalidade de **Painel de Monitoramento de Prazos com Alertas Jurídicos** do sistema PROCON-DF. O protótipo foi construído em HTML, CSS e JavaScript, seguindo o [Guia de Estilo](../../analise-requisitos/guia-estilo.md) do projeto.
+
+A funcionalidade permite que o cidadão acompanhe, em linguagem simples, todos os prazos legais vinculados à sua reclamação — incluindo o prazo de resposta da empresa (CDC, art. 49), datas de audiência, contagem regressiva do prazo de prescrição (CDC, art. 27) e o encaminhamento ao Juizado Especial quando o prazo expira sem resolução, sem necessidade de consulta manual ao portal.
+
+Diferentemente do protótipo de papel (baixa fidelidade), este protótipo incorpora:
+
+- **Paleta de cores oficial** — Azul Principal (#4079BC), Amarelo Governo (#FFD200), Verde (#29BCB6), Magenta (#A93D8E) e Vermelho (#CF2E2E), conforme o guia de estilo
+- **Tipografia oficial** — Titillium Web (títulos), Open Sans (corpo) e Montserrat (elementos de interface)
+- **Padrões de componentes** — cartões de destaque, badges de status, linha do tempo com indicadores de progresso, checklist interativo, modal de confirmação, conforme especificado no guia de estilo
+- **Interações realistas** — fluxo completo de login (CPF/senha ou biometria), navegação entre prazos, acionamento condicionado do Juizado Especial e confirmação de documentos via checklist
+
+---
+
+## Protótipo Interativo
+
+O protótipo abaixo é navegável diretamente no navegador. Toque nos elementos para simular a interação do usuário com a funcionalidade.
+
+<div align="center">
+  <p><b>Figura 1 - Protótipo de Alta Fidelidade — Painel de Prazos PROCON-DF</b></p>
+</div>
+
+<div id="prototipo-wrapper" style="width:100%;border:1px solid #E2E8F0;border-radius:12px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,0.1);position:relative;">
+  <div style="background:#2D3748;padding:8px 12px;display:flex;justify-content:flex-end;">
+    <button
+      onclick="(function(){var w=document.getElementById('prototipo-wrapper');var f=document.getElementById('prototipo-iframe');if(!document.fullscreenElement){w.requestFullscreen().then(function(){f.style.height='100vh';w.style.borderRadius='0';});} else {document.exitFullscreen().then(function(){f.style.height='900px';w.style.borderRadius='12px';});}})();"
+      style="background:transparent;border:1px solid rgba(255,255,255,0.4);color:#fff;padding:4px 14px;border-radius:6px;cursor:pointer;font-size:13px;display:flex;align-items:center;gap:6px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
+      Tela cheia
+    </button>
+  </div>
+  <iframe
+    id="prototipo-iframe"
+    src="../../prototipo-alta-fidelidade/painel-prazos/painel-prazos.html"
+    width="100%"
+    height="900"
+    style="border:none;display:block;"
+    title="Protótipo de Alta Fidelidade — Painel de Prazos PROCON-DF"
+    allow="fullscreen">
+  </iframe>
+</div>
+
+<div align="center"><p><i>Fonte: Mateus Barreto (2026).</i></p></div>
+
+---
+
+## Fluxo Representado
+
+O protótipo cobre o fluxo completo da funcionalidade de Painel de Prazos:
+
+1. **Tela de Login** — autenticação com CPF e senha, com máscara automática de formatação e alternativa de biometria facial
+2. **Minhas Reclamações** — tela intermediária exibida após o login, listando duas reclamações em andamento com badges de status distintos: uma com prazo urgente (7 dias) e outra com prazo de resposta da empresa já expirado; além de uma reclamação encerrada
+3. **Adicionar Protocolo** — tela de vinculação de reclamação já registrada no PROCON-DF por número de protocolo, com estados visuais de carregamento, "não encontrado" e "encontrado" simulados de forma interativa
+4. **Painel Principal (reclamação ativa)** — destaque do prazo mais urgente em cartão colorido por criticidade, com lista de prazos; cada item da lista exibe o label "Ver linha do tempo →" para deixar explícita a ação de navegação
+5. **Linha do Tempo (reclamação ativa)** — exibição cronológica das etapas do processo (concluídas, em andamento e futuras), sem botão de acionamento ao Juizado (prazo ainda não expirado)
+6. **Prazo de Prescrição** — contagem regressiva em dias até a caducidade do direito de ação, com explicação em linguagem simples e base legal
+7. **Painel Principal (reclamação com prazo expirado)** — cartão de destaque em vermelho indicando prazo vencido, com acesso à linha do tempo e ao acionamento do Juizado Especial
+8. **Linha do Tempo (reclamação com prazo expirado)** — mesma estrutura cronológica, agora com a etapa "Aguardando resposta" marcada como vencida e botão "Acionar Juizado Especial" visível e ativo
+9. **Acionar Juizado Especial** — checklist interativo de documentos necessários, com botão de confirmação condicionado à marcação de todos os itens, e localização do fórum
+10. **Modal de Confirmação** — pop-up de sucesso ao salvar as orientações do Juizado Especial
+11. **Alertas Recebidos** — histórico de notificações enviadas ao consumidor por WhatsApp e e-mail
+
+---
+
+## Arquitetura do Protótipo
+
+| Camada | Tecnologia | Função |
+|---|---|---|
+| **Estrutura** | HTML5 | Marcação semântica de cada tela e fluxo de navegação |
+| **Estilo** | CSS3 | Fidelidade visual ao guia de estilo do PROCON-DF (paleta, tipografia, componentes) |
+| **Interatividade** | JavaScript (vanilla) | Gerencia a navegação entre telas, validação de campos, checklist interativo e estado do modal |
+| **Distribuição** | Standalone (single file) | Arquivo HTML autocontido, sem dependências de servidor |
+
+---
+
+## Decisões de Design
+
+| Decisão | Justificativa |
+|---|---|
+| **Cartão de destaque colorido por criticidade** | Substitui o "semáforo" do protótipo de papel por um componente de maior fidelidade visual, mantendo a comunicação imediata do nível de urgência sem necessidade de leitura |
+| **Tela de seleção de reclamação pós-login** | Em vez de exibir diretamente um único painel, o fluxo passa por uma lista de reclamações com badges de status, tornando o protótipo mais fiel ao cenário real de usuários com múltiplos registros |
+| **Label "Ver linha do tempo →" nos cards de prazo** | Teste de usabilidade revelou que participantes não identificavam os cards da lista de prazos como elementos clicáveis; a adição de um label de ação explícita abaixo de cada item resolve o problema de affordance sem alterar a hierarquia visual |
+| **Segunda reclamação com prazo expirado** | Em vez de um aviso condicional na linha do tempo explicando que o botão "apareceria" futuramente, o protótipo apresenta uma segunda reclamação real já com prazo vencido, permitindo que o usuário vivencie o fluxo completo de acionamento do Juizado Especial de forma natural, sem instrução prévia |
+| **Botão "Acionar Juizado Especial" exclusivo na reclamação expirada** | O botão existe apenas na linha do tempo da reclamação cujo prazo já venceu, tornando a condição de acionamento contextualmente óbvia e eliminando a necessidade de texto explicativo |
+| **Fluxo de adição de protocolo existente** | Tela dedicada com campo de busca e três estados visuais distintos (carregando, não encontrado, encontrado) demonstra de forma realista o feedback do sistema e a prevenção de erros antes de vincular uma reclamação |
+| **Biometria com falha simulada na primeira tentativa** | Representa o fluxo de fallback de autenticação de forma realista, permitindo observar a reação do usuário diante de uma falha de reconhecimento |
+| **Checklist interativo com botão condicionado** | Cada documento necessário deve ser marcado individualmente; o botão de confirmação só é liberado quando todos os itens são conferidos, reforçando a prevenção de erros antes de uma ação importante |
+| **Modal de confirmação ao salvar orientações** | Fornece feedback explícito de sucesso da ação, em vez de apenas navegar silenciosamente para outra tela |
+| **Base legal sempre visível** | Referência ao artigo do CDC exibida em cada prazo, permitindo verificação pelo usuário mais avançado sem poluir a interface principal |
+
+---
+
+## Referências
+
+> BARBOSA, S. D. J.; SILVA, B. S.; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do usuário*. Autopublicação, 2021.
+
+---
+
+## Histórico de Versão
+
+| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+|---|---|---|---|---|
+| 1.0 | 18/06/2026 | Criação do documento e adição do protótipo de alta fidelidade interativo. | Mateus Barreto | — |
+| 1.1 | 19/06/2026 | Adição das telas "Minhas Reclamações" e "Adicionar Protocolo"; login passa a redirecionar para seleção de reclamação. | Mateus Barreto | — |
+| 1.2 | 19/06/2026 | Ajuste do botão de reclamações no menu inferior do painel para navegar de volta à listagem de reclamações. | Mateus Barreto | — |
+| 1.3 | 21/06/2026 | Adição de label "Ver linha do tempo" nos cards de prazo para resolver problema identificado em teste; adição de segunda reclamação com prazo expirado e fluxo completo do Juizado Especial; remoção do callout condicional da linha do tempo. | Mateus Barreto | — |

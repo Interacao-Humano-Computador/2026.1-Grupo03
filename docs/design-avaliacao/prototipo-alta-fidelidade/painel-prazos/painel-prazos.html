@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROCON-DF · Painel de Prazos — Alta Fidelidade</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&family=Open+Sans:wght@400;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   PROCON-DF · Painel de Prazos com Alertas Jurídicos
+   Sistema de design derivado do guia oficial do projeto
+   ============================================================ */
+
+:root {
+  /* Cores institucionais */
+  --azul:        #4079BC;
+  --azul-dark:   #346398;
+  --magenta:     #A93D8E;
+  --magenta-dark:#8F2F77;
+  --amarelo:     #FFD200;
+  --verde:       #29BCB6;
+  --verde-dark:  #1FA39E;
+  --vermelho:    #CF2E2E;
+  
+  /* Novas Cores Adicionadas (Laranja) */
+  --laranja:     #F97316;
+  --laranja-dark:#C2410C;
+
+  /* Neutros */
+  --texto:       #515151;
+  --texto-strong:#333333;
+  --texto-muted: #777777;
+  --bg:          #FFFFFF;
+  --bg-light:    #F5F5F5;
+  --bg-subtle:   #F8F8F8;
+  --border:      #E0E0E0;
+  --border-soft: #E7E7E7;
+
+  /* Tipografia */
+  --font-head: "Titillium Web", sans-serif;
+  --font-body: "Open Sans", sans-serif;
+  --font-ui:   "Montserrat", sans-serif;
+
+  /* Sombra */
+  --shadow-card:  0 1px 2px rgba(0,0,0,.04);
+  --shadow-hover: 0 4px 14px rgba(0,0,0,.12);
+  --shadow-float: 0 8px 30px rgba(0,0,0,.16);
+
+  --t: .14s ease;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  font-family: var(--font-body);
+  color: var(--texto);
+  background: radial-gradient(120% 80% at 50% 0%, #eef1f4 0%, #dfe3e8 60%, #d2d7dd 100%);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Stage ---------- */
+.stage { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 32px 16px 40px; }
+.stage-caption { text-align: center; font-family: var(--font-ui); color: #6b7280; max-width: 420px; }
+.stage-caption h1 { font-family: var(--font-head); font-weight: 600; font-size: 19px; color: #3a4350; letter-spacing: -.2px; }
+.stage-caption p { font-size: 12.5px; margin-top: 4px; color: #8a93a0; }
+
+/* ---------- Phone frame ---------- */
+.phone {
+  position: relative; width: 375px; height: 812px;
+  background: #0d0f12; border-radius: 46px; padding: 11px;
+  box-shadow: 0 0 0 2px #2a2d33, 0 24px 60px rgba(0,0,0,.4), inset 0 0 3px rgba(255,255,255,.15);
+  flex: none;
+}
+.phone__screen { position: relative; width: 100%; height: 100%; background: var(--bg); border-radius: 36px; overflow: hidden; display: flex; flex-direction: column; }
+
+.statusbar { position: absolute; top:0; left:0; right:0; height: 46px; display:flex; align-items:center; justify-content:space-between; padding: 0 28px; font-family: var(--font-ui); font-size: 13.5px; font-weight: 600; color: #fff; z-index: 60; pointer-events:none; transition: color var(--t); text-shadow: 0 1px 2px rgba(0,0,0,.18); }
+.statusbar.dark { color: #1c1c1c; text-shadow:none; }
+.statusbar__icons { display:flex; align-items:center; gap:6px; }
+.notch { position:absolute; top:0; left:50%; transform:translateX(-50%); width:148px; height:30px; background:#0d0f12; border-radius:0 0 18px 18px; z-index:61; }
+
+.screens { position: relative; flex: 1; overflow: hidden; }
+.screen { position: absolute; inset: 0; display: none; flex-direction: column; }
+.screen.is-active { display: flex; }
+.screen__scroll { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+.screen__scroll::-webkit-scrollbar { width: 0; }
+
+/* ---------- PROCON header ---------- */
+.gov-band { height: 6px; background: var(--amarelo); flex: none; }
+.app-header { background: var(--azul); color: #fff; padding: 52px 16px 14px; display: flex; align-items: center; gap: 12px; flex: none; }
+.app-header__back { width:34px; height:34px; display:grid; place-items:center; border:none; background: rgba(255,255,255,.14); color:#fff; cursor:pointer; flex:none; transition: background var(--t); }
+.app-header__back:hover { background: rgba(255,255,255,.26); }
+.app-header__logo { width:38px; height:38px; background:#fff; display:grid; place-items:center; flex:none; }
+.app-header__logo span { font-family: var(--font-head); font-weight:700; font-size:9px; line-height:1; color: var(--azul); text-align:center; letter-spacing:-.2px; }
+.app-header__titles { line-height: 1.15; }
+.app-header__eyebrow { font-family: var(--font-ui); font-size: 9.5px; letter-spacing:1.4px; text-transform: uppercase; color: rgba(255,255,255,.78); }
+.app-header__title { font-family: var(--font-head); font-weight:600; font-size:17px; margin-top:1px; }
+.app-header__spacer { margin-left: auto; }
+.app-header__bell { position: relative; width:34px; height:34px; display:grid; place-items:center; color:#fff; cursor:pointer; }
+.app-header__bell .dot { position:absolute; top:5px; right:6px; width:8px; height:8px; border-radius:50%; background: var(--amarelo); border: 1.5px solid var(--azul); }
+
+/* ---------- Generic content ---------- */
+.pad { padding: 16px; }
+.section-title { font-family: var(--font-head); font-weight:600; color: var(--texto-strong); }
+.muted { color: var(--texto-muted); }
+.tap-hint { font-family: var(--font-ui); font-size:11px; letter-spacing:.3px; color: var(--azul); display:inline-flex; align-items:center; gap:5px; }
+.eyebrow-label { font-family: var(--font-ui); font-size: 11px; font-weight: 700; letter-spacing: .6px; text-transform: uppercase; color: var(--texto-muted); margin-bottom: 8px; }
+
+/* ---------- Buttons ---------- */
+.btn { font-family: var(--font-ui); font-weight:600; font-size:14px; border:1px solid transparent; border-radius:0; padding:13px 18px; cursor:pointer; display:inline-flex; align-items:center; justify-content:center; gap:8px; width:100%; transition: background var(--t), border-color var(--t), transform var(--t), box-shadow var(--t); }
+.btn:active { transform: translateY(1px); }
+.btn:disabled { opacity:.45; cursor:not-allowed; transform:none; }
+.btn--azul { background: var(--azul); color:#fff; border-color: var(--azul-dark); }
+.btn--azul:hover { background: var(--azul-dark); }
+.btn--magenta { background: var(--magenta); color:#fff; border-color: var(--magenta-dark); box-shadow: 0 3px 12px rgba(169,61,142,.28); }
+.btn--magenta:hover { background: var(--magenta-dark); }
+.btn--verde { background: var(--verde); color:#fff; border-color: var(--verde-dark); }
+.btn--verde:hover { background: var(--verde-dark); }
+.btn--vermelho { background: var(--vermelho); color:#fff; border-color:#a82323; }
+.btn--vermelho:hover { background: #a82323; }
+.btn--ghost { background:#fff; color: var(--texto); border-color: var(--border); }
+.btn--ghost:hover { background: var(--bg-light); }
+.btn--danger-ghost { background:#fff; color: var(--vermelho); border-color:#e7c2c2; }
+.btn--danger-ghost:hover { background:#fdf3f3; }
+.btn--lg { padding:15px 18px; font-size:15px; }
+.btn .spinner { width:14px; height:14px; border-radius:50%; border:2px solid rgba(255,255,255,.35); border-top-color:#fff; animation: spin .7s linear infinite; display:none; }
+.btn.is-loading .spinner { display:inline-block; }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---------- Cards ---------- */
+.card { background:#fff; border:1px solid var(--border); border-radius:0; box-shadow: var(--shadow-card); transition: box-shadow var(--t), transform var(--t), border-color var(--t); }
+.card--link { cursor:pointer; }
+.card--link:hover { box-shadow: var(--shadow-hover); transform: translateY(-1px); }
+.svc-box { border-radius:10px; }
+
+/* ---------- Badges & chips ---------- */
+.badge { font-family: var(--font-ui); font-weight:700; font-size:10px; letter-spacing:.6px; text-transform:uppercase; padding:4px 8px; display:inline-flex; align-items:center; gap:5px; border-radius:0; }
+.badge--red { background: var(--vermelho); color:#fff; }
+.badge--orange { background: var(--laranja); color:#fff; } /* Adicionado Laranja */
+.badge--amber { background: var(--amarelo); color: #5c4b00; }
+.badge--green { background: var(--verde); color:#fff; }
+.badge--gray { background: var(--bg-light); color: var(--texto-muted); border:1px solid var(--border); }
+.badge--blink { animation: blink 1.4s ease-in-out infinite; }
+@keyframes blink { 50% { box-shadow: 0 0 0 4px rgba(249,115,22,.16); } } /* Sombra Laranja para blink */
+.chip { font-family: var(--font-ui); font-size:11px; font-weight:600; color: var(--texto-muted); background: var(--bg-light); border:1px solid var(--border); padding:3px 9px; display:inline-flex; align-items:center; gap:5px; }
+
+/* ---------- Inputs ---------- */
+.field { margin-bottom: 14px; }
+.field label { display:block; font-family: var(--font-ui); font-size:12px; font-weight:600; color: var(--texto-strong); margin-bottom:6px; letter-spacing:.2px; }
+.input { width:100%; background:#fff; color: var(--texto); border:1px solid var(--border); border-radius:0; padding:14px 12px; font-family: var(--font-body); font-size:15px; transition: border-color var(--t), box-shadow var(--t); }
+.input:focus { outline:none; border-color: var(--azul); box-shadow: 0 0 0 3px rgba(64,121,188,.14); }
+.input.has-error { border-color: var(--vermelho); }
+.input-wrap { position:relative; }
+.input-wrap .suffix { position:absolute; right:10px; top:50%; transform: translateY(-50%); color: var(--texto-muted); cursor:pointer; display:grid; place-items:center; font-family: var(--font-ui); font-size:12px; font-weight:600; }
+.field-error { font-size:12px; color: var(--vermelho); margin-top:6px; display:none; align-items:center; gap:5px; font-family: var(--font-ui); }
+.field-error.show { display:flex; }
+
+/* ---------- Timeline / tracking ---------- */
+.tracker { padding: 4px 0; }
+.track-step { display:grid; grid-template-columns: 34px 1fr; gap:12px; position:relative; }
+.track-step__rail { display:flex; flex-direction:column; align-items:center; }
+.track-dot { width:26px; height:26px; border-radius:50%; display:grid; place-items:center; background:#fff; border:2px solid var(--border); color: var(--border); flex:none; z-index:2; }
+.track-line { width:2px; flex:1; background: var(--border); margin:2px 0; min-height:26px; }
+.track-step:last-child .track-line { display:none; }
+.track-step__body { padding-bottom:22px; }
+.track-step__name { font-family: var(--font-ui); font-weight:600; font-size:14px; color: var(--texto-strong); }
+.track-step__meta { font-size:12px; color: var(--texto-muted); margin-top:2px; }
+.track-step.done .track-dot { background: var(--verde); border-color: var(--verde); color:#fff; }
+.track-step.done .track-line { background: var(--verde); }
+
+/* Editado para ser Laranja em vez de Roxo */
+.track-step.current .track-dot { background: var(--laranja); border-color: var(--laranja); color:#fff; box-shadow: 0 0 0 5px rgba(249,115,22,.16); }
+.track-step.current .track-step__name { color: var(--laranja); }
+.track-step.current .track-line { background: var(--border); }
+
+/* Estado Expirado para linha do tempo #2 */
+.track-step.expired .track-dot { background: var(--vermelho); border-color: var(--vermelho); color:#fff; box-shadow: 0 0 0 5px rgba(207,46,46,.16); }
+.track-step.expired .track-step__name { color: var(--vermelho); }
+.track-step.expired .track-line { background: var(--border); }
+
+.track-step.todo .track-step__name { color: var(--texto-muted); font-weight:600; }
+
+/* ---------- Modal ---------- */
+.modal-overlay { position:absolute; inset:0; background: rgba(20,24,30,.5); display:flex; align-items:center; justify-content:center; padding:24px; opacity:0; visibility:hidden; transition: opacity var(--t), visibility var(--t); z-index:80; }
+.modal-overlay.is-open { opacity:1; visibility:visible; }
+.modal { background:#fff; border-radius:0; width:100%; box-shadow: var(--shadow-float); transform: translateY(8px) scale(.98); transition: transform var(--t); overflow:hidden; }
+.modal-overlay.is-open .modal { transform:none; }
+.modal__icon { width:46px; height:46px; border-radius:50%; display:grid; place-items:center; margin:18px auto 0; }
+.modal__icon--red { background:#fdeeee; color: var(--vermelho); }
+.modal__icon--amber { background:#fff8df; color:#a98600; }
+.modal__icon--green { background:#e6f8f6; color: var(--verde-dark); }
+.modal__body { padding:14px 20px 6px; text-align:center; }
+.modal__title { font-family: var(--font-head); font-weight:600; font-size:18px; color: var(--texto-strong); }
+.modal__text { font-size:13.5px; line-height:1.5; color: var(--texto-muted); margin-top:6px; }
+.modal__actions { display:flex; gap:0; border-top:1px solid var(--border); margin-top:16px; }
+.modal__actions .btn { border-radius:0; border:none; }
+.modal__actions .btn + .btn { border-left:1px solid var(--border); }
+
+/* ============================================================
+   COMPONENTES ESPECÍFICOS DO PAINEL DE PRAZOS
+   ============================================================ */
+
+/* Hero de status (substitui o "semáforo" do papel) */
+.deadline-hero { padding: 16px; }
+.hero-card { padding: 18px 16px; position: relative; overflow: hidden; }
+.hero-card--red { background: linear-gradient(135deg, #CF2E2E 0%, #a82323 100%); }
+.hero-card--orange { background: linear-gradient(135deg, var(--laranja) 0%, var(--laranja-dark) 100%); } /* Novo Hero Laranja */
+.hero-card--amber { background: linear-gradient(135deg, #FFD200 0%, #e0ba00 100%); }
+.hero-card--green { background: linear-gradient(135deg, #29BCB6 0%, #1FA39E 100%); }
+.hero-card__eyebrow { font-family: var(--font-ui); font-size:10.5px; font-weight:700; letter-spacing:.8px; text-transform:uppercase; color: rgba(255,255,255,.85); }
+.hero-card--amber .hero-card__eyebrow { color: rgba(60,48,0,.7); }
+.hero-card__value { font-family: var(--font-head); font-weight:700; font-size:38px; color:#fff; line-height:1.05; margin-top:4px; }
+.hero-card--amber .hero-card__value { color:#3c3000; }
+.hero-card__desc { font-family: var(--font-body); font-size:13px; color: rgba(255,255,255,.92); margin-top:4px; }
+.hero-card--amber .hero-card__desc { color: rgba(60,48,0,.78); }
+.hero-card__base { display:inline-block; margin-top:10px; font-family: var(--font-ui); font-size:10.5px; font-weight:600; color:#fff; background: rgba(255,255,255,.18); padding:4px 9px; }
+.hero-card--amber .hero-card__base { color:#3c3000; background: rgba(0,0,0,.08); }
+
+/* Lista de prazos */
+.deadline-list { margin: 0 16px 16px; border:1px solid var(--border); }
+.deadline-row { display:flex; align-items:center; gap:12px; padding:13px 14px; background:#fff; cursor:pointer; transition: background var(--t); }
+.deadline-row + .deadline-row { border-top: 1px solid var(--border-soft); }
+.deadline-row:hover { background: var(--bg-subtle); }
+.deadline-row__dot { width:9px; height:9px; border-radius:50%; flex:none; }
+.deadline-row__dot--red { background: var(--vermelho); }
+.deadline-row__dot--orange { background: var(--laranja); } /* Adicionado Laranja */
+.deadline-row__dot--amber { background: var(--amarelo); border:1px solid #d6b400; }
+.deadline-row__dot--green { background: var(--verde); }
+.deadline-row__info { flex:1; min-width:0; }
+.deadline-row__title { font-family: var(--font-ui); font-weight:600; font-size:14px; color: var(--texto-strong); }
+.deadline-row__sub { font-size:12px; color: var(--texto-muted); margin-top:1px; }
+.deadline-row__status { font-family: var(--font-ui); font-weight:700; font-size:12.5px; white-space:nowrap; }
+.deadline-row__status--red { color: var(--vermelho); }
+.deadline-row__status--orange { color: var(--laranja-dark); } /* Adicionado Laranja */
+.deadline-row__status--amber { color:#a98600; }
+.deadline-row__status--green { color: var(--verde-dark); }
+.deadline-row__chevron { color:#c2c8d0; flex:none; }
+
+/* Callout informativo */
+.callout { display:flex; gap:10px; align-items:flex-start; padding:12px 13px; font-size:12.5px; line-height:1.45; margin: 0 16px 14px; }
+.callout--amber { background:#fff8df; border-left:3px solid var(--amarelo); color:#5c4b00; }
+.callout--blue { background:#eef4fb; border-left:3px solid var(--azul); color:#2c4f73; }
+.callout .icon { flex:none; margin-top:1px; }
+
+/* Checklist interativo (Juizado) */
+.check-list { margin: 0; }
+.check-item { display:flex; align-items:flex-start; gap:11px; padding:13px 14px; cursor:pointer; user-select:none; transition: background var(--t); }
+.check-item + .check-item { border-top:1px solid var(--border-soft); }
+.check-item:hover { background: var(--bg-subtle); }
+.check-box { width:20px; height:20px; border:1.8px solid #c2c8d0; flex:none; margin-top:1px; display:flex; align-items:center; justify-content:center; transition: background var(--t), border-color var(--t); }
+.check-box svg { width:11px; height:9px; opacity:0; transition: opacity .1s; }
+.check-item.is-checked .check-box { background: var(--verde); border-color: var(--verde); }
+.check-item.is-checked .check-box svg { opacity:1; }
+.check-item__text { font-size:13.5px; color: var(--texto); line-height:1.35; padding-top:1px; }
+.check-item.is-checked .check-item__text { color: var(--texto-muted); text-decoration: line-through; }
+.check-progress { font-family: var(--font-ui); font-size:11.5px; font-weight:600; color: var(--texto-muted); text-align:center; padding: 11px 14px; border-top:1px solid var(--border-soft); }
+
+/* Notificações (alertas recebidos) */
+.notif-row { display:flex; gap:11px; padding:13px 14px; align-items:flex-start; }
+.notif-row + .notif-row { border-top:1px solid var(--border-soft); }
+.notif-row__dot { width:8px; height:8px; border-radius:50%; flex:none; margin-top:6px; }
+.notif-row__dot--orange { background: var(--laranja); } /* Adicionado Laranja */
+.notif-row__body { flex:1; min-width:0; }
+.notif-row__top { display:flex; justify-content:space-between; gap:8px; }
+.notif-row__title { font-family: var(--font-ui); font-weight:600; font-size:13.5px; color: var(--texto-strong); }
+.notif-row__time { font-size:11px; color: var(--texto-muted); flex:none; font-family: var(--font-ui); }
+.notif-row__text { font-size:12.5px; color: var(--texto-muted); margin-top:2px; line-height:1.4; }
+
+/* Login */
+.login-pad { padding: 28px 24px 24px; }
+.login-brand { display:flex; flex-direction:column; align-items:center; gap:10px; margin-bottom: 26px; }
+.login-brand__logo { width:64px; height:64px; background: var(--azul); display:grid; place-items:center; }
+.login-brand__logo span { font-family: var(--font-head); font-weight:700; font-size:11px; color:#fff; text-align:center; line-height:1.1; }
+.login-brand__title { font-family: var(--font-head); font-weight:600; font-size:19px; color: var(--texto-strong); }
+.login-brand__sub { font-size:12.5px; color: var(--texto-muted); }
+.login-divider { display:flex; align-items:center; gap:10px; margin:22px 0; color: var(--texto-muted); font-size:11px; font-family: var(--font-ui); }
+.login-divider::before, .login-divider::after { content:""; flex:1; height:1px; background: var(--border); }
+.bio-option { display:flex; flex-direction:column; align-items:center; gap:10px; cursor:pointer; }
+.bio-ring { width:62px; height:62px; border-radius:50%; border:2px solid var(--border); display:flex; align-items:center; justify-content:center; transition: border-color .2s, background .2s, transform .15s; }
+.bio-option:hover .bio-ring { border-color: var(--azul); }
+.bio-option.is-scanning .bio-ring { border-color: var(--amarelo); background:#fffdf0; animation: pulse 1s ease-in-out infinite; }
+.bio-option.is-success .bio-ring { border-color: var(--verde); background:#e6f8f6; }
+@keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+.bio-label { font-family: var(--font-ui); font-size:12.5px; font-weight:600; color: var(--texto-muted); }
+.bio-option.is-scanning .bio-label { color:#a98600; }
+.bio-option.is-success .bio-label { color: var(--verde-dark); }
+.login-footer { text-align:center; margin-top:22px; font-size:12.5px; }
+.login-footer a { color: var(--azul); text-decoration:none; font-family: var(--font-ui); font-weight:600; cursor:pointer; }
+.fallback-banner { display:none; align-items:flex-start; gap:9px; background:#fff8df; border-left:3px solid var(--amarelo); padding:11px 12px; font-size:12px; color:#5c4b00; margin-top:16px; line-height:1.4; }
+.fallback-banner.show { display:flex; }
+
+/* Linha do tempo wrapper extra */
+.tl-cta-zone { margin: 4px 16px 16px; }
+
+/* ---------- Minhas Reclamações ---------- */
+.recl-row { display:flex; align-items:flex-start; gap:12px; padding:14px 14px; background:#fff; cursor:pointer; transition: background var(--t); border-bottom:1px solid var(--border-soft); }
+.recl-row:last-child { border-bottom:none; }
+.recl-row:hover { background: var(--bg-subtle); }
+.recl-row__dot { width:10px; height:10px; border-radius:50%; flex:none; margin-top:5px; }
+.recl-row__info { flex:1; min-width:0; }
+.recl-row__title { font-family: var(--font-ui); font-weight:600; font-size:14px; color: var(--texto-strong); }
+.recl-row__sub { font-size:12px; color: var(--texto-muted); margin-top:2px; }
+.recl-row__right { display:flex; flex-direction:column; align-items:flex-end; gap:5px; flex:none; }
+.recl-row__status { font-family: var(--font-ui); font-weight:700; font-size:12px; white-space:nowrap; }
+.recl-row__chevron { color:#c2c8d0; }
+.recl-add-btn { display:flex; align-items:center; gap:10px; padding:14px; color: var(--azul); font-family: var(--font-ui); font-size:13.5px; font-weight:600; cursor:pointer; transition: background var(--t); border-top:1px dashed var(--border); }
+.recl-add-btn:hover { background: var(--bg-subtle); }
+
+/* ---------- Adicionar Protocolo ---------- */
+.proto-state { display:none; }
+.proto-state.is-visible { display:block; }
+.search-result { display:flex; gap:10px; align-items:flex-start; padding:13px 14px; background: #eef8f7; border-left:3px solid var(--verde); }
+.search-result__icon { color: var(--verde-dark); flex:none; margin-top:2px; }
+.search-result__title { font-family: var(--font-ui); font-weight:600; font-size:14px; color: var(--texto-strong); }
+.search-result__sub { font-size:12px; color: var(--texto-muted); margin-top:2px; }
+.loading-row { display:flex; align-items:center; gap:10px; padding:16px 14px; color: var(--texto-muted); font-size:13.5px; font-family: var(--font-ui); }
+.loading-dot { width:8px; height:8px; border-radius:50%; background: var(--azul); opacity:.25; animation: ldot .8s ease-in-out infinite; }
+.loading-dot:nth-child(2) { animation-delay:.15s; }
+.loading-dot:nth-child(3) { animation-delay:.3s; }
+@keyframes ldot { 0%,80%,100% { opacity:.2; transform:scale(.8); } 40% { opacity:1; transform:scale(1); } }
+</style>
+</head>
+<body>
+
+<div class="stage">
+  <div class="stage-caption">
+    <h1>PROCON-DF · Painel de Prazos com Alertas Jurídicos</h1>
+    <p>Protótipo de alta fidelidade · navegue tocando nos elementos</p>
+  </div>
+
+  <div class="phone">
+    <div class="notch"></div>
+    <div class="phone__screen">
+
+      <!-- ===================== STATUS BAR ===================== -->
+      <div class="statusbar" id="statusbar">
+        <span class="statusbar__time">9:41</span>
+        <span class="statusbar__icons">
+          <svg width="17" height="11" viewBox="0 0 17 11" fill="none"><rect x="0" y="6" width="3" height="5" rx="0.5" fill="currentColor"/><rect x="4.5" y="4" width="3" height="7" rx="0.5" fill="currentColor"/><rect x="9" y="2" width="3" height="9" rx="0.5" fill="currentColor"/><rect x="13.5" y="0" width="3" height="11" rx="0.5" fill="currentColor"/></svg>
+          <svg width="15" height="11" viewBox="0 0 15 11" fill="none"><path d="M7.5 10.5C8.2 10.5 8.8 9.9 8.8 9.2C8.8 8.5 8.2 7.9 7.5 7.9C6.8 7.9 6.2 8.5 6.2 9.2C6.2 9.9 6.8 10.5 7.5 10.5Z" fill="currentColor"/><path d="M4.6 6.8C5.4 6 6.4 5.6 7.5 5.6C8.6 5.6 9.6 6 10.4 6.8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><path d="M1.8 4.1C3.4 2.5 5.4 1.6 7.5 1.6C9.6 1.6 11.6 2.5 13.2 4.1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+          <svg width="24" height="11" viewBox="0 0 24 11" fill="none"><rect x="0.5" y="0.5" width="21" height="10" rx="2.5" stroke="currentColor"/><rect x="2" y="2" width="16" height="7" rx="1.3" fill="currentColor"/><rect x="22.5" y="3.5" width="1.5" height="4" rx="0.7" fill="currentColor"/></svg>
+        </span>
+      </div>
+
+      <div class="screens" id="screens">
+
+        <!-- ===================== TELA 0: LOGIN ===================== -->
+        <section class="screen is-active" data-screen="login">
+          <div class="gov-band"></div>
+          <div class="screen__scroll">
+            <div class="login-pad">
+              <div class="login-brand">
+                <div class="login-brand__logo"><span>PROCON<br>DF</span></div>
+                <div class="login-brand__title">Acesso ao portal</div>
+                <div class="login-brand__sub">acompanhe seus prazos e reclamações</div>
+              </div>
+
+              <div class="field">
+                <label>CPF</label>
+                <div class="input-wrap">
+                  <input class="input" id="cpfInput" inputmode="numeric" placeholder="000.000.000-00" maxlength="14" autocomplete="off">
+                </div>
+                <div class="field-error" id="cpfError">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2="13"/><circle cx="12" cy="16.2" r="0.4" fill="currentColor"/></svg>
+                  <span>Digite um CPF válido (11 dígitos)</span>
+                </div>
+              </div>
+
+              <div class="field">
+                <label>Senha</label>
+                <div class="input-wrap">
+                  <input class="input" id="senhaInput" type="password" placeholder="sua senha" autocomplete="off">
+                  <span class="suffix" id="senhaToggle">MOSTRAR</span>
+                </div>
+                <div class="field-error" id="senhaError">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2="13"/><circle cx="12" cy="16.2" r="0.4" fill="currentColor"/></svg>
+                  <span>Digite sua senha para continuar</span>
+                </div>
+              </div>
+
+              <button class="btn btn--azul btn--lg" id="btnEntrar">
+                <span class="spinner"></span>
+                <span id="btnEntrarLabel">Entrar</span>
+              </button>
+
+              <div class="login-divider">ou</div>
+
+              <div class="bio-option" id="bioOption">
+                <div class="bio-ring">
+                  <svg width="28" height="32" viewBox="0 0 34 40" fill="none" stroke="#4079BC" stroke-width="2" stroke-linecap="round">
+                    <path d="M17 6 C9 6 5 12 5 20 C5 27 6 32 7 36"></path>
+                    <path d="M17 12 C12 12 11 16 11 21 C11 27 12 31 13 35"></path>
+                    <path d="M17 18 C15 18 17 25 17 34"></path>
+                    <path d="M23 9 C28 12 29 17 29 23 C29 29 28 33 27 36"></path>
+                  </svg>
+                </div>
+                <div class="bio-label" id="bioLabel">entrar com biometria facial</div>
+              </div>
+
+              <div class="fallback-banner" id="fallbackBanner">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex:none;margin-top:1px"><circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2="13"/><circle cx="12" cy="16.2" r="0.4" fill="currentColor"/></svg>
+                <span>Não foi possível reconhecer seu rosto. Tente novamente.</span>
+              </div>
+
+              <div class="login-footer"><a id="esqueciSenha">esqueci minha senha</a></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== TELA 0.5: MINHAS RECLAMAÇÕES ===================== -->
+        <section class="screen" data-screen="reclamacoes">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <button class="app-header__back" data-go="login">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Portal PROCON-DF</div>
+              <div class="app-header__title">Minhas Reclamações</div>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="pad" style="padding-bottom:0">
+              <div class="eyebrow-label">Em andamento</div>
+            </div>
+            
+            <div class="card" style="margin:0 16px 10px">
+              <div class="recl-row" data-go="painel">
+                <div class="recl-row__dot" style="background:var(--laranja)"></div>
+                <div class="recl-row__info">
+                  <div class="recl-row__title">TV não entregue · Loja XYZ</div>
+                  <div class="recl-row__sub">Protocolo #2024-08847 · aberta em 05/05/2025</div>
+                </div>
+                <div class="recl-row__right">
+                  <span class="badge badge--orange badge--blink">7 dias</span>
+                  <svg class="recl-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Card do Notebook oculto por padrão -->
+            <div class="card" id="notebookCard" style="margin:0 16px 16px; display:none;">
+              <div class="recl-row" data-go="painel2" style="flex-wrap:wrap; padding-bottom:10px">
+                <div class="recl-row__dot" style="background:var(--vermelho)"></div>
+                <div class="recl-row__info">
+                  <div class="recl-row__title">Notebook com defeito · TechStore</div>
+                  <div class="recl-row__sub">Protocolo #2024-07231 · aberta em 10/03/2025</div>
+                </div>
+                <div class="recl-row__right">
+                  <span class="badge badge--red">Ação Necessária</span>
+                  <svg class="recl-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                </div>
+                <div style="width:100%; padding-left:21px; margin-top:5px">
+                  <span style="font-family:var(--font-ui);font-size:11px;font-weight:700;color:var(--vermelho)">⚠ Prazo da empresa expirou.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="pad" style="padding-bottom:0; padding-top:14px">
+              <div class="eyebrow-label">Encerradas</div>
+            </div>
+            <div class="card" style="margin:0 16px 16px; opacity:.7">
+              <div class="recl-row">
+                <div class="recl-row__dot" style="background:var(--texto-muted)"></div>
+                <div class="recl-row__info">
+                  <div class="recl-row__title">Produto com defeito · Eletrônicos SA</div>
+                  <div class="recl-row__sub">Protocolo #2023-04421 · encerrada em 10/02/2024</div>
+                </div>
+                <div class="recl-row__right">
+                  <span class="badge badge--gray">Resolvida</span>
+                  <svg class="recl-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="card" style="margin:0 16px 16px">
+              <div class="recl-add-btn" data-go="adicionar-protocolo">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+                Adicionar protocolo existente
+              </div>
+            </div>
+
+            <div class="callout callout--blue" style="margin-bottom:16px">
+              <svg class="icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16"/><circle cx="12" cy="7.7" r="0.6" fill="currentColor"/></svg>
+              <span>Toque em uma reclamação para ver os prazos e o andamento detalhado.</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== TELA 0.6: ADICIONAR PROTOCOLO ===================== -->
+        <section class="screen" data-screen="adicionar-protocolo">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <button class="app-header__back" data-go="reclamacoes">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Portal PROCON-DF</div>
+              <div class="app-header__title">Adicionar Protocolo</div>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="pad">
+              <div class="eyebrow-label">Número do protocolo</div>
+              <div class="card" style="padding:14px; margin-bottom:12px">
+                <div style="font-size:13px; color:var(--texto-muted); line-height:1.5; margin-bottom:12px">Informe o número de protocolo de uma reclamação já registrada no PROCON-DF para acompanhar os prazos aqui.</div>
+                <div class="field" style="margin-bottom:0">
+                  <label>Nº do protocolo</label>
+                  <div class="input-wrap">
+                    <input class="input" id="protocoloInput" inputmode="numeric" placeholder="ex: 2024-08847" autocomplete="off" style="letter-spacing:.04em">
+                  </div>
+                  <div class="field-error" id="protocoloError">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2="13"/><circle cx="12" cy="16.2" r="0.4" fill="currentColor"/></svg>
+                    <span>Protocolo não encontrado ou inválido.</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="eyebrow-label">Onde encontrar?</div>
+              <div class="card" style="padding:14px; margin-bottom:16px">
+                <div class="section-title" style="font-size:14px; margin-bottom:4px">No comprovante de registro</div>
+                <div style="font-size:13px; color:var(--texto-muted); line-height:1.5">O número aparece no e-mail de confirmação enviado pelo PROCON-DF no momento do registro, no formato <strong>#AAAA-NNNNN</strong>.</div>
+              </div>
+
+              <!-- Estado: carregando -->
+              <div class="proto-state card" id="protoLoading" style="margin-bottom:12px; padding:0; overflow:hidden">
+                <div class="loading-row">
+                  <div class="loading-dot"></div>
+                  <div class="loading-dot"></div>
+                  <div class="loading-dot"></div>
+                  <span>Consultando o sistema…</span>
+                </div>
+              </div>
+
+              <!-- Estado: encontrado -->
+              <div class="proto-state card" id="protoFound" style="margin-bottom:12px; padding:0; overflow:hidden">
+                <div class="search-result">
+                  <svg class="search-result__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+                  <div>
+                    <div class="search-result__title">Reclamação #2024-07231 encontrada</div>
+                    <div class="search-result__sub">Notebook com defeito · TechStore — aberta em 10/03/2025</div>
+                  </div>
+                </div>
+                <div class="pad" style="padding-top:12px">
+                  <button class="btn btn--verde btn--lg" data-go="reclamacoes" id="btnAdicionarConfirmar">Adicionar à minha lista</button>
+                </div>
+              </div>
+
+              <!-- Botões padrão -->
+              <div id="protoBtns">
+                <button class="btn btn--azul btn--lg" id="btnBuscarProtocolo">Buscar protocolo</button>
+                <div style="height:10px"></div>
+                <button class="btn btn--ghost" data-go="reclamacoes">Cancelar</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== TELA 1: PAINEL PRINCIPAL (#2024-08847 - 7 dias) ===================== -->
+        <section class="screen" data-screen="painel">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <div class="app-header__logo"><span>PROCON<br>DF</span></div>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Reclamação #2024-08847</div>
+              <div class="app-header__title">Meus Prazos</div>
+            </div>
+            <div class="app-header__spacer"></div>
+            <!-- Ícone de alertas restaurado no cabeçalho -->
+            <div class="app-header__bell" data-go="notificacoes">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="deadline-hero">
+              <div class="eyebrow-label">Prazo mais urgente</div>
+              
+              <div class="card hero-card hero-card--orange" data-go="linha-do-tempo" style="cursor:pointer">
+                <div class="hero-card__eyebrow">Resposta da empresa</div>
+                <div class="hero-card__value">7 dias</div>
+                <div class="hero-card__desc">prazo até 12/06/2025 · para a empresa responder</div>
+                <div class="hero-card__base">art. 49 CDC</div>
+              </div>
+            </div>
+
+            <div class="pad" style="padding-top:0">
+              <div class="eyebrow-label">Todos os prazos</div>
+            </div>
+            <div class="deadline-list">
+              <div class="deadline-row" data-go="linha-do-tempo" style="flex-wrap:wrap; padding-bottom:10px">
+                <div class="deadline-row__dot deadline-row__dot--orange"></div>
+                <div class="deadline-row__info">
+                  <div class="deadline-row__title">Resposta da empresa</div>
+                  <div class="deadline-row__sub">até 12/06/2025</div>
+                </div>
+                <div class="deadline-row__status deadline-row__status--orange">7 dias</div>
+                <svg class="deadline-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                <div style="width:100%; padding-left:21px; margin-top:6px">
+                  <span style="font-family:var(--font-ui);font-size:11.5px;font-weight:700;color:var(--azul);letter-spacing:.2px">Ver linha do tempo →</span>
+                </div>
+              </div>
+              <div class="deadline-row" data-go="linha-do-tempo" style="flex-wrap:wrap; padding-bottom:10px">
+                <div class="deadline-row__dot deadline-row__dot--green"></div>
+                <div class="deadline-row__info">
+                  <div class="deadline-row__title">Audiência de conciliação</div>
+                  <div class="deadline-row__sub">20/06/2025</div>
+                </div>
+                <div class="deadline-row__status deadline-row__status--green">15 dias</div>
+                <svg class="deadline-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                <div style="width:100%; padding-left:21px; margin-top:6px">
+                  <span style="font-family:var(--font-ui);font-size:11.5px;font-weight:700;color:var(--azul);letter-spacing:.2px">Ver linha do tempo →</span>
+                </div>
+              </div>
+              <div class="deadline-row" data-go="prescricao">
+                <div class="deadline-row__dot deadline-row__dot--green"></div>
+                <div class="deadline-row__info">
+                  <div class="deadline-row__title">Prescrição do direito</div>
+                  <div class="deadline-row__sub">caduca em 05/05/2030</div>
+                </div>
+                <div class="deadline-row__status deadline-row__status--green">~5 anos</div>
+                <svg class="deadline-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </div>
+            </div>
+
+            <div class="pad" style="padding-top:0">
+              <button class="btn btn--ghost" data-go="reclamacoes">Voltar</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== TELA 1.5: PAINEL 2 (#2024-07231 - Expirado) ===================== -->
+        <section class="screen" data-screen="painel2">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <div class="app-header__logo"><span>PROCON<br>DF</span></div>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Reclamação #2024-07231</div>
+              <div class="app-header__title">Meus Prazos</div>
+            </div>
+            <div class="app-header__spacer"></div>
+            <!-- Ícone de alertas restaurado no cabeçalho do segundo protocolo -->
+            <div class="app-header__bell" data-go="notificacoes2">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="deadline-hero">
+              <div class="eyebrow-label">Prazo mais urgente</div>
+              
+              <div class="card hero-card hero-card--red" data-go="linha-do-tempo2" style="cursor:pointer">
+                <div class="hero-card__eyebrow">Resposta da empresa</div>
+                <div class="hero-card__value" style="font-size:28px">Ação Necessária</div>
+                <div class="hero-card__desc">prazo expirado: a empresa não respondeu em 30 dias</div>
+                <div class="hero-card__base">art. 49 CDC</div>
+              </div>
+            </div>
+
+            <div class="pad" style="padding-top:0">
+              <div class="eyebrow-label">Todos os prazos</div>
+            </div>
+            <div class="deadline-list">
+              <div class="deadline-row" data-go="linha-do-tempo2" style="flex-wrap:wrap; padding-bottom:10px">
+                <div class="deadline-row__dot deadline-row__dot--red"></div>
+                <div class="deadline-row__info">
+                  <div class="deadline-row__title">Resposta da empresa</div>
+                  <div class="deadline-row__sub">encerrou em 10/04/2025</div>
+                </div>
+                <div class="deadline-row__status deadline-row__status--red">Expirado</div>
+                <svg class="deadline-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                <div style="width:100%; padding-left:21px; margin-top:6px">
+                  <span style="font-family:var(--font-ui);font-size:11.5px;font-weight:700;color:var(--azul);letter-spacing:.2px">Ver linha do tempo →</span>
+                </div>
+              </div>
+              
+              <div class="deadline-row" data-go="prescricao2">
+                <div class="deadline-row__dot deadline-row__dot--green"></div>
+                <div class="deadline-row__info">
+                  <div class="deadline-row__title">Prescrição do direito</div>
+                  <div class="deadline-row__sub">caduca em 10/03/2030</div>
+                </div>
+                <div class="deadline-row__status deadline-row__status--green">~5 anos</div>
+                <svg class="deadline-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </div>
+            </div>
+
+            <div class="pad" style="padding-top:0">
+              <button class="btn btn--ghost" data-go="reclamacoes">Voltar</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== TELA 2: LINHA DO TEMPO (#2024-08847 - 7 dias) ===================== -->
+        <section class="screen" data-screen="linha-do-tempo">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <button class="app-header__back" data-go="painel">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Andamento da reclamação</div>
+              <div class="app-header__title">Linha do Tempo</div>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="pad">
+              <div class="eyebrow-label">Etapas</div>
+              <div class="tracker">
+                <div class="track-step done">
+                  <div class="track-step__rail">
+                    <div class="track-dot"><svg width="12" height="10" viewBox="0 0 12 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5 L4 8 L11 1"/></svg></div>
+                    <div class="track-line"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Reclamação registrada</div>
+                    <div class="track-step__meta">05/05/2025 · concluído</div>
+                  </div>
+                </div>
+                <div class="track-step done">
+                  <div class="track-step__rail">
+                    <div class="track-dot"><svg width="12" height="10" viewBox="0 0 12 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5 L4 8 L11 1"/></svg></div>
+                    <div class="track-line"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Empresa notificada</div>
+                    <div class="track-step__meta">06/05/2025 · concluído</div>
+                  </div>
+                </div>
+                <div class="track-step current">
+                  <div class="track-step__rail">
+                    <div class="track-dot">!</div>
+                    <div class="track-line"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Aguardando resposta</div>
+                    <div class="track-step__meta">prazo até 12/06/2025 — faltam 7 dias</div>
+                  </div>
+                </div>
+                <div class="track-step todo">
+                  <div class="track-step__rail">
+                    <div class="track-dot"></div>
+                    <div class="track-line"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Audiência de conciliação</div>
+                    <div class="track-step__meta">previsto para 20/06/2025</div>
+                  </div>
+                </div>
+                <div class="track-step todo">
+                  <div class="track-step__rail">
+                    <div class="track-dot"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Resolução / encerramento</div>
+                    <div class="track-step__meta">previsto após a audiência</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== TELA 2.5: LINHA DO TEMPO 2 (#2024-07231 - Expirado) ===================== -->
+        <section class="screen" data-screen="linha-do-tempo2">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <button class="app-header__back" data-go="painel2">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Andamento da reclamação</div>
+              <div class="app-header__title">Linha do Tempo</div>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="pad">
+              <div class="eyebrow-label">Etapas</div>
+              <div class="tracker">
+                <div class="track-step done">
+                  <div class="track-step__rail">
+                    <div class="track-dot"><svg width="12" height="10" viewBox="0 0 12 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5 L4 8 L11 1"/></svg></div>
+                    <div class="track-line"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Reclamação registrada</div>
+                    <div class="track-step__meta">10/03/2025 · concluído</div>
+                  </div>
+                </div>
+                <div class="track-step done">
+                  <div class="track-step__rail">
+                    <div class="track-dot"><svg width="12" height="10" viewBox="0 0 12 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5 L4 8 L11 1"/></svg></div>
+                    <div class="track-line"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Empresa notificada</div>
+                    <div class="track-step__meta">11/03/2025 · concluído</div>
+                  </div>
+                </div>
+                <!-- Passo Expirado -->
+                <div class="track-step expired">
+                  <div class="track-step__rail">
+                    <div class="track-dot">!</div>
+                    <div class="track-line"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Prazo expirado</div>
+                    <div class="track-step__meta">a empresa não respondeu em 30 dias</div>
+                  </div>
+                </div>
+                <div class="track-step todo">
+                  <div class="track-step__rail">
+                    <div class="track-dot"></div>
+                    <div class="track-line"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Audiência de conciliação</div>
+                    <div class="track-step__meta">não agendada</div>
+                  </div>
+                </div>
+                <div class="track-step todo">
+                  <div class="track-step__rail">
+                    <div class="track-dot"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Resolução / encerramento</div>
+                    <div class="track-step__meta">pendente</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Botão destacado em vermelho na linha do tempo expirada, e texto explicativo -->
+              <div style="margin-top: 24px;">
+                <div style="font-family: var(--font-ui); font-size: 12px; font-weight: 600; color: var(--texto-muted); text-align: center; margin-bottom: 8px;">A empresa não respondeu no prazo legal.</div>
+                <button class="btn btn--vermelho btn--lg" data-go="juizado">Acionar Juizado Especial</button>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== TELA 3: PRESCRIÇÃO (#2024-08847) ===================== -->
+        <section class="screen" data-screen="prescricao">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <button class="app-header__back" data-go="painel">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Art. 27 CDC · Produto ou serviço</div>
+              <div class="app-header__title">Prazo de Prescrição</div>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="deadline-hero">
+              <div class="eyebrow-label">Seu direito de ação caduca em</div>
+              <div class="card hero-card hero-card--green">
+                <div class="hero-card__eyebrow">Prescrição</div>
+                <div class="hero-card__value">1.795 dias</div>
+                <div class="hero-card__desc">≈ 4 anos e 11 meses · a partir de 05/05/2025</div>
+                <div class="hero-card__base">art. 27 CDC</div>
+              </div>
+            </div>
+
+            <div class="pad" style="padding-top:0">
+              <div class="eyebrow-label">Entenda</div>
+              <div class="card" style="padding:14px; margin-bottom:10px">
+                <div class="section-title" style="font-size:14.5px; margin-bottom:5px">O que é prescrição?</div>
+                <div style="font-size:13px; color:var(--texto-muted); line-height:1.5">É o prazo máximo para você entrar na Justiça ou acionar o PROCON. Depois desse prazo, você perde o direito legal de reclamar.</div>
+              </div>
+              <div class="card" style="padding:14px">
+                <div class="section-title" style="font-size:14.5px; margin-bottom:5px">Base legal</div>
+                <div style="font-size:13px; color:var(--texto-muted); line-height:1.5">CDC, art. 27 — 5 anos para fato do produto ou serviço.<br>CDC, art. 26 — 30 ou 90 dias para vício aparente.</div>
+              </div>
+            </div>
+
+            <div class="callout callout--blue">
+              <svg class="icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16"/><circle cx="12" cy="7.7" r="0.6" fill="currentColor"/></svg>
+              <span>Se o PROCON não resolver, você ainda pode acionar o Juizado Especial antes que esse prazo termine. Essa opção aparece na Linha do Tempo quando a empresa não responder dentro do prazo dela.</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== TELA 3.5: PRESCRIÇÃO 2 (#2024-07231) ===================== -->
+        <section class="screen" data-screen="prescricao2">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <button class="app-header__back" data-go="painel2">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Art. 27 CDC · Produto ou serviço</div>
+              <div class="app-header__title">Prazo de Prescrição</div>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="deadline-hero">
+              <div class="eyebrow-label">Seu direito de ação caduca em</div>
+              <div class="card hero-card hero-card--green">
+                <div class="hero-card__eyebrow">Prescrição</div>
+                <div class="hero-card__value">1.735 dias</div>
+                <div class="hero-card__desc">≈ 4 anos e 9 meses · a partir de 10/03/2025</div>
+                <div class="hero-card__base">art. 27 CDC</div>
+              </div>
+            </div>
+
+            <div class="pad" style="padding-top:0">
+              <div class="eyebrow-label">Entenda</div>
+              <div class="card" style="padding:14px; margin-bottom:10px">
+                <div class="section-title" style="font-size:14.5px; margin-bottom:5px">O que é prescrição?</div>
+                <div style="font-size:13px; color:var(--texto-muted); line-height:1.5">É o prazo máximo para você entrar na Justiça ou acionar o PROCON. Depois desse prazo, você perde o direito legal de reclamar.</div>
+              </div>
+              <div class="card" style="padding:14px">
+                <div class="section-title" style="font-size:14.5px; margin-bottom:5px">Base legal</div>
+                <div style="font-size:13px; color:var(--texto-muted); line-height:1.5">CDC, art. 27 — 5 anos para fato do produto ou serviço.<br>CDC, art. 26 — 30 ou 90 dias para vício aparente.</div>
+              </div>
+            </div>
+
+            <div class="callout callout--blue">
+              <svg class="icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16"/><circle cx="12" cy="7.7" r="0.6" fill="currentColor"/></svg>
+              <span>Como a empresa não respondeu no prazo, você já pode acionar o Juizado Especial sem ter que aguardar mais. Essa opção está disponível na sua Linha do Tempo.</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== TELA 4: JUIZADO ESPECIAL ===================== -->
+        <section class="screen" data-screen="juizado">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <button class="app-header__back" data-go="painel2">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Próximo passo jurídico</div>
+              <div class="app-header__title">Acionar Juizado Especial</div>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="deadline-hero">
+              <div class="eyebrow-label">Situação atual</div>
+              <div class="card hero-card hero-card--red">
+                <div class="hero-card__eyebrow">Resposta da empresa</div>
+                <div class="hero-card__value" style="font-size:28px">Ação Necessária</div>
+                <div class="hero-card__desc">prazo expirado: a empresa não respondeu em 30 dias</div>
+                <div class="hero-card__base">art. 49 CDC</div>
+              </div>
+            </div>
+
+            <div class="pad" style="padding-top:0">
+              <div class="eyebrow-label">Como funciona</div>
+              <div class="card" style="padding:14px; margin-bottom:14px">
+                <div class="section-title" style="font-size:14.5px; margin-bottom:5px">O que é o Juizado Especial?</div>
+                <div style="font-size:13px; color:var(--texto-muted); line-height:1.5">Justiça gratuita para causas de até 40 salários mínimos. Não exige advogado e costuma ser mais rápida.</div>
+              </div>
+
+              <div class="eyebrow-label">O que levar — marque conforme for separando</div>
+            </div>
+
+            <div class="card check-list" style="margin:0 16px 16px">
+              <div class="check-item" data-check="rg">
+                <div class="check-box"><svg viewBox="0 0 12 10" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5 L4 8 L11 1"/></svg></div>
+                <div class="check-item__text">RG ou CPF</div>
+              </div>
+              <div class="check-item" data-check="comprovante">
+                <div class="check-box"><svg viewBox="0 0 12 10" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5 L4 8 L11 1"/></svg></div>
+                <div class="check-item__text">Comprovante de compra ou contrato</div>
+              </div>
+              <div class="check-item" data-check="prints">
+                <div class="check-box"><svg viewBox="0 0 12 10" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5 L4 8 L11 1"/></svg></div>
+                <div class="check-item__text">Prints das tentativas de contato</div>
+              </div>
+              <div class="check-item" data-check="numero">
+                <div class="check-box"><svg viewBox="0 0 12 10" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5 L4 8 L11 1"/></svg></div>
+                <div class="check-item__text">Número desta reclamação: <strong>#2024-07231</strong></div>
+              </div>
+              <div class="check-progress" id="checkProgress">0 de 4 itens separados</div>
+            </div>
+
+            <div class="pad" style="padding-top:0">
+              <div class="eyebrow-label">Onde fica</div>
+              <div class="card" style="padding:14px; margin-bottom:16px">
+                <div class="section-title" style="font-size:14.5px; margin-bottom:4px">TJDFT — Fórum de Taguatinga</div>
+                <div style="font-size:13px; color:var(--texto-muted)">QSA 01, Lote 01 · atendimento das 8h às 18h</div>
+              </div>
+
+              <button class="btn btn--azul btn--lg" id="btnSalvarOrientacoes" disabled>Marque todos os itens para continuar</button>
+              <div style="height:10px"></div>
+              <button class="btn btn--ghost" data-go="painel2">Voltar ao painel</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== TELA 5.5: ALERTAS RECEBIDOS 2 (#2024-07231) ===================== -->
+        <section class="screen" data-screen="notificacoes2">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <button class="app-header__back" data-go="painel2">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Histórico</div>
+              <div class="app-header__title">Alertas Recebidos</div>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="pad" style="padding-bottom:0">
+              <div class="eyebrow-label">Enviados por WhatsApp e e-mail</div>
+            </div>
+            <div class="card" style="margin:0 16px 16px">
+              <div class="notif-row">
+                <div class="notif-row__dot" style="background:var(--vermelho)"></div>
+                <div class="notif-row__body">
+                  <div class="notif-row__top">
+                    <div class="notif-row__title">Prazo expirado</div>
+                    <div class="notif-row__time">11/04, 08:00</div>
+                  </div>
+                  <div class="notif-row__text">A empresa não respondeu sua reclamação #2024-07231 dentro do prazo legal de 30 dias.</div>
+                </div>
+              </div>
+              <div class="notif-row">
+                <div class="notif-row__dot" style="background:var(--verde)"></div>
+                <div class="notif-row__body">
+                  <div class="notif-row__top">
+                    <div class="notif-row__title">Empresa notificada</div>
+                    <div class="notif-row__time">11/03, 14:30</div>
+                  </div>
+                  <div class="notif-row__text">A empresa foi notificada sobre sua reclamação. O prazo de resposta de 30 dias começou a contar.</div>
+                </div>
+              </div>
+              <div class="notif-row">
+                <div class="notif-row__dot" style="background:var(--verde)"></div>
+                <div class="notif-row__body">
+                  <div class="notif-row__top">
+                    <div class="notif-row__title">Reclamação registrada</div>
+                    <div class="notif-row__time">10/03, 10:00</div>
+                  </div>
+                  <div class="notif-row__text">Reclamação #2024-07231 protocolada com sucesso. Acompanhe o andamento por aqui.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== TELA 5: ALERTAS RECEBIDOS (Protocolo 1) ===================== -->
+        <section class="screen" data-screen="notificacoes">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <button class="app-header__back" data-go="painel">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Histórico</div>
+              <div class="app-header__title">Alertas Recebidos</div>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="pad" style="padding-bottom:0">
+              <div class="eyebrow-label">Enviados por WhatsApp e e-mail</div>
+            </div>
+            <div class="card" style="margin:0 16px 16px">
+              <div class="notif-row">
+                <div class="notif-row__dot notif-row__dot--orange"></div>
+                <div class="notif-row__body">
+                  <div class="notif-row__top">
+                    <div class="notif-row__title">Faltam 7 dias</div>
+                    <div class="notif-row__time">hoje, 8:14</div>
+                  </div>
+                  <div class="notif-row__text">O prazo da empresa para responder sua reclamação #2024-08847 acaba em 12/06/2025.</div>
+                </div>
+              </div>
+              <div class="notif-row">
+                <div class="notif-row__dot" style="background:var(--verde)"></div>
+                <div class="notif-row__body">
+                  <div class="notif-row__top">
+                    <div class="notif-row__title">Audiência confirmada</div>
+                    <div class="notif-row__time">28/05, 9:00</div>
+                  </div>
+                  <div class="notif-row__text">Sua audiência de conciliação foi marcada para 20/06/2025. Você receberá um lembrete 48h antes.</div>
+                </div>
+              </div>
+              <div class="notif-row">
+                <div class="notif-row__dot" style="background:var(--verde)"></div>
+                <div class="notif-row__body">
+                  <div class="notif-row__top">
+                    <div class="notif-row__title">Empresa notificada</div>
+                    <div class="notif-row__time">06/05, 14:30</div>
+                  </div>
+                  <div class="notif-row__text">A empresa foi notificada sobre sua reclamação. O prazo de resposta começa a contar agora.</div>
+                </div>
+              </div>
+              <div class="notif-row">
+                <div class="notif-row__dot" style="background:var(--verde)"></div>
+                <div class="notif-row__body">
+                  <div class="notif-row__top">
+                    <div class="notif-row__title">Reclamação registrada</div>
+                    <div class="notif-row__time">05/05, 10:00</div>
+                  </div>
+                  <div class="notif-row__text">Reclamação #2024-08847 protocolada com sucesso. Acompanhe o andamento aqui.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div><!-- /screens -->
+
+      <!-- ===================== MODAL: Salvo com sucesso ===================== -->
+      <div class="modal-overlay" id="modalSalvo">
+        <div class="modal" style="border-radius:0">
+          <div class="modal__icon modal__icon--green">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+          </div>
+          <div class="modal__body">
+            <div class="modal__title">Orientações salvas</div>
+            <div class="modal__text">Você pode acessar esse checklist a qualquer momento pelo painel de prazos.</div>
+          </div>
+          <div class="modal__actions">
+            <button class="btn btn--azul" id="modalSalvoOk" style="margin:14px; width:calc(100% - 28px)">Voltar ao painel</button>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /phone__screen -->
+  </div><!-- /phone -->
+</div><!-- /stage -->
+
+<script>
+(function(){
+  var screens = {};
+  document.querySelectorAll('.screen').forEach(function(s){ screens[s.dataset.screen] = s; });
+  var statusbar = document.getElementById('statusbar');
+
+  function show(id){
+    if(!screens[id]) return;
+    Object.values(screens).forEach(function(s){ s.classList.remove('is-active'); });
+    screens[id].classList.add('is-active');
+    var scroller = screens[id].querySelector('.screen__scroll');
+    if(scroller) scroller.scrollTop = 0;
+    statusbar.classList.toggle('dark', id === 'login');
+    if(id === 'login' && window.resetLoginState) window.resetLoginState();
+  }
+  window.goToScreen = show;
+
+  document.addEventListener('click', function(e){
+    var t = e.target.closest('[data-go]');
+    if(t) show(t.dataset.go);
+  });
+
+  show('login');
+})();
+</script>
+
+<script>
+// ===== LOGIN: máscara, biometria simulada (falha 1x, depois funciona) =====
+(function(){
+  var cpfInput = document.getElementById('cpfInput');
+  var senhaInput = document.getElementById('senhaInput');
+  var senhaToggle = document.getElementById('senhaToggle');
+  var btnEntrar = document.getElementById('btnEntrar');
+  var btnEntrarLabel = document.getElementById('btnEntrarLabel');
+  var bioOption = document.getElementById('bioOption');
+  var bioLabel = document.getElementById('bioLabel');
+  var fallbackBanner = document.getElementById('fallbackBanner');
+  var esqueciSenha = document.getElementById('esqueciSenha');
+  var notebookCard = document.getElementById('notebookCard');
+  var bioAttempts = 0;
+
+  cpfInput.addEventListener('input', function(){
+    var v = cpfInput.value.replace(/\D/g,'').slice(0,11);
+    if(v.length > 9) v = v.replace(/(\d{3})(\d{3})(\d{3})(\d{1,2})/, '$1.$2.$3-$4');
+    else if(v.length > 6) v = v.replace(/(\d{3})(\d{3})(\d{1,3})/, '$1.$2.$3');
+    else if(v.length > 3) v = v.replace(/(\d{3})(\d{1,3})/, '$1.$2');
+    cpfInput.value = v;
+    cpfInput.classList.remove('has-error');
+  });
+
+  senhaToggle.addEventListener('click', function(){
+    var hidden = senhaInput.type === 'password';
+    senhaInput.type = hidden ? 'text' : 'password';
+    senhaToggle.textContent = hidden ? 'OCULTAR' : 'MOSTRAR';
+  });
+
+  function fazerLogin(){
+    if(btnEntrar.disabled) return;
+    btnEntrar.disabled = true;
+    btnEntrar.classList.add('is-loading');
+    btnEntrarLabel.textContent = 'Entrando…';
+    setTimeout(function(){
+      btnEntrar.classList.remove('is-loading');
+      btnEntrarLabel.textContent = 'Entrar';
+      btnEntrar.disabled = false;
+      if(window.goToScreen) window.goToScreen('reclamacoes');
+    }, 900);
+  }
+  btnEntrar.addEventListener('click', fazerLogin);
+  [cpfInput, senhaInput].forEach(function(el){
+    el.addEventListener('keydown', function(e){ if(e.key === 'Enter') fazerLogin(); });
+  });
+
+  bioOption.addEventListener('click', function(){
+    if(bioOption.classList.contains('is-scanning')) return;
+    fallbackBanner.classList.remove('show');
+    bioOption.classList.add('is-scanning');
+    bioLabel.textContent = 'reconhecendo rosto…';
+    setTimeout(function(){
+      bioOption.classList.remove('is-scanning');
+      bioAttempts++;
+      if(bioAttempts === 1){
+        bioLabel.textContent = 'entrar com biometria facial';
+        fallbackBanner.classList.add('show');
+        return;
+      }
+      bioOption.classList.add('is-success');
+      bioLabel.textContent = '✓ reconhecido!';
+      setTimeout(function(){ if(window.goToScreen) window.goToScreen('reclamacoes'); }, 500);
+    }, 1100);
+  });
+
+  esqueciSenha.addEventListener('click', function(){
+    esqueciSenha.textContent = 'link de recuperação enviado por e-mail ✓';
+    esqueciSenha.style.pointerEvents = 'none';
+    esqueciSenha.style.color = 'var(--verde-dark)';
+  });
+
+  window.resetLoginState = function(){
+    cpfInput.value = '';
+    senhaInput.value = '';
+    senhaInput.type = 'password';
+    senhaToggle.textContent = 'MOSTRAR';
+    bioOption.classList.remove('is-scanning','is-success');
+    bioLabel.textContent = 'entrar com biometria facial';
+    fallbackBanner.classList.remove('show');
+    btnEntrar.disabled = false;
+    btnEntrar.classList.remove('is-loading');
+    btnEntrarLabel.textContent = 'Entrar';
+    bioAttempts = 0;
+    esqueciSenha.textContent = 'esqueci minha senha';
+    esqueciSenha.style.pointerEvents = '';
+    esqueciSenha.style.color = '';
+    
+    // Oculta o card do notebook novamente ao sair
+    if(notebookCard) notebookCard.style.display = 'none';
+  };
+})();
+</script>
+
+<script>
+// ===== ADICIONAR PROTOCOLO: corrigido para funcionar na primeira tentativa =====
+(function(){
+  var btn = document.getElementById('btnBuscarProtocolo');
+  var input = document.getElementById('protocoloInput');
+  var errorEl = document.getElementById('protocoloError');
+  var loading = document.getElementById('protoLoading');
+  var found = document.getElementById('protoFound');
+  var btns = document.getElementById('protoBtns');
+  var confirmBtn = document.getElementById('btnAdicionarConfirmar');
+  var notebookCard = document.getElementById('notebookCard');
+
+  function resetProto(){
+    input.value = '';
+    input.classList.remove('has-error');
+    errorEl.classList.remove('show');
+    loading.classList.remove('is-visible');
+    found.classList.remove('is-visible');
+    btns.style.display = '';
+  }
+
+  if(btn) btn.addEventListener('click', function(){
+    var val = input.value.trim();
+    if(!val){ input.classList.add('has-error'); errorEl.classList.add('show'); return; }
+    input.classList.remove('has-error'); errorEl.classList.remove('show');
+    btns.style.display = 'none';
+    loading.classList.add('is-visible');
+    found.classList.remove('is-visible');
+    setTimeout(function(){
+      loading.classList.remove('is-visible');
+      found.classList.add('is-visible');
+    }, 1000);
+  });
+
+  if(confirmBtn) confirmBtn.addEventListener('click', function(){
+    // Ao confirmar, mostra o card do notebook na tela de reclamações
+    if(notebookCard) notebookCard.style.display = 'block';
+    // volta para reclamacoes e reseta o form
+    setTimeout(resetProto, 80);
+  });
+
+  // resetar ao entrar na tela
+  document.addEventListener('click', function(e){
+    var t = e.target.closest('[data-go]');
+    if(t && t.dataset.go === 'adicionar-protocolo') setTimeout(resetProto, 50);
+  });
+})();
+</script>
+
+<script>
+// ===== JUIZADO: checklist interativo + modal de confirmação =====
+(function(){
+  var items = document.querySelectorAll('.check-item');
+  var progress = document.getElementById('checkProgress');
+  var btnSalvar = document.getElementById('btnSalvarOrientacoes');
+  var modal = document.getElementById('modalSalvo');
+  var modalOk = document.getElementById('modalSalvoOk');
+
+  function update(){
+    var total = items.length;
+    var checked = document.querySelectorAll('.check-item.is-checked').length;
+    progress.textContent = checked + ' de ' + total + ' itens separados';
+    var pronto = checked === total;
+    btnSalvar.disabled = !pronto;
+    btnSalvar.textContent = pronto ? 'Salvar orientações' : 'Marque todos os itens para continuar';
+  }
+
+  items.forEach(function(item){
+    item.addEventListener('click', function(){
+      item.classList.toggle('is-checked');
+      update();
+    });
+  });
+
+  btnSalvar.addEventListener('click', function(){
+    if(btnSalvar.disabled) return;
+    modal.classList.add('is-open');
+  });
+
+  modalOk.addEventListener('click', function(){
+    modal.classList.remove('is-open');
+    if(window.goToScreen) window.goToScreen('painel2');
+  });
+
+  update();
+})();
+</script>
+
+</body>
+</html>

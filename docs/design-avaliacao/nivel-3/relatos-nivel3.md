@@ -23,13 +23,14 @@ Esta página consolida os relatos de resultados das avaliações conduzidas no *
 |---|---|---|---|
 | Relato — Sala de Conciliação Virtual | Pedro Augusto Moretti Moreira | Avaliação do protótipo de alta fidelidade da Sala de Conciliação Virtual | [Acessar](relato-resultados-alta-fidelidade-conciliacao-virtual.md) |
 | Relato — Notificação Ativa | Heitor Macedo | Avaliação do protótipo de alta fidelidade da Notificação Ativa | [Acessar](relato-resultados-alta-fidelidade-notificacao-ativa.md) |
-| Relato — Assistente de Triagem Guiada | Pedro Macedo | Avaliação do protótipo de alta fidelidade da Notificação Ativa | [Acessar](relato-resultados-alta-fidelidade-triagem-guiada.md) |
+| Relato — Assistente de Triagem Guiada | Pedro Macedo | Avaliação do protótipo de alta fidelidade da Triagem Guiada | [Acessar](relato-resultados-alta-fidelidade-triagem-guiada.md) |
+| Relato — Painel de Monitoramento de Prazos | Mateus Barreto | Avaliação do protótipo de alta fidelidade do Painel de Monitoramento de Prazos | [Acessar](relato-resultados-alta-fidelidade-painel-prazos.md) |
 
 ---
 
 ## Triangulação e Consolidação dos Resultados
 
-Esta seção sintetiza, de forma interparticipante e entre funcionalidades, os dados coletados nas avaliações do Nível 3. O objetivo é identificar padrões, convergências e divergências que emergem da leitura conjunta dos três relatos — **Sala de Conciliação Virtual** (1 sessão), **Notificação Ativa** (5 sessões) e **Assistente de Triagem Guiada** (1 sessão) —, totalizando **7 sessões com 7 participantes reais**, fornecendo uma visão consolidada do estado de usabilidade do sistema proposto para o PROCON-DF.
+Esta seção sintetiza, de forma interparticipante e entre funcionalidades, os dados coletados nas avaliações do Nível 3. O objetivo é identificar padrões, convergências e divergências que emergem da leitura conjunta dos quatro relatos — **Sala de Conciliação Virtual** (1 sessão), **Notificação Ativa** (5 sessões), **Assistente de Triagem Guiada** (1 sessão) e **Painel de Monitoramento de Prazos** (3 sessões) —, totalizando **10 sessões com 10 participantes reais**, fornecendo uma visão consolidada do estado de usabilidade do sistema proposto para o PROCON-DF.
 
 ---
 
@@ -42,12 +43,13 @@ Esta seção sintetiza, de forma interparticipante e entre funcionalidades, os d
 | Sala de Conciliação Virtual | Pedro Moretti | 1 (P1) | Fornecedor — empresária, 40 anos | 12/06/2026 | 3 | 100% (3/3) | 0 |
 | Notificação Ativa | Heitor Macedo | 5 (P1–P5) | Consumidores — 18 a 45 anos; professor, universitária, engenheiro elétrico, orientadora educacional | 13–16/06/2026 | 1 (fluxo completo) | 100% (5/5) | 1 (P02, grav. 2) |
 | Assistente de Triagem Guiada | Pedro Macedo | 1 (P1) | Consumidor — professor, 60 anos | 16/06/2026 | 1 (fluxo completo) | 100% (1/1) | 0 |
+| Painel de Monitoramento de Prazos | Mateus Barreto | 3 (P1–P3) | Consumidores — estudantes universitários (19 a 20 anos) | 20–21/06/2026 | 1 (fluxo completo) | 100% (3/3) | 2 (PB2-1, PB2-2) |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira e Heitor Macedo.</i></p>
 </div>
 
-Somados, o Nível 3 acumula **7 sessões de avaliação**, **8 tarefas executadas** (3 na Conciliação Virtual, 5 na Notificação Ativa e 1 na Triagem Guiada) e **0 erros cometidos** por qualquer participante. Apenas P5 (Notificação Ativa) pediu ajuda ao avaliador — uma vez, sobre uma dúvida conceitual do fluxo —, sem impacto na conclusão da tarefa.
+Somados, o Nível 3 acumula **10 sessões de avaliação**, **12 tarefas executadas** (3 na Conciliação Virtual, 5 na Notificação Ativa, 1 na Triagem Guiada e 3 no Painel de Monitoramento de Prazos). Nos testes do Painel de Monitoramento de Prazos, foram observados 2 erros cometidos (P2 e P3 confundiram o prazo de conciliação com o de prescrição) e 2 intervenções de ajuda/orientação pelo mediador, todos resolvidos com sucesso durante as sessões sem impedir a conclusão das tarefas.
 
 ---
 
@@ -91,13 +93,16 @@ Em duas das três funcionalidades, os participantes demonstraram atenção e val
 | Notificação Ativa | P02 | Tela de Resposta (Aceitar ou Recusar) | A tela não comunica as consequências da recusa da proposta, gerando hesitação sobre o que acontecerá com a reclamação caso a proposta seja rejeitada | 2 — Pequeno | 1/5 participantes | Pontual | Correção planejada |
 | Sala de Conciliação Virtual | — | — | Nenhum problema identificado | — | — | — | — |
 | Assistente de Triagem Guiada | P01 | Upload Guiado de Evidências (Tela 6) | Não há opção para o caso de o usuário não possuir nota fiscal ou comprovante de compra, tornando o campo de evidência implicitamente obrigatório | 1 — Cosmético | 1/1 participante | Não verificável (n=1) | Correção planejada |
+| Painel de Monitoramento de Prazos | PB1-1 | Visualização de Prazos Legais | Leve hesitação ao procurar o prazo máximo para acionar a justiça. O usuário cogitou procurar na "Linha do tempo" antes de notar a "Prescrição do direito". | 1 — Cosmético | 1/3 participantes | Pontual | Correção planejada |
+| Painel de Monitoramento de Prazos | PB2-1 | Visualização de Prazos Legais | Concorrência visual e ambiguidade. O usuário confundiu a "Audiência de conciliação" (15 dias) com o prazo máximo para acionar a justiça (Prescrição). | 3 — Grande | 2/3 participantes | Persistente | Correção planejada |
+| Painel de Monitoramento de Prazos | PB2-2 | Orientações do Juizado Especial | Fricção no retrocesso do fluxo. O participante não entendeu como voltar ou se deveria voltar da tela de orientações do juizado. | 2 — Pequeno | 2/3 participantes | Persistente | Correção planejada |
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Cosmético; (2) Pequeno; (3) Grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
 <p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira e Heitor Macedo.</i></p>
 </div>
 
-O Nível 3 acumula três problemas identificados em dois protótipos distintos. O único problema de gravidade 2 (Pequeno) foi encontrado na Notificação Ativa (P02): a tela de resposta comunica claramente as consequências do aceite, mas omite as do rejeite — uma assimetria informacional que pode induzir viés decisório em usuários que não conhecem seus direitos pós-recusa. Os dois problemas cosméticos (NA P01, TG P01) correspondem a lacunas de visibilidade de informação (prazo de crédito) e de cobertura de caminho alternativo (ausência de evidência), nenhum dos quais impede a conclusão da tarefa. Ressalva-se que a Sala de Conciliação Virtual e o Assistente de Triagem Guiada contaram com apenas uma sessão cada; portanto, não foram identificados problemas nessas funcionalidades, mas a amostra reduzida recomenda cautela — sessões adicionais poderiam revelar obstáculos não observados na avaliação singular.
+O Nível 3 acumula seis problemas de usabilidade mapeados em três protótipos distintos. O problema de maior gravidade (PB2-1, Gravidade 3) foi detectado no Painel de Monitoramento de Prazos, onde a proximidade visual levou P2 e P3 a confundirem o prazo administrativo de conciliação do Procon com a prescrição legal para acionamento judicial. Este protótipo também apresentou um atrito de retrocesso de fluxo (PB2-2, Gravidade 2) e uma hesitação visual de P1 em localizar a prescrição (PB1-1, Gravidade 1). O único outro problema de gravidade 2 foi encontrado na Notificação Ativa (P02), relacionado à falta de clareza das consequências de recusa de proposta. Os problemas cosméticos (Notificação Ativa P01, Triagem Guiada P01, Painel Prazos PB1-1) correspondem a detalhes de layout ou caminhos alternativos que não obstruem o fluxo principal. Ressalva-se que a Sala de Conciliação Virtual e o Assistente de Triagem Guiada contaram com apenas uma sessão cada, de modo que a ausência de maiores problemas nesses fluxos deve ser corroborada por testes complementares.
 
 Os três tipos de problema identificados têm naturezas distintas e complementares:
 - **Hierarquia visual** (NA P01): informação presente mas com baixa proeminência
@@ -117,6 +122,9 @@ Essa complementaridade sugere uma oportunidade de revisão transversal: garantir
 | S02 | Notificação Ativa | Adicionar e-mail como canal complementar de notificação ativa, além do WhatsApp | P2 | "Também seria uma boa opção [o e-mail]" | Baixa — WhatsApp validado como canal principal pelos 5 participantes |
 | S03 | Notificação Ativa | Enviar confirmação por e-mail ou SMS ao usuário após a assinatura do acordo | P3 | "Provavelmente uma recomendação, um envio para o e-mail ou até mesmo por SMS do acordo finalizado" | Média — registra comprovante fora da plataforma e aumenta confiança |
 | S04 | Assistente de Triagem Guiada | Tornar o upload de evidência opcional, adicionando caminho alternativo para quem não possui nota fiscal | P1 | "E se eu não tiver a nota fiscal? Muitas vezes a pessoa pode perder essa nota fiscal" | Alta — afeta diretamente a acessibilidade do fluxo de abertura de reclamação |
+| S05 | Painel de Monitoramento de Prazos | Adicionar um subtítulo claro como "(Prazo máximo para acionar a justiça)" onde diz "Prescrição do Direito" | P1 | Dificuldade inicial de P1 em reconhecer o termo legal de prescrição na home | Média — melhora o entendimento do termo jurídico |
+| S06 | Painel de Monitoramento de Prazos | Separar o bloco de "Prescrição do Direito" da "Linha do tempo" e usar UX Writing mais incisivo como "Seu Direito na Justiça (Prescrição)" | P2, P3 | Usuários P2 e P3 confundiram o prazo de audiência do Procon com o prazo legal de prescrição | Alta — corrige um erro conceitual crítico detectado no fluxo |
+| S07 | Painel de Monitoramento de Prazos | Criar botão primário óbvio de retorno ("Voltar para minhas reclamações") na tela de orientações do Juizado e adicionar breadcrumbs de localização | P2, P3 | Usuários manifestaram desorientação sobre como retornar ao painel principal | Alta — remove quebra de fluxo na navegação de retrocesso |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Pedro Augusto Moretti Moreira e Heitor Macedo.</i></p>
@@ -167,6 +175,7 @@ As três funcionalidades apresentam direção de design promissora e podem avan�
 | 1.2 | 14/06/2026 | Adição da seção de Triangulação e Consolidação dos Resultados do Nível 3. | Heitor Macedo | Heitor Macedo |
 | 1.3 | 16/06/2026 | Adição do relato do Assistente de Triagem Guiada 3. | Pedro Macedo | Heitor Macedo |
 | 1.4 | 16/06/2026 | Atualização completa da seção de Triangulação e Consolidação dos Resultados: expansão para 7 sessões (5 Notificação Ativa, 1 Conciliação Virtual, 1 Triagem Guiada), atualização da tabela síntese, convergências, tabela de problemas consolidados (incluindo NA P02, gravidade 2), sugestões S02–S04 e respostas às perguntas de pesquisa. | Heitor Macedo | Heitor Macedo |
+| 1.5 | 23/06/2026 | Consolidação dos resultados e relatos do Painel de Monitoramento de Prazos (expansão para 10 sessões, inclusão de PB1-1, PB2-1 e PB2-2, novas sugestões S05–S07 e atualização da análise). | Mateus Barreto | Heitor Macedo |
 
 ## Notas de Rodapé e Referências de Imagens
 
