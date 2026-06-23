@@ -75,23 +75,24 @@ A avaliação conta com participantes reais recrutados dentro do perfil de usuá
 
 ### Participante P1
 
-A participante P1 possui alta fluência tecnológica e letramento digital avançado. Demonstrou bastante facilidade no uso de interfaces digitais, realizando a navegação de forma ágil e autônoma. Seu perfil se alinha ao público-alvo de cidadãos proativos.
+O participante P1 tem 20 anos e é estudante de Direito. Possui alta fluência tecnológica e facilidade de interação com sistemas digitais. Durante o teste, demonstrou facilidade no entendimento geral das telas e operou os fluxos de login, visualização de prazos e adição de protocolos de forma rápida e intuitiva.
 
 ### Participante P2
 
-O participante P2 possui alta fluência tecnológica e letramento digital avançado. Além disso, possui boa familiaridade com termos e noções jurídicas. Realizou a maior parte das tarefas de maneira rápida, embora tenha demonstrado hesitação pontual na identificação do prazo de prescrição e no fluxo do Juizado Especial.
+O participante P2 tem 20 anos e é estudante de Engenharia Química. Possui alta fluência tecnológica. Navegou de maneira ágil, embora tenha apresentado uma hesitação conceitual na identificação da prescrição e no fluxo de retorno da tela de orientações do Juizado Especial.
 
 ### Participante P3
 
-A participante P3 possui alta fluência tecnológica e letramento digital avançado, com foco em interfaces móveis. Demonstrou rapidez e autonomia em todo o fluxo, apresentando reações de hesitação semelhantes às de P2 durante a identificação do prazo de prescrição e na saída do Juizado Especial.
+A participante P3 tem 19 anos e é estudante de Agronomia. Possui alta fluência tecnológica. Realizou o fluxo de maneira ágil e autônoma, apresentando hesitações semelhantes às de P2 ao diferenciar os prazos legais dos administrativos e ao retornar da tela de orientações do Juizado Especial.
 
 **Tabela 2 — Dados dos participantes entrevistados**
 
 | Campo | P1 | P2 | P3 |
 | :--- | :--- | :--- | :--- |
-| **Nome / Identificação** | P1 (anônima) | P2 (anônimo) | P3 (anônima) |
+| **Nome / Identificação** | P1 (anônimo) | P2 (anônimo) | P3 (anônima) |
+| **Idade** | 20 anos | 20 anos | 19 anos |
 | **Familiaridade com tecnologia** | Alta | Alta | Alta |
-| **Ocupação** | Psicóloga (conforme perfil Nível 2) | Professor (conforme perfil Nível 2) | Empresária (conforme perfil Nível 2) |
+| **Ocupação** | Estudante de Direito | Estudante de Engenharia Química | Estudante de Agronomia |
 | **O perfil atende ao planejado?** | (x) Sim | (x) Sim | (x) Sim |
 
 <div align="center">
@@ -162,14 +163,15 @@ Abaixo, os vídeos das sessões de avaliação com os participantes:
 
 ## 7. Lista dos problemas encontrados
 
-A sessão de teste com o participante P2 permitiu mapear dois pequenos problemas de usabilidade no fluxo:
+Com base nos testes com os três participantes, foram identificados três problemas de usabilidade de diferentes graus de gravidade:
 
 **Quadro 2 - Problemas identificados no Protótipo de Alta Fidelidade**
 
 | ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Frequência | Sugestão de Correção para o Protótipo |
 | :---: | :---: | :--- | :--- | :---: | :---: | :--- |
-| P01 | Painel Principal (Deadlines) | Dificuldade visual momentânea em distinguir a Prescrição de Direito em relação a prazos curtos (resposta e audiência). | P2 e P3 buscaram o prazo de resposta e conciliação antes de identificar a prescrição de 5 anos. | 2 | 2/3 | Aumentar o destaque visual ou a separação física do card de Prescrição do Direito (já que possui prazos de anos e não dias). |
-| P02 | Tela de Orientações do Juizado Especial | Fricção ou dúvida cognitiva no retorno do fluxo da tela de orientações do Juizado Especial para o painel. | Dificuldade de P2 e P3 em retornar da tela de orientações. P2/P3: "Só na hora do juizado especial, porque eu não tinha entendido muito bem que eu tinha que voltar naquela tela..." | 2 | 2/3 | Tornar o botão de retorno da tela de orientações do Juizado mais explícito (ex.: "Confirmar e Voltar para minhas reclamações") e melhorar o feedback de estado ao retornar. |
+| PB1-1 | Dashboard principal / Visualização de Prazos Legais | Leve hesitação ao procurar o prazo máximo para acionar a justiça. O usuário cogitou procurar na "Linha do tempo" antes de notar a "Prescrição do direito". | P1: *"É, que, não sei se seria na linha do tempo ou na, na Reclamação em andamento [...] Ah, não, seria prescrição do direito."* | 1 | 1/3 | Adicionar um subtítulo claro como "(Prazo máximo para acionar a justiça)" onde diz "Prescrição do Direito". |
+| PB2-1 | Dashboard / Prazos (Identificar tempo de justiça) | Concorrência visual e ambiguidade. O usuário confundiu a "Audiência de conciliação" (15 dias) com o prazo máximo para acionar a justiça (Prescrição). | P2 e P3: *"7 dias também, aguardando a resposta? Não... Audiência de conciliação... 20... faltam... Seria 15 dias então?"* | 3 | 2/3 | Separar graficamente a "Linha do tempo" (prazos do Procon, como resposta e audiência) do bloco de "Prescrição do Direito" (ações extra-Procon), colocando-o em um bloco isolado e usando UX Writing mais incisivo, como "Seu Direito na Justiça (Prescrição)". |
+| PB2-2 | Orientações do Juizado Especial (Navegação de Retorno) | Fricção no retrocesso do fluxo. O participante não entendeu como voltar ou se deveria voltar da tela de orientações do juizado. | P2 e P3: *"Só na hora do juizado especial, porque eu não tinha entendido muito bem que eu tinha que voltar naquela tela."* | 2 | 2/3 | Criar um botão primário óbvio no final do checklist das orientações com o rótulo "Voltar para minhas reclamações", além de adicionar breadcrumbs de localização. |
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico (impede a conclusão da tarefa).</i></p>
@@ -209,9 +211,10 @@ Esta seção compila as verbalizações espontâneas gravadas durante a simulaç
 
 ## 9. Análise e Interpretação dos Resultados
 
-A avaliação demonstrou alta aceitação e navegabilidade, mas apontou dois pontos de melhoria:
-* **Entendimento de Prazos:** P1 compreendeu rapidamente todas as informações. P2 e P3 hesitaram brevemente ao ler a Prescrição de Direito, confundindo-a momentaneamente com o prazo de resposta da empresa e da conciliação. A diferenciação visual do card de prescrição de 5 anos ajudará a sanar essa hesitação.
-* **Fluxo do Juizado:** O checklist e as instruções do Juizado foram fáceis de operar. Entretanto, P2 e P3 manifestaram dúvida cognitiva ao retornar da tela de orientações de Juizado para a visualização principal do painel, sugerindo melhorias na clareza do botão de retorno.
+A avaliação demonstrou alta aceitação e navegabilidade, mas apontou três pontos principais de melhoria:
+* **Navegabilidade e Entendimento de Prazos (P1):** O fluxo para o participante P1 foi direto e natural, com adaptação rápida ao modelo mental do sistema. Contudo, houve uma leve hesitação na busca do prazo de prescrição legal, em que o participante cogitou procurar na linha do tempo antes de notar o bloco de prescrição (gravidade cosmética).
+* **Concorrência Visual e Ambiguidade de Prazos (P2 e P3):** P2 e P3 apresentaram maior dificuldade na identificação do prazo máximo para acionar a justiça. Por fazerem uma leitura "escaneada" e rápida, confundiram os prazos administrativos internos do Procon (como a audiência de conciliação de 15 dias) com a prescrição legal (5 anos), necessitando da intervenção do mediador para identificar a informação correta (gravidade grande).
+* **Navegação de Retorno do Juizado (P2 e P3):** P2 e P3 demonstraram desorientação e atrito na tela de orientações do Juizado Especial, sem saber exatamente se ou como deveriam retornar para o painel principal, evidenciando uma lacuna na arquitetura de navegação de retrocesso (gravidade pequena).
 
 ---
 
@@ -229,8 +232,9 @@ Baseando-se nos testes com P1, P2 e P3, planejam-se as seguintes ações de repr
 
 | Item | Ação de Reprojeto | Executor | Data Prevista |
 | :---: | :---: | :---: | :---: |
-| P01 | Reorganizar o destaque e espaçamento do cartão de Prescrição do Direito no painel para evitar confusão com prazos menores. | Mateus Barreto | A definir |
-| P02 | Ajustar o botão de retorno da tela do Juizado Especial para deixar claro o retorno ao painel de controle. | Mateus Barreto | A definir |
+| PB1-1 | Adicionar um subtítulo claro como "(Prazo máximo para acionar a justiça)" onde diz "Prescrição do Direito". | Mateus Barreto | A definir |
+| PB2-1 | Separar graficamente o bloco de "Prescrição do Direito" da "Linha do tempo" (Procon) e adotar UX Writing mais incisivo. | Mateus Barreto | A definir |
+| PB2-2 | Criar botão "Voltar para minhas reclamações" ao final das orientações e adicionar breadcrumbs de localização. | Mateus Barreto | A definir |
 
 <div align="center">
 <p><i>Fonte: Elaborado por Mateus Barreto.</i></p>
