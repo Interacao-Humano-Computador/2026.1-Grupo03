@@ -10,7 +10,6 @@
 /* ============================================================
    PROCON-DF · Painel de Prazos com Alertas Jurídicos
    Sistema de design derivado do guia oficial do projeto
-   (mesmas variáveis e componentes do protótipo de Notificação Ativa)
    ============================================================ */
 
 :root {
@@ -23,6 +22,10 @@
   --verde:       #29BCB6;
   --verde-dark:  #1FA39E;
   --vermelho:    #CF2E2E;
+  
+  /* Novas Cores Adicionadas (Laranja) */
+  --laranja:     #F97316;
+  --laranja-dark:#C2410C;
 
   /* Neutros */
   --texto:       #515151;
@@ -134,11 +137,12 @@ body {
 /* ---------- Badges & chips ---------- */
 .badge { font-family: var(--font-ui); font-weight:700; font-size:10px; letter-spacing:.6px; text-transform:uppercase; padding:4px 8px; display:inline-flex; align-items:center; gap:5px; border-radius:0; }
 .badge--red { background: var(--vermelho); color:#fff; }
+.badge--orange { background: var(--laranja); color:#fff; } /* Adicionado Laranja */
 .badge--amber { background: var(--amarelo); color: #5c4b00; }
 .badge--green { background: var(--verde); color:#fff; }
 .badge--gray { background: var(--bg-light); color: var(--texto-muted); border:1px solid var(--border); }
 .badge--blink { animation: blink 1.4s ease-in-out infinite; }
-@keyframes blink { 50% { box-shadow: 0 0 0 4px rgba(207,46,46,.16); } }
+@keyframes blink { 50% { box-shadow: 0 0 0 4px rgba(249,115,22,.16); } } /* Sombra Laranja para blink */
 .chip { font-family: var(--font-ui); font-size:11px; font-weight:600; color: var(--texto-muted); background: var(--bg-light); border:1px solid var(--border); padding:3px 9px; display:inline-flex; align-items:center; gap:5px; }
 
 /* ---------- Inputs ---------- */
@@ -164,9 +168,17 @@ body {
 .track-step__meta { font-size:12px; color: var(--texto-muted); margin-top:2px; }
 .track-step.done .track-dot { background: var(--verde); border-color: var(--verde); color:#fff; }
 .track-step.done .track-line { background: var(--verde); }
-.track-step.current .track-dot { background: var(--magenta); border-color: var(--magenta); color:#fff; box-shadow: 0 0 0 5px rgba(169,61,142,.16); }
-.track-step.current .track-step__name { color: var(--magenta); }
+
+/* Editado para ser Laranja em vez de Roxo */
+.track-step.current .track-dot { background: var(--laranja); border-color: var(--laranja); color:#fff; box-shadow: 0 0 0 5px rgba(249,115,22,.16); }
+.track-step.current .track-step__name { color: var(--laranja); }
 .track-step.current .track-line { background: var(--border); }
+
+/* Estado Expirado para linha do tempo #2 */
+.track-step.expired .track-dot { background: var(--vermelho); border-color: var(--vermelho); color:#fff; box-shadow: 0 0 0 5px rgba(207,46,46,.16); }
+.track-step.expired .track-step__name { color: var(--vermelho); }
+.track-step.expired .track-line { background: var(--border); }
+
 .track-step.todo .track-step__name { color: var(--texto-muted); font-weight:600; }
 
 /* ---------- Modal ---------- */
@@ -185,12 +197,6 @@ body {
 .modal__actions .btn { border-radius:0; border:none; }
 .modal__actions .btn + .btn { border-left:1px solid var(--border); }
 
-/* ---------- Bottom tab bar ---------- */
-.tabbar { display:flex; border-top:1px solid var(--border); background:#fff; flex:none; }
-.tabbar__item { flex:1; display:flex; flex-direction:column; align-items:center; gap:3px; padding:9px 0 12px; color: var(--texto-muted); cursor:pointer; }
-.tabbar__item.is-active { color: var(--azul); }
-.tabbar__item span { font-family: var(--font-ui); font-size:10px; font-weight:600; }
-
 /* ============================================================
    COMPONENTES ESPECÍFICOS DO PAINEL DE PRAZOS
    ============================================================ */
@@ -199,6 +205,7 @@ body {
 .deadline-hero { padding: 16px; }
 .hero-card { padding: 18px 16px; position: relative; overflow: hidden; }
 .hero-card--red { background: linear-gradient(135deg, #CF2E2E 0%, #a82323 100%); }
+.hero-card--orange { background: linear-gradient(135deg, var(--laranja) 0%, var(--laranja-dark) 100%); } /* Novo Hero Laranja */
 .hero-card--amber { background: linear-gradient(135deg, #FFD200 0%, #e0ba00 100%); }
 .hero-card--green { background: linear-gradient(135deg, #29BCB6 0%, #1FA39E 100%); }
 .hero-card__eyebrow { font-family: var(--font-ui); font-size:10.5px; font-weight:700; letter-spacing:.8px; text-transform:uppercase; color: rgba(255,255,255,.85); }
@@ -217,6 +224,7 @@ body {
 .deadline-row:hover { background: var(--bg-subtle); }
 .deadline-row__dot { width:9px; height:9px; border-radius:50%; flex:none; }
 .deadline-row__dot--red { background: var(--vermelho); }
+.deadline-row__dot--orange { background: var(--laranja); } /* Adicionado Laranja */
 .deadline-row__dot--amber { background: var(--amarelo); border:1px solid #d6b400; }
 .deadline-row__dot--green { background: var(--verde); }
 .deadline-row__info { flex:1; min-width:0; }
@@ -224,6 +232,7 @@ body {
 .deadline-row__sub { font-size:12px; color: var(--texto-muted); margin-top:1px; }
 .deadline-row__status { font-family: var(--font-ui); font-weight:700; font-size:12.5px; white-space:nowrap; }
 .deadline-row__status--red { color: var(--vermelho); }
+.deadline-row__status--orange { color: var(--laranja-dark); } /* Adicionado Laranja */
 .deadline-row__status--amber { color:#a98600; }
 .deadline-row__status--green { color: var(--verde-dark); }
 .deadline-row__chevron { color:#c2c8d0; flex:none; }
@@ -251,6 +260,7 @@ body {
 .notif-row { display:flex; gap:11px; padding:13px 14px; align-items:flex-start; }
 .notif-row + .notif-row { border-top:1px solid var(--border-soft); }
 .notif-row__dot { width:8px; height:8px; border-radius:50%; flex:none; margin-top:6px; }
+.notif-row__dot--orange { background: var(--laranja); } /* Adicionado Laranja */
 .notif-row__body { flex:1; min-width:0; }
 .notif-row__top { display:flex; justify-content:space-between; gap:8px; }
 .notif-row__title { font-family: var(--font-ui); font-weight:600; font-size:13.5px; color: var(--texto-strong); }
@@ -415,16 +425,35 @@ body {
             <div class="pad" style="padding-bottom:0">
               <div class="eyebrow-label">Em andamento</div>
             </div>
+            
             <div class="card" style="margin:0 16px 10px">
               <div class="recl-row" data-go="painel">
-                <div class="recl-row__dot" style="background:var(--vermelho)"></div>
+                <div class="recl-row__dot" style="background:var(--laranja)"></div>
                 <div class="recl-row__info">
                   <div class="recl-row__title">TV não entregue · Loja XYZ</div>
                   <div class="recl-row__sub">Protocolo #2024-08847 · aberta em 05/05/2025</div>
                 </div>
                 <div class="recl-row__right">
-                  <span class="badge badge--red badge--blink">7 dias</span>
+                  <span class="badge badge--orange badge--blink">7 dias</span>
                   <svg class="recl-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Card do Notebook oculto por padrão -->
+            <div class="card" id="notebookCard" style="margin:0 16px 16px; display:none;">
+              <div class="recl-row" data-go="painel2" style="flex-wrap:wrap; padding-bottom:10px">
+                <div class="recl-row__dot" style="background:var(--vermelho)"></div>
+                <div class="recl-row__info">
+                  <div class="recl-row__title">Notebook com defeito · TechStore</div>
+                  <div class="recl-row__sub">Protocolo #2024-07231 · aberta em 10/03/2025</div>
+                </div>
+                <div class="recl-row__right">
+                  <span class="badge badge--red">Ação Necessária</span>
+                  <svg class="recl-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                </div>
+                <div style="width:100%; padding-left:21px; margin-top:5px">
+                  <span style="font-family:var(--font-ui);font-size:11px;font-weight:700;color:var(--vermelho)">⚠ Prazo da empresa expirou.</span>
                 </div>
               </div>
             </div>
@@ -511,8 +540,8 @@ body {
                 <div class="search-result">
                   <svg class="search-result__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
                   <div>
-                    <div class="search-result__title">Reclamação #2024-09120 encontrada</div>
-                    <div class="search-result__sub">Notebook com defeito · TechStore — aberta em 10/04/2025</div>
+                    <div class="search-result__title">Reclamação #2024-07231 encontrada</div>
+                    <div class="search-result__sub">Notebook com defeito · TechStore — aberta em 10/03/2025</div>
                   </div>
                 </div>
                 <div class="pad" style="padding-top:12px">
@@ -530,7 +559,7 @@ body {
           </div>
         </section>
 
-        <!-- ===================== TELA 1: PAINEL PRINCIPAL ===================== -->
+        <!-- ===================== TELA 1: PAINEL PRINCIPAL (#2024-08847 - 7 dias) ===================== -->
         <section class="screen" data-screen="painel">
           <div class="gov-band"></div>
           <div class="app-header">
@@ -540,6 +569,7 @@ body {
               <div class="app-header__title">Meus Prazos</div>
             </div>
             <div class="app-header__spacer"></div>
+            <!-- Ícone de alertas restaurado no cabeçalho -->
             <div class="app-header__bell" data-go="notificacoes">
               <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
               <span class="dot"></span>
@@ -549,7 +579,8 @@ body {
           <div class="screen__scroll">
             <div class="deadline-hero">
               <div class="eyebrow-label">Prazo mais urgente</div>
-              <div class="card hero-card hero-card--red">
+              
+              <div class="card hero-card hero-card--orange" data-go="linha-do-tempo" style="cursor:pointer">
                 <div class="hero-card__eyebrow">Resposta da empresa</div>
                 <div class="hero-card__value">7 dias</div>
                 <div class="hero-card__desc">prazo até 12/06/2025 · para a empresa responder</div>
@@ -561,16 +592,19 @@ body {
               <div class="eyebrow-label">Todos os prazos</div>
             </div>
             <div class="deadline-list">
-              <div class="deadline-row" data-go="linha-do-tempo">
-                <div class="deadline-row__dot deadline-row__dot--red"></div>
+              <div class="deadline-row" data-go="linha-do-tempo" style="flex-wrap:wrap; padding-bottom:10px">
+                <div class="deadline-row__dot deadline-row__dot--orange"></div>
                 <div class="deadline-row__info">
                   <div class="deadline-row__title">Resposta da empresa</div>
                   <div class="deadline-row__sub">até 12/06/2025</div>
                 </div>
-                <div class="deadline-row__status deadline-row__status--red">7 dias</div>
+                <div class="deadline-row__status deadline-row__status--orange">7 dias</div>
                 <svg class="deadline-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                <div style="width:100%; padding-left:21px; margin-top:6px">
+                  <span style="font-family:var(--font-ui);font-size:11.5px;font-weight:700;color:var(--azul);letter-spacing:.2px">Ver linha do tempo →</span>
+                </div>
               </div>
-              <div class="deadline-row" data-go="linha-do-tempo">
+              <div class="deadline-row" data-go="linha-do-tempo" style="flex-wrap:wrap; padding-bottom:10px">
                 <div class="deadline-row__dot deadline-row__dot--green"></div>
                 <div class="deadline-row__info">
                   <div class="deadline-row__title">Audiência de conciliação</div>
@@ -578,6 +612,9 @@ body {
                 </div>
                 <div class="deadline-row__status deadline-row__status--green">15 dias</div>
                 <svg class="deadline-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                <div style="width:100%; padding-left:21px; margin-top:6px">
+                  <span style="font-family:var(--font-ui);font-size:11.5px;font-weight:700;color:var(--azul);letter-spacing:.2px">Ver linha do tempo →</span>
+                </div>
               </div>
               <div class="deadline-row" data-go="prescricao">
                 <div class="deadline-row__dot deadline-row__dot--green"></div>
@@ -591,29 +628,75 @@ body {
             </div>
 
             <div class="pad" style="padding-top:0">
-              <button class="btn btn--ghost" data-go="notificacoes">Ver alertas recebidos</button>
-              <div style="height:10px"></div>
-              <button class="btn btn--danger-ghost" data-go="login" id="btnSair">Sair</button>
-            </div>
-          </div>
-
-          <div class="tabbar">
-            <div class="tabbar__item is-active">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-              <span>Prazos</span>
-            </div>
-            <div class="tabbar__item" data-go="reclamacoes">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-              <span>Reclamações</span>
-            </div>
-            <div class="tabbar__item" data-go="notificacoes">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
-              <span>Alertas</span>
+              <button class="btn btn--ghost" data-go="reclamacoes">Voltar</button>
             </div>
           </div>
         </section>
 
-        <!-- ===================== TELA 2: LINHA DO TEMPO ===================== -->
+        <!-- ===================== TELA 1.5: PAINEL 2 (#2024-07231 - Expirado) ===================== -->
+        <section class="screen" data-screen="painel2">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <div class="app-header__logo"><span>PROCON<br>DF</span></div>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Reclamação #2024-07231</div>
+              <div class="app-header__title">Meus Prazos</div>
+            </div>
+            <div class="app-header__spacer"></div>
+            <!-- Ícone de alertas restaurado no cabeçalho do segundo protocolo -->
+            <div class="app-header__bell" data-go="notificacoes2">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="deadline-hero">
+              <div class="eyebrow-label">Prazo mais urgente</div>
+              
+              <div class="card hero-card hero-card--red" data-go="linha-do-tempo2" style="cursor:pointer">
+                <div class="hero-card__eyebrow">Resposta da empresa</div>
+                <div class="hero-card__value" style="font-size:28px">Ação Necessária</div>
+                <div class="hero-card__desc">prazo expirado: a empresa não respondeu em 30 dias</div>
+                <div class="hero-card__base">art. 49 CDC</div>
+              </div>
+            </div>
+
+            <div class="pad" style="padding-top:0">
+              <div class="eyebrow-label">Todos os prazos</div>
+            </div>
+            <div class="deadline-list">
+              <div class="deadline-row" data-go="linha-do-tempo2" style="flex-wrap:wrap; padding-bottom:10px">
+                <div class="deadline-row__dot deadline-row__dot--red"></div>
+                <div class="deadline-row__info">
+                  <div class="deadline-row__title">Resposta da empresa</div>
+                  <div class="deadline-row__sub">encerrou em 10/04/2025</div>
+                </div>
+                <div class="deadline-row__status deadline-row__status--red">Expirado</div>
+                <svg class="deadline-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                <div style="width:100%; padding-left:21px; margin-top:6px">
+                  <span style="font-family:var(--font-ui);font-size:11.5px;font-weight:700;color:var(--azul);letter-spacing:.2px">Ver linha do tempo →</span>
+                </div>
+              </div>
+              
+              <div class="deadline-row" data-go="prescricao2">
+                <div class="deadline-row__dot deadline-row__dot--green"></div>
+                <div class="deadline-row__info">
+                  <div class="deadline-row__title">Prescrição do direito</div>
+                  <div class="deadline-row__sub">caduca em 10/03/2030</div>
+                </div>
+                <div class="deadline-row__status deadline-row__status--green">~5 anos</div>
+                <svg class="deadline-row__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </div>
+            </div>
+
+            <div class="pad" style="padding-top:0">
+              <button class="btn btn--ghost" data-go="reclamacoes">Voltar</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== TELA 2: LINHA DO TEMPO (#2024-08847 - 7 dias) ===================== -->
         <section class="screen" data-screen="linha-do-tempo">
           <div class="gov-band"></div>
           <div class="app-header">
@@ -681,19 +764,89 @@ body {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
 
-            <div class="callout callout--amber">
-              <svg class="icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-              <span>Se a empresa não responder no prazo, o botão abaixo passa a ficar disponível.</span>
+        <!-- ===================== TELA 2.5: LINHA DO TEMPO 2 (#2024-07231 - Expirado) ===================== -->
+        <section class="screen" data-screen="linha-do-tempo2">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <button class="app-header__back" data-go="painel2">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Andamento da reclamação</div>
+              <div class="app-header__title">Linha do Tempo</div>
             </div>
+          </div>
 
-            <div class="tl-cta-zone">
-              <button class="btn btn--vermelho btn--lg" data-go="juizado">Acionar Juizado Especial</button>
+          <div class="screen__scroll">
+            <div class="pad">
+              <div class="eyebrow-label">Etapas</div>
+              <div class="tracker">
+                <div class="track-step done">
+                  <div class="track-step__rail">
+                    <div class="track-dot"><svg width="12" height="10" viewBox="0 0 12 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5 L4 8 L11 1"/></svg></div>
+                    <div class="track-line"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Reclamação registrada</div>
+                    <div class="track-step__meta">10/03/2025 · concluído</div>
+                  </div>
+                </div>
+                <div class="track-step done">
+                  <div class="track-step__rail">
+                    <div class="track-dot"><svg width="12" height="10" viewBox="0 0 12 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5 L4 8 L11 1"/></svg></div>
+                    <div class="track-line"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Empresa notificada</div>
+                    <div class="track-step__meta">11/03/2025 · concluído</div>
+                  </div>
+                </div>
+                <!-- Passo Expirado -->
+                <div class="track-step expired">
+                  <div class="track-step__rail">
+                    <div class="track-dot">!</div>
+                    <div class="track-line"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Prazo expirado</div>
+                    <div class="track-step__meta">a empresa não respondeu em 30 dias</div>
+                  </div>
+                </div>
+                <div class="track-step todo">
+                  <div class="track-step__rail">
+                    <div class="track-dot"></div>
+                    <div class="track-line"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Audiência de conciliação</div>
+                    <div class="track-step__meta">não agendada</div>
+                  </div>
+                </div>
+                <div class="track-step todo">
+                  <div class="track-step__rail">
+                    <div class="track-dot"></div>
+                  </div>
+                  <div class="track-step__body">
+                    <div class="track-step__name">Resolução / encerramento</div>
+                    <div class="track-step__meta">pendente</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Botão destacado em vermelho na linha do tempo expirada, e texto explicativo -->
+              <div style="margin-top: 24px;">
+                <div style="font-family: var(--font-ui); font-size: 12px; font-weight: 600; color: var(--texto-muted); text-align: center; margin-bottom: 8px;">A empresa não respondeu no prazo legal.</div>
+                <button class="btn btn--vermelho btn--lg" data-go="juizado">Acionar Juizado Especial</button>
+              </div>
+
             </div>
           </div>
         </section>
 
-        <!-- ===================== TELA 3: PRESCRIÇÃO ===================== -->
+        <!-- ===================== TELA 3: PRESCRIÇÃO (#2024-08847) ===================== -->
         <section class="screen" data-screen="prescricao">
           <div class="gov-band"></div>
           <div class="app-header">
@@ -736,11 +889,54 @@ body {
           </div>
         </section>
 
+        <!-- ===================== TELA 3.5: PRESCRIÇÃO 2 (#2024-07231) ===================== -->
+        <section class="screen" data-screen="prescricao2">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <button class="app-header__back" data-go="painel2">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Art. 27 CDC · Produto ou serviço</div>
+              <div class="app-header__title">Prazo de Prescrição</div>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="deadline-hero">
+              <div class="eyebrow-label">Seu direito de ação caduca em</div>
+              <div class="card hero-card hero-card--green">
+                <div class="hero-card__eyebrow">Prescrição</div>
+                <div class="hero-card__value">1.735 dias</div>
+                <div class="hero-card__desc">≈ 4 anos e 9 meses · a partir de 10/03/2025</div>
+                <div class="hero-card__base">art. 27 CDC</div>
+              </div>
+            </div>
+
+            <div class="pad" style="padding-top:0">
+              <div class="eyebrow-label">Entenda</div>
+              <div class="card" style="padding:14px; margin-bottom:10px">
+                <div class="section-title" style="font-size:14.5px; margin-bottom:5px">O que é prescrição?</div>
+                <div style="font-size:13px; color:var(--texto-muted); line-height:1.5">É o prazo máximo para você entrar na Justiça ou acionar o PROCON. Depois desse prazo, você perde o direito legal de reclamar.</div>
+              </div>
+              <div class="card" style="padding:14px">
+                <div class="section-title" style="font-size:14.5px; margin-bottom:5px">Base legal</div>
+                <div style="font-size:13px; color:var(--texto-muted); line-height:1.5">CDC, art. 27 — 5 anos para fato do produto ou serviço.<br>CDC, art. 26 — 30 ou 90 dias para vício aparente.</div>
+              </div>
+            </div>
+
+            <div class="callout callout--blue">
+              <svg class="icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16"/><circle cx="12" cy="7.7" r="0.6" fill="currentColor"/></svg>
+              <span>Como a empresa não respondeu no prazo, você já pode acionar o Juizado Especial sem ter que aguardar mais. Essa opção está disponível na sua Linha do Tempo.</span>
+            </div>
+          </div>
+        </section>
+
         <!-- ===================== TELA 4: JUIZADO ESPECIAL ===================== -->
         <section class="screen" data-screen="juizado">
           <div class="gov-band"></div>
           <div class="app-header">
-            <button class="app-header__back" data-go="painel">
+            <button class="app-header__back" data-go="painel2">
               <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
             </button>
             <div class="app-header__titles">
@@ -753,9 +949,9 @@ body {
             <div class="deadline-hero">
               <div class="eyebrow-label">Situação atual</div>
               <div class="card hero-card hero-card--red">
-                <div class="hero-card__eyebrow">Prazo expirado</div>
-                <div class="hero-card__value" style="font-size:26px">Prazo expirado</div>
-                <div class="hero-card__desc">a empresa não respondeu em 30 dias</div>
+                <div class="hero-card__eyebrow">Resposta da empresa</div>
+                <div class="hero-card__value" style="font-size:28px">Ação Necessária</div>
+                <div class="hero-card__desc">prazo expirado: a empresa não respondeu em 30 dias</div>
                 <div class="hero-card__base">art. 49 CDC</div>
               </div>
             </div>
@@ -785,7 +981,7 @@ body {
               </div>
               <div class="check-item" data-check="numero">
                 <div class="check-box"><svg viewBox="0 0 12 10" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5 L4 8 L11 1"/></svg></div>
-                <div class="check-item__text">Número desta reclamação: <strong>#2024-08847</strong></div>
+                <div class="check-item__text">Número desta reclamação: <strong>#2024-07231</strong></div>
               </div>
               <div class="check-progress" id="checkProgress">0 de 4 itens separados</div>
             </div>
@@ -799,12 +995,64 @@ body {
 
               <button class="btn btn--azul btn--lg" id="btnSalvarOrientacoes" disabled>Marque todos os itens para continuar</button>
               <div style="height:10px"></div>
-              <button class="btn btn--ghost" data-go="painel">Voltar ao painel</button>
+              <button class="btn btn--ghost" data-go="painel2">Voltar ao painel</button>
             </div>
           </div>
         </section>
 
-        <!-- ===================== TELA 5: ALERTAS RECEBIDOS ===================== -->
+        <!-- ===================== TELA 5.5: ALERTAS RECEBIDOS 2 (#2024-07231) ===================== -->
+        <section class="screen" data-screen="notificacoes2">
+          <div class="gov-band"></div>
+          <div class="app-header">
+            <button class="app-header__back" data-go="painel2">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="app-header__titles">
+              <div class="app-header__eyebrow">Histórico</div>
+              <div class="app-header__title">Alertas Recebidos</div>
+            </div>
+          </div>
+
+          <div class="screen__scroll">
+            <div class="pad" style="padding-bottom:0">
+              <div class="eyebrow-label">Enviados por WhatsApp e e-mail</div>
+            </div>
+            <div class="card" style="margin:0 16px 16px">
+              <div class="notif-row">
+                <div class="notif-row__dot" style="background:var(--vermelho)"></div>
+                <div class="notif-row__body">
+                  <div class="notif-row__top">
+                    <div class="notif-row__title">Prazo expirado</div>
+                    <div class="notif-row__time">11/04, 08:00</div>
+                  </div>
+                  <div class="notif-row__text">A empresa não respondeu sua reclamação #2024-07231 dentro do prazo legal de 30 dias.</div>
+                </div>
+              </div>
+              <div class="notif-row">
+                <div class="notif-row__dot" style="background:var(--verde)"></div>
+                <div class="notif-row__body">
+                  <div class="notif-row__top">
+                    <div class="notif-row__title">Empresa notificada</div>
+                    <div class="notif-row__time">11/03, 14:30</div>
+                  </div>
+                  <div class="notif-row__text">A empresa foi notificada sobre sua reclamação. O prazo de resposta de 30 dias começou a contar.</div>
+                </div>
+              </div>
+              <div class="notif-row">
+                <div class="notif-row__dot" style="background:var(--verde)"></div>
+                <div class="notif-row__body">
+                  <div class="notif-row__top">
+                    <div class="notif-row__title">Reclamação registrada</div>
+                    <div class="notif-row__time">10/03, 10:00</div>
+                  </div>
+                  <div class="notif-row__text">Reclamação #2024-07231 protocolada com sucesso. Acompanhe o andamento por aqui.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================== TELA 5: ALERTAS RECEBIDOS (Protocolo 1) ===================== -->
         <section class="screen" data-screen="notificacoes">
           <div class="gov-band"></div>
           <div class="app-header">
@@ -823,7 +1071,7 @@ body {
             </div>
             <div class="card" style="margin:0 16px 16px">
               <div class="notif-row">
-                <div class="notif-row__dot" style="background:var(--vermelho)"></div>
+                <div class="notif-row__dot notif-row__dot--orange"></div>
                 <div class="notif-row__body">
                   <div class="notif-row__top">
                     <div class="notif-row__title">Faltam 7 dias</div>
@@ -926,6 +1174,7 @@ body {
   var bioLabel = document.getElementById('bioLabel');
   var fallbackBanner = document.getElementById('fallbackBanner');
   var esqueciSenha = document.getElementById('esqueciSenha');
+  var notebookCard = document.getElementById('notebookCard');
   var bioAttempts = 0;
 
   cpfInput.addEventListener('input', function(){
@@ -1000,12 +1249,15 @@ body {
     esqueciSenha.textContent = 'esqueci minha senha';
     esqueciSenha.style.pointerEvents = '';
     esqueciSenha.style.color = '';
+    
+    // Oculta o card do notebook novamente ao sair
+    if(notebookCard) notebookCard.style.display = 'none';
   };
 })();
 </script>
 
 <script>
-// ===== ADICIONAR PROTOCOLO: simula busca =====
+// ===== ADICIONAR PROTOCOLO: corrigido para funcionar na primeira tentativa =====
 (function(){
   var btn = document.getElementById('btnBuscarProtocolo');
   var input = document.getElementById('protocoloInput');
@@ -1014,11 +1266,10 @@ body {
   var found = document.getElementById('protoFound');
   var btns = document.getElementById('protoBtns');
   var confirmBtn = document.getElementById('btnAdicionarConfirmar');
-  var attempt = 0;
+  var notebookCard = document.getElementById('notebookCard');
 
   function resetProto(){
     input.value = '';
-    attempt = 0;
     input.classList.remove('has-error');
     errorEl.classList.remove('show');
     loading.classList.remove('is-visible');
@@ -1035,18 +1286,14 @@ body {
     found.classList.remove('is-visible');
     setTimeout(function(){
       loading.classList.remove('is-visible');
-      attempt++;
-      if(attempt % 2 === 1){
-        input.classList.add('has-error'); errorEl.classList.add('show');
-        btns.style.display = '';
-      } else {
-        found.classList.add('is-visible');
-      }
+      found.classList.add('is-visible');
     }, 1000);
   });
 
   if(confirmBtn) confirmBtn.addEventListener('click', function(){
-    // ao confirmar, volta para reclamacoes e reseta o form
+    // Ao confirmar, mostra o card do notebook na tela de reclamações
+    if(notebookCard) notebookCard.style.display = 'block';
+    // volta para reclamacoes e reseta o form
     setTimeout(resetProto, 80);
   });
 
@@ -1090,7 +1337,7 @@ body {
 
   modalOk.addEventListener('click', function(){
     modal.classList.remove('is-open');
-    if(window.goToScreen) window.goToScreen('painel');
+    if(window.goToScreen) window.goToScreen('painel2');
   });
 
   update();

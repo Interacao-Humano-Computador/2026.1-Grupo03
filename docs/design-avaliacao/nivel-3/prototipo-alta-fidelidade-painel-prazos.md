@@ -61,14 +61,16 @@ O protótipo abaixo é navegável diretamente no navegador. Toque nos elementos 
 O protótipo cobre o fluxo completo da funcionalidade de Painel de Prazos:
 
 1. **Tela de Login** — autenticação com CPF e senha, com máscara automática de formatação e alternativa de biometria facial
-2. **Minhas Reclamações** — tela intermediária exibida após o login, listando as reclamações do consumidor com badges de status (urgente/resolvida) e acesso ao fluxo de adicionar protocolo existente
+2. **Minhas Reclamações** — tela intermediária exibida após o login, listando duas reclamações em andamento com badges de status distintos: uma com prazo urgente (7 dias) e outra com prazo de resposta da empresa já expirado; além de uma reclamação encerrada
 3. **Adicionar Protocolo** — tela de vinculação de reclamação já registrada no PROCON-DF por número de protocolo, com estados visuais de carregamento, "não encontrado" e "encontrado" simulados de forma interativa
-4. **Painel Principal** — destaque do prazo mais urgente em cartão colorido por nível de criticidade, seguido da lista completa de prazos da reclamação
-5. **Linha do Tempo** — exibição cronológica das etapas do processo (concluídas, em andamento e futuras), com indicadores visuais de progresso
+4. **Painel Principal (reclamação ativa)** — destaque do prazo mais urgente em cartão colorido por criticidade, com lista de prazos; cada item da lista exibe o label "Ver linha do tempo →" para deixar explícita a ação de navegação
+5. **Linha do Tempo (reclamação ativa)** — exibição cronológica das etapas do processo (concluídas, em andamento e futuras), sem botão de acionamento ao Juizado (prazo ainda não expirado)
 6. **Prazo de Prescrição** — contagem regressiva em dias até a caducidade do direito de ação, com explicação em linguagem simples e base legal
-7. **Acionar Juizado Especial** — tela exibida quando o prazo de resposta da empresa expira, com checklist interativo de documentos necessários e localização do fórum
-8. **Modal de Confirmação** — pop-up de sucesso ao salvar as orientações do Juizado Especial
-9. **Alertas Recebidos** — histórico de notificações enviadas ao consumidor por WhatsApp e e-mail
+7. **Painel Principal (reclamação com prazo expirado)** — cartão de destaque em vermelho indicando prazo vencido, com acesso à linha do tempo e ao acionamento do Juizado Especial
+8. **Linha do Tempo (reclamação com prazo expirado)** — mesma estrutura cronológica, agora com a etapa "Aguardando resposta" marcada como vencida e botão "Acionar Juizado Especial" visível e ativo
+9. **Acionar Juizado Especial** — checklist interativo de documentos necessários, com botão de confirmação condicionado à marcação de todos os itens, e localização do fórum
+10. **Modal de Confirmação** — pop-up de sucesso ao salvar as orientações do Juizado Especial
+11. **Alertas Recebidos** — histórico de notificações enviadas ao consumidor por WhatsApp e e-mail
 
 ---
 
@@ -88,10 +90,12 @@ O protótipo cobre o fluxo completo da funcionalidade de Painel de Prazos:
 | Decisão | Justificativa |
 |---|---|
 | **Cartão de destaque colorido por criticidade** | Substitui o "semáforo" do protótipo de papel por um componente de maior fidelidade visual, mantendo a comunicação imediata do nível de urgência sem necessidade de leitura |
-| **Tela de seleção de reclamação pós-login** | Em vez de exibir diretamente um único painel, o fluxo passa por uma lista de reclamações com badges de status, tornando o protótipo mais fiel ao cenário real de usuários com múltiplos registros; o badge piscante em vermelho orienta visualmente para a reclamação urgente |
+| **Tela de seleção de reclamação pós-login** | Em vez de exibir diretamente um único painel, o fluxo passa por uma lista de reclamações com badges de status, tornando o protótipo mais fiel ao cenário real de usuários com múltiplos registros |
+| **Label "Ver linha do tempo →" nos cards de prazo** | Teste de usabilidade revelou que participantes não identificavam os cards da lista de prazos como elementos clicáveis; a adição de um label de ação explícita abaixo de cada item resolve o problema de affordance sem alterar a hierarquia visual |
+| **Segunda reclamação com prazo expirado** | Em vez de um aviso condicional na linha do tempo explicando que o botão "apareceria" futuramente, o protótipo apresenta uma segunda reclamação real já com prazo vencido, permitindo que o usuário vivencie o fluxo completo de acionamento do Juizado Especial de forma natural, sem instrução prévia |
+| **Botão "Acionar Juizado Especial" exclusivo na reclamação expirada** | O botão existe apenas na linha do tempo da reclamação cujo prazo já venceu, tornando a condição de acionamento contextualmente óbvia e eliminando a necessidade de texto explicativo |
 | **Fluxo de adição de protocolo existente** | Tela dedicada com campo de busca e três estados visuais distintos (carregando, não encontrado, encontrado) demonstra de forma realista o feedback do sistema e a prevenção de erros antes de vincular uma reclamação |
 | **Biometria com falha simulada na primeira tentativa** | Representa o fluxo de fallback de autenticação de forma realista, permitindo observar a reação do usuário diante de uma falha de reconhecimento |
-| **Um único caminho para o Juizado Especial** | O botão "Acionar Juizado Especial" existe apenas na Linha do Tempo, vinculado exclusivamente à expiração do prazo de resposta da empresa, evitando que o usuário confunda esse gatilho com o da Prescrição |
 | **Checklist interativo com botão condicionado** | Cada documento necessário deve ser marcado individualmente; o botão de confirmação só é liberado quando todos os itens são conferidos, reforçando a prevenção de erros antes de uma ação importante |
 | **Modal de confirmação ao salvar orientações** | Fornece feedback explícito de sucesso da ação, em vez de apenas navegar silenciosamente para outra tela |
 | **Base legal sempre visível** | Referência ao artigo do CDC exibida em cada prazo, permitindo verificação pelo usuário mais avançado sem poluir a interface principal |
@@ -111,3 +115,4 @@ O protótipo cobre o fluxo completo da funcionalidade de Painel de Prazos:
 | 1.0 | 18/06/2026 | Criação do documento e adição do protótipo de alta fidelidade interativo. | Mateus Barreto | — |
 | 1.1 | 19/06/2026 | Adição das telas "Minhas Reclamações" e "Adicionar Protocolo"; login passa a redirecionar para seleção de reclamação. | Mateus Barreto | — |
 | 1.2 | 19/06/2026 | Ajuste do botão de reclamações no menu inferior do painel para navegar de volta à listagem de reclamações. | Mateus Barreto | — |
+| 1.3 | 21/06/2026 | Adição de label "Ver linha do tempo" nos cards de prazo para resolver problema identificado em teste; adição de segunda reclamação com prazo expirado e fluxo completo do Juizado Especial; remoção do callout condicional da linha do tempo. | Mateus Barreto | — |
