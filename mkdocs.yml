@@ -33,15 +33,25 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/vega@5
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
+
 plugins:
   - search
+  - charts
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - attr_list
   - md_in_html
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: vegalite
+          class: vegalite
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
   - pymdownx.tabbed:
       alternate_style: true
 
@@ -105,6 +115,7 @@ nav:
           - Entrega 04: inspecoes/entrega04.md
           - Entrega 05: inspecoes/entrega05.md
           - Entrega 06: inspecoes/entrega06.md
+          - Entrega 07: inspecoes/entrega07.md
       - Outros Grupos:
           - Inspeção Grupo 04 (Etapa 1): inspecoes/grupo04.md
           - Inspeção Grupo 02 (Etapa 2): inspecoes/grupo02entrega02.md

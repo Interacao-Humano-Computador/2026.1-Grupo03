@@ -261,6 +261,60 @@ O protótipo de alta fidelidade cobre as seguintes telas e interações, percorr
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
 </div>
 
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Nível de Dificuldade por Participante", "subtitle": "Escala: 1 = Muito Fácil · 5 = Muito Difícil"},
+  "data": {
+    "values": [
+      {"participante": "P1", "dificuldade": 1, "concluiu": "Sim", "pediu_ajuda": "Não"},
+      {"participante": "P2", "dificuldade": 1, "concluiu": "Sim", "pediu_ajuda": "Não"},
+      {"participante": "P3", "dificuldade": 1, "concluiu": "Sim", "pediu_ajuda": "Não"},
+      {"participante": "P4", "dificuldade": 1, "concluiu": "Sim", "pediu_ajuda": "Não"},
+      {"participante": "P5", "dificuldade": 1, "concluiu": "Sim", "pediu_ajuda": "Sim"}
+    ]
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "color": "#4079BC", "cornerRadiusEnd": 4},
+      "encoding": {
+        "x": {"field": "participante", "type": "nominal", "title": "Participante", "axis": {"labelFontSize": 13}},
+        "y": {
+          "field": "dificuldade",
+          "type": "quantitative",
+          "title": "Nível de Dificuldade",
+          "scale": {"domain": [0, 5]},
+          "axis": {"tickCount": 5}
+        },
+        "tooltip": [
+          {"field": "participante", "title": "Participante"},
+          {"field": "dificuldade", "title": "Nível de Dificuldade"},
+          {"field": "concluiu", "title": "Concluiu?"},
+          {"field": "pediu_ajuda", "title": "Pediu Ajuda?"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "rule", "color": "#d32f2f", "strokeDash": [6, 4], "size": 2},
+      "encoding": {
+        "y": {"datum": 3, "type": "quantitative"},
+        "color": {"value": "#d32f2f"}
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "right", "dx": -4, "dy": -6, "color": "#d32f2f", "fontSize": 11},
+      "encoding": {
+        "y": {"datum": 3, "type": "quantitative"},
+        "x": {"datum": "P5"},
+        "text": {"value": "Limiar aceitável (≤ 3)"}
+      }
+    }
+  ],
+  "width": "container",
+  "height": 220
+}
+```
+
 **Confronto com a meta de Eficiência**
 
 A meta definida em Metas de Usabilidade estabelece, para responder à proposta via fluxo completo de Notificação Ativa:
@@ -539,6 +593,93 @@ Esta seção registra o feedback coletado ao longo das sessões de teste, inclui
 <div align="center">
 <p><i>Fonte: Elaborado por Heitor Macedo.</i></p>
 </div>
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Natureza do Feedback por Participante", "subtitle": "Feedbacks coletados nas sessões Think Aloud e pós-tarefa"},
+  "data": {
+    "values": [
+      {"participante": "P1", "natureza": "Validação", "qtd": 13},
+      {"participante": "P1", "natureza": "Crítica",   "qtd": 1},
+      {"participante": "P1", "natureza": "Sugestão",  "qtd": 1},
+      {"participante": "P2", "natureza": "Validação", "qtd": 15},
+      {"participante": "P2", "natureza": "Sugestão",  "qtd": 1},
+      {"participante": "P3", "natureza": "Validação", "qtd": 16},
+      {"participante": "P3", "natureza": "Sugestão",  "qtd": 1},
+      {"participante": "P4", "natureza": "Validação", "qtd": 16},
+      {"participante": "P4", "natureza": "Dúvida",    "qtd": 2},
+      {"participante": "P5", "natureza": "Validação", "qtd": 15},
+      {"participante": "P5", "natureza": "Crítica",   "qtd": 1}
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "participante",
+      "type": "nominal",
+      "title": "Participante",
+      "axis": {"labelFontSize": 13}
+    },
+    "y": {
+      "field": "qtd",
+      "type": "quantitative",
+      "title": "Quantidade de Feedbacks",
+      "stack": "zero"
+    },
+    "color": {
+      "field": "natureza",
+      "type": "nominal",
+      "title": "Natureza",
+      "scale": {
+        "domain": ["Validação", "Sugestão", "Crítica", "Dúvida"],
+        "range": ["#4079BC", "#FFD200", "#d32f2f", "#9c27b0"]
+      }
+    },
+    "tooltip": [
+      {"field": "participante", "title": "Participante"},
+      {"field": "natureza",    "title": "Natureza"},
+      {"field": "qtd",         "title": "Quantidade"}
+    ]
+  },
+  "width": "container",
+  "height": 260
+}
+```
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Distribuição Geral das Naturezas de Feedback", "subtitle": "Total de 82 entradas — todos os 5 participantes"},
+  "data": {
+    "values": [
+      {"natureza": "Validação", "total": 75},
+      {"natureza": "Sugestão",  "total": 3},
+      {"natureza": "Crítica",   "total": 2},
+      {"natureza": "Dúvida",    "total": 2}
+    ]
+  },
+  "mark": {"type": "arc", "innerRadius": 70, "outerRadius": 130},
+  "encoding": {
+    "theta": {"field": "total", "type": "quantitative"},
+    "color": {
+      "field": "natureza",
+      "type": "nominal",
+      "title": "Natureza",
+      "scale": {
+        "domain": ["Validação", "Sugestão", "Crítica", "Dúvida"],
+        "range": ["#4079BC", "#FFD200", "#d32f2f", "#9c27b0"]
+      }
+    },
+    "tooltip": [
+      {"field": "natureza", "title": "Natureza"},
+      {"field": "total",    "title": "Quantidade"}
+    ]
+  },
+  "width": 340,
+  "height": 340
+}
+```
 
 ---
 
