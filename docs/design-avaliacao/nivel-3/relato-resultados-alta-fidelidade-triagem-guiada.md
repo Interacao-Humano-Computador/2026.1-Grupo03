@@ -1,4 +1,4 @@
-# Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade — Notificação Ativa
+# Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade — Assistente de Triagem Guiada
 
 ## Colaboração
 Colaboração referente a [Etapa 7](../../planejamento/cronograma-executado.md)
@@ -158,7 +158,7 @@ O protótipo de alta fidelidade cobre as seguintes telas e interações, percorr
 
 | Participante | Tarefa Solicitada | Tempo de Execução | Concluída? (Sim/Não) | Qtd. de Erros Cometidos | Pediu Ajuda? (Sim/Não) | Nível de Dificuldade (1 a 5) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| P1 | Fazer uma reclamação (fluxo completo de triagem guiada) | [mm:ss] | Sim | 0 | Não | 1 |
+| P1 | Fazer uma reclamação de produto com defeito (fluxo completo) | [mm:ss] | Sim | 0 | Não | 1 |
 
 <div align="center">
 <p><i>Nota sobre o Nível de Dificuldade: (1) Muito fácil; (2) Fácil; (3) Neutro; (4) Difícil; (5) Muito difícil.</i></p>
@@ -199,7 +199,7 @@ Abaixo, o vídeo da sessão de avaliação com o participante P1:
 
 | ID | Tela / Passo no Fluxo | Descrição do Problema | Evidência (Fala ou comportamento do usuário) | Gravidade (1 a 4) | Frequência | Persistência | Sugestão de Correção para o Protótipo |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| P01 | Upload Guiado das evidencias | Não há a opção de não haver uma nota fiscal do produto | "E se eu não tiver a nota fiscal?" | 1 | 1/1 participante | Não verificável (n=1) | Tirar a obrigação de colocar evidencia com foto |
+| P01 | Upload Guiado das evidencias | Não há a opção de não haver uma nota fiscal do produto | "E se eu não tiver a nota fiscal?" | 3 | 1/1 participante | Não verificável (n=1) | Tirar a obrigação de colocar evidencia com foto |
 
 <div align="center">
 <p><i>Nota sobre a Gravidade: (1) Problema cosmético; (2) Problema pequeno; (3) Problema grande; (4) Catastrófico — impede o usuário de realizar a tarefa e alcançar seus objetivos.</i></p>
