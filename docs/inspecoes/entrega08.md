@@ -95,7 +95,7 @@ Demais etapas já se encontravam integralmente Conformes nas inspeções anterio
 
 A apresentação da Entrega 8 foi gravada com as câmeras abertas e publicada no YouTube na categoria "Não Listado", conforme exigência da disciplina.
 
-[ Assistir à Apresentação da Entrega 8 no YouTube](){ target="_blank" }
+[🎥 Assistir à Apresentação da Entrega 8 no YouTube](https://youtu.be/6a9m4vp5pVY){ target="_blank" }
 
 ---
 
