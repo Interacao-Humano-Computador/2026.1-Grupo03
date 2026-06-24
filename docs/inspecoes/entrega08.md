@@ -11,11 +11,11 @@ O objetivo foi identificar se os problemas e não conformidades apontados nas in
 | Integrante | Etapa Inspecionada | Vídeo da Inspeção |
 | :---: | :---: | :---: |
 | [Heitor Macêdo Ricardo](../equipe/equipe.md) | Etapa 1 — Planejamento Geral e Desenvolvimento Inicial | [Assistir](https://youtu.be/4ba26HeIHeM?is=lUMVFnBMNiLDsojV) |
-| [Heloisa Laura Santos da Silva](../equipe/equipe.md) | Etapa 2 — Perfil de Usuário, Personas, Cenários e Análise de Tarefas | [Assistir](https://youtu.be/n6oHCi2EWaA?is=Eu5yHdB4nsFJgMUF) |
+| [Pedro Augusto Moretti Moreira](../equipe/equipe.md) | Etapa 2 — Perfil de Usuário, Personas, Cenários e Análise de Tarefas | [Assistir](https://youtu.be/n6oHCi2EWaA?is=Eu5yHdB4nsFJgMUF) |
 | [Pedro Augusto Macedo](../equipe/equipe.md) | Etapa 3 — Características da Plataforma, Princípios Gerais, Metas de Usabilidade e Guia de Estilo | [Assistir](https://youtu.be/zz7M0c_TCE4) |
 | [Mateus Rodrigues Barreto](../equipe/equipe.md) | Etapa 4 — Storyboard e Planejamento da Avaliação | [Assistir](https://youtu.be/U3PVJZG0Wsg) |
 | [Eduardo Oliveira Valadares](../equipe/equipe.md) | Etapa 5 — Planejamento da Avaliação do Protótipo de Papel e Relato dos Resultados | [Assistir](https://youtuube.com/placeholder-eduardo-etapa5) <!-- TODO: substituir pelo link real --> |
-| [Pedro Augusto Moretti Moreira](../equipe/equipe.md) | Etapa 6 — Relato do Protótipo de Papel e Planejamento do Protótipo de Alta Fidelidade | [Assistir](https://youtu.be/FgaKs_IJioc) |
+| [Pedro Augusto Macedo](../equipe/equipe.md) | Etapa 6 — Relato do Protótipo de Papel e Planejamento do Protótipo de Alta Fidelidade | [Assistir](https://youtu.be/FgaKs_IJioc) |
 | [Mateus Rodrigues Barreto](../equipe/equipe.md) | Etapa 7 — Relato do Protótipo de Alta Fidelidade | [Assistir](https://youtu.be/v11x8pwTZi8) |
 
 ---
@@ -43,7 +43,7 @@ Os vídeos foram publicados no YouTube na categoria "Não Listado", conforme exi
 
 ### Etapa 2 — Perfil de Usuário, Personas, Cenários e Análise de Tarefas
 
-**Inspetor:** Heloisa Laura Santos da Silva
+**Inspetor:** Pedro Augusto Moretti Moreira
 
 [Assistir ao vídeo](https://youtu.be/n6oHCi2EWaA?is=Eu5yHdB4nsFJgMUF)
 
@@ -67,7 +67,7 @@ Os vídeos foram publicados no YouTube na categoria "Não Listado", conforme exi
 
 ### Etapa 6 — Relato do Protótipo de Papel e Planejamento do Protótipo de Alta Fidelidade
 
-**Inspetor:** Pedro Augusto Moretti Moreira
+**Inspetor:** Pedro Augusto Macedo
 
 [Assistir ao vídeo](https://youtu.be/FgaKs_IJioc)
 
@@ -84,8 +84,8 @@ Os vídeos foram publicados no YouTube na categoria "Não Listado", conforme exi
 Durante a verificação, os integrantes identificaram artefatos que foram modificados entre a entrega original e a versão atual como resultado direto das não conformidades apontadas nas inspeções das etapas anteriores. Os destaques incluem:
 
 - **Etapa 1:** Correção de itens de conteúdo da disciplina (Heatmap, Ferramentas do Projeto, iteração do design) que estavam marcados como Não Conforme na versão 1.0 da inspeção.
-- **Etapa 6:** Ajustes no Planejamento da Avaliação do Protótipo de Alta Fidelidade para endereçar os itens E6-02, E6-04, E6-08 e E6-12, que haviam sido marcados como Não Conforme.
-- **Etapa 7:** Correção do item E7-01 (protótipo de alta fidelidade com desenho completo da interface) e inclusão do tratamento de questões éticas (E7-11), ambos originalmente Não Conforme.
+- **Etapa 6:** Itens de verificação do Planejamento da Avaliação do Protótipo de Alta Fidelidade que estavam **Não Conforme** — preparação do ambiente e equipamentos de teste, detalhamento das perguntas de avaliação, questões práticas de recrutamento e orçamento, e definição das tarefas e cenários dos participantes — foram corrigidos.
+- **Etapa 7:** Itens de verificação que estavam **Não Conforme** — desenho completo da interface do protótipo de alta fidelidade e tratamento de questões éticas com o Termo de Consentimento Livre e Esclarecido — foram ajustados.
 
 Demais etapas já se encontravam integralmente Conformes nas inspeções anteriores ou não apresentaram novos problemas na reavaliação.
 
