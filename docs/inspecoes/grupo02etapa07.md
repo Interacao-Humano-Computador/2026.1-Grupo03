@@ -58,6 +58,8 @@ A inspeção valida cada critério definido e apresentado na Lista de Verificaç
 
 ## Apresentação
 
+A apresentação da inspeção do Grupo 02 - Entrega 7 foi gravada com as câmeras abertas e publicada no YouTube na categoria "Não Listado", conforme exigência da disciplina.
+
 [🎥 Assistir ao Vídeo da inspeção do grupo -1 no YouTube](https://youtu.be/tAANrnbafSo){ target="_blank" }
 
 ---
