@@ -79,6 +79,11 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 | **E3-11** | O guia de estilo aborda o **design de telas e elementos de interface** (widgets)? | (BARBOSA; SILVA, 2021). [Imagem](images/verificacao3/guia-estilo-1.png) | Pedro Augusto Moretti Moreira |
 
 ---
+## Agradecimentos ao Uso de IA
+
+A equipe agradece ao **Claude** pelo suporte na estruturação, padronização das tabelas e revisão da redação em Markdown deste documento de inspeção. O uso da ferramenta contribuiu para manter a consistência com o modelo das entregas anteriores e agilizar a verificação dos itens.
+
+---
 ## Referências
 
 > 1. BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021.
