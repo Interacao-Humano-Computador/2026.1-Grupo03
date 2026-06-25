@@ -65,7 +65,7 @@ A inspeção valida cada critério definido e apresentado na Lista de Verificaç
 
 A apresentação da inspeção do Grupo 02 - Entrega 4 foi gravada com as câmeras abertas e publicada no YouTube na categoria "Não Listado", conforme exigência da disciplina.
 
-[🎥 Assistir à Apresentação da Entrega 4 no YouTube](https://youtu.be/lmz6ky0mR_I){ target="_blank" }
+[🎥 Assistir ao Vídeo da inspeção do grupo -1 no YouTube](https://youtu.be/lmz6ky0mR_I){ target="_blank" }
 
 ---
 
