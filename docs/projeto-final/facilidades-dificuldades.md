@@ -15,6 +15,34 @@ Colaboração referente à [Entrega Final](../planejamento/cronograma-executado.
 Esta página apresenta as facilidades e dificuldades encontradas na realização do projeto por cada integrante da equipe.
 
 ---
+## Uso da Ia Generativa 
+
+### Facilidades
+
+- Automatiza tarefas repetitivas.
+- Economiza tempo da equipe.
+- Reduz erros humanos.
+- Ajuda na análise de grandes volumes de dados.
+- Identifica padrões e informações importantes com mais rapidez.
+- Apoia a tomada de decisões.
+- Oferece sugestões baseadas em dados.
+- Aumenta a produtividade.
+- Organiza informações.
+- Auxilia na criação de relatórios.
+
+### Dificuldades 
+
+- Necessita de dados de qualidade.
+- Dados incompletos, incorretos ou desatualizados podem gerar resultados ruins.
+- Pode apresentar dificuldades técnicas na implementação.
+- Exige a escolha correta das ferramentas.
+- Pode ser difícil integrar a IA com sistemas já existentes.
+- Necessita de pessoas capacitadas para usar e interpretar os resultados.
+- Pode gerar dependência excessiva da IA.
+- Exige análise crítica humana das respostas.
+- Pode apresentar vieses nos resultados.
+
+---
 
 ## Pedro Augusto Moretti Moreira
 

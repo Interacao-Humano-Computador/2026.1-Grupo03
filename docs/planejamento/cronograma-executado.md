@@ -25,20 +25,20 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Atividade Extraída do Plano de Ensino | Integrante Responsável<br><small>(nome · data de conclusão)</small> | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
     | :--- | :---: | :---: | :--- | :---: |
-    | **Perfil de Usuário**<br>*(Técnicas de coleta e resultados)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>02/05/2026</small>  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small>| [Heitor Macedo](../equipe/equipe.md) | [📄 Perfil de Usuário](../analise-requisitos/perfil-usuario.md) | ✅ Concluído |
-    | **Personas**<br>*(Elenco de personas primárias e secundárias)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>02/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small>  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [Heloisa Silva](../equipe/equipe.md) | [📄 Personas](../analise-requisitos/personas.md) | ✅ Concluído |
-    | **Cenários**<br>*(Cenários de uso baseados nas personas)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>02/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small>  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [Pedro Augusto Moretti Moreira](../equipe/equipe.md) | [📄 Cenários](../analise-requisitos/cenarios.md) | ✅ Concluído |
-    | **Análise de Tarefas**<br>*(HTA, CTT e GOMS)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>02/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small>  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Análise de Tarefas](../analise-requisitos/analise-tarefas.md) | ✅ Concluído |
+    | **Perfil de Usuário**<br>*(Técnicas de coleta e resultados)* | [Pedro Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>02/05/2026</small>  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small>| [Heitor Macedo](../equipe/equipe.md) | [📄 Perfil de Usuário](../analise-requisitos/perfil-usuario.md) | ✅ Concluído |
+    | **Personas**<br>*(Elenco de personas primárias e secundárias)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>02/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small> [Pedro Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [Heloisa Silva](../equipe/equipe.md) | [📄 Personas](../analise-requisitos/personas.md) | ✅ Concluído |
+    | **Cenários**<br>*(Cenários de uso baseados nas personas)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>02/05/2026</small> [Pedro Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small>  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [Pedro Augusto Moretti Moreira](../equipe/equipe.md) | [📄 Cenários](../analise-requisitos/cenarios.md) | ✅ Concluído |
+    | **Análise de Tarefas**<br>*(HTA, CTT e GOMS)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>02/05/2026</small> [Pedro Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small>  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Análise de Tarefas](../analise-requisitos/analise-tarefas.md) | ✅ Concluído |
     | **Funcionalidades**<br>*(Declaração e justificativa das funcionalidades)* | [Heitor Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>03/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small>  [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [Mateus Rodrigues](../equipe/equipe.md) | [📄 Funcionalidades](../analise-requisitos/funcionalidades.md) | ✅ Concluído |
     | **Lista de Verificação Etapa 2**<br>*(Itens de verificação do conteúdo da disciplina)* | [Heitor Macedo](../equipe/equipe.md)<br><small>03/05/2026</small> · [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>03/05/2026</small> · [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Verificação Etapa 2](../projeto/verificacao-etapa2.md) | ✅ Concluído |
-    | **Apresentação da Etapa 2**<br>*(Gravação e publicação no YouTube)* | [Heitor Macedo](../equipe/equipe.md)<br><small>03/05/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>03/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small> [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [Pedro Augusto Moretti Moreira](../equipe/equipe.md) | [🎥 Vídeo — YouTube](#) | ✅ Concluído |
+    | **Apresentação da Etapa 2**<br>*(Gravação e publicação no YouTube)* | [Heitor Macedo](../equipe/equipe.md)<br><small>03/05/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>03/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>03/05/2026</small> [Pedro Macedo](../equipe/equipe.md)<br><small>30/04/2026</small> [Heloisa Silva](../equipe/equipe.md)<br><small>03/05/2026</small> | [Pedro Augusto Moretti Moreira](../equipe/equipe.md) | [🎥 Vídeo — YouTube](#) | ✅ Concluído |
 
 === "Etapa 3"
     Nesta etapa, as tarefas foram direcionadas para a consolidação da Fase 2 da Análise de Requisitos e início das avaliações de design.
 
     | Atividade Extraída do Plano de Ensino | Integrante Responsável<br><small>(nome · data de conclusão)</small> | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
     | :--- | :---: | :---: | :--- | :---: |
-    | **Características da Plataforma** | [Heloisa Silva](../equipe/equipe.md)<br><small>15/05/2026</small> | [Mateus Rodrigues](../equipe/equipe.md) | [📄 Características da Plataforma](../analise-requisitos/caracteristicas-plataforma.md) | ✅ Concluído |
+    | **Características da Plataforma** | [Heloisa Silva](../equipe/equipe.md)<br><small>15/05/2026</small> [Pedro Macedo](../equipe/equipe.md)<br><small>15/06/2026</small> | [Mateus Rodrigues](../equipe/equipe.md) | [📄 Características da Plataforma](../analise-requisitos/caracteristicas-plataforma.md) | ✅ Concluído |
     | **Princípios Gerais** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/05/2026</small> | [Eduardo Valadares](../equipe/equipe.md) | [📄 Princípios Gerais](../analise-requisitos/principios-gerais.md) | ✅ Concluído |
     | **Metas de Usabilidade** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>11/05/2026</small> | [Pedro Augusto Moretti Moreira](../equipe/equipe.md) | [📄 Metas de Usabilidade](../analise-requisitos/metas-usabilidade.md) | ✅ Concluído |
     | **Guia de Estilo** | [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>14/05/2026</small> | [Pedro Macedo](../equipe/equipe.md) | [📄 Guia de Estilo](../analise-requisitos/guia-estilo.md) | ✅ Concluído |
@@ -53,7 +53,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Planejamento da Avaliação do Storyboard** | [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>19/05/2026</small> [Eduardo Valadares](../equipe/equipe.md)<br><small>19/05/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Planejamento de Avaliação de Storyboard](../design-avaliacao/nivel-1/planejamento-avaliacao-storyboard.md) | ✅ Concluído |
     | **Planejamento do Relato dos Resultados da Análise de Tarefas** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> | [Pedro Augusto Moretti Moreira](../equipe/equipe.md) | [📄 Planejamento de Relato de Tarefas](../design-avaliacao/nivel-1/planejamento-relato-tarefas.md) | ✅ Concluído |
     | **Planejamento do Relato dos Resultados do Storyboard** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> | [Heloisa Silva](../equipe/equipe.md) | [📄 Planejamento de Relato de Storyboard](../design-avaliacao/nivel-1/planejamento-relato-storyboard.md) | ✅ Concluído |
-    | **Storyboard** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>19/05/2026</small> [Pedro Macedo](../equipe/equipe.md)<br><small>02/06/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>23/06/2026</small> | [Heloisa Silva](../equipe/equipe.md) | [📄 Storyboard](../design-avaliacao/nivel-1/storyboard.md) | ✅ Concluído |
+    | **Storyboard** | [Heitor Macedo](../equipe/equipe.md)<br><small>15/05/2026</small> [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>19/05/2026</small> [Pedro Macedo](../equipe/equipe.md)<br><small>02/06/2026</small> [Pedro Macedo](../equipe/equipe.md)<br><small>17/05/2026</small> [Mateus Rodrigues](../equipe/equipe.md)<br><small>23/06/2026</small> | [Heloisa Silva](../equipe/equipe.md) | [📄 Storyboard](../design-avaliacao/nivel-1/storyboard.md) | ✅ Concluído |
 
 === "Etapa 5"
     Nesta etapa, as tarefas foram direcionadas para o planejamento da avaliação do protótipo de papel e para a execução dos relatos dos resultados das avaliações de Storyboard e Análise de Tarefas.
@@ -86,9 +86,11 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | Atividade Extraída do Plano de Ensino | Integrante Responsável<br><small>(nome · data de conclusão)</small> | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
     | :--- | :---: | :---: | :--- | :---: |
     | **Protótipo de Alta Fidelidade — Notificação Ativa** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Protótipo de Alta Fidelidade — Notificação Ativa](../design-avaliacao/nivel-3/prototipo-alta-fidelidade-notificacao-ativa.md) | ✅ Concluído |
+    | **Protótipo de Alta Fidelidade — Triagem Guiada** | [Pedro Macedo](../equipe/equipe.md)<br><small>17/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Protótipo de Alta Fidelidade — Triagem Guiada](../design-avaliacao/nivel-3/prototipo-alta-fidelidade-notificacao-ativa.md) | ✅ Concluído |
     | **Protótipo de Alta Fidelidade — Sala de Conciliação Virtual** | [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>12/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Protótipo de Alta Fidelidade — Sala de Conciliação Virtual](../design-avaliacao/nivel-3/prototipo-alta-fidelidade-conciliacao.md) | ✅ Concluído |
     | **Protótipo de Alta Fidelidade — Painel de Monitoramento de Prazos** | [Mateus Rodrigues](../equipe/equipe.md)<br><small>23/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Protótipo de Alta Fidelidade — Painel de Monitoramento de Prazos](../design-avaliacao/nivel-3/prototipo-alta-fidelidade-painel-prazos.md) | ✅ Concluído |
     | **Relato dos Resultados do Protótipo de Alta Fidelidade — Notificação Ativa** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Relato dos Resultados — Notificação Ativa](../design-avaliacao/nivel-3/relato-resultados-alta-fidelidade-notificacao-ativa.md) | ✅ Concluído |
+    | **Relato dos Resultados do Protótipo de Alta Fidelidade — Traigem Guiada** | [Pedro Macedo](../equipe/equipe.md)<br><small>17/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Relato dos Resultados — Notificação Ativa](../design-avaliacao/nivel-3/relato-resultados-alta-fidelidade-notificacao-ativa.md) | ✅ Concluído |
     | **Relato dos Resultados do Protótipo de Alta Fidelidade — Sala de Conciliação Virtual** | [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>12/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Relato dos Resultados — Sala de Conciliação Virtual](../design-avaliacao/nivel-3/relato-resultados-alta-fidelidade-conciliacao-virtual.md) | ✅ Concluído |
     | **Relato dos Resultados do Protótipo de Alta Fidelidade — Painel de Monitoramento de Prazos** | [Mateus Rodrigues](../equipe/equipe.md)<br><small>23/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Relato dos Resultados — Painel de Monitoramento de Prazos](../design-avaliacao/nivel-3/relato-resultados-alta-fidelidade-painel-prazos.md) | ✅ Concluído |
     | **Lista de Verificação (Etapa 7)** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/06/2026</small> | [Pedro Augusto Moretti Moreira](../equipe/equipe.md) | [📄 Lista de Verificação (Etapa 7)](../projeto/verificacao-etapa7.md) | ✅ Concluído |
@@ -102,7 +104,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Técnicas Utilizadas** | [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>01/07/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Técnicas Utilizadas](../projeto-final/tecnicas-utilizadas.md) | ✅ Concluído |
     | **Facilidades e Dificuldades** | [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>01/07/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Facilidades e Dificuldades](../projeto-final/facilidades-dificuldades.md) | ✅ Concluído |
     | **Tabela de Ferramentas Utilizadas em Cada Etapa** | —<br><small>—</small> | — | — | ⏳ Pendente |
-    | **Tabela de Artefatos por Integrante** | —<br><small>—</small> | — | — | ⏳ Pendente |
+    | **Tabela de Artefatos por Integrante** | [Pedro Augusto Macedo Del Castilo](../equipe/equipe.md)<br><small>01/07/2026</small> | [Pedro Augusto Moretti Moreira](../equipe/equipe.md) | — | ✅ Concluído  |
     | **Tabela de Avaliações dos Protótipos** | —<br><small>—</small> | — | — | ⏳ Pendente |
     | **Tabela de Vídeos das Verificações, Reuniões e Apresentações** | —<br><small>—</small> | — | — | ⏳ Pendente |
     | **Tabela de Ferramentas de IA Generativa** | —<br><small>—</small> | — | — | ⏳ Pendente |
@@ -130,7 +132,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Análise de Tarefas**  | — | 2 | 2 | 2 | — | 1 |
     | **Funcionalidade**  | — | 1 | — | 1 | 1 | 1 |
     | **Lista de Verificação (Etapa 2 - itens)** | — | 5 | 2 | 12 | — | 4 |
-    | **Total de documentos criados** | 0 | 9 | 7 | 11 | 0 | 4 |
+    | **Total de documentos criados** | 0 | 9 | 7 | 11 | 3 | 4 |
     | **Total de documentos revisados** | 0 | 5 | 0 | 11 | 0 | 1 |
 
 
@@ -138,12 +140,12 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Augusto Moretti Moreira | Pedro Macedo | Mateus Rodrigues |
     | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-    | **Características da Plataforma** | — | — | 1 | — | — | — |
+    | **Características da Plataforma** | — | — | 1 | — | 1 | — |
     | **Princípios Gerais** | — | 1 | — | — | — | — |
     | **Metas de Usabilidade** | — | 1 | — | — | — | 1 |
     | **Guia de Estilo** | — | — | — | 1 | — | — |
     | **Lista de Verificação (Etapa 3 - itens)** | — | 5 | 0 | 5 | — | — |
-    | **Total de documentos criados** | — | 2 | 1 | 1 | — | 1 |
+    | **Total de documentos criados** | — | 2 | 1 | 1 | 1 | 1 |
     | **Total de documentos revisados** | — | 3 | 1 | 1 | — | 1 |
 
 === "Etapa 4"
@@ -154,7 +156,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Planejamento de Avaliação de Storyboard** | 1 | — | — | 1 | — | — |
     | **Planejamento do Relato de Tarefas** | — | 1 | — | — | — | — |
     | **Planejamento do Relato de Storyboard** | — | 1 | — | — | — | — |
-    | **Storyboard** | — | 1 | — | 1 | — | 1 |
+    | **Storyboard** | — | 1 | — | 1 | 1 | 1 |
     | **Lista de Verificação (Etapa 4 - itens)** | — | 5 | — | 9 | — | — |
     | **Total de documentos criados** | 1 | 3 | — | 2 | 2 | 1 |
     | **Total de documentos revisados** | — | 1 | 2 | 2 | — | — |
@@ -169,7 +171,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Relato dos Resultados do Storyboard** | — | 1 | 1 | 1 | — | — |
     | **Relato dos Resultados da Análise de Tarefas** | — | 1 | — | 1 | — | — |
     | **Lista de Verificação (Etapa 5 - itens)** | — | 6 | — | 7 | — | — |
-    | **Total de documentos criados** | 0 | 5 | 0 | 3 | 0 | 1 |
+    | **Total de documentos criados** | 0 | 5 | 0 | 3 | 1 | 1 |
     | **Total de documentos revisados** | 3 | 0 | 0 | 5 | 0 | 2 |
 
 === "Etapa 6"
@@ -187,10 +189,10 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 
     | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Augusto Moretti Moreira | Pedro Macedo | Mateus Rodrigues |
     | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-    | **Protótipo de Alta Fidelidade** | — | 1 | — | 1 | — | 1 |
-    | **Relato dos Resultados do Protótipo de Alta Fidelidade** | — | 1 | — | 1 | — | 1 |
+    | **Protótipo de Alta Fidelidade** | — | 1 | — | 1 | 1 | 1 |
+    | **Relato dos Resultados do Protótipo de Alta Fidelidade** | — | 1 | — | 1 | 1 | 1 |
     | **Lista de Verificação (Etapa 7 - itens)** | — | 5 | — | 6 | — | — |
-    | **Total de documentos criados** | 0 | 2 | 0 | 2 | 0 | 2 |
+    | **Total de documentos criados** | 0 | 2 | 0 | 2 | 2 | 2 |
     | **Total de documentos revisados** | 0 | 4 | 0 | 3 | 0 | 0 |
 
 === "Etapa 8"
@@ -199,13 +201,13 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
     | **Resultados Alcançados** | — | — | — | 1 | — | — |
     | **Técnicas Utilizadas** | — | — | — | 1 | — | — |
-    | **Facilidades e Dificuldades** | — | — | — | 1 | — | — |
+    | **Facilidades e Dificuldades** | — | — | — | 1 | 1 | — |
     | **Tabela de Ferramentas Utilizadas em Cada Etapa** | — | — | — | — | — | — |
-    | **Tabela de Artefatos por Integrante** | — | — | — | — | — | — |
+    | **Tabela de Artefatos por Integrante** | — | — | — | — | 1 | — |
     | **Tabela de Avaliações dos Protótipos** | — | — | — | — | — | — |
     | **Tabela de Vídeos** | — | — | — | — | — | — |
     | **Tabela de Ferramentas de IA Generativa** | — | — | — | — | — | — |
-    | **Total de documentos criados** | 0 | 0 | 0 | 3 | 0 | 0 |
+    | **Total de documentos criados** | 0 | 0 | 0 | 3 | 2 | 0 |
     | **Total de documentos revisados** | 0 | 3 | 0 | 0 | 0 | 0 |
 
 ---
