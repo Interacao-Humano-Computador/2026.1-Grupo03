@@ -6,29 +6,48 @@ Nesta página estão listadas as principais ferramentas empregadas ao longo do d
 
 ---
 
-## Etapa 1: Planejamento e Organização
+> A associação de cada ferramenta às etapas foi consolidada a partir dos artefatos documentados no projeto (diagramas, protótipos, gravações e páginas de documentação).
 
+## Finalidade das Ferramentas
+
+<small>**Tabela 1** — Ferramentas utilizadas no projeto e suas finalidades</small>
 
 | Ferramenta | Logo | Finalidade |
 | :--- | :---: | :--- |
-| **GitHub** | <img src="../images/ferramentas/github.png" width="50"> | Versionamento de código, armazenamento do repositório e colaboração. |
+| **GitHub** | <img src="../images/ferramentas/github.png" width="50"> | Versionamento, hospedagem do repositório, colaboração e publicação do site (GitHub Pages). |
+| **MkDocs (Material)** | <img src="../images/ferramentas/mkdocs.png" width="50"> | Geração e estilização do site estático de documentação do projeto. |
 | **WhatsApp** | <img src="../images/ferramentas/whatsapp.png" width="50"> | Comunicação rápida e alinhamento assíncrono entre os membros. |
-| **Google Meet** | <img src="../images/ferramentas/google-meet.png" width="50"> | Reuniões síncronas para tomada de decisão e definição de requisitos. |
-| **VS Code** | <img src="../images/ferramentas/vscode.png" width="50"> | Ambiente de desenvolvimento (IDE) utilizado para codificação e edição de markdown. |
-| **Gemini** | <img src="../images/ferramentas/gemini.png" width="50"> | Auxílio na pesquisa de conceitos de IHC e estruturação de documentos acadêmicos. |
+| **Google Meet** | <img src="../images/ferramentas/google-meet.png" width="50"> | Reuniões síncronas de planejamento e gravação de apresentações. |
+| **Microsoft Teams** | <img src="../images/ferramentas/teams.png" width="50"> | Plataforma alternativa para reuniões e gravação das sessões de avaliação com usuários. |
+| **VS Code** | <img src="../images/ferramentas/vscode.png" width="50"> | Edição de Markdown e desenvolvimento dos protótipos de alta fidelidade (HTML/CSS/JS). |
+| **Gemini** | <img src="../images/ferramentas/gemini.png" width="50"> | Apoio à pesquisa de conceitos de IHC, redação e estruturação dos documentos. |
+| **Draw.io** | — | Elaboração de diagramas de análise de tarefas (HTA e árvores CTT). |
+| **Mermaid.js** | — | Geração de diagramas HTA, CTT e GOMS a partir de código. |
+| **Figma** | <img src="../images/ferramentas/figma.png" width="50"> | Guia de estilo, storyboards e desenho das telas dos protótipos. |
+| **Penpot** | <img src="../images/ferramentas/penpot.png" width="50"> | Prototipação (papel digitalizado e alta fidelidade) em plataforma open source. |
 
 ---
 
-## Etapa 2: Perfil de Usuário
+## Síntese: Ferramentas por Etapa
 
+<small>**Tabela 2** — Em quais etapas cada ferramenta foi utilizada (✓)</small>
 
-| Ferramenta | Logo | Finalidade |
-| :--- | :---: | :--- |
-| **GitHub** | <img src="../images/ferramentas/github.png" width="50"> | Versionamento de código, armazenamento do repositório e colaboração. |
-| **WhatsApp** | <img src="../images/ferramentas/whatsapp.png" width="50"> | Comunicação rápida e alinhamento assíncrono entre os membros. |
-| **Google Meet** | <img src="../images/ferramentas/google-meet.png" width="50"> | Reuniões síncronas para tomada de decisão e definição de requisitos. |
-| **VS Code** | <img src="../images/ferramentas/vscode.png" width="50"> | Ambiente de desenvolvimento (IDE) utilizado para codificação e edição de markdown. |
-| **Gemini** | <img src="../images/ferramentas/gemini.png" width="50"> | Auxílio na pesquisa de conceitos de IHC e estruturação de documentos acadêmicos. |
+| Ferramenta | E1 | E2 | E3 | E4 | E5 | E6 | E7 | E8 |
+| :--- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| **GitHub** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **MkDocs (Material)** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **WhatsApp** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Google Meet** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **VS Code** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Gemini** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Draw.io** | | ✓ | | | | | | |
+| **Mermaid.js** | | ✓ | | | | | | |
+| **Figma** | | | ✓ | ✓ | ✓ | ✓ | ✓ | |
+| **Penpot** | | | | | ✓ | ✓ | ✓ | |
+| **Microsoft Teams** | | | | | ✓ | ✓ | ✓ | |
+
+<small>Fonte: Elaborado pela equipe (2026).</small>
+
 ---
 
 ## Referências
@@ -45,7 +64,15 @@ VISUAL STUDIO CODE. Editor de código. Disponível em: <https://code.visualstudi
 
 GEMINI. Assistente de IA. Disponível em: <https://gemini.google.com/>. Acesso em: 02 mai. 2026.
 
-(Adicione as demais referências conforme necessário)
+FIGMA. Design de interface colaborativo. Disponível em: <https://www.figma.com/>. Acesso em: 14 mai. 2026.
+
+PENPOT. Ferramenta de design e prototipação open source. Disponível em: <https://penpot.app/>. Acesso em: 07 jun. 2026.
+
+DRAW.IO. Ferramenta de criação de diagramas. Disponível em: <https://www.drawio.com/>. Acesso em: 02 mai. 2026.
+
+MERMAID. Geração de diagramas a partir de texto. Disponível em: <https://mermaid.js.org/>. Acesso em: 02 mai. 2026.
+
+MICROSOFT TEAMS. Plataforma de reuniões e colaboração. Disponível em: <https://www.microsoft.com/microsoft-teams/>. Acesso em: 07 jun. 2026.
 
 ---
 
@@ -53,6 +80,7 @@ GEMINI. Assistente de IA. Disponível em: <https://gemini.google.com/>. Acesso e
 
 | Versão | Data | Descrição | Autor | Revisores |
 | :--- | :--- | :--- | :--- | :--- |
+| 1.3 | 01/07/2026 | Consolidação para todas as etapas (1–8): tabela de finalidades e tabela-síntese "Ferramentas por Etapa"; inclusão de MkDocs, Figma, Penpot, Teams, Draw.io e Mermaid.js. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
 | 1.2 | 02/05/2026 | Reorganização das ferramentas por etapas e adição de VS Code, Google Meet e Gemini. | Pedro Augusto | - |
 | 1.1 | 16/04/2026 | Adição da seção de Introdução e título principal. | Pedro Augusto Moretti Moreira | Heitor Macedo |
 | 1.0 | 11/04/2026 | Criação do documento inicial. | Pedro Macedo | Heloísa Silva |
