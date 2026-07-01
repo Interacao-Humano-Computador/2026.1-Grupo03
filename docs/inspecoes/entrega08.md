@@ -116,4 +116,4 @@ A equipe agradece ao **Claude** (Anthropic) pelo suporte na estruturação e pad
 
 | Versão | Data | Descrição | Autor | Revisor |
 |:---:|:---:|:---|:---:|:---:|
-| 1.0 | 23/06/2026 | Criação da inspeção da Entrega 8 com os links individuais de cada integrante e resumo das inspeções por etapa. | Pedro Augusto Moretti Moreira | — |
+| 1.0 | 23/06/2026 | Criação da inspeção da Entrega 8 com os links individuais de cada integrante e resumo das inspeções por etapa. | Pedro Augusto Moretti Moreira | Pedro Augusto Macedo |

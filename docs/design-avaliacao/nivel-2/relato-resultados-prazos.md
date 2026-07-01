@@ -370,6 +370,6 @@ Agradecimento ao **Gemini** pela consolidação dos dados coletados na entrevist
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | 22/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Papel — Painel de Prazos. | Mateus Barreto | — |
-| 1.1 | 22/06/2026 | Ajuste nos problemas (PB2 substituído, PB3 removido), notas do Think Aloud e correção do perfil de fluência tecnológica dos participantes e conhecimento jurídico de P2. | Mateus Barreto | — |
-| 1.2 | 23/06/2026 | Inclusão do tempo de execução e do confronto com a meta de eficiência, removendo nota técnica sobre o Think Aloud. | Mateus Barreto | — |
+| 1.0 | 22/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Papel — Painel de Prazos. | Mateus Barreto | Pedro Augusto Macedo |
+| 1.1 | 22/06/2026 | Ajuste nos problemas (PB2 substituído, PB3 removido), notas do Think Aloud e correção do perfil de fluência tecnológica dos participantes e conhecimento jurídico de P2. | Mateus Barreto | Heitor Macedo Ricardo |
+| 1.2 | 23/06/2026 | Inclusão do tempo de execução e do confronto com a meta de eficiência, removendo nota técnica sobre o Think Aloud. | Mateus Barreto | Pedro Augusto Moretti Moreira |

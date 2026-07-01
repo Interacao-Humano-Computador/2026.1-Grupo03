@@ -77,4 +77,4 @@ Agradecimento ao **DeepSeek** pelo auxílio na estruturação deste arquivo.
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 11/06/2026 | Criação da página de consolidação dos protótipos de papel. | Pedro Augusto Moretti Moreira | — |
+| 1.0 | 11/06/2026 | Criação da página de consolidação dos protótipos de papel. | Pedro Augusto Moretti Moreira | Pedro Augusto Macedo |

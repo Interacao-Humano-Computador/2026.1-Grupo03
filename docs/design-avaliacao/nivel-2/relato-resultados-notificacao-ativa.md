@@ -250,4 +250,4 @@ Com base nos dados coletados, o único ponto de atenção identificado é de nat
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | 07/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Papel — Notificação Ativa com dados da entrevista com P1. | [Heitor Macêdo Ricardo](https://github.com/HeitorM50/) | — |
+| 1.0 | 07/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Papel — Notificação Ativa com dados da entrevista com P1. | [Heitor Macêdo Ricardo](https://github.com/HeitorM50/) | Pedro Augusto Moretti Moreira |

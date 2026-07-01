@@ -37,4 +37,4 @@ Esta página consolida os planejamentos de avaliação e de relato de resultados
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 11/06/2026 | Criação da página de consolidação dos planejamentos do Nível 1. | Pedro Augusto Moretti Moreira | — |
+| 1.0 | 11/06/2026 | Criação da página de consolidação dos planejamentos do Nível 1. | Pedro Augusto Moretti Moreira | Heitor Macedo Ricardo |

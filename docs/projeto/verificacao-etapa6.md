@@ -87,5 +87,5 @@ Abaixo estão definidos termos técnicos presentes nesta lista de verificação 
 | Versão | Data       | Descrição                                                                                         | Autor(es)     | Revisor(es)   |
 | :---   | :---       | :---                                                                                              | :---          | :---          |
 | `1.1`  | 07/06/2026 | Adição dos itens do framework DECIDE e atualização do glossário. | Pedro Augusto Moretti Moreira | Heitor Macedo |
-| `1.0`  | 07/06/2026 | Criação da lista de verificação da Etapa 6 com itens de planejamento do PAF e glossário. | Heitor Macedo | —             |
+| `1.0`  | 07/06/2026 | Criação da lista de verificação da Etapa 6 com itens de planejamento do PAF e glossário. | Heitor Macedo | Pedro Augusto Moretti Moreira |
 | `1.2`  | 23/06/2026 | Adição do bloco "Desenvolvimento do projeto" com 11 critérios do professor. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |

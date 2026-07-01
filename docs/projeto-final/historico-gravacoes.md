@@ -61,4 +61,4 @@ Parte do conteúdo desta página foi auxiliado pelo **Gemini (Google)** para org
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| 1.0 | 01/07/2026 | Criação da página com a tabela de gravações do projeto e links de rastreabilidade | Mateus Rodrigues Barreto | — |
+| 1.0 | 01/07/2026 | Criação da página com a tabela de gravações do projeto e links de rastreabilidade | Mateus Rodrigues Barreto | Pedro Augusto Moretti Moreira |

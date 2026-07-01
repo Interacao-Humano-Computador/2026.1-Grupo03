@@ -272,7 +272,7 @@ Agradecimento ao **Claude** pela ajuda na correção e detalhamento das resposta
 ## Histórico de Versão
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | 01/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Papel — Sala de Conciliação Virtual com dados da entrevista com P1. | Pedro Augusto Moretti Moreira | — |
+| 1.0 | 01/06/2026 | Criação do Relato dos Resultados da Avaliação do Protótipo de Papel — Sala de Conciliação Virtual com dados da entrevista com P1. | Pedro Augusto Moretti Moreira | Mateus Rodrigues Barreto |
 | 1.1 | 12/06/2026 | Substituição de referências a personas por perfil de usuário primário Fornecedor (Representante da Empresa). | Pedro Augusto Moretti Moreira | Heitor Macedo |
 
 ## Notas de Rodapé e Referências de Imagens

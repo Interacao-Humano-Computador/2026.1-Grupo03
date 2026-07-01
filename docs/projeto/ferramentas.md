@@ -81,6 +81,6 @@ MICROSOFT TEAMS. Plataforma de reuniões e colaboração. Disponível em: <https
 | Versão | Data | Descrição | Autor | Revisores |
 | :--- | :--- | :--- | :--- | :--- |
 | 1.3 | 01/07/2026 | Consolidação para todas as etapas (1–8): tabela de finalidades e tabela-síntese "Ferramentas por Etapa"; inclusão de MkDocs, Figma, Penpot, Teams, Draw.io e Mermaid.js. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
-| 1.2 | 02/05/2026 | Reorganização das ferramentas por etapas e adição de VS Code, Google Meet e Gemini. | Pedro Augusto | - |
+| 1.2 | 02/05/2026 | Reorganização das ferramentas por etapas e adição de VS Code, Google Meet e Gemini. | Pedro Augusto | Mateus Rodrigues Barreto |
 | 1.1 | 16/04/2026 | Adição da seção de Introdução e título principal. | Pedro Augusto Moretti Moreira | Heitor Macedo |
 | 1.0 | 11/04/2026 | Criação do documento inicial. | Pedro Macedo | Heloísa Silva |
