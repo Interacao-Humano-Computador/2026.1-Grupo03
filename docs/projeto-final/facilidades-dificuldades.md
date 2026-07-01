@@ -9,6 +9,7 @@ Colaboração referente à [Entrega Final](../planejamento/cronograma-executado.
 | Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 | Heitor Macedo Ricardo | Elaborou o Artefato |
 | Mateus Rodrigues Barreto | Elaborou o Artefato |
+| Pedro Macedo | Elaborou o Artefato |
 
 ---
 
