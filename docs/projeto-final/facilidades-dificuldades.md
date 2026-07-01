@@ -61,6 +61,20 @@ Esta página apresenta as facilidades e dificuldades encontradas na realização
 - **Versionamento e conflitos**: Em algumas etapas, houveram conflitos de merge no Git que precisaram ser resolvidos manualmente, especialmente quando múltiplos membros editavam arquivos simultaneamente.
 
 ---
+## Pedro Augusto Macedo Del Castilo
+
+### Facilidades
+
+- **GitHub**: Já tive experiência em outros projetos com github, então foi mais fácil manipular essa ferramenta.
+
+- **HTML e CSS**: Para criar o protótipo de alta fidelidade foi ultilizado essas ferramentas e também fiz em projetos anteriores
+
+### Dificuldades
+
+- **Gravar Relatos**: Não consigui gravar alguns relatos por falta de planejamento próprio.
+- **Entrega em cima da hora**: Por planejamento pessoal, alguns artefatos entregues por mim foram entregados no limite das entregas. 
+
+---
 
 ## Heitor Macedo Ricardo
 
