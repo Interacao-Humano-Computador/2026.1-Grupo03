@@ -93,6 +93,20 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Relato dos Resultados do Protótipo de Alta Fidelidade — Painel de Monitoramento de Prazos** | [Mateus Rodrigues](../equipe/equipe.md)<br><small>23/06/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Relato dos Resultados — Painel de Monitoramento de Prazos](../design-avaliacao/nivel-3/relato-resultados-alta-fidelidade-painel-prazos.md) | ✅ Concluído |
     | **Lista de Verificação (Etapa 7)** | [Heitor Macedo](../equipe/equipe.md)<br><small>14/06/2026</small> | [Pedro Augusto Moretti Moreira](../equipe/equipe.md) | [📄 Lista de Verificação (Etapa 7)](../projeto/verificacao-etapa7.md) | ✅ Concluído |
 
+=== "Etapa 8"
+    Nesta etapa, as tarefas foram direcionadas para a consolidação dos artefatos finais do projeto, sintetizando os resultados, técnicas, ferramentas e atividades realizadas ao longo de todas as etapas anteriores.
+
+    | Atividade Extraída do Plano de Ensino | Integrante Responsável<br><small>(nome · data de conclusão)</small> | Revisor (Cross-Review) | Sistema de Rastreabilidade (Evidências) | Status |
+    | :--- | :---: | :---: | :--- | :---: |
+    | **Resultados Alcançados** | [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>01/07/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Resultados Alcançados](../projeto-final/resultados-alcancados.md) | ✅ Concluído |
+    | **Técnicas Utilizadas** | [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>01/07/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Técnicas Utilizadas](../projeto-final/tecnicas-utilizadas.md) | ✅ Concluído |
+    | **Facilidades e Dificuldades** | [Pedro Augusto Moretti Moreira](../equipe/equipe.md)<br><small>01/07/2026</small> | [Heitor Macedo](../equipe/equipe.md) | [📄 Facilidades e Dificuldades](../projeto-final/facilidades-dificuldades.md) | ✅ Concluído |
+    | **Tabela de Ferramentas Utilizadas em Cada Etapa** | —<br><small>—</small> | — | — | ⏳ Pendente |
+    | **Tabela de Artefatos por Integrante** | —<br><small>—</small> | — | — | ⏳ Pendente |
+    | **Tabela de Avaliações dos Protótipos** | —<br><small>—</small> | — | — | ⏳ Pendente |
+    | **Tabela de Vídeos das Verificações, Reuniões e Apresentações** | —<br><small>—</small> | — | — | ⏳ Pendente |
+    | **Tabela de Ferramentas de IA Generativa** | —<br><small>—</small> | — | — | ⏳ Pendente |
+
 ---
 
 ### Resumo Quantitativo da Equipe
@@ -179,6 +193,21 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
     | **Total de documentos criados** | 0 | 2 | 0 | 2 | 0 | 2 |
     | **Total de documentos revisados** | 0 | 4 | 0 | 3 | 0 | 0 |
 
+=== "Etapa 8"
+
+    | Artefato / Integrante | Eduardo | Heitor | Heloísa | Pedro Augusto Moretti Moreira | Pedro Macedo | Mateus Rodrigues |
+    | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+    | **Resultados Alcançados** | — | — | — | 1 | — | — |
+    | **Técnicas Utilizadas** | — | — | — | 1 | — | — |
+    | **Facilidades e Dificuldades** | — | — | — | 1 | — | — |
+    | **Tabela de Ferramentas Utilizadas em Cada Etapa** | — | — | — | — | — | — |
+    | **Tabela de Artefatos por Integrante** | — | — | — | — | — | — |
+    | **Tabela de Avaliações dos Protótipos** | — | — | — | — | — | — |
+    | **Tabela de Vídeos** | — | — | — | — | — | — |
+    | **Tabela de Ferramentas de IA Generativa** | — | — | — | — | — | — |
+    | **Total de documentos criados** | 0 | 0 | 0 | 3 | 0 | 0 |
+    | **Total de documentos revisados** | 0 | 3 | 0 | 0 | 0 | 0 |
+
 ---
 
 ## Bibliografia
@@ -200,6 +229,7 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 | `1.5` | 22/05/2026 | Atualização com o cronograma executado e resumo quantitativo da Etapa 4. | Heitor Macedo Ricardo | Heloisa Silva |
 | `1.6` | 24/05/2026 | Atualização de constribuções da Etapa 3. | Mateus Rodrigues Barreto | Heloisa Silva |
 | `1.7` | 31/05/2026 | Adição da Etapa 5 com cronograma executado e resumo quantitativo. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
-| `1.8` | 07/06/2026 | Adição da Etapa 6 com planejamento do protótipo de alta fidelidade, relato de resultados do protótipo de papel e resumo quantitativo. | Heitor Macedo Ricardo | — |
-| `1.9` | 14/06/2026 | Adição da Etapa 7 com protótipos de alta fidelidade, relatos dos resultados e lista de verificação. | Heitor Macedo Ricardo | — |
-| `1.10` | 23/06/2026 | Adição do Painel de Monitoramento de Prazos na Etapa 7 e ajuste na Etapa 6. | Mateus Rodrigues Barreto | — |
+| `1.8` | 07/06/2026 | Adição da Etapa 6 com planejamento do protótipo de alta fidelidade, relato de resultados do protótipo de papel e resumo quantitativo. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
+| `1.9` | 14/06/2026 | Adição da Etapa 7 com protótipos de alta fidelidade, relatos dos resultados e lista de verificação. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
+| `1.10` | 23/06/2026 | Adição do Painel de Monitoramento de Prazos na Etapa 7 e ajuste na Etapa 6. | Mateus Rodrigues Barreto | Pedro Augusto Moretti Moreira |
+| `1.11` | 01/07/2026 | Adição da Etapa 8 com artefatos finais do projeto e resumo quantitativo. | Pedro Augusto Moretti Moreira | Mateus Rodrigues Barreto |

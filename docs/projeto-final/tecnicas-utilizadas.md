@@ -63,4 +63,4 @@ Parte do conteúdo desta página foi auxiliado pelo **Gemini (Google)** para org
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| 1.0 | 01/07/2026 | Criação da página com a tabela de técnicas utilizadas por participante | Pedro Augusto Moretti Moreira | — |
+| 1.0 | 01/07/2026 | Criação da página com a tabela de técnicas utilizadas por participante | Pedro Augusto Moretti Moreira | Heitor Macedo Ricardo |

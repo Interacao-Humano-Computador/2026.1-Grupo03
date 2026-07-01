@@ -43,4 +43,4 @@ Parte do conteúdo desta página foi auxiliado pelo **Gemini (Google)** para org
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| 1.0 | 01/07/2026 | Criação da página com facilidades e dificuldades | Pedro Augusto Moretti Moreira | — |
+| 1.0 | 01/07/2026 | Criação da página com facilidades e dificuldades | Pedro Augusto Moretti Moreira | Heitor Macedo Ricardo |
