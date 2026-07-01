@@ -49,6 +49,7 @@ Esta página consolida unicamente os vídeos referentes às apresentações real
 | **Inspeção Grupo 02 (Etapa 6)** | Etapa 6 | Pedro Augusto Moretti Moreira, Heitor Macedo Ricardo | [Inspeção Grupo 02](../inspecoes/grupo02entrega06.md) | [Assistir](https://youtu.be/JLTb4UW_ims) |
 | **Inspeção Grupo 04 (Etapa 7)** | Etapa 7 | Heitor Macedo Ricardo | [Inspeção Grupo 04](../inspecoes/grupo04entrega07.md) | [Assistir](https://youtu.be/Ts4kdSpj-64) |
 | **Inspeção do Grupo 02 (Etapa 8 - Entrega 1)** | Etapa 8 | Heitor Macedo Ricardo | [Inspeção Grupo 02](../inspecoes/grupo02etapa01.md) | [Assistir](https://youtu.be/Wkz_Q7yw-bU) |
+| **Inspeção do Grupo 02 (Etapa 8 - Entrega 2)** | Etapa 8 | Pedro Augusto Moretti Moreira | [Inspeção Grupo 02](../inspecoes/grupo02etapa02.md) | [Assistir](https://www.youtube.com/watch?v=K7qE4OWVgBI) |
 | **Inspeção do Grupo 02 (Etapa 8 - Entrega 3)** | Etapa 8 | Pedro Macedo | [Inspeção Grupo 02](../inspecoes/grupo02etapa03.md) | [Assistir](https://youtu.be/L8Fg0mIGG_Y) |
 | **Inspeção do Grupo 02 (Etapa 8 - Entrega 4)** | Etapa 8 | Mateus Rodrigues Barreto | [Inspeção Grupo 02](../inspecoes/grupo02etapa04.md) | [Assistir](https://youtu.be/lmz6ky0mR_I) |
 | **Inspeção do Grupo 02 (Etapa 8 - Entrega 6)** | Etapa 8 | Pedro Macedo | [Inspeção Grupo 02](../inspecoes/grupo02etapa06.md) | [Assistir](https://youtu.be/qzx4wQ2fwJ8) |
