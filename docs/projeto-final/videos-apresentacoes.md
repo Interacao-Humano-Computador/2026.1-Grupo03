@@ -29,7 +29,7 @@ Esta página consolida unicamente os vídeos referentes às apresentações real
 | **Apresentação da Etapa 5** | Etapa 5 | Pedro Macedo, Pedro Augusto Moretti Moreira, Heitor Macedo Ricardo, Mateus Rodrigues Barreto | [Inspeção Entrega 05](../inspecoes/entrega05.md) | [Assistir](https://youtu.be/9p9YIms-0iU) |
 | **Apresentação da Etapa 6** | Etapa 6 | Pedro Macedo, Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira | [Inspeção Entrega 06](../inspecoes/entrega06.md) | [Assistir](https://youtu.be/cstfpH_uqrE) |
 | **Apresentação da Etapa 7** | Etapa 7 | Pedro Macedo, Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira | [Inspeção Entrega 07](../inspecoes/entrega07.md) | [Assistir](https://youtu.be/briXjRAigNc) |
-| **Apresentação do Projeto Final** | Etapa 8 | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Mateus Rodrigues Barreto | [Inspeção Entrega 08](../inspecoes/entrega08.md) | [Assistir](https://youtu.be/6a9m4vp5pVY) |
+| **Apresentação da Etapa 8** | Etapa 8 | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Mateus Rodrigues Barreto | [Inspeção Entrega 08](../inspecoes/entrega08.md) | [Assistir](https://youtu.be/6a9m4vp5pVY) |
 
 <small>Fonte: Elaborado por Mateus Rodrigues Barreto (2026).</small>
 
