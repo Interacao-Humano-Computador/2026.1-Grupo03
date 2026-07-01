@@ -1,0 +1,32 @@
+# Contribuições dos integrantes
+
+## Introdução
+
+Este documento tem como objetivo apresentar uma síntese dos artefatos desenvolvidos ao longo do projeto, relacionando cada produção aos respectivos integrantes responsáveis. A organização dessas informações permite visualizar de forma clara a participação de cada membro da equipe, evidenciando as contribuições individuais e colaborativas realizadas durante as etapas do trabalho.
+
+Além disso, a tabela apresentada neste documento facilita o acompanhamento dos artefatos produzidos, contribuindo para a transparência da divisão de tarefas, o registro das responsabilidades e a compreensão do processo de desenvolvimento do projeto.
+
+## Artefatos Desenvolvidos por Integrante
+
+| Integrante | Artefatos desenvolvidos | Quantidade |
+|-----------|--------------------------|------------|
+| Pedro Macedo | [Ferramentas](../projeto/ferramentas.md), [Análise de Sites](../projeto/site-escolhido.md), [Personas](../analise-requisitos/personas.md), [Cenário](../analise-requisitos/cenarios.md), [Funcionalidades](../analise-requisitos/funcionalidades.md), [Planejamento da Avaliação da Análise de Tarefas](../design-avaliacao/nivel-1/planejamento-avaliacao-tarefas.md), [Storyboard](../design-avaliacao/nivel-1/storyboard.md), [Protótipo de Papel](../design-avaliacao/nivel-2/prototipos-papel.md), [Planejamento da Avaliação do Protótipo de Alta Fidelidade](../design-avaliacao/nivel-3/planejamento-avaliacao-prototipo-alta-fidelidade.md), [Protótipo de Alta Fidelidade](../design-avaliacao/nivel-3/prototipo-alta-fidelidade-triagem-guiada.md), [Relato de Resultado](../design-avaliacao/nivel-3/relato-resultados-alta-fidelidade-triagem-guiada.md) e [Tabela de Artefatos por Integrante](contribuicoes.md) | 12 |
+| Heitor Macedo | Dashboard de Gestão, [Processo de Design](../projeto/processo-design.md), [Perfil de Usuário](../analise-requisitos/perfil-usuario.md), [Personas](../analise-requisitos/personas.md), [Cenários](../analise-requisitos/cenarios.md), [Análise de Tarefas](../analise-requisitos/analise-tarefas.md), [Funcionalidades](../analise-requisitos/funcionalidades.md), [Princípios Gerais](../analise-requisitos/principios-gerais.md), [Metas de Usabilidade](../analise-requisitos/metas-usabilidade.md), [Planejamento do Relato dos Resultados da Análise de Tarefas](../design-avaliacao/nivel-1/planejamento-relato-tarefas.md), [Planejamento do Relato dos Resultados do Storyboard](../design-avaliacao/nivel-1/relato-resultados-storyboard.md), [Storyboard](../design-avaliacao/nivel-1/storyboard.md), [Planejamento da Avaliação do Protótipo de Papel](../design-avaliacao/nivel-2/planejamento-avaliacao-pp.md), [Planejamento do Relato dos Resultados do Protótipo de Papel](../design-avaliacao/nivel-2/planejamento-relato-resulatados-pp.md), [Protótipo de Papel](../design-avaliacao/nivel-2/prototipos-papel.md), [Relato dos Resultados do Storyboard](../design-avaliacao/nivel-1/relato-resultados-storyboard.md), [Relato dos Resultados da Análise de Tarefas](../design-avaliacao/nivel-1/relato-resultados-analise-tarefas.md), [Planejamento do Relato dos Resultados do Protótipo de Alta Fidelidade](../design-avaliacao/nivel-3/planejamento-relato-resultados-paf.md), [Relato dos Resultados do Protótipo de Papel](../design-avaliacao/nivel-2/relato-resultados-notificacao-ativa.md), [Protótipo de Alta Fidelidade](../design-avaliacao/nivel-3/prototipo-alta-fidelidade-notificacao-ativa.md) e [Relato dos Resultados do Protótipo de Alta Fidelidade](../design-avaliacao/nivel-3/relato-resultados-alta-fidelidade-notificacao-ativa.md) | 22 |
+| Pedro Moretti | [Processo de Design](../projeto/processo-design.md), [Perfil de Usuário](../analise-requisitos/perfil-usuario.md), [Personas](../analise-requisitos/personas.md), [Cenários](../analise-requisitos/cenarios.md), [Análise de Tarefas](../analise-requisitos/analise-tarefas.md), [Funcionalidades](../analise-requisitos/funcionalidades.md), [Guia de Estilo](../analise-requisitos/guia-estilo.md), [Planejamento da Avaliação do Storyboard](../design-avaliacao/nivel-1/planejamento-avaliacao-storyboard.md), [Storyboard](../design-avaliacao/nivel-1/storyboard.md), [Protótipo de Papel](../design-avaliacao/nivel-2/prototipos-papel.md), [Relato dos Resultados do Storyboard](../design-avaliacao/nivel-1/relato-resultados-storyboard.md), [Relato dos Resultados da Análise de Tarefas](../design-avaliacao/nivel-1/relato-resultados-analise-tarefas.md), [Relato dos Resultados do Protótipo de Papel](../design-avaliacao/nivel-2/relato-resultados-conciliacao-virtual.md), [Protótipo de Alta Fidelidade](../design-avaliacao/nivel-3/prototipo-alta-fidelidade-conciliacao.md), [Relato dos Resultados do Protótipo de Alta Fidelidade](../design-avaliacao/nivel-3/relato-resultados-alta-fidelidade-conciliacao-virtual.md) | 15 |
+| Heloísa | [Heatmap de disponibilidade](../equipe/disponibilidade.md), [Processo de Design](../projeto/processo-design.md), [Cronograma](../planejamento/cronograma.md), [Perfil de Usuário](../analise-requisitos/perfil-usuario.md), [Personas](../analise-requisitos/personas.md), [Cenários](../analise-requisitos/cenarios.md), [Análise de Tarefas](../analise-requisitos/analise-tarefas.md), [Funcionalidades](../analise-requisitos/funcionalidades.md), [Características da Plataforma](../analise-requisitos/caracteristicas-plataforma.md), [Protótipo de Papel](../design-avaliacao/nivel-2/prototipos-papel.md), [Relato dos Resultados do Storyboard](../design-avaliacao/nivel-1/relato-resultados-storyboard.md) | 11 |
+| Eduardo Valadares | [Planejamento da Avaliação do Storyboard](../design-avaliacao/nivel-1/planejamento-avaliacao-storyboard.md) | 1 |
+| Mateus Rodrigues | [Funcionalidades](../analise-requisitos/funcionalidades.md), [Metas de Usabilidade](../analise-requisitos/metas-usabilidade.md), [Storyboard](../design-avaliacao/nivel-1/storyboard.md), [Protótipo de Papel](../design-avaliacao/nivel-2/prototipos-papel.md), Relato dos Resultados do Protótipo de Papel, Protótipo de Alta Fidelidade e [Relato dos Resultados do Protótipo de Alta Fidelidade](../design-avaliacao/nivel-3/relato-resultados-alta-fidelidade-painel-prazos.md) | 7 |
+
+---
+
+## Agradecimentos à IA Generativa
+
+A estruturação deste documento contou com o auxílio do **ChatGPT**.
+
+---
+
+## Histórico de Versão
+
+| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :---: | :---: |
+| 1.0 | 01/07/2026 | Elaboração do documento | Pedro Macedo | Heitor Macedo Ricardo |
