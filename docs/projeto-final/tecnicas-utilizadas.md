@@ -1,44 +1,55 @@
 # Técnicas Utilizadas no Projeto
 
+## Colaboração
+
+Colaboração referente à [Entrega Final](../planejamento/cronograma-executado.md)
+
+| Autores | Contribuiu |
+|---|---|
+| Pedro Augusto Moretti Moreira | Elaborou o Artefato |
+
+---
+
 ## Introdução
 
-Esta tabela sintetiza quais técnicas foram utilizadas na execução do projeto, com o(s) nome(s) do(s) participante(s) do grupo que usou/usaram cada uma das técnicas.
+Esta página sintetiza quais técnicas foram utilizadas na execução do projeto, com o(s) nome(s) do(s) participante(s) do grupo que usou/usaram cada uma das técnicas.
 
 ---
 
 ## Tabela de Técnicas por Participante
 
-| Técnica | Categoria | Participantes que Utilizaram |
-| :--- | :--- | :--- |
-| **Grupo de Foco** | Coleta de Dados / Elicitação | Heloisa Silva, Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira |
-| **Entrevista Semiestruturada (Consumidor)** | Coleta de Dados / Elicitação | Heitor Macedo Ricardo |
-| **Entrevista Semiestruturada (Fornecedor)** | Coleta de Dados / Elicitação | Pedro Augusto Moretti Moreira |
-| **Questionário de Dados Demográficos** | Coleta de Dados / Elicitação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva |
-| **Análise de Documentos** | Coleta de Dados / Elicitação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva |
-| **Perfil de Usuário** | Modelagem / Design | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva |
-| **Personas** | Modelagem / Design | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Mateus Rodrigues Barreto, Pedro Macedo |
-| **Cenários** | Modelagem / Design | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Mateus Rodrigues Barreto, Pedro Macedo, Eduardo Valadares |
-| **Análise Hierárquica de Tarefas (HTA)** | Modelagem / Design | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Pedro Macedo, Mateus Rodrigues Barreto |
-| **ConcurTaskTrees (CTT)** | Modelagem / Design | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Pedro Macedo, Mateus Rodrigues Barreto |
-| **GOMS** | Modelagem / Design | Heitor Macedo Ricardo, Mateus Rodrigues Barreto |
-| **Storyboard** | Prototipação | Heitor Macedo Ricardo (Notificação Ativa), Pedro Augusto Moretti Moreira (Conciliação Virtual), Pedro Macedo (Triagem Guiada), Mateus Rodrigues Barreto (Painel de Prazos) |
-| **Protótipo de Papel** | Prototipação | Heitor Macedo Ricardo (Notificação Ativa), Pedro Augusto Moretti Moreira (Conciliação Virtual), Heloisa Silva (OCR), Mateus Rodrigues Barreto (Painel de Prazos), Pedro Macedo (Triagem Guiada) |
-| **Protótipo de Alta Fidelidade** | Prototipação | Heitor Macedo Ricardo (Notificação Ativa), Pedro Augusto Moretti Moreira (Conciliação Virtual), Pedro Macedo (Triagem Guiada), Mateus Rodrigues Barreto (Painel de Prazos) |
-| **Framework DECIDE** | Planejamento de Avaliação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Pedro Macedo, Eduardo Valadares |
-| **Avaliação Formativa** | Avaliação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Mateus Rodrigues Barreto |
-| **Avaliação Somativa** | Avaliação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Pedro Macedo, Mateus Rodrigues Barreto |
-| **Teste de Usabilidade** | Avaliação | Heitor Macedo Ricardo (Notificação Ativa), Pedro Augusto Moretti Moreira (Conciliação Virtual), Pedro Macedo (Triagem Guiada), Mateus Rodrigues Barreto (Painel de Prazos) |
-| **Protocolo Think Aloud** | Avaliação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Mateus Rodrigues Barreto, Pedro Macedo |
-| **Observação Direta** | Avaliação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Mateus Rodrigues Barreto |
-| **Teste Piloto** | Avaliação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Mateus Rodrigues Barreto, Pedro Macedo |
-| **Inspeção / Lista de Verificação** | Verificação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Eduardo Valadares, Pedro Macedo, Mateus Rodrigues Barreto |
-| **Avaliação Heurística (Nielsen)** | Verificação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira |
-| **Princípios Gerais de Projeto** | Design | Heitor Macedo Ricardo |
-| **Metas de Usabilidade** | Design | Heitor Macedo Ricardo, Mateus Rodrigues Barreto |
-| **Guia de Estilo** | Design | Pedro Augusto Moretti Moreira |
-| **Características da Plataforma** | Design | Heloisa Silva |
-| **Ciclo de Vida Mayhew (Eng. de Usabilidade)** | Processo de Design | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Eduardo Valadares |
-| **Triangulação de Resultados** | Consolidação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira |
+<small>**Tabela 1** — Técnicas utilizadas no projeto por participante</small>
+
+| Técnica | Categoria | Participantes que Utilizaram | Artefato |
+| :--- | :--- | :--- | :--- |
+| **Grupo de Foco** | Elicitação | Heloisa Silva, Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira | [Perfil de Usuário](../analise-requisitos/perfil-usuario.md) |
+| **Entrevista Semiestruturada** | Elicitação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira | [Perfil de Usuário](../analise-requisitos/perfil-usuario.md) |
+| **Questionário** | Elicitação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva | [Perfil de Usuário](../analise-requisitos/perfil-usuario.md) |
+| **Análise de Documentos** | Elicitação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva | [Perfil de Usuário](../analise-requisitos/perfil-usuario.md) |
+| **Personas** | Modelagem | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Mateus Rodrigues Barreto, Pedro Macedo | [Personas](../analise-requisitos/personas.md) |
+| **Cenários** | Modelagem | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Mateus Rodrigues Barreto, Pedro Macedo, Eduardo Valadares | [Cenários](../analise-requisitos/cenarios.md) |
+| **Análise Hierárquica de Tarefas (HTA)** | Modelagem | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Pedro Macedo, Mateus Rodrigues Barreto | [Análise de Tarefas](../analise-requisitos/analise-tarefas.md) |
+| **ConcurTaskTrees (CTT)** | Modelagem | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Pedro Macedo, Mateus Rodrigues Barreto | [Análise de Tarefas](../analise-requisitos/analise-tarefas.md) |
+| **GOMS** | Modelagem | Heitor Macedo Ricardo, Mateus Rodrigues Barreto | [Análise de Tarefas](../analise-requisitos/analise-tarefas.md) |
+| **Storyboard** | Prototipação | Heitor Macedo Ricardo (Notificação Ativa), Pedro Augusto Moretti Moreira (Conciliação Virtual), Pedro Macedo (Triagem Guiada), Mateus Rodrigues Barreto (Painel de Prazos) | [Storyboards](../design-avaliacao/nivel-1/storyboards.md) |
+| **Protótipo de Papel** | Prototipação | Heitor Macedo Ricardo (Notificação Ativa), Pedro Augusto Moretti Moreira (Conciliação Virtual), Heloisa Silva (OCR), Mateus Rodrigues Barreto (Painel de Prazos), Pedro Macedo (Triagem Guiada) | [Protótipos de Papel](../design-avaliacao/nivel-2/prototipos-papel.md) |
+| **Protótipo de Alta Fidelidade** | Prototipação | Heitor Macedo Ricardo (Notificação Ativa), Pedro Augusto Moretti Moreira (Conciliação Virtual), Pedro Macedo (Triagem Guiada), Mateus Rodrigues Barreto (Painel de Prazos) | [Protótipos de Alta Fidelidade](../design-avaliacao/nivel-3/prototipos-alta-fidelidade.md) |
+| **Framework DECIDE** | Planejamento | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Pedro Macedo, Eduardo Valadares | [Planejamentos](../design-avaliacao/nivel-1/planejamentos-nivel1.md) |
+| **Teste de Usabilidade** | Avaliação | Heitor Macedo Ricardo (Notificação Ativa), Pedro Augusto Moretti Moreira (Conciliação Virtual), Pedro Macedo (Triagem Guiada), Mateus Rodrigues Barreto (Painel de Prazos) | [Relatos](../design-avaliacao/nivel-3/relatos-nivel3.md) |
+| **Protocolo Think Aloud** | Avaliação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Mateus Rodrigues Barreto, Pedro Macedo | [Relatos](../design-avaliacao/nivel-2/relatos-nivel2.md) |
+| **Observação Direta** | Avaliação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Mateus Rodrigues Barreto | [Relatos](../design-avaliacao/nivel-2/relatos-nivel2.md) |
+| **Teste Piloto** | Planejamento | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Mateus Rodrigues Barreto, Pedro Macedo | [Planejamentos](../design-avaliacao/nivel-1/planejamentos-nivel1.md) |
+| **Inspeção / Lista de Verificação** | Verificação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Heloisa Silva, Eduardo Valadares, Pedro Macedo, Mateus Rodrigues Barreto | [Verificações](../projeto/verificacao.md) |
+| **Avaliação Heurística (Nielsen)** | Verificação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira | [Análise de Sites](../projeto/analise-sites.md) |
+| **Triangulação de Resultados** | Avaliação | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira | [Relatos](../design-avaliacao/nivel-2/relatos-nivel2.md) |
+
+<small>Fonte: Elaborado pelo autor (2026).</small>
+
+---
+
+## Agradecimentos à IA Generativa
+
+Parte do conteúdo desta página foi auxiliado pelo **Gemini (Google)** para organização e estruturação das informações coletadas ao longo do projeto.
 
 ---
 
