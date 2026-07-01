@@ -487,7 +487,7 @@ Agradecimento ao **Gemini** pela formatação inicial das falas de P1, P2 e P3 a
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.3 | 23/06/2026 | Adição dos gráficos com Vega-Lite para resumir nível de dificuldade e natureza de feedback. | [Mateus Barreto](../../equipe/equipe.md) | — |
-| 1.2 | 23/06/2026 | Adição da análise e tabela de confronto com as Metas de Usabilidade (Eficiência). | [Mateus Barreto](../../equipe/equipe.md) | — |
-| 1.1 | 23/06/2026 | Correção de dias e horários do cronograma e contabilização do tempo de execução das tarefas. | [Mateus Barreto](../../equipe/equipe.md) | — |
-| 1.0 | 23/06/2026 | Criação do Relato do Protótipo de Alta Fidelidade — Painel de Prazos com dados de P1, P2 e P3. | [Mateus Barreto](../../equipe/equipe.md) | — |
+| 1.3 | 23/06/2026 | Adição dos gráficos com Vega-Lite para resumir nível de dificuldade e natureza de feedback. | [Mateus Barreto](../../equipe/equipe.md) | Heitor Macedo Ricardo |
+| 1.2 | 23/06/2026 | Adição da análise e tabela de confronto com as Metas de Usabilidade (Eficiência). | [Mateus Barreto](../../equipe/equipe.md) | Pedro Augusto Moretti Moreira |
+| 1.1 | 23/06/2026 | Correção de dias e horários do cronograma e contabilização do tempo de execução das tarefas. | [Mateus Barreto](../../equipe/equipe.md) | Pedro Augusto Macedo |
+| 1.0 | 23/06/2026 | Criação do Relato do Protótipo de Alta Fidelidade — Painel de Prazos com dados de P1, P2 e P3. | [Mateus Barreto](../../equipe/equipe.md) | Heitor Macedo Ricardo |

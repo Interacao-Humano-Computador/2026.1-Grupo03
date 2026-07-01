@@ -38,5 +38,5 @@ Esta página consolida os artefatos relacionados aos **storyboards** do sistema 
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 11/06/2026 | Criação da página de consolidação dos storyboards. | Pedro Augusto Moretti Moreira | — |
-| 1.1 | 23/06/2026 | Atualização da quantidade de storyboards. | Mateus Barreto | — |
+| 1.0 | 11/06/2026 | Criação da página de consolidação dos storyboards. | Pedro Augusto Moretti Moreira | Pedro Augusto Macedo |
+| 1.1 | 23/06/2026 | Atualização da quantidade de storyboards. | Mateus Barreto | Heitor Macedo Ricardo |

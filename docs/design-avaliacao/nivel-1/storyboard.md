@@ -92,7 +92,7 @@ Agradecimento ao **Gemini** pela ajuda na estruturação deste documento e cria�
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 16/05/2026 | Criação do documento, introdução metodológica e Storyboard da Tarefa 1. | Heitor Ricardo | Heloisa Silva |
 | 1.1 | 02/06/2026 | Adição do Storyboard 3 | Pedro Macedo | Heloisa Silva |
-| 1.2 | 23/06/2026 | Adição do Storyboard 4 e formatação do documento | Mateus Barreto | — |
+| 1.2 | 23/06/2026 | Adição do Storyboard 4 e formatação do documento | Mateus Barreto | Pedro Augusto Moretti Moreira |
 
 ## Notas de Rodapé e Referências de Imagens
 

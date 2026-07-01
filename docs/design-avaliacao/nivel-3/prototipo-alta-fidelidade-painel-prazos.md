@@ -112,7 +112,7 @@ O protótipo cobre o fluxo completo da funcionalidade de Painel de Prazos:
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 18/06/2026 | Criação do documento e adição do protótipo de alta fidelidade interativo. | Mateus Barreto | — |
-| 1.1 | 19/06/2026 | Adição das telas "Minhas Reclamações" e "Adicionar Protocolo"; login passa a redirecionar para seleção de reclamação. | Mateus Barreto | — |
-| 1.2 | 19/06/2026 | Ajuste do botão de reclamações no menu inferior do painel para navegar de volta à listagem de reclamações. | Mateus Barreto | — |
-| 1.3 | 21/06/2026 | Adição de label "Ver linha do tempo" nos cards de prazo para resolver problema identificado em teste; adição de segunda reclamação com prazo expirado e fluxo completo do Juizado Especial; remoção do callout condicional da linha do tempo. | Mateus Barreto | — |
+| 1.0 | 18/06/2026 | Criação do documento e adição do protótipo de alta fidelidade interativo. | Mateus Barreto | Pedro Augusto Moretti Moreira |
+| 1.1 | 19/06/2026 | Adição das telas "Minhas Reclamações" e "Adicionar Protocolo"; login passa a redirecionar para seleção de reclamação. | Mateus Barreto | Pedro Augusto Macedo |
+| 1.2 | 19/06/2026 | Ajuste do botão de reclamações no menu inferior do painel para navegar de volta à listagem de reclamações. | Mateus Barreto | Heitor Macedo Ricardo |
+| 1.3 | 21/06/2026 | Adição de label "Ver linha do tempo" nos cards de prazo para resolver problema identificado em teste; adição de segunda reclamação com prazo expirado e fluxo completo do Juizado Especial; remoção do callout condicional da linha do tempo. | Mateus Barreto | Pedro Augusto Moretti Moreira |

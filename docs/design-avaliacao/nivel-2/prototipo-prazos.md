@@ -182,7 +182,7 @@ Este artefato contou com o apoio do assistente de IA **Claude** (Anthropic), que
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Mateus Barreto | — |
-| 1.1 | 17/06/2026 | Adição de novas telas ao protótipo. | Mateus Barreto | — |
-| 1.2 | 19/06/2026 | Adição das telas "Minhas Reclamações" e "Adicionar Protocolo"; login passa a redirecionar para seleção de reclamação. | Mateus Barreto | — |
-| 1.3 | 22/06/2026 | Adição das imagens do protótipo de papel e reestruturação do layout do artefato. | Mateus Barreto | — |
+| 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Mateus Barreto | Heitor Macedo Ricardo |
+| 1.1 | 17/06/2026 | Adição de novas telas ao protótipo. | Mateus Barreto | Pedro Augusto Moretti Moreira |
+| 1.2 | 19/06/2026 | Adição das telas "Minhas Reclamações" e "Adicionar Protocolo"; login passa a redirecionar para seleção de reclamação. | Mateus Barreto | Pedro Augusto Macedo |
+| 1.3 | 22/06/2026 | Adição das imagens do protótipo de papel e reestruturação do layout do artefato. | Mateus Barreto | Heitor Macedo Ricardo |

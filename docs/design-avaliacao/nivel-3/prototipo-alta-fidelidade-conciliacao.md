@@ -114,5 +114,5 @@ Agradecimento ao **DeepSeek** pelo auxílio na estruturação do design do prot�
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |---|---|---|---|---|
-| 1.0 | 11/06/2026 | Criação do documento e adição do protótipo de alta fidelidade interativo. | Pedro Augusto Moretti Moreira | — |
-| 1.1 | 11/06/2026 | Adição da seção de arquitetura do protótipo (HTML, CSS, Tailwind, JS). | Pedro Augusto Moretti Moreira | — |
+| 1.0 | 11/06/2026 | Criação do documento e adição do protótipo de alta fidelidade interativo. | Pedro Augusto Moretti Moreira | Mateus Rodrigues Barreto |
+| 1.1 | 11/06/2026 | Adição da seção de arquitetura do protótipo (HTML, CSS, Tailwind, JS). | Pedro Augusto Moretti Moreira | Heitor Macedo Ricardo |

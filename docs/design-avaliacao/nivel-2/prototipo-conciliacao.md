@@ -185,5 +185,5 @@ Agradecimento ao **DeepSeek** pela ajuda na estruturação e formatação deste 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | 31/05/2026 | Criação do documento e adição do protótipo interativo. | Pedro Augusto Moretti Moreira | Mateu Barreto |
-| 1.1 | 07/06/2026 | Adição das imagens do protótipo de papel e atualização da legenda do protótipo interativo. | Pedro Augusto Moretti Moreira | — |
+| 1.1 | 07/06/2026 | Adição das imagens do protótipo de papel e atualização da legenda do protótipo interativo. | Pedro Augusto Moretti Moreira | Mateus Rodrigues Barreto |
 
