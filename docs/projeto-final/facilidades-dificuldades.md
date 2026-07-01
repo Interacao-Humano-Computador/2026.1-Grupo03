@@ -8,6 +8,7 @@ Colaboração referente à [Entrega Final](../planejamento/cronograma-executado.
 |---|---|
 | Pedro Augusto Moretti Moreira | Elaborou o Artefato |
 | Heitor Macedo Ricardo | Elaborou o Artefato |
+| Mateus Rodrigues Barreto | Elaborou o Artefato |
 
 ---
 
@@ -78,6 +79,22 @@ Esta página apresenta as facilidades e dificuldades encontradas na realização
 
 ---
 
+## Mateus Rodrigues Barreto
+
+### Facilidades
+
+- **GitHub Pages MkDocs**: A estruturação do site foi muito facilitada pelo fato de já possuir experiência com a ferramenta em semestres anteriores.
+- **Comunicação e organização da equipe**: O bom alinhamento e divisão de tarefas entre os membros do grupo garantiu o andamento contínuo de todas as etapas.
+- **Trabalho colaborativo**: O uso do Git permitiu um controle de versão eficaz e facilitou a colaboração entre os membros da equipe.
+
+### Dificuldades
+
+- **Tempos curtos para entrega**: Os prazos curtos entre as etapas dificultaram o aprofundamento e revisão de algumas atividades complexas.
+- **Rigor metodológico**: Garantir que todos os artefatos estivessem seguindo fielmente as regras criteriosas do livro-texto e as exigências da disciplina demandou atenção redobrada aos detalhes e muito retrabalho.
+- **Consolidação de dados das avaliações**: Sintetizar as opiniões e feedbacks coletados em relatórios padronizados foi uma tarefa complexa devido ao volume de informações geradas nas entrevistas.
+
+---
+
 ## Agradecimentos à IA Generativa
 
 Parte do conteúdo desta página foi auxiliado pelo **Gemini (Google)** para organização e estruturação das informações coletadas ao longo do projeto.
@@ -90,3 +107,4 @@ Parte do conteúdo desta página foi auxiliado pelo **Gemini (Google)** para org
 | :---: | :---: | :--- | :---: | :---: |
 | 1.0 | 01/07/2026 | Criação da página com facilidades e dificuldades | Pedro Augusto Moretti Moreira | Heitor Macedo Ricardo |
 | 1.1 | 01/07/2026 | Adição das facilidades e dificuldades do Heitor Macedo Ricardo | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
+| 1.2 | 01/07/2026 | Adição das facilidades e dificuldades do Mateus Rodrigues Barreto | Mateus Rodrigues Barreto | Heitor Macedo Ricardo |
