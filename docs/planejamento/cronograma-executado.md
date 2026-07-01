@@ -4,6 +4,56 @@
 
 Este painel apresenta o rastreamento das atividades distribuídas da equipe, desenhado e estruturado com base nos tópicos de acompanhamento do **Plano de Ensino** e na dinâmica da **Ata de Reuniões**. Cada etapa conta com seu responsável, links para as páginas correspondentes, uma identificação do revisor (Cross-Review) e a evidência técnica final.
 
+---
+
+## Execução por Fase do Ciclo de Vida (Mayhew)
+
+O projeto seguiu o **Ciclo de Vida da Engenharia de Usabilidade de Mayhew** (ver [Processo de Design](../projeto/processo-design.md)), cujas três fases foram distribuídas ao longo das oito etapas da disciplina da seguinte forma:
+
+**Fase 1 — Análise de Requisitos (Etapas 1 a 3):**
+
+- **Etapa 1:** configuração do projeto (repositório e site), escolha do sistema-alvo (portal do PROCON-DF), documentação das ferramentas, definição do processo de design e do planejamento geral.
+- **Etapa 2:** levantamento do perfil de usuário, elaboração das personas, dos cenários e da análise de tarefas (HTA, CTT e GOMS).
+- **Etapa 3:** consolidação dos requisitos com as características da plataforma, os princípios gerais de projeto, as metas de usabilidade e o guia de estilo.
+
+**Fase 2 — Design, Avaliação e Desenvolvimento (Etapas 4 a 7):**
+
+- **Etapa 4 (Nível 1):** planejamento das avaliações e dos relatos do storyboard e da análise de tarefas, e construção dos storyboards.
+- **Etapa 5 (Nível 2):** relatos dos resultados do Nível 1 e planejamento/construção dos protótipos de papel.
+- **Etapa 6 (Níveis 2 e 3):** relato dos resultados dos protótipos de papel e planejamento da avaliação do protótipo de alta fidelidade.
+- **Etapa 7 (Nível 3):** construção, avaliação e relato dos protótipos de alta fidelidade das funcionalidades (Notificação Ativa, Sala de Conciliação Virtual, Triagem Guiada e Painel de Monitoramento de Prazos).
+
+**Fase 3 — Instalação / Consolidação (Etapa 8):**
+
+- **Etapa 8:** consolidação dos artefatos finais (resultados alcançados, técnicas, ferramentas, avaliações de protótipos, vídeos, contribuições e facilidades/dificuldades) e reinspeção dos artefatos do grupo.
+
+---
+
+## Comparativo: Planejado × Executado
+
+A tabela a seguir compara o período **planejado** para cada etapa (definido no [Cronograma](cronograma.md)) com o que foi de fato **executado** (com base nas datas de conclusão registradas nas tabelas de atividades desta página).
+
+<small>**Tabela** — Comparativo entre o cronograma planejado e o executado</small>
+
+| Etapa | Período Planejado | Execução (evidências) | Situação |
+| :--: | :--- | :--- | :--- |
+| **1** | 09/04 – 15/04 | Artefatos concluídos entre 11 e 12/04 | ✅ No prazo |
+| **2** | 17/04 – 05/05 | Artefatos concluídos entre 30/04 e 03/05 | ✅ No prazo |
+| **3** | 06/05 – 14/05 | Artefatos concluídos entre 11 e 15/05 | ✅ No prazo |
+| **4** | 16/05 – 21/05 | Planejamentos concluídos entre 15 e 19/05; storyboards com complementos posteriores (até 23/06) | ⚠️ Concluída com ajustes posteriores |
+| **5** | 23/05 – 02/06 | Relatos e planejamentos em 31/05; protótipos de papel finalizados entre 09 e 10/06 | ⚠️ Protótipos concluídos após a janela |
+| **6** | 04/06 – 09/06 | Planejamentos e relatos em 07/06; relato do Painel de Prazos em 22/06 | ⚠️ Concluída com ajustes posteriores |
+| **7** | 11/06 – 18/06 | Protótipos e relatos entre 12 e 17/06; Painel de Prazos em 23/06 | ⚠️ Concluída com ajustes posteriores |
+| **8** | 19/06 – 24/06 | Reinspeções em 24/06; consolidação final dos artefatos em 01/07 | ⚠️ Consolidação final após a janela |
+
+<small>Fonte: Elaborado pela equipe (2026), a partir do cronograma planejado e das evidências de execução.</small>
+
+**Análise:** as três primeiras etapas (Fase de Análise de Requisitos) foram cumpridas dentro do prazo planejado. A partir da Etapa 4, o início das atividades de prototipação e a sobreposição de prazos com outras disciplinas geraram desvios, com alguns artefatos (storyboards, protótipos de papel e relatos do Painel de Prazos) sendo finalizados após a janela originalmente prevista. A consolidação final (Etapa 8) estendeu-se até 01/07 para reunir todos os artefatos do projeto final. Ainda assim, todas as entregas oficiais das etapas foram cumpridas nas datas de apresentação.
+
+---
+
+## Atividades Executadas por Etapa
+
 === "Etapa 1"
     Nesta etapa inaugural, as tarefas foram direcionadas para o setup, planejamento geral do projeto e formalização de processos iniciais.
 
@@ -235,3 +285,4 @@ Este painel apresenta o rastreamento das atividades distribuídas da equipe, des
 | `1.9` | 14/06/2026 | Adição da Etapa 7 com protótipos de alta fidelidade, relatos dos resultados e lista de verificação. | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
 | `1.10` | 23/06/2026 | Adição do Painel de Monitoramento de Prazos na Etapa 7 e ajuste na Etapa 6. | Mateus Rodrigues Barreto | Pedro Augusto Moretti Moreira |
 | `1.11` | 01/07/2026 | Adição da Etapa 8 com artefatos finais do projeto e resumo quantitativo. | Pedro Augusto Moretti Moreira | Mateus Rodrigues Barreto |
+| `1.12` | 01/07/2026 | Adição das seções "Execução por Fase do Ciclo de Vida (Mayhew)" e "Comparativo: Planejado × Executado". | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
