@@ -7,6 +7,7 @@ Colaboração referente à [Entrega Final](../planejamento/cronograma-executado.
 | Autores | Contribuiu |
 |---|---|
 | Pedro Augusto Moretti Moreira | Elaborou o Artefato |
+| Heitor Macedo Ricardo | Elaborou o Artefato |
 
 ---
 
@@ -61,6 +62,22 @@ Esta página apresenta as facilidades e dificuldades encontradas na realização
 
 ---
 
+## Heitor Macedo Ricardo
+
+### Facilidades
+
+- **GitHub Pages**: Configurar e trabalhar com o GitHub Pages foi tranquilo, pois eu já tinha experiência prévia com a ferramenta, o que agilizou a publicação e manutenção do site do projeto.
+- **Criação dos protótipos**: A prototipação foi uma atividade dinâmica e prazerosa, e minha experiência prévia com esse tipo de trabalho facilitou bastante a construção dos protótipos ao longo das etapas.
+
+### Dificuldades
+
+- **Conciliação de horários**: Encontrar horários válidos e disponíveis em comum com os demais membros da equipe foi um desafio constante ao longo do projeto.
+- **Recrutamento de participantes**: Conseguir participantes dentro do perfil desejado para as avaliações exigiu esforço e várias tentativas.
+- **Correção de feedbacks em tempo hábil**: Corrigir os feedbacks do professor sobre as apresentações dentro de um prazo suficiente para as próximas entregas foi difícil, dada a proximidade entre as etapas.
+- **Organização da documentação**: Entender e organizar a documentação exatamente da forma como a disciplina exige demandou atenção e retrabalho até atingir o padrão esperado.
+
+---
+
 ## Agradecimentos à IA Generativa
 
 Parte do conteúdo desta página foi auxiliado pelo **Gemini (Google)** para organização e estruturação das informações coletadas ao longo do projeto.
@@ -72,3 +89,4 @@ Parte do conteúdo desta página foi auxiliado pelo **Gemini (Google)** para org
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | 1.0 | 01/07/2026 | Criação da página com facilidades e dificuldades | Pedro Augusto Moretti Moreira | Heitor Macedo Ricardo |
+| 1.1 | 01/07/2026 | Adição das facilidades e dificuldades do Heitor Macedo Ricardo | Heitor Macedo Ricardo | Pedro Augusto Moretti Moreira |
