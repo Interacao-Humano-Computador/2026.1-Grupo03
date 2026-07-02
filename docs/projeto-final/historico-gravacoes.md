@@ -33,6 +33,7 @@ Esta página lista as principais gravações de verificações, reuniões de pla
 | **Apresentação da Etapa 6** | Apresentação | Etapa 6 | Pedro Macedo, Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira | [Inspeção Entrega 06](../inspecoes/entrega06.md) | [Assistir](https://youtu.be/cstfpH_uqrE) |
 | **Apresentação da Etapa 7** | Apresentação | Etapa 7 | Pedro Macedo, Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira | [Inspeção Entrega 07](../inspecoes/entrega07.md) | [Assistir](https://youtu.be/briXjRAigNc) |
 | **Apresentação da Etapa 8** | Apresentação | Etapa 8 | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Mateus Rodrigues Barreto | [Inspeção Entrega 08](../inspecoes/entrega08.md) | [Assistir](https://youtu.be/6a9m4vp5pVY) |
+| **Apresentação da Entrega Final** | Apresentação | Entrega Final | Heitor Macedo Ricardo, Mateus Rodrigues Barreto, Pedro Augusto Moretti Moreira, Pedro Macedo, Heloisa Silva, Eduardo Valadares | [Resultados Alcançados](resultados-alcancados.md) | [Assistir](https://youtu.be/W-gZNQPF4So) |
 | **Inspeção Grupo 04 (Etapa 1)** | Inspeção | Etapa 1 | Pedro Macedo, Pedro Augusto Moretti Moreira, Heitor Macedo Ricardo, Eduardo Valadares | [Inspeção Grupo 04](../inspecoes/grupo04.md) | [Assistir](https://youtu.be/X7DEyDvUB6o) |
 | **Inspeção Grupo 02 (Etapa 2)** | Inspeção | Etapa 2 | Pedro Augusto Moretti Moreira, Heitor Macedo Ricardo, Heloisa Silva, Gabriel Robson | [Inspeção Grupo 02](../inspecoes/grupo02entrega02.md) | [Assistir](https://youtu.be/EqvDmrmP8Yc) |
 | **Inspeção Grupo 04 (Etapa 3)** | Inspeção | Etapa 3 | Heitor Macedo Ricardo, Eduardo Valadares, Mateus Rodrigues Barreto | [Inspeção Grupo 04](../inspecoes/grupo04entrega03.md) | [Assistir](https://youtu.be/Z-PBnJ5r1GU) |
@@ -62,3 +63,4 @@ Parte do conteúdo desta página foi auxiliado pelo **Gemini (Google)** para org
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | 1.0 | 01/07/2026 | Criação da página com a tabela de gravações do projeto e links de rastreabilidade | Mateus Rodrigues Barreto | Pedro Augusto Moretti Moreira |
+| 1.1 | 01/07/2026 | Adição do vídeo da apresentação da entrega final | Heitor Macedo Ricardo | Mateus Rodrigues Barreto |

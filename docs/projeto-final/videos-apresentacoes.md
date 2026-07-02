@@ -30,6 +30,7 @@ Esta página consolida unicamente os vídeos referentes às apresentações real
 | **Apresentação da Etapa 6** | Etapa 6 | Pedro Macedo, Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira | [Inspeção Entrega 06](../inspecoes/entrega06.md) | [Assistir](https://youtu.be/cstfpH_uqrE) |
 | **Apresentação da Etapa 7** | Etapa 7 | Pedro Macedo, Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira | [Inspeção Entrega 07](../inspecoes/entrega07.md) | [Assistir](https://youtu.be/briXjRAigNc) |
 | **Apresentação da Etapa 8** | Etapa 8 | Heitor Macedo Ricardo, Pedro Augusto Moretti Moreira, Mateus Rodrigues Barreto | [Inspeção Entrega 08](../inspecoes/entrega08.md) | [Assistir](https://youtu.be/6a9m4vp5pVY) |
+| **Apresentação da Entrega Final** | Entrega Final | Heitor Macedo Ricardo, Mateus Rodrigues Barreto, Pedro Augusto Moretti Moreira, Pedro Macedo, Heloisa Silva, Eduardo Valadares | [Resultados Alcançados](resultados-alcancados.md) | [Assistir](https://youtu.be/W-gZNQPF4So) |
 
 <small>Fonte: Elaborado por Mateus Rodrigues Barreto (2026).</small>
 
@@ -70,3 +71,4 @@ Parte do conteúdo desta página foi auxiliado pelo **Gemini (Google)** para org
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | 1.0 | 01/07/2026 | Criação da página com a tabela de vídeos das apresentações e links de rastreabilidade | Mateus Rodrigues Barreto | Pedro Augusto Macedo |
+| 1.1 | 01/07/2026 | Adição do vídeo da apresentação da entrega final | Heitor Macedo Ricardo | Mateus Rodrigues Barreto |
